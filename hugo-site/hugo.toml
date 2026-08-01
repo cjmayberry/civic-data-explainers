@@ -1,0 +1,21 @@
+baseURL = "https://civic-data-explainers.pages.dev/"  # replace once you've set the real Cloudflare Pages domain
+languageCode = "en-us"
+title = "Civic Data, Explained"
+# intentionally themeless -- layouts/ below are hand-written, no external theme dependency to fight
+
+[params]
+  description = "Plain-language explainers of public open-data catalogs, generated from real municipal data."
+  sourceCityDefault = "Oklahoma City"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = false  # keep default-safe HTML escaping; drafted content is model output, don't disable sanitization on it
+
+[build]
+  writeStats = false
+
+[minify]
+  disableXML = true

@@ -1,0 +1,87 @@
+{{ define "main" }}
+<section class="hero">
+  <img class="hero-photo" src="{{ "img/hero.jpg" | relURL }}" alt="Oklahoma City skyline" onerror="this.style.display='none'">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-kicker">Oklahoma City · Open Data · {{ len (where .Site.RegularPages "Section" "datasets") }} explainers</p>
+    <h1>Your city keeps a ledger.<br><span class="hero-accent">This is its translation.</span></h1>
+    <p class="hero-dek">Every street, zone, sewer line and sidewalk in Oklahoma City is tracked in public data. These explainers turn the raw catalog into plain English you can actually use.</p>
+    <div class="hero-actions">
+      <a class="cta" href="{{ "/datasets/" | relURL }}">Browse all explainers</a>
+    </div>
+  </div>
+</section>
+
+<section class="ticker"><div class="ticker-track">
+  <span class="ticker-label">Live updates</span>
+  <span class="ticker-item">Street centerlines update daily</span>
+  <span class="ticker-item">Zoning updates daily</span>
+  <span class="ticker-item">Building footprints: every 4–6 years</span>
+  <span class="ticker-item">The rest refresh as needed</span>
+  <span class="ticker-label">Live updates</span>
+  <span class="ticker-item">Street centerlines update daily</span>
+  <span class="ticker-item">Zoning updates daily</span>
+  <span class="ticker-item">Building footprints: every 4–6 years</span>
+  <span class="ticker-item">The rest refresh as needed</span>
+</div></section>
+
+{{ $pages := where .Site.RegularPages "Section" "datasets" }}
+{{ $featured := where $pages "Params.featured" true | first 1 }}
+
+{{ if $featured }}
+<section class="lead">
+  {{ range $featured }}
+  <div class="lead-card">
+    <div class="lead-tags">
+      <span class="kicker">Featured explainer</span>
+      {{ with .Params.categories }}<span class="category-tag">{{ index . 0 }}</span>{{ end }}
+    </div>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="dek">{{ .Params.teaser | default .Description }}</p>
+    <p class="meta">Oklahoma City · Catalog date {{ .Date.Format "January 2, 2006" }}</p>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ $blocks := slice
+  (dict "title" "Streets & Transportation" "cats" (slice "Transportation") "photo" "cat-transportation.jpg")
+  (dict "title" "Planning, Zoning & Development" "cats" (slice "Licensing") "photo" "cat-licensing.jpg")
+  (dict "title" "Government & Finance" "cats" (slice "Government" "Finance") "photo" "cat-government.jpg")
+  (dict "title" "Parks & Recreation" "cats" (slice "Parks & Recreation") "photo" "cat-parks-recreation.jpg")
+  (dict "title" "Public Safety" "cats" (slice "Public Safety") "photo" "cat-public-safety.jpg")
+  (dict "title" "Infrastructure & Utilities" "cats" (slice "Infrastructure") "photo" "cat-infrastructure.jpg")
+}}
+
+{{ range $blocks }}
+  {{ $catPages := where $pages "Params.categories" "intersect" .cats }}
+  {{ if $catPages }}
+  <section class="topic-block">
+    {{ with .photo }}<img class="block-photo" src="{{ printf "img/%s" . | relURL }}" alt="" onerror="this.style.display='none'">{{ end }}
+    <h2 class="block-title">{{ .title }}</h2>
+    <div class="card-grid">
+      {{ range first 4 $catPages }}
+      <a class="card" href="{{ .RelPermalink }}">
+        {{ with .Params.cover }}<img class="card-cover" src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy">{{ end }}
+        <span class="kicker">{{ .Params.category | default (index .Params.categories 0) }}</span>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.teaser | default .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+<section class="full-list">
+  <h2 class="block-title">The full catalog</h2>
+  <ol class="catalog-list">
+    {{ range $pages.ByTitle }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="meta">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</span>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

@@ -1,0 +1,9 @@
+# build output
+hugo-site/public/
+.hugo_build.lock
+
+# local artifacts / secrets
+outputs/
+__pycache__/
+*.pyc
+.env

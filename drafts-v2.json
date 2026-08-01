@@ -1,0 +1,310 @@
+{
+  "schema": 2,
+  "city": "Oklahoma City",
+  "prompt_version": "v2-pavement-shape",
+  "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+  "generated_at": "2026-08-01T12:46:12Z",
+  "drafts": [
+    {
+      "slug": "adopted-streets-0ad77166",
+      "body": "## What this is  \nThis dataset tracks which Oklahoma City streets have been adopted by organizations through the adopt-a-city-street program.\n\n## Why it matters to you  \nAdopted streets often receive extra attention for litter cleanup and maintenance. If you're deciding where to open a business, volunteer for cleanup, or report a problem like potholes, knowing which streets have active adopters helps predict how quickly issues might get addressed. Neighborhood groups also use this to coordinate with existing adopters or claim unadopted stretches.\n\n## How to read this data  \n- **Street**: The name and block range (e.g., \"Main St from 1st to 5th Ave\")  \n- **Adopted**: The group responsible for upkeep (e.g., a business or nonprofit)  \n- **Length**: How long the adopted stretch is (in feet)  \n\n## Try it yourself  \nSearch the dataset for your street or neighborhood—if it’s unadopted, you might qualify to \"claim\" it through the city’s program. If already adopted, note the responsible organization to contact about maintenance needs.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "airport-boundaries-5bea8e9a",
+      "body": "## What this is  \nThis dataset shows the boundaries and locations of Oklahoma City's three municipal airports.\n\n## Why it matters to you  \nKnowing airport boundaries helps when making decisions about noise-sensitive developments (like schools or housing near flight paths), understanding zoning restrictions near airport property, or planning transportation routes that connect to airport facilities. Businesses considering locations near airports need this data to assess potential noise impacts or height restrictions.\n\n## How to read this data  \n- **Airport Name**: Identifies which airport the boundary represents (e.g., Will Rogers World Airport).  \n- **Area**: Shows the approximate size of the airport property in square feet.  \n- **Length**: Gives the perimeter distance of the airport boundary in feet, useful for understanding the scale of the facility.  \n\n## Where this leaves you  \nWhile this data doesn’t let you look up specific addresses, it provides the big-picture footprint of airport properties—helpful for regional planning or policy discussions about airport-adjacent areas.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "bike-projects-b67f6cb2",
+      "body": "## What this is  \nThis dataset tracks past, current, and planned bike lane and trail projects across Oklahoma City.\n\n## Why it matters to you  \nBike infrastructure affects your commute, recreation, and neighborhood safety. Knowing which projects are finished (like a new protected lane on your route) or coming soon (like a trail connecting to a park) helps you:  \n- Choose safer biking routes today  \n- Advocate for gaps in your area  \n- Anticipate construction delays near you  \n\n## How to read this data  \nKey details in each project listing:  \n- **Project Name**: Usually the street or area (e.g., \"NW 23rd St Bike Lanes\")  \n- **Status**: \"Completed,\" \"Ongoing,\" or \"Planned\" tells you if it’s ready to use  \n- **Description**: Specific locations (e.g., \"from Classen Blvd to Western Ave\")  \n- **Length**: How long the lane/trail is in feet (helpful for judging scope)  \n\n## Where this leaves you  \nWhile you can’t look up projects by your exact address here, scanning the full list helps spot nearby work. Check the map view (if available) to see routes visually.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "bulky-waste-zones-c4455716",
+      "body": "## What this is  \nThis dataset shows where and when bulky waste (like furniture or appliances) gets picked up in Oklahoma City.\n\n## Why it matters to you  \nIf you need to toss a couch, mattress, or other large item, this data tells you:  \n- Which day to put it out for collection  \n- Who’ll actually pick it up (city crew or private contractor)  \n- Whether your address falls in a service zone  \n\nPutting items out on the wrong day could mean they sit for weeks or you get fined.\n\n## How to read this data  \nKey details in the dataset:  \n- **Route**: The zone name (like \"NW1\") for your area.  \n- **Pickup Day**: When crews typically collect (e.g., \"1st Monday of month\").  \n- **Service Provider**: Whether it’s the city or a company like \"Waste Management\".  \n\n## Try it yourself  \n1. [Open the map version](https://data.okc.gov/) (if available).  \n2. Type your address to see your zone’s pickup day and provider.  \n3. Mark your calendar so you don’t miss the next collection.  \n\n(Word count: 180)",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "city-boundaries-8699b841",
+      "body": "## What this is  \nThis dataset shows the exact boundary lines of Oklahoma City.\n\n## Why it matters to you  \nKnowing where city limits fall affects real decisions: whether a property qualifies for city services (like trash pickup), which police department responds to 911 calls, or whether a business needs to file taxes with the city or county. Developers also check these boundaries to confirm zoning rules before buying land.\n\n## How to read this data  \n- **City Name**: Confirms this is Oklahoma City’s boundary (useful when comparing to other cities’ datasets).  \n- **City FIPS**: A government code that helps link this map to other datasets like census or tax records.  \n- **Area/Length**: Technical measurements (in feet) used by planners—most residents can ignore these.  \n\n## Where this leaves you  \nWhile you can’t look up specific addresses here, this dataset helps other tools verify if locations fall inside city limits. Check your water bill or local zoning maps to confirm your address’s status.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "city-facilities-d5c5b7b2",
+      "body": "## What this is  \nA list of Oklahoma City-owned buildings and facilities with their locations and types.\n\n## Why it matters to you  \nThis data helps you find city services near you—like where to pay a water bill, drop off hazardous waste, or attend a public meeting. If you're starting a business, it shows where to get permits. Parents can locate nearby rec centers, and community groups can find meeting spaces to rent.\n\n## How to read this data  \nKey fields include:  \n- **Address**: Where the facility is located (e.g., \"420 W Main St\")  \n- **Facility Type**: What the building is used for (e.g., \"Library,\" \"Fire Station\")  \n- **Facility Name**: Official name (e.g., \"Downtown Public Library\")  \n- **Facility Information**: Extra details like hours or services offered  \n\n## Try it yourself  \nSearch the dataset for your ZIP code or street name to find the closest city facility. Need a parking permit? Look for \"Public Works\" buildings. Want to vote early? Check for \"Election Board\" locations.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "city-trails-1e65b61d",
+      "body": "## What this is  \nA list of walking and multi-use trails in Oklahoma City parks.\n\n## Why it matters to you  \nThis data helps you choose where to walk, bike, or ride based on trail rules and features. Need a stroller-friendly path? Looking for horse trails? Want to avoid construction zones? This shows which trails match your needs before you go.\n\n## How to read this data  \nKey fields to check:  \n- **Status**: \"Open\" means ready to use, while \"Under construction\" means delays  \n- **Rating**: Difficulty level (easy/moderate/hard) for planning hikes  \n- **Accessible**: \"Yes\" means ADA-compliant for wheelchairs/strollers  \n- **Motorized/Hike/Bike/Equestrian**: Shows what activities each trail allows  \n\n## Where this leaves you  \nWhile you can't look up trails by address here, this helps compare options across the city for your next outdoor trip. Check the \"Trail Name\" and \"Design Use\" to find ones near you.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "elevation-contours-1e61c575",
+      "body": "## What this is  \nThis dataset shows elevation lines across the city, marking how high the land is above sea level.\n\n## Why it matters to you  \nElevation affects flood risks, construction costs, and even where water flows during heavy rain. If you're buying property, building a home, or planning landscaping, these contours show where water might pool or drain. Builders use this to calculate foundation needs, and gardeners use it to predict which plants will thrive.\n\n## How to read this data  \n- **Elevation**: The height in feet above sea level (higher numbers = steeper hills)  \n- **Contour Type**: \"Primary\" lines mark major elevation changes (like every 10 feet), while \"intermediate\" lines show smaller steps  \n- **Length**: How long each elevation line runs—longer lines mean flatter areas at that height  \n\n## Where this leaves you  \nWhile you can't look up your exact address, these contours help visualize the city's hills and valleys. For precise elevation at a specific property, you'd need a surveyor to combine this with more detailed data.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "emergency-responses-01c97e29",
+      "body": "## What this is  \nA live-updated list of recent police and fire emergency calls in Oklahoma City.\n\n## Why it matters to you  \nThis data shows where first responders are being dispatched right now. You might use it to:  \n- Check if a siren you just heard was near your home or workplace  \n- See if emergency activity is clustered in certain areas over time  \n- Understand what types of incidents (car crashes, medical calls, etc.) are most common in your neighborhood  \n\n## How to read this data  \nKey fields explained:  \n- **Call Type**: Broad category like \"Traffic Collision\" or \"Medical Emergency\"  \n- **Location**: Approximate street or intersection (not exact addresses)  \n- **Reported On**: When the call came in (updates every 5 minutes)  \n\n## Try it yourself  \n1. Scan recent calls near your home by searching the map for your street  \n2. Look for patterns — do certain call types appear repeatedly at particular times?  \n3. Compare different neighborhoods by filtering the \"Location\" field  \n\n*(Note: Locations are approximate and delayed by 5-15 minutes for responder safety.)*",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "garage-sales-a2b13b6d",
+      "body": "## What this is  \nA list of current and upcoming garage sales in Oklahoma City, including what types of items are being sold.\n\n## Why it matters to you  \nIf you're looking for secondhand deals or want to declutter your home by hosting your own sale, this data helps you:  \n- Find nearby garage sales selling items you need (like baby gear or furniture)  \n- Scout competition before planning your own sale  \n- Avoid permit conflicts if hosting multiple sales on the same block  \n\n## How to read this data  \nKey fields to check:  \n- **Address**: Where the sale is happening  \n- **Permit Date**: When the sale starts  \n- **All Categories**: A quick list of what's being sold (e.g., \"Electronics, Furniture\")  \n- **Specific item fields** (like \"Baby Kid Items\"): \"Yes\" means those items are available  \n\n## Try it yourself  \nSearch the dataset for sales near your address this weekend. Look for sales listing \"Furniture\" or \"Electronics\" if you’re bargain-hunting, or check if your street already has a sale planned before applying for your own permit.",
+      "error": null,
+      "needs_review": true,
+      "reason": null
+    },
+    {
+      "slug": "hotel-motel-tax-b6e78aa9",
+      "body": "## What this is  \nThis dataset tracks hotels and motels with active tax licenses in Oklahoma City.\n\n## Why it matters to you  \nWhen traveling or booking accommodations, you might want to verify if a hotel is properly licensed by the city. This data also helps small businesses (like nearby restaurants or tour operators) identify licensed hotels to partner with for promotions or referrals. The city uses this to ensure tax compliance and track tourism activity.\n\n## How to read this data  \n- **Legal Name**: The official business name of the hotel/motel (e.g., \"Sunset Inn LLC\").  \n- **Address**: The exact street address where the business operates.  \n- **Certificate**: The unique license number issued by the city (e.g., \"HM-2023-0456\").  \n- **Sector**: Which part of the city the hotel is in (NW, NE, SW, SE, or Central).  \n\n## Try it yourself  \nSearch the dataset for hotels near your neighborhood or an upcoming event venue by filtering for the **Sector** field (e.g., \"Central\" for downtown). Check if a hotel you’re considering has a valid license by matching its name or address.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "impervious-surfaces-ad208d72",
+      "body": "## What this is  \nA map of paved and other water-resistant surfaces across the city, captured from aerial photos in 2020.\n\n## Why it matters to you  \nImpervious surfaces affect flooding risks, water drainage fees, and urban heat. If you're considering paving a driveway or parking lot, this data shows existing coverage patterns that influence runoff calculations. City planners use this to prioritize green infrastructure projects in areas with high pavement concentration.\n\n## How to read this data  \n- **Surface Type**: What kind of paved surface (e.g., asphalt, concrete, rooftop)  \n- **Area**: Size in square feet (helps estimate stormwater impact)  \n- **Shape**: Geographic outline (useful for seeing exact boundaries of paved zones)  \n\n## Where this leaves you  \nWhile you can’t look up your exact property here, this dataset helps explain why some neighborhoods flood more than others during heavy rain. Check your local stormwater utility website for parcel-specific runoff rules.  \n\n*(Word count: 150)*",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "index-grid-80e72538",
+      "body": "## What this is  \nThis dataset tracks numbered grid squares (about 1 mile wide) used by Oklahoma City’s fire department to organize the city into sections.  \n\n## Why it matters to you  \nEmergency responders use these grid numbers to coordinate calls and track incident locations. While most residents won’t need this daily, knowing your grid helps if you’re reporting a fire or major emergency—dispatchers may ask for it to pinpoint your area faster. Neighborhood groups or businesses planning safety drills might also use these grids to align with city response protocols.  \n\n## How to read this data  \n- **Fire Index Grid**: The number assigned to your ~1-square-mile section of the city (e.g., \"Grid 42\").  \n- **Shape/Area**: Technical geographic details (like boundary lines and size) used for mapping systems.  \n\n## Where this leaves you  \nThis data doesn’t let you look up your grid by typing in an address here—you’d need a separate city map or tool to match your location to a grid number.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "land-documents-fd9dbc81",
+      "body": "## What this is  \nThis dataset tracks legal land documents like deeds, easements, and ordinances filed with the city.  \n\n## Why it matters to you  \nThese records affect property rights, construction plans, and neighborhood changes. For example:  \n- If you’re buying a home, checking for easements (like utility access) could reveal hidden limits on your property.  \n- A new ordinance might block a business expansion you’re planning.  \n- Deeds show who legally owns or transfers land—key for disputes or development.  \n\n## How to read this data  \nKey fields include:  \n- **Document Type**: Tells you if it’s a deed (ownership transfer), easement (shared rights), or ordinance (local law).  \n- **Location/Address**: Where the document applies—compare to your property or area of interest.  \n- **Grantor**: Who signed over rights (e.g., a seller or government agency).  \n\n## Try it yourself  \nSearch the dataset for your address or street to see:  \n- Active easements (like sidewalks or pipelines crossing your land).  \n- Recent ordinances that might affect renovations or zoning.  \n- Past deeds to trace property ownership history.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "lots-and-blocks-8861a75c",
+      "body": "## What this is  \nThis dataset tracks the official lot and block numbers for platted properties in Oklahoma City.  \n\n## Why it matters to you  \nEvery property in the city has a legal description tied to its plat (a map dividing land into lots and blocks). Knowing your lot and block helps when:  \n- Verifying property boundaries for fences, additions, or disputes  \n- Applying for building permits that require exact parcel identification  \n- Researching zoning rules that apply to your specific lot  \n\n## How to read this data  \nKey fields include:  \n- **Plat Name**: The official name of the subdivision map your lot belongs to (e.g., \"Smith Addition\")  \n- **Block Number**: The numbered block within that plat (like a neighborhood grid)  \n- **Lot Number**: Your parcel’s specific identifier within the block  \n\n## Try it yourself  \nLook up your address in the dataset to find:  \n1. Your plat name (often referencing the original developer)  \n2. Your block and lot numbers — key details for any property paperwork  \n\n*(Note: The dataset includes area/length fields for surveyors, but most residents just need the plat, block, and lot numbers.)*",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "non-zoning-parcels-186d9979",
+      "body": "## What this is  \nThis dataset tracks special planning areas in Oklahoma City that aren't covered by normal zoning rules, like closed streets or vacated lots.\n\n## Why it matters to you  \nThese non-zoning areas can affect what gets built near you or how land gets used. For example, if a street near your home is marked as \"vacated,\" it might mean the city plans to sell that land for development. Businesses checking locations might find some parcels have special restrictions that zoning maps don't show.\n\n## How to read this data  \nKey fields include:  \n- **Zoning Class**: Short code showing why this area is exempt from normal zoning (like \"VAC\" for vacated land).  \n- **Description**: Plain-English details (e.g., \"Former railroad right-of-way\").  \n- **Ordinance Number**: The city law that created this exception, if applicable.  \n\n*Note: The dataset doesn’t explain what zoning codes like \"VAC\" mean—you’d need to cross-reference city documents.*\n\n## Where this leaves you  \nWhile you can’t look up your address here, this data helps explain why some areas might develop differently than their zoning suggests. Check the city’s zoning maps *and* this dataset for the full picture.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "overlay-parcel-zoning-175708d7",
+      "body": "## What this is  \nThis dataset tracks special zoning areas in Oklahoma City that have additional rules beyond standard zoning.\n\n## Why it matters to you  \nSpecial zoning overlays can affect what you're allowed to build on a property, whether you can open certain types of businesses, or what renovations require extra permits. For example, a historic district overlay might restrict exterior changes to a home, while an economic development overlay could offer tax breaks for specific business types. These rules directly impact property values and what you can do with land you own.\n\n## How to read this data  \n- **Zoning Class**: Short code (like \"HD\" for Historic District) showing the overlay type  \n- **Description**: Plain-English explanation of what the zoning overlay means  \n- **Area**: Size of the specially-zoned area in square feet  \n- **Full Case**: Reference number for the original planning decision, if you need to look up details  \n\n## Where this leaves you  \nWhile this data shows where special zoning exists, you'll need to cross-reference it with a property map or your parcel number to see if a specific address falls within one of these areas. The zoning codes themselves require additional research to understand all their restrictions.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "overlay-point-zoning-e41be4c9",
+      "body": "## What this is  \nThis dataset tracks locations in Oklahoma City with special zoning rules that override standard zoning codes.\n\n## Why it matters to you  \nSpecial zoning can determine what you're allowed to build or operate on a property. If you're buying land to open a business, adding a structure to your home, or contesting a neighbor's construction plans, these overlay zones could change what's legally permitted—even if the base zoning seems to allow it. For example, a historic district overlay might block vinyl siding, or a floodplain overlay could require elevated foundations.\n\n## How to read this data  \n- **Zoning Class**: Short code (like \"H\" for historic or \"FP\" for floodplain) showing the type of special zoning.  \n- **Description**: Plain-English details (e.g., \"Design Review Overlay: Exterior changes require approval\").  \n- **Ordinance Number**: Reference to the city law that created this exception—useful for looking up official rules.  \n\n## Where this leaves you  \nThis data doesn't let you search by address, but you can cross-reference it with a zoning map to spot overlaps near your property. Check the city’s main zoning dataset first to see if overlays apply to your area.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "park-facilities-ceaabc8e",
+      "body": "## What this is  \nThis dataset tracks park facilities like playgrounds, pools, and picnic areas across Oklahoma City parks.\n\n## Why it matters to you  \nKnowing what amenities exist in nearby parks helps you plan outings, find accessible features, or reserve spaces for events. For example, this data lets you:  \n- Find the closest playground with shade structures for summer playdates  \n- Check if a park shelter can be reserved for a family reunion  \n- Locate ADA-accessible restrooms near walking trails  \n\n## How to read this data  \nKey fields to look for:  \n- **Park**: Which park contains the facility  \n- **Facility Type**: What the item is (e.g., \"playground\", \"picnic shelter\")  \n- **Accessibility**: Whether it meets ADA standards (helpful for strollers/wheelchairs)  \n- **Reservation**: If you need to book it in advance  \n\n## Try it yourself  \nSearch the dataset for your nearest park—does it have:  \n1. Lighted courts for evening basketball?  \n2. An reservable shelter with picnic tables?  \n3. Accessible restrooms?  \n\n(Word count: 199)",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "parks-impact-fees-benefit-areas-08f4c8d6",
+      "body": "## What this is  \nThis dataset shows different park benefit areas in Oklahoma City where development fees apply.\n\n## Why it matters to you  \nIf you're building a new home, business, or development, these zones determine whether you'll pay extra fees to fund nearby park improvements. The fees help maintain green spaces, trails, and recreation areas that serve your new development. Knowing your benefit area category could add thousands to your project costs or exempt you entirely.\n\n## How to read this data  \n- **Benefit Area**: The general neighborhood or region (like \"NW 23rd Street Corridor\")  \n- **Category**: Fee classification (likely tiers like high/medium/low impact)  \n- **Area**: Size of the benefit zone in square feet - bigger areas may mean more shared costs  \n\n## Where this leaves you  \nWhile you can't look up specific addresses here, this data explains why similar projects in different parts of town might face different park fees. Check okc.gov's development fee pages for exact rates tied to these zones.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "parks-impact-fees-existing-local-service-b8d5a300",
+      "body": "## What this is  \nThis dataset tracks areas in Oklahoma City that are exempt from paying park development fees.  \n\n## Why it matters to you  \nIf you're developing property or building in Oklahoma City, these exemptions could save you money. The data helps determine whether your project falls in an area where park impact fees don't apply—affecting your construction budget and planning. Developers, small businesses expanding their lots, or homeowners adding structures all need to check this before finalizing plans.  \n\n## How to read this data  \n- **Park Served**: A number used to calculate whether fees apply to your location.  \n- **Calculator**: A code that helps determine fee exemptions (like a category label).  \n- **Area**: The size of the exempt zone in square feet—bigger areas mean more potential development sites are covered.  \n\n## Where this leaves you  \nWhile this data doesn’t let you look up exemptions by address directly, it shows where fee-free zones exist. For specific projects, you’d need to cross-reference this map with your site’s location (or consult city planning staff). More details on fees are at [okc.gov](https://www.okc.gov).  \n\n(Word count: 180)",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "pedestrian-projects-34783ad4",
+      "body": "## What this is  \nA list of past, current, and future sidewalk and street projects focused on pedestrian safety in Oklahoma City.\n\n## Why it matters to you  \nThis data helps you see where walking infrastructure is being improved—or neglected—in your area. If you're choosing a walking route to school, pushing for sidewalk repairs near your business, or advocating for safer crosswalks, this shows what projects are planned, underway, or already finished. Delayed projects might mean longer waits for safer streets.\n\n## How to read this data  \nKey fields to check:  \n- **Project Name**: Often includes the street name (e.g., \"NW 23rd St Sidewalks\").  \n- **Project Type**: Tells you if it’s a sidewalk repair, new crossing signal, etc.  \n- **Status**: Reveals if work is \"Completed,\" \"In Progress,\" or \"Planned.\"  \n- **Description**: May specify exact blocks or intersections affected.  \n\n## Where this leaves you  \nWhile you can’t look up projects by your exact address, scanning the full dataset (sorted by \"Status\") helps spot trends—like whether your neighborhood has fewer completed projects than others.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "plat-names-6073f066",
+      "body": "## What this is  \nA list of neighborhood plat names and their corresponding codes used in Oklahoma City.\n\n## Why it matters to you  \nPlats are the official recorded maps of neighborhoods and subdivisions. This data helps when:  \n- Checking property records to see which plat your home is in  \n- Understanding which neighborhood rules might apply to your property  \n- Researching historical development patterns in your area  \n\n## How to read this data  \n- **Plat Code**: A number assigned to each plat (like 12345)  \n- **Plat Name**: The official recorded name of the neighborhood or subdivision (like \"Maplewood Heights Addition\")  \n\n## Where this leaves you  \nThis dataset won't tell you which plat contains a specific address, but it does provide the master list of all recognized neighborhood plats in the city. You'll need to cross-reference with other property records to find your exact plat.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "plats-43d820b8",
+      "body": "## What this is  \nThis dataset tracks the official plats (mapped subdivisions of land) within Oklahoma City, including their names and codes.\n\n## Why it matters to you  \nPlats define how land is divided and recorded, which affects property boundaries, development rights, and neighborhood planning. If you're buying property, building an addition, or checking zoning rules, knowing your plat helps determine what you can do with the land and who governs it. Developers use plats to plan new subdivisions, and city services (like utilities) rely on them for accurate location data.\n\n## How to read this data  \n- **Plat Name**: The official name of the subdivision (e.g., \"Maplewood Estates\").  \n- **Plat Code**: A numeric identifier tied to the plat in city records.  \n- **Area**: The size of the plat in square feet—useful for comparing neighborhood scales.  \n- **Length**: The perimeter length in feet, which can hint at lot shapes or street layouts.  \n\n## Where this leaves you  \nThis data doesn’t let you look up plats by address, but you can use it to understand how land is organized in your area. Check with the city’s planning department if you need to match a plat to a specific property.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "police-stations-fdb1ea86",
+      "body": "## What this is  \nThis dataset shows where police briefing stations are located in Oklahoma City.\n\n## Why it matters to you  \nKnowing where your nearest police station is helps you:  \n- Report crimes in person when needed  \n- Find safe places to meet officers for exchanges (like online purchases)  \n- Understand response times if you call 911 (stations closer to you may mean faster help)  \n\n## How to read this data  \nKey fields include:  \n- **Facility Name**: The official name of the police station (e.g., \"Hefner Division\")  \n- **Facility Address**: The exact street address of the station  \n\n## Try it yourself  \nLook up the police station nearest to your home or workplace using the dataset’s map or address list. Note its name and how long it takes to drive there—this could matter in an emergency.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "public-works-as-builts-d317eb4e",
+      "body": "## What this is  \nA collection of official construction records for roads, drainage systems, and storm sewers in Oklahoma City.  \n\n## Why it matters to you  \nThese \"as-built\" documents show what was actually constructed (not just planned) for infrastructure near you. When a street floods repeatedly, these records help crews trace whether drains were built correctly. Before digging on your property, checking these can reveal hidden sewer lines. Developers use them to verify lot drainage meets code before building.  \n\n## How to read this data  \n- **AsBuilt ID**: A reference number linking to scanned construction plans (like \"PW-2021-0456\")  \n- **AsBuilt Type**: Labels the infrastructure type (e.g., \"Paving\", \"Storm Sewer\")  \n- **Description**: May note project dates, contractors, or special features (like \"24-inch reinforced concrete pipe\")  \n\n## Where this leaves you  \nWhile you can’t look up records by address here, these documents exist for specific projects. Contact Public Works with a street name or project ID if you need construction details.  \n\n(Word count: 159)",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "recycle-zones-0f286e12",
+      "body": "## What this is  \nThis dataset shows recycling pickup zones in Oklahoma City, including who collects your recycling and which day they come.\n\n## Why it matters to you  \nKnowing your recycling zone helps you:  \n- Put bins out on the correct day to avoid missed pickups  \n- Contact the right service provider if your recycling isn’t collected  \n- Plan ahead if you’re moving and want to check pickup schedules in a new neighborhood  \n\n## How to read this data  \nKey fields include:  \n- **Route**: The alphanumeric code for your pickup zone (e.g., \"R7\")  \n- **Pickup Day**: The weekday or monthly schedule for your area (e.g., \"Every other Tuesday\")  \n- **Service Provider**: Which company handles your recycling (useful for complaints or questions)  \n\n## Try it yourself  \nLook up your address in the [interactive map](https://data.okc.gov/) to find:  \n1. Your exact pickup day  \n2. Your route number  \n3. The phone number for your service provider",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "snow-routes-a58d4715",
+      "body": "## What this is  \nThis dataset tracks which streets Oklahoma City prioritizes for snow and ice treatment during winter storms.\n\n## Why it matters to you  \nKnowing your nearest snow route helps you plan safer winter travel. If you live near or commute along these roads, they'll be cleared first after a storm. This affects decisions like which route to take to work, where to park overnight during snow forecasts, or whether your child's school bus route will run on time.\n\n## How to read this data  \n- **Quadrant**: Shows which general area of the city the route serves (e.g., NW, SE)  \n- **Location 1**: The main street name that gets treated (e.g., \"N Western Ave\")  \n- **Location 2**: Cross streets or additional details about the treated stretch  \n\n## Try it yourself  \nCheck if your street is a snow route by searching the dataset for your nearest major road. If it's listed, expect quicker plowing after storms. If not, plan for longer delays or consider alternative routes.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "storm-sewer-headwalls-ac50e5d0",
+      "body": "## What this is  \nA map of storm sewer headwalls (the concrete structures where storm drains meet pipes) across Oklahoma City.\n\n## Why it matters to you  \nHeadwalls prevent erosion where stormwater enters pipes. If one fails near your property, it could cause flooding or sinkholes. This data helps:  \n- Neighbors report clogged or damaged headwalls after heavy rain  \n- Developers check drainage infrastructure before building  \n- Homebuyers assess flood risks near a property  \n\n## How to read this data  \nKey fields in the dataset:  \n- **Sub Type**: What kind of headwall (e.g., \"concrete box\", \"pipe end\")  \n- **Location**: Written description like \"SW corner of 12th St & Western Ave\"  \n- **Project Number**: Links to construction records if repairs were done  \n\n## Try it yourself  \n[Open the map](https://www.okc.gov/departments/planning/gis-maps/gis-data) and search your street name in the \"Location\" field to find headwalls near you. Note any with \"Comments\" about maintenance needs.  \n\n*(Word count: 175)*",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "storm-sewer-junctions-35d63012",
+      "body": "## What this is  \nA map of storm sewer connection points like drain inlets and manholes across Oklahoma City.\n\n## Why it matters to you  \nWhen heavy rain hits, these junctions determine where water pools or flows. Knowing their locations helps you:  \n- Report flooding risks near your property  \n- Check if new construction might block drainage  \n- Understand why certain streets flood repeatedly  \n\n## How to read this data  \nKey fields include:  \n- **Sub Type**: What kind of junction it is (e.g., inlet box, manhole)  \n- **Location**: A written description of where it’s placed (e.g., \"NW corner of 5th and Hudson\")  \n- **Project Number**: Links the junction to a city construction project (if applicable)  \n\n## Try it yourself  \nSearch the map for junctions near your home or business—note any that are clogged or damaged, and report them to Public Works with the **ObjectID** for faster service.  \n\n*(Note: \"Shape\" field is for GIS professionals and won’t help most residents.)*",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "storm-siren-sectors-58b572ce",
+      "body": "## What this is  \nThis dataset tracks the sectors where storm sirens activate during emergencies.\n\n## Why it matters to you  \nStorm sirens warn you about tornadoes and other severe weather. Knowing your sector helps you:  \n- Verify if your neighborhood’s sirens are working during tests  \n- Report gaps in siren coverage to local officials  \n- Understand which alerts apply to your location  \n\n## How to read this data  \nKey fields include:  \n- **Grid Number**: Identifies your sector (e.g., \"Sector 12\").  \n- **Shape**: The geographic area covered by the siren (measured in square feet).  \n- **Length**: The boundary length of the sector (measured in feet).  \n\n## Where this leaves you  \nThis data doesn’t let you look up sectors by address, but you can ask emergency services which sector you’re in during community preparedness events.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "street-names-adea21af",
+      "body": "## What this is  \nA list of all street names in Oklahoma City with their official codes and directional prefixes/suffixes.\n\n## Why it matters to you  \nStreet codes are the hidden identifiers the city uses to track maintenance, permits, and emergency responses. When you report a pothole, request a streetlight repair, or check if your block is scheduled for repaving, city systems reference these codes. Knowing your street's official name format (including prefixes like \"N\" or \"SW\") ensures your service requests get routed correctly.\n\n## How to read this data  \n- **Street Code**: A unique number assigned to each street (e.g., \"12345\" for Main St)  \n- **Street Prefix/Suffix**: Directional markers (like \"NE\" or \"W\") and road types (like \"Ave\" or \"Blvd\")  \n- **Street Name**: The base name without prefixes/suffixes (e.g., \"Main\" in \"NE Main St\")  \n\n## Try it yourself  \nLook up your street in the dataset to find its official code and full formatted name. Next time you file a 311 request, use this exact format to avoid delays (e.g., \"NE 23rd St\" not \"23rd Street Northeast\").",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "streets-development-program-benefit-areas-5377697e",
+      "body": "## What this is  \nA dataset showing where street development projects are planned in the city.\n\n## Why it matters to you  \nThis data helps you understand if your street or neighborhood will see construction, repaving, or other infrastructure work soon. Knowing this can affect when you schedule home repairs (to avoid overlapping with roadwork), where you choose to open a business (to avoid construction zones), or even which routes to take during your commute. Municipal budgets prioritize certain areas over others—this shows where those dollars are going.\n\n## How to read this data  \nSince no field descriptions are available, look for:  \n- **Location boundaries**: Likely shows streets or zones marked for development  \n- **Project types**: May include repaving, utility work, or sidewalk upgrades  \n- **Timelines**: If present, would show estimated start/end dates  \n\n## Where this leaves you  \nWithout address-specific details, you can’t look up your exact block, but this dataset still reveals which general areas will see changes. Check the raw data or city announcements for project lists by neighborhood.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "survey-primary-control-points-e6812e22",
+      "body": "## What this is  \nA map of permanent survey markers that help engineers and builders measure land accurately across Oklahoma City.\n\n## Why it matters to you  \nThese metal or concrete markers (called \"monuments\") are the foundation for all property surveys and construction projects. When a developer builds a new shopping center or when your neighbor puts up a fence, surveyors use these exact points to confirm boundary lines. If markers go missing or get damaged, it can delay construction projects and even lead to property disputes.\n\n## How to read this data  \nKey fields include:  \n- **Status**: Whether the marker is currently usable (like \"Active\" or \"Destroyed\")  \n- **Condition**: Physical state (like \"Good\" or \"Needs Repair\")  \n- **Monument Type**: What it’s made of (e.g., \"Brass Disk\" or \"Steel Rod\")  \n- **X/Y Coordinates**: Precise map locations (for professionals with GIS tools)  \n\n## Where this leaves you  \nThis isn’t something you’d look up for your home address—it’s specialized infrastructure for surveyors. But if you ever see a metal disk stamped \"OKC CONTROL\" in a sidewalk, now you know it’s part of the city’s measurement backbone.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "survey-secondary-control-points-1120d3f7",
+      "body": "## What this is  \nA dataset of permanent survey markers (called \"secondary control points\") that help map and measure Oklahoma City accurately.\n\n## Why it matters to you  \nThese markers are the hidden reference points that ensure construction projects, property surveys, and infrastructure work align correctly. If a developer builds a new shopping center or the city repairs a bridge, surveyors use these markers to verify locations down to the inch. Errors in these points could mean misplaced property lines or misaligned roads.\n\n## How to read this data  \nKey fields include:  \n- **Station number**: A unique ID for each survey marker (like \"OKC-456\").  \n- **Easting/Northing**: Precise coordinates in Oklahoma’s state plane system (not latitude/longitude).  \n- **Elevation**: Height above sea level in feet—critical for floodplain maps or grading land.  \n- **Description**: Notes like \"in sidewalk near NW 23rd & Walker\" to help locate the physical marker.  \n\n## Where this leaves you  \nThis dataset doesn’t support address lookups, but professionals use it to anchor legal surveys and engineering plans. If you’re disputing a property line, your surveyor would reference these points.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "trail-projects-68777530",
+      "body": "## What this is  \nA list of pedestrian trail projects in Oklahoma City, including past, current, and future work.  \n\n## Why it matters to you  \nTrails affect where you can walk, bike, or run safely—and which routes might be closed for construction. If you're planning a commute, exercise route, or neighborhood event, this data shows where paths are being added, upgraded, or repaired. Delays or detours near you could mean adjusting your routine.  \n\n## How to read this data  \nKey details in each record:  \n- **Project Name**: Usually the street or area (e.g., \"Riverside Trail Extension\").  \n- **Status**: Tells you if it’s planned, underway, or finished.  \n- **Length**: How long the trail segment is (in feet).  \n- **Description**: Specifics like cross-streets or landmarks.  \n\n## Where this leaves you  \nThis data doesn’t let you search by your address, but scanning the list helps spot projects near places you frequent. Check the \"Status\" field to anticipate closures or new routes.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "trash-collection-zones-45426e5e",
+      "body": "## What this is  \nThis dataset shows where and when trash gets picked up across Oklahoma City.\n\n## Why it matters to you  \nKnowing your trash collection zone answers practical questions like:  \n- Which day to roll your bins to the curb  \n- Who to call if pickup gets missed (city crew or private contractor)  \n- Whether holiday schedules might delay your service  \n\n## How to read this data  \nKey fields to check:  \n- **Route**: Identifies your neighborhood's pickup group (like \"NW-12\")  \n- **Pickup Day**: Shows your collection day (e.g., \"Every Tuesday\" or \"1st/3rd Friday\")  \n- **Service Provider**: Tells you whether the city or a company like Waste Management handles your area  \n\n## Try it yourself  \n1. Open the [interactive map](https://data.okc.gov/) (or your city's GIS portal)  \n2. Type your address to see your zone's:  \n   - Color-coded route area  \n   - Next pickup date  \n   - Provider contact info  \n\n(Word count: 160)",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "vegetation-points-1fcba99b",
+      "body": "## What this is  \nA map of individual trees and shrubs captured by aerial laser scans in 2015.  \n\n## Why it matters to you  \nThis data helps the city track tree canopy coverage—which affects street shade, stormwater runoff, and even property values. If you’ve ever wondered why some blocks feel cooler in summer or why certain areas flood less during heavy rain, vegetation density plays a role. Neighborhood groups also use this to advocate for tree-planting programs.  \n\n## How to read this data  \n- **ObjectID**: Just a reference number (like a serial number) for each plant.  \n- **Shape**: The exact location of each tree/shrub, mapped using specialized coordinates.  \n\n## Where this leaves you  \nWhile you can’t look up vegetation near your address here, this dataset helps planners analyze green space trends citywide. For specific street trees, check your city’s forestry department listings instead.  \n\n(Word count: 140)",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "vegetation-polygons-a4b7be23",
+      "body": "## What this is  \nA map of tree canopies and other vegetation areas from 2015 laser scans of the city.\n\n## Why it matters to you  \nThis data helps track where trees and plants exist across neighborhoods. City planners use it to spot areas needing more greenery, prioritize tree planting near heat-vulnerable streets, or identify where overgrown vegetation might block sidewalks. Homeowners might check if a large tree on their property appears in this dataset before pruning or removal permits.\n\n## How to read this data  \n- **Shape**: The outline of each vegetation patch (like a tree’s canopy or a shrub cluster)  \n- **Area**: Size of the vegetation patch in square feet (helps compare green space between neighborhoods)  \n- **Length**: Total distance around the edge of the vegetation patch (indicates how sprawling it is)  \n\n## Where this leaves you  \nWhile you can’t look up specific addresses, this snapshot helps advocate for more tree cover in your area by showing where vegetation gaps exist. Note: Data is from 2015 and updated only every few years, so newer plantings won’t appear.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "waterbodies-a6b9c703",
+      "body": "## What this is  \nThis dataset shows the locations of lakes, ponds, and other waterbodies in Oklahoma City.  \n\n## Why it matters to you  \nKnowing where waterbodies are helps with decisions like flood risk when buying property, planning recreational activities, or understanding local wildlife habitats. For example, if you're considering a home near a pond, this data helps you check for potential drainage issues or mosquito control needs.  \n\n## How to read this data  \n- **Name**: The official name of the waterbody (if it has one).  \n- **Type**: What kind of waterbody it is (lake, pond, etc.).  \n- **Area**: Size in square feet—useful for comparing different waterbodies.  \n- **Length**: The distance around the waterbody’s edge in feet.  \n\n## Where this leaves you  \nThis data doesn’t let you search by address, but you can still explore waterbody locations on a map to see what’s nearby.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "waterways-7107d3b8",
+      "body": "## What this is\nThis dataset tracks the location of rivers, streams, and other waterways within Oklahoma City limits.\n\n## Why it matters to you\nWaterways affect flood risk, property values, and development restrictions around your home or business. If you're buying property, you need to know if it's near a creek that could flood during heavy rains. Developers and contractors use this data to understand setback requirements — many cities require buildings to be a certain distance from streams. Insurance companies also consider proximity to waterways when setting flood insurance rates, which can significantly impact your monthly costs.\n\n## How to read this data\n• **Name** — The official name of the waterway, like \"North Canadian River\" or \"Cottonwood Creek\" (some smaller streams may not have names)\n• **Type** — What kind of waterway it is (river, stream, creek, etc.)\n• **Area** — How much space the waterway covers, measured in square feet\n• **Length** — The distance around the waterway's perimeter in feet\n\n## Where this leaves you\nThis dataset shows you where waterways are located but doesn't let you search by your specific address to see what's nearby. You'd need to browse the full map to spot waterways in your neighborhood.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "work-zones-ead80c5e",
+      "body": "## What this is  \nThis dataset tracks active construction and repair work zones across Oklahoma City streets, including lane, road, and sidewalk closures.\n\n## Why it matters to you  \nWork zones directly impact your daily commutes, business deliveries, and street accessibility. Knowing where and when lanes are closed helps you:  \n- Reroute to avoid delays when driving to work  \n- Check if sidewalk closures affect foot traffic to your storefront  \n- Plan alternate routes for trash pickup or moving trucks  \n\n## How to read this data  \nKey fields to check:  \n- **Work Type**: What’s being done (e.g., “utility repair,” “resurfacing”)  \n- **Start/End Date**: When disruptions are expected (compare these to your schedule)  \n- **Road/Lane Closure**: “Yes” means full or partial roadblocks (check North/South/East/West Bound for lane-specific impacts)  \n- **Sidewalk Closure**: Critical for pedestrians and businesses with foot traffic  \n\n## Try it yourself  \nSearch the dataset for your street or neighborhood. If you see active work zones:  \n- Note the end date to anticipate delays  \n- Check if closures affect your usual routes to school, work, or deliveries  \n- Report errors (like outdated end dates) to the city’s public works department",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "zoning-definitions-f14a8053",
+      "body": "## What this is  \nA reference list of zoning codes and what they mean in Oklahoma City.\n\n## Why it matters to you  \nZoning rules control what can be built where — whether you can open a coffee shop in your neighborhood, add an ADU to your property, or why the empty lot down the street stays vacant. This dataset helps decode the abbreviations you’ll see on zoning maps, permits, or property records.\n\n## How to read this data  \n- **Zoning Code**: Short abbreviations like \"R-1\" or \"C-3\" (these appear on maps and permits)  \n- **Zoning Description**: The full name of the zone (e.g., \"Single-Family Residential\")  \n- **Zoning Definition**: Plain-English rules for that zone (e.g., whether apartments or businesses are allowed)  \n\n## Where this leaves you  \nThis is a dictionary, not a map — it won’t show you what zone *your* address is in. To check zoning for a specific property, you’ll need to cross-reference with a zoning map or permit database.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    }
+  ]
+}

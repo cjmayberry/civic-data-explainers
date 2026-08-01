@@ -1,0 +1,295 @@
+#!/usr/bin/env python3
+"""
+redraft.py — re-draft stub pages against the v2 Pavement-shape template.
+
+Reads the manifest v2 (category source of truth) + okc_catalog.json, re-drafts
+every page whose content_status is "stub" using prompts.DRAFT_SYSTEM_PROMPT_V2,
+then:
+  - writes the new body into hugo-site/content/datasets/<slug>.md
+    (frontmatter rebuilt: canonical single category, cover, fixed description
+     from suitable_use — repairs the old dictionary-text leak — teaser from
+     the draft's one-sentence "what this is")
+  - updates manifest.json content_status / content_model / last_updated
+  - marks content_status: needs_review where the template doesn't fit cleanly
+    (no step-4 anchor, thin dictionary, or validation flags a possible
+    invented field)
+
+Usage:
+  python3 content/redraft.py --model deepseek/deepseek-chat-v3-0324
+  python3 content/redraft.py --dry-run   # print the plan, call nothing
+"""
+import argparse
+import json
+import os
+import re
+import sys
+from datetime import datetime, timezone
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+DATASETS_DIR = os.path.join(ROOT, "hugo-site", "content", "datasets")
+MANIFEST_PATH = os.path.join(ROOT, "hugo-site", "static", "img", "manifest.json")
+CATALOG_PATH = os.path.join(ROOT, "okc_catalog.json")
+OUT_DRAFTS = os.path.join(ROOT, "drafts-v2.json")
+
+from prompts import DRAFT_SYSTEM_PROMPT_V2, build_v2_payload, PROMPT_VERSION  # noqa: E402
+
+# Fields that let a reader anchor the "try it yourself" step to their own
+# address / street / ward / neighborhood.
+ANCHOR_RE = re.compile(
+    r"address|street|ward|location|zip|segment|block|parcel|route|"
+    r"intersection|neighbor|house|home", re.I)
+
+
+def parse_frontmatter(text):
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    if not m:
+        return {}, text
+    fm = {}
+    for line in m.group(1).splitlines():
+        if ":" not in line:
+            continue
+        key, _, raw = line.partition(":")
+        key, raw = key.strip(), raw.strip()
+        if raw.startswith("[") and raw.endswith("]"):
+            fm[key] = json.loads(raw)
+        elif raw.startswith('"') and raw.endswith('"'):
+            fm[key] = json.loads(raw)
+        elif raw == "true":
+            fm[key] = True
+        elif raw == "false":
+            fm[key] = False
+        else:
+            fm[key] = raw
+    return fm, m.group(2)
+
+
+def yaml_str(s):
+    return json.dumps(str(s), ensure_ascii=False)
+
+
+def yaml_list(lst):
+    return "[" + ", ".join(yaml_str(x) for x in lst) + "]"
+
+
+def truncate(text, limit=170):
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return cut.rstrip(" ,;:-") + "…"
+
+
+def build_frontmatter(fm, category, cover, description, teaser, dictionary):
+    out = ["---"]
+    for key in ("title", "date"):
+        if key in fm:
+            out.append(f"{key}: {yaml_str(fm[key])}")
+    out.append(f"description: {yaml_str(description)}")
+    out.append(f"teaser: {yaml_str(teaser)}")
+    if "tags" in fm and fm["tags"]:
+        out.append(f"tags: {yaml_list(fm['tags'])}")
+    out.append(f"categories: {yaml_list([category])}")
+    out.append(f"cover: {yaml_str(cover)}")
+    for key in ("source_url", "license", "dataset_id", "city", "site_url"):
+        if key in fm:
+            out.append(f"{key}: {yaml_str(fm[key])}")
+    out.append("draft: false")
+    if dictionary:
+        out.append("dictionary:")
+        for item in dictionary:
+            out.append(f"  - field: {yaml_str(item.get('field', ''))}")
+            out.append(f"    description: {yaml_str(item.get('description', ''))}")
+    out.append("---")
+    return "\n".join(out)
+
+
+def validate_draft(slug, title, body, dictionary, feasible):
+    """Returns (needs_review, reason) — content checks, not style checks."""
+    fields = {f.get("field", "").strip().lower() for f in dictionary}
+    issues = []
+
+    if "## What this is" not in body or "## Why it matters to you" not in body:
+        issues.append("missing required section (What this is / Why it matters)")
+    if "## How to read this data" not in body:
+        issues.append("missing How to read this data section")
+
+    has_step4 = "## Try it yourself" in body
+    has_leave = "## Where this leaves you" in body
+    if feasible and not has_step4:
+        issues.append("step-4 anchor exists but Try-it-yourself section missing")
+    if not feasible and has_step4:
+        issues.append("no step-4 anchor but Try-it-yourself section present (hollow step 4)")
+    if not feasible and not has_leave and not has_step4:
+        issues.append("neither Try it yourself nor Where this leaves you present")
+
+    wc = len(body.split())
+    if wc > 340:
+        issues.append(f"over length ({wc} words)")
+
+    # field check: any **Field** or capitalized name in the read section
+    # that doesn't resolve to a real dictionary field
+    read_sec = body.split("## How to read this data")[-1]
+    for m in re.finditer(r"\*\*([^*]+)\*\*", read_sec):
+        name = re.sub(r"[^a-z0-9 ]", "", m.group(1).lower()).strip()
+        if not name:
+            continue
+        ok = any(name == f or name in f or f in name for f in fields)
+        if not ok and len(name) > 3:
+            issues.append(f"possible invented field: '{m.group(1)}'")
+            break  # one flag is enough
+
+    if issues:
+        return True, "; ".join(issues[:3])
+    return False, None
+
+
+def step4_feasible(record):
+    dict_fields = [d.get("field", "") for d in (record.get("data_dictionary") or [])]
+    if not dict_fields:
+        return False
+    return any(ANCHOR_RE.search(f) for f in dict_fields)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--model", default="deepseek/deepseek-chat-v3-0324",
+                        help="OpenRouter model slug for drafting")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--only", help="comma list of slugs to re-draft (debug)")
+    parser.add_argument("--apply-only", action="store_true",
+                        help="skip model calls; apply drafts-v2.json (pages + manifest)")
+    args = parser.parse_args()
+
+    with open(CATALOG_PATH) as f:
+        catalog = json.load(f)
+    by_title = {re.sub(r"\s+", " ", r["title"]).strip().lower(): r for r in catalog}
+    with open(MANIFEST_PATH) as f:
+        manifest = json.load(f)
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    targets = []
+    for d in manifest["datasets"]:
+        if d["content_status"] != "stub":
+            continue
+        if args.only and d["slug"] not in args.only.split(","):
+            continue
+        targets.append(d)
+    print(f"# {len(targets)} stub pages to re-draft (model={args.model}, prompt={PROMPT_VERSION})",
+          file=sys.stderr)
+
+    if args.dry_run:
+        for d in sorted(targets, key=lambda x: x["slug"]):
+            rec = by_title.get(d["title"].strip().lower())
+            feas = step4_feasible(rec or {})
+            print(f"  {'feasible ' if feas else 'NO-ANCHOR'} {d['slug']}")
+        return
+
+    # lazy import so --dry-run never needs keys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+    if args.apply_only:
+        with open(OUT_DRAFTS) as f:
+            saved = json.load(f)
+        drafts_out = saved["drafts"]
+        results = {"drafted": sum(1 for x in drafts_out if not x.get("needs_review")),
+                   "needs_review": sum(1 for x in drafts_out if x.get("needs_review")),
+                   "failed": sum(1 for x in drafts_out if x.get("error"))}
+        print(f"# apply-only: {len(drafts_out)} drafts from {OUT_DRAFTS}", file=sys.stderr)
+    else:
+        from call_model import call_model
+        drafts_out = []
+        results = {"drafted": 0, "needs_review": 0, "failed": 0}
+        for i, d in enumerate(sorted(targets, key=lambda x: x["slug"]), 1):
+            slug = d["slug"]
+            rec = by_title.get(d["title"].strip().lower())
+            feas = step4_feasible(rec or {})
+            payload = build_v2_payload(rec or {"title": d["title"]}, d["category"], feas)
+
+            content, err = call_model(
+                [
+                    {"role": "system", "content": DRAFT_SYSTEM_PROMPT_V2},
+                    {"role": "user", "content": "Dataset (JSON):\n" + payload},
+                ],
+                model="tencent/hy3",          # Nous-side name; unused when Nous key dead
+                temperature=0.4, max_tokens=800,
+                openrouter_model=args.model,
+            )
+            if err or not content:
+                results["failed"] += 1
+                print(f"  [{i}/{len(targets)}] FAIL {slug}: {err}", file=sys.stderr)
+                drafts_out.append({"slug": slug, "body": None, "error": err,
+                                   "needs_review": True, "reason": f"draft call failed: {err}"})
+                continue
+
+            body = content.strip()
+            needs_review, reason = validate_draft(slug, d["title"], body,
+                                                  (rec or {}).get("data_dictionary", []), feas)
+            # No-address/street/ward anchor => the step-4 template doesn't fit
+            # cleanly, so the page gets flagged for a human even when the model
+            # wrote the "Where this leaves you" fallback correctly.
+            if not feas and not needs_review:
+                needs_review, reason = True, "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+            status = "needs_review" if needs_review else "drafted"
+            results[status] += 1
+            drafts_out.append({"slug": slug, "body": body, "error": None,
+                               "needs_review": needs_review, "reason": reason})
+            print(f"  [{i}/{len(targets)}] {status:14s} {slug} ({len(body.split())}w)"
+                  + (f" — {reason}" if reason else ""), file=sys.stderr)
+
+    # ---- write drafts json ----
+    with open(OUT_DRAFTS, "w") as f:
+        json.dump({
+            "schema": 2,
+            "city": "Oklahoma City",
+            "prompt_version": PROMPT_VERSION,
+            "content_model": f"openrouter/{args.model}/{PROMPT_VERSION}",
+            "generated_at": now,
+            "drafts": drafts_out,
+        }, f, indent=2, ensure_ascii=False)
+
+    # ---- apply: pages + manifest ----
+    applied = 0
+    by_slug = {d["slug"]: d for d in drafts_out}
+    for d in manifest["datasets"]:
+        draft = by_slug.get(d["slug"])
+        if not draft:
+            continue
+        path = os.path.join(DATASETS_DIR, d["slug"] + ".md")
+        with open(path, encoding="utf-8") as f:
+            raw = f.read()
+        fm, _ = parse_frontmatter(raw)
+        rec = by_title.get(d["title"].strip().lower())
+
+        step1 = ""
+        m = re.search(r"## What this is\s*\n+(.*?)(?:\n+## |\Z)", draft.get("body") or "", re.S)
+        if m:
+            step1 = re.sub(r"\s+", " ", m.group(1)).strip().rstrip(".")
+
+        description = ((rec or {}).get("suitable_use") or "").strip() or fm.get("description", "")
+        teaser = truncate(step1) if step1 else truncate(description, 170)
+        dictionary = [{"field": x.get("field", ""), "description": x.get("description", "")}
+                      for x in (rec or {}).get("data_dictionary", [])]
+
+        new_fm = build_frontmatter(fm, d["category"], d.get("image_file") and f"covers/{d['image_file']}",
+                                   description, teaser, dictionary)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(new_fm + "\n\n" + (draft.get("body") or "").strip() + "\n")
+
+        d["content_status"] = "needs_review" if (draft.get("needs_review") or draft.get("error")) else "drafted"
+        d["content_model"] = "openrouter/" + args.model + "/" + PROMPT_VERSION
+        d["last_updated"] = now
+        applied += 1
+
+    manifest["generated_at"] = now
+    with open(MANIFEST_PATH, "w") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+
+    print(json.dumps({"results": results, "applied_pages": applied,
+                      "drafts_file": OUT_DRAFTS}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

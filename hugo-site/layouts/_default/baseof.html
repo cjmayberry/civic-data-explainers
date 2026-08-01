@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  <div class="utility-bar">
+    <span class="utility-note">Open data, explained — Oklahoma City</span>
+    <a class="utility-link" href="{{ "/datasets/" | relURL }}">Browse the catalog →</a>
+  </div>
+  <header class="site-header">
+    <a class="wordmark" href="{{ "/" | relURL }}">Civic Data, <em>Explained</em></a>
+    <nav class="main-nav">
+      <a href="{{ "/datasets/" | relURL }}">All explainers</a>
+      <a href="{{ "/categories/" | relURL }}">Topics</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    <div class="footer-cols">
+      <div class="footer-col">
+        <strong>Civic Data, <em>Explained</em></strong>
+        <p>Plain-language explainers of public open-data catalogs, generated from real municipal data. Built to teach — not to replace the official record.</p>
+        <p class="photo-credit">Photos via Openverse (CC-licensed, credits in <code>img/manifest.json</code>).</p>
+      </div>
+      <div class="footer-col">
+        <strong>Topics</strong>
+        {{ range first 6 (site.Taxonomies.categories.ByCount) }}
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a>
+        {{ end }}
+      </div>
+      <div class="footer-col">
+        <strong>Source</strong>
+        <a href="https://open-okc.hub.arcgis.com">Oklahoma City Open Data Hub</a>
+        <a href="https://www.okc.gov">City of Oklahoma City</a>
+      </div>
+    </div>
+    <p class="footer-disclaimer">Not official guidance from any city government — always verify against the source dataset before relying on this for a decision.</p>
+  </footer>
+</body>
+</html>

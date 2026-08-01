@@ -1,0 +1,35 @@
+---
+title: "Pavement Condition"
+date: "2026-06-09"
+description: "Approximate length of feature in US feet"
+teaser: "The bumpiness report card: every OKC street scored on the Pavement Condition Index."
+tags: ["okc", "oklahoma city", "streets", "pavement", "condition", "index", "roads", "surface", "pci"]
+categories: ["Transportation"]
+cover: "covers/pavement-condition-e80f59ff--transportation--map_real_geometry.svg"
+source_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3"
+license: "custom"
+dataset_id: "e80f59ff3b374307a28e634ac0a92c41"
+city: "Oklahoma City"
+site_url: "https://open-okc.hub.arcgis.com"
+draft: false
+---
+
+
+
+## What this is
+
+A condition score for every street segment Oklahoma City maintains, based on the Pavement Condition Index (PCI) — the industry-standard rating of road health.
+
+## Why it matters to you
+
+PCI is the number behind the politics of potholes. Streets are scored on a scale (roughly 0–100), and cities use those scores to decide which streets get repaved and which get patched — because fixing a road when its score is 70 costs a fraction of rebuilding it when it's 20. If your street is rough, its PCI score is your evidence; if your street is newly smooth, the score will show the bump. This dataset is also the classic answer to "why did they pave THAT street and not mine?" — because it's a score, not a vibe.
+
+## How to read this data
+
+- **PCI** — the pavement condition index. Higher is better; a low PCI on your segment is the concrete number to quote in a service request.
+- **Street Type** — the road's classification. Arterials get repaved on different cycles than neighborhood streets.
+- **From / To** — the segment's boundaries, usually cross streets. A whole street isn't one entry — it's many segments, each with its own score.
+
+## Try it yourself
+
+Find your street and check the PCI of the segment right in front of your house. Then check the street one block over. The difference is your neighborhood's pavement story — and it's the exact data the city uses to pick winners and losers in the repaving queue.
