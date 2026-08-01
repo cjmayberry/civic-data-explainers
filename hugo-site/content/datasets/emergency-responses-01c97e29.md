@@ -5,7 +5,7 @@ description: "This dataset can be used to view select police and fire responses 
 teaser: "A live-updated list of recent police and fire emergency calls in Oklahoma City"
 tags: [" oklahoma city", "police", "ems", "wrecks", "auto", "automobile", "car", "crash"]
 categories: ["Public Safety"]
-cover: "covers/emergency-responses-01c97e29--public-safety--map_real_geometry.png"
+cover: "covers/emergency-responses-01c97e29--public-safety--map_real_geometry.svg"
 map_data: "img/data/emergency-responses-01c97e29.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/01c97e2928134efc93157d99f2d23047/rest/services/OpenData/Public_Safety/FeatureServer/0"
 license: "custom"
@@ -13,7 +13,21 @@ dataset_id: "01c97e2928134efc93157d99f2d23047"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Call Type"
+    description: "Type of police or fire call"
+  - field: "Description"
+    description: "Description of police or fire call"
+  - field: "Location"
+    description: "Approximate location of call"
+  - field: "Reported On"
+    description: "Date and time call was reported"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 ## What this is  

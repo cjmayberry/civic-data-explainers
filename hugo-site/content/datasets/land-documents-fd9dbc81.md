@@ -13,7 +13,25 @@ dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Document Type"
+    description: "Type of land document"
+  - field: "Document Number"
+    description: "Identifying number of document"
+  - field: "Location"
+    description: "Description of area the document applies to"
+  - field: "Address"
+    description: "Address, if any, associated with document"
+  - field: "Grantor"
+    description: "Grantor of legal document"
+  - field: "Reference"
+    description: "Ordinance or case number, if any, associated with document"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 ## What this is  

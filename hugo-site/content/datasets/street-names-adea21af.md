@@ -13,7 +13,19 @@ dataset_id: "adea21af99c740ec86870111a9881fc4"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Street Code"
+    description: "Numeric number associated with street name"
+  - field: "Street Prefix"
+    description: "Prefix direction of street"
+  - field: "Street Name"
+    description: "Name of street"
+  - field: "Street Suffix"
+    description: "Suffix type of street"
 ---
+
 
 
 ## What this is  

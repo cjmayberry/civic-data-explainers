@@ -12,7 +12,21 @@ dataset_id: "43d820b83b674709a76d0bf9d090d812"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Plat Name"
+    description: "Name of plat"
+  - field: "Plat Code"
+    description: "Numeric number associated with plat"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 ## What this is  

@@ -12,24 +12,8 @@ dataset_id: "fe9dc8e85f9c43b7950e32b69edf28fc"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Park Name"
-    description: "Name of park"
-  - field: "Park Address"
-    description: "Address of park"
-  - field: "Park Type"
-    description: "Classification of park"
-  - field: "Park Acres"
-    description: "Approximate size of park in acres"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

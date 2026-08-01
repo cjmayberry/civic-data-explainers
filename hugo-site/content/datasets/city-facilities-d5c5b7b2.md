@@ -13,7 +13,19 @@ dataset_id: "d5c5b7b206ec45cbb859aa4c83db3d09"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Address"
+    description: "Address of the facility"
+  - field: "Facility Type"
+    description: "Type of facility"
+  - field: "Facility Name"
+    description: "Name of facility"
+  - field: "Facility Information"
+    description: "Additional facility information when available"
 ---
+
 
 
 ## What this is  

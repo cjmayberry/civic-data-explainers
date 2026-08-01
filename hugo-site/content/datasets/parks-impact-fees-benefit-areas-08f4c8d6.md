@@ -12,7 +12,21 @@ dataset_id: "08f4c8d6719e47d088aa232f57d68cc8"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Benefit Area"
+    description: "General location of are within the City of Oklahoma City"
+  - field: "Category"
+    description: "Classification of benefit area"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
 ---
+
 
 
 ## What this is  

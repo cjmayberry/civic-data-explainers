@@ -12,20 +12,8 @@ dataset_id: "666b9654ab104ba7ac49870c66190e9c"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Ward"
-    description: "Numeric number of council ward"
-  - field: "Council Member"
-    description: "Name of current council member for ward"
-  - field: "Shape"
-    description: "Geographic data ward in state plane coordinates (WKID 103512)"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 
