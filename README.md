@@ -122,6 +122,18 @@ unverified LLM-drafted text about municipal data is not a monetization
 model to back into via a scaffold default. If ads return, it is a
 deliberate choice.
 
+## Cloudflare Pages build settings
+
+The Pages built-in Hugo buildpack may pick an old default Hugo (0.54-era)
+that cannot parse `hugo.toml` / the modern templates. Use the pinned build:
+
+- Build command: `bash build.sh`
+- Build output directory: `public`
+- (Optional) `HUGO_VERSION` env var: `0.147.2`
+
+`build.sh` downloads the exact pinned Hugo binary and builds with it, so
+the deploy is deterministic regardless of the buildpack defaults.
+
 ## State sources (Oklahoma)
 
 Three Oklahoma state endpoints are wired into the extractor (research:
