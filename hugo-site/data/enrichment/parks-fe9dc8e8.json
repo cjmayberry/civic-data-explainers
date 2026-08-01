@@ -1,0 +1,794 @@
+{
+ "slug": "parks-fe9dc8e8",
+ "name_field": "Name",
+ "records": [
+  {
+   "name": "Stiles Circle Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Burton/Britton Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Goodholm Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lincoln Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Rhode Island Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Sparrow Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Woodson Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Trosper Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "McNabb Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Winans Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Alice Harn Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Douglas Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Draper Park (Capitol Hill)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lake Stanley Draper (Childrens Playground Included)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Oliver Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Wayman's Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Clara H. Girvin Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Highley Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Reed Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Culbertson Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Memorial Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "South Rotary Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "McKinley Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "McCracken Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Military Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "John F. Kennedy Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Mike Dover Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Creston Hills Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hosea Vinyard Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Saint Clair Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Harden Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "May Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Nichols Court Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Zurline Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Flower Garden Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "E.B. Jeffrey Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Grant Corbin Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Meadowbrook Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Glen Ellyn Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "McMechan Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Swatek Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Edwards Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pied Piper Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Mayview Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Denniston Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Ted Reynolds Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Britton Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "North Highland Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pilot Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "H.C. Schilling Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Northeast Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "E.W. Perry Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Tinsley Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Guilchester Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Phillips Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Belle Isle Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Top O' the Town Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Mayfair Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Park (NW Optimist)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lippert Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hiram Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lakeshore Estates Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Daniel J. Diggs Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Smitty Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Taylor Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Tulsa Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Geraldine Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Harlow Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Frank Hathaway Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Luther Dulaney Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "North Oklahoma City Rotary Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "J. Brayden Black Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Joe Louis Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Progressive Community Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Quail Creek Detention Pond",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Syl Goldman Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Merrel Medley Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Minnis Lakeview Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "William O. Lytle Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Louis A. Macklanburg Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "L.D. Lacy Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Berta Faye Rex Quail Creek Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Zach D. Taylor Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Jack W. Cornett Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Melrose Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lela Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lightning Creek Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Myriad Gardens",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Rockwell Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Robert S. Kerr Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Martin Nature Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Riley Leroy Pitts Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Perle Mesta Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Woodrun Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Bob Acres Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Dolese Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Dolphin Wharton Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Crossroads Sports Complex",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Harvest Hills Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Shallowbrook Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Greens Tot-Lot",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Mackleman Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Redlands Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pat Murphy Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Bluff Creek Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lake Hefner (Childrens Playground)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Route 66 Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Kitchen Lake Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Carolyn Hill Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hightower (Frank J.) Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Florence Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Straka Detention Pond",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Paw Park",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - A",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - B",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - C",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - D",
+   "status": "pending"
+  },
+  {
+   "name": "Chisholm Creek Detention Pond",
+   "status": "pending"
+  },
+  {
+   "name": "Canyon Park",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - E",
+   "status": "pending"
+  },
+  {
+   "name": "William Fremont Harn Park",
+   "status": "pending"
+  },
+  {
+   "name": "City Hall Park",
+   "status": "pending"
+  },
+  {
+   "name": "Overholser Park",
+   "status": "pending"
+  },
+  {
+   "name": "River Park",
+   "status": "pending"
+  },
+  {
+   "name": "Wheeler Park",
+   "status": "pending"
+  },
+  {
+   "name": "Scissortail Park North",
+   "status": "pending"
+  },
+  {
+   "name": "Scissortail Park South",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - K",
+   "status": "pending"
+  },
+  {
+   "name": "Open Space - F",
+   "status": "pending"
+  },
+  {
+   "name": "Stars and Stripes Park",
+   "status": "pending"
+  },
+  {
+   "name": "Kupper Athletic Complex",
+   "status": "pending"
+  },
+  {
+   "name": "Manuel Perez Park",
+   "status": "pending"
+  },
+  {
+   "name": "James Stewart Golf Course",
+   "status": "pending"
+  },
+  {
+   "name": "Lincoln Park Golf Course",
+   "status": "pending"
+  },
+  {
+   "name": "Hefner Golf Course",
+   "status": "pending"
+  },
+  {
+   "name": "Trosper Golf Course",
+   "status": "pending"
+  },
+  {
+   "name": "Lone Oak Park",
+   "status": "pending"
+  },
+  {
+   "name": "Swisher Park",
+   "status": "pending"
+  },
+  {
+   "name": "Douglass Park",
+   "status": "pending"
+  },
+  {
+   "name": "Will Rogers Park (West)",
+   "status": "pending"
+  },
+  {
+   "name": "Bicentennial Park",
+   "status": "pending"
+  },
+  {
+   "name": "Brock Park",
+   "status": "pending"
+  },
+  {
+   "name": "Brookwood Park",
+   "status": "pending"
+  },
+  {
+   "name": "Campbell Park",
+   "status": "pending"
+  },
+  {
+   "name": "Crown Heights Park",
+   "status": "pending"
+  },
+  {
+   "name": "E.M. Sellers Park",
+   "status": "pending"
+  },
+  {
+   "name": "Earlywine Golf Course",
+   "status": "pending"
+  },
+  {
+   "name": "Earlywine Park",
+   "status": "pending"
+  },
+  {
+   "name": "Edgemere Park",
+   "status": "pending"
+  },
+  {
+   "name": "Elm Grove Park",
+   "status": "pending"
+  },
+  {
+   "name": "Larry Mcatee Park",
+   "status": "pending"
+  },
+  {
+   "name": "Lorraine Thomas Park",
+   "status": "pending"
+  },
+  {
+   "name": "Mark Twain Park",
+   "status": "pending"
+  },
+  {
+   "name": "Maywood Park",
+   "status": "pending"
+  },
+  {
+   "name": "O'Neil Park",
+   "status": "pending"
+  },
+  {
+   "name": "Pioneer Park",
+   "status": "pending"
+  },
+  {
+   "name": "Red Andrews Park",
+   "status": "pending"
+  },
+  {
+   "name": "Siler Park",
+   "status": "pending"
+  },
+  {
+   "name": "Southern Oaks Park",
+   "status": "pending"
+  },
+  {
+   "name": "Stinchcomb Wildlife Refuge",
+   "status": "pending"
+  },
+  {
+   "name": "Woodland Park",
+   "status": "pending"
+  },
+  {
+   "name": "Youngs Park",
+   "status": "pending"
+  },
+  {
+   "name": "Regatta Park",
+   "status": "pending"
+  },
+  {
+   "name": "Rotary Playground Park",
+   "status": "pending"
+  },
+  {
+   "name": "South Lakes Park",
+   "status": "pending"
+  },
+  {
+   "name": "Booker T. Washington Park",
+   "status": "pending"
+  },
+  {
+   "name": "Oliver Park (Extended)",
+   "status": "pending"
+  },
+  {
+   "name": "Wiley Post Park",
+   "status": "pending"
+  },
+  {
+   "name": "MAPS4 Youth Center 2",
+   "status": "pending"
+  }
+ ]
+}

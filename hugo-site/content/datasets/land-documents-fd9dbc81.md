@@ -7,6 +7,11 @@ tags: ["okc", "oklahoma city", "land", "documents", "property", "deeds", "ordina
 categories: ["Infrastructure"]
 cover: "covers/land-documents-fd9dbc81--infrastructure--map_real_geometry.png"
 map_data: "img/data/land-documents-fd9dbc81.geojson"
+inquiry_enabled: true
+inquiry_search: "Address"
+inquiry_field: "IndexType"
+inquiry_label: "Check documents recorded at an address"
+inquiry_extra: ["Number", "Grantor"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8"
 license: "custom"
 dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"
@@ -31,6 +36,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

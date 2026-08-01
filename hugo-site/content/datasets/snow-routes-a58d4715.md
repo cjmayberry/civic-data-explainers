@@ -6,6 +6,11 @@ teaser: "This dataset tracks which streets Oklahoma City prioritizes for snow an
 tags: ["okc", "oklahoma city", "snow", "routes", "winter", "weather"]
 categories: ["Transportation"]
 cover: "covers/snow-routes-a58d4715--transportation--map_real_geometry.png"
+inquiry_enabled: true
+inquiry_search: "location1"
+inquiry_field: "Quadarant"
+inquiry_label: "Is your street a snow route?"
+inquiry_extra: ["location2"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a58d4715875a4c62b15cd3269c9df891/rest/services/OpenData/Transportation/FeatureServer/6"
 license: "custom"
 dataset_id: "a58d4715875a4c62b15cd3269c9df891"
@@ -22,6 +27,8 @@ dictionary:
   - field: "Location 2"
     description: "Secondary description of location being treated, typically by cross street name(s)"
 ---
+
+
 
 
 

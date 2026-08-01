@@ -7,6 +7,10 @@ tags: [" oklahoma city", "garage", "yard", "sales", "permits"]
 categories: ["Licensing"]
 cover: "covers/garage-sales-a2b13b6d--licensing--map_real_geometry.png"
 map_data: "img/data/garage-sales-a2b13b6d.geojson"
+inquiry_enabled: true
+inquiry_search: "Address"
+inquiry_field: "Permit_Date"
+inquiry_label: "Check a garage sale permit"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a2b13b6db7804ea98482ca085e2783db/rest/services/OpenData/Licensing_Permits/FeatureServer/0"
 license: "custom"
 dataset_id: "a2b13b6db7804ea98482ca085e2783db"
@@ -49,6 +53,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

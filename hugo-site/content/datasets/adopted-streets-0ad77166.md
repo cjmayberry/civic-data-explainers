@@ -6,6 +6,10 @@ teaser: "This dataset tracks which Oklahoma City streets have been adopted by or
 tags: ["okc", "oklahoma city", "adopt", "adopeted", "streets"]
 categories: ["Transportation"]
 cover: "covers/adopted-streets-0ad77166--transportation--map_real_geometry.png"
+inquiry_enabled: true
+inquiry_search: "Adopted_Street"
+inquiry_field: "Adopting_Organization"
+inquiry_label: "Is your street adopted — and by whom?"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0ad7716656324cf7844fd2e1ffe1f6be/rest/services/OpenData/Transportation/FeatureServer/2"
 license: "custom"
 dataset_id: "0ad7716656324cf7844fd2e1ffe1f6be"
@@ -24,6 +28,8 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
+
 
 
 

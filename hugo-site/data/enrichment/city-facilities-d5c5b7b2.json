@@ -1,0 +1,531 @@
+{
+ "slug": "city-facilities-d5c5b7b2",
+ "name_field": "FacilityName",
+ "records": [
+  {
+   "name": "Firest Station 30",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 37",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 3",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 15",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 33",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 20",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 36",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 35",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 28",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 13",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 31",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 9",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 18",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 12",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 5",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 10",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 14",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 24",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 1",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 23",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 16",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 21",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 7",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 6",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 17",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 34",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 8",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 19",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 32",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 11",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 27",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 4",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 2",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 22",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 25",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 26",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 29",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Firest Station 38",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Police Headquarters",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Santa Fe Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Springlake Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Will Rogers Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Property Management",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "616 Building",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Regional Multiagency Coordination Center (Emergency Management)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Municipal Court",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Training Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pistol Range",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "K-9/Equine Unit",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Bricktown Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Draper Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Overholser Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Fleet Barn",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "9-1-1 Communications",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "OK County Jail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "OK County Courthouse",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Southwest Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Capitol Hill Recreation Center - Draper Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Daniel J. Diggs Center (Community Action Agency)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Douglass Park Community Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Henrietta B. Foster Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Frank Hathaway Park Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lincoln Center (Y.M.C.A)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Louis A. Macklanburg Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "McKinley Park Center (Community Action Ag , B & G Club)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Melrose Park Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Minnis Lakeview Park Recreation Center (Community Action Agency)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Northeast Center Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Park Northwest Optimist Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pilot Center Park Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Riley Leroy Pitts Park Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "H.C. Schilling Park Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "E.M. Sellers Park Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Southern Oaks Park Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Taylor Park Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Earlywine Park Golf Course",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Golf Course",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lincoln Park Golf Course",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "James E. Stewart Golf Course",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Trosper Park Golf Course",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Civic Center Music Hall",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Will Rogers Amphitheater",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Healthy Living and Fitness Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pete White Health and Wellness Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Regatta Park McClendon Whitewater Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Willa D. Johnson Recreation Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Jim Couch Building",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "City Hall",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Animal Welfare",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Arts Garage",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Sheridan / Walker Garage",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Century Center Garage",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Convention Center Garage",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Oklahoma City Zoo",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Will Rogers International Airport",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Wiley Post Airport",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Clarence E. Page Airport",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lake Hefner Lighthouse",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Union Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Paycom Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Chickasaw Bricktown Ballpark",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "OKC Fair Park",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "EMBARK Bus Terminal",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  }
+ ]
+}

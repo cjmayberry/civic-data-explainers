@@ -7,6 +7,11 @@ tags: ["OKC", "Fire", "oklahoma city", "stations", "oklahoma city"]
 categories: ["Public Safety"]
 cover: "covers/fire-stations-7f57d399--public-safety--map_real_geometry.png"
 map_data: "img/data/fire-stations-7f57d399.geojson"
+inquiry_enabled: true
+inquiry_search: "STATION_ADDR"
+inquiry_field: "STATION_ADDR"
+inquiry_label: "Find a fire station by address"
+inquiry_extra: ["STATION_NO"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/7f57d399cbd1468d877a8411205a671d/rest/services/OpenData/Public_Safety/FeatureServer/4"
 license: "custom"
 dataset_id: "7f57d399cbd1468d877a8411205a671d"
@@ -23,6 +28,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

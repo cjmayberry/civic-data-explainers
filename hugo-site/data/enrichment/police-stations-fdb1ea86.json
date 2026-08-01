@@ -1,0 +1,111 @@
+{
+ "slug": "police-stations-fdb1ea86",
+ "name_field": "Facility",
+ "records": [
+  {
+   "name": "Police Headquarters",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Santa Fe Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Springlake Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Will Rogers Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Property Management",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "616 Building",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Regional Multiagency Coordination Center (Emergency Management)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Municipal Court",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Training Center",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Pistol Range",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "K-9/Equine Unit",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Bricktown Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Draper Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Overholser Lake Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Fleet Barn",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "9-1-1 Communications",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "OK County Jail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "OK County Courthouse",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Southwest Briefing Station",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  }
+ ]
+}

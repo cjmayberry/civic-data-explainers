@@ -7,6 +7,11 @@ tags: ["okc", "oklahoma city", "facility", "facilities", "parking", "police", "f
 categories: ["Government"]
 cover: "covers/city-facilities-d5c5b7b2--government--map_real_geometry.png"
 map_data: "img/data/city-facilities-d5c5b7b2.geojson"
+inquiry_enabled: true
+inquiry_search: "FacilityName"
+inquiry_field: "FacilityType"
+inquiry_label: "Look up a city facility"
+inquiry_extra: ["Address"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d5c5b7b206ec45cbb859aa4c83db3d09/rest/services/OpenData/Government_Places/FeatureServer/0"
 license: "custom"
 dataset_id: "d5c5b7b206ec45cbb859aa4c83db3d09"
@@ -25,6 +30,8 @@ dictionary:
   - field: "Facility Information"
     description: "Additional facility information when available"
 ---
+
+
 
 
 

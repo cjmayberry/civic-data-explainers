@@ -1,0 +1,96 @@
+{
+ "slug": "city-trails-1e65b61d",
+ "name_field": "TrailName",
+ "records": [
+  {
+   "name": "South River Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Katy Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Tinker/Draper Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Will Rogers Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "West River Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Deep Fork Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lake Stanley Draper Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "North River Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Oklahoma City Community Foundation Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "South Grand Boulevard Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Bert Cooper Trail (Lake Hefner Trails)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Hefner-Overholser Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "South Grand Connection",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Greenway Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "Lake Overholser Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "South May Ave Trail (Under Construction)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "North Grand Boulevard Trail",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  },
+  {
+   "name": "North Grand Boulevard Trail (Nichols Hills)",
+   "status": "not_available",
+   "reason": "no verified Oklahoma match"
+  }
+ ]
+}

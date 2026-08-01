@@ -7,6 +7,11 @@ tags: ["oklahoma city", "hotels", "motels", "tax", "license", "certificate", "re
 categories: ["Finance"]
 cover: "covers/hotel-motel-tax-b6e78aa9--finance--map_real_geometry.png"
 map_data: "img/data/hotel-motel-tax-b6e78aa9.geojson"
+inquiry_enabled: true
+inquiry_search: "LegalName"
+inquiry_field: "Sector"
+inquiry_label: "Check a hotel/motel registration"
+inquiry_extra: ["Address", "Certificate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3"
 license: "custom"
 dataset_id: "b6e78aa9a14c494f827ea0f24418cac7"
@@ -27,6 +32,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

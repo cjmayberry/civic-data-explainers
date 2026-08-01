@@ -1,0 +1,16 @@
+{{ if .Params.inquiry_enabled }}
+<section class="inquiry">
+  <h2>Look it up yourself — live</h2>
+  <p class="dictionary-note">{{ .Params.inquiry_label }}. Queries Oklahoma City's published service directly — the same data source the whole page is built from.</p>
+  <form class="inquiry-form"
+        data-inquiry-url="{{ .Params.source_url }}"
+        data-inquiry-search="{{ .Params.inquiry_search }}"
+        data-inquiry-field="{{ .Params.inquiry_field }}"
+        data-inquiry-extra="{{ delimit (.Params.inquiry_extra | default slice) "|" }}">
+    <input type="text" class="inquiry-input" placeholder="{{ .Params.inquiry_label }}" required>
+    <button type="submit" class="inquiry-go">Search</button>
+  </form>
+  <div class="inquiry-results" hidden></div>
+</section>
+<script src="{{ "js/inquiry.js" | relURL }}"></script>
+{{ end }}

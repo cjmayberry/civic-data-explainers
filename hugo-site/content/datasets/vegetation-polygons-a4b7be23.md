@@ -27,6 +27,8 @@ dictionary:
 
 
 
+
+
 ## What this is  
 A map of tree canopies and other vegetation areas from 2015 laser scans of the city.
 

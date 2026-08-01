@@ -6,6 +6,11 @@ teaser: "The bumpiness report card: every OKC street scored on the Pavement Cond
 tags: ["okc", "oklahoma city", "streets", "pavement", "condition", "index", "roads", "surface", "pci"]
 categories: ["Transportation"]
 cover: "covers/pavement-condition-e80f59ff--transportation--map_real_geometry.png"
+inquiry_enabled: true
+inquiry_search: "XSTREET_NA"
+inquiry_field: "PCICurrent"
+inquiry_label: "Find your street's pavement score"
+inquiry_extra: ["BEGDESC", "ENDDESC"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3"
 license: "custom"
 dataset_id: "e80f59ff3b374307a28e634ac0a92c41"
@@ -32,6 +37,8 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
+
 
 
 

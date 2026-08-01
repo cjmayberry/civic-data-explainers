@@ -1,0 +1,26 @@
+{{ with index $.Site.Data.enrichment .File.ContentBaseName }}
+{{ $found := where .records "status" "found" }}
+{{ if $found }}
+<section class="enrichment">
+  <h2>The places, up close</h2>
+  <p class="dictionary-note">Real photos and name origins, each linked to its source. Where a name origin couldn't be verified from a citable source, it's simply not shown.</p>
+  <div class="enrichment-grid">
+    {{ range $found }}
+    {{ $r := . }}
+    <div class="enrichment-card">
+      {{ with .image }}
+      <img class="enrichment-img" src="{{ . }}" alt="{{ $r.name }}" loading="lazy" onerror="this.style.display='none'">
+      {{ end }}
+      <div class="enrichment-body">
+        <h3>{{ $r.name }}</h3>
+        {{ with $r.named_after }}
+        <p class="enrichment-named">Named after <strong>{{ . }}</strong>{{ with $r.named_after_link }} · <a href="{{ . }}" target="_blank" rel="noopener">source</a>{{ end }}</p>
+        {{ end }}
+        {{ with $r.wikipedia_link }}<p class="enrichment-src"><a href="{{ . }}" target="_blank" rel="noopener">Wikipedia</a></p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

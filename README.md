@@ -134,7 +134,7 @@ that cannot parse `hugo.toml` / the modern templates. Use the pinned build:
 `build.sh` downloads the exact pinned Hugo binary and builds with it, so
 the deploy is deterministic regardless of the buildpack defaults.
 
-### Interactive maps (point datasets)
+## Interactive maps (point datasets)
 
 Point layers (fire stations, police stations, work zones, survey points,
 garage sales, …) get a client-side Mapbox GL marker map on their page —
@@ -152,10 +152,40 @@ A `pk.` token is Mapbox's public token type, designed for client-side
 embedding; optionally restrict it in the Mapbox dashboard to
 `civic-data-explainers.pages.dev` to cap usage to this site.
 
-## State sources (Oklahoma)
+## System A — live inquiry (address/street lookup)
 
-Three Oklahoma state endpoints are wired into the extractor (research:
-`Ocean/knowledge/research/2026-07-31--oklahoma-state-open-data-api.md`):
+14 datasets carry a live lookup box ("Look it up yourself — live"):
+reader types a street/address/facility name, the page queries the
+dataset's own ArcGIS service and shows the matching record's value
+(e.g. Pavement Condition → the PCI of your street's segment). One
+reusable component: `layouts/partials/inquiry.html` + `static/js/inquiry.js`,
+driven entirely by per-page data attributes from the manifest
+(`inquiry_enabled`, `inquiry_search_field`, `inquiry_field`,
+`inquiry_label`, `inquiry_extra`).
+
+Excluded (with reasons in `build_manifest.py`'s INQUIRY block): zoning
+and ward layers (no text field — a spatial/parcel lookup would be needed),
+lot/block tables, survey points, vegetation, boundaries, and name-only
+layers (trails, waterbodies — those are System B territory). Note the
+live service schemas differ from the catalog dictionary (e.g. real
+pavement fields are `XSTREET_NA`/`PCICurrent`, not `Street`/`PCI`) —
+the INQUIRY config uses the verified live field names, and the JS queries
+with `f=geojson` (the services return ESRI `attributes` under `f=json`).
+
+## System B — named-place enrichment (photos + verified name origins)
+
+`content/enrich.py` researches named records (City Trails, Parks, Park
+Facilities, City Facilities, Police Stations; fire stations excluded —
+their records carry numeric identifiers, not names) against Wikipedia +
+Wikidata: lead image from the article, and a "named after" note ONLY from
+structured Wikidata claim P138, always with a source link. Per-record
+`enrichment_status: pending | found | not_available` is stored in
+`hugo-site/data/enrichment/<slug>.json` (re-runs skip already-checked
+records) and aggregated in the manifest. Hard rule: an unverifiable name
+origin is treated the same as a missing one — the image stands alone, the
+note is omitted, no guesses.
+
+## State sources (Oklahoma)
 
 | Source | Extractor mode | Feed | Records |
 |---|---|---|---|

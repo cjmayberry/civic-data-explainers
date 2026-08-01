@@ -392,6 +392,92 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 .sample-data tbody tr:last-child td { border-bottom: none; }
 .sample-data tbody tr:nth-child(even) { background: #fbf9f4; }
 
+/* ---------- live inquiry box ---------- */
+.inquiry { margin: 2.5rem 0; }
+.inquiry h2 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  margin: 0 0 0.7rem;
+  padding-top: 0.4rem;
+}
+.inquiry-form { display: flex; gap: 0.6rem; margin: 0.9rem 0; }
+.inquiry-input {
+  flex: 1;
+  font: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.inquiry-input:focus { outline: 2px solid var(--blue-soft); border-color: var(--blue); }
+.inquiry-go {
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--blue);
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+}
+.inquiry-go:hover { background: var(--amber); }
+.inquiry-status { font-size: 0.85rem; color: var(--muted); }
+.inquiry-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0 0;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.inquiry-list li {
+  padding: 0.65rem 0.9rem;
+  font-size: 0.92rem;
+  border-bottom: 1px solid var(--rule);
+  background: var(--panel);
+}
+.inquiry-list li:last-child { border-bottom: none; }
+
+/* ---------- named-place enrichment ---------- */
+.enrichment { margin: 2.5rem 0; }
+.enrichment h2 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  margin: 0 0 0.7rem;
+  padding-top: 0.4rem;
+}
+.enrichment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.enrichment-card {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.enrichment-img {
+  display: block;
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--rule);
+  background: var(--blue-soft);
+}
+.enrichment-body { padding: 0.8rem 0.9rem 0.95rem; }
+.enrichment-body h3 {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+.enrichment-named { font-size: 0.85rem; color: var(--ink); margin: 0 0 0.35rem; }
+.enrichment-src { font-size: 0.78rem; margin: 0; }
+.enrichment-src a { color: var(--blue); }
+
 .article-body {
   font-size: 1.05rem;
   line-height: 1.75;

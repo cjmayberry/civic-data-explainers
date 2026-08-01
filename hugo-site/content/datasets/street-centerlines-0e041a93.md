@@ -6,6 +6,11 @@ teaser: "The invisible skeleton under every address in OKC — updated daily, us
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
 cover: "covers/street-centerlines-0e041a93--transportation--map_real_geometry.png"
+inquiry_enabled: true
+inquiry_search: "FNAME"
+inquiry_field: "STREETCLASS"
+inquiry_label: "Look up a street's classification"
+inquiry_extra: ["FDPRE", "FTYPE", "LEFTADD1"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5"
 license: "custom"
 dataset_id: "0e041a931ede4d38a9d23c5301708662"
@@ -44,6 +49,8 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
+
 
 
 

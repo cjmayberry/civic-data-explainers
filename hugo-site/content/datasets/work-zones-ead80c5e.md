@@ -7,6 +7,11 @@ tags: ["okc", "oklahoma city", "roads", "streets", "lanes", "right of way", "rig
 categories: ["Transportation"]
 cover: "covers/work-zones-ead80c5e--transportation--map_real_geometry.png"
 map_data: "img/data/work-zones-ead80c5e.geojson"
+inquiry_enabled: true
+inquiry_search: "Worklocation"
+inquiry_field: "Worktype"
+inquiry_label: "Check for active work near a street"
+inquiry_extra: ["Startdate", "Enddate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5"
 license: "custom"
 dataset_id: "ead80c5e4e4e4c719359217f704a0c4c"
@@ -45,6 +50,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

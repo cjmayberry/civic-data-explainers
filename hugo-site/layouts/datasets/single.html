@@ -72,6 +72,8 @@
   </section>
   {{ end }}
 
+  {{ partial "inquiry.html" . }}
+
   {{ with index $.Site.Data.datasets .File.ContentBaseName }}
   {{ $data := . }}
   <section class="sample-data">
@@ -90,6 +92,8 @@
     </div>
   </section>
   {{ end }}
+
+  {{ partial "enrichment.html" . }}
 
   <section class="lookup">
     <h2>Look it up yourself</h2>

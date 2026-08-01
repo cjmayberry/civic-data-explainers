@@ -7,6 +7,11 @@ tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic"
 categories: ["Parks & Recreation"]
 cover: "covers/park-facilities-ceaabc8e--parks-recreation--map_real_geometry.png"
 map_data: "img/data/park-facilities-ceaabc8e.geojson"
+inquiry_enabled: true
+inquiry_search: "Facility_Name"
+inquiry_field: "Facility_Type"
+inquiry_label: "Look up a park facility"
+inquiry_extra: ["PK_LOCATION", "Address"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ceaabc8e606c4bf2ba0c4442b48455a8/rest/services/OpenData/Recreation_Parks/FeatureServer/0"
 license: "custom"
 dataset_id: "ceaabc8e606c4bf2ba0c4442b48455a8"
@@ -51,6 +56,8 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
+
 
 
 

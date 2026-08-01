@@ -131,6 +131,54 @@ HAND_AUTHORED = {
 }
 HAND_AUTHORED_MODEL = "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)"
 
+# ---------------------------------------------------------------------------
+# System A — inquiry (address/street lookup)
+# A dataset is inquiry-capable when its service carries a real text field the
+# reader would plausibly type (street name, address, facility name). Each
+# entry: search = the field matched against input, field = the value returned
+# (the "so what" of the lookup), label = box prompt, extra = extra display
+# fields. Excluded on purpose: zoning/ward layers (no address field — need a
+# spatial/parcel lookup, v2 candidate), lot/block tables, survey points,
+# vegetation, boundaries, and name-only layers (trails, waterbodies — those
+# are System B's named-place enrichment territory).
+INQUIRY = {
+    "pavement-condition-e80f59ff": {"search": "XSTREET_NA", "field": "PCICurrent",
+        "label": "Find your street's pavement score", "extra": ["BEGDESC", "ENDDESC"]},
+    "street-centerlines-0e041a93": {"search": "FNAME", "field": "STREETCLASS",
+        "label": "Look up a street's classification", "extra": ["FDPRE", "FTYPE", "LEFTADD1"]},
+    "street-names-adea21af": {"search": "StreetName", "field": "StreetName",
+        "label": "Look up a street's official name", "extra": ["StreetPrefix", "StreetSuffix"]},
+    "snow-routes-a58d4715": {"search": "location1", "field": "Quadarant",
+        "label": "Is your street a snow route?", "extra": ["location2"]},
+    "work-zones-ead80c5e": {"search": "Worklocation", "field": "Worktype",
+        "label": "Check for active work near a street", "extra": ["Startdate", "Enddate"]},
+    "adopted-streets-0ad77166": {"search": "Adopted_Street", "field": "Adopting_Organization",
+        "label": "Is your street adopted — and by whom?", "extra": []},
+    "garage-sales-a2b13b6d": {"search": "Address", "field": "Permit_Date",
+        "label": "Check a garage sale permit", "extra": []},
+    "emergency-responses-01c97e29": {"search": "Address", "field": "Call_Type",
+        "label": "See recent calls near an address", "extra": ["Reported_Time"]},
+    "city-facilities-d5c5b7b2": {"search": "FacilityName", "field": "FacilityType",
+        "label": "Look up a city facility", "extra": ["Address"]},
+    "park-facilities-ceaabc8e": {"search": "Facility_Name", "field": "Facility_Type",
+        "label": "Look up a park facility", "extra": ["PK_LOCATION", "Address"]},
+    "fire-stations-7f57d399": {"search": "STATION_ADDR", "field": "STATION_ADDR",
+        "label": "Find a fire station by address", "extra": ["STATION_NO"]},
+    "police-stations-fdb1ea86": {"search": "Facility", "field": "Address",
+        "label": "Look up a police station", "extra": []},
+    "land-documents-fd9dbc81": {"search": "Address", "field": "IndexType",
+        "label": "Check documents recorded at an address", "extra": ["Number", "Grantor"]},
+    "hotel-motel-tax-b6e78aa9": {"search": "LegalName", "field": "Sector",
+        "label": "Check a hotel/motel registration", "extra": ["Address", "Certificate"]},
+}
+
+# ---------------------------------------------------------------------------
+# System B — named-place enrichment (images + verified name origins)
+ENRICHMENT_DATASETS = {
+    "city-trails-1e65b61d", "park-facilities-ceaabc8e", "city-facilities-d5c5b7b2",
+    "fire-stations-7f57d399", "police-stations-fdb1ea86", "parks-fe9dc8e8",
+}
+
 
 def category_slug(category):
     return re.sub(r"[^a-z0-9]+", "-", category.lower()).strip("-")
@@ -168,8 +216,9 @@ def yaml_list(lst):
     return "[" + ", ".join(yaml_str(x) for x in lst) + "]"
 
 
-def build_frontmatter(fm, category, cover):
-    """Emit frontmatter with categories reduced to the canonical single element."""
+def build_frontmatter(fm, category, cover, inquiry=None):
+    """Emit frontmatter with categories reduced to the canonical single element.
+    inquiry = the INQUIRY dict entry (or None) for the System A lookup box."""
     out = ["---"]
     for key in ("title", "date", "description"):
         if key in fm:
@@ -180,6 +229,13 @@ def build_frontmatter(fm, category, cover):
         out.append(f"tags: {yaml_list(fm['tags'])}")
     out.append(f"categories: {yaml_list([category])}")
     out.append(f"cover: {yaml_str(cover)}")
+    if inquiry:
+        out.append(f"inquiry_enabled: true")
+        out.append(f"inquiry_search: {yaml_str(inquiry['search'])}")
+        out.append(f"inquiry_field: {yaml_str(inquiry['field'])}")
+        out.append(f"inquiry_label: {yaml_str(inquiry['label'])}")
+        if inquiry.get("extra"):
+            out.append(f"inquiry_extra: {yaml_list(inquiry['extra'])}")
     for key in ("source_url", "license", "dataset_id", "city", "site_url"):
         if key in fm:
             out.append(f"{key}: {yaml_str(fm[key])}")
@@ -335,7 +391,7 @@ def main():
                 fm["description"] = (rec.get("suitable_use") or "").strip() or fm.get("description")
         cover_path = os.path.join(COVERS_DIR, image_file)
         cover_ref = f"covers/{image_file}" if os.path.exists(cover_path) else ""
-        fm2 = build_frontmatter(fm, category, cover_ref)
+        fm2 = build_frontmatter(fm, category, cover_ref, INQUIRY.get(slug))
         with open(path, "w", encoding="utf-8") as f:
             f.write(fm2 + "\n\n" + body)
 
@@ -349,6 +405,12 @@ def main():
             "image_source": image_source,
             "image_file": image_file,
             "image_note": image_note,
+            "inquiry_enabled": slug in INQUIRY,
+            "inquiry_search_field": INQUIRY[slug]["search"] if slug in INQUIRY else None,
+            "inquiry_field": INQUIRY[slug]["field"] if slug in INQUIRY else None,
+            "inquiry_label": INQUIRY[slug]["label"] if slug in INQUIRY else None,
+            "inquiry_extra": INQUIRY[slug]["extra"] if slug in INQUIRY else [],
+            "enrichment_status": old.get("enrichment_status", "pending" if slug in ENRICHMENT_DATASETS else None),
             "last_updated": now,
         })
         mapping_rows.append((slug, fm.get("title", slug), topics, category, reason))
