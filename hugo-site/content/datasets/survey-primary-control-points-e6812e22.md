@@ -13,7 +13,35 @@ dataset_id: "e6812e2241ba4ff68d77edd95ad049b8"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Status"
+    description: "Status of monument as of last inspection"
+  - field: "Station number"
+    description: "Station number associated with monument"
+  - field: "Condition"
+    description: "Condition of monument as of last inspection"
+  - field: "Description"
+    description: "Comments related to monument"
+  - field: "Material"
+    description: "Abbreviated material code"
+  - field: "Contractor"
+    description: "Contractor used to set or verify monument"
+  - field: "Datum"
+    description: "Datum used to derive location (X Y coordinates)"
+  - field: "Date Set"
+    description: "Date, if known, when monument was set"
+  - field: "Monument Type"
+    description: "Type of monument"
+  - field: "X Coordinate"
+    description: "X coordinate based on specified datum"
+  - field: "Y Coordinate"
+    description: "Y coordinate based on specified datum"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

@@ -12,7 +12,17 @@ dataset_id: "58b572ceddf24352a1cde67e42dbcc44"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Grid Number"
+    description: "Numeric value of grid sector"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512). Area -Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

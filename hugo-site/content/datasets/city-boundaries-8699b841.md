@@ -12,7 +12,21 @@ dataset_id: "8699b8414ebd476e87db5486f116b00a"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "City Name"
+    description: "Name of city"
+  - field: "City FIPS"
+    description: "Numeric code used to identitfy a geographic region based on the Federal Information Processing Standards (FIPS) of the United States governement"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

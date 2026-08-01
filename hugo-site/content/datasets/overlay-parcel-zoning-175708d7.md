@@ -12,7 +12,23 @@ dataset_id: "175708d7ab7148109d1b9d27c82008d8"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Zoning Class"
+    description: "Abbreviated zoning code"
+  - field: "Full Case"
+    description: "Planning case number associated with area (if any)"
+  - field: "Description"
+    description: "Text description of zoning class"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

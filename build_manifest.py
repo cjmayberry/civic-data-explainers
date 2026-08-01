@@ -205,6 +205,37 @@ def classify_content(body, slug):
     return "stub", None
 
 
+def parse_dictionary(raw):
+    """Parse the `dictionary:` YAML block from a content file's frontmatter.
+    The generic line parser can't handle the nested list, so this does it
+    properly:  `- field: "X"` / `description: "Y"` pairs."""
+    out = []
+    m = re.search(r"^---\n(.*?)\n---", raw, re.S)
+    if not m:
+        return out
+    lines = m.group(1).splitlines()
+    in_dict = False
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.strip() == "dictionary:":
+            in_dict = True
+            i += 1
+            continue
+        if in_dict:
+            if line.startswith("  - field:"):
+                field = line.split(":", 1)[1].strip().strip('"')
+                desc = ""
+                if i + 1 < len(lines) and lines[i + 1].strip().startswith("description:"):
+                    desc = lines[i + 1].split(":", 1)[1].strip().strip('"')
+                    i += 1
+                out.append({"field": field, "description": desc})
+            elif line.strip() and not line.startswith("    "):
+                in_dict = False
+        i += 1
+    return out
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalog", default=CATALOG_PATH,
@@ -282,10 +313,12 @@ def main():
             image_file = new_name
 
         # frontmatter rewrite: single canonical category + cover field
-        # backfill the dictionary table for pages that lack it (the 12
-        # hand-authored showcase pages were written without dictionary
-        # frontmatter — the catalog has the real field definitions)
-        if "dictionary" not in fm and rec and (rec.get("data_dictionary") or []):
+        # rebuild the dictionary list properly (the generic parser can't
+        # handle the nested YAML block) and backfill pages that lack it —
+        # the 12 hand-authored showcase pages were written without one
+        if not isinstance(fm.get("dictionary"), list):
+            fm["dictionary"] = parse_dictionary(raw)
+        if not fm.get("dictionary") and rec and (rec.get("data_dictionary") or []):
             fm["dictionary"] = [
                 {"field": x.get("field", ""), "description": x.get("description", "")}
                 for x in rec["data_dictionary"]

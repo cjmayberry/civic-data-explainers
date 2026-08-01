@@ -13,7 +13,21 @@ dataset_id: "b6e78aa9a14c494f827ea0f24418cac7"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Legal Name"
+    description: "Name of business entity that certificate is issued to"
+  - field: "Address"
+    description: "House number and full street name associated with issued certificate"
+  - field: "Certificate"
+    description: "Number associated with issued certificate"
+  - field: "Sector"
+    description: "Sector (NW, NE, SW, SE, Central) within the City of Oklahoma City"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

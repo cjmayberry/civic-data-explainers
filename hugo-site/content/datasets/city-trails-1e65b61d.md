@@ -12,7 +12,35 @@ dataset_id: "1e65b61d07f5458a90d4cfa01e882044"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Trail Name"
+    description: "Name of trail"
+  - field: "Status"
+    description: "Indicates if trail is currently open, partially complete, or under construction"
+  - field: "Rating"
+    description: "Indicates the difficulty of the trail"
+  - field: "Design Use"
+    description: "Indicates the general use the trail was designed for"
+  - field: "Accessible"
+    description: "Indicates the ADA accessibility of the trail"
+  - field: "Motorized"
+    description: "Indicates if motorized vehicles are allowed on trail"
+  - field: "Hike"
+    description: "Indicates if trail is suitable walking or hiking"
+  - field: "Road Bike"
+    description: "Indicates if road bikes are allowed on trail"
+  - field: "Mountain Bike"
+    description: "Indicates if mountain bikes are allowed on trail"
+  - field: "Equestrian"
+    description: "Indicates if horses are allowed on trail"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

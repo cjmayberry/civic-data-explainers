@@ -13,7 +13,31 @@ dataset_id: "1120d3f72fe64245a799851598fb83c6"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Station number"
+    description: "Station number associated with monument"
+  - field: "Easting"
+    description: "East coordinate base on datum (WKID 103512)"
+  - field: "Northing"
+    description: "North coordinate base on datum (WKID 103512)"
+  - field: "Elevation"
+    description: "Elevation above sea level in US feet"
+  - field: "Code"
+    description: "Code associated with monument"
+  - field: "Description"
+    description: "Additional comments about location of monument"
+  - field: "Source"
+    description: "Entity providing information on monument"
+  - field: "Material Code"
+    description: "Code for material of monument"
+  - field: "Size Code"
+    description: "Code used for size of monument"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 
