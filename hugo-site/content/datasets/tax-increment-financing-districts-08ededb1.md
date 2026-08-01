@@ -12,7 +12,21 @@ dataset_id: "08ededb10dcf458ba9ac5588d6d6296a"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "District"
+    description: "Name of TIF district"
+  - field: "Year"
+    description: "Year TIF district was created"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

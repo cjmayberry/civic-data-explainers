@@ -12,7 +12,19 @@ dataset_id: "2d4cd6c3279f48f394329f3367069c61"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Elevation"
+    description: "Elevation above sea level in US feet"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

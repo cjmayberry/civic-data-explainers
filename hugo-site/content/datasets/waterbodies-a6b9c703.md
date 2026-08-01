@@ -12,20 +12,8 @@ dataset_id: "a6b9c70396904437af69a95e49f9671e"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Name"
-    description: "Name of waterbody (if any)"
-  - field: "Type"
-    description: "Type of waterbody"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Area"
-    description: "Approximate area of ward in US square feet"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

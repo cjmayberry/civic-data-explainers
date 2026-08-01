@@ -13,16 +13,8 @@ dataset_id: "fdb1ea86290a4b5187ddd3218dc70140"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Facility Name"
-    description: "Name of police briefing station"
-  - field: "Facility Address"
-    description: "Address of police briefing station"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

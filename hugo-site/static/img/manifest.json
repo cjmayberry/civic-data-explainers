@@ -90,7 +90,7 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-01T17:21:16Z",
+  "generated_at": "2026-08-01T17:22:28Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -103,7 +103,7 @@
       "image_source": "mapbox",
       "image_file": "adopted-streets-0ad77166--transportation--map_real_geometry.png",
       "image_note": "line, 97 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "airport-boundaries-5bea8e9a",
@@ -115,7 +115,7 @@
       "image_source": "mapbox",
       "image_file": "airport-boundaries-5bea8e9a--government--map_real_geometry.png",
       "image_note": "polygon, 4 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "bike-projects-b67f6cb2",
@@ -127,7 +127,7 @@
       "image_source": "mapbox",
       "image_file": "bike-projects-b67f6cb2--infrastructure--map_real_geometry.png",
       "image_note": "line, 40 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "bike-routes-5600dd31",
@@ -139,7 +139,7 @@
       "image_source": "mapbox",
       "image_file": "bike-routes-5600dd31--transportation--map_real_geometry.png",
       "image_note": "line, 253 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "building-footprints-2d4cd6c3",
@@ -151,7 +151,7 @@
       "image_source": "mapbox",
       "image_file": "building-footprints-2d4cd6c3--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 1000 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "bulky-waste-zones-c4455716",
@@ -163,7 +163,7 @@
       "image_source": "mapbox",
       "image_file": "bulky-waste-zones-c4455716--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 17 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "city-boundaries-8699b841",
@@ -175,7 +175,7 @@
       "image_source": "mapbox",
       "image_file": "city-boundaries-8699b841--government--map_real_geometry.png",
       "image_note": "polygon, 16 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "city-facilities-d5c5b7b2",
@@ -187,7 +187,7 @@
       "image_source": "mapbox",
       "image_file": "city-facilities-d5c5b7b2--government--map_real_geometry.png",
       "image_note": "point, 105 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/city-facilities-d5c5b7b2.geojson"
     },
     {
@@ -200,7 +200,7 @@
       "image_source": "mapbox",
       "image_file": "city-trails-1e65b61d--parks-recreation--map_real_geometry.png",
       "image_note": "line, 20 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "council-wards-666b9654",
@@ -212,7 +212,7 @@
       "image_source": "mapbox",
       "image_file": "council-wards-666b9654--government--map_real_geometry.png",
       "image_note": "polygon, 8 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "elevation-contours-1e61c575",
@@ -224,7 +224,7 @@
       "image_source": "mapbox",
       "image_file": "elevation-contours-1e61c575--infrastructure--map_real_geometry.png",
       "image_note": "line, 1000 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "emergency-responses-01c97e29",
@@ -236,7 +236,7 @@
       "image_source": "local_geometry",
       "image_file": "emergency-responses-01c97e29--public-safety--map_real_geometry.svg",
       "image_note": "point, 4 features | mapbox failed: too many points for Mapbox URL even at min count (0 chars)",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/emergency-responses-01c97e29.geojson"
     },
     {
@@ -249,7 +249,7 @@
       "image_source": "mapbox",
       "image_file": "fire-stations-7f57d399--public-safety--map_real_geometry.png",
       "image_note": "point, 38 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/fire-stations-7f57d399.geojson"
     },
     {
@@ -262,7 +262,7 @@
       "image_source": "mapbox",
       "image_file": "garage-sales-a2b13b6d--licensing--map_real_geometry.png",
       "image_note": "point, 84 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/garage-sales-a2b13b6d.geojson"
     },
     {
@@ -275,7 +275,7 @@
       "image_source": "mapbox",
       "image_file": "hotel-motel-tax-b6e78aa9--finance--map_real_geometry.png",
       "image_note": "point, 375 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/hotel-motel-tax-b6e78aa9.geojson"
     },
     {
@@ -288,7 +288,7 @@
       "image_source": "mapbox",
       "image_file": "impervious-surfaces-ad208d72--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 1000 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "index-grid-80e72538",
@@ -300,7 +300,7 @@
       "image_source": "mapbox",
       "image_file": "index-grid-80e72538--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 836 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "land-documents-fd9dbc81",
@@ -312,7 +312,7 @@
       "image_source": "mapbox",
       "image_file": "land-documents-fd9dbc81--infrastructure--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/land-documents-fd9dbc81.geojson"
     },
     {
@@ -325,7 +325,7 @@
       "image_source": "mapbox",
       "image_file": "lots-and-blocks-8861a75c--licensing--map_real_geometry.png",
       "image_note": "polygon, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "non-zoning-parcels-186d9979",
@@ -337,7 +337,7 @@
       "image_source": "mapbox",
       "image_file": "non-zoning-parcels-186d9979--licensing--map_real_geometry.png",
       "image_note": "polygon, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "overlay-parcel-zoning-175708d7",
@@ -349,7 +349,7 @@
       "image_source": "mapbox",
       "image_file": "overlay-parcel-zoning-175708d7--licensing--map_real_geometry.png",
       "image_note": "polygon, 595 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "overlay-point-zoning-e41be4c9",
@@ -361,7 +361,7 @@
       "image_source": "mapbox",
       "image_file": "overlay-point-zoning-e41be4c9--licensing--map_real_geometry.png",
       "image_note": "point, 817 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/overlay-point-zoning-e41be4c9.geojson"
     },
     {
@@ -374,7 +374,7 @@
       "image_source": "mapbox",
       "image_file": "park-facilities-ceaabc8e--parks-recreation--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/park-facilities-ceaabc8e.geojson"
     },
     {
@@ -387,7 +387,7 @@
       "image_source": "mapbox",
       "image_file": "parks-fe9dc8e8--parks-recreation--map_real_geometry.png",
       "image_note": "polygon, 169 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "parks-impact-fees-benefit-areas-08f4c8d6",
@@ -399,7 +399,7 @@
       "image_source": "mapbox",
       "image_file": "parks-impact-fees-benefit-areas-08f4c8d6--licensing--map_real_geometry.png",
       "image_note": "polygon, 5 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "parks-impact-fees-existing-local-service-b8d5a300",
@@ -411,7 +411,7 @@
       "image_source": "mapbox",
       "image_file": "parks-impact-fees-existing-local-service-b8d5a300--licensing--map_real_geometry.png",
       "image_note": "polygon, 1 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "pavement-condition-e80f59ff",
@@ -423,7 +423,7 @@
       "image_source": "mapbox",
       "image_file": "pavement-condition-e80f59ff--transportation--map_real_geometry.png",
       "image_note": "line, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "pedestrian-projects-34783ad4",
@@ -435,7 +435,7 @@
       "image_source": "mapbox",
       "image_file": "pedestrian-projects-34783ad4--infrastructure--map_real_geometry.png",
       "image_note": "line, 233 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "plat-names-6073f066",
@@ -447,7 +447,7 @@
       "image_source": "mapbox",
       "image_file": "plat-names-6073f066--licensing--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/plat-names-6073f066.geojson"
     },
     {
@@ -460,7 +460,7 @@
       "image_source": "mapbox",
       "image_file": "plats-43d820b8--licensing--map_real_geometry.png",
       "image_note": "polygon, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "police-stations-fdb1ea86",
@@ -472,7 +472,7 @@
       "image_source": "mapbox",
       "image_file": "police-stations-fdb1ea86--public-safety--map_real_geometry.png",
       "image_note": "point, 21 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/police-stations-fdb1ea86.geojson"
     },
     {
@@ -485,7 +485,7 @@
       "image_source": "mapbox",
       "image_file": "public-infrastructure-projects-d5e6fb99--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 972 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "public-works-as-builts-d317eb4e",
@@ -497,7 +497,7 @@
       "image_source": "mapbox",
       "image_file": "public-works-as-builts-d317eb4e--infrastructure--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/public-works-as-builts-d317eb4e.geojson"
     },
     {
@@ -510,7 +510,7 @@
       "image_source": "mapbox",
       "image_file": "recycle-zones-0f286e12--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 162 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "sidewalks-bc31068e",
@@ -522,7 +522,7 @@
       "image_source": "mapbox",
       "image_file": "sidewalks-bc31068e--transportation--map_real_geometry.png",
       "image_note": "line, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "snow-routes-a58d4715",
@@ -534,7 +534,7 @@
       "image_source": "mapbox",
       "image_file": "snow-routes-a58d4715--transportation--map_real_geometry.png",
       "image_note": "line, 500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "storm-sewer-headwalls-ac50e5d0",
@@ -546,7 +546,7 @@
       "image_source": "mapbox",
       "image_file": "storm-sewer-headwalls-ac50e5d0--infrastructure--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/storm-sewer-headwalls-ac50e5d0.geojson"
     },
     {
@@ -559,7 +559,7 @@
       "image_source": "mapbox",
       "image_file": "storm-sewer-junctions-35d63012--infrastructure--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/storm-sewer-junctions-35d63012.geojson"
     },
     {
@@ -572,7 +572,7 @@
       "image_source": "mapbox",
       "image_file": "storm-sewer-lines-d97ab7e6--infrastructure--map_real_geometry.png",
       "image_note": "line, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "storm-siren-sectors-58b572ce",
@@ -584,7 +584,7 @@
       "image_source": "mapbox",
       "image_file": "storm-siren-sectors-58b572ce--public-safety--map_real_geometry.png",
       "image_note": "polygon, 48 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "straight-zoning-388d1b1f",
@@ -596,7 +596,7 @@
       "image_source": "mapbox",
       "image_file": "straight-zoning-388d1b1f--licensing--map_real_geometry.png",
       "image_note": "polygon, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "street-centerlines-0e041a93",
@@ -608,7 +608,7 @@
       "image_source": "mapbox",
       "image_file": "street-centerlines-0e041a93--transportation--map_real_geometry.png",
       "image_note": "line, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "street-names-adea21af",
@@ -620,7 +620,7 @@
       "image_source": "mapbox",
       "image_file": "street-names-adea21af--transportation--map_real_geometry.png",
       "image_note": "point, 315 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/street-names-adea21af.geojson"
     },
     {
@@ -633,7 +633,7 @@
       "image_source": "mapbox",
       "image_file": "streets-development-program-benefit-areas-5377697e--licensing--map_real_geometry.png",
       "image_note": "polygon, 14 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "survey-primary-control-points-e6812e22",
@@ -645,7 +645,7 @@
       "image_source": "mapbox",
       "image_file": "survey-primary-control-points-e6812e22--infrastructure--map_real_geometry.png",
       "image_note": "point, 197 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/survey-primary-control-points-e6812e22.geojson"
     },
     {
@@ -658,7 +658,7 @@
       "image_source": "mapbox",
       "image_file": "survey-secondary-control-points-1120d3f7--infrastructure--map_real_geometry.png",
       "image_note": "point, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/survey-secondary-control-points-1120d3f7.geojson"
     },
     {
@@ -671,7 +671,7 @@
       "image_source": "mapbox",
       "image_file": "tax-increment-financing-districts-08ededb1--finance--map_real_geometry.png",
       "image_note": "polygon, 41 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "trail-projects-68777530",
@@ -683,7 +683,7 @@
       "image_source": "mapbox",
       "image_file": "trail-projects-68777530--infrastructure--map_real_geometry.png",
       "image_note": "line, 16 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "trash-collection-zones-45426e5e",
@@ -695,7 +695,7 @@
       "image_source": "mapbox",
       "image_file": "trash-collection-zones-45426e5e--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 366 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "vegetation-points-1fcba99b",
@@ -707,7 +707,7 @@
       "image_source": "mapbox",
       "image_file": "vegetation-points-1fcba99b--infrastructure--map_real_geometry.png",
       "image_note": "point, 1000 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/vegetation-points-1fcba99b.geojson"
     },
     {
@@ -720,7 +720,7 @@
       "image_source": "mapbox",
       "image_file": "vegetation-polygons-a4b7be23--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 1000 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "waterbodies-a6b9c703",
@@ -732,7 +732,7 @@
       "image_source": "mapbox",
       "image_file": "waterbodies-a6b9c703--infrastructure--map_real_geometry.png",
       "image_note": "polygon, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "waterways-7107d3b8",
@@ -744,7 +744,7 @@
       "image_source": "mapbox",
       "image_file": "waterways-7107d3b8--infrastructure--map_real_geometry.png",
       "image_note": "line, 1500 features",
-      "last_updated": "2026-08-01T17:21:16Z"
+      "last_updated": "2026-08-01T17:22:28Z"
     },
     {
       "slug": "work-zones-ead80c5e",
@@ -756,7 +756,7 @@
       "image_source": "mapbox",
       "image_file": "work-zones-ead80c5e--transportation--map_real_geometry.png",
       "image_note": "point, 183 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/work-zones-ead80c5e.geojson"
     },
     {
@@ -769,7 +769,7 @@
       "image_source": "mapbox",
       "image_file": "zoning-definitions-f14a8053--licensing--map_real_geometry.png",
       "image_note": "point, 817 features",
-      "last_updated": "2026-08-01T17:21:16Z",
+      "last_updated": "2026-08-01T17:22:28Z",
       "map_data": "data/zoning-definitions-f14a8053.geojson"
     }
   ]

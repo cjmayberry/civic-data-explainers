@@ -13,18 +13,8 @@ dataset_id: "f14a80531b914852ba8870c37b41e1d8"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Zoning Layer"
-    description: "Name of dataset that the record applies to"
-  - field: "Zoning Code"
-    description: "Abbreviated zoning code"
-  - field: "Zoning Description"
-    description: "Full zoning code"
-  - field: "Zoning Definition"
-    description: "Definition of zoning code"
 ---
+
 
 
 

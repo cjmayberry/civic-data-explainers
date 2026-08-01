@@ -13,20 +13,8 @@ dataset_id: "ac50e5d0600e428d8618b5e2dc48782d"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Sub Type"
-    description: "Type of headwall"
-  - field: "Project Number"
-    description: "Public Works project number associated with headwall"
-  - field: "Location"
-    description: "Text description of location"
-  - field: "Comments"
-    description: "Comments related to headwall"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

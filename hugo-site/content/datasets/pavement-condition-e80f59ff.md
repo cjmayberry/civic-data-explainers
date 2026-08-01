@@ -12,7 +12,27 @@ dataset_id: "e80f59ff3b374307a28e634ac0a92c41"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "PCI"
+    description: "Pavement condition index for street segment"
+  - field: "Street Type"
+    description: "Classification of street"
+  - field: "Surface Type"
+    description: "Type of surface of street"
+  - field: "Street"
+    description: "Name of street"
+  - field: "From"
+    description: "Starting position, typically a cross street, for street segment"
+  - field: "To"
+    description: "Ending position, typically a cross street, for street segment"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of feature in US feet"
 ---
+
 
 
 

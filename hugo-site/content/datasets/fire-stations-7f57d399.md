@@ -13,7 +13,17 @@ dataset_id: "7f57d399cbd1468d877a8411205a671d"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Facility Name"
+    description: "Numeric identifier of fire station"
+  - field: "Facility Address"
+    description: "Address of fire station"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

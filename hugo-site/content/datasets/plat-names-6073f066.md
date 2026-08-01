@@ -13,14 +13,8 @@ dataset_id: "6073f066182b4a3c87f8efc001ab0ee3"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Plat Code"
-    description: "Numeric number associated with plat"
-  - field: "Plat Name"
-    description: "Name of plat"
 ---
+
 
 
 
