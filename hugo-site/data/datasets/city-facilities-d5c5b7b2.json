@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "Address",
+  "FacilityType",
+  "FacilityName",
+  "FacilityInfo"
+ ],
+ "rows": [
+  {
+   "Address": "4343 S LAKE HEFNER DR",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 30",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "16820 N PENNSYLVANIA AVE",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 37",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "11601 N MACARTHUR BLVD",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 3",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "2817 NW 122ND ST",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 15",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "11630 SW 15TH ST",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 33",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "7929 SW 29TH ST",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 20",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "17700 SE 104TH ST",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 36",
+   "FacilityInfo": ""
+  },
+  {
+   "Address": "13017 S MAY AVE",
+   "FacilityType": "Fire",
+   "FacilityName": "Firest Station 35",
+   "FacilityInfo": ""
+  }
+ ]
+}

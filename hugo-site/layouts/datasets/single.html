@@ -72,6 +72,25 @@
   </section>
   {{ end }}
 
+  {{ with index $.Site.Data.datasets .File.ContentBaseName }}
+  {{ $data := . }}
+  <section class="sample-data">
+    <h2>From the source — real records</h2>
+    <p class="dictionary-note">Unedited rows from Oklahoma City's published service, pulled when this site was built.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr>{{ range .fields }}<th>{{ . }}</th>{{ end }}</tr></thead>
+        <tbody>
+          {{ range .rows }}
+          {{ $row := . }}
+          <tr>{{ range $f := $data.fields }}<td>{{ index $row $f }}</td>{{ end }}</tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{ end }}
+
   <section class="lookup">
     <h2>Look it up yourself</h2>
     <p>Everything on this page comes from the city's public open-data catalog. Anyone can download it — CSV, GeoJSON, KML, or the live service.</p>

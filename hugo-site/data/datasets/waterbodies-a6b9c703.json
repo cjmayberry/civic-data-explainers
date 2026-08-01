@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "NAME",
+  "SUBTYPE",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "NAME": "",
+   "SUBTYPE": 1,
+   "Shape__Area": 262034.53727668646,
+   "Shape__Length": 1911.7471703327817
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 13947.455314222825,
+   "Shape__Length": 439.23276382999046
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 183579.71786751927,
+   "Shape__Length": 3443.4744177864577
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 864488.817680072,
+   "Shape__Length": 6661.843923115804
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 62557.939973590335,
+   "Shape__Length": 1389.7858241961178
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 83919.90327539253,
+   "Shape__Length": 1428.5584623374857
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 199351.2103285737,
+   "Shape__Length": 2300.42220736686
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Area": 67880.04616645216,
+   "Shape__Length": 1415.133443645885
+  }
+ ]
+}

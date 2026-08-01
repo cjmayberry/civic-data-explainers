@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "Name",
+  "Facility_Type",
+  "Status",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Name": "S Grand Blvd Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 46028.46543680162
+  },
+  {
+   "Name": "S Grand Blvd Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 21.470447817911364
+  },
+  {
+   "Name": "S Grand Blvd Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 8837.347180787996
+  },
+  {
+   "Name": " ",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 953.0324374864616
+  },
+  {
+   "Name": "East River Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 8370.7688133873
+  },
+  {
+   "Name": "Katy Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 16477.128636407986
+  },
+  {
+   "Name": "West River Trail",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 40877.241606276744
+  },
+  {
+   "Name": "Lake Overholser E",
+   "Facility_Type": "Multi-use Trail",
+   "Status": "Existing",
+   "Shape__Length": 15693.98244891651
+  }
+ ]
+}

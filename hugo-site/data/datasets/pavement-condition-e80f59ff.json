@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "PCICurrent",
+  "RANK",
+  "SURFACE",
+  "XSTREET_NA",
+  "BEGDESC",
+  "ENDDESC"
+ ],
+ "rows": [
+  {
+   "PCICurrent": -1,
+   "RANK": "Rural Arterial",
+   "SURFACE": "GRAVEL",
+   "XSTREET_NA": "SW 104TH ST",
+   "BEGDESC": "GREGORY RD",
+   "ENDDESC": "CIMARRON RD"
+  },
+  {
+   "PCICurrent": -1,
+   "RANK": "Rural Arterial",
+   "SURFACE": "GRAVEL",
+   "XSTREET_NA": "SW 89TH ST",
+   "BEGDESC": "GREGORY RD",
+   "ENDDESC": "CIMARRON RD"
+  },
+  {
+   "PCICurrent": -1,
+   "RANK": "Rural Arterial",
+   "SURFACE": "GRAVEL",
+   "XSTREET_NA": "S GREGORY RD",
+   "BEGDESC": "SW 104TH ST",
+   "ENDDESC": "SW 89TH ST"
+  },
+  {
+   "PCICurrent": -1,
+   "RANK": "Rural Arterial",
+   "SURFACE": "GRAVEL",
+   "XSTREET_NA": "S GREGORY RD",
+   "BEGDESC": "SW 89TH ST",
+   "ENDDESC": "SW 74TH ST"
+  },
+  {
+   "PCICurrent": 48.8,
+   "RANK": "Rural Arterial",
+   "SURFACE": "ASPHALTIC CONCRETE",
+   "XSTREET_NA": "SW 59TH ST",
+   "BEGDESC": "GREGORY RD",
+   "ENDDESC": "CIMARRON RD"
+  },
+  {
+   "PCICurrent": 80,
+   "RANK": "Rural Arterial",
+   "SURFACE": "ASPHALTIC CONCRETE",
+   "XSTREET_NA": "S GREGORY RD",
+   "BEGDESC": "SW 74TH ST (HWY 152)",
+   "ENDDESC": "SW 59TH ST"
+  },
+  {
+   "PCICurrent": -1,
+   "RANK": "Rural Arterial",
+   "SURFACE": "GRAVEL",
+   "XSTREET_NA": "SW 44TH ST",
+   "BEGDESC": "GREGORY RD",
+   "ENDDESC": "CIMARRON RD"
+  },
+  {
+   "PCICurrent": 70,
+   "RANK": "Rural Arterial",
+   "SURFACE": "CHIP & OIL",
+   "XSTREET_NA": "S GREGORY RD",
+   "BEGDESC": "SW 59TH ST",
+   "ENDDESC": "SW 44TH ST"
+  }
+ ]
+}

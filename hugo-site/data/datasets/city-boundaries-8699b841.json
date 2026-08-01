@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "CITYNAME",
+  "FIPS",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "CITYNAME": "Woodlawn Park",
+   "FIPS": 82000,
+   "Shape__Area": 3482860.3673593807,
+   "Shape__Length": 7917.062111633545
+  },
+  {
+   "CITYNAME": "Sportsmans Club",
+   "FIPS": 99991,
+   "Shape__Area": 2183632.1703472594,
+   "Shape__Length": 6213.208683034444
+  },
+  {
+   "CITYNAME": "Bethany",
+   "FIPS": 5700,
+   "Shape__Area": 1998171.1361743435,
+   "Shape__Length": 6688.830538853525
+  },
+  {
+   "CITYNAME": "Stockyards",
+   "FIPS": 99992,
+   "Shape__Area": 6889597.621758995,
+   "Shape__Length": 13399.038733545458
+  },
+  {
+   "CITYNAME": "Lake Aluma",
+   "FIPS": 40800,
+   "Shape__Area": 7719869.058326329,
+   "Shape__Length": 12201.451375128072
+  },
+  {
+   "CITYNAME": "Forest Park",
+   "FIPS": 26850,
+   "Shape__Area": 52734301.912502676,
+   "Shape__Length": 43221.90209722542
+  },
+  {
+   "CITYNAME": "The Village",
+   "FIPS": 73250,
+   "Shape__Area": 71301755.33271584,
+   "Shape__Length": 38949.0074750306
+  },
+  {
+   "CITYNAME": "Warr Acres",
+   "FIPS": 78500,
+   "Shape__Area": 78945396.40365054,
+   "Shape__Length": 62170.69950656934
+  }
+ ]
+}

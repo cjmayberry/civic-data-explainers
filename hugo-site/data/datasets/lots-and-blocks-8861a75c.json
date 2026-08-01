@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "PLAT_CODE",
+  "BlockNum",
+  "LotNum",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "PLAT_CODE": 3597,
+   "BlockNum": "127",
+   "LotNum": "37",
+   "Shape__Area": 3499.994202080931,
+   "Shape__Length": 329.99999616666673
+  },
+  {
+   "PLAT_CODE": 3597,
+   "BlockNum": "127",
+   "LotNum": "36",
+   "Shape__Area": 3499.994202080931,
+   "Shape__Length": 329.99999616666673
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "93",
+   "LotNum": "12",
+   "Shape__Area": 3499.9288998504244,
+   "Shape__Length": 329.98720373051356
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "93",
+   "LotNum": "13",
+   "Shape__Area": 3499.9420060967814,
+   "Shape__Length": 329.98770389591033
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "93",
+   "LotNum": "14",
+   "Shape__Area": 3499.9371019173536,
+   "Shape__Length": 329.98785988362215
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "93",
+   "LotNum": "15",
+   "Shape__Area": 3499.9420060967814,
+   "Shape__Length": 329.9877038959103
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "91",
+   "LotNum": "45",
+   "Shape__Area": 3499.829342849886,
+   "Shape__Length": 329.9774510253581
+  },
+  {
+   "PLAT_CODE": 1162,
+   "BlockNum": "91",
+   "LotNum": "44",
+   "Shape__Area": 3499.829342849886,
+   "Shape__Length": 329.97745102535805
+  }
+ ]
+}

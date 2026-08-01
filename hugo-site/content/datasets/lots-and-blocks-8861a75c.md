@@ -12,22 +12,8 @@ dataset_id: "8861a75c02214e6dae3bf9c094fab65f"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Plat Name"
-    description: "Name of plat associated with record"
-  - field: "Block Number"
-    description: "Numeric number for block"
-  - field: "Lot Number"
-    description: "Numeric number for lot"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 ## What this is  
 This dataset tracks the official lot and block numbers for platted properties in Oklahoma City.  

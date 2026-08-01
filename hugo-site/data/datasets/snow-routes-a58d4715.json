@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Quadarant",
+  "location1",
+  "location2",
+  "MaintainedBy",
+  "RouteType",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Quadarant": "SW",
+   "location1": "Exchange AVE",
+   "location2": "over Oklahoma River/I-40/RR",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 1812.0644148149338
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Pennslyvania AVE",
+   "location2": "over Oklahoma River",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 955.7455619502598
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Agnew",
+   "location2": "over Oklahoma River",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 813.8991782073876
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "May AVE",
+   "location2": "over Oklahoma River",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 899.4478838213219
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Portland AVE",
+   "location2": "over Oklahoma River",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 565.6058131545594
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Meridian AVE",
+   "location2": "over Oklahoma River",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 614.6098002209632
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Meridian AVE",
+   "location2": "over Airport Rd",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 643.856892441559
+  },
+  {
+   "Quadarant": "SW",
+   "location1": "Meridian AVE",
+   "location2": "over SW 54th",
+   "MaintainedBy": "City of Oklahoma City",
+   "RouteType": "Bridge",
+   "Shape__Length": 409.5026316797954
+  }
+ ]
+}

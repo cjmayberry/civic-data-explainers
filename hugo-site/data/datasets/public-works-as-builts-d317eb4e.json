@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "AsBuiltID",
+  "AsBuiltType",
+  "AsBuiltDescription"
+ ],
+ "rows": [
+  {
+   "AsBuiltID": "BC-0042",
+   "AsBuiltType": "BC - Private Bridge",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0053",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0054",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0061",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0083 Set 1",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0089",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0086",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  },
+  {
+   "AsBuiltID": "BC-0087",
+   "AsBuiltType": "",
+   "AsBuiltDescription": ""
+  }
+ ]
+}

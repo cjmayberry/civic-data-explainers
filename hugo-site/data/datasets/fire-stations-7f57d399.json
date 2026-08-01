@@ -1,0 +1,40 @@
+{
+ "fields": [
+  "STATION_NO",
+  "STATION_ADDR"
+ ],
+ "rows": [
+  {
+   "STATION_NO": 30,
+   "STATION_ADDR": "4343 S LAKE HEFNER DR"
+  },
+  {
+   "STATION_NO": 37,
+   "STATION_ADDR": "16820 N PENNSYLVANIA AVE"
+  },
+  {
+   "STATION_NO": 3,
+   "STATION_ADDR": "11601 N MACARTHUR BLVD"
+  },
+  {
+   "STATION_NO": 15,
+   "STATION_ADDR": "2817 NW 122ND ST"
+  },
+  {
+   "STATION_NO": 33,
+   "STATION_ADDR": "11630 SW 15TH ST"
+  },
+  {
+   "STATION_NO": 20,
+   "STATION_ADDR": "7929 SW 29TH ST"
+  },
+  {
+   "STATION_NO": 36,
+   "STATION_ADDR": "17700 SE 104TH ST"
+  },
+  {
+   "STATION_NO": 35,
+   "STATION_ADDR": "13017 S MAY AVE"
+  }
+ ]
+}

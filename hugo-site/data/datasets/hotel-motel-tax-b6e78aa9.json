@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "LegalName",
+  "Address",
+  "Certificate",
+  "Sector"
+ ],
+ "rows": [
+  {
+   "LegalName": "Buntz",
+   "Address": "3031 W WILSHIRE BLVD",
+   "Certificate": 3712,
+   "Sector": "NW"
+  },
+  {
+   "LegalName": "Executive Inn  NW Expressway",
+   "Address": "6410 NW EXPRESSWAY",
+   "Certificate": 325,
+   "Sector": "NW"
+  },
+  {
+   "LegalName": "Motel 6",
+   "Address": "6600 NW EXPRESSWAY",
+   "Certificate": 280,
+   "Sector": "NW"
+  },
+  {
+   "LegalName": "Motel 6",
+   "Address": "6600 NW EXPRESSWAY",
+   "Certificate": 282,
+   "Sector": "NW"
+  },
+  {
+   "LegalName": "Courtesy Inn",
+   "Address": "6600 NW EXPRESSWAY",
+   "Certificate": 348,
+   "Sector": "NW"
+  },
+  {
+   "LegalName": "Executive Inn",
+   "Address": "7412 N BRYANT AVE",
+   "Certificate": 400,
+   "Sector": "NE"
+  },
+  {
+   "LegalName": "Stephanie Anderson",
+   "Address": "6513 N MISSOURI AVE",
+   "Certificate": 6778,
+   "Sector": "NE"
+  },
+  {
+   "LegalName": "Home2 Suites by Hilton",
+   "Address": "4110 NW EXPRESSWAY",
+   "Certificate": 678,
+   "Sector": "NW"
+  }
+ ]
+}

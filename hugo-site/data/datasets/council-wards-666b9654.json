@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "WARD",
+  "Council_Member",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "WARD": 5,
+   "Council_Member": "Matt Hinkle",
+   "Shape__Area": 838390128.1876762,
+   "Shape__Length": 139904.88691641483
+  },
+  {
+   "WARD": 2,
+   "Council_Member": "James Cooper",
+   "Shape__Area": 665041278.620936,
+   "Shape__Length": 200437.95770176532
+  },
+  {
+   "WARD": 1,
+   "Council_Member": "Bradley Carter",
+   "Shape__Area": 1944267858.6782475,
+   "Shape__Length": 277408.04101956036
+  },
+  {
+   "WARD": 8,
+   "Council_Member": "Mark Stonecipher",
+   "Shape__Area": 1042493544.7172616,
+   "Shape__Length": 193303.40828128654
+  },
+  {
+   "WARD": 7,
+   "Council_Member": "Camal Pennington",
+   "Shape__Area": 3732144020.491514,
+   "Shape__Length": 515901.5163972902
+  },
+  {
+   "WARD": 3,
+   "Council_Member": "Katrina Avers",
+   "Shape__Area": 3947711081.3094273,
+   "Shape__Length": 413984.1237919682
+  },
+  {
+   "WARD": 6,
+   "Council_Member": "JoBeth Hamon",
+   "Shape__Area": 619250506.1938797,
+   "Shape__Length": 122244.48654312376
+  },
+  {
+   "WARD": 4,
+   "Council_Member": "Todd Stone",
+   "Shape__Area": 4532674720.632243,
+   "Shape__Length": 424239.2829669683
+  }
+ ]
+}

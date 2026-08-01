@@ -1,0 +1,16 @@
+{
+ "fields": [
+  "ParkServed",
+  "Impact_Fee_Factor",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "ParkServed": 1,
+   "Impact_Fee_Factor": 5,
+   "Shape__Area": 2168650544.5529265,
+   "Shape__Length": 1781493.1921769977
+  }
+ ]
+}

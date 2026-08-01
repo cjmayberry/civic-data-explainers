@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "P_CASE",
+  "P_ZONE",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 31938.693924734413,
+   "Shape__Length": 842.8026873264184
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 20702.141922312177,
+   "Shape__Length": 595.6737415626131
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 78484.27144626126,
+   "Shape__Length": 1261.8508852155362
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 69895.2192111657,
+   "Shape__Length": 1137.3026216314593
+  },
+  {
+   "P_CASE": "",
+   "P_ZONE": "R-1",
+   "Shape__Area": 302.1751495721034,
+   "Shape__Length": 127.82142365655439
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 31485.351774875384,
+   "Shape__Length": 815.4164969153402
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 37296.39524674784,
+   "Shape__Length": 915.7340672859733
+  },
+  {
+   "P_CASE": " ",
+   "P_ZONE": "R-1",
+   "Shape__Area": 27179.704361730834,
+   "Shape__Length": 728.3793371536253
+  }
+ ]
+}

@@ -12,22 +12,8 @@ dataset_id: "45426e5e1b31489db9afea603870f724"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Route"
-    description: "Alphanumeric name of pickup route"
-  - field: "Pickup Day"
-    description: "Day of week/month that route normally runs"
-  - field: "Service Provider"
-    description: "Name of entity providing actually service"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 ## What this is  
 This dataset shows where and when trash gets picked up across Oklahoma City.

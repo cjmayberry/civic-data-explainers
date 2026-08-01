@@ -12,16 +12,8 @@ dataset_id: "a4b7be23add94d6a9f03cd8b7249130a"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
 ---
+
 
 ## What this is  
 A map of tree canopies and other vegetation areas from 2015 laser scans of the city.

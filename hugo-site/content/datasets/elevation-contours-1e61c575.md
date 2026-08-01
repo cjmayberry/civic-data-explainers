@@ -12,18 +12,8 @@ dataset_id: "1e61c57573004a83a6f1694aa0e94f84"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Elevation"
-    description: "Elevation above sea level in US feet"
-  - field: "Contour Type"
-    description: "Indicates if the contour line is primary or intermediate"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of feature in US feet"
 ---
+
 
 ## What this is  
 This dataset shows elevation lines across the city, marking how high the land is above sea level.

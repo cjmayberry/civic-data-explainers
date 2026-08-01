@@ -12,20 +12,8 @@ dataset_id: "b8d5a30010d94401b6be773a0786c05f"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Park Served"
-    description: "number used in fee calculation"
-  - field: "Calculator"
-    description: "enumeration used in fee calculation"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
 ---
+
 
 ## What this is  
 This dataset tracks areas in Oklahoma City that are exempt from paying park development fees.  

@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "SUBTYPE",
+  "PROJECTNUMBER",
+  "MATERIAL",
+  "NAME",
+  "NOMINALSIZE",
+  "Location"
+ ],
+ "rows": [
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  },
+  {
+   "SUBTYPE": "",
+   "PROJECTNUMBER": "",
+   "MATERIAL": "",
+   "NAME": "",
+   "NOMINALSIZE": "",
+   "Location": ""
+  }
+ ]
+}

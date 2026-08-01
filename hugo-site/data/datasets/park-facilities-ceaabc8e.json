@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "PK_LOCATION",
+  "Facility_Name",
+  "Facility_Class",
+  "Facility_Type",
+  "Facility_Subtype",
+  "Address"
+ ],
+ "rows": [
+  {
+   "PK_LOCATION": "E.B. Jeffrey Park",
+   "Facility_Name": "E.B. Jeffrey Park Sprayground",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Sprayground",
+   "Facility_Subtype": " ",
+   "Address": "4432 NW 16TH ST"
+  },
+  {
+   "PK_LOCATION": "Youngs Park",
+   "Facility_Name": "Youngs Park Sprayground",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Sprayground",
+   "Facility_Subtype": " ",
+   "Address": "4610 S YOUNGS BLVD"
+  },
+  {
+   "PK_LOCATION": "Foster Center",
+   "Facility_Name": "Henrietta B. Foster Indoor Pool",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Swimming Pool",
+   "Facility_Subtype": " ",
+   "Address": "614 NE 4TH ST"
+  },
+  {
+   "PK_LOCATION": "Earlywine Park",
+   "Facility_Name": "Earlywine Aquatic Center",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Aquatic Center",
+   "Facility_Subtype": " ",
+   "Address": "3033 SW 119TH ST"
+  },
+  {
+   "PK_LOCATION": "McCracken Park",
+   "Facility_Name": "McCracken Sprayground",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Sprayground",
+   "Facility_Subtype": " ",
+   "Address": "424 SE 64TH ST"
+  },
+  {
+   "PK_LOCATION": "North Highland Park",
+   "Facility_Name": "North Highland Park Sprayground",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Sprayground",
+   "Facility_Subtype": " ",
+   "Address": "301 NW 81ST ST"
+  },
+  {
+   "PK_LOCATION": "Will Rogers Park",
+   "Facility_Name": "Will Rogers Park Aquatic Center",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Aquatic Center",
+   "Facility_Subtype": " ",
+   "Address": "3201 N GRAND BLVD"
+  },
+  {
+   "PK_LOCATION": "Interactive Fountain ",
+   "Facility_Name": "Canal Interactive Fountain ",
+   "Facility_Class": "Aquatic Facility",
+   "Facility_Type": "Sprayground",
+   "Facility_Subtype": " ",
+   "Address": "4 E SHERIDAN AVE"
+  }
+ ]
+}

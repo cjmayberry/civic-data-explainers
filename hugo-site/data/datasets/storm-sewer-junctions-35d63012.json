@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "SUBTYPE",
+  "PROJECTNUMBER",
+  "INLETSIZE",
+  "Location",
+  "COMMENT"
+ ],
+ "rows": [
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": " ",
+   "INLETSIZE": "",
+   "Location": "",
+   "COMMENT": " "
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": "65E87",
+   "INLETSIZE": "4",
+   "Location": "NW 28th & N Youngs Blvd",
+   "COMMENT": " "
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": " ",
+   "INLETSIZE": "",
+   "Location": "",
+   "COMMENT": " "
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": " ",
+   "INLETSIZE": "4",
+   "Location": "",
+   "COMMENT": " "
+  },
+  {
+   "SUBTYPE": 1,
+   "PROJECTNUMBER": "64E114",
+   "INLETSIZE": "",
+   "Location": "NW 23rd & N Pennsylvania Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": " ",
+   "INLETSIZE": "",
+   "Location": "",
+   "COMMENT": " "
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": "64E114",
+   "INLETSIZE": "",
+   "Location": "NW 23rd & N Pennsylvania Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 2,
+   "PROJECTNUMBER": " ",
+   "INLETSIZE": "",
+   "Location": "",
+   "COMMENT": "Check survey"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "TEXT",
+  "Year",
+  "Shape__Area",
+  "Shape__Length",
+  "ID",
+  "Name"
+ ],
+ "rows": [
+  {
+   "TEXT": "Classen Corridor",
+   "Year": "",
+   "Shape__Area": 174940.93062576719,
+   "Shape__Length": 1700.8068710097098,
+   "ID": "Classen B",
+   "Name": "Classen Corridor"
+  },
+  {
+   "TEXT": "Classen Corridor",
+   "Year": "",
+   "Shape__Area": 3088277.53904964,
+   "Shape__Length": 26398.21760054805,
+   "ID": "Classen D",
+   "Name": "Classen Corridor"
+  },
+  {
+   "TEXT": "Classen Corridor",
+   "Year": "",
+   "Shape__Area": 1265345.8371452077,
+   "Shape__Length": 13682.074620517476,
+   "ID": "Classen C",
+   "Name": "Classen Corridor"
+  },
+  {
+   "TEXT": "Classen Corridor",
+   "Year": "",
+   "Shape__Area": 4512805.727102689,
+   "Shape__Length": 30354.649428049317,
+   "ID": "Classen A",
+   "Name": "Classen Corridor"
+  },
+  {
+   "TEXT": "Core to Shore",
+   "Year": "",
+   "Shape__Area": 5614871.551829036,
+   "Shape__Length": 10450.273237007472,
+   "ID": "C2S C",
+   "Name": "Core to Shore"
+  },
+  {
+   "TEXT": "Core to Shore",
+   "Year": "",
+   "Shape__Area": 76575.44492148097,
+   "Shape__Length": 2165.2154113366687,
+   "ID": "C2S J",
+   "Name": "Core to Shore"
+  },
+  {
+   "TEXT": "Core to Shore",
+   "Year": "",
+   "Shape__Area": 12554607.1098931,
+   "Shape__Length": 17048.395357710895,
+   "ID": "C2S H",
+   "Name": "Core to Shore"
+  },
+  {
+   "TEXT": "Core to Shore (A)",
+   "Year": "",
+   "Shape__Area": 7987111.480382737,
+   "Shape__Length": 18109.65523046424,
+   "ID": "TIF 13",
+   "Name": "Core to Shore (A)"
+  }
+ ]
+}

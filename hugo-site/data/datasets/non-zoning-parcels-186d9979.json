@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "CODE",
+  "USERCODE",
+  "DESCRIPTION",
+  "ORDNUM",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-464",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 7467.166026934956,
+   "Shape__Length": 735.7608195186843
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-367",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 3455.1810972368335,
+   "Shape__Length": 349.55124433216326
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-232",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 7958.931815743425,
+   "Shape__Length": 405.17578128636615
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-217",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 3670.984482729894,
+   "Shape__Length": 369.45672740869935
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-501",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "21029",
+   "Shape__Area": 7527.366890314239,
+   "Shape__Length": 810.2342264359463
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-501",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 6479.492503846716,
+   "Shape__Length": 636.6003161262576
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-448",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "20643",
+   "Shape__Area": 4919.150864635194,
+   "Shape__Length": 632.7001553593856
+  },
+  {
+   "CODE": "CE",
+   "USERCODE": "CE-289",
+   "DESCRIPTION": "Closed Easement",
+   "ORDNUM": "",
+   "Shape__Area": 6008.853225043823,
+   "Shape__Length": 640.61235517756
+  }
+ ]
+}

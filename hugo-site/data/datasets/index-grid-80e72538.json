@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "FGRID",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "FGRID": 4559,
+   "Shape__Area": 28009794.579864338,
+   "Shape__Length": 21170.04024950381
+  },
+  {
+   "FGRID": 4459,
+   "Shape__Area": 27939245.973956108,
+   "Shape__Length": 21143.211664939914
+  },
+  {
+   "FGRID": 4359,
+   "Shape__Area": 27453041.14301182,
+   "Shape__Length": 20959.112198171562
+  },
+  {
+   "FGRID": 4259,
+   "Shape__Area": 27968151.81179287,
+   "Shape__Length": 21154.284846753162
+  },
+  {
+   "FGRID": 4159,
+   "Shape__Area": 27822119.702590577,
+   "Shape__Length": 21099.038989832123
+  },
+  {
+   "FGRID": 4558,
+   "Shape__Area": 28784256.682334255,
+   "Shape__Length": 21463.225690618412
+  },
+  {
+   "FGRID": 4458,
+   "Shape__Area": 28693189.316349756,
+   "Shape__Length": 21427.800086590953
+  },
+  {
+   "FGRID": 4358,
+   "Shape__Area": 27738131.853510447,
+   "Shape__Length": 21068.936216586986
+  }
+ ]
+}

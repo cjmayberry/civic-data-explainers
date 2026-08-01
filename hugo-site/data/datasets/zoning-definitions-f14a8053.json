@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "CODE",
+  "USERCODE",
+  "DESCRIPTION",
+  "ORDNUM"
+ ],
+ "rows": [
+  {
+   "CODE": "ABC-1",
+   "USERCODE": "ABC-1-39",
+   "DESCRIPTION": "Restaurant with Limited Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-3",
+   "USERCODE": "ABC-3-172",
+   "DESCRIPTION": "Club with Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-3",
+   "USERCODE": "ABC-3-339",
+   "DESCRIPTION": "Club with Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-1",
+   "USERCODE": "ABC-1-126",
+   "DESCRIPTION": "Restaurant with Limited Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-2",
+   "USERCODE": "ABC-2-251",
+   "DESCRIPTION": "Restaurant with Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-3",
+   "USERCODE": "ABC-3-48",
+   "DESCRIPTION": "Club with Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-1",
+   "USERCODE": "ABC-1-326",
+   "DESCRIPTION": "Restaurant with Limited Alcohol",
+   "ORDNUM": ""
+  },
+  {
+   "CODE": "ABC-3",
+   "USERCODE": "ABC-3-72",
+   "DESCRIPTION": "Club with Alcohol",
+   "ORDNUM": ""
+  }
+ ]
+}

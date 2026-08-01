@@ -1,7 +1,7 @@
 ---
 title: "Streets Development Program  - Benefit Areas"
 date: "2026-06-09"
-description: "Approximate area of feature in US square feet"
+description: "This dataset can be used to view information on street development benefit areas within the City of Oklahoma City.  More information about development fees can be found on okc.gov."
 teaser: "A dataset showing where street development projects are planned in the city"
 tags: ["okc", "oklahoma city", "streets", "impact fees", "benefit areas"]
 categories: ["Licensing"]
@@ -12,7 +12,23 @@ dataset_id: "5377697e59b34ad1a749063b73205886"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Benefit Area"
+    description: "Classification of benefit area"
+  - field: "Category"
+    description: "Type of benefit area"
+  - field: "Calculator"
+    description: "Enumeration used in fee calculation"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
 ---
+
 
 ## What this is  
 A dataset showing where street development projects are planned in the city.

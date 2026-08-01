@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "Adopted_Street",
+  "Adopting_Organization",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Adopted_Street": "M L King from NE 10 to NE 23",
+   "Adopting_Organization": "Avery Chapel AME Church-Sons of Allen",
+   "Shape__Length": 5269.13957201033
+  },
+  {
+   "Adopted_Street": "MacArthur Blvd between W Memorial Rd and NW 150th St",
+   "Adopting_Organization": "BSA (Boy Scouts of America) Troop 177 (Church of the Servant)",
+   "Shape__Length": 4993.505807261027
+  },
+  {
+   "Adopted_Street": "SW 15th St from I-44 to Portland Ave.",
+   "Adopting_Organization": "Dell Technologies Planet ERG",
+   "Shape__Length": 3627.186688414804
+  },
+  {
+   "Adopted_Street": "NE Grand Blvd from NE 10 to NE 23",
+   "Adopting_Organization": "OKC Alumnae Delta Ch. of Sigma Theta Sorority",
+   "Shape__Length": 5356.287843969354
+  },
+  {
+   "Adopted_Street": "SE 44th St between South Sooner Road and South Sunnylane Road",
+   "Adopting_Organization": "SCW-1 FCPOA",
+   "Shape__Length": 5287.771044566935
+  },
+  {
+   "Adopted_Street": "NE 50th Street between North Post Road and North Westminister Road",
+   "Adopting_Organization": "Jones Chapel Church",
+   "Shape__Length": 5168.235602628793
+  },
+  {
+   "Adopted_Street": "SE 89th Street between South Shields Boulevard and Santa Fe Avenue",
+   "Adopting_Organization": "Myrtle Masonic Lodge #145",
+   "Shape__Length": 2614.1991320580146
+  },
+  {
+   "Adopted_Street": "Lincoln Blvd. Between NE 10th to NE 36th",
+   "Adopting_Organization": "Aaron Shirazi",
+   "Shape__Length": 10800.447147271932
+  }
+ ]
+}

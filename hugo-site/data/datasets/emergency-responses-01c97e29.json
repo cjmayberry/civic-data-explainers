@@ -1,0 +1,46 @@
+{
+ "fields": [
+  "InfoTitle",
+  "Call_Type",
+  "Address",
+  "Reported_Time"
+ ],
+ "rows": [
+  {
+   "InfoTitle": "Fire Response",
+   "Call_Type": "Fire:  Alarm Fire Auto",
+   "Address": "2317 NW 28TH ST",
+   "Reported_Time": "Aug  1 2026 12:08PM"
+  },
+  {
+   "InfoTitle": "Non-Injury Accident",
+   "Call_Type": "Non-Injury Accident",
+   "Address": "4235 S EASTERN AVE",
+   "Reported_Time": "Aug  1 2026 11:46AM"
+  },
+  {
+   "InfoTitle": "Non-Injury Accident",
+   "Call_Type": "Non-Injury Accident",
+   "Address": "5924 S SUNNYLANE RD",
+   "Reported_Time": "Aug  1 2026 12:00PM"
+  },
+  {
+   "InfoTitle": "Fire Response",
+   "Call_Type": "Fire:  CO Detector",
+   "Address": "8216 NW 152ND TER",
+   "Reported_Time": "Aug  1 2026 12:06PM"
+  },
+  {
+   "InfoTitle": "Injury Accident",
+   "Call_Type": "Injury Accident",
+   "Address": "NW 10TH ST / SHEDECK PKWY",
+   "Reported_Time": "Aug  1 2026 12:14PM"
+  },
+  {
+   "InfoTitle": "Fire Response",
+   "Call_Type": "Fire:  Collision w Inj",
+   "Address": "NW 10TH ST / SHEDECK PKWY",
+   "Reported_Time": "Aug  1 2026 12:14PM"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "PlatCode",
+  "PlatNum",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "PlatCode": 4041,
+   "PlatNum": 4041,
+   "Shape__Area": 6759611.436307389,
+   "Shape__Length": 10410.28771760915
+  },
+  {
+   "PlatCode": 3230,
+   "PlatNum": 3230,
+   "Shape__Area": 6738558.2169783525,
+   "Shape__Length": 10444.17987431726
+  },
+  {
+   "PlatCode": 4374,
+   "PlatNum": 4374,
+   "Shape__Area": 6815140.511177045,
+   "Shape__Length": 10452.29974776925
+  },
+  {
+   "PlatCode": 3250,
+   "PlatNum": 3250,
+   "Shape__Area": 2062045.8788078753,
+   "Shape__Length": 5788.749863447749
+  },
+  {
+   "PlatCode": 3614,
+   "PlatNum": 3614,
+   "Shape__Area": 6359979.378469698,
+   "Shape__Length": 10096.606594779465
+  },
+  {
+   "PlatCode": 4507,
+   "PlatNum": 4507,
+   "Shape__Area": 3357262.347983495,
+   "Shape__Length": 7799.961190529166
+  },
+  {
+   "PlatCode": 3237,
+   "PlatNum": 3237,
+   "Shape__Area": 3445131.6040584627,
+   "Shape__Length": 7865.650027097895
+  },
+  {
+   "PlatCode": 4927,
+   "PlatNum": 4927,
+   "Shape__Area": 3352598.591282895,
+   "Shape__Length": 7780.162111835105
+  }
+ ]
+}

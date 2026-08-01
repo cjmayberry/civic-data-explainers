@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Name",
+  "Address",
+  "ParkType",
+  "Park_Acres",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Name": "Stiles Circle Park",
+   "Address": "379 NE 8TH ST",
+   "ParkType": "Green Space",
+   "Park_Acres": 0.7191787,
+   "Shape__Area": 31327.424108601143,
+   "Shape__Length": 628.5111476399735
+  },
+  {
+   "Name": "Burton/Britton Park",
+   "Address": "9701 N SHARTEL AVE",
+   "ParkType": "Neighborhood",
+   "Park_Acres": 1.5211164,
+   "Shape__Area": 66259.83025504323,
+   "Shape__Length": 1691.6457062134252
+  },
+  {
+   "Name": "Goodholm Park",
+   "Address": "2701 N ROBINSON AVE",
+   "ParkType": "Neighborhood",
+   "Park_Acres": 4.83551621,
+   "Shape__Area": 210635.08622404415,
+   "Shape__Length": 1862.74783534771
+  },
+  {
+   "Name": "Lincoln Park",
+   "Address": "4712 N MARTIN LUTHER KING AVE",
+   "ParkType": "Metropolitan",
+   "Park_Acres": 23.08271495,
+   "Shape__Area": 1005483.063164307,
+   "Shape__Length": 6883.660516190489
+  },
+  {
+   "Name": "Rhode Island Park",
+   "Address": "6623 N RHODE ISLAND AVE",
+   "ParkType": "Green Space",
+   "Park_Acres": 0.43241962,
+   "Shape__Area": 18836.19850581411,
+   "Shape__Length": 924.9530642411704
+  },
+  {
+   "Name": "Sparrow Park",
+   "Address": "300 NW 30TH ST",
+   "ParkType": "Neighborhood",
+   "Park_Acres": 3.31616946,
+   "Shape__Area": 144452.3417009524,
+   "Shape__Length": 2075.8063625441937
+  },
+  {
+   "Name": "Woodson Park",
+   "Address": "3401 S MAY AVE",
+   "ParkType": "District",
+   "Park_Acres": 124.03260396,
+   "Shape__Area": 5402860.228509985,
+   "Shape__Length": 15106.963548928163
+  },
+  {
+   "Name": "Trosper Park",
+   "Address": "2300 SE 29TH ST",
+   "ParkType": "Metropolitan",
+   "Park_Acres": 356.64196824,
+   "Shape__Area": 15535324.136470322,
+   "Shape__Length": 34776.02595390123
+  }
+ ]
+}

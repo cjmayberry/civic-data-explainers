@@ -1,0 +1,40 @@
+{
+ "fields": [
+  "Facility",
+  "Address"
+ ],
+ "rows": [
+  {
+   "Facility": "Police Headquarters",
+   "Address": "700 Colcord Dr"
+  },
+  {
+   "Facility": "Hefner Briefing Station",
+   "Address": "3924 NW 122nd St"
+  },
+  {
+   "Facility": "Santa Fe Briefing Station",
+   "Address": "9000 S Santa Fe Ave"
+  },
+  {
+   "Facility": "Springlake Briefing Station",
+   "Address": "4116 N Prospect Ave"
+  },
+  {
+   "Facility": "Will Rogers Briefing Station",
+   "Address": "3112 N Grand Blvd"
+  },
+  {
+   "Facility": "Property Management",
+   "Address": "701 W Main St"
+  },
+  {
+   "Facility": "616 Building",
+   "Address": "616 Colcord Dr"
+  },
+  {
+   "Facility": "Regional Multiagency Coordination Center (Emergency Management)",
+   "Address": "4600 N Martin Luther King Ave"
+  }
+ ]
+}

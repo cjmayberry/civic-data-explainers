@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "BenefitArea",
+  "category",
+  "Impact_Fee_Factor",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "BenefitArea": "C-1",
+   "category": "Core",
+   "Impact_Fee_Factor": 1,
+   "Shape__Area": 1411558769.8132422,
+   "Shape__Length": 183825.03931515326
+  },
+  {
+   "BenefitArea": "I-1",
+   "category": "Infill",
+   "Impact_Fee_Factor": 2,
+   "Shape__Area": 1329799362.6325173,
+   "Shape__Length": 170615.89798714148
+  },
+  {
+   "BenefitArea": "I-3",
+   "category": "Infill",
+   "Impact_Fee_Factor": 2,
+   "Shape__Area": 1001274898.467069,
+   "Shape__Length": 269348.55460593675
+  },
+  {
+   "BenefitArea": "N-4",
+   "category": "New Growth",
+   "Impact_Fee_Factor": 3,
+   "Shape__Area": 746907999.2567419,
+   "Shape__Length": 197488.05370539436
+  },
+  {
+   "BenefitArea": "N-5",
+   "category": "New Growth",
+   "Impact_Fee_Factor": 3,
+   "Shape__Area": 675361985.6792431,
+   "Shape__Length": 127838.60293294677
+  },
+  {
+   "BenefitArea": "N-3",
+   "category": "New Growth",
+   "Impact_Fee_Factor": 3,
+   "Shape__Area": 521997410.031999,
+   "Shape__Length": 193488.06740504247
+  },
+  {
+   "BenefitArea": "R-1",
+   "category": "Rural",
+   "Impact_Fee_Factor": 4,
+   "Shape__Area": 2722340014.38516,
+   "Shape__Length": 500890.38703778107
+  },
+  {
+   "BenefitArea": "R-2",
+   "category": "Rural",
+   "Impact_Fee_Factor": 4,
+   "Shape__Area": 3471218773.767353,
+   "Shape__Length": 365405.23570729373
+  }
+ ]
+}

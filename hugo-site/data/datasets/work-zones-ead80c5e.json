@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Worktype",
+  "Startdate",
+  "Enddate",
+  "Worklocation",
+  "workzonenumber",
+  "Northbound"
+ ],
+ "rows": [
+  {
+   "Worktype": "Road Construction",
+   "Startdate": "08/14/2023",
+   "Enddate": "12/31/2026",
+   "Worklocation": "S EASTERN AVE & E I-240 SERVICE RD",
+   "workzonenumber": "WZ-2023-01321",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Demolition",
+   "Startdate": "05/05/2025",
+   "Enddate": "01/30/2027",
+   "Worklocation": "211 NW 6th Street, Oklahoma City, OK 73102",
+   "workzonenumber": "WZ-2024-02243",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Construction",
+   "Startdate": "06/16/2025",
+   "Enddate": "12/31/2026",
+   "Worklocation": "N Harvey Ave between Robert S Kerr Ave and Park Ave & Robert S Kerr Ave Between N Harvey and N Hudson    217 N Harvey Ave",
+   "workzonenumber": "WZ-2025-01091",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Construction",
+   "Startdate": "06/18/2025",
+   "Enddate": "01/01/2027",
+   "Worklocation": "1135 N HUDSON AVE, OKLAHOMA CITY 73103",
+   "workzonenumber": "WZ-2025-01556",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Demolition",
+   "Startdate": "05/05/2025",
+   "Enddate": "01/30/2027",
+   "Worklocation": "211 NW 6th Street, Oklahoma City, OK 73102",
+   "workzonenumber": "WZ-2024-02243",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Construction",
+   "Startdate": "08/25/2025",
+   "Enddate": "03/01/2027",
+   "Worklocation": "NW 9TH ST & N LEE AVE",
+   "workzonenumber": "WZ-2025-01940",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Utility Maintenance and Repair",
+   "Startdate": "08/13/2025",
+   "Enddate": "08/13/2026",
+   "Worklocation": "NW 1ST ST & N PENNSYLVANIA AVE",
+   "workzonenumber": "WZ-2025-01968",
+   "Northbound": "No"
+  },
+  {
+   "Worktype": "Building Construction",
+   "Startdate": "08/22/2025",
+   "Enddate": "12/31/2026",
+   "Worklocation": "13 NW 13th St",
+   "workzonenumber": "WZ-2025-01108",
+   "Northbound": "No"
+  }
+ ]
+}

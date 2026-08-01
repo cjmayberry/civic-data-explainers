@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "CODE",
+  "USERCODE",
+  "DESCRIPTION",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-17A",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 519555.9962305841,
+   "Shape__Length": 4160.610895944083
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-17",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 1866103.6587529134,
+   "Shape__Length": 9061.049578167458
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-35",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 951661.5972141209,
+   "Shape__Length": 6863.347764047743
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-20",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 2621517.3371051415,
+   "Shape__Length": 8804.214115939183
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-20D",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 695797.1263728428,
+   "Shape__Length": 3334.1589673308044
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-20B",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 646982.5996955255,
+   "Shape__Length": 3304.841055663179
+  },
+  {
+   "CODE": "CUP",
+   "USERCODE": "CUP-32",
+   "DESCRIPTION": "Community Unit Plan",
+   "Shape__Area": 876131.9838441706,
+   "Shape__Length": 3975.0281868813768
+  },
+  {
+   "CODE": "SP",
+   "USERCODE": "SP-292",
+   "DESCRIPTION": "Special Permit",
+   "Shape__Area": 22477.13365756119,
+   "Shape__Length": 599.7038323581625
+  }
+ ]
+}

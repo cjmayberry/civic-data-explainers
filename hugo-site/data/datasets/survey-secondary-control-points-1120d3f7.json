@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "STATION_NO",
+  "EASTING",
+  "NORTHING",
+  "ELEVATION",
+  "CODE",
+  "DESCIPTION"
+ ],
+ "rows": [
+  {
+   "STATION_NO": 474,
+   "EASTING": 2116383.337,
+   "NORTHING": 158796.02,
+   "ELEVATION": 1232.505,
+   "CODE": "0702054X",
+   "DESCIPTION": "SES SE 29 & Byers"
+  },
+  {
+   "STATION_NO": 481,
+   "EASTING": 2126936.065,
+   "NORTHING": 166806.536,
+   "ELEVATION": 1212.973,
+   "CODE": "701750.62",
+   "DESCIPTION": "SE 8 & Genesee"
+  },
+  {
+   "STATION_NO": 482,
+   "EASTING": 2126933.871,
+   "NORTHING": 164165.25,
+   "ELEVATION": 1213.475,
+   "CODE": "0701758X",
+   "DESCIPTION": "SE 15 & Genesee Filed 1 of 3"
+  },
+  {
+   "STATION_NO": 483,
+   "EASTING": 2126970.667,
+   "NORTHING": 164189.09,
+   "ELEVATION": 1212.661,
+   "CODE": "0702054X",
+   "DESCIPTION": "NEE SE 15 & Genesee"
+  },
+  {
+   "STATION_NO": 484,
+   "EASTING": 2126883.865,
+   "NORTHING": 164189.259,
+   "ELEVATION": 1215.983,
+   "CODE": "0702054X",
+   "DESCIPTION": "NWW SE 15 & Genesee"
+  },
+  {
+   "STATION_NO": 485,
+   "EASTING": 2124330.041,
+   "NORTHING": 169334.403,
+   "ELEVATION": 1176.713,
+   "CODE": "0701659X",
+   "DESCIPTION": "Reno & Eastern Filed"
+  },
+  {
+   "STATION_NO": 490,
+   "EASTING": 2122107.514,
+   "NORTHING": 169298.527,
+   "ELEVATION": 1173.573,
+   "CODE": "0702054X",
+   "DESCIPTION": "X in Drive by Mon #233"
+  },
+  {
+   "STATION_NO": 491,
+   "EASTING": 2049601.849,
+   "NORTHING": 221847.769,
+   "ELEVATION": 1149.052,
+   "CODE": "0701650X",
+   "DESCIPTION": "NW 136 & Mustang"
+  }
+ ]
+}

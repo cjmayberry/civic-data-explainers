@@ -13,12 +13,8 @@ dataset_id: "1fcba99b944141119496224ef5481187"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 ## What this is  
 A map of individual trees and shrubs captured by aerial laser scans in 2015.  

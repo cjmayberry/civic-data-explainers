@@ -1,7 +1,7 @@
 ---
 title: "Street Centerlines"
 date: "2026-06-09"
-description: "Approximate length of feature in US feet"
+description: "This dataset may be used to determine location and other attributes of the streets located within the City of Oklahoma City."
 teaser: "The invisible skeleton under every address in OKC — updated daily, used by 911, delivery apps, and you."
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
@@ -12,7 +12,39 @@ dataset_id: "0e041a931ede4d38a9d23c5301708662"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Street Class"
+    description: "Oklahoma City classification of street"
+  - field: "CFCC"
+    description: "Street classification based on Census Feature Class Codes"
+  - field: "Full Street Name"
+    description: "Full street name associated with underlying street code"
+  - field: "Street Prefix"
+    description: "Prefix direction of street"
+  - field: "Street Name"
+    description: "Name of street without prefix or suffix"
+  - field: "Street Suffix"
+    description: "Suffix type of street"
+  - field: "Left From Address"
+    description: "Numeric starting address range for left side of street"
+  - field: "Left To Address"
+    description: "Numeric ending address range for left side of street"
+  - field: "Right From Address"
+    description: "Numeric starting address range for right side of street"
+  - field: "Right To Address"
+    description: "Numeric ending address range for left right of street"
+  - field: "Oneway"
+    description: "Indicates the flow of traffic on street segment"
+  - field: "Lanes"
+    description: "Number of lanes associated with street segment"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of feature in US feet"
 ---
+
 
 
 

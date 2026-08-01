@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Address",
+  "Permit_Date",
+  "Appliances",
+  "Baby_Kid_Items",
+  "Clothing",
+  "Electronics"
+ ],
+ "rows": [
+  {
+   "Address": "11932 SW 17TH ST, Oklahoma City, OK  73099",
+   "Permit_Date": "2026-08-01",
+   "Appliances": "No",
+   "Baby_Kid_Items": "Yes",
+   "Clothing": "Yes",
+   "Electronics": "Yes"
+  },
+  {
+   "Address": "1100 N BARNES AVE, Oklahoma City, OK  73107",
+   "Permit_Date": "2026-07-31",
+   "Appliances": "No",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "No"
+  },
+  {
+   "Address": "17 SE 55TH ST, Oklahoma City, OK  73129",
+   "Permit_Date": "2026-07-31",
+   "Appliances": "No",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "Yes"
+  },
+  {
+   "Address": "405 SW 170TH TER, Oklahoma City, OK  73170",
+   "Permit_Date": "2026-08-07",
+   "Appliances": "No",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "No"
+  },
+  {
+   "Address": "4516 KENTUCKY RIDGE DR, Oklahoma City, OK  73064",
+   "Permit_Date": "2026-08-01",
+   "Appliances": "Yes",
+   "Baby_Kid_Items": "Yes",
+   "Clothing": "Yes",
+   "Electronics": "Yes"
+  },
+  {
+   "Address": "2413 IRIS CT, Oklahoma City, OK  73099",
+   "Permit_Date": "2026-08-07",
+   "Appliances": "No",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "No"
+  },
+  {
+   "Address": "9508 LINUS DR, Oklahoma City, OK  73160",
+   "Permit_Date": "2026-07-31",
+   "Appliances": "Yes",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "Yes"
+  },
+  {
+   "Address": "19813 ALLERGANDO LN, Oklahoma City, OK  73012",
+   "Permit_Date": "2026-07-31",
+   "Appliances": "No",
+   "Baby_Kid_Items": "No",
+   "Clothing": "Yes",
+   "Electronics": "Yes"
+  }
+ ]
+}

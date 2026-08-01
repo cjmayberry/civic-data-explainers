@@ -13,20 +13,8 @@ dataset_id: "01c97e2928134efc93157d99f2d23047"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Call Type"
-    description: "Type of police or fire call"
-  - field: "Description"
-    description: "Description of police or fire call"
-  - field: "Location"
-    description: "Approximate location of call"
-  - field: "Reported On"
-    description: "Date and time call was reported"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 ## What this is  
 A live-updated list of recent police and fire emergency calls in Oklahoma City.

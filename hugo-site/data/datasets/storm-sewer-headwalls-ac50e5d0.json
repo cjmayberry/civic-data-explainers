@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "SUBTYPE",
+  "PROJECTNUMBER",
+  "Location",
+  "COMMENT"
+ ],
+ "rows": [
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "PC-0014",
+   "Location": "SW 15th, E of S Meridian Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "PC-0014",
+   "Location": "SW 15th, E of S Meridian Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "PC-0014",
+   "Location": "SW 15th, W of S Portland Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "PC-0014",
+   "Location": "SW 15th, W of S Portland Ave",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 1,
+   "PROJECTNUMBER": "34E107",
+   "Location": "S Roff Ave & SW 23rd",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "16E621",
+   "Location": "S Ross Ave, N of SW 59th",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 0,
+   "PROJECTNUMBER": "73E109",
+   "Location": "S Villa Ave & SW 57th",
+   "COMMENT": ""
+  },
+  {
+   "SUBTYPE": 1,
+   "PROJECTNUMBER": "",
+   "Location": "",
+   "COMMENT": ""
+  }
+ ]
+}

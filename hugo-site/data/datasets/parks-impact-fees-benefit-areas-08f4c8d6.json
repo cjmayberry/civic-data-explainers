@@ -1,0 +1,40 @@
+{
+ "fields": [
+  "LabelName",
+  "Classification",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "LabelName": "Northwest",
+   "Classification": "Rural",
+   "Shape__Area": 3357029738.678341,
+   "Shape__Length": 306006.7861914202
+  },
+  {
+   "LabelName": "Southeast",
+   "Classification": "Suburban",
+   "Shape__Area": 4319074317.569461,
+   "Shape__Length": 395757.19110824255
+  },
+  {
+   "LabelName": "Central",
+   "Classification": "Infill",
+   "Shape__Area": 1450397483.6710835,
+   "Shape__Length": 168296.77990491837
+  },
+  {
+   "LabelName": "Southwest",
+   "Classification": "Suburban",
+   "Shape__Area": 4894686106.722542,
+   "Shape__Length": 378023.643219591
+  },
+  {
+   "LabelName": "Northeast",
+   "Classification": "Suburban",
+   "Shape__Area": 4058361084.590232,
+   "Shape__Length": 497648.6740467141
+  }
+ ]
+}

@@ -282,6 +282,24 @@ def main():
             image_file = new_name
 
         # frontmatter rewrite: single canonical category + cover field
+        # backfill the dictionary table for pages that lack it (the 12
+        # hand-authored showcase pages were written without dictionary
+        # frontmatter — the catalog has the real field definitions)
+        if "dictionary" not in fm and rec and (rec.get("data_dictionary") or []):
+            fm["dictionary"] = [
+                {"field": x.get("field", ""), "description": x.get("description", "")}
+                for x in rec["data_dictionary"]
+            ]
+        # repair the old dictionary-text leak in `description` (some pages'
+        # description was overwritten with a field definition's text)
+        if rec:
+            catalog_descs = {
+                d.get("description", "").strip()
+                for r2 in catalog
+                for d in (r2.get("data_dictionary") or [])
+            }
+            if (fm.get("description") or "").strip() in catalog_descs:
+                fm["description"] = (rec.get("suitable_use") or "").strip() or fm.get("description")
         cover_path = os.path.join(COVERS_DIR, image_file)
         cover_ref = f"covers/{image_file}" if os.path.exists(cover_path) else ""
         fm2 = build_frontmatter(fm, category, cover_ref)

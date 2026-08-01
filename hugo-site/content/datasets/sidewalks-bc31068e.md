@@ -1,7 +1,7 @@
 ---
 title: "Sidewalks"
 date: "2026-06-09"
-description: "Approximate area of feature in US square feet"
+description: "This dataset can be used to view sidewalks maintained by the City of Oklahoma City and the funding source if available."
 teaser: "The walkability map: every city-maintained sidewalk in OKC — and which ones were paid for with bonds."
 tags: ["okc", "oklahoma city", "sidewalks"]
 categories: ["Transportation"]
@@ -12,7 +12,19 @@ dataset_id: "bc31068e20ed4b2fa1265bb810b1de23"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Sidewalk Funding"
+    description: "Funding, if known, associated with sidewalk"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

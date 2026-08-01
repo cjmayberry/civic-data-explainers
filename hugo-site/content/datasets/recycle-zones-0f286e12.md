@@ -12,22 +12,8 @@ dataset_id: "0f286e1243ca4bb39a70e323b1608222"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Route"
-    description: "Alphanumeric name of pickup route"
-  - field: "Pickup Day"
-    description: "Day of week/month that route normally runs"
-  - field: "Service Provider"
-    description: "Name of entity providing actually service"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Area"
-    description: "Approximate area of feature in US square feet"
-  - field: "Length"
-    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 ## What this is  
 This dataset shows recycling pickup zones in Oklahoma City, including who collects your recycling and which day they come.

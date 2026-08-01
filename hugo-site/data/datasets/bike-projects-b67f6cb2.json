@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Project_Name",
+  "Project_Type",
+  "Primary_Funding_Source",
+  "Description",
+  "Status",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Project_Name": "NW Grand Blvd. / N Independence Ave.",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On NW Grand Blvd. and N. Independence Ave. to connect to the Bert Cooper Trails",
+   "Status": "Complete",
+   "Shape__Length": 15608.786247183081
+  },
+  {
+   "Project_Name": "Springlake Dr",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On N. Springlake Ave., N. Laird Ave., N. Kelley Ave., and N. Phillips Dr. from N. Martin Luther Kind Ave. to NE 13th St.",
+   "Status": "Complete",
+   "Shape__Length": 17151.020414511593
+  },
+  {
+   "Project_Name": "N Lottie Ave.",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On NE 24th St./N. Lottie Ave. from N. Kelley Ave. to NE 23rd St.; and on N. Lottie Ave. from NE 23rd St. to NE 4th St.",
+   "Status": "Complete",
+   "Shape__Length": 9773.020053392327
+  },
+  {
+   "Project_Name": "N Indiana Ave",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "N. Indiana Ave. from NW 19th St. to Linwood Blvd.",
+   "Status": "Complete",
+   "Shape__Length": 4874.014074105979
+  },
+  {
+   "Project_Name": "General Pershing Blvd. Ph II",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On W Main St. from N. Penn Ave. to N. Lee Ave.",
+   "Status": "Complete",
+   "Shape__Length": 7924.340722467849
+  },
+  {
+   "Project_Name": "SW / SE 25th St.",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On SW/SE 25th St. from S. Grand Blvd. to S. High Ave.",
+   "Status": "Complete",
+   "Shape__Length": 25901.710746049248
+  },
+  {
+   "Project_Name": "S 59th St.",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On SE 59th St. from S. Santa Fe Ave. to S. Air Depot Ave.",
+   "Status": "Under Construction",
+   "Shape__Length": 21097.500720729724
+  },
+  {
+   "Project_Name": "N Shartel Ave. to Deep Fork Trail",
+   "Project_Type": "Bike",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On N. Shartel Ave. to connect to the Deep Fork Creek Trail alignment through Zachary Taylor Park",
+   "Status": "Complete",
+   "Shape__Length": 2087.649701427073
+  }
+ ]
+}

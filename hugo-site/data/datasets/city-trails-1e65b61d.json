@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "TrailName",
+  "Status",
+  "Rating",
+  "DesignUse",
+  "Accessible",
+  "Motorized"
+ ],
+ "rows": [
+  {
+   "TrailName": "South River Trail",
+   "Status": "Open",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "Katy Trail",
+   "Status": "Open",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "Tinker/Draper Trail",
+   "Status": "Partially Complete",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "Will Rogers Trail",
+   "Status": "Open",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "West River Trail",
+   "Status": "Open",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "Deep Fork Trail",
+   "Status": "Open",
+   "Rating": "Easiest ",
+   "DesignUse": "Multi Use",
+   "Accessible": "Acessible ",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "Lake Stanley Draper Trail ",
+   "Status": "Open",
+   "Rating": "Easiest ",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  },
+  {
+   "TrailName": "North River Trail",
+   "Status": "Open",
+   "Rating": "Easiest",
+   "DesignUse": "Multi Use",
+   "Accessible": "Accessible",
+   "Motorized": "Motorized Use Prohibited"
+  }
+ ]
+}

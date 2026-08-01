@@ -1,7 +1,7 @@
 ---
 title: "Building Footprints"
 date: "2026-06-09"
-description: "Approximate length of perimeter of feature in US feet"
+description: "This dataset can be used to view building footprints derived from aerial planimetric data collected in 2020."
 teaser: "Every building in OKC, drawn from the sky in 2020 — and the honest limits of aerial data."
 tags: [" oklahoma city", "buildings", "footprints", "addresses", "planimetrics", "2020"]
 categories: ["Infrastructure"]
@@ -12,7 +12,19 @@ dataset_id: "2d4cd6c3279f48f394329f3367069c61"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Elevation"
+    description: "Elevation above sea level in US feet"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
+  - field: "Area"
+    description: "Approximate area of feature in US square feet"
+  - field: "Length"
+    description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

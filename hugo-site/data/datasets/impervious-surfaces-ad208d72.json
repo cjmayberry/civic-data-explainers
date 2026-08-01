@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "TYPE",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 122.40288394721478,
+   "Shape__Length": 50.589816453697075
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 4366.06623310528,
+   "Shape__Length": 330.2975870879001
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 696.2459161269109,
+   "Shape__Length": 105.36899509156544
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 3550.7278025284577,
+   "Shape__Length": 321.8167753640246
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 747.9299141805831,
+   "Shape__Length": 128.98278512175054
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 187.17411985240057,
+   "Shape__Length": 59.482898214137506
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 1162.9037883961055,
+   "Shape__Length": 174.5920469379926
+  },
+  {
+   "TYPE": "BRIDGE",
+   "Shape__Area": 1056.5078697925348,
+   "Shape__Length": 135.06281577929295
+  }
+ ]
+}

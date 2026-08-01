@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Project_Name",
+  "Project_Type",
+  "Primary_Funding_Source",
+  "Description",
+  "Status",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Project_Name": "Rail Trail and Bridge",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "2017 Bond",
+   "Description": "Trail from Agnew across the Oklahoma River on abandoned rail",
+   "Status": "In Design",
+   "Shape__Length": 7056.767648990492
+  },
+  {
+   "Project_Name": "W Wilshire BLVD",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "On W. Wilshire Blvd. from Harvest Hills Rd. to NW Expressway",
+   "Status": "In Design",
+   "Shape__Length": 4303.993042586398
+  },
+  {
+   "Project_Name": "Lake Hefner Trail",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "New trail project",
+   "Status": "Complete",
+   "Shape__Length": 6077.478469819435
+  },
+  {
+   "Project_Name": "Grand Blvd Trail",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Grand Blvd Trail (ODOT Agreement/TAP) TAP 3274(004) AG, State Job Piece No. 33274(04",
+   "Status": "Complete",
+   "Shape__Length": 7304.462313862031
+  },
+  {
+   "Project_Name": "Edgemere Greenway",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "2017 Bond",
+   "Description": "Greenway extending from Harvey and NW 22nd to NW 37th and Francis by following natural water features as possible",
+   "Status": "Future",
+   "Shape__Length": 8439.926980473814
+  },
+  {
+   "Project_Name": "Greenway on OK River",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "2017 Bond",
+   "Description": "",
+   "Status": "Complete",
+   "Shape__Length": 25891.352042692153
+  },
+  {
+   "Project_Name": "S Eastern Ave.",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "ARPA",
+   "Description": "On SE 59th St. from S. Santa Fe Ave. to S. Air Depot Ave.",
+   "Status": "In Design",
+   "Shape__Length": 8491.44231134077
+  },
+  {
+   "Project_Name": "Draper to SE 59th Connection",
+   "Project_Type": "Trail",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "MAPS 3 Excess Funds",
+   "Status": "Complete",
+   "Shape__Length": 6930.5281129777495
+  }
+ ]
+}

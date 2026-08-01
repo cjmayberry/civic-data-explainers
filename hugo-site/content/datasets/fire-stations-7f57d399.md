@@ -1,7 +1,7 @@
 ---
 title: "Fire Stations"
 date: "2026-06-03"
-description: "Geographic data in state plane coordinates (WKID 103512)"
+description: "This dataset can be used to view the location of fire stations within the City of Oklahoma City."
 teaser: "The response-time backbone: where OKC’s fire stations sit — and what “Facility Name” really is."
 tags: ["OKC", "Fire", "oklahoma city", "stations", "oklahoma city"]
 categories: ["Public Safety"]
@@ -13,7 +13,17 @@ dataset_id: "7f57d399cbd1468d877a8411205a671d"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
+dictionary:
+  - field: "ObjectID"
+    description: "Numeric unique identifier with no special meaning"
+  - field: "Facility Name"
+    description: "Numeric identifier of fire station"
+  - field: "Facility Address"
+    description: "Address of fire station"
+  - field: "Shape"
+    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

@@ -12,18 +12,8 @@ dataset_id: "0ad7716656324cf7844fd2e1ffe1f6be"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Street"
-    description: "Street name including from and to information"
-  - field: "Adopted"
-    description: "Organization who has adopted street"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of feature in US feet"
 ---
+
 
 ## What this is  
 This dataset tracks which Oklahoma City streets have been adopted by organizations through the adopt-a-city-street program.

@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "IndexType",
+  "Number",
+  "Date",
+  "Location",
+  "Address",
+  "Grantor"
+ ],
+ "rows": [
+  {
+   "IndexType": "D",
+   "Number": "16318",
+   "Date": -696816000000,
+   "Location": "LOTS 4 THROUGH 7 BLOCK 7 LAKE VIEW HEIGHTS\r\n(E OF N WESTERN AVE AND S OF NW 70TH ST)",
+   "Address": "7020 N WESTERN AVE",
+   "Grantor": "GEORGE R. SAMARA"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20132",
+   "Date": 766108800000,
+   "Location": "MAYWOOD: BLOCK 25 (W OF N LINCOLN BLVD & NE 10TH ST)",
+   "Address": "",
+   "Grantor": "OCURA"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20094",
+   "Date": 758332800000,
+   "Location": "NW/4 SEC 6, T12N, R3W (W COUNTRY CLUB FROM NORTH MAY TO BERKLEY AVE)",
+   "Address": "",
+   "Grantor": "KAY MORAN MCCORD"
+  },
+  {
+   "IndexType": "O",
+   "Number": "13256",
+   "Date": 78451200000,
+   "Location": "EDGEMONT SECOND:BLK 1,LOT 18, 19; BLK 5, LOT 1 (EUCLID & NE 12TH)",
+   "Address": "",
+   "Grantor": "OCURA"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20956",
+   "Date": 882230400000,
+   "Location": " ST. CROIX: BLK 10 (S DOUGLAS NORTH OF  SW 84TH)",
+   "Address": "",
+   "Grantor": "CLAUDE WEST"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20957",
+   "Date": 882230400000,
+   "Location": "WHEELERS: BLK 8 (S OF SW 11TH & E OF WALKER)",
+   "Address": "",
+   "Grantor": "BATTLE UNIFORM COMPANY"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20968",
+   "Date": 884649600000,
+   "Location": "WESTBURY: BLK 164, LOT 1 &  BLK 163, LOT 19 (WESTBURY TERR  N OF ABERDEEN LN)",
+   "Address": "",
+   "Grantor": "OKC"
+  },
+  {
+   "IndexType": "O",
+   "Number": "20117",
+   "Date": 763084800000,
+   "Location": "N/2, SEC. 32, T-11-N, R-3-W (S. INDIANA AVE AND SW 76TH TERR, S OF SW 74TH ST AND E OF S KENTUCKY ACE.)",
+   "Address": "",
+   "Grantor": "FAIRWAY PROPERTIES STREETS"
+  }
+ ]
+}

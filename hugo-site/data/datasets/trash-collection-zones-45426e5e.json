@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "ROUTE",
+  "PICKUPDAY",
+  "SERVICE_PROVIDER",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "ROUTE": "532",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 13493995.62660042,
+   "Shape__Length": 16492.14538872983
+  },
+  {
+   "ROUTE": "540",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 23907940.95693241,
+   "Shape__Length": 36309.968754339214
+  },
+  {
+   "ROUTE": "533",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 11737708.502594357,
+   "Shape__Length": 15338.699464012177
+  },
+  {
+   "ROUTE": "534",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 8360932.4576011,
+   "Shape__Length": 14584.833846870406
+  },
+  {
+   "ROUTE": "520",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 89001099.27245003,
+   "Shape__Length": 52228.75495295252
+  },
+  {
+   "ROUTE": "535",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 15144790.802352296,
+   "Shape__Length": 22006.540024712904
+  },
+  {
+   "ROUTE": "536",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 10675997.31877766,
+   "Shape__Length": 16133.255733652097
+  },
+  {
+   "ROUTE": "527",
+   "PICKUPDAY": "Friday",
+   "SERVICE_PROVIDER": "Oklahoma City",
+   "Shape__Area": 23419631.424254682,
+   "Shape__Length": 36379.594711811646
+  }
+ ]
+}

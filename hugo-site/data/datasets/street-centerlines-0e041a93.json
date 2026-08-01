@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "STREETCLASS",
+  "CFCC",
+  "STR_CODE",
+  "FDPRE",
+  "FNAME",
+  "FTYPE"
+ ],
+ "rows": [
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 78,
+   "FDPRE": "NW",
+   "FNAME": "15TH",
+   "FTYPE": "ST"
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 2146,
+   "FDPRE": "N",
+   "FNAME": "HARVEY",
+   "FTYPE": "PKWY"
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 2146,
+   "FDPRE": "N",
+   "FNAME": "HARVEY",
+   "FTYPE": "PKWY"
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 1790,
+   "FDPRE": "",
+   "FNAME": "EDGEMERE",
+   "FTYPE": "CT"
+  },
+  {
+   "STREETCLASS": 17,
+   "CFCC": "A63",
+   "STR_CODE": 6791,
+   "FDPRE": "",
+   "FNAME": "W I-44 HWY ONRAMP",
+   "FTYPE": ""
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 953,
+   "FDPRE": "",
+   "FNAME": "ARAPAHO",
+   "FTYPE": "RD"
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 147,
+   "FDPRE": "SE",
+   "FNAME": "28TH",
+   "FTYPE": "ST"
+  },
+  {
+   "STREETCLASS": 0,
+   "CFCC": "A40",
+   "STR_CODE": 1750,
+   "FDPRE": "S",
+   "FNAME": "DURLAND",
+   "FTYPE": "AVE"
+  }
+ ]
+}

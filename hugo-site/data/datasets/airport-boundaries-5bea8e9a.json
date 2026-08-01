@@ -1,0 +1,29 @@
+{
+ "fields": [
+  "name",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "name": "Wiley Post Airport",
+   "Shape__Area": 10157599.40634785,
+   "Shape__Length": 18747.729671321766
+  },
+  {
+   "name": "C.E. Page Airport",
+   "Shape__Area": 54784342.84429646,
+   "Shape__Length": 31705.04082521445
+  },
+  {
+   "name": "Wiley Post Airport",
+   "Shape__Area": 46782903.22625872,
+   "Shape__Length": 28801.33110664829
+  },
+  {
+   "name": "Will Rogers World Airport",
+   "Shape__Area": 283037145.21075803,
+   "Shape__Length": 69187.27290225893
+  }
+ ]
+}

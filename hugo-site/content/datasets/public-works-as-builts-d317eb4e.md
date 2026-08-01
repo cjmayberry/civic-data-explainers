@@ -13,18 +13,8 @@ dataset_id: "d317eb4e5f544ff9a9f48f1fcdc09977"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "AsBuilt ID"
-    description: "Alphanumeric id for related as-built documents"
-  - field: "AsBuilt Type"
-    description: "Type of related as-built document"
-  - field: "Description"
-    description: "Additional information related to document"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 ## What this is  
 A collection of official construction records for roads, drainage systems, and storm sewers in Oklahoma City.  

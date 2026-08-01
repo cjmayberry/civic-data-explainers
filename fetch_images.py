@@ -106,6 +106,7 @@ def fetch_geojson(source_url, max_features=1500):
             "where": "1=1",
             "f": "geojson",
             "outSR": "4326",
+            "outFields": "*",
             "resultRecordCount": str(max_features),
         })
         q = f"{base}/{layer}/query?" + params
@@ -252,16 +253,20 @@ def render_geometry_svg(slug, title, category, data, kind, note):
     return svg, None
 
 
-def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
+def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS, category="Default", point_cap=45):
     """Prep geometry for the Mapbox static-images URL, which hard-fails
     (HTTP 414 / 422) on large layers. Strategy:
-      - point layers: keep ALL points (they're cheap — cap at 200); the
+      - point layers: keep ALL points (they're cheap — cap at 45); the
         cover should show every station/incident, not a sample
       - line/polygon layers: keep only the N most complex features
         (representative shapes), trim rings to a point cap (closed)
       - round coordinates to 4 decimals (~11m precision — plenty for a
         600x400 thumbnail)
-      - drop attribute properties (bloat the URL; Mapbox ignores them)
+      - drop attribute properties, but apply Mapbox Simple-Style symbology
+        in the category color so the cover is legible and engaging
+        (thick strokes for lines, translucent fills for areas, colored
+        markers for points) — the default gray-blue rendering is what made
+        line layers like City Trails look flat
     """
     def vcount(g):
         c = g.get("coordinates", [])
@@ -276,10 +281,11 @@ def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
         for f in feats if (f.get("geometry") or {}).get("coordinates")
     )
     if is_point_layer:
-        # each point costs ~165 URL chars of JSON structure after encoding;
-        # 45 points stays under Mapbox's ceiling. The interactive map carries
-        # the full feature set — the cover just needs to be legible.
-        ranked = feats[:45]
+        # each point costs ~200 URL chars of JSON structure after encoding
+        # (style props included); the retry loop in render_mapbox_png shrinks
+        # this count until the URL fits — the cover shows as many of the
+        # real locations as Mapbox's URL ceiling permits.
+        ranked = feats[:point_cap]
     else:
         ranked = sorted(feats, key=lambda f: -vcount(f.get("geometry") or {}))[:MAPBOX_FEATURES]
 
@@ -301,46 +307,84 @@ def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
             return ring
         if t == "Point":
             nc = pr(c)
+            style = {"marker-color": color}
         elif t == "MultiPoint":
             nc = [pr(p) for p in c[:max_pts]]
+            style = {"marker-color": color, "marker-size": "small"}
         elif t == "LineString":
             nc = trim(c)
+            style = {"stroke": color, "stroke-width": 3.5, "stroke-opacity": 0.95}
         elif t == "MultiLineString":
             nc = [trim(s) for s in c[:2]]
+            style = {"stroke": color, "stroke-width": 3.5, "stroke-opacity": 0.95}
         elif t == "Polygon":
             nc = [close(trim(r)) for r in c[:2]]
+            style = {"stroke": color, "stroke-width": 2, "fill": color, "fill-opacity": 0.30}
         elif t == "MultiPolygon":
             nc = [[close(trim(r)) for r in poly[:2]] for poly in c[:2]]
+            style = {"stroke": color, "stroke-width": 2, "fill": color, "fill-opacity": 0.30}
         else:
             nc = c
+            style = {}
         g["coordinates"] = nc
-        return {"type": "Feature", "properties": {}, "geometry": g}
+        return {"type": "Feature", "properties": style, "geometry": g}
 
+    color = CATEGORY_COLORS.get(category, CATEGORY_COLORS["Default"])[0]
     return [simplify_feature(f) for f in ranked]
 
 
-def render_mapbox_png(data, slug):
-    """Mapbox Static Images geojson() render (token-gated). Retries with a
-    shrinking geometry budget until the URL fits Mapbox's hard limit."""
+def render_mapbox_png(data, slug, category="Default"):
+    """Mapbox Static Images geojson() render (token-gated). Two retry modes
+    to stay under Mapbox's ~8KB URL limit:
+      - point layers: fit as many points as the URL allows (shrink count)
+      - line/polygon layers: shrink the per-ring point budget
+    """
     token = os.environ.get("MAPBOX_TOKEN", "").strip()
     if not token:
         return None, "no MAPBOX_TOKEN"
-    for max_pts in (40, 20, 12, 8, 5):
-        feats = simplify_geojson(data.get("features", []), max_pts)
+    feats_all = data.get("features", [])
+    is_points = bool(feats_all) and all(
+        "Point" in (f.get("geometry") or {}).get("type", "")
+        for f in feats_all[:30] if (f.get("geometry") or {}).get("coordinates")
+    )
+
+    def try_render(feats):
         gj = {"type": "FeatureCollection", "features": feats}
         encoded = urllib.parse.quote(json.dumps(gj, separators=(",", ":")))
         url = ("https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/"
                f"geojson({encoded})/auto/600x400?access_token={token}")
         if len(url) > MAPBOX_URL_CEIL:
-            continue
+            return None, None, len(url)
         try:
             png = http_get(url, timeout=60)
         except Exception as e:
-            return None, f"mapbox render failed: {e}"
+            return None, f"mapbox render failed: {e}", len(url)
         if not png or len(png) < 500:
-            return None, "mapbox returned empty/error image"
-        return png, None
-    return None, f"geometry too complex for Mapbox URL even at min budget ({len(url)} chars)"
+            return None, "mapbox returned empty/error image", len(url)
+        return png, None, len(url)
+
+    if is_points:
+        n = min(len(feats_all), 45)
+        ulen = 0
+        while n >= 5:
+            feats = simplify_geojson(feats_all, 40, category, point_cap=n)
+            png, err, ulen = try_render(feats)
+            if png:
+                return png, None
+            if err:
+                return None, err
+            n -= 3
+        return None, f"too many points for Mapbox URL even at min count ({ulen} chars)"
+
+    ulen = 0
+    for max_pts in (40, 20, 12, 8, 5):
+        feats = simplify_geojson(feats_all, max_pts, category)
+        png, err, ulen = try_render(feats)
+        if png:
+            return png, None
+        if err:
+            return None, err
+    return None, f"geometry too complex for Mapbox URL even at min budget ({ulen} chars)"
 
 
 def upgrade_cover(dataset, source_url):
@@ -363,7 +407,7 @@ def upgrade_cover(dataset, source_url):
     token = os.environ.get("MAPBOX_TOKEN", "").strip()
     mb_err = ""
     if token:
-        png, err = render_mapbox_png(data, slug)
+        png, err = render_mapbox_png(data, slug, dataset["category"])
         if not err:
             new_name = f"{slug}--{cat_slug}--map_real_geometry.png"
             with open(os.path.join(COVERS_DIR, new_name), "wb") as f:
@@ -447,6 +491,40 @@ def parse_frontmatter_cover(text):
     return m.group(1) if m else None
 
 
+EXCLUDE_FIELD = re.compile(
+    r"^(objectid|fid|globalid|shape|shape_length|shape_area|length|area|"
+    r"created_|edited_|geom|st_|esri_|geometry)$", re.I)
+
+
+def save_sample_records(slug, data):
+    """Write a small, human-readable slice of the city's REAL records to
+    hugo-site/data/datasets/<slug>.json (Hugo native data file, rendered as
+    a table on the page). Boilerplate fields (ObjectID, Shape, Length…)
+    are dropped; the most informative fields are kept, first 8 rows."""
+    feats = data.get("features", [])
+    if not feats:
+        return None
+    keep = []
+    for f in feats[:12]:
+        for k, v in (f.get("properties") or {}).items():
+            if EXCLUDE_FIELD.match(k):
+                continue
+            if k not in keep:
+                keep.append(k)
+    fields = keep[:6]
+    if not fields:
+        return None
+    rows = []
+    for f in feats[:8]:
+        p = f.get("properties") or {}
+        rows.append({k: (p.get(k) if p.get(k) is not None else "") for k in fields})
+    out_dir = os.path.join(ROOT, "hugo-site", "data", "datasets")
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, slug + ".json"), "w") as f:
+        json.dump({"fields": fields, "rows": rows}, f, indent=1, ensure_ascii=False)
+    return len(fields)
+
+
 def main():
     os.makedirs(COVERS_DIR, exist_ok=True)
     with open(MANIFEST_PATH) as f:
@@ -484,6 +562,10 @@ def main():
             d["map_data"] = f"data/{map_fname}"
         else:
             d.pop("map_data", None)
+
+        # sample records: the city's real rows, rendered as a table on the page
+        if data:
+            save_sample_records(slug, data)
 
         # clean up stale renamed variants (old status in filename)
         for f in os.listdir(COVERS_DIR):

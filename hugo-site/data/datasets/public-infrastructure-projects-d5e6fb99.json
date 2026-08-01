@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "projname",
+  "projdesc",
+  "projtype",
+  "planstart",
+  "planend",
+  "estcost"
+ ],
+ "rows": [
+  {
+   "projname": "2025 GO Bond Arterial Resurfacing Project",
+   "projdesc": "Proposition 1 - C19 Arterial Resurfacing",
+   "projtype": "Transportation",
+   "planstart": "",
+   "planend": "",
+   "estcost": 2600000
+  },
+  {
+   "projname": "2025 GO Bond Arterial Resurfacing Project",
+   "projdesc": "Proposition 1 - C14 Arterial Resurfacing",
+   "projtype": "Transportation",
+   "planstart": "",
+   "planend": "",
+   "estcost": 2600000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A6 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 4625000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A7 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 10550000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A10 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 5285000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A9 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 3000000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A3 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 2200000
+  },
+  {
+   "projname": "2025 GO Bond Drainage Improvements Project",
+   "projdesc": "Proposition 8 - A8 Drainage Improvements",
+   "projtype": "Stormwater Drainage",
+   "planstart": "",
+   "planend": "",
+   "estcost": 7380000
+  }
+ ]
+}

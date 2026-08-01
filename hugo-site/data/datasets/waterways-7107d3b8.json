@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "NAME",
+  "SUBTYPE",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "NAME": "Cow Creek Tributary 1",
+   "SUBTYPE": 0,
+   "Shape__Length": 1290.25903024214
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Length": 178.40991528585275
+  },
+  {
+   "NAME": "Cow Creek Tributary 1",
+   "SUBTYPE": 0,
+   "Shape__Length": 531.8927825692795
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Length": 225.77167531556486
+  },
+  {
+   "NAME": "Cow Creek Tributary 1",
+   "SUBTYPE": 0,
+   "Shape__Length": 1975.5432356064284
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Length": 377.3901049900999
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Length": 885.5781448130971
+  },
+  {
+   "NAME": "",
+   "SUBTYPE": 0,
+   "Shape__Length": 674.578912516208
+  }
+ ]
+}

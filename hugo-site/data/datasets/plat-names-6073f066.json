@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "GISID",
+  "ADDRESS",
+  "ADDRESS2",
+  "UNIT",
+  "STR_CODE",
+  "AD_LAYER"
+ ],
+ "rows": [
+  {
+   "GISID": 166016,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "E",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166012,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "A",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166013,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "B",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166014,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "C",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166015,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "D",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166017,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "F",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166018,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "G",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  },
+  {
+   "GISID": 166019,
+   "ADDRESS": 600,
+   "ADDRESS2": "",
+   "UNIT": "K",
+   "STR_CODE": 827,
+   "AD_LAYER": 1
+  }
+ ]
+}

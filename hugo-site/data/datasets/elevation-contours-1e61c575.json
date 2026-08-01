@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "Elevation",
+  "Type",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 13.505543789844829
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 39.80726660383257
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 18.484856749713003
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 14.850539918922156
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 66.26525204234753
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 65.83033380541706
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 37.62415063354814
+  },
+  {
+   "Elevation": 1228,
+   "Type": 4,
+   "Shape__Length": 25.614461992002074
+  }
+ ]
+}

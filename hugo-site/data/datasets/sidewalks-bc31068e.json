@@ -1,0 +1,40 @@
+{
+ "fields": [
+  "SidewalkFunding",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 31.026508505311625
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 210.93878239328805
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 18.4507303761678
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 47.44162556145594
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 33.66029816790572
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 3.3845738487858434
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 42.61149590281289
+  },
+  {
+   "SidewalkFunding": "GOBond",
+   "Shape__Length": 10.064520607030106
+  }
+ ]
+}

@@ -12,16 +12,8 @@ dataset_id: "a58d4715875a4c62b15cd3269c9df891"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Quadrant"
-    description: "Regional area of the City of Oklahoma City"
-  - field: "Location 1"
-    description: "Primary description of location being treated, typically by street name"
-  - field: "Location 2"
-    description: "Secondary description of location being treated, typically by cross street name(s)"
 ---
+
 
 ## What this is  
 This dataset tracks which streets Oklahoma City prioritizes for snow and ice treatment during winter storms.

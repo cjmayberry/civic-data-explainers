@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "Route",
+  "PickupDay",
+  "ServiceProvider",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Route": "O1AH",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 66111671.293090396,
+   "Shape__Length": 111238.74126261276
+  },
+  {
+   "Route": "O1AM",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 36037213.742486484,
+   "Shape__Length": 33189.92817219529
+  },
+  {
+   "Route": "O1AP",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 57751065.678714715,
+   "Shape__Length": 67906.25938260884
+  },
+  {
+   "Route": "O1AB",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 33295463.774850436,
+   "Shape__Length": 31532.218636614165
+  },
+  {
+   "Route": "O1AC",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 48075223.11920552,
+   "Shape__Length": 43020.72813598274
+  },
+  {
+   "Route": "O1AD",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 51451311.76315214,
+   "Shape__Length": 65352.49919290865
+  },
+  {
+   "Route": "O1AE",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 48913720.14072119,
+   "Shape__Length": 36093.95974744486
+  },
+  {
+   "Route": "O1AF",
+   "PickupDay": "Monday",
+   "ServiceProvider": "Waste Management",
+   "Shape__Area": 24816954.409139697,
+   "Shape__Length": 29639.963145943646
+  }
+ ]
+}

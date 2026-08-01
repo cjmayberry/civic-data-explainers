@@ -12,24 +12,8 @@ dataset_id: "34783ad443fb438b9905b9c85b96cbf8"
 city: "Oklahoma City"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
-dictionary:
-  - field: "ObjectID"
-    description: "Numeric unique identifier with no special meaning"
-  - field: "Project Name"
-    description: "Name of project typically based on street or area"
-  - field: "Project Type"
-    description: "Type of project"
-  - field: "Funding Source"
-    description: "Primary sources of funding used for project"
-  - field: "Description"
-    description: "Additional information about location of project"
-  - field: "Status"
-    description: "Status of project"
-  - field: "Shape"
-    description: "Geographic data in state plane coordinates (WKID 103512)"
-  - field: "Length"
-    description: "Approximate length of feature in US feet"
 ---
+
 
 ## What this is  
 A list of past, current, and future sidewalk and street projects focused on pedestrian safety in Oklahoma City.

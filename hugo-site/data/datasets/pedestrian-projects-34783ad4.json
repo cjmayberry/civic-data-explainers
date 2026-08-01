@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Project_Name",
+  "Project_Type",
+  "Primary_Funding_Source",
+  "Description",
+  "Status",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "Project_Name": "Angie Debo ES",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Angie Debo ES",
+   "Status": "Complete",
+   "Shape__Length": 5009.340947545227
+  },
+  {
+   "Project_Name": "Between Main and Linwood",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Between Main and Linwood",
+   "Status": "Complete",
+   "Shape__Length": 5147.19120459149
+  },
+  {
+   "Project_Name": "N Classen Blvd. at Belle Isle",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Classen at Belle Isle",
+   "Status": "Complete",
+   "Shape__Length": 3847.435323719389
+  },
+  {
+   "Project_Name": "Denniston Park",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Denniston Park",
+   "Status": "Complete",
+   "Shape__Length": 4728.287495519458
+  },
+  {
+   "Project_Name": "Dolese Park",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Dolese Park",
+   "Status": "Complete",
+   "Shape__Length": 2681.983976908964
+  },
+  {
+   "Project_Name": "Highland Park ES",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: Highland Park ES",
+   "Status": "Complete",
+   "Shape__Length": 5782.903797667498
+  },
+  {
+   "Project_Name": "MLK23",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: MLK23 - Phase1 Project1",
+   "Status": "Complete",
+   "Shape__Length": 17999.254607824692
+  },
+  {
+   "Project_Name": "MLK23",
+   "Project_Type": "Sidewalks",
+   "Primary_Funding_Source": "Sales Tax",
+   "Description": "Sales Tax Sidewalk Project: MLK23 - Phase1 Project2",
+   "Status": "Complete",
+   "Shape__Length": 21181.975002440046
+  }
+ ]
+}
