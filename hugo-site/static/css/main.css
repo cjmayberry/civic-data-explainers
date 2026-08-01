@@ -337,6 +337,26 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   box-shadow: 0 4px 16px rgba(27, 27, 31, 0.12);
 }
 
+.live-map { margin: 2.5rem 0; }
+.live-map h2 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  margin: 0 0 0.7rem;
+  padding-top: 0.4rem;
+}
+.dataset-map {
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+  border: 1px solid var(--rule);
+  box-shadow: 0 4px 16px rgba(27, 27, 31, 0.08);
+}
+.dataset-map .mapboxgl-popup-content {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
 .article-body {
   font-size: 1.05rem;
   line-height: 1.75;

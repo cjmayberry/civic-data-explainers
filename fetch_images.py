@@ -255,8 +255,10 @@ def render_geometry_svg(slug, title, category, data, kind, note):
 def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
     """Prep geometry for the Mapbox static-images URL, which hard-fails
     (HTTP 414 / 422) on large layers. Strategy:
-      - keep only the N most complex features (representative shapes)
-      - trim every line/ring to a point cap (rings stay closed)
+      - point layers: keep ALL points (they're cheap — cap at 200); the
+        cover should show every station/incident, not a sample
+      - line/polygon layers: keep only the N most complex features
+        (representative shapes), trim rings to a point cap (closed)
       - round coordinates to 4 decimals (~11m precision — plenty for a
         600x400 thumbnail)
       - drop attribute properties (bloat the URL; Mapbox ignores them)
@@ -269,7 +271,17 @@ def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
             return sum(walk(x) for x in coords)
         return walk(c)
 
-    ranked = sorted(feats, key=lambda f: -vcount(f.get("geometry") or {}))[:MAPBOX_FEATURES]
+    is_point_layer = all(
+        "Point" in (f.get("geometry") or {}).get("type", "")
+        for f in feats if (f.get("geometry") or {}).get("coordinates")
+    )
+    if is_point_layer:
+        # each point costs ~165 URL chars of JSON structure after encoding;
+        # 45 points stays under Mapbox's ceiling. The interactive map carries
+        # the full feature set — the cover just needs to be legible.
+        ranked = feats[:45]
+    else:
+        ranked = sorted(feats, key=lambda f: -vcount(f.get("geometry") or {}))[:MAPBOX_FEATURES]
 
     def close(ring):
         return ring + [ring[0]] if len(ring) > 1 and ring[0] != ring[-1] else ring
@@ -333,19 +345,20 @@ def render_mapbox_png(data, slug):
 
 def upgrade_cover(dataset, source_url):
     """Attempt real-geometry upgrade for one dataset. Returns (image_status,
-    image_source, file_name, note)."""
+    image_source, file_name, note, kind, data). kind is None when the layer
+    couldn't be rendered; data is the fetched GeoJSON for interactive maps."""
     slug = dataset["slug"]
     cat_slug = re.sub(r"[^a-z0-9]+", "-", dataset["category"].lower()).strip("-")
     old_name = dataset.get("image_file") or f"{slug}--{cat_slug}--cover_only.svg"
 
     data, err = fetch_geojson(source_url)
     if err:
-        return "cover_only", "svg_cover", old_name, f"geometry fetch failed: {err[:160]}"
+        return "cover_only", "svg_cover", old_name, f"geometry fetch failed: {err[:160]}", None, None
     kind = geometry_kind(data)
     if kind is None:
-        return "cover_only", "svg_cover", old_name, "no geometry in layer response"
+        return "cover_only", "svg_cover", old_name, "no geometry in layer response", None, data
     if kind == "mixed":
-        return "cover_only", "svg_cover", old_name, "mixed geometry types not rendered"
+        return "cover_only", "svg_cover", old_name, "mixed geometry types not rendered", None, data
 
     token = os.environ.get("MAPBOX_TOKEN", "").strip()
     mb_err = ""
@@ -355,19 +368,19 @@ def upgrade_cover(dataset, source_url):
             new_name = f"{slug}--{cat_slug}--map_real_geometry.png"
             with open(os.path.join(COVERS_DIR, new_name), "wb") as f:
                 f.write(png)
-            return "map_real_geometry", "mapbox", new_name, f"{kind}, {len(data.get('features', []))} features"
+            return "map_real_geometry", "mapbox", new_name, f"{kind}, {len(data.get('features', []))} features", kind, data
         mb_err = err
 
     svg, err = render_geometry_svg(slug, dataset["title"], dataset["category"], data, kind, None)
     if err:
-        return "cover_only", "svg_cover", old_name, f"svg render failed: {err}"
+        return "cover_only", "svg_cover", old_name, f"svg render failed: {err}", None, data
     new_name = f"{slug}--{cat_slug}--map_real_geometry.svg"
     with open(os.path.join(COVERS_DIR, new_name), "w") as f:
         f.write(svg)
     note = f"{kind}, {len(data.get('features', []))} features"
     if token:
         note += f" | mapbox failed: {mb_err[:80]}"
-    return "map_real_geometry", "local_geometry", new_name, note
+    return "map_real_geometry", "local_geometry", new_name, note, kind, data
 
 
 # ---------------------------------------------------------------------------
@@ -457,7 +470,20 @@ def main():
         m = re.search(r"^source_url:\s*\"(.*)\"\s*$", raw, re.M)
         source_url = m.group(1) if m else None
 
-        status, source, fname, note = upgrade_cover(d, source_url)
+        status, source, fname, note, kind, data = upgrade_cover(d, source_url)
+
+        # interactive map data: point layers get a client-side marker map
+        # (full feature set, popup-able properties)
+        if kind == "point" and data:
+            map_dir = os.path.join(IMG_DIR, "data")
+            os.makedirs(map_dir, exist_ok=True)
+            gj = {"type": "FeatureCollection", "features": data.get("features", [])[:2000]}
+            map_fname = slug + ".geojson"
+            with open(os.path.join(map_dir, map_fname), "w") as f:
+                json.dump(gj, f, ensure_ascii=False)
+            d["map_data"] = f"data/{map_fname}"
+        else:
+            d.pop("map_data", None)
 
         # clean up stale renamed variants (old status in filename)
         for f in os.listdir(COVERS_DIR):
@@ -478,11 +504,19 @@ def main():
             stayed.append(d)
             print(f"  ✗ {slug:50s} stays cover_only — {note}")
 
-        # keep frontmatter cover in sync with the manifest
+        # keep frontmatter cover + map_data in sync with the manifest
         new_cover = f"covers/{fname}"
-        if raw and parse_frontmatter_cover(raw) != new_cover:
+        fm_raw = raw
+        if parse_frontmatter_cover(fm_raw) != new_cover:
+            fm_raw = re.sub(r"^cover:.*$", f"cover: {json.dumps(new_cover)}", fm_raw, count=1, flags=re.M)
+        map_ref = ("img/" + d["map_data"]) if d.get("map_data") else ""
+        if d.get("map_data") and f"map_data: {json.dumps(map_ref)}" not in fm_raw:
+            fm_raw = re.sub(r"^(cover:.*)$", r"\1\n" + f"map_data: {json.dumps(map_ref)}", fm_raw, count=1, flags=re.M)
+        elif not d.get("map_data"):
+            fm_raw = re.sub(r"^map_data:.*$\n?", "", fm_raw, count=1, flags=re.M)
+        if fm_raw != raw:
             with open(path, "w", encoding="utf-8") as f:
-                f.write(re.sub(r"^cover:.*$", f"cover: {json.dumps(new_cover)}", raw, count=1, flags=re.M))
+                f.write(fm_raw)
 
     print(f"  upgraded {len(upgraded)}/{len(datasets)}; {len(stayed)} stayed cover_only")
 

@@ -6,6 +6,7 @@ teaser: "A list of all street names in Oklahoma City with their official codes a
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
 cover: "covers/street-names-adea21af--transportation--map_real_geometry.png"
+map_data: "img/data/street-names-adea21af.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/adea21af99c740ec86870111a9881fc4/rest/services/OpenData/Transportation_Streets/FeatureServer/10"
 license: "custom"
 dataset_id: "adea21af99c740ec86870111a9881fc4"

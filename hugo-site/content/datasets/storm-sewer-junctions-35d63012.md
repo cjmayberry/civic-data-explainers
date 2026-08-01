@@ -6,6 +6,7 @@ teaser: "A map of storm sewer connection points like drain inlets and manholes a
 tags: [" oklahoma city", "storm", "sewer", "junction", "conrete", "earthen", "grass", "channels", "flumes", "gabion", "baskets", "grated inlets", "rip rap", "slop wall"]
 categories: ["Infrastructure"]
 cover: "covers/storm-sewer-junctions-35d63012--infrastructure--map_real_geometry.png"
+map_data: "img/data/storm-sewer-junctions-35d63012.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0"
 license: "custom"
 dataset_id: "35d63012d1534c67899f79ad75a53ca1"

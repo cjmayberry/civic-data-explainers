@@ -6,6 +6,7 @@ teaser: "This dataset tracks legal land documents like deeds, easements, and ord
 tags: ["okc", "oklahoma city", "land", "documents", "property", "deeds", "ordinances"]
 categories: ["Infrastructure"]
 cover: "covers/land-documents-fd9dbc81--infrastructure--map_real_geometry.png"
+map_data: "img/data/land-documents-fd9dbc81.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8"
 license: "custom"
 dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"

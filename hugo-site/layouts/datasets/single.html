@@ -16,6 +16,47 @@
     {{ .Content }}
   </div>
 
+  {{ with .Params.map_data }}
+  <section class="live-map">
+    <h2>See it on a map</h2>
+    <div id="dataset-map" class="dataset-map"
+         data-src="{{ . | relURL }}"
+         data-token="{{ getenv "MAPBOX_TOKEN" }}"
+         data-category="{{ $.Params.category | default (index $.Params.categories 0) }}"></div>
+    <p class="dictionary-note">Markers at the dataset's published locations — click one for the record's details.</p>
+  </section>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+  <script>
+  (function () {
+    var el = document.getElementById('dataset-map');
+    var token = el.getAttribute('data-token');
+    if (!token) { el.parentElement.style.display = 'none'; return; }
+    mapboxgl.accessToken = token;
+    var map = new mapboxgl.Map({ container: el, style: 'mapbox://styles/mapbox/light-v12', zoom: 11, center: [-97.5164, 35.4676] });
+    var colors = { 'Transportation': '#0a5da0', 'Infrastructure': '#b45309', 'Licensing': '#0f766e',
+      'Government': '#5b21b6', 'Finance': '#065f46', 'Parks & Recreation': '#15803d',
+      'Public Safety': '#b91c1c', 'Default': '#374151' };
+    var color = colors[el.getAttribute('data-category')] || '#374151';
+    map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+    fetch(el.getAttribute('data-src')).then(function (r) { return r.json(); }).then(function (gj) {
+      var bounds = new mapboxgl.LngLatBounds();
+      (gj.features || []).forEach(function (f) {
+        var c = (f.geometry || {}).coordinates;
+        if (!c) { return; }
+        bounds.extend(c);
+        var props = f.properties || {};
+        var key = Object.keys(props).find(function (k) { return /addr|address|location|street|name/i.test(k); });
+        var label = key && props[key] ? String(props[key]) : '';
+        var mk = new mapboxgl.Marker({ color: color }).setLngLat(c).addTo(map);
+        if (label) { mk.setPopup(new mapboxgl.Popup({ offset: 22 }).setText(label)); }
+      });
+      if (!bounds.isEmpty()) { map.fitBounds(bounds, { padding: 48, maxZoom: 14 }); }
+    }).catch(function () {});
+  })();
+  </script>
+  {{ end }}
+
   {{ with .Params.dictionary }}
   <section class="dictionary">
     <h2>The fields, explained</h2>

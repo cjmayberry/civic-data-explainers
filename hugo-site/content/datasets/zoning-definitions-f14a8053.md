@@ -6,6 +6,7 @@ teaser: "A reference list of zoning codes and what they mean in Oklahoma City"
 tags: ["oklahoma city", "zoning", "zones", "definitions", "zngdswl"]
 categories: ["Licensing"]
 cover: "covers/zoning-definitions-f14a8053--licensing--map_real_geometry.png"
+map_data: "img/data/zoning-definitions-f14a8053.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/f14a80531b914852ba8870c37b41e1d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/9"
 license: "custom"
 dataset_id: "f14a80531b914852ba8870c37b41e1d8"

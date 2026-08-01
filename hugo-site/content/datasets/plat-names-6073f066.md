@@ -6,6 +6,7 @@ teaser: "A list of neighborhood plat names and their corresponding codes used in
 tags: ["oklahoma city", "plats", "subdivision", "boundary", "boundaries", "plat name", "plat code"]
 categories: ["Licensing"]
 cover: "covers/plat-names-6073f066--licensing--map_real_geometry.png"
+map_data: "img/data/plat-names-6073f066.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10"
 license: "custom"
 dataset_id: "6073f066182b4a3c87f8efc001ab0ee3"

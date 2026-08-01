@@ -6,6 +6,7 @@ teaser: "A live-updated list of recent police and fire emergency calls in Oklaho
 tags: [" oklahoma city", "police", "ems", "wrecks", "auto", "automobile", "car", "crash"]
 categories: ["Public Safety"]
 cover: "covers/emergency-responses-01c97e29--public-safety--map_real_geometry.png"
+map_data: "img/data/emergency-responses-01c97e29.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/01c97e2928134efc93157d99f2d23047/rest/services/OpenData/Public_Safety/FeatureServer/0"
 license: "custom"
 dataset_id: "01c97e2928134efc93157d99f2d23047"

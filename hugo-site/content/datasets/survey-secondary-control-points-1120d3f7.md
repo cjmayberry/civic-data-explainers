@@ -6,6 +6,7 @@ teaser: "A dataset of permanent survey markers (called \"secondary control point
 tags: ["okc", "oklahoma city", "surveys", "control", "points", "monuments"]
 categories: ["Infrastructure"]
 cover: "covers/survey-secondary-control-points-1120d3f7--infrastructure--map_real_geometry.png"
+map_data: "img/data/survey-secondary-control-points-1120d3f7.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1120d3f72fe64245a799851598fb83c6/rest/services/OpenData/Infrastructure_Survey/FeatureServer/1"
 license: "custom"
 dataset_id: "1120d3f72fe64245a799851598fb83c6"

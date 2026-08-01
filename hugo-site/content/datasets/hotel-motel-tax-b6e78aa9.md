@@ -6,6 +6,7 @@ teaser: "This dataset tracks hotels and motels with active tax licenses in Oklah
 tags: ["oklahoma city", "hotels", "motels", "tax", "license", "certificate", "revenue"]
 categories: ["Finance"]
 cover: "covers/hotel-motel-tax-b6e78aa9--finance--map_real_geometry.png"
+map_data: "img/data/hotel-motel-tax-b6e78aa9.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3"
 license: "custom"
 dataset_id: "b6e78aa9a14c494f827ea0f24418cac7"

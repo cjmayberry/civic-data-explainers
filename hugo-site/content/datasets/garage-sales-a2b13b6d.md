@@ -6,6 +6,7 @@ teaser: "A list of current and upcoming garage sales in Oklahoma City, including
 tags: [" oklahoma city", "garage", "yard", "sales", "permits"]
 categories: ["Licensing"]
 cover: "covers/garage-sales-a2b13b6d--licensing--map_real_geometry.png"
+map_data: "img/data/garage-sales-a2b13b6d.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a2b13b6db7804ea98482ca085e2783db/rest/services/OpenData/Licensing_Permits/FeatureServer/0"
 license: "custom"
 dataset_id: "a2b13b6db7804ea98482ca085e2783db"

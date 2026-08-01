@@ -14,6 +14,10 @@ title = "Civic Data, Explained"
 [markup.goldmark.renderer]
   unsafe = false  # keep default-safe HTML escaping; drafted content is model output, don't disable sanitization on it
 
+[security]
+  [security.funcs]
+    getenv = ['^MAPBOX_TOKEN$', '^PATH$', '^PATHEXT$', '^TMP$', '^TEMP$', '^USERNAME$', '^USERPROFILE$']
+
 [build]
   writeStats = false
 

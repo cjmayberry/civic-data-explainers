@@ -6,6 +6,7 @@ teaser: "A collection of official construction records for roads, drainage syste
 tags: ["okc", "drainage", "oklahoma city", "as-builts", "as builts", "paving", "streets", "documents", "storm sewer"]
 categories: ["Infrastructure"]
 cover: "covers/public-works-as-builts-d317eb4e--infrastructure--map_real_geometry.png"
+map_data: "img/data/public-works-as-builts-d317eb4e.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3"
 license: "custom"
 dataset_id: "d317eb4e5f544ff9a9f48f1fcdc09977"

@@ -6,6 +6,7 @@ teaser: "This dataset shows where police briefing stations are located in Oklaho
 tags: [" oklahoma city", "police", "briefing", "stations"]
 categories: ["Public Safety"]
 cover: "covers/police-stations-fdb1ea86--public-safety--map_real_geometry.png"
+map_data: "img/data/police-stations-fdb1ea86.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5"
 license: "custom"
 dataset_id: "fdb1ea86290a4b5187ddd3218dc70140"
