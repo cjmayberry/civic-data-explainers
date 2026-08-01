@@ -134,6 +134,24 @@ that cannot parse `hugo.toml` / the modern templates. Use the pinned build:
 `build.sh` downloads the exact pinned Hugo binary and builds with it, so
 the deploy is deterministic regardless of the buildpack defaults.
 
+### Interactive maps (point datasets)
+
+Point layers (fire stations, police stations, work zones, survey points,
+garage sales, …) get a client-side Mapbox GL marker map on their page —
+every published location as a marker, with address popups. Set in Pages:
+**Settings → Environment variables → Production + Preview**:
+
+```
+MAPBOX_TOKEN=pk.…your public Mapbox token
+```
+
+Without it the page falls back to the static cover (the map section is
+hidden). The token is injected into the page at build time via Hugo's
+`getenv` (allowlisted in `hugo.toml`) — it is never committed to the repo.
+A `pk.` token is Mapbox's public token type, designed for client-side
+embedding; optionally restrict it in the Mapbox dashboard to
+`civic-data-explainers.pages.dev` to cap usage to this site.
+
 ## State sources (Oklahoma)
 
 Three Oklahoma state endpoints are wired into the extractor (research:
