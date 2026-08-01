@@ -5,7 +5,7 @@ description: "This dataset can be used to the location of waterways, such as riv
 teaser: "This dataset tracks the location of rivers, streams, and other waterways within Oklahoma City limits"
 tags: [" oklahoma city", "streams", "rivers", "drainage", "hydrology", "waterways", "recreation"]
 categories: ["Infrastructure"]
-cover: "covers/waterways-7107d3b8--infrastructure--map_real_geometry.svg"
+cover: "covers/waterways-7107d3b8--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4"
 license: "custom"
 dataset_id: "7107d3b89c614b10a53161237fc6d31e"

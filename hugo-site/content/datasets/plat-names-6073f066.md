@@ -5,7 +5,7 @@ description: "This dataset lists the existing plat name and codes used within th
 teaser: "A list of neighborhood plat names and their corresponding codes used in Oklahoma City"
 tags: ["oklahoma city", "plats", "subdivision", "boundary", "boundaries", "plat name", "plat code"]
 categories: ["Licensing"]
-cover: "covers/plat-names-6073f066--licensing--map_real_geometry.svg"
+cover: "covers/plat-names-6073f066--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10"
 license: "custom"
 dataset_id: "6073f066182b4a3c87f8efc001ab0ee3"

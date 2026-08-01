@@ -5,7 +5,7 @@ description: "This dataset can be used to determine trash collection zones withi
 teaser: "This dataset shows where and when trash gets picked up across Oklahoma City"
 tags: ["oklahoma city", "trash", "waste", "pickup", "zones"]
 categories: ["Infrastructure"]
-cover: "covers/trash-collection-zones-45426e5e--infrastructure--map_real_geometry.svg"
+cover: "covers/trash-collection-zones-45426e5e--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/45426e5e1b31489db9afea603870f724/rest/services/OpenData/Utilities/FeatureServer/1"
 license: "custom"
 dataset_id: "45426e5e1b31489db9afea603870f724"

@@ -64,7 +64,9 @@ CATEGORY_COLORS = {
 
 HERO_QUERY = "oklahoma city skyline"
 MAX_FEATURES_SVG = 1200          # local render cap
-MAPBOX_FEATURES = 40             # Mapbox URL length cap
+MAPBOX_FEATURES = 5              # representative features for the Mapbox URL
+MAPBOX_URL_CEIL = 7500           # keep the static-images URL under ~8KB
+MAPBOX_MAX_PTS = 40              # starting per line/ring point cap (shrinks on retry)
 
 
 def http_get(url, timeout=60):
@@ -250,23 +252,83 @@ def render_geometry_svg(slug, title, category, data, kind, note):
     return svg, None
 
 
+def simplify_geojson(feats, max_pts=MAPBOX_MAX_PTS):
+    """Prep geometry for the Mapbox static-images URL, which hard-fails
+    (HTTP 414 / 422) on large layers. Strategy:
+      - keep only the N most complex features (representative shapes)
+      - trim every line/ring to a point cap (rings stay closed)
+      - round coordinates to 4 decimals (~11m precision — plenty for a
+        600x400 thumbnail)
+      - drop attribute properties (bloat the URL; Mapbox ignores them)
+    """
+    def vcount(g):
+        c = g.get("coordinates", [])
+        def walk(coords):
+            if coords and isinstance(coords[0], (int, float)):
+                return 1
+            return sum(walk(x) for x in coords)
+        return walk(c)
+
+    ranked = sorted(feats, key=lambda f: -vcount(f.get("geometry") or {}))[:MAPBOX_FEATURES]
+
+    def close(ring):
+        return ring + [ring[0]] if len(ring) > 1 and ring[0] != ring[-1] else ring
+
+    def simplify_feature(f):
+        g = dict(f.get("geometry") or {})
+        t = g.get("type", "")
+        c = g.get("coordinates", [])
+        def R(v):
+            return round(v, 4)
+        def pr(p):
+            return [R(p[0]), R(p[1])]
+        def trim(ring):
+            ring = [pr(p) for p in ring]
+            if len(ring) > max_pts:
+                ring = ring[:: len(ring) // max_pts]
+            return ring
+        if t == "Point":
+            nc = pr(c)
+        elif t == "MultiPoint":
+            nc = [pr(p) for p in c[:max_pts]]
+        elif t == "LineString":
+            nc = trim(c)
+        elif t == "MultiLineString":
+            nc = [trim(s) for s in c[:2]]
+        elif t == "Polygon":
+            nc = [close(trim(r)) for r in c[:2]]
+        elif t == "MultiPolygon":
+            nc = [[close(trim(r)) for r in poly[:2]] for poly in c[:2]]
+        else:
+            nc = c
+        g["coordinates"] = nc
+        return {"type": "Feature", "properties": {}, "geometry": g}
+
+    return [simplify_feature(f) for f in ranked]
+
+
 def render_mapbox_png(data, slug):
-    """Mapbox Static Images geojson() render (token-gated)."""
+    """Mapbox Static Images geojson() render (token-gated). Retries with a
+    shrinking geometry budget until the URL fits Mapbox's hard limit."""
     token = os.environ.get("MAPBOX_TOKEN", "").strip()
     if not token:
         return None, "no MAPBOX_TOKEN"
-    feats = data.get("features", [])[:MAPBOX_FEATURES]
-    gj = {"type": "FeatureCollection", "features": feats}
-    encoded = urllib.parse.quote(json.dumps(gj, separators=(",", ":")))
-    url = ("https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/"
-           f"geojson({encoded})/auto/600x400?access_token={token}")
-    try:
-        png = http_get(url, timeout=60)
-    except Exception as e:
-        return None, f"mapbox render failed: {e}"
-    if not png or len(png) < 500:
-        return None, "mapbox returned empty/error image"
-    return png, None
+    for max_pts in (40, 20, 12, 8, 5):
+        feats = simplify_geojson(data.get("features", []), max_pts)
+        gj = {"type": "FeatureCollection", "features": feats}
+        encoded = urllib.parse.quote(json.dumps(gj, separators=(",", ":")))
+        url = ("https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/"
+               f"geojson({encoded})/auto/600x400?access_token={token}")
+        if len(url) > MAPBOX_URL_CEIL:
+            continue
+        try:
+            png = http_get(url, timeout=60)
+        except Exception as e:
+            return None, f"mapbox render failed: {e}"
+        if not png or len(png) < 500:
+            return None, "mapbox returned empty/error image"
+        return png, None
+    return None, f"geometry too complex for Mapbox URL even at min budget ({len(url)} chars)"
 
 
 def upgrade_cover(dataset, source_url):
@@ -286,6 +348,7 @@ def upgrade_cover(dataset, source_url):
         return "cover_only", "svg_cover", old_name, "mixed geometry types not rendered"
 
     token = os.environ.get("MAPBOX_TOKEN", "").strip()
+    mb_err = ""
     if token:
         png, err = render_mapbox_png(data, slug)
         if not err:
@@ -293,6 +356,7 @@ def upgrade_cover(dataset, source_url):
             with open(os.path.join(COVERS_DIR, new_name), "wb") as f:
                 f.write(png)
             return "map_real_geometry", "mapbox", new_name, f"{kind}, {len(data.get('features', []))} features"
+        mb_err = err
 
     svg, err = render_geometry_svg(slug, dataset["title"], dataset["category"], data, kind, None)
     if err:
@@ -300,7 +364,10 @@ def upgrade_cover(dataset, source_url):
     new_name = f"{slug}--{cat_slug}--map_real_geometry.svg"
     with open(os.path.join(COVERS_DIR, new_name), "w") as f:
         f.write(svg)
-    return "map_real_geometry", "local_geometry", new_name, f"{kind}, {len(data.get('features', []))} features"
+    note = f"{kind}, {len(data.get('features', []))} features"
+    if token:
+        note += f" | mapbox failed: {mb_err[:80]}"
+    return "map_real_geometry", "local_geometry", new_name, note
 
 
 # ---------------------------------------------------------------------------

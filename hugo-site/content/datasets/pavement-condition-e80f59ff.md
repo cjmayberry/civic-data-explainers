@@ -5,7 +5,7 @@ description: "Approximate length of feature in US feet"
 teaser: "The bumpiness report card: every OKC street scored on the Pavement Condition Index."
 tags: ["okc", "oklahoma city", "streets", "pavement", "condition", "index", "roads", "surface", "pci"]
 categories: ["Transportation"]
-cover: "covers/pavement-condition-e80f59ff--transportation--map_real_geometry.svg"
+cover: "covers/pavement-condition-e80f59ff--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3"
 license: "custom"
 dataset_id: "e80f59ff3b374307a28e634ac0a92c41"

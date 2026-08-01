@@ -5,7 +5,7 @@ description: "This dataset can be used to view the storm siren sector used to ac
 teaser: "This dataset tracks the sectors where storm sirens activate during emergencies"
 tags: [" oklahoma city", "storms", "siren", "sector", "areas", "weather", "notifications"]
 categories: ["Public Safety"]
-cover: "covers/storm-siren-sectors-58b572ce--public-safety--map_real_geometry.svg"
+cover: "covers/storm-siren-sectors-58b572ce--public-safety--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/58b572ceddf24352a1cde67e42dbcc44/rest/services/OpenData/Public_Safety/FeatureServer/3"
 license: "custom"
 dataset_id: "58b572ceddf24352a1cde67e42dbcc44"

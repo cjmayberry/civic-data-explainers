@@ -5,7 +5,7 @@ description: "Approximate length of feature in US feet"
 teaser: "The invisible skeleton under every address in OKC — updated daily, used by 911, delivery apps, and you."
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
-cover: "covers/street-centerlines-0e041a93--transportation--map_real_geometry.svg"
+cover: "covers/street-centerlines-0e041a93--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5"
 license: "custom"
 dataset_id: "0e041a931ede4d38a9d23c5301708662"

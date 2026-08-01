@@ -5,7 +5,7 @@ description: "This dataset can be used to view information on active work zones 
 teaser: "This dataset tracks active construction and repair work zones across Oklahoma City streets, including lane, road, and sidewalk closures"
 tags: ["okc", "oklahoma city", "roads", "streets", "lanes", "right of way", "right-of-way", "closures"]
 categories: ["Transportation"]
-cover: "covers/work-zones-ead80c5e--transportation--map_real_geometry.svg"
+cover: "covers/work-zones-ead80c5e--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5"
 license: "custom"
 dataset_id: "ead80c5e4e4e4c719359217f704a0c4c"

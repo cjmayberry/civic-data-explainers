@@ -5,7 +5,7 @@ description: "Approximate length of perimeter of feature in US feet"
 teaser: "Every building in OKC, drawn from the sky in 2020 — and the honest limits of aerial data."
 tags: [" oklahoma city", "buildings", "footprints", "addresses", "planimetrics", "2020"]
 categories: ["Infrastructure"]
-cover: "covers/building-footprints-2d4cd6c3--infrastructure--map_real_geometry.svg"
+cover: "covers/building-footprints-2d4cd6c3--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2"
 license: "custom"
 dataset_id: "2d4cd6c3279f48f394329f3367069c61"

@@ -5,7 +5,7 @@ description: "This dataset can be used to view walking and multi-use trails loca
 teaser: "A list of walking and multi-use trails in Oklahoma City parks"
 tags: [" oklahoma city", "walking", "biking", "parks", "trails", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/city-trails-1e65b61d--parks-recreation--map_real_geometry.svg"
+cover: "covers/city-trails-1e65b61d--parks-recreation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3"
 license: "custom"
 dataset_id: "1e65b61d07f5458a90d4cfa01e882044"

@@ -5,7 +5,7 @@ description: "This dataset can be used to view special planning areas, such as c
 teaser: "This dataset tracks special planning areas in Oklahoma City that aren't covered by normal zoning rules, like closed streets or vacated lots"
 tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundaries", "non-zoning", "parcel", "special", "zngdswl"]
 categories: ["Licensing"]
-cover: "covers/non-zoning-parcels-186d9979--licensing--map_real_geometry.svg"
+cover: "covers/non-zoning-parcels-186d9979--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/186d99795ce447708fd365c8940c8390/rest/services/OpenData/Licensing_Zoning/FeatureServer/2"
 license: "custom"
 dataset_id: "186d99795ce447708fd365c8940c8390"

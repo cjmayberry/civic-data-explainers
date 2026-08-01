@@ -5,7 +5,7 @@ description: "Geographic data in state plane coordinates (WKID 103512)"
 teaser: "The response-time backbone: where OKC’s fire stations sit — and what “Facility Name” really is."
 tags: ["OKC", "Fire", "oklahoma city", "stations", "oklahoma city"]
 categories: ["Public Safety"]
-cover: "covers/fire-stations-7f57d399--public-safety--map_real_geometry.svg"
+cover: "covers/fire-stations-7f57d399--public-safety--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/7f57d399cbd1468d877a8411205a671d/rest/services/OpenData/Public_Safety/FeatureServer/4"
 license: "custom"
 dataset_id: "7f57d399cbd1468d877a8411205a671d"

@@ -5,7 +5,7 @@ description: "This dataset can be used to determine the location of waterbodies,
 teaser: "This dataset shows the locations of lakes, ponds, and other waterbodies in Oklahoma City"
 tags: [" oklahoma city", "lakes", "ponds", "water", "drainage", "hydrology", "waterbody", "waterbodies", "recreation"]
 categories: ["Infrastructure"]
-cover: "covers/waterbodies-a6b9c703--infrastructure--map_real_geometry.svg"
+cover: "covers/waterbodies-a6b9c703--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3"
 license: "custom"
 dataset_id: "a6b9c70396904437af69a95e49f9671e"

@@ -5,7 +5,7 @@ description: "This dataset can be used to determine the plat name and plat code 
 teaser: "This dataset tracks the official plats (mapped subdivisions of land) within Oklahoma City, including their names and codes"
 tags: [" oklahoma city", "plats", "subdivision", "boundary", "boundaries"]
 categories: ["Licensing"]
-cover: "covers/plats-43d820b8--licensing--map_real_geometry.svg"
+cover: "covers/plats-43d820b8--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/43d820b83b674709a76d0bf9d090d812/rest/services/OpenData/Licensing_Subdivision/FeatureServer/4"
 license: "custom"
 dataset_id: "43d820b83b674709a76d0bf9d090d812"

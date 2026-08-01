@@ -5,7 +5,7 @@ description: "Approximate area of feature in US square feet"
 teaser: "A dataset showing where street development projects are planned in the city"
 tags: ["okc", "oklahoma city", "streets", "impact fees", "benefit areas"]
 categories: ["Licensing"]
-cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--map_real_geometry.svg"
+cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3"
 license: "custom"
 dataset_id: "5377697e59b34ad1a749063b73205886"

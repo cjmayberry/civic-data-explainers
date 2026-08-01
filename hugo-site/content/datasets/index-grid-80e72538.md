@@ -5,7 +5,7 @@ description: "This dataset can be used to find out the fire index grid numbers f
 teaser: "This dataset tracks numbered grid squares (about 1 mile wide) used by Oklahoma City’s fire department to organize the city into sections"
 tags: ["okc", "oklahoma city", "grids", "fire", "index", "surveys", "boundary", "boundaries"]
 categories: ["Infrastructure"]
-cover: "covers/index-grid-80e72538--infrastructure--map_real_geometry.svg"
+cover: "covers/index-grid-80e72538--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/80e725387d8848baa12f2374843043e3/rest/services/OpenData/Infrastructure_Survey/FeatureServer/2"
 license: "custom"
 dataset_id: "80e725387d8848baa12f2374843043e3"

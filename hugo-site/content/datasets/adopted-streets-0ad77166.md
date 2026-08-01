@@ -5,7 +5,7 @@ description: "This dataset can be used to view Oklahoma City streets that have b
 teaser: "This dataset tracks which Oklahoma City streets have been adopted by organizations through the adopt-a-city-street program"
 tags: ["okc", "oklahoma city", "adopt", "adopeted", "streets"]
 categories: ["Transportation"]
-cover: "covers/adopted-streets-0ad77166--transportation--map_real_geometry.svg"
+cover: "covers/adopted-streets-0ad77166--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0ad7716656324cf7844fd2e1ffe1f6be/rest/services/OpenData/Transportation/FeatureServer/2"
 license: "custom"
 dataset_id: "0ad7716656324cf7844fd2e1ffe1f6be"

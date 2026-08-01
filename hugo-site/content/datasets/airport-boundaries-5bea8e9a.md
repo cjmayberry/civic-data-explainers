@@ -5,7 +5,7 @@ description: "This dataset can be used to determine the general location and bou
 teaser: "This dataset shows the boundaries and locations of Oklahoma City's three municipal airports"
 tags: [" oklahoma city", "boundary", "boundaries", "airport", "will rogers", "wiley post", "ce page", "c e page", "c. e. page"]
 categories: ["Government"]
-cover: "covers/airport-boundaries-5bea8e9a--government--map_real_geometry.svg"
+cover: "covers/airport-boundaries-5bea8e9a--government--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5"
 license: "custom"
 dataset_id: "5bea8e9acd0e413bba4895a26a2ae328"

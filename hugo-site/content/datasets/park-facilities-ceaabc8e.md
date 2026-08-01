@@ -5,7 +5,7 @@ description: "This dataset can be used to view various park facilities and ament
 teaser: "This dataset tracks park facilities like playgrounds, pools, and picnic areas across Oklahoma City parks"
 tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic", "pools", "spray", "grounds", "tennis", "courts", "baseball", "softball", "fields", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/park-facilities-ceaabc8e--parks-recreation--map_real_geometry.svg"
+cover: "covers/park-facilities-ceaabc8e--parks-recreation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ceaabc8e606c4bf2ba0c4442b48455a8/rest/services/OpenData/Recreation_Parks/FeatureServer/0"
 license: "custom"
 dataset_id: "ceaabc8e606c4bf2ba0c4442b48455a8"

@@ -5,7 +5,7 @@ description: "Geographic data in Web Mercator coordinates"
 teaser: "How OKC plans and pays for the streets, bridges and parks around you — and why “planned” and “actual” are two different dates."
 tags: ["okc", "oklahoma city", "projects", "bonds", "parks", "bridges", "drainage", "intersections", "streets", "buildings", "facility", "police", "fire", "bond", "penny"]
 categories: ["Infrastructure"]
-cover: "covers/public-infrastructure-projects-d5e6fb99--infrastructure--map_real_geometry.svg"
+cover: "covers/public-infrastructure-projects-d5e6fb99--infrastructure--map_real_geometry.png"
 source_url: "https://services5.arcgis.com/2mOVdIcRtNH2JsSF/arcgis/rest/services/Infrastructure_Projects_OD/FeatureServer"
 license: "custom"
 dataset_id: "d5e6fb99125c44a6b5165336607fe199"

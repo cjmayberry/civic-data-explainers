@@ -5,7 +5,7 @@ description: "This dataset can be used to view elevation contours derived from l
 teaser: "This dataset shows elevation lines across the city, marking how high the land is above sea level"
 tags: ["oklahoma city", "elevation", "countours", "planimetrics", "2020"]
 categories: ["Infrastructure"]
-cover: "covers/elevation-contours-1e61c575--infrastructure--map_real_geometry.svg"
+cover: "covers/elevation-contours-1e61c575--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e61c57573004a83a6f1694aa0e94f84/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/3"
 license: "custom"
 dataset_id: "1e61c57573004a83a6f1694aa0e94f84"

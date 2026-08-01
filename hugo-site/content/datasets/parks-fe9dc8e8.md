@@ -5,7 +5,7 @@ description: "Approximate area of feature in US square feet"
 teaser: "Where OKC’s green space lives — regional, community and neighborhood parks, with real acreage."
 tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic", "pools", "spray", "grounds", "tennis", "courts", "baseball", "softball", "fields", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/parks-fe9dc8e8--parks-recreation--map_real_geometry.svg"
+cover: "covers/parks-fe9dc8e8--parks-recreation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4"
 license: "custom"
 dataset_id: "fe9dc8e85f9c43b7950e32b69edf28fc"
