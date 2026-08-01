@@ -18,4 +18,6 @@ if ! ./hugo version >/dev/null 2>&1; then
   tar xzf /tmp/hugo.tgz hugo
 fi
 
-./hugo --gc
+# Build into <repo-root>/public so the Pages "output directory" setting is
+# simply `public` (relative to the repo root), matching the Hugo preset.
+./hugo --gc --destination ../public
