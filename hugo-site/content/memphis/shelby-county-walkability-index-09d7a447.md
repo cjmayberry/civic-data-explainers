@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Shelby County Walkability Index Data Dictionary.pdf"
 teaser: "A dataset measuring how walkable different areas of Shelby County are"
 tags: ["Memphis Open Data", "Transportation & Infrastructure"]
-categories: ["Default"]
-cover: "covers/shelby-county-walkability-index-09d7a447--default--placeholder.svg"
+categories: ["Transportation"]
+cover: "covers/shelby-county-walkability-index-09d7a447--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_County_Walkability_Index/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=09d7a44727b3455187a27a4b4684a608&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
-draft: false
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-county-walkability-index-1"
-maintained_by: ""
+draft: false
 ---
+
+
 
 ## What this is  
 A dataset measuring how walkable different areas of Shelby County are.

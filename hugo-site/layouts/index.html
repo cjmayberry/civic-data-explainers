@@ -7,7 +7,7 @@
     <h1>Your city keeps a ledger.<br><span class="hero-accent">This is its translation.</span></h1>
     <p class="hero-dek">Every street, zone, sewer line and sidewalk in Oklahoma City is tracked in public data. These explainers turn the raw catalog into plain English you can actually use.</p>
     <div class="hero-actions">
-      <a class="cta" href="{{ "/datasets/" | relURL }}">Browse all explainers</a>
+      <a class="cta" href="{{ "/okc/" | relURL }}">Browse all explainers</a>
     </div>
   </div>
 </section>
@@ -16,7 +16,7 @@
   <h2 class="block-title">Cities</h2>
   <div class="card-grid">
     {{ range $key, $city := .Site.Data.cities }}
-    {{ $href := cond (eq $key "oklahoma-city") "/datasets/" (printf "/%s/" $key) }}
+    {{ $href := cond (eq $key "okc") "/okc/" (printf "/%s/" $key) }}
     <a class="card city-card" href="{{ $href | relURL }}">
       <span class="kicker">City catalog</span>
       <h3>{{ $city.name }}</h3>

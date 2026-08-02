@@ -1,0 +1,8 @@
+{
+  "schema": 2,
+  "city": "Oklahoma City",
+  "prompt_version": "v3-schema-grounded",
+  "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+  "generated_at": "2026-08-02T19:45:10Z",
+  "drafts": []
+}

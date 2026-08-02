@@ -1,10 +1,13 @@
 {
-  "oklahoma-city": {
+  "okc": {
     "name": "Oklahoma City",
     "short": "OKC",
     "hub": "https://open-okc.hub.arcgis.com",
     "gov": "https://www.okc.gov",
-    "center": [-97.5164, 35.4676],
+    "center": [
+      -97.5164,
+      35.4676
+    ],
     "blurb": "The flagship catalog: 55 datasets across transportation, infrastructure, licensing, and more."
   },
   "memphis": {
@@ -12,7 +15,10 @@
     "short": "Memphis",
     "hub": "https://data.memphistn.gov",
     "gov": "https://www.memphistn.gov",
-    "center": [-90.049, 35.1495],
+    "center": [
+      -90.049,
+      35.1495
+    ],
     "blurb": "City #2 proof: 41 datasets drafted by the same pipeline from Memphis's own ArcGIS Hub."
   }
 }

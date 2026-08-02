@@ -90,762 +90,4807 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-02T16:22:03Z",
+  "generated_at": "2026-08-02T19:48:19Z",
   "dataset_schema": 2,
   "datasets": [
     {
       "slug": "911-call-volume-performance-d5dc32e0",
       "title": "911 Call Volume & Performance",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "911-call-volume-performance-d5dc32e0--public-safety--placeholder.svg",
+      "image_file": "911-call-volume-performance-d5dc32e0--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month_Start",
+            "type": "esriFieldTypeDate",
+            "alias": "Month Start"
+          },
+          {
+            "name": "Count_of_Calls",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Calls"
+          },
+          {
+            "name": "Percent_Answered_in_20_sec",
+            "type": "esriFieldTypeDouble",
+            "alias": "Percent Answered in 20 sec"
+          },
+          {
+            "name": "Percent_Abandoned",
+            "type": "esriFieldTypeDouble",
+            "alias": "Percent Abandoned"
+          },
+          {
+            "name": "Percent_Answered_Goal",
+            "type": "esriFieldTypeDouble",
+            "alias": "Percent Answered Goal"
+          },
+          {
+            "name": "Average_Setup_Time",
+            "type": "esriFieldTypeDouble",
+            "alias": "Average Setup Time"
+          },
+          {
+            "name": "Average_Queue_Time",
+            "type": "esriFieldTypeDouble",
+            "alias": "Average Queue Time"
+          },
+          {
+            "name": "Average_Ring_Time",
+            "type": "esriFieldTypeDouble",
+            "alias": "Average Ring Time"
+          },
+          {
+            "name": "Average_Total_Time",
+            "type": "esriFieldTypeDouble",
+            "alias": "Average Total Time"
+          },
+          {
+            "name": "Total_Time_National_Goal",
+            "type": "esriFieldTypeInteger",
+            "alias": "Total Time National Goal"
+          },
+          {
+            "name": "Total_Time_COM_Goal",
+            "type": "esriFieldTypeInteger",
+            "alias": "Total Time COM Goal"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Month_Start": 1420092000000,
+          "Count_of_Calls": 67391,
+          "Percent_Answered_in_20_sec": 53.7,
+          "Percent_Abandoned": 29.1,
+          "Percent_Answered_Goal": 95,
+          "Average_Queue_Time": 35.3,
+          "Average_Ring_Time": 4.3,
+          "Average_Total_Time": 39.6,
+          "Total_Time_National_Goal": 10,
+          "Total_Time_COM_Goal": 20
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:35Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/ECATS_911_Performance/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "bike-facilities-existing-and-programmed-eec74e9a",
       "title": "Bike Facilities Existing and Programmed",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "bike-facilities-existing-and-programmed-eec74e9a--default--placeholder.svg",
+      "image_file": "bike-facilities-existing-and-programmed-eec74e9a--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "objectid_1",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid_1"
+          },
+          {
+            "name": "objectid",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid"
+          },
+          {
+            "name": "facility_n",
+            "type": "esriFieldTypeString",
+            "alias": "facility_n"
+          },
+          {
+            "name": "begin_",
+            "type": "esriFieldTypeString",
+            "alias": "begin"
+          },
+          {
+            "name": "end_",
+            "type": "esriFieldTypeString",
+            "alias": "end"
+          },
+          {
+            "name": "facility_c",
+            "type": "esriFieldTypeString",
+            "alias": "facility_c"
+          },
+          {
+            "name": "status",
+            "type": "esriFieldTypeString",
+            "alias": "status"
+          },
+          {
+            "name": "route_id",
+            "type": "esriFieldTypeString",
+            "alias": "route_id"
+          },
+          {
+            "name": "bpp_2005",
+            "type": "esriFieldTypeString",
+            "alias": "bpp_2005"
+          },
+          {
+            "name": "local_plan",
+            "type": "esriFieldTypeString",
+            "alias": "local_plan"
+          },
+          {
+            "name": "jurisdicti",
+            "type": "esriFieldTypeString",
+            "alias": "jurisdicti"
+          },
+          {
+            "name": "st",
+            "type": "esriFieldTypeString",
+            "alias": "st"
+          },
+          {
+            "name": "note",
+            "type": "esriFieldTypeString",
+            "alias": "note"
+          },
+          {
+            "name": "miles",
+            "type": "esriFieldTypeDouble",
+            "alias": "miles"
+          },
+          {
+            "name": "priority",
+            "type": "esriFieldTypeString",
+            "alias": "priority"
+          },
+          {
+            "name": "yr_constr",
+            "type": "esriFieldTypeDouble",
+            "alias": "yr_constr"
+          },
+          {
+            "name": "i269",
+            "type": "esriFieldTypeString",
+            "alias": "i269"
+          },
+          {
+            "name": "blvd",
+            "type": "esriFieldTypeString",
+            "alias": "blvd"
+          },
+          {
+            "name": "divided",
+            "type": "esriFieldTypeString",
+            "alias": "divided"
+          },
+          {
+            "name": "fund_sourc",
+            "type": "esriFieldTypeString",
+            "alias": "fund_sourc"
+          },
+          {
+            "name": "shape_leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_leng"
+          },
+          {
+            "name": "shape_le_1",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_le_1"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "objectid_1": 1356,
+          "facility_n": "Fields Rd",
+          "begin_": "Sewanee",
+          "end_": "Hicky",
+          "facility_c": "Bike Lane",
+          "status": "Existing",
+          "route_id": "",
+          "bpp_2005": "",
+          "local_plan": "2014PW",
+          "jurisdicti": "Memphis",
+          "st": "TN",
+          "note": "",
+          "miles": 0.871370130509,
+          "priority": "",
+          "yr_constr": 2014,
+          "i269": "",
+          "blvd": "",
+          "divided": "",
+          "fund_sourc": "Local",
+          "shape_leng": 4600.83428908,
+          "shape_le_1": 4600.83428908
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:35Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "city-council-districts-cfc3ba75",
       "title": "City Council Districts",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "city-council-districts-cfc3ba75--default--placeholder.svg",
+      "image_file": "city-council-districts-cfc3ba75--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeInteger",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "CD",
+            "type": "esriFieldTypeInteger",
+            "alias": "Council District"
+          },
+          {
+            "name": "Shape_Leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape_Leng"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "CD": 1,
+          "Shape_Leng": 327719.730716
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:36Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Council_Districts_2023/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "city-council-super-districts-a06f2c70",
       "title": "City Council Super Districts",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "city-council-super-districts-a06f2c70--default--placeholder.svg",
+      "image_file": "city-council-super-districts-a06f2c70--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeInteger",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "SD",
+            "type": "esriFieldTypeInteger",
+            "alias": "Super District"
+          },
+          {
+            "name": "Shape_Leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape_Leng"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "SD": 8,
+          "Shape_Leng": 519206.9377
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:36Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Super_District_2023/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "city-of-memphis-parks-92001696",
       "title": "City of Memphis Parks",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "city-of-memphis-parks-92001696--default--placeholder.svg",
+      "image_file": "city-of-memphis-parks-92001696--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "ParkID",
+            "type": "esriFieldTypeString",
+            "alias": "ParkID"
+          },
+          {
+            "name": "GISTrkrID",
+            "type": "esriFieldTypeInteger",
+            "alias": "GISTrkrID"
+          },
+          {
+            "name": "SourceID",
+            "type": "esriFieldTypeInteger",
+            "alias": "SourceID"
+          },
+          {
+            "name": "Park_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Name"
+          },
+          {
+            "name": "Park_Designation",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Designation"
+          },
+          {
+            "name": "Park_Owner_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Owner_Type"
+          },
+          {
+            "name": "Park_Local_Owner",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Local_Owner"
+          },
+          {
+            "name": "Park_Manager_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Manager_Type"
+          },
+          {
+            "name": "Park_Local_Manager",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Local_Manager"
+          },
+          {
+            "name": "Park_Access",
+            "type": "esriFieldTypeInteger",
+            "alias": "Park_Access"
+          },
+          {
+            "name": "Park_Status",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Status"
+          },
+          {
+            "name": "Park_Land_Acquisition",
+            "type": "esriFieldTypeInteger",
+            "alias": "Park_Land_Acquisition"
+          },
+          {
+            "name": "Park_Est_Date",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Est_Date"
+          },
+          {
+            "name": "Park_Size_Acres",
+            "type": "esriFieldTypeDouble",
+            "alias": "Park_Size_Acres"
+          },
+          {
+            "name": "Park_Size_SQFT",
+            "type": "esriFieldTypeDouble",
+            "alias": "Park_Size_SQFT"
+          },
+          {
+            "name": "Park_Size_SQMeters",
+            "type": "esriFieldTypeDouble",
+            "alias": "Park_Size_SQMeters"
+          },
+          {
+            "name": "Park_Address_1",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Address_1"
+          },
+          {
+            "name": "Park_State",
+            "type": "esriFieldTypeString",
+            "alias": "Park_State"
+          },
+          {
+            "name": "Park_State_FIPS",
+            "type": "esriFieldTypeString",
+            "alias": "Park_State_FIPS"
+          },
+          {
+            "name": "Park_County",
+            "type": "esriFieldTypeString",
+            "alias": "Park_County"
+          },
+          {
+            "name": "Park_County_FIPS",
+            "type": "esriFieldTypeString",
+            "alias": "Park_County_FIPS"
+          },
+          {
+            "name": "Park_Place",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Place"
+          },
+          {
+            "name": "Park_Place_FIPS",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Place_FIPS"
+          },
+          {
+            "name": "Park_UrbanArea",
+            "type": "esriFieldTypeString",
+            "alias": "Park_UrbanArea"
+          },
+          {
+            "name": "Park_UrbanArea_ID",
+            "type": "esriFieldTypeString",
+            "alias": "Park_UrbanArea_ID"
+          },
+          {
+            "name": "Park_Zip",
+            "type": "esriFieldTypeString",
+            "alias": "Park_Zip"
+          },
+          {
+            "name": "ORIG_FID",
+            "type": "esriFieldTypeInteger",
+            "alias": "ORIG_FID"
+          }
+        ],
+        "sample": {
+          "ParkID": "4748000-0001",
+          "GISTrkrID": 143,
+          "SourceID": 9,
+          "Park_Name": "Oakley Park",
+          "Park_Designation": "LP",
+          "Park_Owner_Type": "MUNI",
+          "Park_Local_Owner": "MEMPHIS PARKS",
+          "Park_Manager_Type": "MUNI",
+          "Park_Local_Manager": "MEMPHIS PARKS",
+          "Park_Access": 3,
+          "Park_Status": "Open",
+          "Park_Land_Acquisition": 1,
+          "Park_Size_Acres": 689.630692908076,
+          "Park_Size_SQFT": 30040312.9830758,
+          "Park_Size_SQMeters": 2790836.39867921,
+          "Park_State": "Tennessee",
+          "Park_State_FIPS": "47",
+          "Park_County": "Shelby County",
+          "Park_County_FIPS": "47157",
+          "Park_Place": "Memphis city",
+          "Park_Place_FIPS": "4748000",
+          "Park_UrbanArea": "Memphis, TN--MS--AR",
+          "Park_UrbanArea_ID": "56116",
+          "Park_Zip": "38128",
+          "ORIG_FID": 11162
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:33:36Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/City_of_Memphis_Parks/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/city-of-memphis-parks-92001696.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "com-employee-titles-and-salaries-8407de81",
       "title": "COM Employee Titles and Salaries",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Government",
+      "category": "Government",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "com-employee-titles-and-salaries-8407de81--default--placeholder.svg",
+      "image_file": "com-employee-titles-and-salaries-8407de81--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Division_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Division Name"
+          },
+          {
+            "name": "Person_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Person Name"
+          },
+          {
+            "name": "Job_Title",
+            "type": "esriFieldTypeString",
+            "alias": "Job Title"
+          },
+          {
+            "name": "Annual_Salary",
+            "type": "esriFieldTypeDouble",
+            "alias": "Annual Salary"
+          },
+          {
+            "name": "Hourly_or_Per_Event_Rate",
+            "type": "esriFieldTypeDouble",
+            "alias": "Hourly or Per Event Rate"
+          },
+          {
+            "name": "Category",
+            "type": "esriFieldTypeString",
+            "alias": "Category"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Division_Name": "Police Services",
+          "Person_Name": "A cruz, Jesus ",
+          "Job_Title": "Police Officer II",
+          "Annual_Salary": 68559.14,
+          "Category": "Regular",
+          "Hourly_or_Per_Event_Rate": 15
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:37Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/COM_Employee_Salaries/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "downtown-memphis-commission-boundaries-a5088e8d",
       "title": "Downtown Memphis Commission Boundaries",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "downtown-memphis-commission-boundaries-a5088e8d--default--placeholder.svg",
+      "image_file": "downtown-memphis-commission-boundaries-a5088e8d--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "id",
+            "type": "esriFieldTypeDouble",
+            "alias": "id"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "id": 0,
+          "Name": "CBID"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:37Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Downtown_Memphis_Commission_Boundaries/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "downtown-memphis-commission-projects-b244cada",
       "title": "Downtown Memphis Commission Projects",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "downtown-memphis-commission-projects-b244cada--default--placeholder.svg",
+      "image_file": "downtown-memphis-commission-projects-b244cada--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ProjectID",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectID"
+          },
+          {
+            "name": "ProjectName",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectName"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "PropertyName",
+            "type": "esriFieldTypeString",
+            "alias": "PropertyName"
+          },
+          {
+            "name": "District",
+            "type": "esriFieldTypeString",
+            "alias": "District"
+          },
+          {
+            "name": "ProjectType",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectType"
+          },
+          {
+            "name": "ProjectDesc",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectDesc"
+          },
+          {
+            "name": "ProjectCost",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectCost"
+          },
+          {
+            "name": "MixedUse",
+            "type": "esriFieldTypeInteger",
+            "alias": "MixedUse"
+          },
+          {
+            "name": "Apartments",
+            "type": "esriFieldTypeInteger",
+            "alias": "Apartments"
+          },
+          {
+            "name": "ApartmentUnits",
+            "type": "esriFieldTypeInteger",
+            "alias": "ApartmentUnits"
+          },
+          {
+            "name": "Condos",
+            "type": "esriFieldTypeInteger",
+            "alias": "Condos"
+          },
+          {
+            "name": "CondoUnits",
+            "type": "esriFieldTypeInteger",
+            "alias": "CondoUnits"
+          },
+          {
+            "name": "Educational",
+            "type": "esriFieldTypeInteger",
+            "alias": "Educational"
+          },
+          {
+            "name": "EducationalSF",
+            "type": "esriFieldTypeString",
+            "alias": "EducationalSF"
+          },
+          {
+            "name": "Hotel",
+            "type": "esriFieldTypeInteger",
+            "alias": "Hotel"
+          },
+          {
+            "name": "HotelRooms",
+            "type": "esriFieldTypeInteger",
+            "alias": "HotelRooms"
+          },
+          {
+            "name": "Industrial",
+            "type": "esriFieldTypeInteger",
+            "alias": "Industrial"
+          },
+          {
+            "name": "IndustrialSF",
+            "type": "esriFieldTypeString",
+            "alias": "IndustrialSF"
+          },
+          {
+            "name": "Medical",
+            "type": "esriFieldTypeInteger",
+            "alias": "Medical"
+          },
+          {
+            "name": "MedicalSF",
+            "type": "esriFieldTypeString",
+            "alias": "MedicalSF"
+          },
+          {
+            "name": "Office",
+            "type": "esriFieldTypeInteger",
+            "alias": "Office"
+          },
+          {
+            "name": "OfficeSF",
+            "type": "esriFieldTypeInteger",
+            "alias": "OfficeSF"
+          },
+          {
+            "name": "Parking",
+            "type": "esriFieldTypeInteger",
+            "alias": "Parking"
+          },
+          {
+            "name": "ParkingSpaces",
+            "type": "esriFieldTypeString",
+            "alias": "ParkingSpaces"
+          },
+          {
+            "name": "PublicSpace",
+            "type": "esriFieldTypeInteger",
+            "alias": "PublicSpace"
+          },
+          {
+            "name": "PublicSpaceSF",
+            "type": "esriFieldTypeString",
+            "alias": "PublicSpaceSF"
+          },
+          {
+            "name": "Retail",
+            "type": "esriFieldTypeInteger",
+            "alias": "Retail"
+          },
+          {
+            "name": "RetailSF",
+            "type": "esriFieldTypeInteger",
+            "alias": "RetailSF"
+          },
+          {
+            "name": "Restaurant",
+            "type": "esriFieldTypeInteger",
+            "alias": "Restaurant"
+          },
+          {
+            "name": "RestaurantSF",
+            "type": "esriFieldTypeString",
+            "alias": "RestaurantSF"
+          },
+          {
+            "name": "SingleFamily",
+            "type": "esriFieldTypeInteger",
+            "alias": "SingleFamily"
+          },
+          {
+            "name": "SingleFamilyUnits",
+            "type": "esriFieldTypeString",
+            "alias": "SingleFamilyUnits"
+          },
+          {
+            "name": "Storage",
+            "type": "esriFieldTypeInteger",
+            "alias": "Storage"
+          },
+          {
+            "name": "StorageSF",
+            "type": "esriFieldTypeString",
+            "alias": "StorageSF"
+          },
+          {
+            "name": "Developer",
+            "type": "esriFieldTypeString",
+            "alias": "Developer"
+          },
+          {
+            "name": "Contractor",
+            "type": "esriFieldTypeString",
+            "alias": "Contractor"
+          },
+          {
+            "name": "Architect",
+            "type": "esriFieldTypeString",
+            "alias": "Architect"
+          },
+          {
+            "name": "SFDeveloped",
+            "type": "esriFieldTypeInteger",
+            "alias": "SFDeveloped"
+          },
+          {
+            "name": "MWBERate",
+            "type": "esriFieldTypeDouble",
+            "alias": "MWBERate"
+          },
+          {
+            "name": "TotalMWBE",
+            "type": "esriFieldTypeString",
+            "alias": "TotalMWBE"
+          },
+          {
+            "name": "EBOPercentCTD",
+            "type": "esriFieldTypeString",
+            "alias": "EBOPercentCTD"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "ExpectedCompletion",
+            "type": "esriFieldTypeInteger",
+            "alias": "ExpectedCompletion"
+          },
+          {
+            "name": "MonthOpened",
+            "type": "esriFieldTypeString",
+            "alias": "MonthOpened"
+          },
+          {
+            "name": "YearOpened",
+            "type": "esriFieldTypeInteger",
+            "alias": "YearOpened"
+          },
+          {
+            "name": "FYOpened",
+            "type": "esriFieldTypeInteger",
+            "alias": "FYOpened"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Approval_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approval Date"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "ProjectID": 311,
+          "ProjectName": "Bass Pro Shops at the Pyramid",
+          "Address": "1 BASS PRO DR",
+          "PropertyName": "Bass Pro Shops at the Pyramid",
+          "District": "Core",
+          "ProjectType": "Renovation",
+          "ProjectDesc": "Superstore that in addition to reatil includes a man-made cypress swamp, archery and shooting ranges, a Ducks Unlimited waterfowl museum, a bowling alley, an observation deck at the peak of the pyramid, a 103-room hotel, and a central elevator, which currently holds the title of the tallest freestanding elevator in America.",
+          "ProjectCost": "$190,000,000.00 ",
+          "MixedUse": 0,
+          "Apartments": 0,
+          "Condos": 0,
+          "Educational": 0,
+          "Hotel": 1,
+          "HotelRooms": 103,
+          "Industrial": 0,
+          "Medical": 0,
+          "Office": 0,
+          "Parking": 0,
+          "PublicSpace": 0,
+          "Retail": 1,
+          "RetailSF": 220000,
+          "Restaurant": 0,
+          "SingleFamily": 0,
+          "Storage": 0,
+          "TotalMWBE": "$0.00 ",
+          "Status": "Completed",
+          "YearOpened": 2015,
+          "Longitude": -90.0522079,
+          "Latitude": 35.1553993,
+          "ApartmentUnits": 134,
+          "Developer": "Elmington Capital Group LLC"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:37Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_DMC_Projects/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/downtown-memphis-commission-projects-b244cada.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "dpd-building-permits-3018811a",
       "title": "DPD Building Permits",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dpd-building-permits-3018811a--default--placeholder.svg",
+      "image_file": "dpd-building-permits-3018811a--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Record_ID",
+            "type": "esriFieldTypeString",
+            "alias": "Record ID"
+          },
+          {
+            "name": "Issued_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Issued Date"
+          },
+          {
+            "name": "Sub_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Sub Type"
+          },
+          {
+            "name": "Construction_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Construction Type"
+          },
+          {
+            "name": "Valuation",
+            "type": "esriFieldTypeDouble",
+            "alias": "Valuation"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "Description",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "Record_ID": "RES-ALT-21-000783",
+          "Issued_Date": 1624424400000,
+          "Sub_Type": "Residential",
+          "Construction_Type": "Alteration",
+          "Valuation": 13733.89,
+          "Address": "7921 MUDVILLE RD",
+          "City": "MILLINGTON",
+          "Description": "Vinyl Siding Installation",
+          "State": "TN",
+          "Latitude": 35.37357545297563,
+          "Longitude": -89.79667516857623,
+          "ZIP_Code": "38119"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:38Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/DPD_Building_Permits/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/dpd-building-permits-3018811a.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-bonds-31650a2c",
       "title": "Economic Development Growth Engine (EDGE) Bonds",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-bonds-31650a2c--default--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-bonds-31650a2c--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "CompanyName",
+            "type": "esriFieldTypeString",
+            "alias": "CompanyName"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeInteger",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "BondAmount",
+            "type": "esriFieldTypeInteger",
+            "alias": "BondAmount"
+          },
+          {
+            "name": "TotalInvestment",
+            "type": "esriFieldTypeInteger",
+            "alias": "TotalInvestment"
+          },
+          {
+            "name": "ProjectedTotalJobs",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectedTotalJobs"
+          },
+          {
+            "name": "Approved_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approved Date"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "CompanyName": "Elvis Presley Enterprises, Inc. Series 2015A",
+          "Address": "3734 Elvis Presley Blvd",
+          "City": "Memphis",
+          "State": "TN",
+          "ZIP_Code": 38116,
+          "Latitude": 35.04703466,
+          "Longitude": -90.02420723,
+          "BondAmount": 84000000,
+          "TotalInvestment": 137000000,
+          "ProjectedTotalJobs": 280,
+          "Approved_Date": 1432098000000
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:38Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Bonds/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/economic-development-growth-engine-edge-bonds-31650a2c.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-loans-71211088",
       "title": "Economic Development Growth Engine (EDGE) Loans",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-loans-71211088--default--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-loans-71211088--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ProjectNumber",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectNumber"
+          },
+          {
+            "name": "CompanyName",
+            "type": "esriFieldTypeString",
+            "alias": "CompanyName"
+          },
+          {
+            "name": "ProjectType",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectType"
+          },
+          {
+            "name": "LoanType",
+            "type": "esriFieldTypeString",
+            "alias": "LoanType"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeInteger",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "CityCouncilDistrict",
+            "type": "esriFieldTypeInteger",
+            "alias": "CityCouncilDistrict"
+          },
+          {
+            "name": "CityCouncilSuperDistrict",
+            "type": "esriFieldTypeInteger",
+            "alias": "CityCouncilSuperDistrict"
+          },
+          {
+            "name": "CountyCommissionDistrict",
+            "type": "esriFieldTypeInteger",
+            "alias": "CountyCommissionDistrict"
+          },
+          {
+            "name": "Term",
+            "type": "esriFieldTypeInteger",
+            "alias": "Term"
+          },
+          {
+            "name": "ProjectedNewJobs",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectedNewJobs"
+          },
+          {
+            "name": "ProjectedRetainedJobs",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedRetainedJobs"
+          },
+          {
+            "name": "AveragePayroll",
+            "type": "esriFieldTypeString",
+            "alias": "AveragePayroll"
+          },
+          {
+            "name": "Approved_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approved Date"
+          },
+          {
+            "name": "LoanAmount",
+            "type": "esriFieldTypeString",
+            "alias": "LoanAmount"
+          },
+          {
+            "name": "LoanUse",
+            "type": "esriFieldTypeString",
+            "alias": "LoanUse"
+          },
+          {
+            "name": "InterestRate",
+            "type": "esriFieldTypeString",
+            "alias": "InterestRate"
+          },
+          {
+            "name": "TotalProjectedCapitalInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "TotalProjectedCapitalInvestment"
+          },
+          {
+            "name": "PCI_RealProperty",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_RealProperty"
+          },
+          {
+            "name": "PCI_Acquisition",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_Acquisition"
+          },
+          {
+            "name": "PCI_Construction",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_Construction"
+          },
+          {
+            "name": "PCI_Renovation",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_Renovation"
+          },
+          {
+            "name": "PCI_MachineryEquipment",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_MachineryEquipment"
+          },
+          {
+            "name": "PCI_FurnitureFixturesOffice",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_FurnitureFixturesOffice"
+          },
+          {
+            "name": "PCI_Equipment",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_Equipment"
+          },
+          {
+            "name": "PCI_FeesSoftCosts",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_FeesSoftCosts"
+          },
+          {
+            "name": "PCI_PermanentWorkingCapital",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_PermanentWorkingCapital"
+          },
+          {
+            "name": "PCI_Miscellaneous",
+            "type": "esriFieldTypeInteger",
+            "alias": "PCI_Miscellaneous"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "ProjectNumber": "ED20260701",
+          "CompanyName": "JTAP Kitchen, LLC",
+          "ProjectType": "Neighborhood Project",
+          "LoanType": "Inner City Economic Development Loan",
+          "Address": "3397 Summer Ave",
+          "City": "Memphis",
+          "State": "TN",
+          "ZIP_Code": 38122,
+          "Latitude": 35.1496052,
+          "Longitude": -89.94773492,
+          "CityCouncilDistrict": 5,
+          "CityCouncilSuperDistrict": 9,
+          "CountyCommissionDistrict": 13,
+          "Term": 3,
+          "ProjectedNewJobs": 7,
+          "ProjectedRetainedJobs": "-",
+          "AveragePayroll": " $-   ",
+          "LoanAmount": " $25,000.00 ",
+          "LoanUse": "Facade Improvements",
+          "InterestRate": "0%",
+          "TotalProjectedCapitalInvestment": " $43,492.00 "
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:38Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Loans/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/economic-development-growth-engine-edge-loans-71211088.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-other-pr-471e8b88",
       "title": "Economic Development Growth Engine (EDGE) Other Projects",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-other-pr-471e8b88--default--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-other-pr-471e8b88--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Approved_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approved Date"
+          },
+          {
+            "name": "CompanyName",
+            "type": "esriFieldTypeString",
+            "alias": "CompanyName"
+          },
+          {
+            "name": "OtherType",
+            "type": "esriFieldTypeString",
+            "alias": "OtherType"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "County",
+            "type": "esriFieldTypeString",
+            "alias": "County"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeInteger",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "FinancingAmount",
+            "type": "esriFieldTypeString",
+            "alias": "FinancingAmount"
+          },
+          {
+            "name": "TotalInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "TotalInvestment"
+          },
+          {
+            "name": "ProjectedTotalJobs",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectedTotalJobs"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Approved_Date": 1765778400000,
+          "CompanyName": "Phoenix Assurance, LLC (M)",
+          "OtherType": "FTZ-77",
+          "Address": "4835 S. Mendenhall Drive",
+          "City": "Memphis",
+          "County": "Shelby",
+          "State": "TN",
+          "ZIP_Code": 38141,
+          "Latitude": 35.01622538,
+          "Longitude": -89.87845772,
+          "FinancingAmount": " $-   ",
+          "TotalInvestment": " $-   ",
+          "ProjectedTotalJobs": 0
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:39Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Other_Projects/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/economic-development-growth-engine-edge-other-pr-471e8b88.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-pilots-7f19e39d",
       "title": "Economic Development Growth Engine (EDGE) PILOTs",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-pilots-7f19e39d--default--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-pilots-7f19e39d--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ProjectNumber",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectNumber"
+          },
+          {
+            "name": "CompanyName",
+            "type": "esriFieldTypeString",
+            "alias": "CompanyName"
+          },
+          {
+            "name": "CityCouncilDistrict",
+            "type": "esriFieldTypeInteger",
+            "alias": "CityCouncilDistrict"
+          },
+          {
+            "name": "CountyCommissionDistrict",
+            "type": "esriFieldTypeInteger",
+            "alias": "CountyCommissionDistrict"
+          },
+          {
+            "name": "ProjectType",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectType"
+          },
+          {
+            "name": "PilotType",
+            "type": "esriFieldTypeString",
+            "alias": "PilotType"
+          },
+          {
+            "name": "PilotStatus",
+            "type": "esriFieldTypeString",
+            "alias": "PilotStatus"
+          },
+          {
+            "name": "PilotTerm",
+            "type": "esriFieldTypeString",
+            "alias": "PilotTerm"
+          },
+          {
+            "name": "ProjectedTaxesAbatedCity",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedTaxesAbatedCity"
+          },
+          {
+            "name": "ProjectedTaxesAbatedCounty",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedTaxesAbatedCounty"
+          },
+          {
+            "name": "Approved_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approved Date"
+          },
+          {
+            "name": "RampUpPeriod",
+            "type": "esriFieldTypeInteger",
+            "alias": "RampUpPeriod"
+          },
+          {
+            "name": "ProjectedNewJobs",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedNewJobs"
+          },
+          {
+            "name": "ProjectedAveragePayrollOfNewJobs",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedAveragePayrollOfNewJobs"
+          },
+          {
+            "name": "TotalNewPayroll",
+            "type": "esriFieldTypeString",
+            "alias": "TotalNewPayroll"
+          },
+          {
+            "name": "ProjectedRetainedJobs",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedRetainedJobs"
+          },
+          {
+            "name": "ProjectedAveragePayrollOfRetainedJobs",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedAveragePayrollOfRetainedJobs"
+          },
+          {
+            "name": "TotalRetainedPayroll",
+            "type": "esriFieldTypeString",
+            "alias": "TotalRetainedPayroll"
+          },
+          {
+            "name": "TotalJobs",
+            "type": "esriFieldTypeString",
+            "alias": "TotalJobs"
+          },
+          {
+            "name": "EmploymentDirect",
+            "type": "esriFieldTypeString",
+            "alias": "EmploymentDirect"
+          },
+          {
+            "name": "EmploymentIndirect",
+            "type": "esriFieldTypeString",
+            "alias": "EmploymentIndirect"
+          },
+          {
+            "name": "WagesDirect",
+            "type": "esriFieldTypeString",
+            "alias": "WagesDirect"
+          },
+          {
+            "name": "WagesIndirect",
+            "type": "esriFieldTypeString",
+            "alias": "WagesIndirect"
+          },
+          {
+            "name": "ProjectedCapitalInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedCapitalInvestment"
+          },
+          {
+            "name": "RealPropertyInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "RealPropertyInvestment"
+          },
+          {
+            "name": "PersonalPropertyInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "PersonalPropertyInvestment"
+          },
+          {
+            "name": "CommunityReinvestmentCredit",
+            "type": "esriFieldTypeString",
+            "alias": "CommunityReinvestmentCredit"
+          },
+          {
+            "name": "CapitalInvestmentNotInPilot",
+            "type": "esriFieldTypeString",
+            "alias": "CapitalInvestmentNotInPilot"
+          },
+          {
+            "name": "ProjectedMWBE_LOSBSpending",
+            "type": "esriFieldTypeString",
+            "alias": "ProjectedMWBE_LOSBSpending"
+          },
+          {
+            "name": "MWBE_LOSBSpendingConstruction",
+            "type": "esriFieldTypeString",
+            "alias": "MWBE_LOSBSpendingConstruction"
+          },
+          {
+            "name": "MWBE_LOSBSpendingOperations",
+            "type": "esriFieldTypeString",
+            "alias": "MWBE_LOSBSpendingOperations"
+          },
+          {
+            "name": "TotalCapitalInvestment",
+            "type": "esriFieldTypeString",
+            "alias": "TotalCapitalInvestment"
+          },
+          {
+            "name": "TotalIncentiveProvided",
+            "type": "esriFieldTypeString",
+            "alias": "TotalIncentiveProvided"
+          },
+          {
+            "name": "TotalNewTaxRevenues",
+            "type": "esriFieldTypeString",
+            "alias": "TotalNewTaxRevenues"
+          },
+          {
+            "name": "BenefitCostRatio",
+            "type": "esriFieldTypeDouble",
+            "alias": "BenefitCostRatio"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "Main_Address",
+            "type": "esriFieldTypeString",
+            "alias": "Main Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeInteger",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "ParcelID",
+            "type": "esriFieldTypeString",
+            "alias": "ParcelID"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "ProjectNumber": 20260401,
+          "CompanyName": "Morgan Steel, LLC",
+          "CityCouncilDistrict": 6,
+          "CountyCommissionDistrict": 9,
+          "ProjectType": "Manufacturing",
+          "PilotType": "Jobs",
+          "PilotStatus": "Approved",
+          "PilotTerm": "8",
+          "ProjectedTaxesAbatedCity": "$497,954.00 ",
+          "ProjectedTaxesAbatedCounty": "$519,028.00 ",
+          "RampUpPeriod": 2,
+          "ProjectedNewJobs": "119",
+          "ProjectedAveragePayrollOfNewJobs": "$57,973.00 ",
+          "TotalNewPayroll": "$6,898,787.00 ",
+          "ProjectedRetainedJobs": "0",
+          "ProjectedAveragePayrollOfRetainedJobs": " $-   ",
+          "TotalRetainedPayroll": " $-   ",
+          "TotalJobs": "119",
+          "EmploymentDirect": "119",
+          "EmploymentIndirect": "150",
+          "WagesDirect": "$8,775,187.00 ",
+          "WagesIndirect": "$11,052,900.00 ",
+          "ProjectedCapitalInvestment": "$11,694,839.00 ",
+          "RealPropertyInvestment": "$2,699,839.00 ",
+          "PersonalPropertyInvestment": "$8,645,000.00 ",
+          "CommunityReinvestmentCredit": "$1,917,882.00 ",
+          "CapitalInvestmentNotInPilot": "$350,000.00 ",
+          "ProjectedMWBE_LOSBSpending": " $-   ",
+          "MWBE_LOSBSpendingConstruction": " $-   ",
+          "MWBE_LOSBSpendingOperations": " $-   ",
+          "TotalCapitalInvestment": "$11,694,839.00 ",
+          "TotalIncentiveProvided": "$1,016,982.00 ",
+          "TotalNewTaxRevenues": "$6,286,780.00 ",
+          "BenefitCostRatio": 6.18,
+          "Latitude": 35.08314508,
+          "Longitude": -90.12650771,
+          "Main_Address": "2315 Pier St,",
+          "City": "Memphis",
+          "State": "TN",
+          "ZIP_Code": 38106,
+          "ParcelID": "050102 00039C"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:39Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_PILOTs/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/economic-development-growth-engine-edge-pilots-7f19e39d.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-tifs-0a78f310",
       "title": "Economic Development Growth Engine (EDGE) TIFs",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-tifs-0a78f310--default--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-tifs-0a78f310--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "CompanyName",
+            "type": "esriFieldTypeString",
+            "alias": "CompanyName"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "County",
+            "type": "esriFieldTypeString",
+            "alias": "County"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeInteger",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "TIFAmount",
+            "type": "esriFieldTypeInteger",
+            "alias": "TIFAmount"
+          },
+          {
+            "name": "TotalInvestment",
+            "type": "esriFieldTypeInteger",
+            "alias": "TotalInvestment"
+          },
+          {
+            "name": "ProjectedMWBESpending",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectedMWBESpending"
+          },
+          {
+            "name": "ProjectedTotalJobs",
+            "type": "esriFieldTypeInteger",
+            "alias": "ProjectedTotalJobs"
+          },
+          {
+            "name": "Approved_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Approved Date"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "CompanyName": "UNDC-Highland Strip Revitalization",
+          "Address": "480 South Highland Street",
+          "City": "Memphis",
+          "County": "Shelby",
+          "State": "TN",
+          "ZIP_Code": 38111,
+          "Latitude": 35.11872985,
+          "Longitude": -89.94530214,
+          "TIFAmount": 21100000,
+          "TotalInvestment": 21100000,
+          "ProjectedMWBESpending": 2500000,
+          "ProjectedTotalJobs": 235,
+          "Approved_Date": 1474434000000
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:39Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_TIFs/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/economic-development-growth-engine-edge-tifs-0a78f310.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "fire-services-metrics-55699190",
       "title": "Fire Services Metrics",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "fire-services-metrics-55699190--public-safety--placeholder.svg",
+      "image_file": "fire-services-metrics-55699190--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Report Month"
+          },
+          {
+            "name": "F911_answer_time_15_sec",
+            "type": "esriFieldTypeDouble",
+            "alias": "911 Calls Answered in 15 sec or less (%)"
+          },
+          {
+            "name": "Fire_processing_106_sec",
+            "type": "esriFieldTypeString",
+            "alias": "Fire Processing in 106 sec or less (%)"
+          },
+          {
+            "name": "Fire_response_320_sec",
+            "type": "esriFieldTypeDouble",
+            "alias": "Residential Fire Calls Responded to in 320 sec or less 9%)"
+          },
+          {
+            "name": "Public_outreach",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Public Outreach"
+          },
+          {
+            "name": "Smoke_alarm_outreach",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Smoke Alarm Outreach"
+          },
+          {
+            "name": "EMS_ALS_response_540_sec",
+            "type": "esriFieldTypeDouble",
+            "alias": "EMS ALS Calls Responded to in 540 sec or less (%)"
+          },
+          {
+            "name": "e911_Calls",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of MFD 911 Calls"
+          },
+          {
+            "name": "Emergent_Incidents",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Emergent Incidents"
+          },
+          {
+            "name": "Non_Emergent_Incidents",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Non-Emergent Incidents"
+          },
+          {
+            "name": "Fire_Suppression_Incidents",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Fire Suppression Incidents"
+          },
+          {
+            "name": "Other_Incidents",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of Other Incidents"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Date": 1609480800000,
+          "F911_answer_time_15_sec": 92.05,
+          "Fire_processing_106_sec": "83.11",
+          "Fire_response_320_sec": 71.71,
+          "Smoke_alarm_outreach": 47,
+          "EMS_ALS_response_540_sec": 78.72,
+          "e911_Calls": 10998,
+          "Emergent_Incidents": 7960,
+          "Non_Emergent_Incidents": 2212,
+          "Fire_Suppression_Incidents": 1265,
+          "Other_Incidents": 235,
+          "Public_outreach": 12122
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:39Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Fire_Services_Metrics/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "hcd-property-investments-41f0fa52",
       "title": "HCD Property Investments",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "hcd-property-investments-41f0fa52--default--placeholder.svg",
+      "image_file": "hcd-property-investments-41f0fa52--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Completion_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Completion_Date"
+          },
+          {
+            "name": "Address_Rounded",
+            "type": "esriFieldTypeString",
+            "alias": "Address_Rounded"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP_Code"
+          },
+          {
+            "name": "Project_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Project_Name"
+          },
+          {
+            "name": "Project_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Project_Type"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Units_HHs",
+            "type": "esriFieldTypeInteger",
+            "alias": "Units_HHs"
+          },
+          {
+            "name": "Property_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Property_Type"
+          },
+          {
+            "name": "Tenure_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Tenure_Type"
+          },
+          {
+            "name": "Activity_Type_Simple",
+            "type": "esriFieldTypeString",
+            "alias": "Activity/Dev. Type"
+          },
+          {
+            "name": "Organization",
+            "type": "esriFieldTypeString",
+            "alias": "Organization"
+          },
+          {
+            "name": "Funding_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Funding_Type"
+          },
+          {
+            "name": "Total_Funds_Committed",
+            "type": "esriFieldTypeDouble",
+            "alias": "Total_Funds_Committed"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "Council_District",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Council District"
+          },
+          {
+            "name": "Super_District",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Super District"
+          },
+          {
+            "name": "Census_Tract",
+            "type": "esriFieldTypeString",
+            "alias": "Census Tract"
+          },
+          {
+            "name": "Tract_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Tract Name"
+          },
+          {
+            "name": "Planning_District",
+            "type": "esriFieldTypeString",
+            "alias": "Planning District"
+          },
+          {
+            "name": "MPD_Ward",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "MPD Ward"
+          },
+          {
+            "name": "MPD_Precinct",
+            "type": "esriFieldTypeString",
+            "alias": "MPD Precinct"
+          }
+        ],
+        "sample": {
+          "Completion_Date": 1246338000000,
+          "Address_Rounded": "",
+          "City": "Memphis",
+          "State": "TN",
+          "ZIP_Code": "38127.",
+          "Project_Name": "Pershing Park",
+          "Project_Type": "Affordable Homeownership & Rental Housing (Single & Multifamily Development)",
+          "Status": "Complete",
+          "Units_HHs": 76,
+          "Property_Type": "Multifamily",
+          "Tenure_Type": "Renter",
+          "Activity_Type_Simple": "Rehab",
+          "Organization": "Alco Saints Court Partners, L.P.",
+          "Funding_Type": "HOME",
+          "Total_Funds_Committed": 1500000,
+          "Latitude": 35.226,
+          "Longitude": -90.013,
+          "Council_District": 7,
+          "Super_District": 8,
+          "Census_Tract": "47157010002",
+          "Tract_Name": "Census Tract 100.02",
+          "Planning_District": "Frayser",
+          "MPD_Ward": 121,
+          "MPD_Precinct": "Austin Peay"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:40Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/HCD_Property_Investments/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/hcd-property-investments-41f0fa52.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mata-on-time-performance-f3019d13",
       "title": "MATA On Time Performance",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Transportation",
+      "category": "Transportation",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-on-time-performance-f3019d13--default--placeholder.svg",
+      "image_file": "mata-on-time-performance-f3019d13--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Month Start"
+          },
+          {
+            "name": "MATABus",
+            "type": "esriFieldTypeInteger",
+            "alias": "MATABus % On Time"
+          },
+          {
+            "name": "MATAplus",
+            "type": "esriFieldTypeDouble",
+            "alias": "MATAplus % On Time"
+          },
+          {
+            "name": "Trolley",
+            "type": "esriFieldTypeString",
+            "alias": "Trolley % On Time"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Date": 1435726800000,
+          "MATABus": 50,
+          "MATAplus": 79,
+          "Trolley": "90"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:40Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_On_Time_Performance/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mata-routes-03ccec76",
       "title": "MATA Routes",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Transportation",
+      "category": "Transportation",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-routes-03ccec76--default--placeholder.svg",
+      "image_file": "mata-routes-03ccec76--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "Shape_Leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape_Leng"
+          },
+          {
+            "name": "shape_id",
+            "type": "esriFieldTypeString",
+            "alias": "shape_id"
+          },
+          {
+            "name": "route_long",
+            "type": "esriFieldTypeString",
+            "alias": "route_long"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "route_id",
+            "type": "esriFieldTypeString",
+            "alias": "route_id"
+          },
+          {
+            "name": "agency_id",
+            "type": "esriFieldTypeString",
+            "alias": "agency_id"
+          },
+          {
+            "name": "route_shor",
+            "type": "esriFieldTypeString",
+            "alias": "route_shor"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "Shape_Leng": 8.76722292201,
+          "shape_id": "EBAMERICAN",
+          "route_long": "BROOKS",
+          "Name": "30 BROOKS EB",
+          "route_id": "30",
+          "agency_id": "1",
+          "route_shor": "30"
+        },
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:33:41Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Routes/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mata-stops-6892a5f9",
       "title": "MATA Stops",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-stops-6892a5f9--default--placeholder.svg",
+      "image_file": "mata-stops-6892a5f9--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "stop_id",
+            "type": "esriFieldTypeString",
+            "alias": "stop_id"
+          },
+          {
+            "name": "stop_name",
+            "type": "esriFieldTypeString",
+            "alias": "stop_name"
+          },
+          {
+            "name": "stop_desc",
+            "type": "esriFieldTypeString",
+            "alias": "stop_desc"
+          },
+          {
+            "name": "stop_lat",
+            "type": "esriFieldTypeDouble",
+            "alias": "stop_lat"
+          },
+          {
+            "name": "stop_lon",
+            "type": "esriFieldTypeDouble",
+            "alias": "stop_lon"
+          },
+          {
+            "name": "zone_id",
+            "type": "esriFieldTypeString",
+            "alias": "zone_id"
+          },
+          {
+            "name": "location_t",
+            "type": "esriFieldTypeInteger",
+            "alias": "location_t"
+          },
+          {
+            "name": "parent_sta",
+            "type": "esriFieldTypeString",
+            "alias": "parent_sta"
+          },
+          {
+            "name": "vehicle_ty",
+            "type": "esriFieldTypeInteger",
+            "alias": "vehicle_ty"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "stop_id": "0:3900",
+          "stop_name": "DOUBLE TREE STREET at PARKROSE ROAD",
+          "stop_desc": "no 81",
+          "stop_lat": 35.025435,
+          "stop_lon": -90.103444,
+          "zone_id": " ",
+          "location_t": 0,
+          "parent_sta": "1:3900",
+          "vehicle_ty": 3
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:33:41Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Stops/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/mata-stops-6892a5f9.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-3-0-planning-districts-7855c7be",
       "title": "Memphis 3.0 Planning Districts",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-3-0-planning-districts-7855c7be--default--placeholder.svg",
+      "image_file": "memphis-3-0-planning-districts-7855c7be--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "objectid",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid"
+          },
+          {
+            "name": "objectid_1",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid_1"
+          },
+          {
+            "name": "objectid_2",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid_2"
+          },
+          {
+            "name": "shape_le_1",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_le_1"
+          },
+          {
+            "name": "shape_le_2",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_le_2"
+          },
+          {
+            "name": "shape_leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_leng"
+          },
+          {
+            "name": "Shape_Le_3",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape_Le_3"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "name": "Frayser",
+          "objectid_1": 0,
+          "objectid_2": 1,
+          "shape_le_1": 142832.60453,
+          "shape_le_2": 142832.60453,
+          "shape_leng": 0.429068584377,
+          "Shape_Le_3": 53370.8372692
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:41Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_3_0_Planning_Districts/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-community-centers-31fee209",
       "title": "Memphis Community Centers",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-community-centers-31fee209--default--placeholder.svg",
+      "image_file": "memphis-community-centers-31fee209--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "community_",
+            "type": "esriFieldTypeString",
+            "alias": "Community Center"
+          },
+          {
+            "name": "street",
+            "type": "esriFieldTypeString",
+            "alias": "street"
+          },
+          {
+            "name": "zip",
+            "type": "esriFieldTypeDouble",
+            "alias": "zip"
+          },
+          {
+            "name": "phone",
+            "type": "esriFieldTypeString",
+            "alias": "phone"
+          },
+          {
+            "name": "website",
+            "type": "esriFieldTypeString",
+            "alias": "website"
+          },
+          {
+            "name": "council_di",
+            "type": "esriFieldTypeDouble",
+            "alias": "council_di"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "community_": "Bert Ferguson Community Center",
+          "street": "8505 Trinity Road",
+          "zip": 38018,
+          "phone": "901-636-0705",
+          "website": "https://memphisparks.com/park/bert-ferguson-park-community-center/",
+          "council_di": 2
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:42Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Community_Centers/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/memphis-community-centers-31fee209.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-employment-data-f530c6a3",
       "title": "Memphis Employment Data",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Finance",
+      "category": "Finance",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-employment-data-f530c6a3--default--placeholder.svg",
+      "image_file": "memphis-employment-data-f530c6a3--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month_Start",
+            "type": "esriFieldTypeDate",
+            "alias": "Month Start"
+          },
+          {
+            "name": "Labor_Force",
+            "type": "esriFieldTypeInteger",
+            "alias": "Labor Force"
+          },
+          {
+            "name": "Employed",
+            "type": "esriFieldTypeInteger",
+            "alias": "Employed"
+          },
+          {
+            "name": "Unemployed",
+            "type": "esriFieldTypeInteger",
+            "alias": "Unemployed"
+          },
+          {
+            "name": "Unemployment_Rate",
+            "type": "esriFieldTypeDouble",
+            "alias": "Unemployment Rate"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Month_Start": 1777611600000,
+          "Labor_Force": 281916,
+          "Employed": 268664,
+          "Unemployed": 13252,
+          "Unemployment_Rate": 4.7
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:42Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Employment_Data/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-jurisdiction-boundary-a4b1d1fc",
       "title": "Memphis Jurisdiction Boundary",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-jurisdiction-boundary-a4b1d1fc--default--placeholder.svg",
+      "image_file": "memphis-jurisdiction-boundary-a4b1d1fc--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "ID",
+            "type": "esriFieldTypeInteger",
+            "alias": "ID"
+          },
+          {
+            "name": "AREA",
+            "type": "esriFieldTypeDouble",
+            "alias": "AREA"
+          },
+          {
+            "name": "CITY",
+            "type": "esriFieldTypeString",
+            "alias": "CITY"
+          },
+          {
+            "name": "SQUARE_MIL",
+            "type": "esriFieldTypeDouble",
+            "alias": "SQUARE_MILES"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "ID": 0,
+          "CITY": "Memphis",
+          "SQUARE_MIL": 0
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:42Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Jurisdiction_Boundary/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-medical-district-collaborative-boundarie-d9d67533",
       "title": "Memphis Medical District Collaborative Boundaries",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-medical-district-collaborative-boundarie-d9d67533--default--placeholder.svg",
+      "image_file": "memphis-medical-district-collaborative-boundarie-d9d67533--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "objectid",
+            "type": "esriFieldTypeDouble",
+            "alias": "objectid"
+          },
+          {
+            "name": "id",
+            "type": "esriFieldTypeDouble",
+            "alias": "id"
+          },
+          {
+            "name": "sq_miles",
+            "type": "esriFieldTypeDouble",
+            "alias": "sq_miles"
+          },
+          {
+            "name": "shape_leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_leng"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "id": 0,
+          "sq_miles": 2.61276,
+          "shape_leng": 41880.1085382,
+          "Name": "MMDC"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:42Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Medical_District_Collaborative_Boundaries/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-msa-counties-b349826e",
       "title": "Memphis MSA Counties",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-msa-counties-b349826e--default--placeholder.svg",
+      "image_file": "memphis-msa-counties-b349826e--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "STATEFP",
+            "type": "esriFieldTypeString",
+            "alias": "STATEFP"
+          },
+          {
+            "name": "COUNTYFP",
+            "type": "esriFieldTypeString",
+            "alias": "COUNTYFP"
+          },
+          {
+            "name": "COUNTYNS",
+            "type": "esriFieldTypeString",
+            "alias": "COUNTYNS"
+          },
+          {
+            "name": "GEOID",
+            "type": "esriFieldTypeString",
+            "alias": "GEOID"
+          },
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "NAMELSAD",
+            "type": "esriFieldTypeString",
+            "alias": "NAMELSAD"
+          },
+          {
+            "name": "LSAD",
+            "type": "esriFieldTypeString",
+            "alias": "LSAD"
+          },
+          {
+            "name": "CLASSFP",
+            "type": "esriFieldTypeString",
+            "alias": "CLASSFP"
+          },
+          {
+            "name": "MTFCC",
+            "type": "esriFieldTypeString",
+            "alias": "MTFCC"
+          },
+          {
+            "name": "CSAFP",
+            "type": "esriFieldTypeString",
+            "alias": "CSAFP"
+          },
+          {
+            "name": "CBSAFP",
+            "type": "esriFieldTypeString",
+            "alias": "CBSAFP"
+          },
+          {
+            "name": "METDIVFP",
+            "type": "esriFieldTypeString",
+            "alias": "METDIVFP"
+          },
+          {
+            "name": "FUNCSTAT",
+            "type": "esriFieldTypeString",
+            "alias": "FUNCSTAT"
+          },
+          {
+            "name": "ALAND",
+            "type": "esriFieldTypeDouble",
+            "alias": "ALAND"
+          },
+          {
+            "name": "AWATER",
+            "type": "esriFieldTypeDouble",
+            "alias": "AWATER"
+          },
+          {
+            "name": "INTPTLAT",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLAT"
+          },
+          {
+            "name": "INTPTLON",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLON"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "STATEFP": "28",
+          "COUNTYFP": "143",
+          "COUNTYNS": "00695792",
+          "GEOID": "28143",
+          "NAME": "Tunica",
+          "NAMELSAD": "Tunica County",
+          "LSAD": "06",
+          "CLASSFP": "H1",
+          "MTFCC": "G4020",
+          "CSAFP": "368",
+          "CBSAFP": "32820",
+          "METDIVFP": " ",
+          "FUNCSTAT": "A",
+          "ALAND": 1176191638,
+          "AWATER": 57012297,
+          "INTPTLAT": "+34.6522011",
+          "INTPTLON": "-090.3717697"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:43Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_MSA_Counties/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-public-libraries-77458ce9",
       "title": "Memphis Public Libraries",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-public-libraries-77458ce9--default--placeholder.svg",
+      "image_file": "memphis-public-libraries-77458ce9--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "user_name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "staddr",
+            "type": "esriFieldTypeString",
+            "alias": "staddr"
+          },
+          {
+            "name": "postal",
+            "type": "esriFieldTypeString",
+            "alias": "postal"
+          },
+          {
+            "name": "user_phone",
+            "type": "esriFieldTypeString",
+            "alias": "user_phone"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "user_name": "Cherokee Library",
+          "staddr": "3300 Sharpe Avenue",
+          "postal": "38111",
+          "user_phone": "901-415-2762"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:33:43Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Public_Libraries/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/memphis-public-libraries-77458ce9.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "memphis-zip-codes-49d6b5e5",
       "title": "Memphis ZIP Codes",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-zip-codes-49d6b5e5--default--placeholder.svg",
+      "image_file": "memphis-zip-codes-49d6b5e5--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "GEOID",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "ALAND",
+            "type": "esriFieldTypeDouble",
+            "alias": "ALAND"
+          },
+          {
+            "name": "AWATER",
+            "type": "esriFieldTypeDouble",
+            "alias": "AWATER"
+          },
+          {
+            "name": "INTPTLAT",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLAT"
+          },
+          {
+            "name": "INTPTLON",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLON"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "GEOID": "38002",
+          "ALAND": 301517800,
+          "AWATER": 1234760,
+          "INTPTLAT": "+35.2863553",
+          "INTPTLON": "-89.7002741"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:43Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_ZIP_Codes/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mfd-fire-stations-84f2c8ed",
       "title": "MFD Fire Stations",
-      "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mfd-fire-stations-84f2c8ed--public-safety--placeholder.svg",
+      "image_file": "mfd-fire-stations-84f2c8ed--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "FireStatio",
+            "type": "esriFieldTypeString",
+            "alias": "FireStatio"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "Agency",
+            "type": "esriFieldTypeString",
+            "alias": "Agency"
+          },
+          {
+            "name": "Contact",
+            "type": "esriFieldTypeString",
+            "alias": "Contact"
+          },
+          {
+            "name": "Phone",
+            "type": "esriFieldTypeString",
+            "alias": "Phone"
+          },
+          {
+            "name": "Email",
+            "type": "esriFieldTypeString",
+            "alias": "Email"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "StreetName",
+            "type": "esriFieldTypeString",
+            "alias": "StreetName"
+          },
+          {
+            "name": "CityName",
+            "type": "esriFieldTypeString",
+            "alias": "CityName"
+          },
+          {
+            "name": "StateProvi",
+            "type": "esriFieldTypeString",
+            "alias": "StateProvi"
+          },
+          {
+            "name": "ZipPostalC",
+            "type": "esriFieldTypeString",
+            "alias": "ZipPostalC"
+          },
+          {
+            "name": "ZipCode",
+            "type": "esriFieldTypeString",
+            "alias": "ZipCode"
+          },
+          {
+            "name": "Council_Di",
+            "type": "esriFieldTypeString",
+            "alias": "Council_Di"
+          },
+          {
+            "name": "ORIG_FID",
+            "type": "esriFieldTypeInteger",
+            "alias": "ORIG_FID"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "FireStatio": "56",
+          "Name": "FS-56",
+          "Agency": "MEMPHIS FS",
+          "Contact": " ",
+          "Phone": "(901) 380-3786",
+          "Email": " ",
+          "Address": "7495 REESE RD",
+          "StreetName": "REESE",
+          "CityName": "Memphis",
+          "StateProvi": "TN",
+          "ZipPostalC": "38133",
+          "ZipCode": "38133",
+          "Council_Di": "1",
+          "ORIG_FID": 2
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:33:44Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MFD_Fire_Stations/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/mfd-fire-stations-84f2c8ed.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-district-areas-cf62a73a",
       "title": "MPD District Areas",
-      "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-district-areas-cf62a73a--public-safety--placeholder.svg",
+      "image_file": "mpd-district-areas-cf62a73a--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "objectid",
+            "type": "esriFieldTypeDouble",
+            "alias": "District"
+          },
+          {
+            "name": "district",
+            "type": "esriFieldTypeDouble",
+            "alias": "district"
+          },
+          {
+            "name": "shape_leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "shape_leng"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "district": 1,
+          "shape_leng": 359219.477428
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:44Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-precinct-areas-0334e3fb",
       "title": "MPD Precinct Areas",
-      "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-precinct-areas-0334e3fb--public-safety--placeholder.svg",
+      "image_file": "mpd-precinct-areas-0334e3fb--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "precinct",
+            "type": "esriFieldTypeString",
+            "alias": "precinct"
+          },
+          {
+            "name": "prct_code",
+            "type": "esriFieldTypeInteger",
+            "alias": "prct_code"
+          },
+          {
+            "name": "Area_SqMi",
+            "type": "esriFieldTypeSingle",
+            "alias": "Area_SqMi"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "precinct": "Austin Peay",
+          "prct_code": 1,
+          "Area_SqMi": 38.3
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:33:45Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-public-safety-incidents-12b51ce4",
       "title": "MPD Public Safety Incidents",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-public-safety-incidents-12b51ce4--public-safety--placeholder.svg",
+      "image_file": "mpd-public-safety-incidents-12b51ce4--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Crime_ID",
+            "type": "esriFieldTypeString",
+            "alias": "Crime ID"
+          },
+          {
+            "name": "Offense_Datetime",
+            "type": "esriFieldTypeDate",
+            "alias": "Offense Datetime"
+          },
+          {
+            "name": "Reported_Datetime",
+            "type": "esriFieldTypeDate",
+            "alias": "Reported Datetime"
+          },
+          {
+            "name": "Agency_Crime_ID",
+            "type": "esriFieldTypeString",
+            "alias": "Agency Crime ID"
+          },
+          {
+            "name": "UCR_Incident_Code",
+            "type": "esriFieldTypeString",
+            "alias": "UCR Incident Code"
+          },
+          {
+            "name": "Block",
+            "type": "esriFieldTypeInteger",
+            "alias": "Block"
+          },
+          {
+            "name": "Street_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Street Name"
+          },
+          {
+            "name": "Street_Address",
+            "type": "esriFieldTypeString",
+            "alias": "Street_Address"
+          },
+          {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Full_Address",
+            "type": "esriFieldTypeString",
+            "alias": "Full_Address"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "UCR_Category",
+            "type": "esriFieldTypeString",
+            "alias": "UCR Category"
+          },
+          {
+            "name": "UCR_Description",
+            "type": "esriFieldTypeString",
+            "alias": "UCR Description"
+          },
+          {
+            "name": "NIBRS_Group",
+            "type": "esriFieldTypeString",
+            "alias": "NIBRS Group"
+          },
+          {
+            "name": "NIBRS_Offense_Group",
+            "type": "esriFieldTypeString",
+            "alias": "NIBRS Offense Group"
+          },
+          {
+            "name": "Part_One_or_Part_Two",
+            "type": "esriFieldTypeInteger",
+            "alias": "Part One or Part Two"
+          },
+          {
+            "name": "Ward",
+            "type": "esriFieldTypeString",
+            "alias": "Ward"
+          },
+          {
+            "name": "Precinct",
+            "type": "esriFieldTypeString",
+            "alias": "Precinct"
+          },
+          {
+            "name": "Source_ObjectID",
+            "type": "esriFieldTypeString",
+            "alias": "Source ObjectID"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Crime_ID": "2602023958ME",
+          "Offense_Datetime": 1771047900000,
+          "Reported_Datetime": 1771048680000,
+          "Agency_Crime_ID": "MURDER",
+          "UCR_Incident_Code": "09A",
+          "Block": 3800,
+          "Street_Name": "KELLEY CIR",
+          "Street_Address": "3800 KELLEY CIR",
+          "City": "MEMPHIS",
+          "State": "TN",
+          "ZIP_Code": "38118",
+          "Full_Address": "3800 KELLEY CIR MEMPHIS TN 38118",
+          "Latitude": 35.106,
+          "Longitude": -89.935,
+          "UCR_Category": "HOMICIDE",
+          "UCR_Description": "MURDER/NON-NEGL MSLTR",
+          "NIBRS_Group": "A",
+          "NIBRS_Offense_Group": "CRIMES AGAINST PERSONS",
+          "Part_One_or_Part_Two": 1,
+          "Ward": "322",
+          "Precinct": "MT MORIAH",
+          "Source_ObjectID": "685037"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:45Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Public_Safety_Incidents/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/mpd-public-safety-incidents-12b51ce4.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-station-location-13adc19e",
       "title": "MPD Station Location",
-      "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-station-location-13adc19e--public-safety--placeholder.svg",
+      "image_file": "mpd-station-location-13adc19e--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "police_sta",
+            "type": "esriFieldTypeString",
+            "alias": "Police Station"
+          },
+          {
+            "name": "street_add",
+            "type": "esriFieldTypeString",
+            "alias": "street_address"
+          },
+          {
+            "name": "zip_code",
+            "type": "esriFieldTypeDouble",
+            "alias": "zip_code"
+          },
+          {
+            "name": "phone",
+            "type": "esriFieldTypeString",
+            "alias": "phone"
+          },
+          {
+            "name": "police_dis",
+            "type": "esriFieldTypeDouble",
+            "alias": "police_district"
+          },
+          {
+            "name": "precinct_a",
+            "type": "esriFieldTypeDouble",
+            "alias": "precinct_area"
+          },
+          {
+            "name": "precinct_w",
+            "type": "esriFieldTypeDouble",
+            "alias": "precinct_wards"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "police_sta": "Ridgeway Station",
+          "street_add": "3840 Ridgeway Road",
+          "zip_code": 38115,
+          "phone": "901-636-4531",
+          "police_dis": 1,
+          "precinct_a": 21.71,
+          "precinct_w": 9.21922923924926e+17
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:45Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Location/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z",
-      "map_data": "data/mpd-station-location-13adc19e.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-traffic-citations-91c3adca",
       "title": "MPD Traffic Citations",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-traffic-citations-91c3adca--public-safety--placeholder.svg",
+      "image_file": "mpd-traffic-citations-91c3adca--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Ticket_Number",
+            "type": "esriFieldTypeString",
+            "alias": "Ticket Number"
+          },
+          {
+            "name": "Issue_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Ticket Issue Date"
+          },
+          {
+            "name": "Citation_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Citation Type"
+          },
+          {
+            "name": "Ordinance_Violated",
+            "type": "esriFieldTypeString",
+            "alias": "Ordinance Violated"
+          },
+          {
+            "name": "Vehicle_Year",
+            "type": "esriFieldTypeString",
+            "alias": "Vehicle Year"
+          },
+          {
+            "name": "Vehicle_Make",
+            "type": "esriFieldTypeString",
+            "alias": "Vehicle Make"
+          },
+          {
+            "name": "Vehicle_Model",
+            "type": "esriFieldTypeString",
+            "alias": "Vehicle Model"
+          },
+          {
+            "name": "Driver_Race",
+            "type": "esriFieldTypeString",
+            "alias": "Driver Race"
+          },
+          {
+            "name": "Driver_Gender",
+            "type": "esriFieldTypeString",
+            "alias": "Driver Gender"
+          },
+          {
+            "name": "Driver_Age",
+            "type": "esriFieldTypeInteger",
+            "alias": "Driver Age"
+          },
+          {
+            "name": "Officer_IBM",
+            "type": "esriFieldTypeString",
+            "alias": "Officer IBM"
+          },
+          {
+            "name": "Officer_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Officer Name"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeString",
+            "alias": "Driver License ZIP Code"
+          },
+          {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectId"
+          }
+        ],
+        "sample": {
+          "Ticket_Number": "E017180",
+          "Issue_Date": 1535140680000,
+          "Citation_Type": "MOVING",
+          "Ordinance_Violated": "SPEED LIMIT",
+          "Vehicle_Make": "MITSU",
+          "Vehicle_Model": "OUTLA",
+          "Driver_Race": "Black",
+          "Driver_Gender": "Male",
+          "Driver_Age": 31,
+          "Officer_IBM": "1680",
+          "Officer_Name": "HENCE",
+          "Location": "I240 WALNUT GROVE",
+          "ZIP_Code": "38654",
+          "Vehicle_Year": "2015"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:46Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Citations/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-traffic-stops-2b0bee4e",
       "title": "MPD Traffic Stops",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-traffic-stops-2b0bee4e--public-safety--placeholder.svg",
+      "image_file": "mpd-traffic-stops-2b0bee4e--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Event_Number",
+            "type": "esriFieldTypeString",
+            "alias": "Event Number"
+          },
+          {
+            "name": "Event_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Event Type"
+          },
+          {
+            "name": "Reported_Datetime",
+            "type": "esriFieldTypeDate",
+            "alias": "Reported_Datetime"
+          },
+          {
+            "name": "Disposition_Code",
+            "type": "esriFieldTypeString",
+            "alias": "Disposition Code"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "Latitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "type": "esriFieldTypeDouble",
+            "alias": "Longitude"
+          },
+          {
+            "name": "ZIP_Code",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "Council_District",
+            "type": "esriFieldTypeInteger",
+            "alias": "Council District"
+          },
+          {
+            "name": "Super_District",
+            "type": "esriFieldTypeInteger",
+            "alias": "Super District"
+          },
+          {
+            "name": "Tract",
+            "type": "esriFieldTypeString",
+            "alias": "Tract"
+          },
+          {
+            "name": "Tract_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Tract Name"
+          },
+          {
+            "name": "Planning_District",
+            "type": "esriFieldTypeString",
+            "alias": "Planning District"
+          },
+          {
+            "name": "MPD_Precinct",
+            "type": "esriFieldTypeString",
+            "alias": "MPD Precinct"
+          },
+          {
+            "name": "MPD_Ward",
+            "type": "esriFieldTypeInteger",
+            "alias": "MPD Ward"
+          }
+        ],
+        "sample": {
+          "Event_Number": "P212140138",
+          "Event_Type": "Traffic Stop",
+          "Reported_Datetime": 1627887227000,
+          "Disposition_Code": "ARREST",
+          "Location": "E PARKWAY N/POPLAR AVE MEMPHIS",
+          "Latitude": 35.140485,
+          "Longitude": -89.982879,
+          "ZIP_Code": "38112",
+          "Council_District": 5,
+          "Super_District": 9,
+          "Tract": "47157002700",
+          "Tract_Name": "Census Tract 27",
+          "Planning_District": "Core City",
+          "MPD_Precinct": "Crump",
+          "MPD_Ward": 424
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:46Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Stops/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:47:15Z",
-      "map_data": "data/mpd-traffic-stops-2b0bee4e.geojson"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "mpd-wards-cfbaeae2",
       "title": "MPD Wards",
-      "category": "Public Safety",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-wards-cfbaeae2--public-safety--placeholder.svg",
+      "image_file": "mpd-wards-cfbaeae2--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "precinct",
+            "type": "esriFieldTypeString",
+            "alias": "precinct"
+          },
+          {
+            "name": "ward",
+            "type": "esriFieldTypeInteger",
+            "alias": "ward"
+          },
+          {
+            "name": "prct_code",
+            "type": "esriFieldTypeInteger",
+            "alias": "prct_code"
+          },
+          {
+            "name": "Area_SqMi",
+            "type": "esriFieldTypeSingle",
+            "alias": "Area_SqMi"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "precinct": "Austin Peay",
+          "ward": 121,
+          "prct_code": 1,
+          "Area_SqMi": 6.2
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:33:46Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Ward_Areas/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:47:15Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21",
       "title": "Neighborhood Watch Groups Boundaries in Memphis",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--public-safety--placeholder.svg",
+      "image_file": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "FolderPath",
+            "type": "esriFieldTypeString",
+            "alias": "FolderPath"
+          },
+          {
+            "name": "SymbolID",
+            "type": "esriFieldTypeInteger",
+            "alias": "SymbolID"
+          },
+          {
+            "name": "AltMode",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "AltMode"
+          },
+          {
+            "name": "Base",
+            "type": "esriFieldTypeDouble",
+            "alias": "Base"
+          },
+          {
+            "name": "Clamped",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Clamped"
+          },
+          {
+            "name": "Extruded",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Extruded"
+          },
+          {
+            "name": "Snippet",
+            "type": "esriFieldTypeString",
+            "alias": "Snippet"
+          },
+          {
+            "name": "PopupInfo",
+            "type": "esriFieldTypeString",
+            "alias": "PopupInfo"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "Name": "Appletree Apartments",
+          "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+          "SymbolID": 0,
+          "AltMode": 0,
+          "Base": 0,
+          "Clamped": -1,
+          "Extruded": 0,
+          "Snippet": "",
+          "PopupInfo": ""
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:47Z"
+      },
+      "source_url": "https://services6.arcgis.com/FayuIc8kjcIuYMDI/ArcGIS/rest/services/Neighborhood%20Watch%20Groups%20Boundaries%20in%20Memphis/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "shelby-co-tract-acs-demo-5y-2024-9606abac",
       "title": "Shelby Co Tract ACS Demo 5Y 2024",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Default",
       "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "shelby-co-tract-acs-demo-5y-2024-9606abac--default--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "NAME"
+          },
+          {
+            "name": "Population",
+            "type": "esriFieldTypeInteger",
+            "alias": "Population"
+          },
+          {
+            "name": "Median_Age",
+            "type": "esriFieldTypeSingle",
+            "alias": "Median_Age"
+          },
+          {
+            "name": "Asian",
+            "type": "esriFieldTypeSingle",
+            "alias": "Asian"
+          },
+          {
+            "name": "Black",
+            "type": "esriFieldTypeSingle",
+            "alias": "Black"
+          },
+          {
+            "name": "Hispanic_or_Latino",
+            "type": "esriFieldTypeSingle",
+            "alias": "Hispanic_or_Latino"
+          },
+          {
+            "name": "White",
+            "type": "esriFieldTypeSingle",
+            "alias": "White"
+          },
+          {
+            "name": "F65_Years_and_Over",
+            "type": "esriFieldTypeSingle",
+            "alias": "65_Years_and_Over"
+          },
+          {
+            "name": "Owner_Occupied",
+            "type": "esriFieldTypeSingle",
+            "alias": "Owner_Occupied"
+          },
+          {
+            "name": "Median_Home_Value",
+            "type": "esriFieldTypeInteger",
+            "alias": "Median_Home_Value"
+          },
+          {
+            "name": "Renter_Occupied",
+            "type": "esriFieldTypeSingle",
+            "alias": "Renter_Occupied"
+          },
+          {
+            "name": "Median_Rent",
+            "type": "esriFieldTypeInteger",
+            "alias": "Median_Rent"
+          },
+          {
+            "name": "Vacant_Housing_Units",
+            "type": "esriFieldTypeSingle",
+            "alias": "Vacant_Housing_Units"
+          },
+          {
+            "name": "Units_with_Broadband_Internet_Subscription",
+            "type": "esriFieldTypeSingle",
+            "alias": "Units_with_Broadband_Internet_Subscription"
+          },
+          {
+            "name": "Median_Household_Income",
+            "type": "esriFieldTypeInteger",
+            "alias": "Median_Household_Income"
+          },
+          {
+            "name": "Poverty_Status__All_People_Previous_Year_",
+            "type": "esriFieldTypeSingle",
+            "alias": "Poverty_Status__All_People_Previous_Year_"
+          },
+          {
+            "name": "Less_than_High_School",
+            "type": "esriFieldTypeSingle",
+            "alias": "Less_than_High_School"
+          },
+          {
+            "name": "Graduated_High_School",
+            "type": "esriFieldTypeSingle",
+            "alias": "Graduated_High_School"
+          },
+          {
+            "name": "Bachelor_s_Degree_or_Higher",
+            "type": "esriFieldTypeSingle",
+            "alias": "Bachelor_s_Degree_or_Higher"
+          },
+          {
+            "name": "Unemployment_Rate",
+            "type": "esriFieldTypeSingle",
+            "alias": "Unemployment_Rate"
+          },
+          {
+            "name": "No_Health_Insurance",
+            "type": "esriFieldTypeSingle",
+            "alias": "No_Health_Insurance"
+          },
+          {
+            "name": "Commutes_Alone",
+            "type": "esriFieldTypeSingle",
+            "alias": "Commutes_Alone"
+          },
+          {
+            "name": "Carpools",
+            "type": "esriFieldTypeSingle",
+            "alias": "Carpools"
+          },
+          {
+            "name": "Uses_Public_Transportation",
+            "type": "esriFieldTypeSingle",
+            "alias": "Uses_Public_Transportation"
+          },
+          {
+            "name": "Works_from_Home",
+            "type": "esriFieldTypeSingle",
+            "alias": "Works_from_Home"
+          },
+          {
+            "name": "Mean_Travel_Time_to_Work__Minutes_",
+            "type": "esriFieldTypeSingle",
+            "alias": "Mean_Travel_Time_to_Work__Minutes_"
+          },
+          {
+            "name": "Disabled",
+            "type": "esriFieldTypeSingle",
+            "alias": "Disabled"
+          },
+          {
+            "name": "Disabled_65_Years_and_Over",
+            "type": "esriFieldTypeSingle",
+            "alias": "Disabled_65_Years_and_Over"
+          },
+          {
+            "name": "Housing_Units",
+            "type": "esriFieldTypeInteger",
+            "alias": "Housing_Units"
+          },
+          {
+            "name": "state",
+            "type": "esriFieldTypeString",
+            "alias": "state"
+          },
+          {
+            "name": "county",
+            "type": "esriFieldTypeInteger",
+            "alias": "county"
+          },
+          {
+            "name": "tract",
+            "type": "esriFieldTypeInteger",
+            "alias": "tract"
+          },
+          {
+            "name": "GEOID",
+            "type": "esriFieldTypeBigInteger",
+            "alias": "GEOID"
+          },
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          }
+        ],
+        "sample": {
+          "NAME": "Census Tract 1; Shelby County; Tennessee",
+          "Population": 5420,
+          "Median_Age": 32.5,
+          "Asian": 10.6,
+          "Black": 17.3,
+          "Hispanic_or_Latino": 2.6,
+          "White": 68.4,
+          "F65_Years_and_Over": 10.3,
+          "Owner_Occupied": 34.1,
+          "Median_Home_Value": 440400,
+          "Renter_Occupied": 65.9,
+          "Median_Rent": 1713,
+          "Vacant_Housing_Units": 3.6,
+          "Units_with_Broadband_Internet_Subscription": 97.8,
+          "Median_Household_Income": 65236,
+          "Poverty_Status__All_People_Previous_Year_": 12.8,
+          "Less_than_High_School": 1.3,
+          "Graduated_High_School": 8.8,
+          "Bachelor_s_Degree_or_Higher": 70.6,
+          "Unemployment_Rate": 2.1,
+          "No_Health_Insurance": 2.1,
+          "Commutes_Alone": 82.4,
+          "Carpools": 6,
+          "Uses_Public_Transportation": 2.1,
+          "Works_from_Home": 8.4,
+          "Mean_Travel_Time_to_Work__Minutes_": 19,
+          "Disabled": 7.8,
+          "Disabled_65_Years_and_Over": 30.4,
+          "Housing_Units": 3564,
+          "state": "47",
+          "county": 157,
+          "tract": 100,
+          "GEOID": 47157000100,
+          "FID": 1
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:47Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Co_Tract_ACS_Demo_5Y_2024/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "shelby-county-census-tracts-72568279",
       "title": "Shelby County Census Tracts",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "shelby-county-census-tracts-72568279--default--placeholder.svg",
+      "image_file": "shelby-county-census-tracts-72568279--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "STATEFP",
+            "type": "esriFieldTypeString",
+            "alias": "STATEFP"
+          },
+          {
+            "name": "COUNTYFP",
+            "type": "esriFieldTypeString",
+            "alias": "COUNTYFP"
+          },
+          {
+            "name": "TRACTCE",
+            "type": "esriFieldTypeString",
+            "alias": "TRACTCE"
+          },
+          {
+            "name": "GEOID",
+            "type": "esriFieldTypeString",
+            "alias": "GEOID"
+          },
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "NAMELSAD",
+            "type": "esriFieldTypeString",
+            "alias": "NAMELSAD"
+          },
+          {
+            "name": "MTFCC",
+            "type": "esriFieldTypeString",
+            "alias": "MTFCC"
+          },
+          {
+            "name": "FUNCSTAT",
+            "type": "esriFieldTypeString",
+            "alias": "FUNCSTAT"
+          },
+          {
+            "name": "ALAND",
+            "type": "esriFieldTypeDouble",
+            "alias": "ALAND"
+          },
+          {
+            "name": "AWATER",
+            "type": "esriFieldTypeDouble",
+            "alias": "AWATER"
+          },
+          {
+            "name": "INTPTLAT",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLAT"
+          },
+          {
+            "name": "INTPTLON",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLON"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "STATEFP": "47",
+          "COUNTYFP": "157",
+          "TRACTCE": "009700",
+          "GEOID": "47157009700",
+          "NAME": "97",
+          "NAMELSAD": "Census Tract 97",
+          "MTFCC": "G5020",
+          "FUNCSTAT": "S",
+          "ALAND": 1797643,
+          "AWATER": 0,
+          "INTPTLAT": "+35.0821716",
+          "INTPTLON": "-089.9098811"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:48Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Census_Tracts/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "shelby-county-walkability-index-09d7a447",
       "title": "Shelby County Walkability Index",
-      "category": "Default",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "shelby-county-walkability-index-09d7a447--default--placeholder.svg",
+      "image_file": "shelby-county-walkability-index-09d7a447--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "GEOID10",
+            "type": "esriFieldTypeString",
+            "alias": "Census block group 12-digit FIPS code (2010)"
+          },
+          {
+            "name": "GEOID20",
+            "type": "esriFieldTypeString",
+            "alias": "Census block group 12-digit FIPS code (2018)"
+          },
+          {
+            "name": "STATEFP",
+            "type": "esriFieldTypeString",
+            "alias": "State FIPS code"
+          },
+          {
+            "name": "COUNTYFP",
+            "type": "esriFieldTypeString",
+            "alias": "County FIPS code"
+          },
+          {
+            "name": "TRACTCE",
+            "type": "esriFieldTypeString",
+            "alias": "Census tract FIPS code in which CBG resides"
+          },
+          {
+            "name": "BLKGRPCE",
+            "type": "esriFieldTypeString",
+            "alias": "Census block group FIPS code in which CBG resides"
+          },
+          {
+            "name": "CSA",
+            "type": "esriFieldTypeString",
+            "alias": "Combined Statistical Area (CSA) Code"
+          },
+          {
+            "name": "CSA_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name of CSA in which CBG resides"
+          },
+          {
+            "name": "CBSA",
+            "type": "esriFieldTypeString",
+            "alias": "FIPS for Core-Based Statistical Area (CBSA) in which CBG resides"
+          },
+          {
+            "name": "CBSA_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name of CBSA in which CBG resides"
+          },
+          {
+            "name": "Ac_Total",
+            "type": "esriFieldTypeDouble",
+            "alias": "Total geometric area (acres) of the CBG"
+          },
+          {
+            "name": "Ac_Water",
+            "type": "esriFieldTypeDouble",
+            "alias": "Total water area (acres)"
+          },
+          {
+            "name": "Ac_Land",
+            "type": "esriFieldTypeDouble",
+            "alias": "Total land area (acres)"
+          },
+          {
+            "name": "Ac_Unpr",
+            "type": "esriFieldTypeDouble",
+            "alias": "Total land area (acres) that is not protected from development (i.e., not a park, natural area or conservation area)"
+          },
+          {
+            "name": "TotPop",
+            "type": "esriFieldTypeInteger",
+            "alias": "Population, 2018"
+          },
+          {
+            "name": "CountHU",
+            "type": "esriFieldTypeInteger",
+            "alias": "Housing units, 2018"
+          },
+          {
+            "name": "HH",
+            "type": "esriFieldTypeInteger",
+            "alias": "Households (occupied housing units), 2018"
+          },
+          {
+            "name": "Workers",
+            "type": "esriFieldTypeInteger",
+            "alias": "Count of workers in CBG (home location), 2017"
+          },
+          {
+            "name": "D2B_E8MIXA",
+            "type": "esriFieldTypeDouble",
+            "alias": "8-tier employment entropy (denominator set to the static 8 employment types in the CBG)"
+          },
+          {
+            "name": "D2A_EPHHM",
+            "type": "esriFieldTypeDouble",
+            "alias": "Employment and household entropy"
+          },
+          {
+            "name": "D3B",
+            "type": "esriFieldTypeDouble",
+            "alias": "Street intersection density (weighted, auto-oriented intersections eliminated)"
+          },
+          {
+            "name": "D4A",
+            "type": "esriFieldTypeDouble",
+            "alias": "Distance from the population-weighted centroid to nearest transit stop (meters)"
+          },
+          {
+            "name": "D2A_Ranked",
+            "type": "esriFieldTypeDouble",
+            "alias": "Quantile ranked order (1-20) of [D2a_EpHHm] from lowest to highest"
+          },
+          {
+            "name": "D2B_Ranked",
+            "type": "esriFieldTypeDouble",
+            "alias": "Quantile ranked order (1-20) of [D2b_E8MixA] from lowest to highest"
+          },
+          {
+            "name": "D3B_Ranked",
+            "type": "esriFieldTypeDouble",
+            "alias": "Quantile ranked order (1-20) of [D3b] from lowest to highest"
+          },
+          {
+            "name": "D4A_Ranked",
+            "type": "esriFieldTypeDouble",
+            "alias": "Quantile ranked order (1,13-20)  of [D4a] from lowest to highest"
+          },
+          {
+            "name": "NatWalkInd",
+            "type": "esriFieldTypeDouble",
+            "alias": "Walkability Index"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "GEOID10": "471570217444",
+          "GEOID20": "471570217444",
+          "STATEFP": "47",
+          "COUNTYFP": "157",
+          "TRACTCE": "021744",
+          "BLKGRPCE": "4",
+          "CSA": "368",
+          "CSA_Name": "Memphis-Forrest City, TN-MS-AR",
+          "CBSA": "32820",
+          "CBSA_Name": "Memphis, TN-MS-AR",
+          "Ac_Total": 143.6164968,
+          "Ac_Water": 0,
+          "Ac_Land": 143.6164968,
+          "Ac_Unpr": 143.6164968,
+          "TotPop": 1217,
+          "CountHU": 539,
+          "HH": 539,
+          "Workers": 550,
+          "D2B_E8MIXA": 0.6303537040242176,
+          "D2A_EPHHM": 0.06542633780183273,
+          "D3B": 77.27691628250328,
+          "D4A": 844.91,
+          "D2A_Ranked": 1,
+          "D2B_Ranked": 13,
+          "D3B_Ranked": 12,
+          "D4A_Ranked": 13,
+          "NatWalkInd": 10.666666666666666
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:48Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_County_Walkability_Index/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:47:15Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "shelby-county-zip-codes-d21250ed",
       "title": "Shelby County ZIP Codes",
-      "category": "Default",
-      "content_status": "stub",
-      "content_model": null,
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "shelby-county-zip-codes-d21250ed--default--placeholder.svg",
+      "image_file": "shelby-county-zip-codes-d21250ed--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "ZCTA5CE20",
+            "type": "esriFieldTypeString",
+            "alias": "ZIP Code"
+          },
+          {
+            "name": "GEOID20",
+            "type": "esriFieldTypeString",
+            "alias": "GEOID20"
+          },
+          {
+            "name": "GEOIDFQ20",
+            "type": "esriFieldTypeString",
+            "alias": "GEOIDFQ20"
+          },
+          {
+            "name": "CLASSFP20",
+            "type": "esriFieldTypeString",
+            "alias": "CLASSFP20"
+          },
+          {
+            "name": "MTFCC20",
+            "type": "esriFieldTypeString",
+            "alias": "MTFCC20"
+          },
+          {
+            "name": "FUNCSTAT20",
+            "type": "esriFieldTypeString",
+            "alias": "FUNCSTAT20"
+          },
+          {
+            "name": "ALAND20",
+            "type": "esriFieldTypeDouble",
+            "alias": "ALAND20"
+          },
+          {
+            "name": "AWATER20",
+            "type": "esriFieldTypeDouble",
+            "alias": "AWATER20"
+          },
+          {
+            "name": "INTPTLAT20",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLAT20"
+          },
+          {
+            "name": "INTPTLON20",
+            "type": "esriFieldTypeString",
+            "alias": "INTPTLON20"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "ZCTA5CE20": "38112",
+          "GEOID20": "38112",
+          "GEOIDFQ20": "860Z200US38112",
+          "CLASSFP20": "B5",
+          "MTFCC20": "G6350",
+          "FUNCSTAT20": "S",
+          "ALAND20": 12446644,
+          "AWATER20": 37057,
+          "INTPTLAT20": "+35.1476623",
+          "INTPTLON20": "-089.9763922"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:48Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_County_ZIP_Codes/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:43:38Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     },
     {
       "slug": "solid-waste-areas-2c82a883",
       "title": "Solid Waste Areas",
-      "category": "Default",
-      "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+      "city": "Memphis",
+      "city_slug": "memphis",
+      "display_category": "Other",
+      "category": "Other",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "solid-waste-areas-2c82a883--default--placeholder.svg",
+      "image_file": "solid-waste-areas-2c82a883--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          },
+          {
+            "name": "PW_SolidWa",
+            "type": "esriFieldTypeString",
+            "alias": "Solid WasteArea"
+          },
+          {
+            "name": "Area_Manag",
+            "type": "esriFieldTypeString",
+            "alias": "Area_Manager"
+          },
+          {
+            "name": "Shape_Leng",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape_Leng"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Shape__Length"
+          }
+        ],
+        "sample": {
+          "FID": 1,
+          "PW_SolidWa": "D",
+          "Area_Manag": "Micheal Smith",
+          "Shape_Leng": 250194.047456
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:33:48Z"
+      },
+      "source_url": "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Solid_Waste_Areas/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T04:47:15Z"
+      "last_updated": "2026-08-02T19:48:19Z"
     }
   ]
 }

@@ -32,7 +32,8 @@ MANIFEST_PATH = os.path.join(ROOT, "hugo-site", "static", "img", "manifest.json"
 CATALOG_PATH = os.path.join(ROOT, "okc_catalog.json")
 OUT_DRAFTS = os.path.join(ROOT, "drafts-v2.json")
 
-from prompts import DRAFT_SYSTEM_PROMPT_V2, build_v2_payload, PROMPT_VERSION  # noqa: E402
+from prompts import (DRAFT_SYSTEM_PROMPT_V2, DRAFT_SYSTEM_PROMPT_V3,
+                     build_v2_payload, PROMPT_VERSION)  # noqa: E402
 
 # Fields that let a reader anchor the "try it yourself" step to their own
 # address / street / ward / neighborhood.
@@ -107,11 +108,19 @@ def build_frontmatter(fm, category, cover, description, teaser, dictionary):
 
 
 def validate_draft(slug, title, body, dictionary, feasible):
-    """Returns (needs_review, reason) — content checks, not style checks."""
-    fields = {f.get("field", "").strip().lower() for f in dictionary}
+    """Returns (needs_review, reason) — content checks, not style checks.
+    `dictionary` may be a list of dicts ({field, description}) or a list of
+    field-name strings (live schema)."""
+    fields = set()
+    for f in dictionary or []:
+        if isinstance(f, dict):
+            fields.add(re.sub(r"[^a-z0-9 ]", " ", (f.get("field") or "").lower()).strip())
+        elif isinstance(f, str):
+            fields.add(re.sub(r"[^a-z0-9 ]", " ", f.lower()).strip())
     issues = []
 
-    if "## What this is" not in body or "## Why it matters to you" not in body:
+    if (("## What this is" not in body and "## What this tracks" not in body)
+            or "## Why it matters to you" not in body):
         issues.append("missing required section (What this is / Why it matters)")
     if "## How to read this data" not in body:
         issues.append("missing How to read this data section")
@@ -133,7 +142,7 @@ def validate_draft(slug, title, body, dictionary, feasible):
     # that doesn't resolve to a real dictionary field
     read_sec = body.split("## How to read this data")[-1]
     for m in re.finditer(r"\*\*([^*]+)\*\*", read_sec):
-        name = re.sub(r"[^a-z0-9 ]", "", m.group(1).lower()).strip()
+        name = re.sub(r"[^a-z0-9 ]", " ", m.group(1).lower()).strip()
         if not name:
             continue
         ok = any(name == f or name in f or f in name for f in fields)
@@ -153,6 +162,43 @@ def step4_feasible(record):
     return any(ANCHOR_RE.search(f) for f in dict_fields)
 
 
+def build_v3_payload(d, rec, city):
+    """Step 3 user prompt: city config + catalog meta + LIVE schema fields
+    and samples. The schema is authoritative; catalog text is context only."""
+    schema = d.get("schema") or {}
+    fields = schema.get("fields") or []
+    sample = schema.get("sample") or {}
+    desc = (rec or {}).get("description_raw") or d.get("description") or ""
+    desc = re.sub(r"<[^>]+>", " ", desc)
+    lines = [
+        f"City: {city['name']}, {city['state']}",
+        f"Dataset: {d['title']}",
+        f"Category: {d.get('display_category') or d.get('category') or ''}",
+        f"Update interval: {(rec or {}).get('update_interval') or 'not stated'}",
+        "Description from catalog: " + re.sub(r"\s+", " ", desc)[:500],
+        "",
+        "Schema fields:",
+    ]
+    for f in fields:
+        name = f.get("name", "")
+        if not name:
+            continue
+        alias = f.get("alias") or ""
+        typ = f.get("type") or ""
+        sv = sample.get(name)
+        lines.append(f"  {name} ({alias}, {typ}): sample = {sv}")
+    return "\n".join(lines)
+
+
+def schema_has_anchor(schema):
+    names = [f.get("name", "") for f in (schema or {}).get("fields", [])]
+    return any(ANCHOR_RE.search(n) for n in names)
+
+
+def strip_html(raw):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw or "")).strip()
+
+
 def main():
     global DATASETS_DIR, CATALOG_PATH, OUT_DRAFTS, MANIFEST_PATH
     parser = argparse.ArgumentParser(description=__doc__)
@@ -166,11 +212,16 @@ def main():
     parser.add_argument("--catalog", default=CATALOG_PATH)
     parser.add_argument("--drafts", default=OUT_DRAFTS)
     parser.add_argument("--manifest", default=MANIFEST_PATH)
+    parser.add_argument("--city-name", default="Oklahoma City")
+    parser.add_argument("--city-state", default="OK")
+    parser.add_argument("--all", action="store_true",
+                        help="target every dataset, not just stubs")
     args = parser.parse_args()
     DATASETS_DIR = args.content_dir
     CATALOG_PATH = args.catalog
     OUT_DRAFTS = args.drafts
     MANIFEST_PATH = args.manifest
+    CITY_CONFIG = {"name": args.city_name, "state": args.city_state}
 
     with open(CATALOG_PATH) as f:
         catalog = json.load(f)
@@ -181,7 +232,7 @@ def main():
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     targets = []
     for d in manifest["datasets"]:
-        if d["content_status"] != "stub":
+        if not args.all and d["content_status"] != "stub":
             continue
         if args.only and d["slug"] not in args.only.split(","):
             continue
@@ -214,16 +265,24 @@ def main():
         for i, d in enumerate(sorted(targets, key=lambda x: x["slug"]), 1):
             slug = d["slug"]
             rec = by_title.get(d["title"].strip().lower())
-            feas = step4_feasible(rec or {})
-            payload = build_v2_payload(rec or {"title": d["title"]}, d["category"], feas)
+            schema = d.get("schema") or {}
+            if not schema:
+                results["needs_review"] += 1
+                reason = "no live schema — introspection failed or unavailable"
+                drafts_out.append({"slug": slug, "body": None, "error": None,
+                                   "needs_review": True, "reason": reason})
+                print(f"  [{i}/{len(targets)}] {reason:14s} {slug}", file=sys.stderr)
+                continue
+            feas = schema_has_anchor(schema) or step4_feasible(rec or {})
+            payload = build_v3_payload(d, rec, CITY_CONFIG)
 
             content, err = call_model(
                 [
-                    {"role": "system", "content": DRAFT_SYSTEM_PROMPT_V2},
-                    {"role": "user", "content": "Dataset (JSON):\n" + payload},
+                    {"role": "system", "content": DRAFT_SYSTEM_PROMPT_V3},
+                    {"role": "user", "content": payload},
                 ],
                 model="tencent/hy3",          # Nous-side name; unused when Nous key dead
-                temperature=0.4, max_tokens=800,
+                temperature=0.4, max_tokens=900,
                 openrouter_model=args.model,
             )
             if err or not content:
@@ -234,11 +293,10 @@ def main():
                 continue
 
             body = content.strip()
+            schema_fields = [f.get("name", "") for f in schema.get("fields", [])]
+            dict_fields = (rec or {}).get("data_dictionary", [])
             needs_review, reason = validate_draft(slug, d["title"], body,
-                                                  (rec or {}).get("data_dictionary", []), feas)
-            # No-address/street/ward anchor => the step-4 template doesn't fit
-            # cleanly, so the page gets flagged for a human even when the model
-            # wrote the "Where this leaves you" fallback correctly.
+                                                  schema_fields or dict_fields, feas)
             if not feas and not needs_review:
                 needs_review, reason = True, "no address/street/ward anchor — step-4 template doesn't fit cleanly"
             status = "needs_review" if needs_review else "drafted"
@@ -265,6 +323,9 @@ def main():
     for d in manifest["datasets"]:
         draft = by_slug.get(d["slug"])
         if not draft:
+            continue
+        if not draft.get("body"):
+            # failed/bodyless drafts must never overwrite an existing page
             continue
         path = os.path.join(DATASETS_DIR, d["slug"] + ".md")
         with open(path, encoding="utf-8") as f:

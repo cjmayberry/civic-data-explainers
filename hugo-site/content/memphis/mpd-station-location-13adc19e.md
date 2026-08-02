@@ -4,28 +4,28 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
-categories: ["Public Safety"]
-cover: "covers/mpd-station-location-13adc19e--public-safety--placeholder.svg"
-map_data: "img/data/mpd-station-location-13adc19e.geojson"
+categories: ["Other"]
+cover: "covers/mpd-station-location-13adc19e--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Location/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=13adc19ee9b34e2f87cda0d357efb86a&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
-draft: false
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-station-location"
-maintained_by: ""
+draft: false
 ---
 
 
-## What this is
+## What this tracks  
+This dataset shows the locations and contact information for Memphis Police Department stations.
 
-_Stub — drafted by the city-#2 pipeline._
+## Why it matters to you  
+Knowing your local police station helps when you need to file a report in person or contact officers about neighborhood safety concerns. If your car is broken into, this data tells you exactly where to go to file a police report instead of calling 911 for non-emergencies. Business owners can use the precinct boundaries to understand which station handles security concerns for their storefront.
 
-## Why it matters to you
+## How to read this data  
+**police_sta** — The name of the police station, like "Ridgeway Station".  
+**street_add** — The physical address of the station, such as "3840 Ridgeway Road".  
+**phone** — The direct phone number for the station, formatted as "901-636-4531".  
 
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Find your nearest police station by searching the dataset for stations in your zip code (like 38115) or comparing addresses near your home or business.

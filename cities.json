@@ -1,0 +1,35 @@
+[
+  {
+    "id": "okc",
+    "name": "Oklahoma City",
+    "hub_url": "https://open-okc.hub.arcgis.com",
+    "gov_url": "https://www.okc.gov",
+    "state": "OK",
+    "active": true,
+    "model": null,
+    "min_score": 80,
+    "content_dir": "hugo-site/content/okc",
+    "static_dir": "hugo-site/static/img",
+    "category_map": {}
+  },
+  {
+    "id": "memphis",
+    "name": "Memphis",
+    "hub_url": "https://data.memphistn.gov",
+    "gov_url": "https://www.memphistn.gov",
+    "state": "TN",
+    "active": true,
+    "model": null,
+    "min_score": 70,
+    "content_dir": "hugo-site/content/memphis",
+    "static_dir": "hugo-site/static/memphis",
+    "category_map": {
+      "Economic & Workforce Development": "Finance",
+      "Public Safety": "Public Safety",
+      "Transportation & Infrastructure": "Transportation",
+      "Strong Neighborhoods": "Other",
+      "Location & Boundaries": "Other",
+      "Good Government": "Government"
+    }
+  }
+]

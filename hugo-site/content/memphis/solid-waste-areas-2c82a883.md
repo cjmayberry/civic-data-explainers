@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "This dataset tracks designated solid waste collection areas in the city"
 tags: ["Memphis Open Data", "Location & Boundaries"]
-categories: ["Default"]
-cover: "covers/solid-waste-areas-2c82a883--default--placeholder.svg"
+categories: ["Other"]
+cover: "covers/solid-waste-areas-2c82a883--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Solid_Waste_Areas/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2c82a8836c1a473f919c0b8fbcaee324&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
-draft: false
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::solid-waste-areas"
-maintained_by: ""
+draft: false
 ---
+
+
 
 ## What this is  
 This dataset tracks designated solid waste collection areas in the city.

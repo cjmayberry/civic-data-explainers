@@ -235,7 +235,8 @@ def build_frontmatter(fm, category, cover, inquiry=None):
         out.append(f"inquiry_label: {yaml_str(inquiry['label'])}")
         if inquiry.get("extra"):
             out.append(f"inquiry_extra: {yaml_list(inquiry['extra'])}")
-    for key in ("source_url", "license", "dataset_id", "city", "site_url"):
+    for key in ("source_url", "license", "dataset_id", "city", "site_url",
+                "map_link", "maintained_by"):
         if key in fm:
             out.append(f"{key}: {yaml_str(fm[key])}")
     out.append("draft: false")
@@ -301,11 +302,23 @@ def main():
                         help="Content dir for the target city (default: hugo-site/content/datasets).")
     parser.add_argument("--static-dir", default=IMG_DIR,
                         help="Static img dir for the target city (default: hugo-site/static/img).")
+    parser.add_argument("--city-id", default="okc",
+                        help="City slug key (frontmatter city:), e.g. okc, memphis")
+    parser.add_argument("--city-name", default="Oklahoma City",
+                        help="Display city name written into the manifest")
+    parser.add_argument("--category-map", default="",
+                        help="JSON file of {raw_label: display_label} for cities without "
+                             "TOPIC_ALIASES/CATEGORY_OVERRIDES (from content/taxonomy.py)")
     args = parser.parse_args()
     DATASETS_DIR = args.content_dir
     IMG_DIR = args.static_dir
     COVERS_DIR = os.path.join(IMG_DIR, "covers")
     MANIFEST_PATH = os.path.join(IMG_DIR, "manifest.json")
+    CITY_ID = args.city_id
+    CITY_NAME = args.city_name
+    CATEGORY_MAP = {}
+    if args.category_map:
+        CATEGORY_MAP = json.load(open(args.category_map))
 
     with open(args.catalog) as f:
         catalog = json.load(f)
@@ -343,16 +356,26 @@ def main():
         topics = (rec or {}).get("topics", []) or []
 
         # ---- THE one category decision ----
+        # For cities with their own TOPIC_ALIASES (OKC), the alias map +
+        # CATEGORY_OVERRIDES stay authoritative. Other cities pass an
+        # LLM-derived category_map (content/taxonomy.py) via --category-map.
         if slug in CATEGORY_OVERRIDES:
             category, reason = CATEGORY_OVERRIDES[slug]
         else:
             reason = None
             category = "Default"
-            for t in topics:
-                c = TOPIC_ALIASES.get(t)
-                if c:
-                    category = c
-                    break
+            if CATEGORY_MAP:
+                for t in topics:
+                    c = CATEGORY_MAP.get(t)
+                    if c:
+                        category = c
+                        break
+            else:
+                for t in topics:
+                    c = TOPIC_ALIASES.get(t)
+                    if c:
+                        category = c
+                        break
 
         old = old_by_slug.get(slug, {})
         if old.get("content_status"):
@@ -405,6 +428,9 @@ def main():
         datasets.append({
             "slug": slug,
             "title": fm.get("title", slug),
+            "city": CITY_NAME,
+            "city_slug": CITY_ID,
+            "display_category": category,
             "category": category,
             "content_status": content_status,
             "content_model": content_model,
@@ -412,6 +438,8 @@ def main():
             "image_source": image_source,
             "image_file": image_file,
             "image_note": image_note,
+            "schema": old.get("schema"),
+            "source_url": fm.get("source_url"),
             "inquiry_enabled": slug in INQUIRY,
             "inquiry_search_field": INQUIRY[slug]["search"] if slug in INQUIRY else None,
             "inquiry_field": INQUIRY[slug]["field"] if slug in INQUIRY else None,

@@ -4,28 +4,29 @@ date: "2026-08-02"
 description: "Economic Development EDGE Bonds Data Dictionary.pdf"
 teaser: "Economic Development EDGE Bonds Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
-categories: ["Default"]
-cover: "covers/economic-development-growth-engine-edge-bonds-31650a2c--default--placeholder.svg"
-map_data: "img/data/economic-development-growth-engine-edge-bonds-31650a2c.geojson"
+categories: ["Finance"]
+cover: "covers/economic-development-growth-engine-edge-bonds-31650a2c--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Bonds/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=31650a2c17a640ca8e6615a668c57e51&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
-draft: false
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::economic-development-growth-engine-edge-bonds"
-maintained_by: ""
+draft: false
 ---
 
 
-## What this is
+## What this tracks  
+This dataset records companies receiving EDGE tax incentive bonds from Memphis to support local economic development projects.  
 
-_Stub — drafted by the city-#2 pipeline._
+## Why it matters to you  
+If you're considering opening a business in Memphis, this data shows where the city is investing and which areas might see growth from new jobs and development. For residents, it reveals which major employers are receiving public support—helping you gauge job opportunities or potential neighborhood changes.  
 
-## Why it matters to you
+## How to read this data  
+**CompanyName** — The business receiving the bond (e.g., "Elvis Presley Enterprises, Inc. Series 2015A").  
+**BondAmount** — The dollar amount of the tax incentive (e.g., "84000000" for $84 million).  
+**ProjectedTotalJobs** — Estimated jobs created by the project (e.g., "280").  
+**Approved_Date** — When the bond was granted (e.g., "1432098000000" translates to May 20, 2015).  
 
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Search the dataset for your ZIP code to see if any nearby businesses have received EDGE bonds, which could signal upcoming development in your area.

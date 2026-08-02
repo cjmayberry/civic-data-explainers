@@ -90,12 +90,15 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-02T16:21:56Z",
+  "generated_at": "2026-08-02T19:48:18Z",
   "dataset_schema": 2,
   "datasets": [
     {
       "slug": "adopted-streets-0ad77166",
       "title": "Adopted Streets",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -103,17 +106,51 @@
       "image_source": "svg_placeholder",
       "image_file": "adopted-streets-0ad77166--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Adopted_Street",
+            "type": "esriFieldTypeString",
+            "alias": "Street"
+          },
+          {
+            "name": "Adopting_Organization",
+            "type": "esriFieldTypeString",
+            "alias": "Adopted By"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Adopted_Street": "M L King from NE 10 to NE 23",
+          "Adopting_Organization": "Avery Chapel AME Church-Sons of Allen"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:45:51Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/0ad7716656324cf7844fd2e1ffe1f6be/rest/services/OpenData/Transportation/FeatureServer/2",
       "inquiry_enabled": true,
       "inquiry_search_field": "Adopted_Street",
       "inquiry_field": "Adopting_Organization",
       "inquiry_label": "Is your street adopted — and by whom?",
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "airport-boundaries-5bea8e9a",
       "title": "Airport Boundaries",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -121,17 +158,50 @@
       "image_source": "svg_placeholder",
       "image_file": "airport-boundaries-5bea8e9a--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "name",
+            "type": "esriFieldTypeString",
+            "alias": "Airport Name"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "name": "Wiley Post Airport"
+        },
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:45:52Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "bike-projects-b67f6cb2",
       "title": "Bike Projects",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -139,17 +209,69 @@
       "image_source": "svg_placeholder",
       "image_file": "bike-projects-b67f6cb2--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Project_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Project Name"
+          },
+          {
+            "name": "Project_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Project Type"
+          },
+          {
+            "name": "Primary_Funding_Source",
+            "type": "esriFieldTypeString",
+            "alias": "Funding Source"
+          },
+          {
+            "name": "Description",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Project_Name": "NW Grand Blvd. / N Independence Ave.",
+          "Project_Type": "Bike",
+          "Primary_Funding_Source": "Sales Tax",
+          "Description": "On NW Grand Blvd. and N. Independence Ave. to connect to the Bert Cooper Trails",
+          "Status": "Complete"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:45:53Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/b67f6cb2055d4a588795f2c4dbc986a0/rest/services/OpenData/Infrastructure_Projects/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "bike-routes-5600dd31",
       "title": "Bike Routes",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -157,17 +279,57 @@
       "image_source": "svg_placeholder",
       "image_file": "bike-routes-5600dd31--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Trail Name"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Trail Type"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Name": "S Grand Blvd Trail",
+          "Facility_Type": "Multi-use Trail",
+          "Status": "Existing"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:45:54Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/5600dd31c2d545afb11eaa7f40d6eaa4/rest/services/OpenData/Transportation/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "building-footprints-2d4cd6c3",
       "title": "Building Footprints",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -175,17 +337,50 @@
       "image_source": "svg_placeholder",
       "image_file": "building-footprints-2d4cd6c3--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "ELEV",
+            "type": "esriFieldTypeDouble",
+            "alias": "Elevation"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "ELEV": 1080.68
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:45:55Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "bulky-waste-zones-c4455716",
       "title": "Bulky Waste Zones",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -193,17 +388,62 @@
       "image_source": "svg_placeholder",
       "image_file": "bulky-waste-zones-c4455716--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "ROUTE",
+            "type": "esriFieldTypeString",
+            "alias": "Route"
+          },
+          {
+            "name": "PICKUPDAY",
+            "type": "esriFieldTypeString",
+            "alias": "Pickup Day"
+          },
+          {
+            "name": "SERVICE_PROVIDER",
+            "type": "esriFieldTypeString",
+            "alias": "Service Provider"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "ROUTE": "4M",
+          "PICKUPDAY": "4th Monday",
+          "SERVICE_PROVIDER": "Oklahoma City"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:45:56Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "city-boundaries-8699b841",
       "title": "City Boundaries",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -211,17 +451,56 @@
       "image_source": "svg_placeholder",
       "image_file": "city-boundaries-8699b841--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "CITYNAME",
+            "type": "esriFieldTypeString",
+            "alias": "City Name"
+          },
+          {
+            "name": "FIPS",
+            "type": "esriFieldTypeDouble",
+            "alias": "City FIPS"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "CITYNAME": "Woodlawn Park",
+          "FIPS": 82000.0
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:45:57Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "city-facilities-d5c5b7b2",
       "title": "City Facilities",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -229,6 +508,44 @@
       "image_source": "svg_placeholder",
       "image_file": "city-facilities-d5c5b7b2--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ObjectID",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "FacilityType",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Type"
+          },
+          {
+            "name": "FacilityName",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Name"
+          },
+          {
+            "name": "FacilityInfo",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Information"
+          }
+        ],
+        "sample": {
+          "Address": "4343 S LAKE HEFNER DR",
+          "FacilityType": "Fire",
+          "FacilityName": "Firest Station 30",
+          "FacilityInfo": ""
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:45:58Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/d5c5b7b206ec45cbb859aa4c83db3d09/rest/services/OpenData/Government_Places/FeatureServer/0",
       "inquiry_enabled": true,
       "inquiry_search_field": "FacilityName",
       "inquiry_field": "FacilityType",
@@ -237,12 +554,14 @@
         "Address"
       ],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/city-facilities-d5c5b7b2.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "city-trails-1e65b61d",
       "title": "City Trails",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -250,17 +569,99 @@
       "image_source": "openverse",
       "image_file": "city-trails-1e65b61d--parks-recreation--themed_photo.jpg",
       "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) — https://www.flickr.com/photos/80634066@N00/3338689843",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "TrailName",
+            "type": "esriFieldTypeString",
+            "alias": "Trail Name"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Rating",
+            "type": "esriFieldTypeString",
+            "alias": "Rating"
+          },
+          {
+            "name": "DesignUse",
+            "type": "esriFieldTypeString",
+            "alias": "Design Use"
+          },
+          {
+            "name": "Accessible",
+            "type": "esriFieldTypeString",
+            "alias": "Accessible"
+          },
+          {
+            "name": "Motorized",
+            "type": "esriFieldTypeString",
+            "alias": "Motorized"
+          },
+          {
+            "name": "Hike",
+            "type": "esriFieldTypeString",
+            "alias": "Hike"
+          },
+          {
+            "name": "RoadBike",
+            "type": "esriFieldTypeString",
+            "alias": "Road Bike"
+          },
+          {
+            "name": "Mtnbike",
+            "type": "esriFieldTypeString",
+            "alias": "Mountain Bike"
+          },
+          {
+            "name": "Equestrian",
+            "type": "esriFieldTypeString",
+            "alias": "Equestrian"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "TrailName": "South River Trail",
+          "Status": "Open",
+          "Rating": "Easiest",
+          "DesignUse": "Multi Use",
+          "Accessible": "Accessible",
+          "Motorized": "Motorized Use Prohibited",
+          "Hike": "Yes",
+          "RoadBike": "Yes",
+          "Mtnbike": "Yes",
+          "Equestrian": "No"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:45:58Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "council-wards-666b9654",
       "title": "Council Wards",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -268,17 +669,61 @@
       "image_source": "svg_placeholder",
       "image_file": "council-wards-666b9654--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "WARD",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Ward"
+          },
+          {
+            "name": "Council_Member",
+            "type": "esriFieldTypeString",
+            "alias": "Council Member"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "WARD": 5,
+          "Council_Member": "Matt Hinkle"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:00Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/666b9654ab104ba7ac49870c66190e9c/rest/services/OpenData/Government_Boundaries/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "elevation-contours-1e61c575",
       "title": "Elevation Contours",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -286,17 +731,51 @@
       "image_source": "svg_placeholder",
       "image_file": "elevation-contours-1e61c575--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Elevation",
+            "type": "esriFieldTypeDouble",
+            "alias": "Elevation"
+          },
+          {
+            "name": "Type",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Contour Type"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Elevation": 1228.0,
+          "Type": 4
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:00Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/1e61c57573004a83a6f1694aa0e94f84/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "emergency-responses-01c97e29",
       "title": "Emergency Responses",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -304,6 +783,44 @@
       "image_source": "svg_placeholder",
       "image_file": "emergency-responses-01c97e29--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ObjectID",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID"
+          },
+          {
+            "name": "InfoTitle",
+            "type": "esriFieldTypeString",
+            "alias": "Call Type"
+          },
+          {
+            "name": "Call_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "Reported_Time",
+            "type": "esriFieldTypeString",
+            "alias": "Reported On"
+          }
+        ],
+        "sample": {
+          "InfoTitle": "Fire Response",
+          "Call_Type": "Fire:  Alarm Fire Auto",
+          "Address": "12212 BRINLEY REIGN DR",
+          "Reported_Time": "Aug  2 2026  2:34PM"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:01Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/01c97e2928134efc93157d99f2d23047/rest/services/OpenData/Public_Safety/FeatureServer/0",
       "inquiry_enabled": true,
       "inquiry_search_field": "Address",
       "inquiry_field": "Call_Type",
@@ -312,12 +829,14 @@
         "Reported_Time"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/emergency-responses-01c97e29.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "fire-stations-7f57d399",
       "title": "Fire Stations",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -325,6 +844,37 @@
       "image_source": "svg_placeholder",
       "image_file": "fire-stations-7f57d399--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "STATION_NO",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Facility Name"
+          },
+          {
+            "name": "STATION_ADDR",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Address"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "STATION_NO": 30,
+          "STATION_ADDR": "4343 S LAKE HEFNER DR"
+        },
+        "layer": 4,
+        "introspected_at": "2026-08-02T19:46:02Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/7f57d399cbd1468d877a8411205a671d/rest/services/OpenData/Public_Safety/FeatureServer/4",
       "inquiry_enabled": true,
       "inquiry_search_field": "STATION_ADDR",
       "inquiry_field": "STATION_ADDR",
@@ -333,12 +883,14 @@
         "STATION_NO"
       ],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/fire-stations-7f57d399.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "garage-sales-a2b13b6d",
       "title": "Garage Sales",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -346,18 +898,124 @@
       "image_source": "svg_placeholder",
       "image_file": "garage-sales-a2b13b6d--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ObjectID",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "Permit_Date",
+            "type": "esriFieldTypeString",
+            "alias": "Permit Date"
+          },
+          {
+            "name": "Appliances",
+            "type": "esriFieldTypeString",
+            "alias": "Appliances"
+          },
+          {
+            "name": "Baby_Kid_Items",
+            "type": "esriFieldTypeString",
+            "alias": "Baby Kid Items"
+          },
+          {
+            "name": "Clothing",
+            "type": "esriFieldTypeString",
+            "alias": "Clothing"
+          },
+          {
+            "name": "Electronics",
+            "type": "esriFieldTypeString",
+            "alias": "Electronics"
+          },
+          {
+            "name": "Entertainment",
+            "type": "esriFieldTypeString",
+            "alias": "Entertainment"
+          },
+          {
+            "name": "Fitness_Equipment",
+            "type": "esriFieldTypeString",
+            "alias": "Fitness Equipment"
+          },
+          {
+            "name": "Furniture",
+            "type": "esriFieldTypeString",
+            "alias": "Furniture"
+          },
+          {
+            "name": "Hobbies",
+            "type": "esriFieldTypeString",
+            "alias": "Hobbies"
+          },
+          {
+            "name": "Kitchen_Items",
+            "type": "esriFieldTypeString",
+            "alias": "Kitchen Items"
+          },
+          {
+            "name": "Lawn_Tools",
+            "type": "esriFieldTypeString",
+            "alias": "Lawn Tools"
+          },
+          {
+            "name": "Household_Items",
+            "type": "esriFieldTypeString",
+            "alias": "Household Items"
+          },
+          {
+            "name": "Sporting_Goods",
+            "type": "esriFieldTypeString",
+            "alias": "Sporting Goods"
+          },
+          {
+            "name": "All_Categories",
+            "type": "esriFieldTypeString",
+            "alias": "All Categories"
+          }
+        ],
+        "sample": {
+          "Address": "11932 SW 17TH ST, Oklahoma City, OK  73099",
+          "Permit_Date": "2026-08-01",
+          "Appliances": "No",
+          "Baby_Kid_Items": "Yes",
+          "Clothing": "Yes",
+          "Electronics": "Yes",
+          "Entertainment": "No",
+          "Fitness_Equipment": "No",
+          "Furniture": "Yes",
+          "Hobbies": "Yes",
+          "Kitchen_Items": "No",
+          "Lawn_Tools": "No",
+          "Household_Items": "Yes",
+          "Sporting_Goods": "No",
+          "All_Categories": "Baby/Kids Items, Clothing, Electronics, Furniture, Hobbies, Misc. Household Items, "
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:03Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/a2b13b6db7804ea98482ca085e2783db/rest/services/OpenData/Licensing_Permits/FeatureServer/0",
       "inquiry_enabled": true,
       "inquiry_search_field": "Address",
       "inquiry_field": "Permit_Date",
       "inquiry_label": "Check a garage sale permit",
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/garage-sales-a2b13b6d.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "hotel-motel-tax-b6e78aa9",
       "title": "Hotel Motel Tax",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Finance",
       "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -365,6 +1023,44 @@
       "image_source": "openverse",
       "image_file": "hotel-motel-tax-b6e78aa9--finance--themed_photo.jpg",
       "image_note": "Topic photo: \"Hotel Lembke, Boomerang Dining Room, circa 1960 - Valparaiso, Indiana\" by Shook Photos (by) — https://www.flickr.com/photos/24724221@N07/4182754504",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "LegalName",
+            "type": "esriFieldTypeString",
+            "alias": "Legal Name"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "Certificate",
+            "type": "esriFieldTypeInteger",
+            "alias": "Certificate"
+          },
+          {
+            "name": "Sector",
+            "type": "esriFieldTypeString",
+            "alias": "Sector"
+          }
+        ],
+        "sample": {
+          "LegalName": "Buntz",
+          "Address": "3031 W WILSHIRE BLVD",
+          "Certificate": 3712,
+          "Sector": "NW"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:04Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3",
       "inquiry_enabled": true,
       "inquiry_search_field": "LegalName",
       "inquiry_field": "Sector",
@@ -374,12 +1070,14 @@
         "Certificate"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/hotel-motel-tax-b6e78aa9.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "impervious-surfaces-ad208d72",
       "title": "Impervious Surfaces",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -387,17 +1085,50 @@
       "image_source": "svg_placeholder",
       "image_file": "impervious-surfaces-ad208d72--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "TYPE",
+            "type": "esriFieldTypeString",
+            "alias": "Surface Type"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "TYPE": "BRIDGE"
+        },
+        "layer": 4,
+        "introspected_at": "2026-08-02T19:46:04Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "index-grid-80e72538",
       "title": "Index Grid",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -405,17 +1136,55 @@
       "image_source": "svg_placeholder",
       "image_file": "index-grid-80e72538--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "FGRID",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Fire Index Grid"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "FGRID": 4559
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:05Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/80e725387d8848baa12f2374843043e3/rest/services/OpenData/Infrastructure_Survey/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "land-documents-fd9dbc81",
       "title": "Land Documents",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -423,6 +1192,62 @@
       "image_source": "svg_placeholder",
       "image_file": "land-documents-fd9dbc81--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "IndexType",
+            "type": "esriFieldTypeString",
+            "alias": "Document Type"
+          },
+          {
+            "name": "Number",
+            "type": "esriFieldTypeString",
+            "alias": "Document Number"
+          },
+          {
+            "name": "Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Document Date"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "Grantor",
+            "type": "esriFieldTypeString",
+            "alias": "Grantor"
+          },
+          {
+            "name": "Reference",
+            "type": "esriFieldTypeString",
+            "alias": "Reference"
+          }
+        ],
+        "sample": {
+          "IndexType": "D",
+          "Number": "16318",
+          "Date": -696816000000,
+          "Location": "LOTS 4 THROUGH 7 BLOCK 7 LAKE VIEW HEIGHTS\r\n(E OF N WESTERN AVE AND S OF NW 70TH ST)",
+          "Address": "7020 N WESTERN AVE",
+          "Grantor": "GEORGE R. SAMARA",
+          "Reference": "PC-6920"
+        },
+        "layer": 8,
+        "introspected_at": "2026-08-02T19:46:06Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8",
       "inquiry_enabled": true,
       "inquiry_search_field": "Address",
       "inquiry_field": "IndexType",
@@ -432,12 +1257,14 @@
         "Grantor"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/land-documents-fd9dbc81.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "lots-and-blocks-8861a75c",
       "title": "Lots and Blocks",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -445,17 +1272,67 @@
       "image_source": "svg_placeholder",
       "image_file": "lots-and-blocks-8861a75c--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "PLAT_CODE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Plat Name"
+          },
+          {
+            "name": "BlockNum",
+            "type": "esriFieldTypeString",
+            "alias": "Block Number"
+          },
+          {
+            "name": "LotNum",
+            "type": "esriFieldTypeString",
+            "alias": "Lot Number"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "PLAT_CODE": 3597,
+          "BlockNum": "127",
+          "LotNum": "37"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:07Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/8861a75c02214e6dae3bf9c094fab65f/rest/services/OpenData/Licensing_Subdivision/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "non-zoning-parcels-186d9979",
       "title": "Non-Zoning Parcels",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -463,17 +1340,72 @@
       "image_source": "svg_placeholder",
       "image_file": "non-zoning-parcels-186d9979--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "CODE",
+            "type": "esriFieldTypeString",
+            "alias": "Non-Zoning Class"
+          },
+          {
+            "name": "USERCODE",
+            "type": "esriFieldTypeString",
+            "alias": "Full Case"
+          },
+          {
+            "name": "DESCRIPTION",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "ORDNUM",
+            "type": "esriFieldTypeString",
+            "alias": "Ordinance Number"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "CODE": "CE",
+          "USERCODE": "CE-464",
+          "DESCRIPTION": "Closed Easement"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:08Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/186d99795ce447708fd365c8940c8390/rest/services/OpenData/Licensing_Zoning/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "overlay-parcel-zoning-175708d7",
       "title": "Overlay Parcel Zoning",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -481,17 +1413,67 @@
       "image_source": "svg_placeholder",
       "image_file": "overlay-parcel-zoning-175708d7--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "CODE",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Class"
+          },
+          {
+            "name": "USERCODE",
+            "type": "esriFieldTypeString",
+            "alias": "Full Case"
+          },
+          {
+            "name": "DESCRIPTION",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "CODE": "CUP",
+          "USERCODE": "CUP-17A",
+          "DESCRIPTION": "Community Unit Plan"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:09Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "overlay-point-zoning-e41be4c9",
       "title": "Overlay Point Zoning",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -499,18 +1481,62 @@
       "image_source": "svg_placeholder",
       "image_file": "overlay-point-zoning-e41be4c9--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "CODE",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Class"
+          },
+          {
+            "name": "USERCODE",
+            "type": "esriFieldTypeString",
+            "alias": "Full Case"
+          },
+          {
+            "name": "DESCRIPTION",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "ORDNUM",
+            "type": "esriFieldTypeString",
+            "alias": "Ordinance Number"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "CODE": "ABC-1",
+          "USERCODE": "ABC-1-39",
+          "DESCRIPTION": "Restaurant with Limited Alcohol"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:10Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/overlay-point-zoning-e41be4c9.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "park-facilities-ceaabc8e",
       "title": "Park Facilities",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -518,6 +1544,116 @@
       "image_source": "svg_placeholder",
       "image_file": "park-facilities-ceaabc8e--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "PK_LOCATION",
+            "type": "esriFieldTypeString",
+            "alias": "Park"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Name"
+          },
+          {
+            "name": "Facility_Class",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Class"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Type"
+          },
+          {
+            "name": "Facility_Subtype",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Subtype"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Address"
+          },
+          {
+            "name": "County",
+            "type": "esriFieldTypeString",
+            "alias": "County"
+          },
+          {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State"
+          },
+          {
+            "name": "Zip",
+            "type": "esriFieldTypeInteger",
+            "alias": "Zip"
+          },
+          {
+            "name": "YearBuilt",
+            "type": "esriFieldTypeString",
+            "alias": "Year Built"
+          },
+          {
+            "name": "YearOpen",
+            "type": "esriFieldTypeString",
+            "alias": "Year Open"
+          },
+          {
+            "name": "In_Outdoor",
+            "type": "esriFieldTypeString",
+            "alias": "Indoor or Outdoor"
+          },
+          {
+            "name": "Accessibility",
+            "type": "esriFieldTypeString",
+            "alias": "Accessibility"
+          },
+          {
+            "name": "Reservatn",
+            "type": "esriFieldTypeString",
+            "alias": "Reservation"
+          },
+          {
+            "name": "Courts",
+            "type": "esriFieldTypeDouble",
+            "alias": "Courts"
+          },
+          {
+            "name": "Lighted",
+            "type": "esriFieldTypeString",
+            "alias": "Lighted"
+          }
+        ],
+        "sample": {
+          "PK_LOCATION": "E.B. Jeffrey Park",
+          "Facility_Name": "E.B. Jeffrey Park Sprayground",
+          "Facility_Class": "Aquatic Facility",
+          "Facility_Type": "Sprayground",
+          "Facility_Subtype": " ",
+          "Address": "4432 NW 16TH ST",
+          "County": "Oklahoma",
+          "State": "OK",
+          "Zip": 73107,
+          "YearBuilt": "2007",
+          "YearOpen": "2007",
+          "In_Outdoor": "Outdoor",
+          "Accessibility": "Accessible",
+          "Reservatn": "No",
+          "Courts": 0.0,
+          "Lighted": "No"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:11Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/ceaabc8e606c4bf2ba0c4442b48455a8/rest/services/OpenData/Recreation_Parks/FeatureServer/0",
       "inquiry_enabled": true,
       "inquiry_search_field": "Facility_Name",
       "inquiry_field": "Facility_Type",
@@ -527,12 +1663,14 @@
         "Address"
       ],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/park-facilities-ceaabc8e.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "parks-fe9dc8e8",
       "title": "Parks",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -540,17 +1678,68 @@
       "image_source": "openverse",
       "image_file": "parks-fe9dc8e8--parks-recreation--themed_photo.jpg",
       "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) — https://www.flickr.com/photos/80634066@N00/3338689843",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Park Name"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Park Address"
+          },
+          {
+            "name": "ParkType",
+            "type": "esriFieldTypeString",
+            "alias": "Park Type"
+          },
+          {
+            "name": "Park_Acres",
+            "type": "esriFieldTypeDouble",
+            "alias": "Park Acres"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Name": "Stiles Circle Park",
+          "Address": "379 NE 8TH ST",
+          "ParkType": "Green Space",
+          "Park_Acres": 0.7191787
+        },
+        "layer": 4,
+        "introspected_at": "2026-08-02T19:46:12Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "parks-impact-fees-benefit-areas-08f4c8d6",
       "title": "Parks Impact Fees - Benefit Areas",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -558,17 +1747,56 @@
       "image_source": "svg_placeholder",
       "image_file": "parks-impact-fees-benefit-areas-08f4c8d6--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "LabelName",
+            "type": "esriFieldTypeString",
+            "alias": "Benefit Area"
+          },
+          {
+            "name": "Classification",
+            "type": "esriFieldTypeString",
+            "alias": "Category"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "LabelName": "Northwest",
+          "Classification": "Rural"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:13Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "parks-impact-fees-existing-local-service-b8d5a300",
       "title": "Parks Impact Fees - Existing Local Service",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -576,17 +1804,56 @@
       "image_source": "svg_placeholder",
       "image_file": "parks-impact-fees-existing-local-service-b8d5a300--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "ParkServed",
+            "type": "esriFieldTypeDouble",
+            "alias": "Park Served"
+          },
+          {
+            "name": "Impact_Fee_Factor",
+            "type": "esriFieldTypeInteger",
+            "alias": "Calculator"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "ParkServed": 1.0,
+          "Impact_Fee_Factor": 5
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:17Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/b8d5a30010d94401b6be773a0786c05f/rest/services/OpenData/Licensing_Permits/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "pavement-condition-e80f59ff",
       "title": "Pavement Condition",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -594,6 +1861,66 @@
       "image_source": "svg_placeholder",
       "image_file": "pavement-condition-e80f59ff--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "PCICurrent",
+            "type": "esriFieldTypeDouble",
+            "alias": "PCI"
+          },
+          {
+            "name": "RANK",
+            "type": "esriFieldTypeString",
+            "alias": "Street Type"
+          },
+          {
+            "name": "SURFACE",
+            "type": "esriFieldTypeString",
+            "alias": "Surface Type"
+          },
+          {
+            "name": "XSTREET_NA",
+            "type": "esriFieldTypeString",
+            "alias": "Street"
+          },
+          {
+            "name": "BEGDESC",
+            "type": "esriFieldTypeString",
+            "alias": "From"
+          },
+          {
+            "name": "ENDDESC",
+            "type": "esriFieldTypeString",
+            "alias": "To"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "PCICurrent": -1.0,
+          "RANK": "Rural Arterial",
+          "SURFACE": "GRAVEL",
+          "XSTREET_NA": "SW 104TH ST",
+          "BEGDESC": "GREGORY RD",
+          "ENDDESC": "CIMARRON RD"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:18Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3",
       "inquiry_enabled": true,
       "inquiry_search_field": "XSTREET_NA",
       "inquiry_field": "PCICurrent",
@@ -603,11 +1930,14 @@
         "ENDDESC"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "pedestrian-projects-34783ad4",
       "title": "Pedestrian Projects",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -615,17 +1945,69 @@
       "image_source": "svg_placeholder",
       "image_file": "pedestrian-projects-34783ad4--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Project_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Project Name"
+          },
+          {
+            "name": "Project_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Project Type"
+          },
+          {
+            "name": "Primary_Funding_Source",
+            "type": "esriFieldTypeString",
+            "alias": "Funding Source"
+          },
+          {
+            "name": "Description",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Project_Name": "Angie Debo ES",
+          "Project_Type": "Sidewalks",
+          "Primary_Funding_Source": "Sales Tax",
+          "Description": "Sales Tax Sidewalk Project: Angie Debo ES",
+          "Status": "Complete"
+        },
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:19Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "plat-names-6073f066",
       "title": "Plat Names",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -633,18 +2015,46 @@
       "image_source": "svg_placeholder",
       "image_file": "plat-names-6073f066--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "PlatCode",
+            "type": "esriFieldTypeString",
+            "alias": "Plat Code"
+          },
+          {
+            "name": "PlatName",
+            "type": "esriFieldTypeString",
+            "alias": "Plat Name"
+          }
+        ],
+        "sample": {
+          "PlatCode": "6421",
+          "PlatName": "10TH AND MORGAN INDUSTRIAL DISTRICT"
+        },
+        "layer": 10,
+        "introspected_at": "2026-08-02T19:46:20Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/plat-names-6073f066.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "plats-43d820b8",
       "title": "Plats",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -652,17 +2062,61 @@
       "image_source": "svg_placeholder",
       "image_file": "plats-43d820b8--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "PlatCode",
+            "type": "esriFieldTypeInteger",
+            "alias": "Plat Name"
+          },
+          {
+            "name": "PlatNum",
+            "type": "esriFieldTypeInteger",
+            "alias": "Plat Code"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "PlatCode": 4041,
+          "PlatNum": 4041
+        },
+        "layer": 4,
+        "introspected_at": "2026-08-02T19:46:21Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/43d820b83b674709a76d0bf9d090d812/rest/services/OpenData/Licensing_Subdivision/FeatureServer/4",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "police-stations-fdb1ea86",
       "title": "Police Stations",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -670,18 +2124,46 @@
       "image_source": "svg_placeholder",
       "image_file": "police-stations-fdb1ea86--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Facility",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Name"
+          },
+          {
+            "name": "Address",
+            "type": "esriFieldTypeString",
+            "alias": "Facility Address"
+          }
+        ],
+        "sample": {
+          "Facility": "Police Headquarters",
+          "Address": "700 Colcord Dr"
+        },
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:46:21Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5",
       "inquiry_enabled": true,
       "inquiry_search_field": "Facility",
       "inquiry_field": "Address",
       "inquiry_label": "Look up a police station",
       "inquiry_extra": [],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/police-stations-fdb1ea86.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "public-infrastructure-projects-d5e6fb99",
       "title": "Public Infrastructure Projects",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -689,17 +2171,135 @@
       "image_source": "svg_placeholder",
       "image_file": "public-infrastructure-projects-d5e6fb99--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "projname",
+            "type": "esriFieldTypeString",
+            "alias": "Project Name"
+          },
+          {
+            "name": "projdesc",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "projtype",
+            "type": "esriFieldTypeString",
+            "alias": "Project Type"
+          },
+          {
+            "name": "planstart",
+            "type": "esriFieldTypeDate",
+            "alias": "Planned Start Date"
+          },
+          {
+            "name": "planend",
+            "type": "esriFieldTypeDate",
+            "alias": "Planned End Date"
+          },
+          {
+            "name": "estcost",
+            "type": "esriFieldTypeDouble",
+            "alias": "Estimated Budget"
+          },
+          {
+            "name": "department",
+            "type": "esriFieldTypeString",
+            "alias": "Department Responsible"
+          },
+          {
+            "name": "projphase",
+            "type": "esriFieldTypeString",
+            "alias": "Project Phase"
+          },
+          {
+            "name": "actstart",
+            "type": "esriFieldTypeDate",
+            "alias": "Actual Start Date"
+          },
+          {
+            "name": "actend",
+            "type": "esriFieldTypeDate",
+            "alias": "Actual End Date"
+          },
+          {
+            "name": "actcost",
+            "type": "esriFieldTypeDouble",
+            "alias": "Expenditures"
+          },
+          {
+            "name": "notes",
+            "type": "esriFieldTypeString",
+            "alias": "Notes"
+          },
+          {
+            "name": "fundingsources",
+            "type": "esriFieldTypeString",
+            "alias": "Funding Sources"
+          },
+          {
+            "name": "globalid",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          },
+          {
+            "name": "ward",
+            "type": "esriFieldTypeString",
+            "alias": "Ward"
+          },
+          {
+            "name": "projcat",
+            "type": "esriFieldTypeString",
+            "alias": "Project Category"
+          },
+          {
+            "name": "projsec",
+            "type": "esriFieldTypeString",
+            "alias": "Project Section"
+          },
+          {
+            "name": "projloc",
+            "type": "esriFieldTypeString",
+            "alias": "Project Location"
+          }
+        ],
+        "sample": {
+          "projname": "2025 GO Bond Arterial Resurfacing Project",
+          "projdesc": "Proposition 1 - C19 Arterial Resurfacing",
+          "projtype": "Transportation",
+          "estcost": 2600000,
+          "projphase": "1",
+          "actcost": 0,
+          "fundingsources": "2025 GO Bond",
+          "ward": "7",
+          "projcat": "Streets",
+          "projsec": "Arterial Resurfacing",
+          "projloc": "Along NE 10th St from N Bryant Ave to N Coltrane Rd"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:22Z"
+      },
+      "source_url": "https://services5.arcgis.com/2mOVdIcRtNH2JsSF/arcgis/rest/services/Infrastructure_Projects_OD/FeatureServer",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "public-works-as-builts-d317eb4e",
       "title": "Public Works As-Builts",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -707,18 +2307,51 @@
       "image_source": "openverse",
       "image_file": "public-works-as-builts-d317eb4e--infrastructure--themed_photo.jpg",
       "image_note": "Topic photo: \"Public Works Construction\" by ICMA Photos (by-sa) — https://www.flickr.com/photos/31418530@N02/3628911157",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "AsBuiltID",
+            "type": "esriFieldTypeString",
+            "alias": "AsBuilt ID"
+          },
+          {
+            "name": "AsBuiltType",
+            "type": "esriFieldTypeString",
+            "alias": "AsBuilt Type"
+          },
+          {
+            "name": "AsBuiltDescription",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          }
+        ],
+        "sample": {
+          "AsBuiltID": "BC-0042",
+          "AsBuiltType": "BC - Private Bridge"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:23Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/public-works-as-builts-d317eb4e.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "recycle-zones-0f286e12",
       "title": "Recycle Zones",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -726,17 +2359,62 @@
       "image_source": "svg_placeholder",
       "image_file": "recycle-zones-0f286e12--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Route",
+            "type": "esriFieldTypeString",
+            "alias": "Route"
+          },
+          {
+            "name": "PickupDay",
+            "type": "esriFieldTypeString",
+            "alias": "Pickup Day"
+          },
+          {
+            "name": "ServiceProvider",
+            "type": "esriFieldTypeString",
+            "alias": "Service Provider"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Route": "O1AH",
+          "PickupDay": "Monday",
+          "ServiceProvider": "Waste Management"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:24Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/0f286e1243ca4bb39a70e323b1608222/rest/services/OpenData/Utilities/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "sidewalks-bc31068e",
       "title": "Sidewalks",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -744,17 +2422,45 @@
       "image_source": "openverse",
       "image_file": "sidewalks-bc31068e--transportation--themed_photo.jpg",
       "image_note": "Topic photo: \"UF Green Concrete Sidewalk Road Asphalt\" by cdsessums (by-sa) — https://www.flickr.com/photos/53313745@N00/4800468597",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "SidewalkFunding",
+            "type": "esriFieldTypeString",
+            "alias": "Sidewalk Funding"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "SidewalkFunding": "GOBond"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:25Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/bc31068e20ed4b2fa1265bb810b1de23/rest/services/OpenData/Transportation/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "snow-routes-a58d4715",
       "title": "Snow Routes",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -762,6 +2468,55 @@
       "image_source": "svg_placeholder",
       "image_file": "snow-routes-a58d4715--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OID"
+          },
+          {
+            "name": "Quadarant",
+            "type": "esriFieldTypeString",
+            "alias": "Quadarant"
+          },
+          {
+            "name": "location1",
+            "type": "esriFieldTypeString",
+            "alias": "Location 1"
+          },
+          {
+            "name": "location2",
+            "type": "esriFieldTypeString",
+            "alias": "Location 2"
+          },
+          {
+            "name": "MaintainedBy",
+            "type": "esriFieldTypeString",
+            "alias": "Maintained By"
+          },
+          {
+            "name": "RouteType",
+            "type": "esriFieldTypeString",
+            "alias": "Route Type"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Quadarant": "SW",
+          "location1": "Exchange AVE",
+          "location2": "over Oklahoma River/I-40/RR",
+          "MaintainedBy": "City of Oklahoma City",
+          "RouteType": "Bridge"
+        },
+        "layer": 6,
+        "introspected_at": "2026-08-02T19:46:25Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/a58d4715875a4c62b15cd3269c9df891/rest/services/OpenData/Transportation/FeatureServer/6",
       "inquiry_enabled": true,
       "inquiry_search_field": "location1",
       "inquiry_field": "Quadarant",
@@ -770,11 +2525,14 @@
         "location2"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "storm-sewer-headwalls-ac50e5d0",
       "title": "Storm Sewer Headwalls",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -782,18 +2540,57 @@
       "image_source": "svg_placeholder",
       "image_file": "storm-sewer-headwalls-ac50e5d0--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "SUBTYPE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Sub Type"
+          },
+          {
+            "name": "PROJECTNUMBER",
+            "type": "esriFieldTypeString",
+            "alias": "Project Number"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "COMMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Comments"
+          }
+        ],
+        "sample": {
+          "SUBTYPE": 0,
+          "PROJECTNUMBER": "PC-0014",
+          "Location": "SW 15th, E of S Meridian Ave"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:26Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/storm-sewer-headwalls-ac50e5d0.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "storm-sewer-junctions-35d63012",
       "title": "Storm Sewer Junctions",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -801,18 +2598,64 @@
       "image_source": "svg_placeholder",
       "image_file": "storm-sewer-junctions-35d63012--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "SUBTYPE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Sub Type"
+          },
+          {
+            "name": "PROJECTNUMBER",
+            "type": "esriFieldTypeString",
+            "alias": "Project Number"
+          },
+          {
+            "name": "INLETSIZE",
+            "type": "esriFieldTypeString",
+            "alias": "Inlet Size"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "COMMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Comments"
+          }
+        ],
+        "sample": {
+          "SUBTYPE": 2,
+          "PROJECTNUMBER": " ",
+          "COMMENT": " ",
+          "INLETSIZE": "4",
+          "Location": "NW 28th & N Youngs Blvd"
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:27Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/storm-sewer-junctions-35d63012.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "storm-sewer-lines-d97ab7e6",
       "title": "Storm Sewer Lines",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -820,17 +2663,88 @@
       "image_source": "svg_placeholder",
       "image_file": "storm-sewer-lines-d97ab7e6--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "SUBTYPE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Sub Type"
+          },
+          {
+            "name": "PROJECTNUMBER",
+            "type": "esriFieldTypeString",
+            "alias": "Project Number"
+          },
+          {
+            "name": "MATERIAL",
+            "type": "esriFieldTypeString",
+            "alias": "Material"
+          },
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Line Name"
+          },
+          {
+            "name": "NOMINALSIZE",
+            "type": "esriFieldTypeString",
+            "alias": "Nominal Size"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "UPSTREAMINVERT",
+            "type": "esriFieldTypeDouble",
+            "alias": "Upstream Invert"
+          },
+          {
+            "name": "DOWNSTREAMINVERT",
+            "type": "esriFieldTypeDouble",
+            "alias": "Downstream Invert"
+          },
+          {
+            "name": "SLOPE",
+            "type": "esriFieldTypeString",
+            "alias": "Slope"
+          },
+          {
+            "name": "COMMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Comments"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {},
+        "layer": 2,
+        "introspected_at": "2026-08-02T19:46:28Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "storm-siren-sectors-58b572ce",
       "title": "Storm Siren Sectors",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -838,17 +2752,50 @@
       "image_source": "svg_placeholder",
       "image_file": "storm-siren-sectors-58b572ce--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Grid_Number",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Grid Number"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Grid_Number": 1
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:29Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/58b572ceddf24352a1cde67e42dbcc44/rest/services/OpenData/Public_Safety/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "straight-zoning-388d1b1f",
       "title": "Straight Zoning",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -856,17 +2803,61 @@
       "image_source": "svg_placeholder",
       "image_file": "straight-zoning-388d1b1f--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "P_CASE",
+            "type": "esriFieldTypeString",
+            "alias": "Case Number"
+          },
+          {
+            "name": "P_ZONE",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Class"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID"
+          }
+        ],
+        "sample": {
+          "P_CASE": " ",
+          "P_ZONE": "R-1"
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:30Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/388d1b1f0e804e378a2d138c39919085/rest/services/OpenData/Licensing_Zoning/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "street-centerlines-0e041a93",
       "title": "Street Centerlines",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -874,6 +2865,121 @@
       "image_source": "openverse",
       "image_file": "street-centerlines-0e041a93--transportation--themed_photo.jpg",
       "image_note": "Topic photo: \"Sketch of relocated centerline and new side line looking uphill from Broadway\" by Eric Fischer (by) — https://www.flickr.com/photos/24431382@N03/6960300051",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "STREETCLASS",
+            "type": "esriFieldTypeInteger",
+            "alias": "Street Class"
+          },
+          {
+            "name": "CFCC",
+            "type": "esriFieldTypeString",
+            "alias": "CFCC"
+          },
+          {
+            "name": "STR_CODE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Full Street Name"
+          },
+          {
+            "name": "FDPRE",
+            "type": "esriFieldTypeString",
+            "alias": "Street Prefix"
+          },
+          {
+            "name": "FNAME",
+            "type": "esriFieldTypeString",
+            "alias": "Street Name"
+          },
+          {
+            "name": "FTYPE",
+            "type": "esriFieldTypeString",
+            "alias": "Street Suffix"
+          },
+          {
+            "name": "LEFTADD1",
+            "type": "esriFieldTypeInteger",
+            "alias": "Left From Address"
+          },
+          {
+            "name": "LEFTADD2",
+            "type": "esriFieldTypeInteger",
+            "alias": "Left To Address"
+          },
+          {
+            "name": "RGTADD1",
+            "type": "esriFieldTypeInteger",
+            "alias": "Right From Address"
+          },
+          {
+            "name": "RGTADD2",
+            "type": "esriFieldTypeInteger",
+            "alias": "Right To Address"
+          },
+          {
+            "name": "ONEWAY",
+            "type": "esriFieldTypeString",
+            "alias": "Oneway"
+          },
+          {
+            "name": "LANES",
+            "type": "esriFieldTypeInteger",
+            "alias": "Lanes"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "EMS_Response_Area_R",
+            "type": "esriFieldTypeString",
+            "alias": "EMS_R"
+          },
+          {
+            "name": "BH_Response_Area_R",
+            "type": "esriFieldTypeString",
+            "alias": "BH_R"
+          },
+          {
+            "name": "EMS_Response_Area_L",
+            "type": "esriFieldTypeString",
+            "alias": "EMS_L"
+          },
+          {
+            "name": "BH_Response_Area_L",
+            "type": "esriFieldTypeString",
+            "alias": "BH_L"
+          }
+        ],
+        "sample": {
+          "STREETCLASS": 0,
+          "CFCC": "A40",
+          "STR_CODE": 78,
+          "FDPRE": "NW",
+          "FNAME": "15TH",
+          "FTYPE": "ST",
+          "LEFTADD1": 1700,
+          "LEFTADD2": 1712,
+          "RGTADD1": 1701,
+          "RGTADD2": 1713,
+          "ONEWAY": "O",
+          "LANES": 2,
+          "EMS_Response_Area_R": "OCEMS",
+          "BH_Response_Area_R": "CCD",
+          "EMS_Response_Area_L": "OCEMS",
+          "BH_Response_Area_L": "CCD"
+        },
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:46:31Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5",
       "inquiry_enabled": true,
       "inquiry_search_field": "FNAME",
       "inquiry_field": "STREETCLASS",
@@ -884,11 +2990,14 @@
         "LEFTADD1"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "street-names-adea21af",
       "title": "Street Names",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -896,6 +3005,44 @@
       "image_source": "svg_placeholder",
       "image_file": "street-names-adea21af--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "ObjectID",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID"
+          },
+          {
+            "name": "StreetCode",
+            "type": "esriFieldTypeInteger",
+            "alias": "Street Code"
+          },
+          {
+            "name": "StreetPrefix",
+            "type": "esriFieldTypeString",
+            "alias": "Street Prefix"
+          },
+          {
+            "name": "StreetName",
+            "type": "esriFieldTypeString",
+            "alias": "Street Name"
+          },
+          {
+            "name": "StreetSuffix",
+            "type": "esriFieldTypeString",
+            "alias": "Street Suffix"
+          }
+        ],
+        "sample": {
+          "StreetCode": 1,
+          "StreetPrefix": "NE",
+          "StreetName": "1ST",
+          "StreetSuffix": "ST"
+        },
+        "layer": 10,
+        "introspected_at": "2026-08-02T19:46:32Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/adea21af99c740ec86870111a9881fc4/rest/services/OpenData/Transportation_Streets/FeatureServer/10",
       "inquiry_enabled": true,
       "inquiry_search_field": "StreetName",
       "inquiry_field": "StreetName",
@@ -905,12 +3052,14 @@
         "StreetSuffix"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/street-names-adea21af.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "streets-development-program-benefit-areas-5377697e",
       "title": "Streets Development Program  - Benefit Areas",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -918,17 +3067,62 @@
       "image_source": "svg_placeholder",
       "image_file": "streets-development-program-benefit-areas-5377697e--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "BenefitArea",
+            "type": "esriFieldTypeString",
+            "alias": "Benefit Area"
+          },
+          {
+            "name": "category",
+            "type": "esriFieldTypeString",
+            "alias": "Category"
+          },
+          {
+            "name": "Impact_Fee_Factor",
+            "type": "esriFieldTypeInteger",
+            "alias": "Calculator"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "BenefitArea": "C-1",
+          "category": "Core",
+          "Impact_Fee_Factor": 1
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:33Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "survey-primary-control-points-e6812e22",
       "title": "Survey Primary Control Points",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -936,18 +3130,99 @@
       "image_source": "svg_placeholder",
       "image_file": "survey-primary-control-points-e6812e22--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "STATUS",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "STATNO_NUMBER",
+            "type": "esriFieldTypeString",
+            "alias": "Station Number"
+          },
+          {
+            "name": "CONDITION",
+            "type": "esriFieldTypeString",
+            "alias": "Condition"
+          },
+          {
+            "name": "DESCRIPTION",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "MATERIAL",
+            "type": "esriFieldTypeString",
+            "alias": "Material"
+          },
+          {
+            "name": "CONTRACTOR",
+            "type": "esriFieldTypeString",
+            "alias": "Contractor"
+          },
+          {
+            "name": "DATUM",
+            "type": "esriFieldTypeString",
+            "alias": "Datum"
+          },
+          {
+            "name": "DATE_SET",
+            "type": "esriFieldTypeDate",
+            "alias": "Date Set"
+          },
+          {
+            "name": "TYPE_MONUMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Monument Type"
+          },
+          {
+            "name": "X_COORD",
+            "type": "esriFieldTypeDouble",
+            "alias": "X Coordinate"
+          },
+          {
+            "name": "Y_COORD",
+            "type": "esriFieldTypeDouble",
+            "alias": "Y Coordinate"
+          }
+        ],
+        "sample": {
+          "STATUS": "FOUND",
+          "STATNO_NUMBER": "11",
+          "CONDITION": "GOOD",
+          "MATERIAL": "ALUM",
+          "CONTRACTOR": "ADS",
+          "DATUM": "CORS96",
+          "DATE_SET": 1216080000000,
+          "TYPE_MONUMENT": "SHALLOW PIER",
+          "X_COORD": 2227248.983,
+          "Y_COORD": 111858.995
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:33Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/e6812e2241ba4ff68d77edd95ad049b8/rest/services/OpenData/Infrastructure_Survey/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/survey-primary-control-points-e6812e22.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "survey-secondary-control-points-1120d3f7",
       "title": "Survey Secondary Control Points",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -955,18 +3230,88 @@
       "image_source": "svg_placeholder",
       "image_file": "survey-secondary-control-points-1120d3f7--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "STATION_NO",
+            "type": "esriFieldTypeInteger",
+            "alias": "Station Number"
+          },
+          {
+            "name": "EASTING",
+            "type": "esriFieldTypeDouble",
+            "alias": "Easting"
+          },
+          {
+            "name": "NORTHING",
+            "type": "esriFieldTypeDouble",
+            "alias": "Northing"
+          },
+          {
+            "name": "ELEVATION",
+            "type": "esriFieldTypeDouble",
+            "alias": "Elevation"
+          },
+          {
+            "name": "CODE",
+            "type": "esriFieldTypeString",
+            "alias": "Code"
+          },
+          {
+            "name": "DESCIPTION",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "SOURCE",
+            "type": "esriFieldTypeString",
+            "alias": "Source"
+          },
+          {
+            "name": "MATERIAL_C",
+            "type": "esriFieldTypeInteger",
+            "alias": "Material Code"
+          },
+          {
+            "name": "SIZE_CODE",
+            "type": "esriFieldTypeString",
+            "alias": "Size Code"
+          }
+        ],
+        "sample": {
+          "STATION_NO": 474,
+          "EASTING": 2116383.337,
+          "NORTHING": 158796.02,
+          "ELEVATION": 1232.505,
+          "CODE": "0702054X",
+          "DESCIPTION": "SES SE 29 & Byers",
+          "SOURCE": "OKC Public Works",
+          "MATERIAL_C": 54,
+          "SIZE_CODE": "X"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:34Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/1120d3f72fe64245a799851598fb83c6/rest/services/OpenData/Infrastructure_Survey/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/survey-secondary-control-points-1120d3f7.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "tax-increment-financing-districts-08ededb1",
       "title": "Tax Increment Financing Districts",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Finance",
       "category": "Finance",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
@@ -974,17 +3319,85 @@
       "image_source": "svg_placeholder",
       "image_file": "tax-increment-financing-districts-08ededb1--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "TEXT",
+            "type": "esriFieldTypeString",
+            "alias": "District"
+          },
+          {
+            "name": "Year",
+            "type": "esriFieldTypeString",
+            "alias": "Year"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          },
+          {
+            "name": "ID",
+            "type": "esriFieldTypeString",
+            "alias": "ID"
+          },
+          {
+            "name": "Name",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "Descriptio",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Begin_Date",
+            "type": "esriFieldTypeString",
+            "alias": "Begin"
+          },
+          {
+            "name": "End_Date",
+            "type": "esriFieldTypeString",
+            "alias": "End"
+          }
+        ],
+        "sample": {
+          "TEXT": "Classen Corridor",
+          "ID": "Classen B",
+          "Name": "Classen Corridor",
+          "Descriptio": "Deadline 6/18/2034",
+          "Begin_Date": " ",
+          "End_Date": " "
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-02T19:46:35Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/08ededb10dcf458ba9ac5588d6d6296a/rest/services/OpenData/Finance/FeatureServer/0",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "trail-projects-68777530",
       "title": "Trail Projects",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -992,17 +3405,69 @@
       "image_source": "svg_placeholder",
       "image_file": "trail-projects-68777530--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Project_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Project Name"
+          },
+          {
+            "name": "Project_Type",
+            "type": "esriFieldTypeString",
+            "alias": "Project Type"
+          },
+          {
+            "name": "Primary_Funding_Source",
+            "type": "esriFieldTypeString",
+            "alias": "Funding Source"
+          },
+          {
+            "name": "Description",
+            "type": "esriFieldTypeString",
+            "alias": "Description"
+          },
+          {
+            "name": "Status",
+            "type": "esriFieldTypeString",
+            "alias": "Status"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "Project_Name": "Rail Trail and Bridge",
+          "Project_Type": "Trail",
+          "Primary_Funding_Source": "2017 Bond",
+          "Description": "Trail from Agnew across the Oklahoma River on abandoned rail",
+          "Status": "In Design"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:36Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/68777530ad744d6a832468bc7493d53f/rest/services/OpenData/Infrastructure_Projects/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "trash-collection-zones-45426e5e",
       "title": "Trash Collection Zones",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1010,17 +3475,62 @@
       "image_source": "svg_placeholder",
       "image_file": "trash-collection-zones-45426e5e--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "ROUTE",
+            "type": "esriFieldTypeString",
+            "alias": "Route"
+          },
+          {
+            "name": "PICKUPDAY",
+            "type": "esriFieldTypeString",
+            "alias": "Pickup Day"
+          },
+          {
+            "name": "SERVICE_PROVIDER",
+            "type": "esriFieldTypeString",
+            "alias": "Service Provider"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "ROUTE": "532",
+          "PICKUPDAY": "Friday",
+          "SERVICE_PROVIDER": "Oklahoma City"
+        },
+        "layer": 1,
+        "introspected_at": "2026-08-02T19:46:37Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/45426e5e1b31489db9afea603870f724/rest/services/OpenData/Utilities/FeatureServer/1",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "vegetation-points-1fcba99b",
       "title": "Vegetation Points",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1028,18 +3538,33 @@
       "image_source": "svg_placeholder",
       "image_file": "vegetation-points-1fcba99b--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "sample": {},
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:46:37Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/vegetation-points-1fcba99b.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "vegetation-polygons-a4b7be23",
       "title": "Vegetation Polygons",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1047,17 +3572,43 @@
       "image_source": "svg_placeholder",
       "image_file": "vegetation-polygons-a4b7be23--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {},
+        "layer": 6,
+        "introspected_at": "2026-08-02T19:46:38Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "waterbodies-a6b9c703",
       "title": "Waterbodies",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1065,17 +3616,55 @@
       "image_source": "openverse",
       "image_file": "waterbodies-a6b9c703--infrastructure--themed_photo.jpg",
       "image_note": "Topic photo: \"Barrier Between Waterbody And Drain Carrying Leather Industries Waste Under Construction - Science City Site - Dhapa - Calcutta 1993-06-25 0617\" by Biswarup Ganguly (by) — https://commons.wikimedia.org/w/index.php?curid=56882248",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "SUBTYPE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Type"
+          },
+          {
+            "name": "Shape__Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "Area"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "SUBTYPE": 1
+        },
+        "layer": 3,
+        "introspected_at": "2026-08-02T19:46:39Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "waterways-7107d3b8",
       "title": "Waterways",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1083,17 +3672,51 @@
       "image_source": "svg_placeholder",
       "image_file": "waterways-7107d3b8--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Name"
+          },
+          {
+            "name": "SUBTYPE",
+            "type": "esriFieldTypeInteger",
+            "alias": "Type"
+          },
+          {
+            "name": "Shape__Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "Length"
+          }
+        ],
+        "sample": {
+          "NAME": "Cow Creek Tributary 1",
+          "SUBTYPE": 0
+        },
+        "layer": 4,
+        "introspected_at": "2026-08-02T19:46:40Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "work-zones-ead80c5e",
       "title": "Work Zones",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1101,6 +3724,98 @@
       "image_source": "svg_placeholder",
       "image_file": "work-zones-ead80c5e--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Worktype",
+            "type": "esriFieldTypeString",
+            "alias": "Work Type"
+          },
+          {
+            "name": "Startdate",
+            "type": "esriFieldTypeString",
+            "alias": "Start Date"
+          },
+          {
+            "name": "Enddate",
+            "type": "esriFieldTypeString",
+            "alias": "End Date"
+          },
+          {
+            "name": "Worklocation",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "workzonenumber",
+            "type": "esriFieldTypeString",
+            "alias": "Work Zone Number"
+          },
+          {
+            "name": "Northbound",
+            "type": "esriFieldTypeString",
+            "alias": "North Bound"
+          },
+          {
+            "name": "Southbound",
+            "type": "esriFieldTypeString",
+            "alias": "South Bound"
+          },
+          {
+            "name": "Eastbound",
+            "type": "esriFieldTypeString",
+            "alias": "East Bound"
+          },
+          {
+            "name": "Westbound",
+            "type": "esriFieldTypeString",
+            "alias": "West Bound"
+          },
+          {
+            "name": "Roadclosure",
+            "type": "esriFieldTypeString",
+            "alias": "Road Closure"
+          },
+          {
+            "name": "LaneClosure",
+            "type": "esriFieldTypeString",
+            "alias": "Lane Closure"
+          },
+          {
+            "name": "SideWalkClosure",
+            "type": "esriFieldTypeString",
+            "alias": "Sidewalk Closure"
+          },
+          {
+            "name": "RightOfWayWork",
+            "type": "esriFieldTypeString",
+            "alias": "Right-of-way Work"
+          }
+        ],
+        "sample": {
+          "Worktype": "Road Construction",
+          "Startdate": "08/14/2023",
+          "Enddate": "12/31/2026",
+          "Worklocation": "S EASTERN AVE & E I-240 SERVICE RD",
+          "workzonenumber": "WZ-2023-01321",
+          "Northbound": "No",
+          "Southbound": "No",
+          "Eastbound": "No",
+          "Westbound": "No",
+          "Roadclosure": "Yes",
+          "LaneClosure": "No",
+          "SideWalkClosure": "No",
+          "RightOfWayWork": "No"
+        },
+        "layer": 5,
+        "introspected_at": "2026-08-02T19:46:43Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5",
       "inquiry_enabled": true,
       "inquiry_search_field": "Worklocation",
       "inquiry_field": "Worktype",
@@ -1110,12 +3825,14 @@
         "Enddate"
       ],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/work-zones-ead80c5e.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     },
     {
       "slug": "zoning-definitions-f14a8053",
       "title": "Zoning Definitions",
+      "city": "Oklahoma City",
+      "city_slug": "okc",
+      "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
@@ -1123,14 +3840,52 @@
       "image_source": "svg_placeholder",
       "image_file": "zoning-definitions-f14a8053--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Object_ID",
+            "type": "esriFieldTypeOID",
+            "alias": "Object_ID"
+          },
+          {
+            "name": "Zoning_Layer",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Layer"
+          },
+          {
+            "name": "Zoning_Code",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Code"
+          },
+          {
+            "name": "Zoning_Description",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Description"
+          },
+          {
+            "name": "Zoning_Definition",
+            "type": "esriFieldTypeString",
+            "alias": "Zoning Definition"
+          }
+        ],
+        "sample": {
+          "Object_ID": 1,
+          "Zoning_Layer": "Straight Zoning",
+          "Zoning_Code": "AA",
+          "Zoning_Description": "Agricultural",
+          "Zoning_Definition": "The AA District creates and preserves areas intended primarily for agricultural purposes. It permits low intensity residential development along with certain essential commercial and institutional uses. It is not intended to provide a lower standard of development than in other districts. The types of uses, area and intensity of use regulations are designed to encourage and protect agricultural uses on a permanent basis, or until such time as urbanization takes place and an appropriate change in district classification is made."
+        },
+        "layer": 9,
+        "introspected_at": "2026-08-02T19:46:44Z"
+      },
+      "source_url": "https://utility.arcgis.com/usrsvcs/servers/f14a80531b914852ba8870c37b41e1d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/9",
       "inquiry_enabled": false,
       "inquiry_search_field": null,
       "inquiry_field": null,
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-01T18:28:38Z",
-      "map_data": "data/zoning-definitions-f14a8053.geojson"
+      "last_updated": "2026-08-02T19:48:18Z"
     }
   ]
 }

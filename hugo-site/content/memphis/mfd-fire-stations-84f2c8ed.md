@@ -4,28 +4,29 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
-categories: ["Public Safety"]
-cover: "covers/mfd-fire-stations-84f2c8ed--public-safety--placeholder.svg"
-map_data: "img/data/mfd-fire-stations-84f2c8ed.geojson"
+categories: ["Other"]
+cover: "covers/mfd-fire-stations-84f2c8ed--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MFD_Fire_Stations/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=84f2c8ede59743ac91647db1fd59f224&sublayer=3"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
-draft: false
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mfd-fire-stations"
-maintained_by: ""
+draft: false
 ---
 
 
-## What this is
+## What this tracks  
+This dataset lists all fire stations operated by the Memphis Fire Department, including their locations and contact information.
 
-_Stub — drafted by the city-#2 pipeline._
+## Why it matters to you  
+Knowing your nearest fire station helps you estimate emergency response times when choosing a home or business location in Memphis. Parents can check station proximity when evaluating school safety plans, and neighborhood associations can identify which station serves their area for community preparedness meetings.
 
-## Why it matters to you
+## How to read this data  
+**Name** — The official station identifier (e.g., "FS-56").  
+**Address** — Physical location (e.g., "7495 REESE RD").  
+**Council_Di** — City council district number (e.g., "1").  
+**Phone** — Direct contact number (e.g., "(901) 380-3786").  
 
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Find your nearest fire station by matching your ZIP code (e.g., "38133") with the ZipPostalC field in the data.
