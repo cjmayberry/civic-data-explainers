@@ -337,60 +337,6 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
   box-shadow: 0 4px 16px rgba(27, 27, 31, 0.12);
 }
 
-.live-map { margin: 2.5rem 0; }
-.live-map h2 {
-  font-family: var(--serif);
-  font-size: 1.45rem;
-  margin: 0 0 0.7rem;
-  padding-top: 0.4rem;
-}
-.dataset-map {
-  width: 100%;
-  height: 380px;
-  border-radius: 10px;
-  border: 1px solid var(--rule);
-  box-shadow: 0 4px 16px rgba(27, 27, 31, 0.08);
-}
-.dataset-map .mapboxgl-popup-content {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--ink);
-}
-
-.sample-data { margin: 2.5rem 0; }
-.sample-data h2 {
-  font-family: var(--serif);
-  font-size: 1.45rem;
-  margin: 0 0 0.7rem;
-  padding-top: 0.4rem;
-}
-.table-scroll { overflow-x: auto; }
-.sample-data table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-  background: var(--panel);
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.sample-data th {
-  text-align: left;
-  font-size: 0.72rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--muted);
-  background: var(--blue-soft);
-  padding: 0.55rem 0.8rem;
-  border-bottom: 1px solid var(--rule);
-}
-.sample-data td {
-  padding: 0.5rem 0.8rem;
-  border-bottom: 1px solid var(--rule);
-  vertical-align: top;
-}
-.sample-data tbody tr:last-child td { border-bottom: none; }
-.sample-data tbody tr:nth-child(even) { background: #fbf9f4; }
 
 /* ---------- live inquiry box ---------- */
 .inquiry { margin: 2.5rem 0; }
