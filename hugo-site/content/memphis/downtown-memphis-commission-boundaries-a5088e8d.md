@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/downtown-memphis-commission-boundaries-a5088e8d--default--map_real_geometry.png"
+cover: "covers/downtown-memphis-commission-boundaries-a5088e8d--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Downtown_Memphis_Commission_Boundaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a5088e8d5b074cb2828b0b53ad51d7d1&sublayer=0"

@@ -16,7 +16,7 @@ title = "Civic Data, Explained"
 
 [security]
   [security.funcs]
-    getenv = ['^MAPBOX_TOKEN$', '^PATH$', '^PATHEXT$', '^TMP$', '^TEMP$', '^USERNAME$', '^USERPROFILE$']
+    getenv = ['^PATH$', '^PATHEXT$', '^TMP$', '^TEMP$', '^USERNAME$', '^USERPROFILE$']
 
 [build]
   writeStats = false

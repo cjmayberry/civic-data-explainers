@@ -5,7 +5,7 @@ description: "This dataset can be used to find out information on secondary surv
 teaser: "A dataset of permanent survey markers (called \"secondary control points\") that help map and measure Oklahoma City accurately"
 tags: ["okc", "oklahoma city", "surveys", "control", "points", "monuments"]
 categories: ["Infrastructure"]
-cover: "covers/survey-secondary-control-points-1120d3f7--infrastructure--map_real_geometry.png"
+cover: "covers/survey-secondary-control-points-1120d3f7--infrastructure--placeholder.svg"
 map_data: "img/data/survey-secondary-control-points-1120d3f7.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1120d3f72fe64245a799851598fb83c6/rest/services/OpenData/Infrastructure_Survey/FeatureServer/1"
 license: "custom"

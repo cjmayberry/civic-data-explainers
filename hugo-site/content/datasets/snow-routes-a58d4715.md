@@ -5,7 +5,7 @@ description: "This dataset can be used to view both Oklahoma City maintained sno
 teaser: "This dataset tracks which streets Oklahoma City prioritizes for snow and ice treatment during winter storms"
 tags: ["okc", "oklahoma city", "snow", "routes", "winter", "weather"]
 categories: ["Transportation"]
-cover: "covers/snow-routes-a58d4715--transportation--themed_photo.jpg"
+cover: "covers/snow-routes-a58d4715--transportation--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "location1"
 inquiry_field: "Quadarant"

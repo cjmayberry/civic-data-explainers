@@ -5,7 +5,7 @@ description: "This dataset can used to view areas with special zoning considerat
 teaser: "This dataset tracks special zoning areas in Oklahoma City that have additional rules beyond standard zoning"
 tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundaries", "overlay", "parcel", "special", "zngdswl"]
 categories: ["Licensing"]
-cover: "covers/overlay-parcel-zoning-175708d7--licensing--map_real_geometry.png"
+cover: "covers/overlay-parcel-zoning-175708d7--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1"
 license: "custom"
 dataset_id: "175708d7ab7148109d1b9d27c82008d8"

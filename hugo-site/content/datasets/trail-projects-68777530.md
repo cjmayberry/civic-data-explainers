@@ -5,7 +5,7 @@ description: "This dataset can be used to view recently completed, currently ong
 teaser: "A list of pedestrian trail projects in Oklahoma City, including past, current, and future work"
 tags: ["okc", "oklahoma city", "trail", "projects", "transportation", "tax", "bonds"]
 categories: ["Infrastructure"]
-cover: "covers/trail-projects-68777530--infrastructure--map_real_geometry.png"
+cover: "covers/trail-projects-68777530--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/68777530ad744d6a832468bc7493d53f/rest/services/OpenData/Infrastructure_Projects/FeatureServer/1"
 license: "custom"
 dataset_id: "68777530ad744d6a832468bc7493d53f"

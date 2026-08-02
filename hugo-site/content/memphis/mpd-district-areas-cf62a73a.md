@@ -5,7 +5,7 @@ description: "Shapefile of MPD Districts. 2 Districts are divided into 9 station
 teaser: "Shapefile of MPD Districts. 2 Districts are divided into 9 stations which are divided into 56 wards."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-district-areas-cf62a73a--public-safety--map_real_geometry.png"
+cover: "covers/mpd-district-areas-cf62a73a--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cf62a73ac9e2406ebbd62aa773a68258&sublayer=0"

@@ -5,7 +5,7 @@ description: "DPD Building Permits Data Dictionary.pdf"
 teaser: "DPD Building Permits Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Default"]
-cover: "covers/dpd-building-permits-3018811a--default--map_real_geometry.png"
+cover: "covers/dpd-building-permits-3018811a--default--placeholder.svg"
 map_data: "img/data/dpd-building-permits-3018811a.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/DPD_Building_Permits/FeatureServer"
 license: ""

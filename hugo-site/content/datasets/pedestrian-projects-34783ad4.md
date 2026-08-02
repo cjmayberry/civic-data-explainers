@@ -5,7 +5,7 @@ description: "This dataset can be used to view recently completed, currently ong
 teaser: "A list of past, current, and future sidewalk and street projects focused on pedestrian safety in Oklahoma City"
 tags: ["okc", "oklahoma city", "pedestrian", "projects", "transportation", "tax", "bonds"]
 categories: ["Infrastructure"]
-cover: "covers/pedestrian-projects-34783ad4--infrastructure--map_real_geometry.png"
+cover: "covers/pedestrian-projects-34783ad4--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2"
 license: "custom"
 dataset_id: "34783ad443fb438b9905b9c85b96cbf8"

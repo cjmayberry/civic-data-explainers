@@ -5,7 +5,7 @@ description: "This dataset can be used to view Oklahoma City streets that have b
 teaser: "This dataset tracks which Oklahoma City streets have been adopted by organizations through the adopt-a-city-street program"
 tags: ["okc", "oklahoma city", "adopt", "adopeted", "streets"]
 categories: ["Transportation"]
-cover: "covers/adopted-streets-0ad77166--transportation--map_real_geometry.png"
+cover: "covers/adopted-streets-0ad77166--transportation--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "Adopted_Street"
 inquiry_field: "Adopting_Organization"

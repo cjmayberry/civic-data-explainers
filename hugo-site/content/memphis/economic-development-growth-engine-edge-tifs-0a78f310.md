@@ -5,7 +5,7 @@ description: "Economic Development EDGE TIFs Data Dictionary.pdf"
 teaser: "Economic Development EDGE TIFs Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Default"]
-cover: "covers/economic-development-growth-engine-edge-tifs-0a78f310--default--map_real_geometry.png"
+cover: "covers/economic-development-growth-engine-edge-tifs-0a78f310--default--placeholder.svg"
 map_data: "img/data/economic-development-growth-engine-edge-tifs-0a78f310.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_TIFs/FeatureServer"
 license: ""

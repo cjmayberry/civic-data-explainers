@@ -5,7 +5,7 @@ description: "COM Employee Titles and Salaries Data Dictionary.pdf"
 teaser: "COM Employee Titles and Salaries Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Good Government"]
 categories: ["Default"]
-cover: "covers/com-employee-titles-and-salaries-8407de81--default--cover_only.svg"
+cover: "covers/com-employee-titles-and-salaries-8407de81--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/COM_Employee_Salaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=8407de8108474e1e987fc7c583fb1ad7&sublayer=0"

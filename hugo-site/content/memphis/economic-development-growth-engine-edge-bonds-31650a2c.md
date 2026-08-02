@@ -5,7 +5,7 @@ description: "Economic Development EDGE Bonds Data Dictionary.pdf"
 teaser: "Economic Development EDGE Bonds Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Default"]
-cover: "covers/economic-development-growth-engine-edge-bonds-31650a2c--default--map_real_geometry.png"
+cover: "covers/economic-development-growth-engine-edge-bonds-31650a2c--default--placeholder.svg"
 map_data: "img/data/economic-development-growth-engine-edge-bonds-31650a2c.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Bonds/FeatureServer"
 license: ""

@@ -5,7 +5,7 @@ description: "Boundaries of the Memphis Neighborhood Watch Groups. These data ar
 teaser: "Boundaries of the Memphis Neighborhood Watch Groups. These data are provided by MPD and updated weekly."
 tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--public-safety--map_real_geometry.png"
+cover: "covers/neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--public-safety--placeholder.svg"
 source_url: "https://services6.arcgis.com/FayuIc8kjcIuYMDI/ArcGIS/rest/services/Neighborhood%20Watch%20Groups%20Boundaries%20in%20Memphis/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4ddc7b2110624f9194c8ef31a30d48d2&sublayer=0"

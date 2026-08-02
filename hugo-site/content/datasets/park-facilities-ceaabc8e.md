@@ -5,7 +5,7 @@ description: "This dataset can be used to view various park facilities and ament
 teaser: "This dataset tracks park facilities like playgrounds, pools, and picnic areas across Oklahoma City parks"
 tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic", "pools", "spray", "grounds", "tennis", "courts", "baseball", "softball", "fields", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/park-facilities-ceaabc8e--parks-recreation--map_real_geometry.png"
+cover: "covers/park-facilities-ceaabc8e--parks-recreation--placeholder.svg"
 map_data: "img/data/park-facilities-ceaabc8e.geojson"
 inquiry_enabled: true
 inquiry_search: "Facility_Name"

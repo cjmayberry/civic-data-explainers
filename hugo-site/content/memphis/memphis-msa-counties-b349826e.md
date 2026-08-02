@@ -5,7 +5,7 @@ description: "County boundaries for: Crittendon, AR; Shelby, TN; Tipton, TN; Fay
 teaser: "County boundaries for: Crittendon, AR; Shelby, TN; Tipton, TN; Fayette, TN; Benton, MS; DeSoto, MS; Marshall, MS; Tate, MS; Tunica, MS. Filt"
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/memphis-msa-counties-b349826e--default--map_real_geometry.png"
+cover: "covers/memphis-msa-counties-b349826e--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_MSA_Counties/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b349826e460248ffb9f418d140ed97b1&sublayer=0"

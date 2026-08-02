@@ -5,7 +5,7 @@ description: "This dataset can be used to find out information on primary survey
 teaser: "A map of permanent survey markers that help engineers and builders measure land accurately across Oklahoma City"
 tags: ["okc", "oklahoma city", "surveys", "control", "points", "monuments"]
 categories: ["Infrastructure"]
-cover: "covers/survey-primary-control-points-e6812e22--infrastructure--map_real_geometry.png"
+cover: "covers/survey-primary-control-points-e6812e22--infrastructure--placeholder.svg"
 map_data: "img/data/survey-primary-control-points-e6812e22.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e6812e2241ba4ff68d77edd95ad049b8/rest/services/OpenData/Infrastructure_Survey/FeatureServer/0"
 license: "custom"

@@ -5,7 +5,7 @@ description: "Park data were obtained from the U.S. ParkServe dataset, extracted
 teaser: "Park data were obtained from the U.S. ParkServe dataset, extracted for the City of Memphis, and converted from polygons to points. https://w"
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/city-of-memphis-parks-92001696--default--map_real_geometry.png"
+cover: "covers/city-of-memphis-parks-92001696--default--placeholder.svg"
 map_data: "img/data/city-of-memphis-parks-92001696.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/City_of_Memphis_Parks/FeatureServer"
 license: ""

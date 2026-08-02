@@ -5,7 +5,7 @@ description: "This dataset can be used to view select police and fire responses 
 teaser: "A live-updated list of recent police and fire emergency calls in Oklahoma City"
 tags: [" oklahoma city", "police", "ems", "wrecks", "auto", "automobile", "car", "crash"]
 categories: ["Public Safety"]
-cover: "covers/emergency-responses-01c97e29--public-safety--map_real_geometry.png"
+cover: "covers/emergency-responses-01c97e29--public-safety--placeholder.svg"
 map_data: "img/data/emergency-responses-01c97e29.geojson"
 inquiry_enabled: true
 inquiry_search: "Address"

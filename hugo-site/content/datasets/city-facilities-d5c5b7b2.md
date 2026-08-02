@@ -5,7 +5,7 @@ description: "This dataset can be used to locate select Oklahoma City owned and/
 teaser: "A list of Oklahoma City-owned buildings and facilities with their locations and types"
 tags: ["okc", "oklahoma city", "facility", "facilities", "parking", "police", "fire", "city hall", "civic center", "animal welfare", "recreation center", "arena", "ballpark"]
 categories: ["Government"]
-cover: "covers/city-facilities-d5c5b7b2--government--map_real_geometry.png"
+cover: "covers/city-facilities-d5c5b7b2--government--placeholder.svg"
 map_data: "img/data/city-facilities-d5c5b7b2.geojson"
 inquiry_enabled: true
 inquiry_search: "FacilityName"

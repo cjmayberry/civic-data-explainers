@@ -5,7 +5,7 @@ description: "This dataset can be used to view pavement and other impervise surf
 teaser: "A map of paved and other water-resistant surfaces across the city, captured from aerial photos in 2020"
 tags: ["okc", "oklahoma city", "pavement", "parking lots", "streets", "impervious surfaces", "planimetrics", "2020"]
 categories: ["Infrastructure"]
-cover: "covers/impervious-surfaces-ad208d72--infrastructure--map_real_geometry.png"
+cover: "covers/impervious-surfaces-ad208d72--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4"
 license: "custom"
 dataset_id: "ad208d728e344ca18dcdad3c84be76e1"

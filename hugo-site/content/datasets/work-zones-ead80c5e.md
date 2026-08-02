@@ -5,7 +5,7 @@ description: "This dataset can be used to view information on active work zones 
 teaser: "This dataset tracks active construction and repair work zones across Oklahoma City streets, including lane, road, and sidewalk closures"
 tags: ["okc", "oklahoma city", "roads", "streets", "lanes", "right of way", "right-of-way", "closures"]
 categories: ["Transportation"]
-cover: "covers/work-zones-ead80c5e--transportation--map_real_geometry.png"
+cover: "covers/work-zones-ead80c5e--transportation--placeholder.svg"
 map_data: "img/data/work-zones-ead80c5e.geojson"
 inquiry_enabled: true
 inquiry_search: "Worklocation"

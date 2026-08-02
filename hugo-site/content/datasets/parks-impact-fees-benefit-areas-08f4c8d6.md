@@ -5,7 +5,7 @@ description: "This dataset can be used to view information on park benefit areas
 teaser: "This dataset shows different park benefit areas in Oklahoma City where development fees apply"
 tags: ["okc", "oklahoma city", "parks", "impact fees", "benefit areas"]
 categories: ["Licensing"]
-cover: "covers/parks-impact-fees-benefit-areas-08f4c8d6--licensing--map_real_geometry.png"
+cover: "covers/parks-impact-fees-benefit-areas-08f4c8d6--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1"
 license: "custom"
 dataset_id: "08f4c8d6719e47d088aa232f57d68cc8"

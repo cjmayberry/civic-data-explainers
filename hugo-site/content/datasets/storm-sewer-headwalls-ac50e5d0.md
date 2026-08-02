@@ -5,7 +5,7 @@ description: "This dataset can be used to determine storm sewer headwall locatio
 teaser: "A map of storm sewer headwalls (the concrete structures where storm drains meet pipes) across Oklahoma City"
 tags: [" oklahoma city", "storm", "sewer", "headwalls", "conrete", "earthen", "grass", "channels", "flumes", "gabion", "baskets", "grated inlets", "rip rap", "slop wall"]
 categories: ["Infrastructure"]
-cover: "covers/storm-sewer-headwalls-ac50e5d0--infrastructure--map_real_geometry.png"
+cover: "covers/storm-sewer-headwalls-ac50e5d0--infrastructure--placeholder.svg"
 map_data: "img/data/storm-sewer-headwalls-ac50e5d0.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1"
 license: "custom"

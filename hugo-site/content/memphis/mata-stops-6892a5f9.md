@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/mata-stops-6892a5f9--default--map_real_geometry.png"
+cover: "covers/mata-stops-6892a5f9--default--placeholder.svg"
 map_data: "img/data/mata-stops-6892a5f9.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Stops/FeatureServer"
 license: ""

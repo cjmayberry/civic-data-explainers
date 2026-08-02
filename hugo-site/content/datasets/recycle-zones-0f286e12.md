@@ -5,7 +5,7 @@ description: "This dataset can be used to determine recycle collection zones wit
 teaser: "This dataset shows recycling pickup zones in Oklahoma City, including who collects your recycling and which day they come"
 tags: ["oklahoma city", "trash", "waste", "pickup", "zones", "recycle"]
 categories: ["Infrastructure"]
-cover: "covers/recycle-zones-0f286e12--infrastructure--map_real_geometry.png"
+cover: "covers/recycle-zones-0f286e12--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0f286e1243ca4bb39a70e323b1608222/rest/services/OpenData/Utilities/FeatureServer/3"
 license: "custom"
 dataset_id: "0f286e1243ca4bb39a70e323b1608222"

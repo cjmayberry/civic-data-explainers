@@ -5,7 +5,7 @@ description: "This dataset can used to view locations with special zoning consid
 teaser: "This dataset tracks locations in Oklahoma City with special zoning rules that override standard zoning codes"
 tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundaries", "overlay", "point", "special", "zngdswl"]
 categories: ["Licensing"]
-cover: "covers/overlay-point-zoning-e41be4c9--licensing--map_real_geometry.png"
+cover: "covers/overlay-point-zoning-e41be4c9--licensing--placeholder.svg"
 map_data: "img/data/overlay-point-zoning-e41be4c9.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0"
 license: "custom"

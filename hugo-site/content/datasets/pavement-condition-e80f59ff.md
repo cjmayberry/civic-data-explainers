@@ -5,7 +5,7 @@ description: "This dataset can be used to view information by the condition of O
 teaser: "The bumpiness report card: every OKC street scored on the Pavement Condition Index."
 tags: ["okc", "oklahoma city", "streets", "pavement", "condition", "index", "roads", "surface", "pci"]
 categories: ["Transportation"]
-cover: "covers/pavement-condition-e80f59ff--transportation--themed_photo.jpg"
+cover: "covers/pavement-condition-e80f59ff--transportation--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "XSTREET_NA"
 inquiry_field: "PCICurrent"

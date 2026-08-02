@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mfd-fire-stations-84f2c8ed--public-safety--map_real_geometry.png"
+cover: "covers/mfd-fire-stations-84f2c8ed--public-safety--placeholder.svg"
 map_data: "img/data/mfd-fire-stations-84f2c8ed.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MFD_Fire_Stations/FeatureServer"
 license: ""

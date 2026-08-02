@@ -5,7 +5,7 @@ description: "Census Tracts are determined by the U.S. Census Bureau for calcula
 teaser: "Census Tracts are determined by the U.S. Census Bureau for calculating the decennial census. Census tracts are a subdivision of the County l"
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/shelby-county-census-tracts-72568279--default--map_real_geometry.png"
+cover: "covers/shelby-county-census-tracts-72568279--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Census_Tracts/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=725682793e6c47ba903c346ace0efa68&sublayer=0"

@@ -5,7 +5,7 @@ description: "Economic Development DMC Projects Data Dictionary.pdf"
 teaser: "Economic Development DMC Projects Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Default"]
-cover: "covers/downtown-memphis-commission-projects-b244cada--default--map_real_geometry.svg"
+cover: "covers/downtown-memphis-commission-projects-b244cada--default--placeholder.svg"
 map_data: "img/data/downtown-memphis-commission-projects-b244cada.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_DMC_Projects/FeatureServer"
 license: ""

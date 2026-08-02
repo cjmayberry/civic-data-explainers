@@ -5,7 +5,7 @@ description: "This dataset can be used to determine storm sewer junctions, such 
 teaser: "A map of storm sewer connection points like drain inlets and manholes across Oklahoma City"
 tags: [" oklahoma city", "storm", "sewer", "junction", "conrete", "earthen", "grass", "channels", "flumes", "gabion", "baskets", "grated inlets", "rip rap", "slop wall"]
 categories: ["Infrastructure"]
-cover: "covers/storm-sewer-junctions-35d63012--infrastructure--map_real_geometry.png"
+cover: "covers/storm-sewer-junctions-35d63012--infrastructure--placeholder.svg"
 map_data: "img/data/storm-sewer-junctions-35d63012.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0"
 license: "custom"

@@ -5,7 +5,7 @@ description: "This dataset can be used to determine base or straight zoning info
 teaser: "The three-letter codes that decide what you can build where — and what “straight” means next to “overlay.”"
 tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundaries", "straight", "zngdswl"]
 categories: ["Licensing"]
-cover: "covers/straight-zoning-388d1b1f--licensing--map_real_geometry.png"
+cover: "covers/straight-zoning-388d1b1f--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/388d1b1f0e804e378a2d138c39919085/rest/services/OpenData/Licensing_Zoning/FeatureServer/3"
 license: "custom"
 dataset_id: "388d1b1f0e804e378a2d138c39919085"

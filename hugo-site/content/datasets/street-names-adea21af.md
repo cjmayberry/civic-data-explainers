@@ -5,7 +5,7 @@ description: "This dataset can be used to view the street names and their associ
 teaser: "A list of all street names in Oklahoma City with their official codes and directional prefixes/suffixes"
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
-cover: "covers/street-names-adea21af--transportation--map_real_geometry.png"
+cover: "covers/street-names-adea21af--transportation--placeholder.svg"
 map_data: "img/data/street-names-adea21af.geojson"
 inquiry_enabled: true
 inquiry_search: "StreetName"

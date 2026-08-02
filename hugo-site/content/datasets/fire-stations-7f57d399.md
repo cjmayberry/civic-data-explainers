@@ -5,7 +5,7 @@ description: "This dataset can be used to view the location of fire stations wit
 teaser: "The response-time backbone: where OKC’s fire stations sit — and what “Facility Name” really is."
 tags: ["OKC", "Fire", "oklahoma city", "stations", "oklahoma city"]
 categories: ["Public Safety"]
-cover: "covers/fire-stations-7f57d399--public-safety--map_real_geometry.png"
+cover: "covers/fire-stations-7f57d399--public-safety--placeholder.svg"
 map_data: "img/data/fire-stations-7f57d399.geojson"
 inquiry_enabled: true
 inquiry_search: "STATION_ADDR"

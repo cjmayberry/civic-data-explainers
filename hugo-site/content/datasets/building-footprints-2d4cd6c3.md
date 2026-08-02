@@ -5,7 +5,7 @@ description: "This dataset can be used to view building footprints derived from 
 teaser: "Every building in OKC, drawn from the sky in 2020 — and the honest limits of aerial data."
 tags: [" oklahoma city", "buildings", "footprints", "addresses", "planimetrics", "2020"]
 categories: ["Infrastructure"]
-cover: "covers/building-footprints-2d4cd6c3--infrastructure--map_real_geometry.png"
+cover: "covers/building-footprints-2d4cd6c3--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2"
 license: "custom"
 dataset_id: "2d4cd6c3279f48f394329f3367069c61"

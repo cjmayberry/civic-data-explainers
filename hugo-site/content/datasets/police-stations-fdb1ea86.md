@@ -5,7 +5,7 @@ description: "This dataset can be used to view the location of police briefing s
 teaser: "This dataset shows where police briefing stations are located in Oklahoma City"
 tags: [" oklahoma city", "police", "briefing", "stations"]
 categories: ["Public Safety"]
-cover: "covers/police-stations-fdb1ea86--public-safety--map_real_geometry.png"
+cover: "covers/police-stations-fdb1ea86--public-safety--placeholder.svg"
 map_data: "img/data/police-stations-fdb1ea86.geojson"
 inquiry_enabled: true
 inquiry_search: "Facility"

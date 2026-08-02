@@ -5,7 +5,7 @@ description: "This dataset can be used to view land document information such as
 teaser: "This dataset tracks legal land documents like deeds, easements, and ordinances filed with the city"
 tags: ["okc", "oklahoma city", "land", "documents", "property", "deeds", "ordinances"]
 categories: ["Infrastructure"]
-cover: "covers/land-documents-fd9dbc81--infrastructure--map_real_geometry.png"
+cover: "covers/land-documents-fd9dbc81--infrastructure--placeholder.svg"
 map_data: "img/data/land-documents-fd9dbc81.geojson"
 inquiry_enabled: true
 inquiry_search: "Address"

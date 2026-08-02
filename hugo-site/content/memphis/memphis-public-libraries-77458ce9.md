@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/memphis-public-libraries-77458ce9--default--map_real_geometry.png"
+cover: "covers/memphis-public-libraries-77458ce9--default--placeholder.svg"
 map_data: "img/data/memphis-public-libraries-77458ce9.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Public_Libraries/FeatureServer"
 license: ""

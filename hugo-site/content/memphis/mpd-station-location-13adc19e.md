@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-station-location-13adc19e--public-safety--map_real_geometry.png"
+cover: "covers/mpd-station-location-13adc19e--public-safety--placeholder.svg"
 map_data: "img/data/mpd-station-location-13adc19e.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Location/FeatureServer"
 license: ""

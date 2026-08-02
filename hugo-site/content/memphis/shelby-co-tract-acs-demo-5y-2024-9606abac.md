@@ -4,7 +4,7 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 categories: ["Default"]
-cover: "covers/shelby-co-tract-acs-demo-5y-2024-9606abac--default--cover_only.svg"
+cover: "covers/shelby-co-tract-acs-demo-5y-2024-9606abac--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Co_Tract_ACS_Demo_5Y_2024/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=9606abac0c584009a8d283e1fca8a0d7&sublayer=0"

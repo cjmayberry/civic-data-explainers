@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/memphis-3-0-planning-districts-7855c7be--default--map_real_geometry.png"
+cover: "covers/memphis-3-0-planning-districts-7855c7be--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_3_0_Planning_Districts/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7855c7be56094020855e2183bf11e7ac&sublayer=0"

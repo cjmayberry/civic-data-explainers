@@ -5,7 +5,7 @@ description: "This dataset can be used to determine bulky waste collection zones
 teaser: "This dataset shows where and when bulky waste (like furniture or appliances) gets picked up in Oklahoma City"
 tags: ["oklahoma city", "trash", "waste", "pickup", "zones", "bulky"]
 categories: ["Infrastructure"]
-cover: "covers/bulky-waste-zones-c4455716--infrastructure--map_real_geometry.png"
+cover: "covers/bulky-waste-zones-c4455716--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2"
 license: "custom"
 dataset_id: "c4455716f4bf4d1dafe6806e0e619de8"

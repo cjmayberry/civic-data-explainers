@@ -5,7 +5,7 @@ description: "This dataset can be used to view vegetation points derived from li
 teaser: "A map of individual trees and shrubs captured by aerial laser scans in 2015"
 tags: ["okc", "oklahoma city", "vegetation", "points", "planimetrics", "2015"]
 categories: ["Infrastructure"]
-cover: "covers/vegetation-points-1fcba99b--infrastructure--map_real_geometry.png"
+cover: "covers/vegetation-points-1fcba99b--infrastructure--placeholder.svg"
 map_data: "img/data/vegetation-points-1fcba99b.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5"
 license: "custom"

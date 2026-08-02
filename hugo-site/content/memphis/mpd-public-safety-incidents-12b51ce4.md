@@ -5,7 +5,7 @@ description: "MPD Public Safety Incidents Data Dictionary.pdf"
 teaser: "MPD Public Safety Incidents Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-public-safety-incidents-12b51ce4--public-safety--map_real_geometry.png"
+cover: "covers/mpd-public-safety-incidents-12b51ce4--public-safety--placeholder.svg"
 map_data: "img/data/mpd-public-safety-incidents-12b51ce4.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Public_Safety_Incidents/FeatureServer"
 license: ""

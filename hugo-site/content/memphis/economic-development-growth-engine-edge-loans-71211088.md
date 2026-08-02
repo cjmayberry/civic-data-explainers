@@ -5,7 +5,7 @@ description: "Economic Development EDGE Loans Data Dictionary.pdf"
 teaser: "Economic Development EDGE Loans Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Default"]
-cover: "covers/economic-development-growth-engine-edge-loans-71211088--default--map_real_geometry.png"
+cover: "covers/economic-development-growth-engine-edge-loans-71211088--default--placeholder.svg"
 map_data: "img/data/economic-development-growth-engine-edge-loans-71211088.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Loans/FeatureServer"
 license: ""

@@ -5,7 +5,7 @@ description: "This dataset includes both moving and non-moving citations. Data i
 teaser: "This dataset includes both moving and non-moving citations. Data is exported daily from MPD’s server by an automated script. Data is subject"
 tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-traffic-citations-91c3adca--public-safety--cover_only.svg"
+cover: "covers/mpd-traffic-citations-91c3adca--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Citations/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=91c3adcaf5c84cd596c85a45cd951ae9&sublayer=0"

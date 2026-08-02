@@ -5,7 +5,7 @@ description: "This dataset can be used to view information on areas exempt from 
 teaser: "This dataset tracks areas in Oklahoma City that are exempt from paying park development fees"
 tags: ["okc", "oklahoma city", "parks", "impact fees", "benefit areas", "exemptions"]
 categories: ["Licensing"]
-cover: "covers/parks-impact-fees-existing-local-service-b8d5a300--licensing--map_real_geometry.png"
+cover: "covers/parks-impact-fees-existing-local-service-b8d5a300--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b8d5a30010d94401b6be773a0786c05f/rest/services/OpenData/Licensing_Permits/FeatureServer/2"
 license: "custom"
 dataset_id: "b8d5a30010d94401b6be773a0786c05f"

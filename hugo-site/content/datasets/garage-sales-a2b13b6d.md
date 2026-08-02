@@ -5,7 +5,7 @@ description: "This dataset can be used to determine current and upcoming garage 
 teaser: "A list of current and upcoming garage sales in Oklahoma City, including what types of items are being sold"
 tags: [" oklahoma city", "garage", "yard", "sales", "permits"]
 categories: ["Licensing"]
-cover: "covers/garage-sales-a2b13b6d--licensing--map_real_geometry.png"
+cover: "covers/garage-sales-a2b13b6d--licensing--placeholder.svg"
 map_data: "img/data/garage-sales-a2b13b6d.geojson"
 inquiry_enabled: true
 inquiry_search: "Address"

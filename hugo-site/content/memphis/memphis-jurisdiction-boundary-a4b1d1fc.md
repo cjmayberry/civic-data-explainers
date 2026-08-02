@@ -5,7 +5,7 @@ description: "Created by City of Memphis Engineering Division Mapping and Record
 teaser: "Created by City of Memphis Engineering Division Mapping and Records 10/26/2020. Based on the existing City limits file. Boundary edits follo"
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/memphis-jurisdiction-boundary-a4b1d1fc--default--map_real_geometry.png"
+cover: "covers/memphis-jurisdiction-boundary-a4b1d1fc--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Jurisdiction_Boundary/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a4b1d1fc45a346a4b4fb94d363127f3e&sublayer=0"

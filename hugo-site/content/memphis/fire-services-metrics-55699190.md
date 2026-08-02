@@ -5,7 +5,7 @@ description: "This dataset reports the Memphis Fire Department’s monthly perfo
 teaser: "This dataset reports the Memphis Fire Department’s monthly performance metrics. Fire Services Metrics Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/fire-services-metrics-55699190--public-safety--cover_only.svg"
+cover: "covers/fire-services-metrics-55699190--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Fire_Services_Metrics/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=556991909d2a49e68ec7f9d20521f2e5&sublayer=0"

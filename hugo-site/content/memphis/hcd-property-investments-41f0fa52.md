@@ -5,7 +5,7 @@ description: "HCD Property Investments Data Dictionary.pdf"
 teaser: "HCD Property Investments Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Strong Neighborhoods"]
 categories: ["Default"]
-cover: "covers/hcd-property-investments-41f0fa52--default--map_real_geometry.png"
+cover: "covers/hcd-property-investments-41f0fa52--default--placeholder.svg"
 map_data: "img/data/hcd-property-investments-41f0fa52.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/HCD_Property_Investments/FeatureServer"
 license: ""

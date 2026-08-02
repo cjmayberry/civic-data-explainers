@@ -5,7 +5,7 @@ description: "MATA On Time Performance Data Dictionary"
 teaser: "MATA On Time Performance Data Dictionary"
 tags: ["Memphis Open Data", "Transportation & Infrastructure"]
 categories: ["Default"]
-cover: "covers/mata-on-time-performance-f3019d13--default--cover_only.svg"
+cover: "covers/mata-on-time-performance-f3019d13--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_On_Time_Performance/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f3019d13cd814f6c8e4cac1b02299e2f&sublayer=0"

@@ -5,7 +5,7 @@ description: "This dataset can be used to determine storm sewer lines, such as c
 teaser: "The hidden plumbing under OKC streets — how stormwater gets from your curb to the river."
 tags: [" oklahoma city", "storm", "sewer", "lines", "conrete", "earthen", "grass", "channels", "flumes", "gabion", "baskets", "grated inlets", "rip rap", "slop wall"]
 categories: ["Infrastructure"]
-cover: "covers/storm-sewer-lines-d97ab7e6--infrastructure--map_real_geometry.png"
+cover: "covers/storm-sewer-lines-d97ab7e6--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2"
 license: "custom"
 dataset_id: "d97ab7e67970441c95e41e2211cbcd24"

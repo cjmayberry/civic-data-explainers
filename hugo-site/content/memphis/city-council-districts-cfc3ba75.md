@@ -5,7 +5,7 @@ description: "This layer was made as a representation of council districts in Ci
 teaser: "This layer was made as a representation of council districts in City of Memphis Ordinance 5870, (date signed 6/30/2023). This layer contains"
 tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Default"]
-cover: "covers/city-council-districts-cfc3ba75--default--map_real_geometry.png"
+cover: "covers/city-council-districts-cfc3ba75--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Council_Districts_2023/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cfc3ba7521fa48c7a617a0ca512b682d&sublayer=0"

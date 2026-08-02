@@ -5,7 +5,7 @@ description: "This dataset can be used to view information on street development
 teaser: "A dataset showing where street development projects are planned in the city"
 tags: ["okc", "oklahoma city", "streets", "impact fees", "benefit areas"]
 categories: ["Licensing"]
-cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--map_real_geometry.png"
+cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3"
 license: "custom"
 dataset_id: "5377697e59b34ad1a749063b73205886"

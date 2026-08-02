@@ -5,7 +5,7 @@ description: "Data is exported daily from MPD’s server by an automated script.
 teaser: "A daily-updated record of traffic stops made by the Metropolitan Police Department (MPD)"
 tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-traffic-stops-2b0bee4e--public-safety--map_real_geometry.png"
+cover: "covers/mpd-traffic-stops-2b0bee4e--public-safety--placeholder.svg"
 map_data: "img/data/mpd-traffic-stops-2b0bee4e.geojson"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Stops/FeatureServer"
 license: ""

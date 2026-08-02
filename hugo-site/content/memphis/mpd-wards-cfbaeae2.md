@@ -5,7 +5,7 @@ description: "A Memphis open-data dataset."
 teaser: "This dataset tracks police ward boundaries in the city"
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Public Safety"]
-cover: "covers/mpd-wards-cfbaeae2--public-safety--map_real_geometry.png"
+cover: "covers/mpd-wards-cfbaeae2--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Ward_Areas/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cfbaeae274c4454c9aa6a3b9a1ba0575&sublayer=2"

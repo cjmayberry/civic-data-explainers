@@ -5,7 +5,7 @@ description: "This dataset can be used to view current bike routes, including ro
 teaser: "OKC’s bike network, route by route — trail names, types, and what’s still in progress."
 tags: ["okc", "oklahoma city", "bikes", "biking", "trails", "projects", "recreation"]
 categories: ["Transportation"]
-cover: "covers/bike-routes-5600dd31--transportation--map_real_geometry.png"
+cover: "covers/bike-routes-5600dd31--transportation--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5600dd31c2d545afb11eaa7f40d6eaa4/rest/services/OpenData/Transportation/FeatureServer/0"
 license: "custom"
 dataset_id: "5600dd31c2d545afb11eaa7f40d6eaa4"
