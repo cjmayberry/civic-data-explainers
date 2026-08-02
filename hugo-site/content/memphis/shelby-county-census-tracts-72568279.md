@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=725682793e6c47ba903c346ace
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-county-census-tracts"
+maintained_by: ""
 ---
 
 

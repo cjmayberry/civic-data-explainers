@@ -35,6 +35,8 @@ dictionary:
     description: "Ordinance or case number, if any, associated with document"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/fd9dbc810c9e4b3b8eb17887b796f0e5_8"
+maintained_by: "This dataset is maintained by the City Clerk's Office of the City of Oklahoma City."
 ---
 
 

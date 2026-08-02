@@ -26,6 +26,8 @@ dictionary:
     description: "Comments related to headwall"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/ac50e5d0600e428d8618b5e2dc48782d_1"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

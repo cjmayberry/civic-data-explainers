@@ -29,6 +29,8 @@ dictionary:
     description: "Name of street"
   - field: "Street Suffix"
     description: "Suffix type of street"
+map_link: "https://open-okc.hub.arcgis.com/datasets/adea21af99c740ec86870111a9881fc4_10"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

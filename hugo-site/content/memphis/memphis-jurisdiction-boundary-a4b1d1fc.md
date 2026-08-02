@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=a4b1d1fc45a346a4b4fb94d363
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-jurisdiction-boundary"
+maintained_by: ""
 ---
 
 

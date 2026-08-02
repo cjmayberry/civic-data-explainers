@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=d21250ed441346c59a9ef9d010
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-county-zip-codes"
+maintained_by: ""
 ---
 
 

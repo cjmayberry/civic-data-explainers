@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=4ddc7b2110624f9194c8ef31a3
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::neighborhood-watch-groups-boundaries-in-memphis"
+maintained_by: ""
 ---
 
 

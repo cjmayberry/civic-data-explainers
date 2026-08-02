@@ -52,6 +52,8 @@ dictionary:
     description: "list of all item categories being sold"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/a2b13b6db7804ea98482ca085e2783db_0"
+maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 ---
 
 

@@ -485,6 +485,9 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 .city-card h3 { margin: 0.35rem 0 0.4rem; }
 .city-card p { font-size: 0.88rem; }
 
+.official-map { margin: 0.9rem 0 1.4rem; }
+.official-map a { font-weight: 600; color: var(--blue); }
+
 .article-body {
   font-size: 1.05rem;
   line-height: 1.75;

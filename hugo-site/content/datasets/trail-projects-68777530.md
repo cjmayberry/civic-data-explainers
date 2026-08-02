@@ -29,6 +29,8 @@ dictionary:
     description: "Geographic data in state plane coordinates (WKID 103512)"
   - field: "Length"
     description: "Approximate length of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/68777530ad744d6a832468bc7493d53f_1"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

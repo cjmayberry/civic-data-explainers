@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=cf62a73ac9e2406ebbd62aa773
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-district-areas"
+maintained_by: ""
 ---
 
 

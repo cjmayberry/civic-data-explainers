@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=920016960e464dfa92e0d34c44
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::city-of-memphis-parks"
+maintained_by: ""
 ---
 
 

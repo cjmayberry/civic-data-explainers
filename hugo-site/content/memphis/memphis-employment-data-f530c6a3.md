@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=f530c6a3511f45da91dca53ff5
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-employment-data-1"
+maintained_by: ""
 ---
 
 

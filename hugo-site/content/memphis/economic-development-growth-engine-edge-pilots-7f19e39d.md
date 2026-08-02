@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=7f19e39daf2140e1b1d2989d8f
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::economic-development-growth-engine-edge-pilots"
+maintained_by: ""
 ---
 
 

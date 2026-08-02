@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=eec74e9a53d24fcc953ed368c3
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::bike-facilities-existing-and-programmed-1"
+maintained_by: ""
 ---
 
 

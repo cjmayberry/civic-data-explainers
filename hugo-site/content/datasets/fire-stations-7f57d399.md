@@ -27,6 +27,8 @@ dictionary:
     description: "Address of fire station"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/7f57d399cbd1468d877a8411205a671d_4"
+maintained_by: "This dataset is maintained by the Fire Department of the City of Oklahoma City."
 ---
 
 

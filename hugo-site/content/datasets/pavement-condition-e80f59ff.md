@@ -5,7 +5,7 @@ description: "This dataset can be used to view information by the condition of O
 teaser: "The bumpiness report card: every OKC street scored on the Pavement Condition Index."
 tags: ["okc", "oklahoma city", "streets", "pavement", "condition", "index", "roads", "surface", "pci"]
 categories: ["Transportation"]
-cover: "covers/pavement-condition-e80f59ff--transportation--map_real_geometry.png"
+cover: "covers/pavement-condition-e80f59ff--transportation--themed_photo.jpg"
 inquiry_enabled: true
 inquiry_search: "XSTREET_NA"
 inquiry_field: "PCICurrent"
@@ -36,6 +36,8 @@ dictionary:
     description: "Geographic data in state plane coordinates (WKID 103512)"
   - field: "Length"
     description: "Approximate length of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/e80f59ff3b374307a28e634ac0a92c41_3"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

@@ -5,7 +5,7 @@ description: "This dataset can be used to view both Oklahoma City maintained sno
 teaser: "This dataset tracks which streets Oklahoma City prioritizes for snow and ice treatment during winter storms"
 tags: ["okc", "oklahoma city", "snow", "routes", "winter", "weather"]
 categories: ["Transportation"]
-cover: "covers/snow-routes-a58d4715--transportation--map_real_geometry.png"
+cover: "covers/snow-routes-a58d4715--transportation--themed_photo.jpg"
 inquiry_enabled: true
 inquiry_search: "location1"
 inquiry_field: "Quadarant"
@@ -26,6 +26,8 @@ dictionary:
     description: "Primary description of location being treated, typically by street name"
   - field: "Location 2"
     description: "Secondary description of location being treated, typically by cross street name(s)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/a58d4715875a4c62b15cd3269c9df891_6"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

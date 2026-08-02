@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=2b0bee4ecd6a4f0bac6cdf5eb8
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-traffic-stops-1"
+maintained_by: ""
 ---
 
 ## What this is  

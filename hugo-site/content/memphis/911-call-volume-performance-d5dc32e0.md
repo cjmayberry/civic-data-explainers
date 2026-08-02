@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=d5dc32e083e14125a27ca9930e
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::911-call-volume-performance-1"
+maintained_by: ""
 ---
 
 

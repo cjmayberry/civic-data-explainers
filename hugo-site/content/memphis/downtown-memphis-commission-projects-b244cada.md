@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=b244cadad6514366b18294f13b
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::downtown-memphis-commission-projects"
+maintained_by: ""
 ---
 
 

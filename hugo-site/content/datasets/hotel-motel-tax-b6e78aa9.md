@@ -5,7 +5,7 @@ description: "This dataset can be to determine hotels that have an active licens
 teaser: "This dataset tracks hotels and motels with active tax licenses in Oklahoma City"
 tags: ["oklahoma city", "hotels", "motels", "tax", "license", "certificate", "revenue"]
 categories: ["Finance"]
-cover: "covers/hotel-motel-tax-b6e78aa9--finance--map_real_geometry.png"
+cover: "covers/hotel-motel-tax-b6e78aa9--finance--themed_photo.jpg"
 map_data: "img/data/hotel-motel-tax-b6e78aa9.geojson"
 inquiry_enabled: true
 inquiry_search: "LegalName"
@@ -31,6 +31,8 @@ dictionary:
     description: "Sector (NW, NE, SW, SE, Central) within the City of Oklahoma City"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/b6e78aa9a14c494f827ea0f24418cac7_3"
+maintained_by: "This dataset is maintained by the Development Services Department of the City of Oklahoma City."
 ---
 
 

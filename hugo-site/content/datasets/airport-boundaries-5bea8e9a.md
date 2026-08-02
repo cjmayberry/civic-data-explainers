@@ -23,6 +23,8 @@ dictionary:
     description: "Approximate area of feature in US square feet"
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/5bea8e9acd0e413bba4895a26a2ae328_5"
+maintained_by: "This dataset is maintained by the Department of Airports of the City of Oklahoma City."
 ---
 
 

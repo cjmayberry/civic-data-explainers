@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=12b51ce4d5a14493ab6cc05d32
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-public-safety-incidents-1"
+maintained_by: ""
 ---
 
 

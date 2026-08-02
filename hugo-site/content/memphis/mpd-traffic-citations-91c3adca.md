@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=91c3adcaf5c84cd596c85a45cd
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-traffic-citations-1"
+maintained_by: ""
 ---
 
 

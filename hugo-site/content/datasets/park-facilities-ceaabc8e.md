@@ -55,6 +55,8 @@ dictionary:
     description: "Indicates if item is lighted"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/ceaabc8e606c4bf2ba0c4442b48455a8_0"
+maintained_by: "This dataset is maintained by the Parks Department of the City of Oklahoma City."
 ---
 
 

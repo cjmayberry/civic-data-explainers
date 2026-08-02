@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=31fee20948d1444bbc06c1e798
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-community-centers"
+maintained_by: ""
 ---
 
 

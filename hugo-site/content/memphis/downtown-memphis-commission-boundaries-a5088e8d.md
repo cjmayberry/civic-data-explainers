@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=a5088e8d5b074cb2828b0b53ad
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::downtown-memphis-commission-boundaries"
+maintained_by: ""
 ---
 
 

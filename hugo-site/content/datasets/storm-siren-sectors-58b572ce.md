@@ -21,6 +21,8 @@ dictionary:
     description: "Geographic data in state plane coordinates (WKID 103512). Area -Approximate area of feature in US square feet"
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/58b572ceddf24352a1cde67e42dbcc44_3"
+maintained_by: "This dataset is maintained by the Public Safety Department of the City of Oklahoma City."
 ---
 
 

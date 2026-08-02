@@ -27,6 +27,8 @@ dictionary:
     description: "Approximate length of perimeter of feature in US feet"
   - field: "Area"
     description: "Approximate area of feature in US square feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/5377697e59b34ad1a749063b73205886_3"
+maintained_by: "This dataset is maintained by the Development Services Department of the City of Oklahoma City."
 ---
 
 

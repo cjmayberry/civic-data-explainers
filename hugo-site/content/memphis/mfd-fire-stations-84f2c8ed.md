@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=84f2c8ede59743ac91647db1fd
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mfd-fire-stations"
+maintained_by: ""
 ---
 
 

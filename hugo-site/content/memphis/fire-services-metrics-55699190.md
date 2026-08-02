@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=556991909d2a49e68ec7f9d205
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::fire-services-metrics-1"
+maintained_by: ""
 ---
 
 

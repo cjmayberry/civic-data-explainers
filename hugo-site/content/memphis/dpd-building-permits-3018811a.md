@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=3018811a721a49a98843baeb29
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::dpd-building-permits-1"
+maintained_by: ""
 ---
 
 

@@ -24,6 +24,8 @@ dictionary:
     description: "Full zoning code"
   - field: "Zoning Definition"
     description: "Definition of zoning code"
+map_link: "https://open-okc.hub.arcgis.com/datasets/f14a80531b914852ba8870c37b41e1d8_9"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

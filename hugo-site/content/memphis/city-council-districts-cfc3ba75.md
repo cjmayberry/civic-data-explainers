@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=cfc3ba7521fa48c7a617a0ca51
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::city-council-districts-1"
+maintained_by: ""
 ---
 
 

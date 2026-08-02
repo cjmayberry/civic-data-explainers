@@ -26,6 +26,8 @@ dictionary:
     description: "Address of police briefing station"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/fdb1ea86290a4b5187ddd3218dc70140_5"
+maintained_by: "This dataset is maintained by the Police Department of the City of Oklahoma City."
 ---
 
 

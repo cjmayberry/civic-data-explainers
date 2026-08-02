@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=49d6b5e522c2436283ee78adc0
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-zip-codes"
+maintained_by: ""
 ---
 
 

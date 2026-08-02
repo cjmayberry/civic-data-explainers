@@ -5,7 +5,7 @@ description: "This dataset can be used to view regional, community, and neighbor
 teaser: "Where OKC’s green space lives — regional, community and neighborhood parks, with real acreage."
 tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic", "pools", "spray", "grounds", "tennis", "courts", "baseball", "softball", "fields", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/parks-fe9dc8e8--parks-recreation--map_real_geometry.png"
+cover: "covers/parks-fe9dc8e8--parks-recreation--themed_photo.jpg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4"
 license: "custom"
 dataset_id: "fe9dc8e85f9c43b7950e32b69edf28fc"
@@ -29,6 +29,8 @@ dictionary:
     description: "Approximate length of perimeter of feature in US feet"
   - field: "Area"
     description: "Approximate area of feature in US square feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/fe9dc8e85f9c43b7950e32b69edf28fc_4"
+maintained_by: "This dataset is maintained by the Parks Department of the City of Oklahoma City."
 ---
 
 

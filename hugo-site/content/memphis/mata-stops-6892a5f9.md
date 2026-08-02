@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=6892a5f95ca8484ba0dea7e9c5
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mata-stops"
+maintained_by: ""
 ---
 
 

@@ -18,6 +18,8 @@ dictionary:
     description: "Numeric unique identifier with no special meaning"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/1fcba99b944141119496224ef5481187_5"
+maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 ---
 
 

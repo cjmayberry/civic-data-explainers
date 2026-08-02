@@ -13,6 +13,10 @@
 
   {{ with .Params.cover }}<img class="article-cover" src="{{ printf "img/%s" . | relURL }}" alt="{{ $.Title }} — visual cover">{{ end }}
 
+  {{ with .Params.map_link }}
+  <p class="official-map"><a href="{{ . }}" target="_blank" rel="noopener">View the city's official map for this dataset →</a> <span class="dictionary-note">(opens in {{ $city.name }}'s own data portal)</span></p>
+  {{ end }}
+
   <div class="article-body">
     {{ .Content }}
   </div>
@@ -99,7 +103,9 @@
   <section class="lookup">
     <h2>Look it up yourself</h2>
     <p>Everything on this page comes from the city's public open-data catalog. Anyone can download it — CSV, GeoJSON, KML, or the live service.</p>
+    {{ with .Params.maintained_by }}<p class="meta">Maintained by: {{ . }}</p>{{ end }}
     <ul>
+      {{ with .Params.map_link }}<li><a href="{{ . }}">City's map of this dataset</a></li>{{ end }}
       {{ with .Params.site_url }}<li><a href="{{ . }}">Source portal</a></li>{{ end }}
       {{ with .Params.source_url }}<li><a href="{{ . }}">Live data service</a></li>{{ end }}
     </ul>

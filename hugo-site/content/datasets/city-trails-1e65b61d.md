@@ -5,7 +5,7 @@ description: "This dataset can be used to view walking and multi-use trails loca
 teaser: "A list of walking and multi-use trails in Oklahoma City parks"
 tags: [" oklahoma city", "walking", "biking", "parks", "trails", "recreation"]
 categories: ["Parks & Recreation"]
-cover: "covers/city-trails-1e65b61d--parks-recreation--map_real_geometry.png"
+cover: "covers/city-trails-1e65b61d--parks-recreation--themed_photo.jpg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3"
 license: "custom"
 dataset_id: "1e65b61d07f5458a90d4cfa01e882044"
@@ -39,6 +39,8 @@ dictionary:
     description: "Geographic data in state plane coordinates (WKID 103512)"
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/1e65b61d07f5458a90d4cfa01e882044_3"
+maintained_by: "This dataset is maintained by the Parks Department of the City of Oklahoma City."
 ---
 
 

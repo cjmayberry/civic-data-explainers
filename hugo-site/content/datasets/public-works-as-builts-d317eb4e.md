@@ -5,7 +5,7 @@ description: "This dataset can be used to access paving, drainage, and storm sew
 teaser: "A collection of official construction records for roads, drainage systems, and storm sewers in Oklahoma City"
 tags: ["okc", "drainage", "oklahoma city", "as-builts", "as builts", "paving", "streets", "documents", "storm sewer"]
 categories: ["Infrastructure"]
-cover: "covers/public-works-as-builts-d317eb4e--infrastructure--map_real_geometry.png"
+cover: "covers/public-works-as-builts-d317eb4e--infrastructure--themed_photo.jpg"
 map_data: "img/data/public-works-as-builts-d317eb4e.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3"
 license: "custom"
@@ -24,6 +24,8 @@ dictionary:
     description: "Additional information related to document"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/d317eb4e5f544ff9a9f48f1fcdc09977_3"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

@@ -11,6 +11,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=9606abac0c584009a8d283e1fc
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-co-tract-acs-demo-5y-2024"
+maintained_by: ""
 ---
 
 

@@ -49,6 +49,8 @@ dictionary:
     description: "Indicates if work is being performed in the right-of-way"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/ead80c5e4e4e4c719359217f704a0c4c_5"
+maintained_by: "This dataset is maintained by the Development Services Department of the City of Oklahoma City."
 ---
 
 

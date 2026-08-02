@@ -36,6 +36,8 @@ dictionary:
     description: "Code used for size of monument"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/1120d3f72fe64245a799851598fb83c6_1"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

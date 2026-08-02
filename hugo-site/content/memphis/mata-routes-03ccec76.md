@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=03ccec76cd9e4c5a85dad17e9f
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mata-routes"
+maintained_by: ""
 ---
 
 

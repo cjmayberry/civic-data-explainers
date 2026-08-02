@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=09d7a44727b3455187a27a4b46
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-county-walkability-index-1"
+maintained_by: ""
 ---
 
 ## What this is  

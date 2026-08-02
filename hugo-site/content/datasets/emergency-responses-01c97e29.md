@@ -31,6 +31,8 @@ dictionary:
     description: "Date and time call was reported"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/01c97e2928134efc93157d99f2d23047_0"
+maintained_by: "This dataset is maintained by the Public Safety Department of the City of Oklahoma City."
 ---
 
 

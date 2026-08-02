@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=b349826e460248ffb9f418d140
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-msa-counties"
+maintained_by: ""
 ---
 
 

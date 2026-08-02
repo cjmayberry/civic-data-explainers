@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=41f0fa5285a94f07bc9451b68c
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::hcd-property-investments-1"
+maintained_by: ""
 ---
 
 

@@ -433,7 +433,7 @@ def upgrade_cover(dataset, source_url):
 def openverse_search(query, page_size=3):
     url = ("https://api.openverse.org/v1/images/?q="
            + urllib.parse.quote(query)
-           + f"&page_size={page_size}")
+           + f"&page_size={page_size}&license=cc0,by,by-sa&aspect_ratio=wide")
     data = json.loads(http_get(url))
     out = []
     for r in data.get("results", []):

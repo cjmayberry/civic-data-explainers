@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=f3019d13cd814f6c8e4cac1b02
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mata-on-time-performance-1"
+maintained_by: ""
 ---
 
 

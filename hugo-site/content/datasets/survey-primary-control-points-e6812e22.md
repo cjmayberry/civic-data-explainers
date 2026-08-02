@@ -40,6 +40,8 @@ dictionary:
     description: "Y coordinate based on specified datum"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/e6812e2241ba4ff68d77edd95ad049b8_0"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

@@ -29,6 +29,8 @@ dictionary:
     description: "Name of facility"
   - field: "Facility Information"
     description: "Additional facility information when available"
+map_link: "https://open-okc.hub.arcgis.com/datasets/4e6143210ee4470b837931ffd25710d5"
+maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 ---
 
 

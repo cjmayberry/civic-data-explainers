@@ -26,6 +26,8 @@ dictionary:
     description: "City ordinance reference number (if any)"
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
+map_link: "https://open-okc.hub.arcgis.com/datasets/e41be4c9bd794c2db35270448da83c82_0"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

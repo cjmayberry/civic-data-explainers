@@ -52,6 +52,8 @@ dictionary:
     description: "Text description of area where work is being performed"
   - field: "Shape"
     description: "Geographic data in Web Mercator coordinates"
+map_link: "https://open-okc.hub.arcgis.com/datasets/d5e6fb99125c44a6b5165336607fe199_0"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

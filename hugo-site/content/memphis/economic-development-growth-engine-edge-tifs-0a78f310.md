@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=0a78f3109d2b446da0e87066d5
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::economic-development-growth-engine-edge-tifs"
+maintained_by: ""
 ---
 
 

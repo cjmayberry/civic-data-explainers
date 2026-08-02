@@ -5,7 +5,7 @@ description: "This dataset can be used to view sidewalks maintained by the City 
 teaser: "The walkability map: every city-maintained sidewalk in OKC — and which ones were paid for with bonds."
 tags: ["okc", "oklahoma city", "sidewalks"]
 categories: ["Transportation"]
-cover: "covers/sidewalks-bc31068e--transportation--map_real_geometry.png"
+cover: "covers/sidewalks-bc31068e--transportation--themed_photo.jpg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/bc31068e20ed4b2fa1265bb810b1de23/rest/services/OpenData/Transportation/FeatureServer/1"
 license: "custom"
 dataset_id: "bc31068e20ed4b2fa1265bb810b1de23"
@@ -23,6 +23,8 @@ dictionary:
     description: "Approximate length of perimeter of feature in US feet"
   - field: "Area"
     description: "Approximate area of feature in US square feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/bc31068e20ed4b2fa1265bb810b1de23_1"
+maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 ---
 
 

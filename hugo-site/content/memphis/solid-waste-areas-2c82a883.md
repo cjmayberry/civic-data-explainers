@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=2c82a8836c1a473f919c0b8fbc
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::solid-waste-areas"
+maintained_by: ""
 ---
 
 ## What this is  

@@ -13,6 +13,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=71211088147f40ab9ee17f52cb
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::economic-development-growth-engine-edge-loans"
+maintained_by: ""
 ---
 
 

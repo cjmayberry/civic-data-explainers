@@ -20,6 +20,8 @@ dictionary:
     description: "Numeric number associated with plat"
   - field: "Plat Name"
     description: "Name of plat"
+map_link: "https://open-okc.hub.arcgis.com/datasets/6073f066182b4a3c87f8efc001ab0ee3_10"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

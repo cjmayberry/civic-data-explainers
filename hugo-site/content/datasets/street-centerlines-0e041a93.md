@@ -5,7 +5,7 @@ description: "This dataset may be used to determine location and other attribute
 teaser: "The invisible skeleton under every address in OKC — updated daily, used by 911, delivery apps, and you."
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
-cover: "covers/street-centerlines-0e041a93--transportation--map_real_geometry.png"
+cover: "covers/street-centerlines-0e041a93--transportation--themed_photo.jpg"
 inquiry_enabled: true
 inquiry_search: "FNAME"
 inquiry_field: "STREETCLASS"
@@ -48,6 +48,8 @@ dictionary:
     description: "Geographic data in state plane coordinates (WKID 103512)"
   - field: "Length"
     description: "Approximate length of feature in US feet"
+map_link: "https://open-okc.hub.arcgis.com/datasets/0e041a931ede4d38a9d23c5301708662_5"
+maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 ---
 
 

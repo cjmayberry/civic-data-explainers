@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=8407de8108474e1e987fc7c583
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::com-employee-titles-and-salaries-1"
+maintained_by: ""
 ---
 
 

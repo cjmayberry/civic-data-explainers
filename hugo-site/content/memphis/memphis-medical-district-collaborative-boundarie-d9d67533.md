@@ -12,6 +12,8 @@ dataset_id: "https://www.arcgis.com/home/item.html?id=d9d6753372574809bbbe168948
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 draft: false
+map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-medical-district-collaborative-boundaries"
+maintained_by: ""
 ---
 
 
