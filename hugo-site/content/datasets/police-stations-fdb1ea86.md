@@ -14,7 +14,7 @@ inquiry_label: "Look up a police station"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5"
 license: "custom"
 dataset_id: "fdb1ea86290a4b5187ddd3218dc70140"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

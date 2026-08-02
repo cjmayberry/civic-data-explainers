@@ -1,0 +1,52 @@
+{
+ "fields": [
+  "CD",
+  "Shape_Leng",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "CD": 1,
+   "Shape_Leng": 327719.730716,
+   "Shape__Area": 951204785.6394806,
+   "Shape__Length": 328557.45520387375
+  },
+  {
+   "CD": 3,
+   "Shape_Leng": 243327.21357,
+   "Shape__Area": 1511593593.970581,
+   "Shape__Length": 243343.73830771598
+  },
+  {
+   "CD": 4,
+   "Shape_Leng": 201410.073091,
+   "Shape__Area": 645448685.7431488,
+   "Shape__Length": 201410.07309049234
+  },
+  {
+   "CD": 5,
+   "Shape_Leng": 199618.427446,
+   "Shape__Area": 707461192.676117,
+   "Shape__Length": 170878.5625020363
+  },
+  {
+   "CD": 7,
+   "Shape_Leng": 244146.834193,
+   "Shape__Area": 1211664719.009079,
+   "Shape__Length": 246323.14611396354
+  },
+  {
+   "CD": 2,
+   "Shape_Leng": 342369.432297,
+   "Shape__Area": 1095027020.4611816,
+   "Shape__Length": 373596.6134988667
+  },
+  {
+   "CD": 6,
+   "Shape_Leng": 318855.102394,
+   "Shape__Area": 2269218490.29541,
+   "Shape__Length": 319709.5294815909
+  }
+ ]
+}

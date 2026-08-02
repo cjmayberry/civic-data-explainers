@@ -15,7 +15,7 @@ inquiry_extra: ["PK_LOCATION", "Address"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ceaabc8e606c4bf2ba0c4442b48455a8/rest/services/OpenData/Recreation_Parks/FeatureServer/0"
 license: "custom"
 dataset_id: "ceaabc8e606c4bf2ba0c4442b48455a8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

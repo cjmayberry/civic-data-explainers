@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "objectid_1",
+  "facility_n",
+  "begin_",
+  "end_",
+  "facility_c",
+  "status"
+ ],
+ "rows": [
+  {
+   "objectid_1": 1356,
+   "facility_n": "Fields Rd",
+   "begin_": "Sewanee",
+   "end_": "Hicky",
+   "facility_c": "Bike Lane",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1358,
+   "facility_n": "Exchange Ave",
+   "begin_": "Third",
+   "end_": "Danny Thomas",
+   "facility_c": "Bike Lane",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1359,
+   "facility_n": "Exchange Ave",
+   "begin_": "Main",
+   "end_": "Third",
+   "facility_c": "Bike Lane",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1360,
+   "facility_n": "Adams Ave",
+   "begin_": "Third",
+   "end_": "Danny Thomas",
+   "facility_c": "Bike Lane",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1361,
+   "facility_n": "Adams Ave",
+   "begin_": "Front",
+   "end_": "Third",
+   "facility_c": "Marked Shared Roadway",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1362,
+   "facility_n": "Duke Rd",
+   "begin_": "Chelsea",
+   "end_": "Bayliss",
+   "facility_c": "Marked Shared Roadway",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1363,
+   "facility_n": "Bayliss Ave",
+   "begin_": "Graham",
+   "end_": "Wells Station",
+   "facility_c": "Marked Shared Roadway",
+   "status": "Existing"
+  },
+  {
+   "objectid_1": 1366,
+   "facility_n": "Highland St",
+   "begin_": "Scenic",
+   "end_": "James",
+   "facility_c": "Bike Lane",
+   "status": "Existing"
+  }
+ ]
+}

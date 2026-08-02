@@ -9,7 +9,7 @@ cover: "covers/elevation-contours-1e61c575--infrastructure--map_real_geometry.pn
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e61c57573004a83a6f1694aa0e94f84/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/3"
 license: "custom"
 dataset_id: "1e61c57573004a83a6f1694aa0e94f84"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

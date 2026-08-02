@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "CompanyName",
+  "Address",
+  "City",
+  "State",
+  "ZIP_Code",
+  "Latitude"
+ ],
+ "rows": [
+  {
+   "CompanyName": "Elvis Presley Enterprises, Inc. Series 2015A",
+   "Address": "3734 Elvis Presley Blvd",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38116,
+   "Latitude": 35.04703466
+  },
+  {
+   "CompanyName": "Elvis Presley Enterprises Inc. Series 2016A B",
+   "Address": "3734 Elvis Presley Blvd",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38116,
+   "Latitude": 35.04703466
+  },
+  {
+   "CompanyName": "Parkside at Shelby Farms",
+   "Address": "150 Timber Creek Drive",
+   "City": "Cordova",
+   "State": "TN",
+   "ZIP_Code": 38018,
+   "Latitude": 35.15336178
+  },
+  {
+   "CompanyName": "Southbrook Towne Center",
+   "Address": "1212 East Shelby Drive",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38116,
+   "Latitude": 35.02146525
+  },
+  {
+   "CompanyName": "Young Mens Christian Association",
+   "Address": "6375 North Quail Hollow Road",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38120,
+   "Latitude": 35.10432967
+  },
+  {
+   "CompanyName": "Liberty Park TDZ Bond",
+   "Address": "Central Ave @ East Parkway Blvd",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38104,
+   "Latitude": 35.12529102
+  },
+  {
+   "CompanyName": "Serenity Recovery Centers, Inc.",
+   "Address": "1094 Poplar Avenue",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38105,
+   "Latitude": 35.14521105
+  },
+  {
+   "CompanyName": "Distilled Spirits Inc.",
+   "Address": "802 N. Royal Ave.",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": 38107,
+   "Latitude": 35.1826475
+  }
+ ]
+}

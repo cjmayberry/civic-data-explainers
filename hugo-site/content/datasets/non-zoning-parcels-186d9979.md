@@ -9,7 +9,7 @@ cover: "covers/non-zoning-parcels-186d9979--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/186d99795ce447708fd365c8940c8390/rest/services/OpenData/Licensing_Zoning/FeatureServer/2"
 license: "custom"
 dataset_id: "186d99795ce447708fd365c8940c8390"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

@@ -15,7 +15,7 @@ inquiry_extra: ["StreetPrefix", "StreetSuffix"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/adea21af99c740ec86870111a9881fc4/rest/services/OpenData/Transportation_Streets/FeatureServer/10"
 license: "custom"
 dataset_id: "adea21af99c740ec86870111a9881fc4"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

@@ -10,7 +10,7 @@ map_data: "img/data/zoning-definitions-f14a8053.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/f14a80531b914852ba8870c37b41e1d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/9"
 license: "custom"
 dataset_id: "f14a80531b914852ba8870c37b41e1d8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

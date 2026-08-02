@@ -9,7 +9,7 @@ cover: "covers/bulky-waste-zones-c4455716--infrastructure--map_real_geometry.png
 source_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2"
 license: "custom"
 dataset_id: "c4455716f4bf4d1dafe6806e0e619de8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

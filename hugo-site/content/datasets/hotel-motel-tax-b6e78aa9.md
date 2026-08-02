@@ -15,7 +15,7 @@ inquiry_extra: ["Address", "Certificate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3"
 license: "custom"
 dataset_id: "b6e78aa9a14c494f827ea0f24418cac7"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

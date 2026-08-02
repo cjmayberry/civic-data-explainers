@@ -9,7 +9,7 @@ cover: "covers/city-trails-1e65b61d--parks-recreation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3"
 license: "custom"
 dataset_id: "1e65b61d07f5458a90d4cfa01e882044"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

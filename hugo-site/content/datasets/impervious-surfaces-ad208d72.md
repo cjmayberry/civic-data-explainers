@@ -9,7 +9,7 @@ cover: "covers/impervious-surfaces-ad208d72--infrastructure--map_real_geometry.p
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4"
 license: "custom"
 dataset_id: "ad208d728e344ca18dcdad3c84be76e1"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

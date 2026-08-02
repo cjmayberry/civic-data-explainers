@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ParkID",
+  "GISTrkrID",
+  "SourceID",
+  "Park_Name",
+  "Park_Designation",
+  "Park_Owner_Type"
+ ],
+ "rows": [
+  {
+   "ParkID": "4748000-0001",
+   "GISTrkrID": 143,
+   "SourceID": 9,
+   "Park_Name": "Oakley Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  },
+  {
+   "ParkID": "4748000-0003",
+   "GISTrkrID": 143,
+   "SourceID": 15,
+   "Park_Name": "Egypt Central Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "CNTY"
+  },
+  {
+   "ParkID": "4748000-0004",
+   "GISTrkrID": 143,
+   "SourceID": 18,
+   "Park_Name": "Pickett Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  },
+  {
+   "ParkID": "4748000-0005",
+   "GISTrkrID": 143,
+   "SourceID": 20,
+   "Park_Name": "Willingham Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  },
+  {
+   "ParkID": "4748000-0006",
+   "GISTrkrID": 143,
+   "SourceID": 22,
+   "Park_Name": "Pershing Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  },
+  {
+   "ParkID": "4748000-0008",
+   "GISTrkrID": 143,
+   "SourceID": 24,
+   "Park_Name": "Westside Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "PRIV"
+  },
+  {
+   "ParkID": "4748000-0009",
+   "GISTrkrID": 143,
+   "SourceID": 25,
+   "Park_Name": "Carver Heights Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  },
+  {
+   "ParkID": "4748000-0010",
+   "GISTrkrID": 143,
+   "SourceID": 27,
+   "Park_Name": "Fulmer Park",
+   "Park_Designation": "LP",
+   "Park_Owner_Type": "MUNI"
+  }
+ ]
+}

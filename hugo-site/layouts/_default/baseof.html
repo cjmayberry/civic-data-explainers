@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="utility-bar">
-    <span class="utility-note">Open data, explained — Oklahoma City</span>
+    <span class="utility-note">Open data, explained — {{ $city := index .Site.Data.cities (.Params.city | default "oklahoma-city") }}{{ $city.name }}</span>
     <a class="utility-link" href="{{ "/datasets/" | relURL }}">Browse the catalog →</a>
   </div>
   <header class="site-header">
@@ -36,9 +36,17 @@
         {{ end }}
       </div>
       <div class="footer-col">
+        <strong>Cities</strong>
+        {{ range $key, $city := .Site.Data.cities }}
+        {{ $href := cond (eq $key "oklahoma-city") "/datasets/" (printf "/%s/" $key) }}
+        <a href="{{ $href | relURL }}">{{ $city.name }}</a>
+        {{ end }}
+      </div>
+      <div class="footer-col">
         <strong>Source</strong>
-        <a href="https://open-okc.hub.arcgis.com">Oklahoma City Open Data Hub</a>
-        <a href="https://www.okc.gov">City of Oklahoma City</a>
+        {{ $city := index .Site.Data.cities (.Params.city | default "oklahoma-city") }}
+        <a href="{{ $city.hub }}">{{ $city.name }} Open Data Hub</a>
+        <a href="{{ $city.gov }}">City of {{ $city.name }}</a>
       </div>
     </div>
     <p class="footer-disclaimer">Not official guidance from any city government — always verify against the source dataset before relying on this for a decision.</p>

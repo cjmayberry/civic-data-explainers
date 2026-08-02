@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Crime_ID",
+  "Offense_Datetime",
+  "Reported_Datetime",
+  "Agency_Crime_ID",
+  "UCR_Incident_Code",
+  "Block"
+ ],
+ "rows": [
+  {
+   "Crime_ID": "2602023958ME",
+   "Offense_Datetime": 1771047900000,
+   "Reported_Datetime": 1771048680000,
+   "Agency_Crime_ID": "MURDER",
+   "UCR_Incident_Code": "09A",
+   "Block": 3800
+  },
+  {
+   "Crime_ID": "2310022491ME",
+   "Offense_Datetime": 1696612500000,
+   "Reported_Datetime": 1696613640000,
+   "Agency_Crime_ID": "SHOPLIFTING/MISDEMEANOR",
+   "UCR_Incident_Code": "23C",
+   "Block": 6500
+  },
+  {
+   "Crime_ID": "2306005777ME",
+   "Offense_Datetime": 1687494840000,
+   "Reported_Datetime": 1687496520000,
+   "Agency_Crime_ID": "AGGRAVATED ASSAULT/DV",
+   "UCR_Incident_Code": "13A",
+   "Block": 3100
+  },
+  {
+   "Crime_ID": "2002002304ME",
+   "Offense_Datetime": 1580956800000,
+   "Reported_Datetime": 1580958060000,
+   "Agency_Crime_ID": "DRUGS/NARCOTICS VIOLATION/MISDEMEANOR",
+   "UCR_Incident_Code": "35A",
+   "Block": 3600
+  },
+  {
+   "Crime_ID": "2604020210ME",
+   "Offense_Datetime": 1775061000000,
+   "Reported_Datetime": 1775075880000,
+   "Agency_Crime_ID": "THEFT FROM BUILDING",
+   "UCR_Incident_Code": "23D",
+   "Block": 4100
+  },
+  {
+   "Crime_ID": "2408024109ME",
+   "Offense_Datetime": 1723344360000,
+   "Reported_Datetime": 1723346220000,
+   "Agency_Crime_ID": "DRUGS/NARCOTICS VIOLATION/FELONY",
+   "UCR_Incident_Code": "35A",
+   "Block": 2700
+  },
+  {
+   "Crime_ID": "2403025984ME",
+   "Offense_Datetime": 1710469800000,
+   "Reported_Datetime": 1710554640000,
+   "Agency_Crime_ID": "ROBBERY/INDIVIDUAL",
+   "UCR_Incident_Code": "120",
+   "Block": 1100
+  },
+  {
+   "Crime_ID": "2212000472ME",
+   "Offense_Datetime": 1669953600000,
+   "Reported_Datetime": 1669962000000,
+   "Agency_Crime_ID": "MVT/PASSENGER VEHICLE",
+   "UCR_Incident_Code": "240",
+   "Block": 3000
+  }
+ ]
+}

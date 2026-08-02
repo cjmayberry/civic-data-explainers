@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "precinct",
+  "ward",
+  "prct_code",
+  "Area_SqMi",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "precinct": "Austin Peay",
+   "ward": 121,
+   "prct_code": 1,
+   "Area_SqMi": 6.2,
+   "Shape__Area": 0.0015817774142306007,
+   "Shape__Length": 0.24065588016832035
+  },
+  {
+   "precinct": "Austin Peay",
+   "ward": 122,
+   "prct_code": 1,
+   "Area_SqMi": 5.5,
+   "Shape__Area": 0.001398345934376266,
+   "Shape__Length": 0.18246037221332473
+  },
+  {
+   "precinct": "Austin Peay",
+   "ward": 123,
+   "prct_code": 1,
+   "Area_SqMi": 5.9,
+   "Shape__Area": 0.0015129161577078776,
+   "Shape__Length": 0.24277796511181463
+  },
+  {
+   "precinct": "Austin Peay",
+   "ward": 124,
+   "prct_code": 1,
+   "Area_SqMi": 7,
+   "Shape__Area": 0.0018068335130010382,
+   "Shape__Length": 0.1947198099387091
+  },
+  {
+   "precinct": "Austin Peay",
+   "ward": 125,
+   "prct_code": 1,
+   "Area_SqMi": 7.8,
+   "Shape__Area": 0.0020093436746719817,
+   "Shape__Length": 0.22083997769125366
+  },
+  {
+   "precinct": "Austin Peay",
+   "ward": 126,
+   "prct_code": 1,
+   "Area_SqMi": 5.9,
+   "Shape__Area": 0.0015215999992506113,
+   "Shape__Length": 0.22190782269308054
+  },
+  {
+   "precinct": "Raines",
+   "ward": 221,
+   "prct_code": 2,
+   "Area_SqMi": 19.4,
+   "Shape__Area": 0.004954419485784456,
+   "Shape__Length": 0.44702496506726563
+  },
+  {
+   "precinct": "Raines",
+   "ward": 222,
+   "prct_code": 2,
+   "Area_SqMi": 21.2,
+   "Shape__Area": 0.005433782243017049,
+   "Shape__Length": 0.37768735655542984
+  }
+ ]
+}

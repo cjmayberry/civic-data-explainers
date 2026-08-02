@@ -1,0 +1,18 @@
+{
+ "fields": [
+  "ID",
+  "CITY",
+  "SQUARE_MIL",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "ID": 0,
+   "CITY": "Memphis",
+   "SQUARE_MIL": 0,
+   "Shape__Area": 8391618487.786667,
+   "Shape__Length": 704650.103897903
+  }
+ ]
+}

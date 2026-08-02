@@ -9,7 +9,7 @@ cover: "covers/trail-projects-68777530--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/68777530ad744d6a832468bc7493d53f/rest/services/OpenData/Infrastructure_Projects/FeatureServer/1"
 license: "custom"
 dataset_id: "68777530ad744d6a832468bc7493d53f"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

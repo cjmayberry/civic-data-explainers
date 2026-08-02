@@ -9,7 +9,7 @@ cover: "covers/recycle-zones-0f286e12--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0f286e1243ca4bb39a70e323b1608222/rest/services/OpenData/Utilities/FeatureServer/3"
 license: "custom"
 dataset_id: "0f286e1243ca4bb39a70e323b1608222"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

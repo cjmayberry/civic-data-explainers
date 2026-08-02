@@ -9,7 +9,7 @@ cover: "covers/tax-increment-financing-districts-08ededb1--finance--map_real_geo
 source_url: "https://utility.arcgis.com/usrsvcs/servers/08ededb10dcf458ba9ac5588d6d6296a/rest/services/OpenData/Finance/FeatureServer/0"
 license: "custom"
 dataset_id: "08ededb10dcf458ba9ac5588d6d6296a"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

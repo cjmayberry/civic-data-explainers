@@ -10,7 +10,7 @@ map_data: "img/data/vegetation-points-1fcba99b.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5"
 license: "custom"
 dataset_id: "1fcba99b944141119496224ef5481187"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

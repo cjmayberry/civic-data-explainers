@@ -10,7 +10,7 @@ map_data: "img/data/survey-primary-control-points-e6812e22.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e6812e2241ba4ff68d77edd95ad049b8/rest/services/OpenData/Infrastructure_Survey/FeatureServer/0"
 license: "custom"
 dataset_id: "e6812e2241ba4ff68d77edd95ad049b8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

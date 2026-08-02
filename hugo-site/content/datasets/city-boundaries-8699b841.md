@@ -9,7 +9,7 @@ cover: "covers/city-boundaries-8699b841--government--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1"
 license: "custom"
 dataset_id: "8699b8414ebd476e87db5486f116b00a"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

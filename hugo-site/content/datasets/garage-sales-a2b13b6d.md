@@ -14,7 +14,7 @@ inquiry_label: "Check a garage sale permit"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a2b13b6db7804ea98482ca085e2783db/rest/services/OpenData/Licensing_Permits/FeatureServer/0"
 license: "custom"
 dataset_id: "a2b13b6db7804ea98482ca085e2783db"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

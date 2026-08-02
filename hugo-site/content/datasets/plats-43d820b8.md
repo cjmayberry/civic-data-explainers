@@ -9,7 +9,7 @@ cover: "covers/plats-43d820b8--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/43d820b83b674709a76d0bf9d090d812/rest/services/OpenData/Licensing_Subdivision/FeatureServer/4"
 license: "custom"
 dataset_id: "43d820b83b674709a76d0bf9d090d812"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

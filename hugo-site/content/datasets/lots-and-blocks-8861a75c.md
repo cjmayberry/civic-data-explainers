@@ -9,7 +9,7 @@ cover: "covers/lots-and-blocks-8861a75c--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/8861a75c02214e6dae3bf9c094fab65f/rest/services/OpenData/Licensing_Subdivision/FeatureServer/3"
 license: "custom"
 dataset_id: "8861a75c02214e6dae3bf9c094fab65f"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

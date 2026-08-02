@@ -9,7 +9,7 @@ cover: "covers/storm-siren-sectors-58b572ce--public-safety--map_real_geometry.pn
 source_url: "https://utility.arcgis.com/usrsvcs/servers/58b572ceddf24352a1cde67e42dbcc44/rest/services/OpenData/Public_Safety/FeatureServer/3"
 license: "custom"
 dataset_id: "58b572ceddf24352a1cde67e42dbcc44"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

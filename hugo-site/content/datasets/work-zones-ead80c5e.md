@@ -15,7 +15,7 @@ inquiry_extra: ["Startdate", "Enddate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5"
 license: "custom"
 dataset_id: "ead80c5e4e4e4c719359217f704a0c4c"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

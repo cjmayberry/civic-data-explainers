@@ -9,7 +9,7 @@ cover: "covers/storm-sewer-lines-d97ab7e6--infrastructure--map_real_geometry.png
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2"
 license: "custom"
 dataset_id: "d97ab7e67970441c95e41e2211cbcd24"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

@@ -9,7 +9,7 @@ cover: "covers/bike-routes-5600dd31--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5600dd31c2d545afb11eaa7f40d6eaa4/rest/services/OpenData/Transportation/FeatureServer/0"
 license: "custom"
 dataset_id: "5600dd31c2d545afb11eaa7f40d6eaa4"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

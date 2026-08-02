@@ -10,7 +10,7 @@ map_data: "img/data/storm-sewer-headwalls-ac50e5d0.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1"
 license: "custom"
 dataset_id: "ac50e5d0600e428d8618b5e2dc48782d"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

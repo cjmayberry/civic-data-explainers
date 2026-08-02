@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ZCTA5CE20",
+  "GEOID20",
+  "GEOIDFQ20",
+  "CLASSFP20",
+  "MTFCC20",
+  "FUNCSTAT20"
+ ],
+ "rows": [
+  {
+   "ZCTA5CE20": "38112",
+   "GEOID20": "38112",
+   "GEOIDFQ20": "860Z200US38112",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38152",
+   "GEOID20": "38152",
+   "GEOIDFQ20": "860Z200US38152",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38115",
+   "GEOID20": "38115",
+   "GEOIDFQ20": "860Z200US38115",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38132",
+   "GEOID20": "38132",
+   "GEOIDFQ20": "860Z200US38132",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38141",
+   "GEOID20": "38141",
+   "GEOIDFQ20": "860Z200US38141",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38002",
+   "GEOID20": "38002",
+   "GEOIDFQ20": "860Z200US38002",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38054",
+   "GEOID20": "38054",
+   "GEOIDFQ20": "860Z200US38054",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  },
+  {
+   "ZCTA5CE20": "38138",
+   "GEOID20": "38138",
+   "GEOIDFQ20": "860Z200US38138",
+   "CLASSFP20": "B5",
+   "MTFCC20": "G6350",
+   "FUNCSTAT20": "S"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "fields": [
+  "precinct",
+  "prct_code",
+  "Area_SqMi",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "precinct": "Austin Peay",
+   "prct_code": 1,
+   "Area_SqMi": 38.3,
+   "Shape__Area": 0.009830816693238376,
+   "Shape__Length": 0.6680387076399361
+  },
+  {
+   "precinct": "Raines",
+   "prct_code": 2,
+   "Area_SqMi": 59.9,
+   "Shape__Area": 0.015315967325250313,
+   "Shape__Length": 0.6078631216708041
+  },
+  {
+   "precinct": "Mt. Moriah",
+   "prct_code": 3,
+   "Area_SqMi": 25.4,
+   "Shape__Area": 0.00649763061755948,
+   "Shape__Length": 0.4204508648362469
+  },
+  {
+   "precinct": "Crump",
+   "prct_code": 4,
+   "Area_SqMi": 35.8,
+   "Shape__Area": 0.009180577494134923,
+   "Shape__Length": 0.6524434193758131
+  },
+  {
+   "precinct": "Tillman",
+   "prct_code": 5,
+   "Area_SqMi": 24.7,
+   "Shape__Area": 0.006322453253233107,
+   "Shape__Length": 0.33083758901118543
+  },
+  {
+   "precinct": "North Main",
+   "prct_code": 6,
+   "Area_SqMi": 10.4,
+   "Shape__Area": 0.002673361450433731,
+   "Shape__Length": 0.22925882120949578
+  },
+  {
+   "precinct": "Airways",
+   "prct_code": 7,
+   "Area_SqMi": 17.8,
+   "Shape__Area": 0.004565960501622612,
+   "Shape__Length": 0.3624014067407795
+  },
+  {
+   "precinct": "Appling Farms",
+   "prct_code": 8,
+   "Area_SqMi": 44.2,
+   "Shape__Area": 0.01132262531041306,
+   "Shape__Length": 0.8495306273675675
+  }
+ ]
+}

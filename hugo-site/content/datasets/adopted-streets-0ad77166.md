@@ -13,7 +13,7 @@ inquiry_label: "Is your street adopted — and by whom?"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0ad7716656324cf7844fd2e1ffe1f6be/rest/services/OpenData/Transportation/FeatureServer/2"
 license: "custom"
 dataset_id: "0ad7716656324cf7844fd2e1ffe1f6be"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

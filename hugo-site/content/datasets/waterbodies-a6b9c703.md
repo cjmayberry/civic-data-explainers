@@ -9,7 +9,7 @@ cover: "covers/waterbodies-a6b9c703--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3"
 license: "custom"
 dataset_id: "a6b9c70396904437af69a95e49f9671e"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

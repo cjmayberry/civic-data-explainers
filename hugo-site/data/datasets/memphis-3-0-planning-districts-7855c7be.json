@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "name",
+  "objectid_1",
+  "objectid_2",
+  "shape_le_1",
+  "shape_le_2",
+  "shape_leng"
+ ],
+ "rows": [
+  {
+   "name": "Frayser",
+   "objectid_1": 0,
+   "objectid_2": 1,
+   "shape_le_1": 142832.60453,
+   "shape_le_2": 142832.60453,
+   "shape_leng": 0.429068584377
+  },
+  {
+   "name": "Raleigh",
+   "objectid_1": 0,
+   "objectid_2": 2,
+   "shape_le_1": 161250.922488,
+   "shape_le_2": 161250.922488,
+   "shape_leng": 0.488090747105
+  },
+  {
+   "name": "Cordova",
+   "objectid_1": 0,
+   "objectid_2": 3,
+   "shape_le_1": 300659.102317,
+   "shape_le_2": 239916.340969,
+   "shape_leng": 0.93951398615
+  },
+  {
+   "name": "East",
+   "objectid_1": 0,
+   "objectid_2": 4,
+   "shape_le_1": 185044.906308,
+   "shape_le_2": 181798.494004,
+   "shape_leng": 0.562454319807
+  },
+  {
+   "name": "Lamar",
+   "objectid_1": 0,
+   "objectid_2": 5,
+   "shape_le_1": 65301.7656292,
+   "shape_le_2": 65539.5745071,
+   "shape_leng": 0.199031503326
+  },
+  {
+   "name": "Jackson",
+   "objectid_1": 0,
+   "objectid_2": 6,
+   "shape_le_1": 89636.2768384,
+   "shape_le_2": 87613.6696999,
+   "shape_leng": 0.280743191831
+  },
+  {
+   "name": "North",
+   "objectid_1": 0,
+   "objectid_2": 7,
+   "shape_le_1": 103271.207131,
+   "shape_le_2": 103271.207131,
+   "shape_leng": 0.326495205146
+  },
+  {
+   "name": "Core City",
+   "objectid_1": 0,
+   "objectid_2": 8,
+   "shape_le_1": 100990.742319,
+   "shape_le_2": 99664.9168276,
+   "shape_leng": 0.316334557782
+  }
+ ]
+}

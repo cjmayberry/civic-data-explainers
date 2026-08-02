@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Approved_Date",
+  "CompanyName",
+  "OtherType",
+  "Address",
+  "City",
+  "County"
+ ],
+ "rows": [
+  {
+   "Approved_Date": 1765778400000,
+   "CompanyName": "Phoenix Assurance, LLC (M)",
+   "OtherType": "FTZ-77",
+   "Address": "4835 S. Mendenhall Drive",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1748581200000,
+   "CompanyName": "Unis (L)",
+   "OtherType": "FTZ-77",
+   "Address": "4550 Quality Dr",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1747717200000,
+   "CompanyName": "Pfizer (22)",
+   "OtherType": "FTZ-77",
+   "Address": "1855 N Shelby Oaks Dr",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1741240800000,
+   "CompanyName": "Hyosung HICO Project Saturn",
+   "OtherType": "Tennessee FastTrack Economic Development Grant",
+   "Address": "2865 Riverport Road",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1731564000000,
+   "CompanyName": "AAON, Inc.",
+   "OtherType": "Tennessee FastTrack Economic Development Grant",
+   "Address": "5106 Tradeport Dr",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1722315600000,
+   "CompanyName": "NeoTek (J)",
+   "OtherType": "FTZ-77",
+   "Address": "4500 E Shelby Dr, Ste 100",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1722315600000,
+   "CompanyName": "CE North America, LLC (K)",
+   "OtherType": "FTZ-77",
+   "Address": "4770 Malone Rd",
+   "City": "Memphis",
+   "County": "Shelby"
+  },
+  {
+   "Approved_Date": 1635656400000,
+   "CompanyName": "uLabs",
+   "OtherType": "Tennessee FastTrack Economic Development Grant",
+   "Address": " 7005 Appling Farms Pkwy Suite 103,",
+   "City": "Memphis",
+   "County": "Shelby"
+  }
+ ]
+}

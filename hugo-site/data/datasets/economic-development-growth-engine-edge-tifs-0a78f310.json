@@ -1,0 +1,60 @@
+{
+ "fields": [
+  "CompanyName",
+  "Address",
+  "City",
+  "County",
+  "State",
+  "ZIP_Code"
+ ],
+ "rows": [
+  {
+   "CompanyName": "UNDC-Highland Strip Revitalization",
+   "Address": "480 South Highland Street",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38111
+  },
+  {
+   "CompanyName": "Legacy at Countrywood",
+   "Address": "2736 Countrywood Parkway",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38016
+  },
+  {
+   "CompanyName": "Elvis Presley Enterprises, Inc.",
+   "Address": "3734 Elvis Presley Blvd",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38116
+  },
+  {
+   "CompanyName": "Parkside at Shelby Farms Development Area",
+   "Address": "6678 Mullins Station Road",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38134
+  },
+  {
+   "CompanyName": "Poplar Corridor Business District Association of Owners",
+   "Address": "5900 Poplar Avenue, Ste 100",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38119
+  },
+  {
+   "CompanyName": "Raleigh Town Center",
+   "Address": "3427 Austin Peay Hwy",
+   "City": "Memphis",
+   "County": "Shelby",
+   "State": "TN",
+   "ZIP_Code": 38128
+  }
+ ]
+}

@@ -9,7 +9,7 @@ cover: "covers/airport-boundaries-5bea8e9a--government--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5"
 license: "custom"
 dataset_id: "5bea8e9acd0e413bba4895a26a2ae328"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

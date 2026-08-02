@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ProjectID",
+  "ProjectName",
+  "Address",
+  "PropertyName",
+  "District",
+  "ProjectType"
+ ],
+ "rows": [
+  {
+   "ProjectID": 311,
+   "ProjectName": "Bass Pro Shops at the Pyramid",
+   "Address": "1 BASS PRO DR",
+   "PropertyName": "Bass Pro Shops at the Pyramid",
+   "District": "Core",
+   "ProjectType": "Renovation"
+  },
+  {
+   "ProjectID": 312,
+   "ProjectName": "Harbor Island Apartments",
+   "Address": "444 ISLAND DR",
+   "PropertyName": "",
+   "District": "Core",
+   "ProjectType": "New Construction"
+  },
+  {
+   "ProjectID": 313,
+   "ProjectName": "Crescent Bluff Apartments",
+   "Address": "25 E VIRGINIA AVE",
+   "PropertyName": "Crescent Bluffs",
+   "District": "South CBID",
+   "ProjectType": "New Construction"
+  },
+  {
+   "ProjectID": 314,
+   "ProjectName": "The Halloran Centre for Performing Arts & Education (Orpheum)",
+   "Address": "197 S MAIN ST",
+   "PropertyName": "Halloran Centre for Performing Arts & Education",
+   "District": "Core",
+   "ProjectType": "New Construction"
+  },
+  {
+   "ProjectID": 315,
+   "ProjectName": "Old Dominick Distillery",
+   "Address": "301 S FRONT ST",
+   "PropertyName": "Old Dominick's Distillery",
+   "District": "South CBID",
+   "ProjectType": "Renovation"
+  },
+  {
+   "ProjectID": 316,
+   "ProjectName": "Blues Hall of Fame",
+   "Address": "421 S MAIN ST",
+   "PropertyName": "Blues Hall of Fame",
+   "District": "South CBID",
+   "ProjectType": "Renovation"
+  },
+  {
+   "ProjectID": 317,
+   "ProjectName": "Crescent Bluff Apartments II",
+   "Address": "26 KENTUCKY ST",
+   "PropertyName": "Crescent Bluffs II",
+   "District": "South CBID",
+   "ProjectType": "New Construction"
+  },
+  {
+   "ProjectID": 318,
+   "ProjectName": "2nd Street Flats (formerly New Blossom)",
+   "Address": "375 S 3RD ST",
+   "PropertyName": "2nd Street Flats",
+   "District": "South CBID",
+   "ProjectType": "New Construction"
+  }
+ ]
+}

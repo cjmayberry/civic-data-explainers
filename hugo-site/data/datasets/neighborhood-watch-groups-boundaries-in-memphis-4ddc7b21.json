@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Name",
+  "FolderPath",
+  "SymbolID",
+  "AltMode",
+  "Base",
+  "Clamped"
+ ],
+ "rows": [
+  {
+   "Name": "Appletree Apartments",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "Bay Pointe",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "East Hickory Bluff & West Hickory Bluff",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "Forest Lakes Zone 1",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "Frayser Hills",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "Gardenwood Apartment Homes",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "The Grove (Rangeline)",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  },
+  {
+   "Name": "Life Line 2 Success",
+   "FolderPath": "Neighborhood Watch Groups, Memphis TN/Austin Peay NWG Boundaries",
+   "SymbolID": 0,
+   "AltMode": 0,
+   "Base": 0,
+   "Clamped": -1
+  }
+ ]
+}

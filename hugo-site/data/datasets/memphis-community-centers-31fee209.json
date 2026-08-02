@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "community_",
+  "street",
+  "zip",
+  "phone",
+  "website",
+  "council_di"
+ ],
+ "rows": [
+  {
+   "community_": "Bert Ferguson Community Center",
+   "street": "8505 Trinity Road",
+   "zip": 38018,
+   "phone": "901-636-0705",
+   "website": "https://memphisparks.com/park/bert-ferguson-park-community-center/",
+   "council_di": 2
+  },
+  {
+   "community_": "Kate Sexton Community Center",
+   "street": "1235 Brown Avenue",
+   "zip": 38107,
+   "phone": "901-636-0750",
+   "website": "https://memphisparks.com/park/klondike-park-katie-sexton-community-center/",
+   "council_di": 7
+  },
+  {
+   "community_": "Glenview Community Center",
+   "street": "1141 S. Barksdale Street",
+   "zip": 38114,
+   "phone": "901-636-7080",
+   "website": "https://memphisparks.com/park/glenview-park-community-center/",
+   "council_di": 4
+  },
+  {
+   "community_": "Marion Hale Community Center",
+   "street": "4791 Willow Road",
+   "zip": 38117,
+   "phone": "901-636-0789",
+   "website": "https://memphisparks.com/park/willow-park-marion-hale-community-center/",
+   "council_di": 5
+  },
+  {
+   "community_": "Hickory Hill Community Center",
+   "street": "3910 Ridgeway Road",
+   "zip": 38115,
+   "phone": "901-636-0780",
+   "website": "https://memphisparks.com/park/hickory-hill-park-community-center/",
+   "council_di": 3
+  },
+  {
+   "community_": "Cunningham Community Center",
+   "street": "3773 Old Allen Road",
+   "zip": 38128,
+   "phone": "901-636-3037",
+   "website": "https://memphisparks.com/park/j-t-willingham-park-cunningham-community-center/",
+   "council_di": 1
+  },
+  {
+   "community_": "Riverview Community Center",
+   "street": "1891 Kansas Street",
+   "zip": 38109,
+   "phone": "901-636-0795",
+   "website": "https://memphisparks.com/park/riverview-park-and-community-center/",
+   "council_di": 6
+  },
+  {
+   "community_": "Pine Hill Community Center",
+   "street": "1005 Alice Ave",
+   "zip": 38106,
+   "phone": "901-636-0793",
+   "website": "https://memphisparks.com/park/pine-hill-park-community-center/",
+   "council_di": 6
+  }
+ ]
+}

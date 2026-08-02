@@ -14,7 +14,7 @@ inquiry_extra: ["FDPRE", "FTYPE", "LEFTADD1"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5"
 license: "custom"
 dataset_id: "0e041a931ede4d38a9d23c5301708662"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

@@ -9,7 +9,7 @@ cover: "covers/index-grid-80e72538--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/80e725387d8848baa12f2374843043e3/rest/services/OpenData/Infrastructure_Survey/FeatureServer/2"
 license: "custom"
 dataset_id: "80e725387d8848baa12f2374843043e3"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

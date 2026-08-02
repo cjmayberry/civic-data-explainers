@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ProjectNumber",
+  "CompanyName",
+  "CityCouncilDistrict",
+  "CountyCommissionDistrict",
+  "ProjectType",
+  "PilotType"
+ ],
+ "rows": [
+  {
+   "ProjectNumber": 20260401,
+   "CompanyName": "Morgan Steel, LLC",
+   "CityCouncilDistrict": 6,
+   "CountyCommissionDistrict": 9,
+   "ProjectType": "Manufacturing",
+   "PilotType": "Jobs"
+  },
+  {
+   "ProjectNumber": 20250801,
+   "CompanyName": "Mallory Alexander International Logistics,LLC \n& Beeline Importand Services,LLC",
+   "CityCouncilDistrict": 3,
+   "CountyCommissionDistrict": 11,
+   "ProjectType": "Logistics",
+   "PilotType": "Jobs"
+  },
+  {
+   "ProjectNumber": 20250401,
+   "CompanyName": "LifeScience Logistics LLC",
+   "CityCouncilDistrict": 3,
+   "CountyCommissionDistrict": 12,
+   "ProjectType": "?logistics",
+   "PilotType": "Fast Track"
+  },
+  {
+   "ProjectNumber": 20241105,
+   "CompanyName": "AAON ",
+   "CityCouncilDistrict": 3,
+   "CountyCommissionDistrict": 12,
+   "ProjectType": "Manufacturing",
+   "PilotType": "Jobs"
+  },
+  {
+   "ProjectNumber": 20240717,
+   "CompanyName": "Reconext Tennessee, LLC?",
+   "CityCouncilDistrict": 3,
+   "CountyCommissionDistrict": 11,
+   "ProjectType": "Distribution",
+   "PilotType": "Fast Track"
+  },
+  {
+   "ProjectNumber": 20240201,
+   "CompanyName": "mStreet Fiber Memphis fka Blue Suede Networks, LLC",
+   "CityCouncilDistrict": 7,
+   "CountyCommissionDistrict": 8,
+   "ProjectType": "Office/HQ",
+   "PilotType": "Jobs"
+  },
+  {
+   "ProjectNumber": 20231105,
+   "CompanyName": "Fresh Start Facility Services, Inc.",
+   "CityCouncilDistrict": 6,
+   "CountyCommissionDistrict": 8,
+   "ProjectType": "Office",
+   "PilotType": "Fast Track"
+  },
+  {
+   "ProjectNumber": 20231005,
+   "CompanyName": "CRDN of the MidSouth",
+   "CityCouncilDistrict": 3,
+   "CountyCommissionDistrict": 10,
+   "ProjectType": "None",
+   "PilotType": "Fast Track"
+  }
+ ]
+}

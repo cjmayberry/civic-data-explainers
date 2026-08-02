@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "stop_id",
+  "stop_name",
+  "stop_desc",
+  "stop_lat",
+  "stop_lon",
+  "zone_id"
+ ],
+ "rows": [
+  {
+   "stop_id": "0:3900",
+   "stop_name": "DOUBLE TREE STREET at PARKROSE ROAD",
+   "stop_desc": "no 81",
+   "stop_lat": 35.025435,
+   "stop_lon": -90.103444,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:SPAWELEF",
+   "stop_name": "SOUTH PARKWAY@WELLINGTON",
+   "stop_desc": "st 2281 (no 1238)",
+   "stop_lat": 35.107321,
+   "stop_lon": -90.046639,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:FOUGEONN",
+   "stop_name": "4TH ST@GEORGIA AVE",
+   "stop_desc": "st 804 (no 15)",
+   "stop_lat": 35.128977,
+   "stop_lon": -90.05046,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:LAUWALNN",
+   "stop_name": "LAUDERDALE ST@WALDORF AVE",
+   "stop_desc": "st 4802",
+   "stop_lat": 35.105221,
+   "stop_lon": -90.043929,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:WHTC",
+   "stop_name": "WILLIAM HUDSON TRANSIT CENTER",
+   "stop_desc": "st 7259 (no 12)",
+   "stop_lat": 35.156554,
+   "stop_lon": -90.047698,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:MCLMISWN",
+   "stop_name": "MCLEMORE AVENUE at MISSISSIPPI BOULEVARD",
+   "stop_desc": "st 4276 (no 1237)",
+   "stop_lat": 35.115702,
+   "stop_lon": -90.037099,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:MAIMADIB",
+   "stop_name": "MAIN@MADISON TRLLY",
+   "stop_desc": "st 6502 (no 947)",
+   "stop_lat": 35.145179,
+   "stop_lon": -90.052815,
+   "zone_id": " "
+  },
+  {
+   "stop_id": "0:MAICOUOB",
+   "stop_name": "MAIN@MADISON TRLLY",
+   "stop_desc": "st 6510 (no 947)",
+   "stop_lat": 35.146627,
+   "stop_lon": -90.052261,
+   "zone_id": " "
+  }
+ ]
+}

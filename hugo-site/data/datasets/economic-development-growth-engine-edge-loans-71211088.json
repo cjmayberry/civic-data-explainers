@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ProjectNumber",
+  "CompanyName",
+  "ProjectType",
+  "LoanType",
+  "Address",
+  "City"
+ ],
+ "rows": [
+  {
+   "ProjectNumber": "ED20260701",
+   "CompanyName": "JTAP Kitchen, LLC",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "3397 Summer Ave",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260601",
+   "CompanyName": "Brilliant Minds Childcare Development Center dba Dr. Irma Davis",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "1019 Berclair Rd,",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260602",
+   "CompanyName": "Destination Education Academy of Memphis, Inc",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "4064 St Elmo Ave",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260401",
+   "CompanyName": "Icon Salon Suites, LLC",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "2185 Young Ave",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260402",
+   "CompanyName": "Wakil Solutions, LLC",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "269 S Parkway W",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260403",
+   "CompanyName": "Peace Park Memphis Incÿ",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "275 N Dunlap St.",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260201",
+   "CompanyName": "Bad Timing, LLC",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "626 Minor Road",
+   "City": "Memphis"
+  },
+  {
+   "ProjectNumber": "ED20260101",
+   "CompanyName": "Big Bills Barbecue, LLC",
+   "ProjectType": "Neighborhood Project",
+   "LoanType": "Inner City Economic Development Loan",
+   "Address": "4101 Elvis Presley Blvd",
+   "City": "Memphis"
+  }
+ ]
+}

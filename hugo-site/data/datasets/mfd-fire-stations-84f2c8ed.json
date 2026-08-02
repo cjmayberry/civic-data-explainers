@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "FireStatio",
+  "Name",
+  "Agency",
+  "Contact",
+  "Phone",
+  "Email"
+ ],
+ "rows": [
+  {
+   "FireStatio": "56",
+   "Name": "FS-56",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 380-3786",
+   "Email": " "
+  },
+  {
+   "FireStatio": "00",
+   "Name": "Starlifter",
+   "Agency": "TANG",
+   "Contact": " ",
+   "Phone": " ",
+   "Email": " "
+  },
+  {
+   "FireStatio": "13",
+   "Name": "FS-13",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 726-4514",
+   "Email": " "
+  },
+  {
+   "FireStatio": "55",
+   "Name": "FS-55",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 758-8711",
+   "Email": " "
+  },
+  {
+   "FireStatio": "31",
+   "Name": "FS-31",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 358-2664",
+   "Email": " "
+  },
+  {
+   "FireStatio": "26",
+   "Name": "FS-26",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 358-5626",
+   "Email": " "
+  },
+  {
+   "FireStatio": "27",
+   "Name": "FS-27",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 357-0937",
+   "Email": " "
+  },
+  {
+   "FireStatio": "46",
+   "Name": "FS-46",
+   "Agency": "MEMPHIS FS",
+   "Contact": " ",
+   "Phone": "(901) 388-8467",
+   "Email": " "
+  }
+ ]
+}

@@ -15,7 +15,7 @@ inquiry_extra: ["Reported_Time"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/01c97e2928134efc93157d99f2d23047/rest/services/OpenData/Public_Safety/FeatureServer/0"
 license: "custom"
 dataset_id: "01c97e2928134efc93157d99f2d23047"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

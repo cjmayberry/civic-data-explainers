@@ -1,0 +1,22 @@
+{
+ "fields": [
+  "SD",
+  "Shape_Leng",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "SD": 8,
+   "Shape_Leng": 519206.9377,
+   "Shape__Area": 5229445596.053574,
+   "Shape__Length": 521696.13673294353
+  },
+  {
+   "SD": 9,
+   "Shape_Leng": 609635.394682,
+   "Shape__Area": 3162172891.7330933,
+   "Shape__Length": 609769.1110284594
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "fields": [
+  "id",
+  "Shape__Area",
+  "Shape__Length",
+  "Name"
+ ],
+ "rows": [
+  {
+   "id": 0,
+   "Shape__Area": 0.0015723531575986271,
+   "Shape__Length": 0.2552273684218575,
+   "Name": "CBID"
+  }
+ ]
+}

@@ -12,6 +12,20 @@
   </div>
 </section>
 
+<section class="cities-block">
+  <h2 class="block-title">Cities</h2>
+  <div class="card-grid">
+    {{ range $key, $city := .Site.Data.cities }}
+    {{ $href := cond (eq $key "oklahoma-city") "/datasets/" (printf "/%s/" $key) }}
+    <a class="card city-card" href="{{ $href | relURL }}">
+      <span class="kicker">City catalog</span>
+      <h3>{{ $city.name }}</h3>
+      <p>{{ $city.blurb }}</p>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
 <section class="ticker"><div class="ticker-track">
   <span class="ticker-label">Live updates</span>
   <span class="ticker-item">Street centerlines update daily</span>

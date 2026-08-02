@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "STATEFP",
+  "COUNTYFP",
+  "TRACTCE",
+  "GEOID",
+  "NAME",
+  "NAMELSAD"
+ ],
+ "rows": [
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "009700",
+   "GEOID": "47157009700",
+   "NAME": "97",
+   "NAMELSAD": "Census Tract 97"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "009800",
+   "GEOID": "47157009800",
+   "NAME": "98",
+   "NAMELSAD": "Census Tract 98"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021420",
+   "GEOID": "47157021420",
+   "NAME": "214.20",
+   "NAMELSAD": "Census Tract 214.20"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021430",
+   "GEOID": "47157021430",
+   "NAME": "214.30",
+   "NAMELSAD": "Census Tract 214.30"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021754",
+   "GEOID": "47157021754",
+   "NAME": "217.54",
+   "NAMELSAD": "Census Tract 217.54"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021900",
+   "GEOID": "47157021900",
+   "NAME": "219",
+   "NAMELSAD": "Census Tract 219"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021753",
+   "GEOID": "47157021753",
+   "NAME": "217.53",
+   "NAMELSAD": "Census Tract 217.53"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "006800",
+   "GEOID": "47157006800",
+   "NAME": "68",
+   "NAMELSAD": "Census Tract 68"
+  }
+ ]
+}

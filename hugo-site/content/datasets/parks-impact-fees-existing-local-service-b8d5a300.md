@@ -9,7 +9,7 @@ cover: "covers/parks-impact-fees-existing-local-service-b8d5a300--licensing--map
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b8d5a30010d94401b6be773a0786c05f/rest/services/OpenData/Licensing_Permits/FeatureServer/2"
 license: "custom"
 dataset_id: "b8d5a30010d94401b6be773a0786c05f"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

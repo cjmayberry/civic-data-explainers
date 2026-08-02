@@ -478,6 +478,13 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
 .enrichment-src { font-size: 0.78rem; margin: 0; }
 .enrichment-src a { color: var(--blue); }
 
+/* ---------- city cards ---------- */
+.cities-block { margin: 2rem auto; max-width: 1080px; padding: 0 1.25rem; }
+.cities-block .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.city-card { border-top: 3px solid var(--amber); }
+.city-card h3 { margin: 0.35rem 0 0.4rem; }
+.city-card p { font-size: 0.88rem; }
+
 .article-body {
   font-size: 1.05rem;
   line-height: 1.75;

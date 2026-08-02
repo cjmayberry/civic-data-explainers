@@ -1,0 +1,46 @@
+{
+ "fields": [
+  "PW_SolidWa",
+  "Area_Manag",
+  "Shape_Leng",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "PW_SolidWa": "D",
+   "Area_Manag": "Micheal Smith",
+   "Shape_Leng": 250194.047456,
+   "Shape__Area": 2348191297.358551,
+   "Shape__Length": 250194.0474563063
+  },
+  {
+   "PW_SolidWa": "E",
+   "Area_Manag": " ",
+   "Shape_Leng": 439719.426193,
+   "Shape__Area": 1637257453.3712463,
+   "Shape__Length": 439719.4261925062
+  },
+  {
+   "PW_SolidWa": "B",
+   "Area_Manag": "Ken Millen",
+   "Shape_Leng": 203101.99059,
+   "Shape__Area": 1051366366.5567474,
+   "Shape__Length": 203101.99059031677
+  },
+  {
+   "PW_SolidWa": "C",
+   "Area_Manag": "Larry Bridges",
+   "Shape_Leng": 252793.719744,
+   "Shape__Area": 958540773.0353394,
+   "Shape__Length": 252793.7197436849
+  },
+  {
+   "PW_SolidWa": "A",
+   "Area_Manag": "Orlando Ward",
+   "Shape_Leng": 273650.394066,
+   "Shape__Area": 1754213417.5264893,
+   "Shape__Length": 273650.3940662307
+  }
+ ]
+}

@@ -14,7 +14,7 @@ inquiry_extra: ["location2"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a58d4715875a4c62b15cd3269c9df891/rest/services/OpenData/Transportation/FeatureServer/6"
 license: "custom"
 dataset_id: "a58d4715875a4c62b15cd3269c9df891"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

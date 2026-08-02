@@ -9,7 +9,7 @@ cover: "covers/pedestrian-projects-34783ad4--infrastructure--map_real_geometry.p
 source_url: "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2"
 license: "custom"
 dataset_id: "34783ad443fb438b9905b9c85b96cbf8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

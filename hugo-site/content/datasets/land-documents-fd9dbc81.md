@@ -15,7 +15,7 @@ inquiry_extra: ["Number", "Grantor"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8"
 license: "custom"
 dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

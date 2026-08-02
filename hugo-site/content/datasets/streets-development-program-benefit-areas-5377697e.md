@@ -9,7 +9,7 @@ cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--ma
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3"
 license: "custom"
 dataset_id: "5377697e59b34ad1a749063b73205886"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

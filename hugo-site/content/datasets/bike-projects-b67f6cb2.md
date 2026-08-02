@@ -9,7 +9,7 @@ cover: "covers/bike-projects-b67f6cb2--infrastructure--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b67f6cb2055d4a588795f2c4dbc986a0/rest/services/OpenData/Infrastructure_Projects/FeatureServer/0"
 license: "custom"
 dataset_id: "b67f6cb2055d4a588795f2c4dbc986a0"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

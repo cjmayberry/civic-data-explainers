@@ -9,7 +9,7 @@ cover: "covers/council-wards-666b9654--government--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/666b9654ab104ba7ac49870c66190e9c/rest/services/OpenData/Government_Boundaries/FeatureServer/2"
 license: "custom"
 dataset_id: "666b9654ab104ba7ac49870c66190e9c"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

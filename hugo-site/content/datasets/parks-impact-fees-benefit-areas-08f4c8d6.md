@@ -9,7 +9,7 @@ cover: "covers/parks-impact-fees-benefit-areas-08f4c8d6--licensing--map_real_geo
 source_url: "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1"
 license: "custom"
 dataset_id: "08f4c8d6719e47d088aa232f57d68cc8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

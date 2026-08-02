@@ -1,0 +1,20 @@
+{
+ "fields": [
+  "id",
+  "sq_miles",
+  "shape_leng",
+  "Shape__Area",
+  "Shape__Length",
+  "Name"
+ ],
+ "rows": [
+  {
+   "id": 0,
+   "sq_miles": 2.61276,
+   "shape_leng": 41880.1085382,
+   "Shape__Area": 0.0006693170303151419,
+   "Shape__Length": 0.12939674332977338,
+   "Name": "MMDC"
+  }
+ ]
+}

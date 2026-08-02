@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Record_ID",
+  "Issued_Date",
+  "Sub_Type",
+  "Construction_Type",
+  "Valuation",
+  "Address"
+ ],
+ "rows": [
+  {
+   "Record_ID": "RES-ALT-21-000783",
+   "Issued_Date": 1624424400000,
+   "Sub_Type": "Residential",
+   "Construction_Type": "Alteration",
+   "Valuation": 13733.89,
+   "Address": "7921 MUDVILLE RD"
+  },
+  {
+   "Record_ID": "RES-ADD-21-000645",
+   "Issued_Date": 1653022800000,
+   "Sub_Type": "RES",
+   "Construction_Type": "ADD",
+   "Valuation": 15000,
+   "Address": "6725 RIVER BIRCH RD"
+  },
+  {
+   "Record_ID": "RES-NEW-21-000034",
+   "Issued_Date": 1611727200000,
+   "Sub_Type": "Residential",
+   "Construction_Type": "New",
+   "Valuation": 202900,
+   "Address": "5182 SHELLBACK DR"
+  },
+  {
+   "Record_ID": "RES-NEW-21-000214",
+   "Issued_Date": 1618808400000,
+   "Sub_Type": "Residential",
+   "Construction_Type": "New",
+   "Valuation": 550000,
+   "Address": "4766 KING EVERETT CV"
+  },
+  {
+   "Record_ID": "RES-NEW-22-000365",
+   "Issued_Date": 1653368400000,
+   "Sub_Type": "RES",
+   "Construction_Type": "NEW",
+   "Valuation": 250000,
+   "Address": "4787 BARRETT OAKS DR"
+  },
+  {
+   "Record_ID": "COM-ALT-22-000217",
+   "Issued_Date": 1652158800000,
+   "Sub_Type": "COM",
+   "Construction_Type": "ALT",
+   "Valuation": 2480061,
+   "Address": "6075 POPLAR AVE"
+  },
+  {
+   "Record_ID": "COM-ACC-21-000070",
+   "Issued_Date": 1632114000000,
+   "Sub_Type": "COM",
+   "Construction_Type": "ACC",
+   "Valuation": 97000,
+   "Address": "10425 US HIGHWAY 64"
+  },
+  {
+   "Record_ID": "COM-ALT-21-000468",
+   "Issued_Date": 1622091600000,
+   "Sub_Type": "Commercial",
+   "Construction_Type": "Alteration",
+   "Valuation": 60265,
+   "Address": "5050 E HOLMES RD"
+  }
+ ]
+}

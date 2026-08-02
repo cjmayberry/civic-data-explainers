@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $city := index $.Site.Data.cities (.Params.city | default "memphis") }}
+<section class="page-head">
+  <span class="kicker">City #2 · drafted by the same pipeline</span>
+  <h1>{{ $city.name }} explainers</h1>
+  <p class="dek">{{ $city.blurb }} Every page here was produced by the civic-data pipeline from {{ $city.name }}'s own open-data catalog — same manifest schema, same map covers, same explainer shape as Oklahoma City.</p>
+  <p class="meta"><a href="{{ "/" | relURL }}">← All cities</a></p>
+</section>
+<section class="card-grid">
+  {{ range .Pages.ByTitle }}
+  <a class="card" href="{{ .RelPermalink }}">
+    {{ with .Params.cover }}<img class="card-cover" src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy">{{ end }}
+    <span class="kicker">{{ .Params.category | default (index .Params.categories 0) }}</span>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.teaser | default .Description }}</p>
+  </a>
+  {{ end }}
+</section>
+{{ end }}

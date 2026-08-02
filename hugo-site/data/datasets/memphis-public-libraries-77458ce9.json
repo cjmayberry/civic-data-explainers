@@ -1,0 +1,58 @@
+{
+ "fields": [
+  "user_name",
+  "staddr",
+  "postal",
+  "user_phone"
+ ],
+ "rows": [
+  {
+   "user_name": "Cherokee Library",
+   "staddr": "3300 Sharpe Avenue",
+   "postal": "38111",
+   "user_phone": "901-415-2762"
+  },
+  {
+   "user_name": "Gaston Park Library",
+   "staddr": "1040 S 3rd Street",
+   "postal": "38106",
+   "user_phone": "901-415-2769"
+  },
+  {
+   "user_name": "North Library",
+   "staddr": "1192 Vollintine Avenue",
+   "postal": "38107",
+   "user_phone": "901-415-2775"
+  },
+  {
+   "user_name": "Cossitt Downtown Library (temporarily closed)",
+   "staddr": "33 S Front Street",
+   "postal": "38103",
+   "user_phone": "901-415-2766"
+  },
+  {
+   "user_name": "Cordova Library",
+   "staddr": "8457 Trinity Road",
+   "postal": "38018",
+   "user_phone": "901-415-2764"
+  },
+  {
+   "user_name": "Hollywood Library",
+   "staddr": "1530 N Hollywood Street",
+   "postal": "38108",
+   "user_phone": "901-415-2772"
+  },
+  {
+   "user_name": "Parkway Village Library",
+   "staddr": "4655 Knight Arnold Road",
+   "postal": "38118",
+   "user_phone": "901-415-2776"
+  },
+  {
+   "user_name": "Levi Library",
+   "staddr": "3676 S 3rd Street",
+   "postal": "38109",
+   "user_phone": "901-415-2773"
+  }
+ ]
+}

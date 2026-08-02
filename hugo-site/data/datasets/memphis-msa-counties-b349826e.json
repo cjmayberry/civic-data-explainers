@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "STATEFP",
+  "COUNTYFP",
+  "COUNTYNS",
+  "GEOID",
+  "NAME",
+  "NAMELSAD"
+ ],
+ "rows": [
+  {
+   "STATEFP": "28",
+   "COUNTYFP": "143",
+   "COUNTYNS": "00695792",
+   "GEOID": "28143",
+   "NAME": "Tunica",
+   "NAMELSAD": "Tunica County"
+  },
+  {
+   "STATEFP": "28",
+   "COUNTYFP": "137",
+   "COUNTYNS": "00695789",
+   "GEOID": "28137",
+   "NAME": "Tate",
+   "NAMELSAD": "Tate County"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "COUNTYNS": "01639790",
+   "GEOID": "47157",
+   "NAME": "Shelby",
+   "NAMELSAD": "Shelby County"
+  },
+  {
+   "STATEFP": "28",
+   "COUNTYFP": "093",
+   "COUNTYNS": "00695770",
+   "GEOID": "28093",
+   "NAME": "Marshall",
+   "NAMELSAD": "Marshall County"
+  },
+  {
+   "STATEFP": "05",
+   "COUNTYFP": "035",
+   "COUNTYNS": "00069162",
+   "GEOID": "05035",
+   "NAME": "Crittenden",
+   "NAMELSAD": "Crittenden County"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "167",
+   "COUNTYNS": "01639795",
+   "GEOID": "47167",
+   "NAME": "Tipton",
+   "NAMELSAD": "Tipton County"
+  },
+  {
+   "STATEFP": "28",
+   "COUNTYFP": "033",
+   "COUNTYNS": "00695741",
+   "GEOID": "28033",
+   "NAME": "DeSoto",
+   "NAMELSAD": "DeSoto County"
+  },
+  {
+   "STATEFP": "47",
+   "COUNTYFP": "047",
+   "COUNTYNS": "01639742",
+   "GEOID": "47047",
+   "NAME": "Fayette",
+   "NAMELSAD": "Fayette County"
+  }
+ ]
+}

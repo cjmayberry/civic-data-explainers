@@ -10,7 +10,7 @@ map_data: "img/data/overlay-point-zoning-e41be4c9.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0"
 license: "custom"
 dataset_id: "e41be4c9bd794c2db35270448da83c82"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

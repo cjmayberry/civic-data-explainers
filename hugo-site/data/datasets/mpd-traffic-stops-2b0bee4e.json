@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Event_Number",
+  "Event_Type",
+  "Reported_Datetime",
+  "Disposition_Code",
+  "Location",
+  "Latitude"
+ ],
+ "rows": [
+  {
+   "Event_Number": "P212130383",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627810333000,
+   "Disposition_Code": "CITATION",
+   "Location": "385 E/RIDGEWAY RD MEMPHIS",
+   "Latitude": 35.074924
+  },
+  {
+   "Event_Number": "P212130407",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627811542000,
+   "Disposition_Code": "ADV",
+   "Location": "240 E/WALNUT GROVE RD MEMPHIS",
+   "Latitude": 35.130945
+  },
+  {
+   "Event_Number": "P212130414",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627811737000,
+   "Disposition_Code": "ADV",
+   "Location": "2109 E HILLVIEW CV MEMPHIS",
+   "Latitude": 35.077349
+  },
+  {
+   "Event_Number": "P212130482",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627816689000,
+   "Disposition_Code": "ADV",
+   "Location": "240 N/NORRIS RD MEMPHIS:NB SIL CHEV IMP TEMP TAG",
+   "Latitude": 35.083455
+  },
+  {
+   "Event_Number": "P212130485",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627816802000,
+   "Disposition_Code": "ADV",
+   "Location": "3636 S MENDENHALL RD MEMPHIS: @MCDONALD'S",
+   "Latitude": 35.049504
+  },
+  {
+   "Event_Number": "P212130491",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627817185000,
+   "Disposition_Code": "CITATION",
+   "Location": "55 N/240 W MEMPHIS:5Z90E6 WHI JEEP WRA",
+   "Latitude": 35.072455
+  },
+  {
+   "Event_Number": "P212130492",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627817274000,
+   "Disposition_Code": "CITATION",
+   "Location": "WINCHESTER RD/RIDGE MEADOW PKWY MEMPHIS: TN/1Y77N9",
+   "Latitude": 35.049859
+  },
+  {
+   "Event_Number": "P212130603",
+   "Event_Type": "Traffic Stop",
+   "Reported_Datetime": 1627823047000,
+   "Disposition_Code": "ADV",
+   "Location": "240 S/LAMAR AVE MEMPHIS: alias I 240 S/LAMAR AVE MEMPHIS",
+   "Latitude": 35.130449
+  }
+ ]
+}

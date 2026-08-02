@@ -9,7 +9,7 @@ cover: "covers/overlay-parcel-zoning-175708d7--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1"
 license: "custom"
 dataset_id: "175708d7ab7148109d1b9d27c82008d8"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

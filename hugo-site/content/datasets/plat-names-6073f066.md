@@ -10,7 +10,7 @@ map_data: "img/data/plat-names-6073f066.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10"
 license: "custom"
 dataset_id: "6073f066182b4a3c87f8efc001ab0ee3"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

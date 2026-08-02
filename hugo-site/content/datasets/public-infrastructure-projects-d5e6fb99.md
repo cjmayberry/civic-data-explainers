@@ -9,7 +9,7 @@ cover: "covers/public-infrastructure-projects-d5e6fb99--infrastructure--map_real
 source_url: "https://services5.arcgis.com/2mOVdIcRtNH2JsSF/arcgis/rest/services/Infrastructure_Projects_OD/FeatureServer"
 license: "custom"
 dataset_id: "d5e6fb99125c44a6b5165336607fe199"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 featured: true

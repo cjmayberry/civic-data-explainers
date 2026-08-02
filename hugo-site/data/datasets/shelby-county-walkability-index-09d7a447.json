@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "GEOID10",
+  "GEOID20",
+  "STATEFP",
+  "COUNTYFP",
+  "TRACTCE",
+  "BLKGRPCE"
+ ],
+ "rows": [
+  {
+   "GEOID10": "471570217444",
+   "GEOID20": "471570217444",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021744",
+   "BLKGRPCE": "4"
+  },
+  {
+   "GEOID10": "471570217442",
+   "GEOID20": "471570217442",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "021744",
+   "BLKGRPCE": "2"
+  },
+  {
+   "GEOID10": "471570201012",
+   "GEOID20": "471570201012",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "020101",
+   "BLKGRPCE": "2"
+  },
+  {
+   "GEOID10": "471570222202",
+   "GEOID20": "471570222202",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "022220",
+   "BLKGRPCE": "2"
+  },
+  {
+   "GEOID10": "471570222205",
+   "GEOID20": "471570222205",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "022220",
+   "BLKGRPCE": "5"
+  },
+  {
+   "GEOID10": "471570223101",
+   "GEOID20": "471570223101",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "022310",
+   "BLKGRPCE": "1"
+  },
+  {
+   "GEOID10": "471570223102",
+   "GEOID20": "471570223102",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "022310",
+   "BLKGRPCE": "2"
+  },
+  {
+   "GEOID10": "471570223105",
+   "GEOID20": "471570223105",
+   "STATEFP": "47",
+   "COUNTYFP": "157",
+   "TRACTCE": "022310",
+   "BLKGRPCE": "5"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "Completion_Date",
+  "Address_Rounded",
+  "City",
+  "State",
+  "ZIP_Code",
+  "Project_Name"
+ ],
+ "rows": [
+  {
+   "Completion_Date": 1246338000000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38127.",
+   "Project_Name": "Pershing Park"
+  },
+  {
+   "Completion_Date": 1246338000000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38107.",
+   "Project_Name": "Chicago Park"
+  },
+  {
+   "Completion_Date": 1259560800000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38107.",
+   "Project_Name": "Bickford Square"
+  },
+  {
+   "Completion_Date": 1259560800000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38106.",
+   "Project_Name": "Ruby Oaks"
+  },
+  {
+   "Completion_Date": 1262239200000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38105.",
+   "Project_Name": "Alabama Plaza Demolition"
+  },
+  {
+   "Completion_Date": 1285909200000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38106.",
+   "Project_Name": "Texas Court Acquisition"
+  },
+  {
+   "Completion_Date": 1307077200000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38107.",
+   "Project_Name": "Aprilwoods West Apartments"
+  },
+  {
+   "Completion_Date": 1317358800000,
+   "Address_Rounded": "",
+   "City": "Memphis",
+   "State": "TN",
+   "ZIP_Code": "38107.",
+   "Project_Name": "Saints Court"
+  }
+ ]
+}

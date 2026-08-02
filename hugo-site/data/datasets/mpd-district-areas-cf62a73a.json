@@ -1,0 +1,22 @@
+{
+ "fields": [
+  "district",
+  "shape_leng",
+  "Shape__Area",
+  "Shape__Length"
+ ],
+ "rows": [
+  {
+   "district": 1,
+   "shape_leng": 359219.477428,
+   "Shape__Area": 0.037096517495683656,
+   "Shape__Length": 1.138668157564499
+  },
+  {
+   "district": 2,
+   "shape_leng": 615306.0714,
+   "Shape__Area": 0.04121238625452861,
+   "Shape__Length": 1.8987778354630238
+  }
+ ]
+}

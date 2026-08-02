@@ -9,7 +9,7 @@ cover: "covers/building-footprints-2d4cd6c3--infrastructure--map_real_geometry.p
 source_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2"
 license: "custom"
 dataset_id: "2d4cd6c3279f48f394329f3367069c61"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

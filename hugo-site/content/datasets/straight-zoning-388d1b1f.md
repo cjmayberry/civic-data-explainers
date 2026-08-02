@@ -9,7 +9,7 @@ cover: "covers/straight-zoning-388d1b1f--licensing--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/388d1b1f0e804e378a2d138c39919085/rest/services/OpenData/Licensing_Zoning/FeatureServer/3"
 license: "custom"
 dataset_id: "388d1b1f0e804e378a2d138c39919085"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

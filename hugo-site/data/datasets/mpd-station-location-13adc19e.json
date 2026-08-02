@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "police_sta",
+  "street_add",
+  "zip_code",
+  "phone",
+  "police_dis",
+  "precinct_a"
+ ],
+ "rows": [
+  {
+   "police_sta": "Ridgeway Station",
+   "street_add": "3840 Ridgeway Road",
+   "zip_code": 38115,
+   "phone": "901-636-4531",
+   "police_dis": 1,
+   "precinct_a": 21.71
+  },
+  {
+   "police_sta": "Tillman Station",
+   "street_add": "426 Tillman Street",
+   "zip_code": 38112,
+   "phone": "901-636-3000",
+   "police_dis": 2,
+   "precinct_a": 25.99
+  },
+  {
+   "police_sta": "Airways Station",
+   "street_add": "2234 Truitt Street",
+   "zip_code": 38114,
+   "phone": "901-636-4800",
+   "police_dis": 1,
+   "precinct_a": 19
+  },
+  {
+   "police_sta": "Old Allen Station",
+   "street_add": "3633  Old Allen Road",
+   "zip_code": 38128,
+   "phone": "901-636-4399",
+   "police_dis": 2,
+   "precinct_a": 50.98
+  },
+  {
+   "police_sta": "Mt. Moriah Station",
+   "street_add": "2602 Mt. Moriah Road",
+   "zip_code": 38115,
+   "phone": "901-636-4199",
+   "police_dis": 1,
+   "precinct_a": 42.71
+  },
+  {
+   "police_sta": "Crump Station",
+   "street_add": "949 E. H. Crump Boulevard",
+   "zip_code": 38104,
+   "phone": "901-636-4600",
+   "police_dis": 2,
+   "precinct_a": 35.8
+  },
+  {
+   "police_sta": "Raines Station",
+   "street_add": "791 E. Raines Road",
+   "zip_code": 38116,
+   "phone": "901-636-4599",
+   "police_dis": 1,
+   "precinct_a": 78.4
+  },
+  {
+   "police_sta": "North Main Station",
+   "street_add": "444 N. Main Street",
+   "zip_code": 38103,
+   "phone": "901-636-4099",
+   "police_dis": 2,
+   "precinct_a": 5.01
+  }
+ ]
+}

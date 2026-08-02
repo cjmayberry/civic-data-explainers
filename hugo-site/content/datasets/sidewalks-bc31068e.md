@@ -9,7 +9,7 @@ cover: "covers/sidewalks-bc31068e--transportation--map_real_geometry.png"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/bc31068e20ed4b2fa1265bb810b1de23/rest/services/OpenData/Transportation/FeatureServer/1"
 license: "custom"
 dataset_id: "bc31068e20ed4b2fa1265bb810b1de23"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

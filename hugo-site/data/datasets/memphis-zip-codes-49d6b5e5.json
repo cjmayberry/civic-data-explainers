@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "GEOID",
+  "ALAND",
+  "AWATER",
+  "INTPTLAT",
+  "INTPTLON",
+  "Shape__Area"
+ ],
+ "rows": [
+  {
+   "GEOID": "38002",
+   "ALAND": 301517800,
+   "AWATER": 1234760,
+   "INTPTLAT": "+35.2863553",
+   "INTPTLON": "-89.7002741",
+   "Shape__Area": 5.298565429256996e-05
+  },
+  {
+   "GEOID": "38016",
+   "ALAND": 49328546,
+   "AWATER": 247199,
+   "INTPTLAT": "+35.1808599",
+   "INTPTLON": "-89.7598383",
+   "Shape__Area": 0.0025544643888224527
+  },
+  {
+   "GEOID": "38018",
+   "ALAND": 47830952,
+   "AWATER": 169847,
+   "INTPTLAT": "+35.1386126",
+   "INTPTLON": "-89.7664237",
+   "Shape__Area": 0.0016450336129310017
+  },
+  {
+   "GEOID": "38053",
+   "ALAND": 456895047,
+   "AWATER": 29529203,
+   "INTPTLAT": "+35.3466865",
+   "INTPTLON": "-89.9515238",
+   "Shape__Area": 3.855892600768129e-06
+  },
+  {
+   "GEOID": "38103",
+   "ALAND": 6838991,
+   "AWATER": 3701330,
+   "INTPTLAT": "+35.1530500",
+   "INTPTLON": "-90.0549790",
+   "Shape__Area": 0.0009615646586098592
+  },
+  {
+   "GEOID": "38104",
+   "ALAND": 13204726,
+   "AWATER": 0,
+   "INTPTLAT": "+35.1325491",
+   "INTPTLON": "-90.0037279",
+   "Shape__Area": 0.0013059206976322457
+  },
+  {
+   "GEOID": "38105",
+   "ALAND": 4409365,
+   "AWATER": 20044,
+   "INTPTLAT": "+35.1514190",
+   "INTPTLON": "-90.0354680",
+   "Shape__Area": 0.0004381582100450032
+  },
+  {
+   "GEOID": "38106",
+   "ALAND": 67145446,
+   "AWATER": 4249286,
+   "INTPTLAT": "+35.1020641",
+   "INTPTLON": "-90.0946868",
+   "Shape__Area": 0.006898311161421589
+  }
+ ]
+}

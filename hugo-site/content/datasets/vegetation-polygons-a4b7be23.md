@@ -9,7 +9,7 @@ cover: "covers/vegetation-polygons-a4b7be23--infrastructure--map_real_geometry.p
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6"
 license: "custom"
 dataset_id: "a4b7be23add94d6a9f03cd8b7249130a"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

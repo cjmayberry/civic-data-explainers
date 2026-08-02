@@ -10,7 +10,7 @@ map_data: "img/data/storm-sewer-junctions-35d63012.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0"
 license: "custom"
 dataset_id: "35d63012d1534c67899f79ad75a53ca1"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:

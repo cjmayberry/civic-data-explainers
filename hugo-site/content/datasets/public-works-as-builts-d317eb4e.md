@@ -10,7 +10,7 @@ map_data: "img/data/public-works-as-builts-d317eb4e.geojson"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3"
 license: "custom"
 dataset_id: "d317eb4e5f544ff9a9f48f1fcdc09977"
-city: "Oklahoma City"
+city: "oklahoma-city"
 site_url: "https://open-okc.hub.arcgis.com"
 draft: false
 dictionary:
