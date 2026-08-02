@@ -1,0 +1,37 @@
+{
+  "schema": 2,
+  "city": "Oklahoma City",
+  "prompt_version": "v2-pavement-shape",
+  "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
+  "generated_at": "2026-08-02T04:47:15Z",
+  "drafts": [
+    {
+      "slug": "mpd-traffic-stops-2b0bee4e",
+      "body": "## What this is  \nA daily-updated record of traffic stops made by the Metropolitan Police Department (MPD).\n\n## Why it matters to you  \nThis data helps residents understand where and why police are stopping drivers in their city. If you drive, bike, or walk near high-stop areas, you might see more police presence. Neighborhood groups use this to discuss policing priorities with local precincts. Businesses near frequent stop locations may notice impacts on customer parking or foot traffic.\n\n## How to read this data  \nSince no data dictionary is provided, we can only confirm this dataset tracks:  \n- **Location**: Where stops occur (though exact address precision isn’t specified)  \n- **Timing**: Daily updates suggest dates/times may be included  \n- **Separate citations**: Traffic tickets are recorded elsewhere (per the description)  \n\n## Where this leaves you  \nWhile this dataset hints at traffic enforcement patterns, the lack of detailed fields means you can’t yet look up stops by your block or see reasons for stops. For official reports, contact MPD directly.  \n\n*(Word count: 160)*",
+      "error": null,
+      "needs_review": true,
+      "reason": "possible invented field: 'Location'"
+    },
+    {
+      "slug": "mpd-wards-cfbaeae2",
+      "body": "## What this is  \nThis dataset tracks police ward boundaries in the city.\n\n## Why it matters to you  \nPolice wards determine which officers patrol your neighborhood and where emergency calls are routed. If you report a crime or need urgent assistance, the responding unit typically comes from your assigned ward. Residents often use this information to:  \n- Find their local community policing meetings  \n- Compare response times between wards  \n- Understand which station handles their neighborhood's safety concerns  \n\n## How to read this data  \nSince no data dictionary is provided, this dataset likely contains geographic boundaries (like ward shapes or IDs) but no detailed statistics about crime or response times. You'd typically see:  \n- Ward numbers or names identifying patrol areas  \n- Geographic coordinates or boundaries marking ward edges  \n\n## Where this leaves you  \nWhile you can't look up ward-specific crime data here, knowing your ward helps direct safety concerns to the right police station. Check the city's crime data portal separately for statistics tied to these boundaries.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    },
+    {
+      "slug": "shelby-county-walkability-index-09d7a447",
+      "body": "## What this is  \nA dataset measuring how walkable different areas of Shelby County are.\n\n## Why it matters to you  \nWalkability affects daily decisions like whether you can safely walk to school, transit stops, or local businesses instead of driving. Families might use this to compare neighborhoods when moving, while small businesses could gauge foot traffic potential. Poor walkability scores often correlate with higher transportation costs and fewer spontaneous community interactions.\n\n## How to read this data  \n*(No detailed field descriptions were provided in the data dictionary. Typically, walkability indexes consider factors like:)*  \n- **Sidewalk availability**: Are there continuous walking paths?  \n- **Crosswalk safety**: Are intersections designed for pedestrians?  \n- **Amenity proximity**: How close are shops, schools, or parks?  \n\n## Where this leaves you  \nThis dataset doesn’t let you look up walkability for a specific address, but it could help advocate for pedestrian improvements in your area by showing countywide patterns. Check the full dataset for broader trends.  \n\n*(Word count: 149)*",
+      "error": null,
+      "needs_review": true,
+      "reason": "possible invented field: 'Sidewalk availability'"
+    },
+    {
+      "slug": "solid-waste-areas-2c82a883",
+      "body": "## What this is  \nThis dataset tracks designated solid waste collection areas in the city.\n\n## Why it matters to you  \nWhere your trash gets picked up affects how often service happens, what rules you follow for sorting recycling, and whether you need special stickers for bulk items. If you're moving or starting a business, checking your waste area could mean the difference between weekly pickups or hauling trash yourself.\n\n## How to read this data  \n(No field descriptions were provided in the data dictionary. The dataset appears to map service zones but doesn’t specify boundaries, schedules, or rules.)\n\n## Where this leaves you  \nWhile this data identifies waste service areas, you’ll need to cross-reference with the sanitation department’s pickup schedules and rules for your specific address. The dataset alone won’t tell you your collection day or what items are accepted.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no address/street/ward anchor — step-4 template doesn't fit cleanly"
+    }
+  ]
+}

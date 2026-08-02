@@ -154,14 +154,23 @@ def step4_feasible(record):
 
 
 def main():
+    global DATASETS_DIR, CATALOG_PATH, OUT_DRAFTS, MANIFEST_PATH
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default="deepseek/deepseek-chat-v3-0324",
-                        help="OpenRouter model slug for drafting")
+                        help="OpenRouter model id")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--only", help="comma list of slugs to re-draft (debug)")
     parser.add_argument("--apply-only", action="store_true",
-                        help="skip model calls; apply drafts-v2.json (pages + manifest)")
+                        help="skip drafting; apply drafts-v2.json to content files")
+    parser.add_argument("--content-dir", default=DATASETS_DIR)
+    parser.add_argument("--catalog", default=CATALOG_PATH)
+    parser.add_argument("--drafts", default=OUT_DRAFTS)
+    parser.add_argument("--manifest", default=MANIFEST_PATH)
     args = parser.parse_args()
+    DATASETS_DIR = args.content_dir
+    CATALOG_PATH = args.catalog
+    OUT_DRAFTS = args.drafts
+    MANIFEST_PATH = args.manifest
 
     with open(CATALOG_PATH) as f:
         catalog = json.load(f)

@@ -41,7 +41,6 @@ IMG_DIR = os.path.join(ROOT, "hugo-site", "static", "img")
 COVERS_DIR = os.path.join(IMG_DIR, "covers")
 CATALOG_PATH = os.path.join(ROOT, "okc_catalog.json")
 MANIFEST_PATH = os.path.join(IMG_DIR, "manifest.json")
-
 KNOWN_CATEGORIES = [
     "Transportation", "Infrastructure", "Licensing", "Government",
     "Finance", "Parks & Recreation", "Public Safety", "Default",
@@ -293,12 +292,20 @@ def parse_dictionary(raw):
 
 
 def main():
+    global DATASETS_DIR, IMG_DIR, COVERS_DIR, MANIFEST_PATH
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalog", default=CATALOG_PATH,
                         help="Catalog JSON to read topics from (default: okc_catalog.json). "
-                             "Point at odot_catalog.json / occ_catalog.json / okgov_catalog.json "
-                             "when building a manifest from a state source.")
+                             "Point at a city catalog (e.g. memphis_catalog.json) for city #2.")
+    parser.add_argument("--content-dir", default=DATASETS_DIR,
+                        help="Content dir for the target city (default: hugo-site/content/datasets).")
+    parser.add_argument("--static-dir", default=IMG_DIR,
+                        help="Static img dir for the target city (default: hugo-site/static/img).")
     args = parser.parse_args()
+    DATASETS_DIR = args.content_dir
+    IMG_DIR = args.static_dir
+    COVERS_DIR = os.path.join(IMG_DIR, "covers")
+    MANIFEST_PATH = os.path.join(IMG_DIR, "manifest.json")
 
     with open(args.catalog) as f:
         catalog = json.load(f)

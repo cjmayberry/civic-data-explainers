@@ -496,11 +496,13 @@ EXCLUDE_FIELD = re.compile(
     r"created_|edited_|geom|st_|esri_|geometry)$", re.I)
 
 
-def save_sample_records(slug, data):
+def save_sample_records(slug, data, out_dir=None):
     """Write a small, human-readable slice of the city's REAL records to
     hugo-site/data/datasets/<slug>.json (Hugo native data file, rendered as
     a table on the page). Boilerplate fields (ObjectID, Shape, Length…)
     are dropped; the most informative fields are kept, first 8 rows."""
+    if out_dir is None:
+        out_dir = os.path.join(ROOT, "hugo-site", "data", "datasets")
     feats = data.get("features", [])
     if not feats:
         return None
@@ -526,6 +528,18 @@ def save_sample_records(slug, data):
 
 
 def main():
+    global DATASETS_DIR, IMG_DIR, COVERS_DIR, MANIFEST_PATH
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--content-dir", default=DATASETS_DIR)
+    ap.add_argument("--static-dir", default=IMG_DIR)
+    ap.add_argument("--sample-data-dir", default=os.path.join(ROOT, "hugo-site", "data", "datasets"))
+    a = ap.parse_args()
+    DATASETS_DIR = a.content_dir
+    IMG_DIR = a.static_dir
+    COVERS_DIR = os.path.join(IMG_DIR, "covers")
+    MANIFEST_PATH = os.path.join(IMG_DIR, "manifest.json")
+    SAMPLE_DATA_DIR = a.sample_data_dir
     os.makedirs(COVERS_DIR, exist_ok=True)
     with open(MANIFEST_PATH) as f:
         manifest = json.load(f)
@@ -565,7 +579,7 @@ def main():
 
         # sample records: the city's real rows, rendered as a table on the page
         if data:
-            save_sample_records(slug, data)
+            save_sample_records(slug, data, SAMPLE_DATA_DIR)
 
         # clean up stale renamed variants (old status in filename)
         for f in os.listdir(COVERS_DIR):
