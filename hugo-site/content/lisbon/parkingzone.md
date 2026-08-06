@@ -21,7 +21,7 @@ draft: false
 Every regulated on-street parking area in Lisbon — 11 fields per area covering the tariff product, rate code, time window, and parking type, with the area drawn as a polygon.
 
 ## Why it matters to you  
-This is the "what does it cost and for how long" half of Lisbon parking. **Tarifa** is the color band ("Amarela" = yellow), **Horario** is the paid window ("2ª A 6ª 9-19H" = Monday–Saturday 9am–7pm in the sample), and **Tipo_Estacionamento** tells you the rule ("Rotativo" = rotating/limited, "Bolsa de Residentes" = residents' bays). Park in a yellow "Rotativo" area outside its window and you're fine — inside it, you're paying or ticketed.
+This is the "what does it cost and for how long" half of Lisbon parking. **Tarifa** is the color band ("Amarela" = yellow), **Horario** is the paid window ("2ª A 6ª 9-19H" = Monday–Friday 9am–7pm in the sample), and **Tipo_Estacionamento** tells you the rule ("Rotativo" = rotating/limited, "Bolsa de Residentes" = residents' bays). Park in a yellow "Rotativo" area outside its window and you're fine — inside it, you're paying or ticketed.
 
 ## How to read this data  
 **Produto** — the tariff product name (e.g. "AmarelaRotação", "Exclusivo para residentes").  \n**Tarifa** — the rate band color (e.g. "Amarela", "Verde").  \n**Horario** — when the charge applies (e.g. "2ª A 6ª 9-19H" or "24 HORAS").  \n**Tipo_Estacionamento** — the parking rule (e.g. "Rotativo", "Bolsa de Residentes").  \n**GeoJSONCoordinates** — the area's boundary for mapping.
