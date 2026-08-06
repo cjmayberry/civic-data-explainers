@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "id_expl",
+  "estacaolocalizacao",
+  "latitude",
+  "longitude",
+  "horariofuncionamento",
+  "tarifario"
+ ],
+ "rows": [
+  {
+   "id_expl": 105,
+   "estacaolocalizacao": "105 - CC Vasco da Gama",
+   "latitude": 38.768548,
+   "longitude": -9.096222,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 102,
+   "estacaolocalizacao": "102 - Porta do Mar",
+   "latitude": 38.759156,
+   "longitude": -9.096439,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 106,
+   "estacaolocalizacao": "106 - Jardim Garcia da Orta",
+   "latitude": 38.769459,
+   "longitude": -9.092506,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 107,
+   "estacaolocalizacao": "107 - Rotunda dos Vice-Reis",
+   "latitude": 38.774505,
+   "longitude": -9.095416,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 108,
+   "estacaolocalizacao": "108 - Rua do Bojador",
+   "latitude": 38.774289,
+   "longitude": -9.09235,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 452,
+   "estacaolocalizacao": "452 - Rua Teixeira de Pascoais / Rua Dr. Gama Barros",
+   "latitude": 38.747751,
+   "longitude": -9.136681,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 483,
+   "estacaolocalizacao": "483 - Rua Professor Francisco Lucas Pires ",
+   "latitude": 38.75939,
+   "longitude": -9.16405,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  },
+  {
+   "id_expl": 518,
+   "estacaolocalizacao": "518 - Avenida das Nações Unidas / Azinhaga da Torre do Fato",
+   "latitude": 38.764097,
+   "longitude": -9.177955,
+   "horariofuncionamento": "||> 6h00 - 2h00",
+   "tarifario": "||> Anual: 25? ||> Mensal: 15? ||> Diário*: 2? *(Valor promocional conforme termos e condições) ||> Mais informações em: https://www.gira-bicicletasdelisboa.pt/passes-e-tarifarios/"
+  }
+ ]
+}

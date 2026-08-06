@@ -20,5 +20,16 @@
       35.1495
     ],
     "blurb": "City #2 proof: 41 datasets drafted by the same pipeline from Memphis's own ArcGIS Hub."
+  },
+  "lisbon": {
+    "name": "Lisbon",
+    "short": "Lisbon",
+    "hub": "https://dados.emel.pt",
+    "gov": "https://www.emel.pt",
+    "center": [
+      -9.1393,
+      38.7223
+    ],
+    "blurb": "First CKAN city: 7 mobility datasets from EMEL's open-data platform — cycling network, GIRA bikeshare, parking zones and tunnels."
   }
 }

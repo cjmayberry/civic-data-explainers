@@ -31,5 +31,37 @@
       "Location & Boundaries": "Other",
       "Good Government": "Government"
     }
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "hub_url": "https://dados.emel.pt",
+    "gov_url": "https://www.emel.pt",
+    "state": "PT",
+    "active": true,
+    "model": null,
+    "min_score": 0,
+    "content_dir": "hugo-site/content/lisbon",
+    "static_dir": "hugo-site/static/lisbon",
+    "category_map": {
+      "Cycling": "Transportation",
+      "Rede ciclável": "Transportation",
+      "Estações": "Transportation",
+      "GIRA": "Transportation",
+      "Serviço bicicletas partilhadas": "Transportation",
+      "Infraestruras": "Infrastructure",
+      "Mobilidade pedonal": "Infrastructure",
+      "Acessibility": "Infrastructure",
+      "Tarifas": "Transportation",
+      "Áreas de estacionamento": "Transportation",
+      "On-Street Parking": "Transportation",
+      "Estatísticas": "Transportation",
+      "Número de lugares": "Transportation",
+      "ZAAC": "Transportation",
+      "ZEDL": "Transportation",
+      "Limites geográficos": "Transportation",
+      "Túneis rodoviários": "Transportation",
+      "Traffic": "Transportation"
+    }
   }
 ]

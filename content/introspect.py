@@ -39,9 +39,44 @@ def http_json(url, timeout=30):
         return {"__error__": str(e)}
 
 
+def introspect_ckan(service_url):
+    """CKAN datastore_search -> real fields + sample records.
+
+    Returns (schema_dict, error_str_or_None). The datastore API is the
+    authoritative schema source for CKAN-backed cities (EMEL Lisbon)."""
+    data = http_json(service_url.rstrip("/") + "&limit=3")
+    if "__error__" in data:
+        return None, str(data["__error__"])
+    if not data.get("success"):
+        err = data.get("error") or "datastore_search failed"
+        return None, str(err) if not isinstance(err, dict) else str(err.get("message", err))
+    result = data.get("result") or {}
+    fields = []
+    for f in (result.get("fields") or []):
+        fid = f.get("id")
+        if fid:
+            fields.append({"name": fid, "type": f.get("type", ""), "alias": fid})
+    if not fields:
+        return None, "no fields in datastore result"
+    sample = {}
+    for rec in (result.get("records") or []):
+        for name in [x["name"] for x in fields]:
+            if name == "_id":
+                continue
+            if name not in sample and rec.get(name) is not None:
+                sample[name] = rec[name]
+    return {"fields": fields, "sample": sample, "layer": "datastore",
+            "introspected_at": __import__("datetime").datetime.now(
+                __import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}, None
+
+
 def introspect(service_url):
-    """Return (schema_dict, error_str_or_None). Tries the URL's own layer,
-    then sibling layers 0-5 (Memphis services often keep data on layer 3)."""
+    """Return (schema_dict, error_str_or_None). CKAN datastore URLs go to
+    introspect_ckan; ArcGIS FeatureServer/MapServer URLs try the URL's own
+    layer, then sibling layers 0-5 (Memphis services often keep data on
+    layer 3)."""
+    if "datastore_search" in service_url:
+        return introspect_ckan(service_url)
     base = service_url.rstrip("/")
     m = re.search(r"/(?:FeatureServer|MapServer)(?:/(\d+))?$", base)
     if not m:

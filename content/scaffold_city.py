@@ -61,8 +61,8 @@ def strip_html(raw):
     return html.unescape(re.sub(r"\s+", " ", s)).strip()
 
 
-def make_stub(title, city, site_url, source_url, dataset_id, description, teaser, topics):
-    desc = description or "A Memphis open-data dataset."
+def make_stub(title, city, site_url, source_url, dataset_id, description, teaser, topics, map_link=""):
+    desc = description or "An open-data dataset from this city's catalog."
     return (
         f"---\n"
         f"title: {json.dumps(title)}\n"
@@ -76,9 +76,10 @@ def make_stub(title, city, site_url, source_url, dataset_id, description, teaser
         f"dataset_id: {json.dumps(dataset_id)}\n"
         f"city: {json.dumps(city)}\n"
         f"site_url: {json.dumps(site_url)}\n"
+        f"{f'map_link: {json.dumps(map_link)}\n' if map_link else ''}"
         f"draft: false\n"
         f"---\n\n"
-        f"## What this is\n\n_Stub — drafted by the city-#2 pipeline._\n\n"
+        f"## What this is\n\n_Stub — awaiting a schema-grounded draft._\n\n"
         f"## Why it matters to you\n\n## How to read this data\n\n"
         f"## Where this leaves you\n\n## Look it up yourself\n"
     )
@@ -92,6 +93,9 @@ def main():
     ap.add_argument("--out", required=True, help="content dir, e.g. hugo-site/content/memphis")
     ap.add_argument("--static-out", required=True, help="static img dir, e.g. hugo-site/static/memphis")
     ap.add_argument("--resolve/--no-resolve", dest="resolve", default=True, action=argparse.BooleanOptionalAction)
+    ap.add_argument("--source", default="arcgis", choices=["arcgis", "ckan"],
+                    help="Catalog family: arcgis (default, item-API resolution) "
+                         "or ckan (skip item resolution; datastore-backed records kept as-is)")
     args = ap.parse_args()
 
     catalog = json.load(open(args.catalog))
@@ -101,13 +105,24 @@ def main():
         guid = rec.get("guid") or rec.get("link") or ""
         iid = item_id_from_guid(guid)
         item_type, url = None, None
-        if iid and args.resolve:
+        if args.source == "ckan":
+            # CKAN records are already normalized data services; nothing to
+            # resolve against ArcGIS. Keep any record with a service URL or
+            # datastore resource id (drops nothing for well-formed portals).
+            if rec.get("service_url") or rec.get("datastore_resource_id"):
+                item_type = "CKAN Datastore"
+                url = rec.get("service_url")
+            else:
+                dropped.append({"title": title, "item_type": "ckan",
+                                "reason": "no service_url / datastore resource"})
+                continue
+        elif iid and args.resolve:
             info = http_json(ITEM_API.format(id=iid))
             if "__error__" not in info:
                 item_type = info.get("type")
                 url = info.get("url")
             time.sleep(0.12)
-        if item_type in DATA_TYPES:
+        if item_type in DATA_TYPES or item_type == "CKAN Datastore":
             rec["item_id"] = iid
             rec["item_type"] = item_type
             rec["service_url"] = url or rec.get("service_url")
@@ -122,14 +137,20 @@ def main():
     for rec in kept:
         title = rec.get("title") or "Untitled"
         iid = rec.get("item_id") or ""
-        slug = slugify(title, iid)
+        # CKAN portals publish their own slug (`name`); prefer it so URLs
+        # match the source portal (cyclinglanes -> /lisbon/cyclinglanes/).
+        if args.source == "ckan" and rec.get("name"):
+            slug = re.sub(r"[^a-z0-9]+", "-", rec["name"].lower()).strip("-")
+        else:
+            slug = slugify(title, iid)
         source_url = rec.get("service_url") or rec.get("link") or ""
         desc = (rec.get("suitable_use") or "").strip() or strip_html(rec.get("description_raw"))[:220]
         teaser = strip_html(rec.get("description_raw"))[:140] or desc[:140]
         topics = rec.get("topics") or []
         with open(os.path.join(args.out, f"{slug}.md"), "w") as f:
             f.write(make_stub(title, args.city, args.site_url, source_url,
-                              rec.get("guid") or "", desc, teaser, topics))
+                              rec.get("guid") or "", desc, teaser, topics,
+                              map_link=rec.get("link") or ""))
         rec["slug"] = slug
         written += 1
 

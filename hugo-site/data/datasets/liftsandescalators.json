@@ -1,0 +1,52 @@
+{
+ "fields": [
+  "id",
+  "localizacao",
+  "contacto",
+  "horario",
+  "dataEdicao",
+  "freguesia"
+ ],
+ "rows": [
+  {
+   "id": 567,
+   "localizacao": "Largo do Chão do Loureiro; Calçada do Marquês de Tancos",
+   "contacto": "351 252 637 619",
+   "horario": "",
+   "dataEdicao": "2022-07-12T12:43:00",
+   "freguesia": "Santa Maria Maior"
+  },
+  {
+   "id": 568,
+   "localizacao": "Rua de Entrecampos",
+   "contacto": "351 252 637 619",
+   "horario": "",
+   "dataEdicao": "2022-07-12T12:40:00",
+   "freguesia": "Areeiro"
+  },
+  {
+   "id": 569,
+   "localizacao": "Rua Infante Dom Pedro",
+   "contacto": "351 252 637 619",
+   "horario": "",
+   "dataEdicao": "2022-07-12T12:40:00",
+   "freguesia": "Alvalade"
+  },
+  {
+   "id": 570,
+   "localizacao": "Escadinhas da Saúde",
+   "contacto": "351 808 212 005",
+   "horario": "Das 8:00 às 23:00 horas",
+   "dataEdicao": "2022-07-12T12:42:00",
+   "freguesia": "Santa Maria Maior"
+  },
+  {
+   "id": 571,
+   "localizacao": "Rua Afonso de Albuquerque; Rua Cruzes da Sé",
+   "contacto": "351 229 432 834",
+   "horario": "Das 8:00 às 21:00 horas",
+   "dataEdicao": "2022-07-12T12:43:00",
+   "freguesia": "Santa Maria Maior"
+  }
+ ]
+}

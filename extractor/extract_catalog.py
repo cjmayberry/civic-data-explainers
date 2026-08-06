@@ -352,6 +352,7 @@ def parse_ckan_item(rec: dict, base_url: str) -> dict:
     resources = rec.get("resources") or []
     formats = []
     service_url = None
+    datastore_resource_id = None
     for res in resources:
         fmt = (res.get("format") or "").strip()
         if fmt and fmt not in formats:
@@ -360,18 +361,27 @@ def parse_ckan_item(rec: dict, base_url: str) -> dict:
             url = (res.get("url") or "").strip()
             if url:
                 service_url = url
+                datastore_resource_id = res.get("id") or None
     if not service_url:
         for res in resources:
             url = (res.get("url") or "").strip()
             if url and ("datastore" in url.lower()
                         or "api" in url.lower()):
                 service_url = url
+                datastore_resource_id = res.get("id") or datastore_resource_id
                 break
+    # A datastore-backed resource is the real queryable service: point
+    # service_url at the CKAN datastore_search API so introspection and
+    # the site's "live data service" link hit the API, not the CSV blob.
+    if datastore_resource_id and "/api/3/action/" not in service_url:
+        portal = base_url.split("/api/3/action")[0]
+        service_url = f"{portal}/api/3/action/datastore_search?resource_id={datastore_resource_id}"
 
     return {
         "title": title,
         "link": link,
         "guid": guid,
+        "name": name,
         "type": "Dataset",
         "featured": False,
         "topics": topics,
@@ -388,6 +398,7 @@ def parse_ckan_item(rec: dict, base_url: str) -> dict:
         "spatial": None,
         "formats": formats,
         "service_url": service_url,
+        "datastore_resource_id": datastore_resource_id,
     }
 
 

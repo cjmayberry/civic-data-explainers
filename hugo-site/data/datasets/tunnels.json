@@ -1,0 +1,28 @@
+{
+ "fields": [
+  "tunelID",
+  "localizacao",
+  "latitude",
+  "longitude",
+  "condicaoAcesso",
+  "pertubacoes"
+ ],
+ "rows": [
+  {
+   "tunelID": 1,
+   "localizacao": "Túnel do Marquês (debaixo da Avenida Eng.º Duarte Pacheco)",
+   "latitude": 38.7246857,
+   "longitude": -9.158412,
+   "condicaoAcesso": "||> Vel. Máx. 50 Km/h ||> Alt. Máx. 3.8m ||> Trânsito Proibido a Pesados, viaturas que transportem matérias perigosas, bicicletas e peões.",
+   "pertubacoes": "||> https://condicionamentos-transito.cm-lisboa.pt/ para maiores informações."
+  },
+  {
+   "tunelID": 2,
+   "localizacao": "Túnel João XXI (debaixo da Avenida João XXI)",
+   "latitude": 38.74224,
+   "longitude": -9.158412,
+   "condicaoAcesso": "||> Vel. Máx. 50 Km/h ||> Alt. Máx. 4.0m ||> Trânsito Proibido a Pesados, viaturas que transportem matérias perigosas, bicicletas e peões.",
+   "pertubacoes": "||> https://condicionamentos-transito.cm-lisboa.pt/ para maiores informações."
+  }
+ ]
+}

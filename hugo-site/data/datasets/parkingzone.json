@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "ID",
+  "Produto",
+  "Cod_Tarifa",
+  "Tarifa",
+  "Cod_Horario",
+  "Horario"
+ ],
+ "rows": [
+  {
+   "ID": 1,
+   "Produto": "AmarelaRotação",
+   "Cod_Tarifa": "YB",
+   "Tarifa": "Amarela",
+   "Cod_Horario": "H1",
+   "Horario": "2ª A 6ª 9-19H"
+  },
+  {
+   "ID": 2,
+   "Produto": "Exclusivo para residentes",
+   "Cod_Tarifa": "YA",
+   "Tarifa": "Verde",
+   "Cod_Horario": "H5",
+   "Horario": "24 HORAS"
+  },
+  {
+   "ID": 3,
+   "Produto": "Exclusivo para residentes",
+   "Cod_Tarifa": "YC",
+   "Tarifa": "Vermelha",
+   "Cod_Horario": "H5",
+   "Horario": "24 HORAS"
+  },
+  {
+   "ID": 4,
+   "Produto": "AmarelaBilhete Diário",
+   "Cod_Tarifa": "YB",
+   "Tarifa": "Amarela",
+   "Cod_Horario": "H1",
+   "Horario": "2ª A 6ª 9-19H"
+  },
+  {
+   "ID": 5,
+   "Produto": "Exclusivo para residentes",
+   "Cod_Tarifa": "YA",
+   "Tarifa": "Verde",
+   "Cod_Horario": "H5",
+   "Horario": "24 HORAS"
+  },
+  {
+   "ID": 6,
+   "Produto": "VerdeRotação",
+   "Cod_Tarifa": "YA",
+   "Tarifa": "Verde",
+   "Cod_Horario": "H1",
+   "Horario": "2ª A 6ª 9-19H"
+  },
+  {
+   "ID": 7,
+   "Produto": "Exclusivo para residentes",
+   "Cod_Tarifa": "YA",
+   "Tarifa": "Verde",
+   "Cod_Horario": "H5",
+   "Horario": "24 HORAS"
+  },
+  {
+   "ID": 8,
+   "Produto": "Exclusivo para residentes",
+   "Cod_Tarifa": "YB",
+   "Tarifa": "Amarela",
+   "Cod_Horario": "H5",
+   "Horario": "24 HORAS"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "fields": [
+  "idTrocoCiclovia",
+  "idCiclovia",
+  "localizacao",
+  "hierarquia",
+  "via",
+  "passeio"
+ ],
+ "rows": [
+  {
+   "idTrocoCiclovia": 10679,
+   "idCiclovia": "RC0038",
+   "localizacao": "Vela Latina (Avenida Brasilia)",
+   "hierarquia": "Local",
+   "via": "Sim",
+   "passeio": "Sim"
+  },
+  {
+   "idTrocoCiclovia": 10680,
+   "idCiclovia": "RC0014",
+   "localizacao": "Avenida Infante Dom Henrique",
+   "hierarquia": "Principal",
+   "via": "Sim",
+   "passeio": ""
+  },
+  {
+   "idTrocoCiclovia": 10681,
+   "idCiclovia": "RC0014",
+   "localizacao": "Avenida Infante Dom Henrique",
+   "hierarquia": "Principal",
+   "via": "Sim",
+   "passeio": ""
+  },
+  {
+   "idTrocoCiclovia": 10682,
+   "idCiclovia": "RC0026",
+   "localizacao": "Quinta das Flores - Rio Tejo",
+   "hierarquia": "Principal",
+   "via": "Sim",
+   "passeio": "Sim"
+  },
+  {
+   "idTrocoCiclovia": 10683,
+   "idCiclovia": "RC0026",
+   "localizacao": "Quinta das Flores - Rio Tejo",
+   "hierarquia": "Principal",
+   "via": "Sim",
+   "passeio": "Sim"
+  },
+  {
+   "idTrocoCiclovia": 10684,
+   "idCiclovia": "RC0026",
+   "localizacao": "Quinta das Flores - Rio Tejo",
+   "hierarquia": "Principal",
+   "via": "Sim",
+   "passeio": "Sim"
+  },
+  {
+   "idTrocoCiclovia": 10685,
+   "idCiclovia": "RC0018",
+   "localizacao": "Avenida Paulo VI",
+   "hierarquia": "Local",
+   "via": "Sim",
+   "passeio": ""
+  },
+  {
+   "idTrocoCiclovia": 10686,
+   "idCiclovia": "RC0018",
+   "localizacao": "Avenida Paulo VI",
+   "hierarquia": "Local",
+   "via": "Sim",
+   "passeio": ""
+  }
+ ]
+}

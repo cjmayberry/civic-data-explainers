@@ -1,0 +1,49 @@
+{
+ "fields": [
+  "freguesia",
+  "tipologia",
+  "lugaresQTD"
+ ],
+ "rows": [
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Carga Veículos Eléctricos",
+   "lugaresQTD": 34
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Cargas e Descargas",
+   "lugaresQTD": 153
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Famílias Numerosas",
+   "lugaresQTD": 58
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Mobilidade Reduzida",
+   "lugaresQTD": 204
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Residente",
+   "lugaresQTD": 2096
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Tarifado",
+   "lugaresQTD": 10223
+  },
+  {
+   "freguesia": "Alvalade",
+   "tipologia": "Tarifado + Residente noturno",
+   "lugaresQTD": 321
+  },
+  {
+   "freguesia": "Areeiro",
+   "tipologia": "Carga Veículos Eléctricos",
+   "lugaresQTD": 10
+  }
+ ]
+}
