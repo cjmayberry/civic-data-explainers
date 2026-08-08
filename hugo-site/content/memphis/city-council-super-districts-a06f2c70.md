@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Other"]
 cover: "covers/city-council-super-districts-a06f2c70--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Super_District_2023/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Super_District_2023/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a06f2c702f244fc5902c1b906a93ce2c&sublayer=0"
 city: "memphis"

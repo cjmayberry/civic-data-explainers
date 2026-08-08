@@ -7,6 +7,7 @@ tags: [" oklahoma city", "lakes", "ponds", "water", "drainage", "hydrology", "wa
 categories: ["Infrastructure"]
 cover: ""
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "a6b9c70396904437af69a95e49f9671e"
 city: "okc"

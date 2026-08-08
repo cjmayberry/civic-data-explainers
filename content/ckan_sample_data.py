@@ -22,7 +22,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "CivicDataExplained/0.6 (ckan sample records)"}
 EXCLUDE_FIELD = re.compile(
     r"^(_id|objectid|fid|globalid|shape|shape_length|shape_area|length|area|"
-    r"created_|edited_|geom|st_|esri_|geometry)$", re.I)
+    r"created_|edited_|geom|st_|esri_|geometry|coordinates|coordenadas|"
+    r"geojsoncoordinates|geojson)$", re.I)
 
 
 def http_json(url, timeout=30):

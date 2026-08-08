@@ -7,6 +7,7 @@ tags: [" oklahoma city", "tif", "finance", "tax", "revenue", "community", "devel
 categories: ["Finance"]
 cover: "covers/tax-increment-financing-districts-08ededb1--finance--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/08ededb10dcf458ba9ac5588d6d6296a/rest/services/OpenData/Finance/FeatureServer/0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/08ededb10dcf458ba9ac5588d6d6296a/rest/services/OpenData/Finance/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "08ededb10dcf458ba9ac5588d6d6296a"
 city: "okc"

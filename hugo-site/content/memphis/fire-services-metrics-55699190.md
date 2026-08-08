@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/fire-services-metrics-55699190--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Fire_Services_Metrics/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Fire_Services_Metrics/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=556991909d2a49e68ec7f9d20521f2e5&sublayer=0"
 city: "memphis"

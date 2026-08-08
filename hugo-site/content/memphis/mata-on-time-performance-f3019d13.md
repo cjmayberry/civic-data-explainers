@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Transportation & Infrastructure"]
 categories: ["Transportation"]
 cover: "covers/mata-on-time-performance-f3019d13--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_On_Time_Performance/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_On_Time_Performance/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f3019d13cd814f6c8e4cac1b02299e2f&sublayer=0"
 city: "memphis"

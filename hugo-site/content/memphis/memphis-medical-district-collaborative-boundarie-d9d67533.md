@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Other"]
 cover: "covers/memphis-medical-district-collaborative-boundarie-d9d67533--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Medical_District_Collaborative_Boundaries/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Medical_District_Collaborative_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d9d6753372574809bbbe16894870d1b9&sublayer=0"
 city: "memphis"

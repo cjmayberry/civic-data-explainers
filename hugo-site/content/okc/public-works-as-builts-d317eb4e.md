@@ -7,6 +7,7 @@ tags: ["okc", "drainage", "oklahoma city", "as-builts", "as builts", "paving", "
 categories: ["Infrastructure"]
 cover: ""
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "d317eb4e5f544ff9a9f48f1fcdc09977"
 city: "okc"

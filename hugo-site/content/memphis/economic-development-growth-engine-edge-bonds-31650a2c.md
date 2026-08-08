@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Finance"]
 cover: "covers/economic-development-growth-engine-edge-bonds-31650a2c--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Bonds/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_Bonds/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=31650a2c17a640ca8e6615a668c57e51&sublayer=0"
 city: "memphis"

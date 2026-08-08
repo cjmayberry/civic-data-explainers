@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/mpd-traffic-stops-2b0bee4e--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Stops/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Stops/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2b0bee4ecd6a4f0bac6cdf5eb8b3523f&sublayer=0"
 city: "memphis"

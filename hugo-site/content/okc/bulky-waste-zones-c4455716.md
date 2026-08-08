@@ -7,6 +7,7 @@ tags: ["oklahoma city", "trash", "waste", "pickup", "zones", "bulky"]
 categories: ["Infrastructure"]
 cover: "covers/bulky-waste-zones-c4455716--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "c4455716f4bf4d1dafe6806e0e619de8"
 city: "okc"

@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Other"]
 cover: "covers/mpd-district-areas-cf62a73a--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cf62a73ac9e2406ebbd62aa773a68258&sublayer=0"
 city: "memphis"

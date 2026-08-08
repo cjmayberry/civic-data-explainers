@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Other"]
 cover: "covers/mata-stops-6892a5f9--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Stops/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Stops/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6892a5f95ca8484ba0dea7e9c5fd033c&sublayer=1"
 city: "memphis"

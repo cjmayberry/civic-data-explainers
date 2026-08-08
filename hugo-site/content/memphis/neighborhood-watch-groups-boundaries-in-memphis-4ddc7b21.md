@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--government--placeholder.svg"
 source_url: "https://services6.arcgis.com/FayuIc8kjcIuYMDI/ArcGIS/rest/services/Neighborhood%20Watch%20Groups%20Boundaries%20in%20Memphis/FeatureServer"
+geojson_url: "https://services6.arcgis.com/FayuIc8kjcIuYMDI/ArcGIS/rest/services/Neighborhood%20Watch%20Groups%20Boundaries%20in%20Memphis/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4ddc7b2110624f9194c8ef31a30d48d2&sublayer=0"
 city: "memphis"

@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Other"]
 cover: "covers/downtown-memphis-commission-boundaries-a5088e8d--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Downtown_Memphis_Commission_Boundaries/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Downtown_Memphis_Commission_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a5088e8d5b074cb2828b0b53ad51d7d1&sublayer=0"
 city: "memphis"

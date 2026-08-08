@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Other"]
 cover: "covers/mpd-station-location-13adc19e--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Location/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Location/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=13adc19ee9b34e2f87cda0d357efb86a&sublayer=0"
 city: "memphis"

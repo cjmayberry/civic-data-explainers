@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/mpd-traffic-citations-91c3adca--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Citations/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Traffic_Citations/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=91c3adcaf5c84cd596c85a45cd951ae9&sublayer=0"
 city: "memphis"

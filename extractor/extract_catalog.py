@@ -1,27 +1,34 @@
 #!/usr/bin/env python3
 """
-Generic catalog extractor — ArcGIS Hub (RSS + DCAT data.json) and CKAN portals.
+Generic catalog extractor — ArcGIS Hub (RSS + DCAT data.json), CKAN, and
+Socrata portals.
 
-Three source formats, one normalized output schema:
+Four source formats, one normalized output schema:
 
-  rss   — ArcGIS Hub RSS 2.0 feed at <site>/api/feed/rss/2.0 (default, the
-          original mechanism, verified on open-okc, gis-okdot, gisdata-occokc).
-  dcat  — ArcGIS Hub DCAT feed at <site>/data.json (project-open-data v1.1
-          catalog.jsonld). Richer: publisher, formats, license, spatial,
-          keywords. Use when RSS is disabled or you need distribution formats.
-  ckan  — CKAN portal /api/3/action/package_search (e.g. data.ok.gov, which
-          migrated off Socrata to CKAN 2.9 / OpenGov in 2026 — all legacy
-          Socrata endpoints are dead).
+  rss    — ArcGIS Hub RSS 2.0 feed at <site>/api/feed/rss/2.0 (default, the
+           original mechanism, verified on open-okc, gis-okdot, gisdata-occokc).
+  dcat   — ArcGIS Hub DCAT feed at <site>/data.json (project-open-data v1.1
+           catalog.jsonld). Richer: publisher, formats, license, spatial,
+           keywords. Use when RSS is disabled or you need distribution formats.
+  ckan   — CKAN portal /api/3/action/package_search (e.g. data.ok.gov, which
+           migrated off Socrata to CKAN 2.9 / OpenGov in 2026 — all legacy
+           Socrata endpoints are dead).
+  socrata— Socrata Discovery API /api/catalog/v1 (data.mo.gov, data.ny.gov,
+           etc.). MUST be scoped with domains=<host> (the FedRAMP pool returns
+           other agencies'/users' test assets otherwise) + noise-filtered.
 
 Format auto-detection from the URL (explicit --format overrides):
   "data.json" in url            -> dcat
   "/api/3/action" in url        -> ckan
+  "/api/catalog/v1" in url      -> socrata
   otherwise                     -> rss
 
 Usage:
     python3 extract_catalog.py https://open-okc.hub.arcgis.com > catalog.json
     python3 extract_catalog.py https://gis-okdot.opendata.arcgis.com --format dcat --pretty
     python3 extract_catalog.py https://data.ok.gov/api/3/action/package_search --pretty
+    python3 extract_catalog.py https://data.mo.gov/api/catalog/v1 --pretty
+    python3 extract_catalog.py https://data.ny.gov --format socrata --pretty
 
 Output: JSON array of records, one per catalog item. Every record carries the
 common schema below so downstream stages (build_manifest.py, redraft.py,
@@ -32,7 +39,7 @@ fetch_images.py) don't care which source produced it:
   suitable_use, limitations_on_use, update_interval,
   data_dictionary (list of {field, description}),
   description_raw, structure_detected,
-  source ("rss" | "dcat" | "ckan"),
+  source ("rss" | "dcat" | "ckan" | "socrata"),
   formats (list of distribution formats),
   service_url (ArcGIS REST / datastore URL when the source exposes one),
   scope ("county" for LiDAR/NAIP/imagery-type records that must never be
@@ -51,6 +58,9 @@ RSS_FEED_PATH = "/api/feed/rss/2.0"
 DCAT_FEED_PATH = "/data.json"
 CKAN_SEARCH_PATH = "/api/3/action/package_search"
 CKAN_PAGE_SIZE = 100  # CKAN's max rows per request
+SOCRATA_CATALOG_PATH = "/api/catalog/v1"
+SOCRATA_PAGE_SIZE = 100  # Socrata discovery API max page size
+SOCRATA_ID_RE = re.compile(r"^[a-z0-9]{4}-[a-z0-9]{4}$")
 
 # Matches the section-heading convention OKC uses inside <description>.
 # Sections run in this order when present; any subset may appear.
@@ -111,6 +121,8 @@ def detect_format(site_url: str) -> str:
         return "dcat"
     if "/api/3/action" in site_url:
         return "ckan"
+    if "/api/catalog/v1" in site_url:
+        return "socrata"
     return "rss"
 
 
@@ -426,6 +438,154 @@ def extract_ckan(base_url: str) -> list:
 
 
 # --------------------------------------------------------------------------
+# Socrata (/api/catalog/v1 Discovery API)
+# --------------------------------------------------------------------------
+
+def socrata_domain(site_url: str) -> str:
+    """Extract the portal host from a URL or bare domain."""
+    host = urllib.parse.urlparse(site_url).netloc or site_url
+    host = host.split(":")[0]
+    return host.removeprefix("www.")
+
+
+def socrata_catalog_page(domain: str, offset: int = 0) -> dict:
+    url = (f"https://{domain}{SOCRATA_CATALOG_PATH}"
+           f"?domains={domain}&limit={SOCRATA_PAGE_SIZE}&offset={offset}")
+    raw = http_get(url, timeout=90)
+    return json.loads(raw)
+
+
+def is_socrata_noise(rec: dict, domain: str) -> bool:
+    """Seattle lesson: the discovery API is a FedRAMP multi-tenant pool.
+    Even with domains=<domain> scoping it can return other agencies'/users'
+    test assets. Drop: wrong-domain rows, non-4x4 ids, test/draft names,
+    hidden-from-catalog assets. Returns True when the record should be
+    EXCLUDED."""
+    meta = rec.get("metadata") or {}
+    res = rec.get("resource") or {}
+    rid = (res.get("id") or "").strip()
+    if not rid or not SOCRATA_ID_RE.match(rid):
+        return True
+    if meta.get("domain") and meta["domain"] != domain:
+        return True
+    name = (res.get("name") or "").strip().lower()
+    if name.startswith(("test ", "test-", "draft ", "draft-", "untitled", "copy of")):
+        return True
+    if res.get("hide_from_data_json"):
+        return True
+    return False
+
+
+def parse_socrata_item(rec: dict, domain: str) -> dict | None:
+    # Live shape (verified 2026-08-05 on data.mo.gov): the interesting
+    # fields are on resource (description, updatedAt ISO string, type,
+    # columns_*) and classification (domain_tags, domain_category);
+    # metadata is mostly just {domain}. Older deployments differ — read
+    # defensively everywhere.
+    res = rec.get("resource") or {}
+    cls = rec.get("classification") or {}
+    meta = rec.get("metadata") or {}
+    owner = rec.get("owner") or {}
+    rid = res.get("id") or ""
+    title = (res.get("name") or "").strip()
+    link = f"https://{domain}/d/{rid}"  # canonical dataset landing page
+    guid = rid
+    description = strip_html(res.get("description")
+                             or meta.get("description") or "")
+
+    # Real topical signal is domain_tags (tags array is usually empty)
+    topics = [t for t in (cls.get("domain_tags") or []) if t]
+    topics += [t for t in (cls.get("tags") or []) if t]
+    if cls.get("domain_category"):
+        topics.append(cls["domain_category"])
+    # de-dup preserving order
+    topics = list(dict.fromkeys(topics))
+
+    maintained_by = (owner.get("display_name") or owner.get("displayName")
+                     or (rec.get("creator") or {}).get("display_name")
+                     or meta.get("domain") or None)
+
+    # updatedAt is an ISO string on live portals; tolerate epoch ints too
+    updated = res.get("updatedAt") or meta.get("updatedAt")
+    if isinstance(updated, str):
+        pub_date_iso = iso_or_none(updated)
+    elif isinstance(updated, (int, float)) and updated > 0:
+        pub_date_iso = datetime.fromtimestamp(updated, tz=timezone.utc).isoformat()
+    else:
+        pub_date_iso = None
+
+    # Keep only real datasets/tables (charts/filters/maps without SODA rows
+    # are noise). Live shape: resource.type ("dataset") + lens_view_type.
+    vtype = (res.get("type") or res.get("lens_view_type") or "").lower()
+    if vtype and vtype not in ("dataset", "tabular", "geospatial", "table", "view"):
+        return None
+
+    # SODA API is the universal queryable service; GeoServices variant exists
+    # for spatial layers but SODA .json/.geojson covers both.
+    service_url = f"https://{domain}/resource/{rid}.json"
+
+    # The catalog carries the schema — feed the pipeline's dictionary table
+    dict_fields = []
+    fnames = res.get("columns_field_name") or []
+    fdescs = res.get("columns_description") or []
+    for i, fn in enumerate(fnames):
+        if not fn:
+            continue
+        fd = fdescs[i] if i < len(fdescs) else ""
+        dict_fields.append({"field": fn, "description": fd or ""})
+
+    return {
+        "title": title,
+        "link": link,
+        "guid": guid,
+        "name": rid,
+        "type": "Dataset",
+        "featured": False,
+        "topics": topics,
+        "pub_date_iso": pub_date_iso,
+        "update_interval": None,
+        "maintained_by": maintained_by,
+        "suitable_use": None,
+        "limitations_on_use": None,
+        "data_dictionary": dict_fields,
+        "description_raw": description,
+        "structure_detected": False,
+        "access_level": "public",
+        "license": meta.get("license"),
+        "spatial": None,
+        "formats": ["CSV", "JSON", "GeoJSON"],  # SODA serves all three
+        "service_url": service_url,
+        "datastore_resource_id": rid,
+    }
+
+
+def extract_socrata(site_url: str) -> list:
+    domain = socrata_domain(site_url)
+    records = []
+    dropped = 0
+    offset = 0
+    while True:
+        page = socrata_catalog_page(domain, offset=offset)
+        results = page.get("results") or []
+        if not results:
+            break
+        for rec in results:
+            if is_socrata_noise(rec, domain):
+                dropped += 1
+                continue
+            item = parse_socrata_item(rec, domain)
+            if item is not None:
+                records.append(item)
+        result_size = page.get("resultSetSize", 0)
+        offset += len(results)
+        if offset >= result_size or len(results) < SOCRATA_PAGE_SIZE:
+            break
+    if dropped:
+        print(f"# socrata noise-filter dropped {dropped} rows", file=sys.stderr)
+    return records
+
+
+# --------------------------------------------------------------------------
 # Common post-processing
 # --------------------------------------------------------------------------
 
@@ -435,6 +595,8 @@ def extract(site_url: str, fmt: str | None = None) -> list:
         return extract_dcat(site_url)
     if fmt == "ckan":
         return extract_ckan(site_url)
+    if fmt == "socrata":
+        return extract_socrata(site_url)
     if fmt == "rss":
         return extract_rss(site_url)
     raise ValueError(f"Unknown format: {fmt}")
@@ -460,8 +622,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("site_url", help="ArcGIS Hub site root, CKAN portal root, "
                                          "data.json URL, or package_search URL")
-    parser.add_argument("--format", dest="fmt", choices=["rss", "dcat", "ckan"],
-                        help="Override auto-detection (rss|dcat|ckan)")
+    parser.add_argument("--format", dest="fmt", choices=["rss", "dcat", "ckan", "socrata"],
+                        help="Override auto-detection (rss|dcat|ckan|socrata)")
     parser.add_argument("--pretty", action="store_true", help="Pretty-print JSON output")
     args = parser.parse_args()
 

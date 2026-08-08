@@ -7,6 +7,7 @@ tags: ["oklahoma city", "plats", "subdivision", "boundary", "boundaries", "plat 
 categories: ["Licensing"]
 cover: "covers/plat-names-6073f066--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/6073f066182b4a3c87f8efc001ab0ee3/rest/services/OpenData/Licensing_Subdivision/FeatureServer/10/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "6073f066182b4a3c87f8efc001ab0ee3"
 city: "okc"

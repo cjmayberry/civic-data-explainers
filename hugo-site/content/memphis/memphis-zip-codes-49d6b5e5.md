@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries"]
 categories: ["Other"]
 cover: "covers/memphis-zip-codes-49d6b5e5--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_ZIP_Codes/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_ZIP_Codes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=49d6b5e522c2436283ee78adc0c5516a&sublayer=0"
 city: "memphis"

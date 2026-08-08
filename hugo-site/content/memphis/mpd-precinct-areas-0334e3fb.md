@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Other"]
 cover: "covers/mpd-precinct-areas-0334e3fb--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0334e3fb182a4460ac075b17ae8a1126&sublayer=1"
 city: "memphis"

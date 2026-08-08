@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/mpd-public-safety-incidents-12b51ce4--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Public_Safety_Incidents/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Public_Safety_Incidents/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=12b51ce4d5a14493ab6cc05d32e0c1ee&sublayer=0"
 city: "memphis"

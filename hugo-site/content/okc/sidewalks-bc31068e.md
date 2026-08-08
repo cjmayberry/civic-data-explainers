@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "sidewalks"]
 categories: ["Transportation"]
 cover: ""
 source_url: "https://utility.arcgis.com/usrsvcs/servers/bc31068e20ed4b2fa1265bb810b1de23/rest/services/OpenData/Transportation/FeatureServer/1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/bc31068e20ed4b2fa1265bb810b1de23/rest/services/OpenData/Transportation/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "bc31068e20ed4b2fa1265bb810b1de23"
 city: "okc"

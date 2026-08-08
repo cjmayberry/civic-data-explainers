@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "vegetation", "polygons", "planimetrics", "2015"]
 categories: ["Infrastructure"]
 cover: "covers/vegetation-polygons-a4b7be23--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "a4b7be23add94d6a9f03cd8b7249130a"
 city: "okc"

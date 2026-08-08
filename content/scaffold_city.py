@@ -61,7 +61,24 @@ def strip_html(raw):
     return html.unescape(re.sub(r"\s+", " ", s)).strip()
 
 
-def make_stub(title, city, site_url, source_url, dataset_id, description, teaser, topics, map_link=""):
+def derive_geojson_url(service_url: str) -> str:
+    """Build a keyless GeoJSON query URL from a dataset's service_url.
+    ArcGIS FeatureServer/MapServer: append /query?f=geojson (layer 0 when
+    bare). Socrata SODA: /resource/<id>.json -> .geojson. Else None."""
+    su = (service_url or "").strip()
+    if not su:
+        return ""
+    if "/FeatureServer" in su or "/MapServer" in su or "/ImageServer" in su:
+        base = su.rstrip("/")
+        if base.endswith("/FeatureServer") or base.endswith("/MapServer"):
+            base += "/0"
+        return f"{base}/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
+    if "/resource/" in su and su.endswith(".json"):
+        return su[:-5] + ".geojson"
+    return ""
+
+
+def make_stub(title, city, site_url, source_url, dataset_id, description, teaser, topics, map_link="", geojson_url=""):
     desc = description or "An open-data dataset from this city's catalog."
     return (
         f"---\n"
@@ -76,7 +93,8 @@ def make_stub(title, city, site_url, source_url, dataset_id, description, teaser
         f"dataset_id: {json.dumps(dataset_id)}\n"
         f"city: {json.dumps(city)}\n"
         f"site_url: {json.dumps(site_url)}\n"
-        f"{f'map_link: {json.dumps(map_link)}\n' if map_link else ''}"
+        f"{f'map_link: {json.dumps(map_link)}\\n' if map_link else ''}"
+        f"{f'geojson_url: {json.dumps(geojson_url)}\\n' if geojson_url else ''}"
         f"draft: false\n"
         f"---\n\n"
         f"## What this is\n\n_Stub — awaiting a schema-grounded draft._\n\n"
@@ -150,7 +168,8 @@ def main():
         with open(os.path.join(args.out, f"{slug}.md"), "w") as f:
             f.write(make_stub(title, args.city, args.site_url, source_url,
                               rec.get("guid") or "", desc, teaser, topics,
-                              map_link=rec.get("link") or ""))
+                              map_link=rec.get("link") or "",
+                              geojson_url=derive_geojson_url(rec.get("service_url") or "")))
         rec["slug"] = slug
         written += 1
 

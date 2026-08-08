@@ -236,7 +236,7 @@ def build_frontmatter(fm, category, cover, inquiry=None):
         if inquiry.get("extra"):
             out.append(f"inquiry_extra: {yaml_list(inquiry['extra'])}")
     for key in ("source_url", "license", "dataset_id", "city", "site_url",
-                "map_link", "maintained_by"):
+                "map_link", "geojson_url", "maintained_by"):
         if key in fm:
             out.append(f"{key}: {yaml_str(fm[key])}")
     out.append("draft: false")

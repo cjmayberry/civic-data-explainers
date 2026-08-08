@@ -12,6 +12,7 @@ inquiry_field: "IndexType"
 inquiry_label: "Check documents recorded at an address"
 inquiry_extra: ["Number", "Grantor"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"
 city: "okc"

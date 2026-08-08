@@ -12,6 +12,7 @@ inquiry_field: "Quadarant"
 inquiry_label: "Is your street a snow route?"
 inquiry_extra: ["location2"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a58d4715875a4c62b15cd3269c9df891/rest/services/OpenData/Transportation/FeatureServer/6"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a58d4715875a4c62b15cd3269c9df891/rest/services/OpenData/Transportation/FeatureServer/6/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "a58d4715875a4c62b15cd3269c9df891"
 city: "okc"

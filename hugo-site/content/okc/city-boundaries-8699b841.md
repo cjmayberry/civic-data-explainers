@@ -7,6 +7,7 @@ tags: [" oklahoma city", "boundary", "boundaries", "city", "jurisdiction"]
 categories: ["Government"]
 cover: "covers/city-boundaries-8699b841--government--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "8699b8414ebd476e87db5486f116b00a"
 city: "okc"

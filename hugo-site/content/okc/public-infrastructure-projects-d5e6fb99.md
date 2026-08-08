@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "projects", "bonds", "parks", "bridges", "drainag
 categories: ["Infrastructure"]
 cover: "covers/public-infrastructure-projects-d5e6fb99--infrastructure--placeholder.svg"
 source_url: "https://services5.arcgis.com/2mOVdIcRtNH2JsSF/arcgis/rest/services/Infrastructure_Projects_OD/FeatureServer"
+geojson_url: "https://services5.arcgis.com/2mOVdIcRtNH2JsSF/arcgis/rest/services/Infrastructure_Projects_OD/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "d5e6fb99125c44a6b5165336607fe199"
 city: "okc"

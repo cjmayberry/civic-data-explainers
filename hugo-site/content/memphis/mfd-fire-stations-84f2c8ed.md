@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
 categories: ["Other"]
 cover: "covers/mfd-fire-stations-84f2c8ed--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MFD_Fire_Stations/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MFD_Fire_Stations/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=84f2c8ede59743ac91647db1fd59f224&sublayer=3"
 city: "memphis"

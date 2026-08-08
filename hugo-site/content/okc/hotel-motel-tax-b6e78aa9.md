@@ -12,6 +12,7 @@ inquiry_field: "Sector"
 inquiry_label: "Check a hotel/motel registration"
 inquiry_extra: ["Address", "Certificate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/b6e78aa9a14c494f827ea0f24418cac7/rest/services/OpenData/Finance/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "b6e78aa9a14c494f827ea0f24418cac7"
 city: "okc"

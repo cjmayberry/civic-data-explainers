@@ -12,6 +12,7 @@ inquiry_field: "StreetName"
 inquiry_label: "Look up a street's official name"
 inquiry_extra: ["StreetPrefix", "StreetSuffix"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/adea21af99c740ec86870111a9881fc4/rest/services/OpenData/Transportation_Streets/FeatureServer/10"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/adea21af99c740ec86870111a9881fc4/rest/services/OpenData/Transportation_Streets/FeatureServer/10/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "adea21af99c740ec86870111a9881fc4"
 city: "okc"

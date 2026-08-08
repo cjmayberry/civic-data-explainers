@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Economic & Workforce Development"]
 categories: ["Finance"]
 cover: "covers/economic-development-growth-engine-edge-tifs-0a78f310--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_TIFs/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_EDGE_TIFs/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0a78f3109d2b446da0e87066d5fb3581&sublayer=0"
 city: "memphis"

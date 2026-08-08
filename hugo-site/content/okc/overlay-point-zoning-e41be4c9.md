@@ -7,6 +7,7 @@ tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundarie
 categories: ["Licensing"]
 cover: "covers/overlay-point-zoning-e41be4c9--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "e41be4c9bd794c2db35270448da83c82"
 city: "okc"

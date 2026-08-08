@@ -12,6 +12,7 @@ inquiry_field: "FacilityType"
 inquiry_label: "Look up a city facility"
 inquiry_extra: ["Address"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d5c5b7b206ec45cbb859aa4c83db3d09/rest/services/OpenData/Government_Places/FeatureServer/0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d5c5b7b206ec45cbb859aa4c83db3d09/rest/services/OpenData/Government_Places/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "d5c5b7b206ec45cbb859aa4c83db3d09"
 city: "okc"

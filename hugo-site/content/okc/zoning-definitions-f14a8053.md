@@ -7,6 +7,7 @@ tags: ["oklahoma city", "zoning", "zones", "definitions", "zngdswl"]
 categories: ["Licensing"]
 cover: "covers/zoning-definitions-f14a8053--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/f14a80531b914852ba8870c37b41e1d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/9"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/f14a80531b914852ba8870c37b41e1d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/9/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "f14a80531b914852ba8870c37b41e1d8"
 city: "okc"

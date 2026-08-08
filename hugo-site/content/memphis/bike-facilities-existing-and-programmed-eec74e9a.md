@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Strong Neighborhoods", "Location & Boundaries", "Tr
 categories: ["Other"]
 cover: "covers/bike-facilities-existing-and-programmed-eec74e9a--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=eec74e9a53d24fcc953ed368c3538440&sublayer=0"
 city: "memphis"

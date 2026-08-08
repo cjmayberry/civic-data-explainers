@@ -7,6 +7,7 @@ tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundarie
 categories: ["Licensing"]
 cover: "covers/non-zoning-parcels-186d9979--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/186d99795ce447708fd365c8940c8390/rest/services/OpenData/Licensing_Zoning/FeatureServer/2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/186d99795ce447708fd365c8940c8390/rest/services/OpenData/Licensing_Zoning/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "186d99795ce447708fd365c8940c8390"
 city: "okc"

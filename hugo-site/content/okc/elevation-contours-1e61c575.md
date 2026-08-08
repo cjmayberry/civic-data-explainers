@@ -7,6 +7,7 @@ tags: ["oklahoma city", "elevation", "countours", "planimetrics", "2020"]
 categories: ["Infrastructure"]
 cover: "covers/elevation-contours-1e61c575--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e61c57573004a83a6f1694aa0e94f84/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1e61c57573004a83a6f1694aa0e94f84/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "1e61c57573004a83a6f1694aa0e94f84"
 city: "okc"

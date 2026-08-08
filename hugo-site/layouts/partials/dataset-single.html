@@ -16,6 +16,8 @@
   <p class="official-map"><a href="{{ . }}" target="_blank" rel="noopener">View the city's official map for this dataset →</a> <span class="dictionary-note">(opens in {{ $city.name }}'s own data portal)</span></p>
   {{ end }}
 
+  {{ partial "maplibre-map.html" . }}
+
   <div class="article-body">
     {{ .Content }}
   </div>

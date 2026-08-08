@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Good Government"]
 categories: ["Government"]
 cover: "covers/com-employee-titles-and-salaries-8407de81--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/COM_Employee_Salaries/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/COM_Employee_Salaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=8407de8108474e1e987fc7c583fb1ad7&sublayer=0"
 city: "memphis"

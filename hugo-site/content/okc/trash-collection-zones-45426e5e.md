@@ -7,6 +7,7 @@ tags: ["oklahoma city", "trash", "waste", "pickup", "zones"]
 categories: ["Infrastructure"]
 cover: "covers/trash-collection-zones-45426e5e--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/45426e5e1b31489db9afea603870f724/rest/services/OpenData/Utilities/FeatureServer/1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/45426e5e1b31489db9afea603870f724/rest/services/OpenData/Utilities/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "45426e5e1b31489db9afea603870f724"
 city: "okc"

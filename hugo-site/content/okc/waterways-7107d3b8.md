@@ -7,6 +7,7 @@ tags: [" oklahoma city", "streams", "rivers", "drainage", "hydrology", "waterway
 categories: ["Infrastructure"]
 cover: "covers/waterways-7107d3b8--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "7107d3b89c614b10a53161237fc6d31e"
 city: "okc"

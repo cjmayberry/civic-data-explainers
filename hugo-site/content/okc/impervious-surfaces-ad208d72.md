@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "pavement", "parking lots", "streets", "imperviou
 categories: ["Infrastructure"]
 cover: "covers/impervious-surfaces-ad208d72--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "ad208d728e344ca18dcdad3c84be76e1"
 city: "okc"

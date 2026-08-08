@@ -7,6 +7,7 @@ tags: ["Memphis Open Data", "Transportation & Infrastructure", "Location & Bound
 categories: ["Transportation"]
 cover: "covers/mata-routes-03ccec76--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Routes/FeatureServer"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MATA_Routes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=03ccec76cd9e4c5a85dad17e9f3a2546&sublayer=5"
 city: "memphis"

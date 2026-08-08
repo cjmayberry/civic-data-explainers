@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "surveys", "control", "points", "monuments"]
 categories: ["Infrastructure"]
 cover: "covers/survey-secondary-control-points-1120d3f7--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1120d3f72fe64245a799851598fb83c6/rest/services/OpenData/Infrastructure_Survey/FeatureServer/1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1120d3f72fe64245a799851598fb83c6/rest/services/OpenData/Infrastructure_Survey/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "1120d3f72fe64245a799851598fb83c6"
 city: "okc"

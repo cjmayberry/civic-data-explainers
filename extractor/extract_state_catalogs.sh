@@ -17,10 +17,14 @@ echo "== OCC (ArcGIS Hub DCAT data.json) =="
 $PY "$EX" https://gisdata-occokc.opendata.arcgis.com/data.json > occ_catalog.json
 echo "== data.ok.gov (CKAN package_search) =="
 $PY "$EX" https://data.ok.gov/api/3/action/package_search > okgov_catalog.json
+echo "== ACOG (ArcGIS Hub RSS; needs scaffold_city.py for service URLs) =="
+$PY "$EX" https://acog-maps-and-data-acog.hub.arcgis.com > acog_catalog.json
+echo "== Missouri (Socrata discovery API) =="
+$PY "$EX" https://data.mo.gov/api/catalog/v1 > mo_catalog.json
 
 echo
 echo "Done. Record counts:"
-for f in okc_catalog.json odot_catalog.json occ_catalog.json okgov_catalog.json; do
+for f in okc_catalog.json odot_catalog.json occ_catalog.json okgov_catalog.json acog_catalog.json mo_catalog.json; do
   n=$($PY -c "import json;print(len(json.load(open('$f'))))")
   echo "  $f: $n"
 done

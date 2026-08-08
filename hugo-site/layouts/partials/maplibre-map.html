@@ -1,0 +1,22 @@
+{{/* MapLibre live-data map — renders the SOURCE's own keyless GeoJSON
+     (FeatureServer query or SODA endpoint). No Mapbox token, no iframes,
+     no org-gated viewers. Driven by frontmatter:
+       geojson_url  (required) — queryable GeoJSON endpoint
+       map_title    (optional) — accessible label
+       map_color    (optional) — hex accent for the layer
+     Only renders when geojson_url is set (build_manifest injects it from
+     the catalog's service_url for queryable services). */}}
+{{ with .Params.geojson_url }}
+<div class="live-map">
+  <h2 id="map-{{ . | sha256 | truncate 8 }}">Map of this data</h2>
+  <p class="map-note">Rendered from the source's own published service — the
+    official map is <a href="{{ $.Params.map_link | default $.Params.source_url }}">linked here</a>.
+    Data loads directly from the agency, not from this site.</p>
+  <div data-maplibre-geojson="{{ . }}"
+       data-maplibre-title="{{ $.Params.map_title | default "Live data map" }}"
+       data-maplibre-color="{{ $.Params.map_color | default "#1f77b4" }}"
+       style="width:100%;height:420px;border-radius:8px;border:1px solid #ddd"
+       role="img" aria-label="{{ $.Params.map_title | default "Map of this dataset" }}"></div>
+</div>
+<script src="/js/maplibre-map.js" defer></script>
+{{ end }}

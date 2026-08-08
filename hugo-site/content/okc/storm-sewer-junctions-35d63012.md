@@ -7,6 +7,7 @@ tags: [" oklahoma city", "storm", "sewer", "junction", "conrete", "earthen", "gr
 categories: ["Infrastructure"]
 cover: "covers/storm-sewer-junctions-35d63012--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/35d63012d1534c67899f79ad75a53ca1/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "35d63012d1534c67899f79ad75a53ca1"
 city: "okc"

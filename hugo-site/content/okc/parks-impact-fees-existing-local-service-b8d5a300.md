@@ -7,6 +7,7 @@ tags: ["okc", "oklahoma city", "parks", "impact fees", "benefit areas", "exempti
 categories: ["Licensing"]
 cover: "covers/parks-impact-fees-existing-local-service-b8d5a300--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b8d5a30010d94401b6be773a0786c05f/rest/services/OpenData/Licensing_Permits/FeatureServer/2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/b8d5a30010d94401b6be773a0786c05f/rest/services/OpenData/Licensing_Permits/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "b8d5a30010d94401b6be773a0786c05f"
 city: "okc"
