@@ -3,7 +3,7 @@ title: "SGCNbyCOA2025"
 date: "2026-08-02"
 description: "Boundaries of Conservation Opportunity Areas and listings of Species of Greatest Conservation Need for Tennessee's 2025 State Wildlife Action Plan revision. Overview This feature service provides geographic and species d"
 teaser: "Boundaries of Conservation Opportunity Areas and listings of Species of Greatest Conservation Need for Tennessee's 2025 State Wildlife Action Plan revision. Overview…"
-tags: ["P", "u", "b", "l", "i", "c", "D", "a", "t", ",", "B", "o", "d", "v", "e", "r", "s", "y", "S", "W", "f", "A", "n", "T", "w", "p", "h", "m", "g"]
+tags: []
 categories: ["Default"]
 cover: "covers/sgcnbycoa2025-089d5b8c--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer"

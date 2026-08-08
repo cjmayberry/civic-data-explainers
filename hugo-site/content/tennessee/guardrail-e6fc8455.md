@@ -3,7 +3,7 @@ title: "Guardrail"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where guardrails and cable rails have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was c"
 teaser: "This layer is a cartographic representation of where guardrails and cable rails have been installed on all interstates, state routes, TDOT maintained state park roads…"
-tags: ["Guardrails, Tennessee", "G", "u", "a", "r", "d", "i", "l", "s", ",", "T", "e", "n"]
+tags: ["Guardrails, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/guardrail-e6fc8455--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail/FeatureServer"

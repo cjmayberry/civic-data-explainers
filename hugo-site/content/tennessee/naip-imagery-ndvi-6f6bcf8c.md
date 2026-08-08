@@ -3,7 +3,7 @@ title: "NAIP Imagery - NDVI"
 date: "2026-08-02"
 description: "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center. This Normalized Differ"
 teaser: "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by t"
-tags: ["NDVI", "NAIP", "N", "D", "V", "I", ",", "A", "P"]
+tags: ["NDVI", "NAIP"]
 categories: ["Default"]
 cover: ""
 source_url: "https://utility.arcgis.com/usrsvcs/servers/6f6bcf8c6d724db79f7dfb5c672c4a69/rest/services/NAIP/ImageServer"

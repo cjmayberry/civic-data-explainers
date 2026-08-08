@@ -3,7 +3,7 @@ title: "Tennessee NG911 Address Points"
 date: "2026-08-02"
 description: "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG9"
 teaser: "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address…"
-tags: ["N", "G", "9", "1", ",", "A", "d", "r", "e", "s", "T", "M", "a", "p", "n", "S", "t", "o", "f"]
+tags: []
 categories: ["Default"]
 cover: "covers/tennessee-ng911-address-points-f76e2673--default--cover_only.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer"

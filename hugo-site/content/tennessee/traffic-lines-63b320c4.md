@@ -3,7 +3,7 @@ title: "Traffic Lines"
 date: "2026-08-02"
 description: "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data sho"
 teaser: "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting…"
-tags: ["t", "r", "a", "n", "s", "p", "o", "i", "T", "e", ",", "D", "O", "m", "f", "N", "P", "l", "g", "B", "u", "v", "R", "d", "w", "y", "c"]
+tags: []
 categories: ["Default"]
 cover: "covers/traffic-lines-63b320c4--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Lines/FeatureServer"

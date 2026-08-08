@@ -3,7 +3,7 @@ title: "TN Congressional Districts"
 date: "2026-08-02"
 description: "Tennessee boundaries for the Federal Congressional House of Representatives. Boundary data is from May of 2026, population data is from the 2020 Census. Representatives are from www.house.gov/representatives#state-tennes"
 teaser: "Tennessee boundaries for the Federal Congressional House of Representatives. Boundary data is from May of 2026, population data is from the "
-tags: ["l", "e", "g", "i", "s", "a", "t", "u", "r", ",", "v", "d", "c", "T", "N", "M", "p", "S", "n", "H", "o", "C", "G", "A", "m", "b", "y"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/2"

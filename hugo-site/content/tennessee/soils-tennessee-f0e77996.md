@@ -3,7 +3,7 @@ title: "Soils - Tennessee"
 date: "2026-08-02"
 description: "Tennessee soil units derived from gSSURGO dataset published by the USDA. This is a TDF authoritative dataset for statewide soils. Tennessee gSSURGO Soils Overview This feature layer represents the authoritative statewide"
 teaser: "Tennessee soil units derived from gSSURGO dataset published by the USDA. This is a TDF authoritative dataset for statewide soils. Tennessee gSSURGO Soils Overview This…"
-tags: ["Soils", "Tennessee", "Environment", "S", "o", "i", "l", "s", ",", "T", "e", "n", "E", "v", "r", "m", "t"]
+tags: ["Soils", "Tennessee", "Environment"]
 categories: ["Other"]
 cover: "covers/soils-tennessee-f0e77996--other--cover_only.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Soils_Tennessee/FeatureServer"

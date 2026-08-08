@@ -3,7 +3,7 @@ title: "TNMap Imagery WebMercator"
 date: "2026-08-02"
 description: "Imagery from the statewide Base Mapping Program in the Web Mercator projection. Flown by TDOT Aerial Surveys. Agency: TN Department of Transportation. The imagery is flown on a regional basis, and updated on a county-by-"
 teaser: "Imagery from the statewide Base Mapping Program in the Web Mercator projection. Flown by TDOT Aerial Surveys. Agency: TN Department of Trans"
-tags: ["T", "N", "M", "a", "p", ",", "i", "m", "g", "e", "r", "y", "o", "t", "h", "n", "s", "D", "O"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/BASEMAPS/IMAGERY_WEB_MERCATOR/MapServer"

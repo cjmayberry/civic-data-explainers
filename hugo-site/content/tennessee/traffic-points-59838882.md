@@ -3,7 +3,7 @@ title: "Traffic Points"
 date: "2026-08-02"
 description: "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing historical Annual Average Daily Traffic (AADT), Classifica"
 teaser: "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing…"
-tags: ["Traffic, Traffic Station", "T", "r", "a", "f", "i", "c", ",", "S", "t", "o", "n"]
+tags: ["Traffic, Traffic Station"]
 categories: ["Transportation"]
 cover: "covers/traffic-points-59838882--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Points/FeatureServer"

@@ -3,7 +3,7 @@ title: "Shoulder Surface Area"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where shoulders exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collected using vehicle mounted "
 teaser: "This layer is a cartographic representation of where shoulders exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes.…"
-tags: ["Shoulder Surface Area, Tennessee", "S", "h", "o", "u", "l", "d", "e", "r", "f", "a", "c", "A", ",", "T", "n", "s"]
+tags: ["Shoulder Surface Area, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/shoulder-surface-area-5bf235c8--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Shoulder_Surface_Area/FeatureServer"

@@ -3,7 +3,7 @@ title: "No Shoulder"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR sensors and cameras and w"
 teaser: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This information was collected…"
-tags: ["No Shoulders, Tennessee", "N", "o", "S", "h", "u", "l", "d", "e", "r", "s", ",", "T", "n"]
+tags: ["No Shoulders, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/no-shoulder-ffc48608--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer"

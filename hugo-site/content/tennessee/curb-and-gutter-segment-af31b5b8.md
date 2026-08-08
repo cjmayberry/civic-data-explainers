@@ -3,7 +3,7 @@ title: "Curb and Gutter Segment"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where curb and gutter sections have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was col"
 teaser: "This layer is a cartographic representation of where curb and gutter sections have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
-tags: ["Curb and Gutter, Tennessee", "C", "u", "r", "b", "a", "n", "d", "G", "t", "e", ",", "T", "s"]
+tags: ["Curb and Gutter, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/curb-and-gutter-segment-af31b5b8--infrastructure--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Curb_and_Gutter_Segment/FeatureServer"

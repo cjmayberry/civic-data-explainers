@@ -3,7 +3,7 @@ title: "Marina Sites"
 date: "2026-08-02"
 description: "This service features detailed data on Tennessee marinas, including amenities, parking, and access information for statewide recreational use. Overview This feature service provides comprehensive data on marinas located "
 teaser: "This service features detailed data on Tennessee marinas, including amenities, parking, and access information for statewide recreational use. Overview This feature…"
-tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "T", "e", "b", "r", "m", "p", "c", "w", "f", "u", "l", "d", "v"]
+tags: []
 categories: ["Default"]
 cover: "covers/marina-sites-5fa96ee2--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Marina_Sites_View/FeatureServer"

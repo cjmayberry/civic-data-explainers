@@ -3,7 +3,7 @@ title: "TN City Boundaries"
 date: "2026-08-02"
 description: "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities in Tennessee per Tennessee Code Annotated § 6-51-12. This product is distributed "
 teaser: "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities i"
-tags: ["c", "i", "t", "y", ",", "b", "o", "u", "n", "d", "a", "r", "e", "s", "T", "N", "C", "m", "p", "l", "O", "D"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/COUNTY_BOUNDARIES_AND_CITY_BOUNDARIES/MapServer/0"

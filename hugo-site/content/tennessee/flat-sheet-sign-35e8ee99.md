@@ -3,7 +3,7 @@ title: "Flat Sheet Sign"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where flat sheet signs have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collected u"
 teaser: "This layer is a cartographic representation of where flat sheet signs have been installed on all interstates, state routes, TDOT maintained state park roads, and locally…"
-tags: ["Flatsheet Signs", "Tennessee", "F", "l", "a", "t", "s", "h", "e", "S", "i", "g", "n", ",", "T"]
+tags: ["Flatsheet Signs", "Tennessee"]
 categories: ["Transportation"]
 cover: "covers/flat-sheet-sign-35e8ee99--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Flat_Sheet_Sign/FeatureServer"

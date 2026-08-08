@@ -3,7 +3,7 @@ title: "Travel Lanes Surface Area"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where travel lanes exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collected using vehicle mount"
 teaser: "This layer is a cartographic representation of where travel lanes exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes.…"
-tags: ["Travel Lane Surface Area, Tennessee", "T", "r", "a", "v", "e", "l", "L", "n", "S", "u", "f", "c", "A", ",", "s"]
+tags: ["Travel Lane Surface Area, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/travel-lanes-surface-area-25327b73--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Travel_Lanes_Surface_Area/FeatureServer"

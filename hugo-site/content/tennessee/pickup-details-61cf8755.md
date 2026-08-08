@@ -3,7 +3,7 @@ title: "PICKUP DETAILS"
 date: "2026-08-02"
 description: "Adopt A Highway public data view TDOT Adopt-A-Highway Program TDOT Adopt-A-Highway groups help keep Tennessee beautiful! Since the program's inception in 1989, our volunteers have collected more than 12 million pounds of"
 teaser: "Adopt A Highway public data view TDOT Adopt-A-Highway Program TDOT Adopt-A-Highway groups help keep Tennessee beautiful! Since the program's inception in 1989, our…"
-tags: ["P", "r", "o", "d", ",", "u", "c", "t", "i", "n", "B", "e", "a", "f", "A", "p", "H", "g", "h", "w", "y", "E", "v", "m", "l", "T", "D", "O", "s", "N"]
+tags: []
 categories: ["Default"]
 cover: "covers/pickup-details-61cf8755--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer"

@@ -3,7 +3,7 @@ title: "Mile Marker"
 date: "2026-08-02"
 description: "Mile Marker was derived from the Flat Sheet Sign feature layer. This layer is a cartographic representation of where flat sheet signs have been installed on all interstates, state routes, TDOT maintained state park roads"
 teaser: "Mile Marker was derived from the Flat Sheet Sign feature layer. This layer is a cartographic representation of where flat sheet signs have been installed on all…"
-tags: ["Flatsheet Signs", "Tennessee", "F", "l", "a", "t", "s", "h", "e", "S", "i", "g", "n", ",", "T"]
+tags: ["Flatsheet Signs", "Tennessee"]
 categories: ["Transportation"]
 cover: "covers/mile-marker-b51d9940--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mile_Marker/FeatureServer"

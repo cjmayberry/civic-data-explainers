@@ -3,7 +3,7 @@ title: "TDEC Huntable Areas (external)"
 date: "2026-08-02"
 description: "Detailed geospatial data on huntable lands within Tennessee State Parks and State Natural Areas, including property types, acreage, and special instructions for hunters. Overview This Feature Service provides comprehensi"
 teaser: "Detailed geospatial data on huntable lands within Tennessee State Parks and State Natural Areas, including property types, acreage, and special instructions for hunters.…"
-tags: ["T", "e", "n", "s", ",", "h", "u", "t", "a", "b", "l", "d", "p", "r", "k", "w", "i", "f", "m", "g", "o", "c"]
+tags: []
 categories: ["Default"]
 cover: "covers/tdec-huntable-areas-external-d33b97aa--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TDEC_Huntable_Areas_(external)/FeatureServer"

@@ -3,7 +3,7 @@ title: "Find-A-Park Points Data Filters - TN State Parks"
 date: "2026-08-02"
 description: "This layer is a point geometry with all park amenities for the website filters"
 teaser: "This layer is a point geometry with all park amenities for the website filters"
-tags: ["t", "e", "n", "s", "a", "p", "r", "k"]
+tags: []
 categories: ["Default"]
 cover: "covers/find-a-park-points-data-filters-tn-state-parks-d54ec10b--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer"

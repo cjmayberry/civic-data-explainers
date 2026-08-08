@@ -3,7 +3,7 @@ title: "Paddling Access Sites"
 date: "2026-08-02"
 description: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature service provides comprehensive spatial data paddlin"
 teaser: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature…"
-tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "T", "e", "b", "r", "m", "p", "u", "l", "c", "d", "w", "f"]
+tags: []
 categories: ["Default"]
 cover: "covers/paddling-access-sites-2389307b--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Paddling_Access_Sites/FeatureServer"

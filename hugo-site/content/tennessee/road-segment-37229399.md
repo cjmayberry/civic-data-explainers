@@ -3,7 +3,7 @@ title: "Road Segment"
 date: "2026-08-02"
 description: "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road. It contains tabular polyline data showing the log mi"
 teaser: "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road.…"
-tags: ["Tennessee, TDOT, TRIMS, Segment", "T", "e", "n", "s", ",", "D", "O", "R", "I", "M", "S", "g", "m", "t"]
+tags: ["Tennessee, TDOT, TRIMS, Segment"]
 categories: ["Transportation"]
 cover: "covers/road-segment-37229399--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Segment/FeatureServer"

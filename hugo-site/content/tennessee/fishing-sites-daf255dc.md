@@ -3,7 +3,7 @@ title: "Fishing Sites"
 date: "2026-08-02"
 description: "This service maps fishing access sites across Tennessee, detailing facilities and amenities at each location. Overview This Feature Service provides comprehensive information on fishing access locations throughout Tennes"
 teaser: "This service maps fishing access sites across Tennessee, detailing facilities and amenities at each location. Overview This Feature Service provides comprehensive…"
-tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "T", "e", "b", "r", "m", "p", "f", "c", "u", "l", "w", "y", "d", "v", "S"]
+tags: []
 categories: ["Default"]
 cover: "covers/fishing-sites-daf255dc--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fishing_Sites/FeatureServer"

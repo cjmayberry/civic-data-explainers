@@ -3,7 +3,7 @@ title: "District Boundaries"
 date: "2026-08-02"
 description: "Official District boundaries of the Tennessee Disivion of Forestry (TDF). This is a TDF-authoritative dataset. Tennessee Division of Foresstry District Boundaries Overview This feature layer represents the official and a"
 teaser: "Official District boundaries of the Tennessee Disivion of Forestry (TDF). This is a TDF-authoritative dataset. Tennessee Division of Foresstry District Boundaries…"
-tags: ["Boundaries", "Districts", "TDF", "Admin", "B", "o", "u", "n", "d", "a", "r", "i", "e", "s", ",", "D", "t", "c", "T", "F", "A", "m"]
+tags: ["Boundaries", "Districts", "TDF", "Admin"]
 categories: ["Government"]
 cover: "covers/district-boundaries-d38b1948--government--cover_only.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/District_Boundaries/FeatureServer"

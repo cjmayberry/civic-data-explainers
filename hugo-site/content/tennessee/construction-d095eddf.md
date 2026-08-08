@@ -3,7 +3,7 @@ title: "Construction"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where roadways were under construction when the asset and photolog vendor collected a route. This occurs on interstates, state routes, TDOT maintained state park roads, and "
 teaser: "This layer is a cartographic representation of where roadways were under construction when the asset and photolog vendor collected a route. This occurs on interstates…"
-tags: ["Construction, Tennessee", "C", "o", "n", "s", "t", "r", "u", "c", "i", ",", "T", "e"]
+tags: ["Construction, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/construction-d095eddf--infrastructure--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Construction/FeatureServer"

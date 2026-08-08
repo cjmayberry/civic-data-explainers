@@ -3,7 +3,7 @@ title: "Raised Pavement Marker"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where raised pavement markers have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR "
 teaser: "This layer is a cartographic representation of where raised pavement markers have been installed on all interstates, state routes, and locally owned NHS routes. This…"
-tags: ["Raised Pavement Markers, Tennessee", "R", "a", "i", "s", "e", "d", "P", "v", "m", "n", "t", "M", "r", "k", ",", "T"]
+tags: ["Raised Pavement Markers, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/raised-pavement-marker-3e12710c--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Raised_Pavement_Marker/FeatureServer"

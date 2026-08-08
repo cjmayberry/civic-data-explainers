@@ -3,7 +3,7 @@ title: "Bridge Condition"
 date: "2026-08-02"
 description: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field inspections. These descriptions are from the FHWA Recordin"
 teaser: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field…"
-tags: ["T", "D", "O", ",", "e", "n", "s", "p", "a", "r", "t", "m", "o", "f", "i", "N", "S", "u", "c", "B", "d", "g", "I", "C", "v", "y", "A", "G", "."]
+tags: []
 categories: ["Default"]
 cover: "covers/bridge-condition-8d89d92e--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer"

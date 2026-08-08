@@ -3,7 +3,7 @@ title: "National Register Of Historic Places Boundaries - Tennessee"
 date: "2026-08-02"
 description: "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also ha"
 teaser: "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individu"
-tags: ["C", "o", "m", "u", "n", "i", "t", "y", ",", "H", "s", "r", "c", "a", "l", "h", "g"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/2"

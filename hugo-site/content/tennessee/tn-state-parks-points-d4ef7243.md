@@ -3,7 +3,7 @@ title: "TN State Parks Points"
 date: "2026-08-02"
 description: "Point feature class representing the centroids within Tennessee State Parks boundaries. This feature class contains points representing the locations of Tennessee State Parks. These points are calculated as the centroid "
 teaser: "Point feature class representing the centroids within Tennessee State Parks boundaries. This feature class contains points representing the locations of Tennessee State…"
-tags: ["T", "e", "n", "s", ",", "S", "t", "a", "P", "r", "k", "N", "D", "E", "C", "_", "O"]
+tags: []
 categories: ["Default"]
 cover: "covers/tn-state-parks-points-d4ef7243--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer"

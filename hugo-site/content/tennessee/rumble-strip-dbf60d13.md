@@ -3,7 +3,7 @@ title: "Rumble Strip"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where rumble strips have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR sensors an"
 teaser: "This layer is a cartographic representation of where rumble strips have been installed on all interstates, state routes, and locally owned NHS routes. This information…"
-tags: ["Rumble Strips, Tennessee", "R", "u", "m", "b", "l", "e", "S", "t", "r", "i", "p", "s", ",", "T", "n"]
+tags: ["Rumble Strips, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/rumble-strip-dbf60d13--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Rumble_Strip/FeatureServer"

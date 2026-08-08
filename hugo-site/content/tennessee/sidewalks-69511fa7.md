@@ -3,7 +3,7 @@ title: "Sidewalks"
 date: "2026-08-02"
 description: "ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Specialty Pavement Markings, Curb Ramps, and Sidewalks. ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Spec"
 teaser: "ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Specialty Pavement Markings, Curb Ramps, and Sidewalks. ADA-related infrastructure.…"
-tags: ["T", "D", "O", ",", "e", "n", "s", "p", "a", "r", "t", "m", "o", "f", "i", "A", "M", "g", "v", "I", "y", "C", "w", "l", "k", "u", "b", "P", "d", "S", "c"]
+tags: []
 categories: ["Default"]
 cover: "covers/sidewalks-69511fa7--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer"

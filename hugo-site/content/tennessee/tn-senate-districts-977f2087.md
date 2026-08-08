@@ -3,7 +3,7 @@ title: "TN Senate Districts"
 date: "2026-08-02"
 description: "Boundaries for the Tennessee Senate. Boundary data is from 2022, population data is from the 2020 Census. Senate members are from www.capitol.tn.gov."
 teaser: "Boundaries for the Tennessee Senate. Boundary data is from 2022, population data is from the 2020 Census. Senate members are from www.capito"
-tags: ["l", "e", "g", "i", "s", "a", "t", "u", "r", ",", "v", "d", "c", "T", "N", "M", "p", "S", "n", "H", "o", "C", "G", "A", "m", "b", "y"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/0"

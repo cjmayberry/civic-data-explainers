@@ -3,7 +3,7 @@ title: "Impacted Streams Subbasin Project PINs"
 date: "2026-08-02"
 description: "This layer contains the streams impacted by the 10 year projects from 2024, and the mitigation credits associated with each. This layer contains the streams impacted by the 10 year projects from 2024, and the mitigation "
 teaser: "This layer contains the streams impacted by the 10 year projects from 2024, and the mitigation credits associated with each. This layer contains the streams impacted by…"
-tags: ["Watershed Mitigation, Mitgation Banks, Streams, 10 year projects, Transportation, TMA", "W", "a", "t", "e", "r", "s", "h", "d", "M", "i", "g", "o", "n", ",", "B", "k", "S", "m", "1", "0", "y", "p", "j", "c", "T", "A"]
+tags: ["Watershed Mitigation, Mitgation Banks, Streams, 10 year projects, Transportation, TMA"]
 categories: ["Transportation"]
 cover: "covers/impacted-streams-subbasin-project-pins-3556056b--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Impacted_Streams_Subbasin_Project_PINs/FeatureServer"

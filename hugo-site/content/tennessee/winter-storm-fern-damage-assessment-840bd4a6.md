@@ -3,7 +3,7 @@ title: "Winter Storm Fern Damage Assessment"
 date: "2026-08-02"
 description: "Classified Winter Storm Fern damage assessment map service showing observed damage severity across Tennessee and portions of the central United States for storm review, imagery comparison, situational awareness, and reco"
 teaser: "Classified Winter Storm Fern damage assessment map service showing observed damage severity across Tennessee and portions of the central Uni"
-tags: ["fern", "winter storm", "ice", "winter storm fern", "ice storm", "Tennessee", "forest", "TDF", "damage", "weather event", "weather damage", "canopy loss", "f", "e", "r", "n", ",", "w", "i", "t", "s", "o", "m", "c", "T", "D", "F", "d", "a", "g", "h", "v", "p", "y", "l"]
+tags: ["fern", "winter storm", "ice", "winter storm fern", "ice storm", "Tennessee", "forest", "TDF"]
 categories: ["Public Safety"]
 cover: ""
 source_url: "https://tiles.arcgis.com/tiles/lvPBAGXeSupVUvx2/arcgis/rest/services/Winter_Storm_Fern_Damage_Assessment/MapServer"

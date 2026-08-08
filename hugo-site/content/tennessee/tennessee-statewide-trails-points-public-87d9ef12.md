@@ -3,7 +3,7 @@ title: "Tennessee Statewide Trails Points Public"
 date: "2026-08-02"
 description: "Compiled from various sources, this dataset consists of publicly accessible trails and greenways in Tennessee. Trail points are where the state does not have linear data. This dataset was compiled from various sources to"
 teaser: "Compiled from various sources, this dataset consists of publicly accessible trails and greenways in Tennessee. Trail points are where the state does not have linear…"
-tags: ["T", "R", "E", "C", ",", "e", "c", "r", "a", "t", "i", "o", "n", "l", "s", "N"]
+tags: []
 categories: ["Default"]
 cover: "covers/tennessee-statewide-trails-points-public-87d9ef12--default--cover_only.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Trails_Points_Public/FeatureServer"

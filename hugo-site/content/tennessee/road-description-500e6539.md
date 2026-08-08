@@ -3,7 +3,7 @@ title: "Road Description"
 date: "2026-08-02"
 description: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contains tabular polyline data showing the log miles, feature type, and feature width f"
 teaser: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contains tabular polyline data…"
-tags: ["Tennessee", "TDOT", "TRIMS", "Description", "T", "e", "n", "s", ",", "D", "O", "R", "I", "M", "S", "c", "r", "i", "p", "t", "o"]
+tags: ["Tennessee", "TDOT", "TRIMS", "Description"]
 categories: ["Transportation"]
 cover: "covers/road-description-500e6539--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Description/FeatureServer"

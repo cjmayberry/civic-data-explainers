@@ -3,7 +3,7 @@ title: "Pedestrian Level Traffic Stress"
 date: "2026-08-02"
 description: "Pedestrian Level of Traffic Stress (LTS) models relative levels of roadway walkability based on infrastructure and traffic conditions. Pedestrian LTS is a model for roadway walkability and accessibility based on a weight"
 teaser: "Pedestrian Level of Traffic Stress (LTS) models relative levels of roadway walkability based on infrastructure and traffic conditions. Pedestrian LTS is a model for…"
-tags: ["Tennessee, TDOT, TRIMS, Geometrics", "T", "e", "n", "s", ",", "D", "O", "R", "I", "M", "S", "G", "o", "m", "t", "r", "i", "c"]
+tags: ["Tennessee, TDOT, TRIMS, Geometrics"]
 categories: ["Transportation"]
 cover: "covers/pedestrian-level-traffic-stress-fb1448f0--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pedestrian_Level_Traffic_Stress/FeatureServer"

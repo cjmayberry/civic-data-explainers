@@ -3,7 +3,7 @@ title: "Fish Attractor Locations for Habitat Enhancement and Angler Access"
 date: "2026-08-02"
 description: "This service maps fish attractor locations with detailed habitat types and angler access information to support fisheries management and recreational fishing. Overview This feature service provides detailed spatial data "
 teaser: "This service maps fish attractor locations with detailed habitat types and angler access information to support fisheries management and recreational fishing. Overview…"
-tags: ["F", "i", "s", "h", "n", "g", ",", "P", "u", "b", "l", "c", "D", "a", "t", "H", "f", "e", "r", "w", "o", "T"]
+tags: []
 categories: ["Default"]
 cover: "covers/fish-attractor-locations-for-habitat-enhancement-ce62f590--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fish_Attractor_Locations_view/FeatureServer"

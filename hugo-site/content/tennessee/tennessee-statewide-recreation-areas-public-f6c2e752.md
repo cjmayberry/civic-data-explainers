@@ -3,7 +3,7 @@ title: "Tennessee Statewide Recreation Areas Public"
 date: "2026-08-02"
 description: "Compiled from various sources, this dataset consists of publicly accessible recreation areas, parks, and forests in Tennessee. This dataset was compiled from various sources to support the TREC Project. Wildlife Manageme"
 teaser: "Compiled from various sources, this dataset consists of publicly accessible recreation areas, parks, and forests in Tennessee. This dataset was compiled from various…"
-tags: ["T", "R", "E", "C", ",", "e", "c", "r", "a", "t", "i", "o", "n", "P", "k", "s", "N", "H", "l", "h", "O", "u", "d"]
+tags: []
 categories: ["Default"]
 cover: "covers/tennessee-statewide-recreation-areas-public-f6c2e752--default--cover_only.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Recreation_Areas_Public/FeatureServer"

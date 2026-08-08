@@ -3,7 +3,7 @@ title: "Road Geometrics"
 date: "2026-08-02"
 description: "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way or two-way, type of terrain, thru lanes, number of"
 teaser: "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way…"
-tags: ["Tennessee, TDOT, TRIMS, Geometrics", "T", "e", "n", "s", ",", "D", "O", "R", "I", "M", "S", "G", "o", "m", "t", "r", "i", "c"]
+tags: ["Tennessee, TDOT, TRIMS, Geometrics"]
 categories: ["Transportation"]
 cover: "covers/road-geometrics-552d7e44--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Geometrics/FeatureServer"

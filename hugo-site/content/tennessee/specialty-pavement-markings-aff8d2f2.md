@@ -3,7 +3,7 @@ title: "Specialty Pavement Markings"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where specialty pavement markings have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was "
 teaser: "This layer is a cartographic representation of where specialty pavement markings have been installed on all interstates, state routes, TDOT maintained state park roads…"
-tags: ["Specialty Pavement Markings, Tennessee", "S", "p", "e", "c", "i", "a", "l", "t", "y", "P", "v", "m", "n", "M", "r", "k", "g", "s", ",", "T"]
+tags: ["Specialty Pavement Markings, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/specialty-pavement-markings-aff8d2f2--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Specialty_Pavement_Markings/FeatureServer"

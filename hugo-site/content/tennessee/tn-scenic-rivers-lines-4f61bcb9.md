@@ -3,7 +3,7 @@ title: "TN Scenic Rivers Lines"
 date: "2026-08-02"
 description: "Line feature class representing rivers or river segments designated as Tennessee Scenic Rivers. This line feature class contains rivers or river segments designated as Tennessee Scenic Rivers. The extents represented wit"
 teaser: "Line feature class representing rivers or river segments designated as Tennessee Scenic Rivers. This line feature class contains rivers or river segments designated as…"
-tags: ["T", "e", "n", "s", ",", "S", "c", "i", "R", "v", "r", "D", "E", "C", "t", "a"]
+tags: []
 categories: ["Default"]
 cover: "covers/tn-scenic-rivers-lines-4f61bcb9--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Scenic_Rivers_line_view/FeatureServer"

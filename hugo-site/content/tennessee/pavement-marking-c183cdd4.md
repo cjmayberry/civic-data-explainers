@@ -3,7 +3,7 @@ title: "Pavement Marking"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where pavement markings have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collected "
 teaser: "This layer is a cartographic representation of where pavement markings have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
-tags: ["Pavement Markings, Tennessee", "P", "a", "v", "e", "m", "n", "t", "M", "r", "k", "i", "g", "s", ",", "T"]
+tags: ["Pavement Markings, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/pavement-marking-c183cdd4--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Marking/FeatureServer"

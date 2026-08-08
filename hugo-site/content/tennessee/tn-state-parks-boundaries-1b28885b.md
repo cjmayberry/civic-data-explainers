@@ -3,7 +3,7 @@ title: "TN State Parks Boundaries"
 date: "2026-08-02"
 description: "Polygon feature class representing the boundaries of Tennessee State Parks. This feature class contains boundaries for Tennessee State Parks. The boundaries represented within do not constitute a survey product and are n"
 teaser: "Polygon feature class representing the boundaries of Tennessee State Parks. This feature class contains boundaries for Tennessee State Parks. The boundaries represented…"
-tags: ["T", "e", "n", "s", ",", "D", "E", "C", "S", "t", "a", "P", "r", "k", "N", "_", "O"]
+tags: []
 categories: ["Default"]
 cover: "covers/tn-state-parks-boundaries-1b28885b--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer"

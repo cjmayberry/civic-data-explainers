@@ -3,7 +3,7 @@ title: "WaterfowlBlinds"
 date: "2026-08-02"
 description: "Waterfowl blinds as set by the commission for the 2024-2025 waterfowl season - Created from the June 2023 layer in duckblinds geodatabase"
 teaser: "Waterfowl blinds as set by the commission for the 2024-2025 waterfowl season - Created from the June 2023 layer in duckblinds geodatabase"
-tags: ["P", "u", "b", "l", "i", "c", "D", "a", "t", ",", "H", "n", "g", "T", "W", "R", "A"]
+tags: []
 categories: ["Default"]
 cover: "covers/waterfowlblinds-25d32a1b--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WaterfowlBlinds/FeatureServer"

@@ -3,7 +3,7 @@ title: "Delineator"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where delineators have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR sensors and "
 teaser: "This layer is a cartographic representation of where delineators have been installed on all interstates, state routes, and locally owned NHS routes. This information was…"
-tags: ["Delineators, Tennessee", "D", "e", "l", "i", "n", "a", "t", "o", "r", "s", ",", "T"]
+tags: ["Delineators, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/delineator-9bc8a54b--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Delineator/FeatureServer"

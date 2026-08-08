@@ -3,7 +3,7 @@ title: "USFS Forest Legacy Completed Tracts"
 date: "2026-08-02"
 description: "Completed Forest Legacy tracts from the U.S. Forest Service National Forest Legacy Program, displayed for Tennessee to support conservation program tracking, reporting, stewardship analysis, and planning. USFS Forest Leg"
 teaser: "Completed Forest Legacy tracts from the U.S. Forest Service National Forest Legacy Program, displayed for Tennessee to support conservation program tracking, reporting…"
-tags: ["legacy", "forest", "FLP", "USFS", "Tennessee", "TDF", "conservation", "l", "e", "g", "a", "c", "y", ",", "f", "o", "r", "s", "t", "F", "L", "P", "U", "S", "T", "n", "D", "v", "i"]
+tags: ["legacy", "forest", "FLP", "USFS", "Tennessee", "TDF", "conservation"]
 categories: ["Other"]
 cover: "covers/usfs-forest-legacy-completed-tracts-389c0319--other--cover_only.svg"
 source_url: "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/Forest_Legacy_Completed_Tract/FeatureServer/1"

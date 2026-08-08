@@ -3,7 +3,7 @@ title: "Landscaping and Flowers"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where landscaping and flowers have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was coll"
 teaser: "This layer is a cartographic representation of where landscaping and flowers have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
-tags: ["Landscaping and Wild Flowers, Tennessee", "L", "a", "n", "d", "s", "c", "p", "i", "g", "W", "l", "F", "o", "w", "e", "r", ",", "T"]
+tags: ["Landscaping and Wild Flowers, Tennessee"]
 categories: ["Parks & Recreation"]
 cover: "covers/landscaping-and-flowers-1dd54a85--parks-recreation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Landscaping_and_Flowers/FeatureServer"

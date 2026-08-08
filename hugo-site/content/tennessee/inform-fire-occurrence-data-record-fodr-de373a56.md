@@ -3,7 +3,7 @@ title: "InFORM Fire Occurrence Data Record (FODR)"
 date: "2026-08-02"
 description: "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritat"
 teaser: "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) "
-tags: ["InFORM", "FODR", "fire occurrence", "fire", "wildfire", "Tennessee", "I", "n", "F", "O", "R", "M", ",", "D", "f", "i", "r", "e", "o", "c", "u", "w", "l", "d", "T", "s"]
+tags: ["InFORM", "FODR", "fire occurrence", "fire", "wildfire", "Tennessee"]
 categories: ["Other"]
 cover: ""
 source_url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InFORM_FireOccurrence_Public/FeatureServer"

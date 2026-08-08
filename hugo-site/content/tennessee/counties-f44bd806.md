@@ -3,7 +3,7 @@ title: "counties"
 date: "2026-08-02"
 description: "This service provides detailed river mile markers and county boundaries for Tennessee, supporting navigation. Overview This feature service provides a comprehensive spatial dataset for Tennessee, focusing on river mile m"
 teaser: "This service provides detailed river mile markers and county boundaries for Tennessee, supporting navigation. Overview This feature service provides a comprehensive…"
-tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "P", "u", "b", "l", "c", "D", "T", "e", "r", "v", "m", "y", "d", "w", "p"]
+tags: []
 categories: ["Default"]
 cover: "covers/counties-f44bd806--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer"

@@ -3,7 +3,7 @@ title: "Control Fence"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where access control fences have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR se"
 teaser: "This layer is a cartographic representation of where access control fences have been installed on all interstates, state routes, and locally owned NHS routes. This…"
-tags: ["Access Control Fence, Tennessee", "A", "c", "e", "s", "C", "o", "n", "t", "r", "l", "F", ",", "T"]
+tags: ["Access Control Fence, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/control-fence-25d805b3--infrastructure--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Control_Fence/FeatureServer"

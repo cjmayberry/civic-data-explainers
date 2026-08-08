@@ -3,7 +3,7 @@ title: "Extruded Panel Sign"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where extruded panel signs have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collect"
 teaser: "This layer is a cartographic representation of where extruded panel signs have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
-tags: ["Extruded Panel Signs, Tennessee", "E", "x", "t", "r", "u", "d", "e", "P", "a", "n", "l", "S", "i", "g", "s", ",", "T"]
+tags: ["Extruded Panel Signs, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/extruded-panel-sign-ddf879d9--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Extruded_Panel_Sign/FeatureServer"

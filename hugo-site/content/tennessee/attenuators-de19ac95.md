@@ -3,7 +3,7 @@ title: "Attenuators"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where impact attenuators have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR senso"
 teaser: "This layer is a cartographic representation of where impact attenuators have been installed on all interstates, state routes, and locally owned NHS routes. This…"
-tags: ["Attenuators, Tennessee, TDOT, DOT, Asset Management Division, Asset Data, Assets, Inventory Data", "A", "t", "e", "n", "u", "a", "o", "r", "s", ",", "T", "D", "O", "M", "g", "m", "i", "v", "I", "y"]
+tags: ["Attenuators, Tennessee, TDOT, DOT, Asset Management Division, Asset Data, Assets, Inventory Data"]
 categories: ["Transportation"]
 cover: "covers/attenuators-de19ac95--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Attenuators/FeatureServer"

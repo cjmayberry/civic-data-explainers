@@ -3,7 +3,7 @@ title: "State Aid Route Funding"
 date: "2026-08-02"
 description: "Provide a fiscal year summary of mileage and dollars spent in the State-Aid program. The number of miles and the amount of state-aid dollars spent during that fiscal year on state-aid roads. The data will be used by TDOT"
 teaser: "Provide a fiscal year summary of mileage and dollars spent in the State-Aid program. The number of miles and the amount of state-aid dollars spent during that fiscal…"
-tags: ["T", "e", "n", "s", ",", "D", "O", "p", "a", "r", "t", "m", "o", "f", "i", "N", "B", "u", "P", "l", "g", "S", "-", "A", "d", "c"]
+tags: []
 categories: ["Default"]
 cover: "covers/state-aid-route-funding-6465d80a--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/State_Aid_Route_Funding/FeatureServer"

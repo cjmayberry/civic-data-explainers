@@ -3,7 +3,7 @@ title: "Tennessee Public Safety Answering Point Boundaries"
 date: "2026-08-02"
 description: "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for use in NG911 call routing and answering. Update Frequ"
 teaser: "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for…"
-tags: ["T", "N", "E", "m", "e", "r", "g", "n", "c", "y", "C", "o", "u", "i", "a", "t", "s", "B", "d", ",", "x", "G", "9", "-", "1", "S", "I", "v", "P", "A"]
+tags: []
 categories: ["Default"]
 cover: "covers/tennessee-public-safety-answering-point-boundari-c8563776--default--cover_only.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Public_Safety_Answering_Points/FeatureServer"

@@ -3,7 +3,7 @@ title: "Mowable Acres"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where mowable acres exist on all interstates, state routes, and locally owned NHS routes. Mowable areas are defined as any area covered in grass with a slope less than 3:1 w"
 teaser: "This layer is a cartographic representation of where mowable acres exist on all interstates, state routes, and locally owned NHS routes. Mowable areas are defined as any…"
-tags: ["Mowable Acres, Tennessee", "M", "o", "w", "a", "b", "l", "e", "A", "c", "r", "s", ",", "T", "n"]
+tags: ["Mowable Acres, Tennessee"]
 categories: ["Parks & Recreation"]
 cover: "covers/mowable-acres-129a15ac--parks-recreation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mowable_Acres/FeatureServer"

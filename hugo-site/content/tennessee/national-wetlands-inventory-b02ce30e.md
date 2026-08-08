@@ -3,7 +3,7 @@ title: "National Wetlands Inventory"
 date: "2026-08-02"
 description: "The present goal of the Service is to provide the citizens of the United States and its Trust Territories with current geospatially referenced information on the status, extent, characteristics and functions of wetlands,"
 teaser: "The present goal of the Service is to provide the citizens of the United States and its Trust Territories with current geospatially referenced information on the status…"
-tags: ["environment", "oceans", "geoscientificInformation", "inlandWaters", "USFWS", "National Wetlands Inventory", "Deepwater habitats", "NWI", "Coastal waters", "Wetlands", "Hydrography", "Swamps, marshes, bogs, fens", "Surface water", "U.S. Fish and Wildlife Service", "e", "n", "v", "i", "r", "o", "m", "t", ",", "c", "a", "s", "g", "f", "I", "l", "d", "W", "U", "S", "F", "N", "y", "D", "p", "w", "h", "b", "C", "H", "u", "."]
+tags: ["environment", "oceans", "geoscientificInformation", "inlandWaters", "USFWS", "National Wetlands Inventory", "Deepwater habitats", "NWI"]
 categories: ["Other"]
 cover: "covers/national-wetlands-inventory-b02ce30e--other--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/National_Wetlands_Inventory/FeatureServer"

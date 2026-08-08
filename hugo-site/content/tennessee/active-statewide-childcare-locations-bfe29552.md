@@ -3,7 +3,7 @@ title: "Active Statewide Childcare Locations"
 date: "2026-08-02"
 description: "This layer contains childcare locations from Tennessee Dept. of Human Services (DHS). It is only those locations set to active and childcare only. Locations at educational (Dept. of Education) facilities are not part of "
 teaser: "This layer contains childcare locations from Tennessee Dept. of Human Services (DHS). It is only those locations set to active and childcare only. Locations at…"
-tags: ["t", "n", "m", "a", "p", ",", "D", "H", "S", "T", "e", "s", "C", "h", "i", "l", "d", "c", "r", "u", "o", "b"]
+tags: []
 categories: ["Default"]
 cover: "covers/active-statewide-childcare-locations-bfe29552--default--cover_only.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Active_ChildCare_Locations/FeatureServer"

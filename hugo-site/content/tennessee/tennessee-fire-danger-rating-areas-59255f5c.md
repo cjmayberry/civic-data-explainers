@@ -3,7 +3,7 @@ title: "Tennessee Fire Danger Rating Areas"
 date: "2026-08-02"
 description: "This service delineates fire danger rating areas across Tennessee to aid in wildfire risk assessment and forestry management. Tennessee Fire Danger Rating Areas Overview This feature layer represents the designated Fire "
 teaser: "This service delineates fire danger rating areas across Tennessee to aid in wildfire risk assessment and forestry management. Tennessee Fire Danger Rating Areas Overview…"
-tags: ["fire", "fire danger rating area", "FDRA", "f", "i", "r", "e", ",", "d", "a", "n", "g", "t", "F", "D", "R", "A"]
+tags: ["fire", "fire danger rating area", "FDRA"]
 categories: ["Public Safety"]
 cover: "covers/tennessee-fire-danger-rating-areas-59255f5c--public-safety--cover_only.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Fire_Danger_Rating_Area/FeatureServer"

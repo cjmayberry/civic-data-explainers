@@ -3,7 +3,7 @@ title: "TN Historical Commission Sites"
 date: "2026-08-02"
 description: "Historical Commission sites located within TN Agency: TDEC. Frequency of updates: Irregular. Description: Historic sites from the TN Historical Commission. Conversion from paper files to digital data is in progress so th"
 teaser: "Historical Commission sites located within TN Agency: TDEC. Frequency of updates: Irregular. Description: Historic sites from the TN Histori"
-tags: ["T", "N", "M", "A", "P", ",", "t", "h", "c", "i", "s", "o", "r", "y", "a", "l", "m", "n", "e", "C", "u"]
+tags: []
 categories: ["Default"]
 cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/HISTORICAL_COMMISSION/MapServer/0"

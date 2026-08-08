@@ -3,7 +3,7 @@ title: "Entrance Pipe"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where entrance pipes have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was collected usi"
 teaser: "This layer is a cartographic representation of where entrance pipes have been installed on all interstates, state routes, TDOT maintained state park roads, and locally…"
-tags: ["Entrance Pipes, Tennessee", "E", "n", "t", "r", "a", "c", "e", "P", "i", "p", "s", ",", "T"]
+tags: ["Entrance Pipes, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/entrance-pipe-7774c2dc--infrastructure--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Entrance_Pipe/FeatureServer"

@@ -3,7 +3,7 @@ title: "Concrete Barrier Wall"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where concrete barrier walls have been installed on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR s"
 teaser: "This layer is a cartographic representation of where concrete barrier walls have been installed on all interstates, state routes, and locally owned NHS routes. This…"
-tags: ["Concrete Barrier Wall, Tennessee", "C", "o", "n", "c", "r", "e", "t", "B", "a", "i", "W", "l", ",", "T", "s"]
+tags: ["Concrete Barrier Wall, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/concrete-barrier-wall-784fdeb5--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Concrete_Barrier_Wall/FeatureServer"

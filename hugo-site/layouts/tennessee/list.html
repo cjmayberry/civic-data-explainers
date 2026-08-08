@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ $city := index $.Site.Data.cities (.Params.city | default "memphis") }}
+{{ $city := index $.Site.Data.cities (.Params.city | default "tennessee") }}
 <section class="page-head">
-  <span class="kicker">City #2 · drafted by the same pipeline</span>
+  <span class="kicker">State #2 · ArcGIS Hub platform</span>
   <h1>{{ $city.name }} explainers</h1>
   <p class="dek">{{ $city.blurb }} Every page here was produced by the civic-data pipeline from {{ $city.name }}'s own open-data catalog — same manifest schema, same map covers, same explainer shape as Oklahoma City.</p>
   <p class="meta"><a href="{{ "/" | relURL }}">← All cities</a></p>

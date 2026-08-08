@@ -3,7 +3,7 @@ title: "Ditch"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where paved and unpaved ditches have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was co"
 teaser: "This layer is a cartographic representation of where paved and unpaved ditches have been installed on all interstates, state routes, TDOT maintained state park roads…"
-tags: ["Ditch, Tennessee", "D", "i", "t", "c", "h", ",", "T", "e", "n", "s"]
+tags: ["Ditch, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/ditch-93f8a40f--infrastructure--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Ditch/FeatureServer"
