@@ -37,7 +37,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/BASEMAPS/IMAGERY_WEB_MERCATOR/MapServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tnmap-imagery-webmercator-9ddbda7c"
   },
@@ -84,7 +84,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Trout_Stocking_Locations/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "trout-stocking-locations-in-tennessee-3ec5c58f"
   },
@@ -129,7 +129,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-river-miles-and-county-boundaries-f44bd806"
   },
@@ -182,7 +182,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-rivermiles-f44bd806"
   },
@@ -235,7 +235,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "counties-f44bd806"
   },
@@ -283,7 +283,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c"
   },
@@ -339,7 +339,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-coa25-089d5b8c"
   },
@@ -395,7 +395,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "sgcnbycoa2025-089d5b8c"
   },
@@ -445,7 +445,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Paddling_Access_Sites/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "paddling-access-sites-2389307b"
   },
@@ -496,7 +496,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Marina_Sites_View/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "marina-sites-5fa96ee2"
   },
@@ -549,7 +549,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fishing_Sites/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "fishing-sites-daf255dc"
   },
@@ -598,7 +598,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fish_Attractor_Locations_view/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "fish-attractor-locations-for-habitat-enhancement-ce62f590"
   },
@@ -647,7 +647,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Boat_Launch_Sites/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "boat-launch-sites-b3ab0451"
   },
@@ -682,7 +682,7 @@
     ],
     "service_url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "find-a-park-points-data-filters-tn-state-parks-d54ec10b"
   },
@@ -738,7 +738,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Hunting_Allowed/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "twra-hunting-allowed-lands-e4fb1224"
   },
@@ -747,8 +747,8 @@
     "link": "https://geodata.tn.gov/datasets/TNDOF::naip-imagery-ndvi",
     "guid": "https://www.arcgis.com/home/item.html?id=6f6bcf8c6d724db79f7dfb5c672c4a69",
     "item_id": "6f6bcf8c6d724db79f7dfb5c672c4a69",
-    "description_raw": "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center. This Normalized Difference Vegetation Index (NDVI) layer features recent high-resolution (1-meter or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center (FPAC). The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States. Approximately half of the US is collected each year and each state is typically collected every other year. This imagery layer is updated annually as new imagery is made available. The NAIP program aims to make the imagery available to governmental agencies and to the public within a year of collection. The imagery is published in 4-bands (Red, Green, Blue, and Near Infrared) where available. Additional NAIP renderings include Natural Color and Color Infrared. Key Properties Geographic Coverage: Continental United States (Hawaii and Puerto Rico available for some years) Temporal Coverage: 2010 to 2023 Spatial Resolution: 0.3-meter to 1-meter Revisit Time: Typically every other year Source Data Coordinate System: Universal Transverse Mercator (UTM) WGS84 Service Coordinate System: Web Mercator Auxiliary Sphere WGS84 (EPSG:3857) Analysis: Optimized for analysis Multispectral Bands: Band Description Spatial Resolution (m) 1 Red 0.3 - 1 2 Green 0.3 - 1 3 Blue 0.3 - 1 4 Near Infrared 0.3 - 1 Usage Tips and Best Practices Processing Templates This layer includes a number of preconfigured processing templates (raster function templates) to provide on-the-fly data rendering and calculations for visualization and analysis. Each processing template includes labels and descriptions to characterize the intended usage. This may include for visualization, for analysis, or for both visualization and analysis. Visualization The default rendering on this layer is NDVI ((Red - Near Infrared) / (Red + Near Infrared)). If natural color visualization is your primary use case for NAIP, you might consider using the NAIP Imagery tile layer for optimal display performance. There are a number of on-the-fly renderings/processing templates designed specifically for data visualization. By default, the most recent imagery available for a given area is prioritized and dynamically fused into a single mosaicked image layer. To discover and isolate specific images for visualization in Map Viewer, try using the Image Collection Explorer. Analysis In order to leverage the optimization for analysis, the capability must be enabled by your ArcGIS organization administrator. More information on enabling this feature can be found in the ‘Regional data hosting’ section of this help doc. Optimized for analysis means this layer does not have size constraints for analysis and it is recommended for multisource analysis with other layers optimized for analysis. See this group for a complete list of imagery layers optimized for analysis. Using the \"None\" processing template option as input to analysis provides all bands with raw pixel values and is recommended for many use cases. Otherwise, only processing templates that include a \"for analysis\" designation should be used as input to analysis. Prior to running analysis, users should always provide some form of data selection with either a layer filter (e.g. for a specific year, year range, state, etc.) or by selecting specific images. To discover and isolate specific images for analysis in Map Viewer, try using the Image Collection Explorer . Data Source NAIP imagery is credited to the United States Department of Agriculture (USDA) Farm Production and Conservation Business Center (FPAC). All imagery in this layer is sourced from the NAIP Registry of Open Data on AWS .",
-    "description": "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center. This Normalized Difference Vegetation Index (NDVI) layer features recent high-resolution (1-meter or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center (FPAC). The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States. Approximately half of the US is collected each year and each state is typically collected every other year. This imagery layer is updated annually as new imagery is made available. The NAIP program aims to make the imagery available to governmental agencies and to the public within a year of collection. The imagery is published in 4-bands (Red, Green, Blue, and Near Infrared) where available. Additional NAIP renderings include Natural Color and Color Infrared. Key Properties Geographic Coverage: Continental United States (Hawaii and Puerto Rico available for some years) Temporal Coverage: 2010 to 2023 Spatial Resolution: 0.3-meter to 1-meter Revisit Time: Typically every other year Source Data Coordinate System: Universal Transverse Mercator (UTM) WGS84 Service Coordinate System: Web Mercator Auxiliary Sphere WGS84 (EPSG:3857) Analysis: Optimized for analysis Multispectral Bands: Band Description Spatial Resolution (m) 1 Red 0.3 - 1 2 Green 0.3 - 1 3 Blue 0.3 - 1 4 Near Infrared 0.3 - 1 Usage Tips and Best Practices Processing Templates This layer includes a number of preconfigured processing templates (raster function templates) to provide on-the-fly data rendering and calculations for visualization and analysis. Each processing template includes labels and descriptions to characterize the intended usage. This may include for visualization, for analysis, or for both visualization and analysis. Visualization The default rendering on this layer is NDVI ((Red - Near Infrared) / (Red + Near Infrared)). If natural color visualization is your primary use case for NAIP, you might consider using the NAIP Imagery tile layer for optimal display performance. There are a number of on-the-fly renderings/processing templates designed specifically for data visualization. By default, the most recent imagery available for a given area is prioritized and dynamically fused into a single mosaicked image layer. To discover and isolate specific images for visualization in Map Viewer, try using the Image Collection Explorer. Analysis In order to leverage the optimization for analysis, the capability must be enabled by your ArcGIS organization administrator. More information on enabling this feature can be found in the ‘Regional data hosting’ section of this help doc. Optimized for analysis means this layer does not have size constraints for analysis and it is recommended for multisource analysis with other layers optimized for analysis. See this group for a complete list of imagery layers optimized for analysis. Using the \"None\" processing template option as input to analysis provides all bands with raw pixel values and is recommended for many use cases. Otherwise, only processing templates that include a \"for analysis\" designation should be used as input to analysis. Prior to running analysis, users should always provide some form of data selection with either a layer filter (e.g. for a specific year, year range, state, etc.) or by selecting specific images. To discover and isolate specific images for analysis in Map Viewer, try using the Image Collection Explorer . Data Source NAIP imagery is credited to the United States Department of Agriculture (USDA) Farm Production and Conservation Business Center (FPAC). All imagery in this layer is sourced from the NAIP Registry of Open Data on AWS .",
+    "description_raw": "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center. This Normalized Difference Vegetation Index (NDVI) layer features recent high-resolution (1-meter or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center (FPAC). The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States. Approximately half of the US is collected each year and each state is typically collected every other year. This imagery layer is updated annually as new imagery is made available. The NAIP program aims to make the imagery available to governmental agencies and to the public within a year of collection. The imagery is published in 4-bands (Red, Green, Blue, and Near Infrared) where available. Additional NAIP renderings include Natural Color and Color Infrared. Key Properties Geographic Coverage: Continental United States (Hawaii and Puerto Rico available for some years) Temporal Coverage: 2010 to 2023 Spatial Resolution: 0.3-meter to 1-meter Revisit Time: Typically every other year Source Data Coordinate System: Universal Transverse Mercator (UTM) WGS84 Service Coordinate System: Web Mercator Auxiliary Sphere WGS84 (EPSG:3857) Analysis: Optimized for analysis Multispectral Bands: Band Description Spatial Resolution (m) 1 Red 0.3 - 1 2 Green 0.3 - 1 3 Blue 0.3 - 1 4 Near Infrared 0.3 - 1 Usage Tips and Best Practices Processing Templates This layer includes a number of preconfigured processing templates (raster function templates) to provide on-the-fly data rendering and calculations for visualization and analysis. Each processing template includes labels and descriptions to characterize the intended usage. This may include for visualization, for analysis, or for both visualization and analysis. Visualization The default rendering on this layer is NDVI ((Red - Near Infrared) / (Red + Near Infrared)). If natural color visualization is your primary use case for NAIP, you might consider using the NAIP Imagery tile layer for optimal display performance. There are a number of on-the-fly renderings/processing templates designed specifically for data visualization. By default, the most recent imagery available for a given area is prioritized and dynamically fused into a single mosaicked image layer. To discover and isolate specific images for visualization in Map Viewer, try using the Image Collection Explorer. Analysis In order to leverage the optimization for analysis, the capability must be enabled by your ArcGIS organization administrator. More information on enabling this feature can be found in the \u2018Regional data hosting\u2019 section of this help doc. Optimized for analysis means this layer does not have size constraints for analysis and it is recommended for multisource analysis with other layers optimized for analysis. See this group for a complete list of imagery layers optimized for analysis. Using the \"None\" processing template option as input to analysis provides all bands with raw pixel values and is recommended for many use cases. Otherwise, only processing templates that include a \"for analysis\" designation should be used as input to analysis. Prior to running analysis, users should always provide some form of data selection with either a layer filter (e.g. for a specific year, year range, state, etc.) or by selecting specific images. To discover and isolate specific images for analysis in Map Viewer, try using the Image Collection Explorer . Data Source NAIP imagery is credited to the United States Department of Agriculture (USDA) Farm Production and Conservation Business Center (FPAC). All imagery in this layer is sourced from the NAIP Registry of Open Data on AWS .",
+    "description": "This NDVI imagery layer features recent high-resolution (1m or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center. This Normalized Difference Vegetation Index (NDVI) layer features recent high-resolution (1-meter or better) aerial imagery for the continental United States, made available by the USDA Farm Production and Conservation Business Center (FPAC). The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States. Approximately half of the US is collected each year and each state is typically collected every other year. This imagery layer is updated annually as new imagery is made available. The NAIP program aims to make the imagery available to governmental agencies and to the public within a year of collection. The imagery is published in 4-bands (Red, Green, Blue, and Near Infrared) where available. Additional NAIP renderings include Natural Color and Color Infrared. Key Properties Geographic Coverage: Continental United States (Hawaii and Puerto Rico available for some years) Temporal Coverage: 2010 to 2023 Spatial Resolution: 0.3-meter to 1-meter Revisit Time: Typically every other year Source Data Coordinate System: Universal Transverse Mercator (UTM) WGS84 Service Coordinate System: Web Mercator Auxiliary Sphere WGS84 (EPSG:3857) Analysis: Optimized for analysis Multispectral Bands: Band Description Spatial Resolution (m) 1 Red 0.3 - 1 2 Green 0.3 - 1 3 Blue 0.3 - 1 4 Near Infrared 0.3 - 1 Usage Tips and Best Practices Processing Templates This layer includes a number of preconfigured processing templates (raster function templates) to provide on-the-fly data rendering and calculations for visualization and analysis. Each processing template includes labels and descriptions to characterize the intended usage. This may include for visualization, for analysis, or for both visualization and analysis. Visualization The default rendering on this layer is NDVI ((Red - Near Infrared) / (Red + Near Infrared)). If natural color visualization is your primary use case for NAIP, you might consider using the NAIP Imagery tile layer for optimal display performance. There are a number of on-the-fly renderings/processing templates designed specifically for data visualization. By default, the most recent imagery available for a given area is prioritized and dynamically fused into a single mosaicked image layer. To discover and isolate specific images for visualization in Map Viewer, try using the Image Collection Explorer. Analysis In order to leverage the optimization for analysis, the capability must be enabled by your ArcGIS organization administrator. More information on enabling this feature can be found in the \u2018Regional data hosting\u2019 section of this help doc. Optimized for analysis means this layer does not have size constraints for analysis and it is recommended for multisource analysis with other layers optimized for analysis. See this group for a complete list of imagery layers optimized for analysis. Using the \"None\" processing template option as input to analysis provides all bands with raw pixel values and is recommended for many use cases. Otherwise, only processing templates that include a \"for analysis\" designation should be used as input to analysis. Prior to running analysis, users should always provide some form of data selection with either a layer filter (e.g. for a specific year, year range, state, etc.) or by selecting specific images. To discover and isolate specific images for analysis in Map Viewer, try using the Image Collection Explorer . Data Source NAIP imagery is credited to the United States Department of Agriculture (USDA) Farm Production and Conservation Business Center (FPAC). All imagery in this layer is sourced from the NAIP Registry of Open Data on AWS .",
     "topics": [
       "NDVI",
       "NAIP",
@@ -766,7 +766,7 @@
     ],
     "service_url": "https://utility.arcgis.com/usrsvcs/servers/6f6bcf8c6d724db79f7dfb5c672c4a69/rest/services/NAIP/ImageServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "naip-imagery-ndvi-6f6bcf8c"
   },
@@ -814,7 +814,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-state-forest-boundaries-cbae4ca7"
   },
@@ -868,7 +868,7 @@
     ],
     "service_url": "https://tiles.arcgis.com/tiles/lvPBAGXeSupVUvx2/arcgis/rest/services/Winter_Storm_Fern_Damage_Assessment/MapServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "winter-storm-fern-damage-assessment-840bd4a6"
   },
@@ -920,7 +920,7 @@
     ],
     "service_url": "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/Forest_Legacy_Completed_Tract/FeatureServer/1",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "usfs-forest-legacy-completed-tracts-389c0319"
   },
@@ -929,8 +929,8 @@
     "link": "https://geodata.tn.gov/datasets/59838882a69d426286670dcd25d90e15_0",
     "guid": "https://www.arcgis.com/home/item.html?id=59838882a69d426286670dcd25d90e15",
     "item_id": "59838882a69d426286670dcd25d90e15",
-    "description_raw": "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing historical Annual Average Daily Traffic (AADT), Classification AADTs for all 13 FHWA classes, calculation methods for all AADTs, the Truck Percentage, and the TN-TIMES link for the station. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it calculated based on an alternate methodology: Actual – The AADT is based on an actual raw count from the given year. Grown – The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined – The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled – The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced – The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual – The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual – The Class AADT is based on a raw class count collected at the station in the given year. Distributed – The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived – The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
-    "description": "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing historical Annual Average Daily Traffic (AADT), Classification AADTs for all 13 FHWA classes, calculation methods for all AADTs, the Truck Percentage, and the TN-TIMES link for the station. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it calculated based on an alternate methodology: Actual – The AADT is based on an actual raw count from the given year. Grown – The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined – The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled – The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced – The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual – The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual – The Class AADT is based on a raw class count collected at the station in the given year. Distributed – The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived – The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
+    "description_raw": "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing historical Annual Average Daily Traffic (AADT), Classification AADTs for all 13 FHWA classes, calculation methods for all AADTs, the Truck Percentage, and the TN-TIMES link for the station. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it calculated based on an alternate methodology: Actual \u2013 The AADT is based on an actual raw count from the given year. Grown \u2013 The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined \u2013 The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled \u2013 The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced \u2013 The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual \u2013 The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual \u2013 The Class AADT is based on a raw class count collected at the station in the given year. Distributed \u2013 The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived \u2013 The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
+    "description": "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing historical Annual Average Daily Traffic (AADT), Classification AADTs for all 13 FHWA classes, calculation methods for all AADTs, the Truck Percentage, and the TN-TIMES link for the station. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it calculated based on an alternate methodology: Actual \u2013 The AADT is based on an actual raw count from the given year. Grown \u2013 The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined \u2013 The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled \u2013 The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced \u2013 The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual \u2013 The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual \u2013 The Class AADT is based on a raw class count collected at the station in the given year. Distributed \u2013 The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived \u2013 The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
     "topics": [
       "Traffic, Traffic Station",
       "T",
@@ -959,7 +959,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Points/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "traffic-points-59838882"
   },
@@ -968,8 +968,8 @@
     "link": "https://geodata.tn.gov/datasets/63b320c471604ad786d99c5f88172b5e_0",
     "guid": "https://www.arcgis.com/home/item.html?id=63b320c471604ad786d99c5f88172b5e",
     "item_id": "63b320c471604ad786d99c5f88172b5e",
-    "description_raw": "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data showing Annual Average Daily Traffic (AADT), Vehicle Miles Traveled (VMT), calculation methods for all AADTs, Truck Percentages, and the TN-TIMES link for the station. The dataset also references some features of the roadway, such as functional class, state ownership, urban boundary, and more, as they were assigned to the linear network for the given reporting year. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it was calculated based on an alternate methodology: Actual – The AADT is based on an actual raw count from the given year. Grown – The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined – The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled – The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced – The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual – The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. Scaled – The AADT was derived from GPS based vehicle movements, sourced from Bentley's OpenPaths Patterns. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual – The Class AADT is based on a raw class count collected at the station in the given year. Distributed – The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived – The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
-    "description": "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data showing Annual Average Daily Traffic (AADT), Vehicle Miles Traveled (VMT), calculation methods for all AADTs, Truck Percentages, and the TN-TIMES link for the station. The dataset also references some features of the roadway, such as functional class, state ownership, urban boundary, and more, as they were assigned to the linear network for the given reporting year. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it was calculated based on an alternate methodology: Actual – The AADT is based on an actual raw count from the given year. Grown – The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined – The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled – The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced – The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual – The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. Scaled – The AADT was derived from GPS based vehicle movements, sourced from Bentley's OpenPaths Patterns. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual – The Class AADT is based on a raw class count collected at the station in the given year. Distributed – The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived – The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
+    "description_raw": "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data showing Annual Average Daily Traffic (AADT), Vehicle Miles Traveled (VMT), calculation methods for all AADTs, Truck Percentages, and the TN-TIMES link for the station. The dataset also references some features of the roadway, such as functional class, state ownership, urban boundary, and more, as they were assigned to the linear network for the given reporting year. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it was calculated based on an alternate methodology: Actual \u2013 The AADT is based on an actual raw count from the given year. Grown \u2013 The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined \u2013 The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled \u2013 The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced \u2013 The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual \u2013 The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. Scaled \u2013 The AADT was derived from GPS based vehicle movements, sourced from Bentley's OpenPaths Patterns. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual \u2013 The Class AADT is based on a raw class count collected at the station in the given year. Distributed \u2013 The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived \u2013 The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
+    "description": "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data showing Annual Average Daily Traffic (AADT), Vehicle Miles Traveled (VMT), calculation methods for all AADTs, Truck Percentages, and the TN-TIMES link for the station. The dataset also references some features of the roadway, such as functional class, state ownership, urban boundary, and more, as they were assigned to the linear network for the given reporting year. The Calculation Method for the AADT indicates whether the Annual Average Daily Traffic was created directly from a raw count or if it was calculated based on an alternate methodology: Actual \u2013 The AADT is based on an actual raw count from the given year. Grown \u2013 The AADT was grown from the previous year AADT based on the average growth rate of the county. AADTs calculated using this methodology have a superscript value 3 in TN-TIMES. Combined \u2013 The AADT was combined from two separate directional AADTs. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 7 in TN-TIMES. Doubled \u2013 The AADT was doubled from only one directional AADT. Please refer to TN-TIMES for the directional AADT methodology. AADTs calculated using this methodology have a superscript value 12 in TN-TIMES. Balanced \u2013 The AADT was calculated from corridor balancing. Corridor balancing is a method that relies on a start node on an interstate and adds and subtracts subsequent ramp volumes to calculate additional AADTs along the mainline. AADTs calculated using this methodology have a superscript value 8 in TN-TIMES. Virtual \u2013 The AADT was calculated based on a combination of related station AADTs. Please refer to TN-TIMES for the specific stations involved. AADTs calculated using this methodology have a superscript value 19 in TN-TIMES. Scaled \u2013 The AADT was derived from GPS based vehicle movements, sourced from Bentley's OpenPaths Patterns. The Calculation Method for the Class AADTs similarly indicates the source data for the value: Actual \u2013 The Class AADT is based on a raw class count collected at the station in the given year. Distributed \u2013 The Class AADTs are based on the average class distribution of the base stations that are in the same Class Distribution Group. The group assignment for the given station can be found in TN-TIMES. Derived \u2013 The Class AADTs are based on a combination of length data from the given station and the class distribution. Actual Class AADTs and Distributed Class AADTs are based on axle class counts rather than length counts. This dataset is updated annually.",
     "topics": [
       "t",
       "r",
@@ -1013,7 +1013,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Lines/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "traffic-lines-63b320c4"
   },
@@ -1058,7 +1058,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/District_Boundaries/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "district-boundaries-d38b1948"
   },
@@ -1108,7 +1108,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TDF_Out_of_State_Deployments_WFL1/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tdf-out-of-state-deployments-2f0476ee"
   },
@@ -1166,7 +1166,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_Wildfire_Hazard_Potential/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53"
   },
@@ -1175,8 +1175,8 @@
     "link": "https://geodata.tn.gov/datasets/TNDOF::wildland-fire-incident-locations",
     "guid": "https://www.arcgis.com/home/item.html?id=0750acfb282542448db32d57724d41c7",
     "item_id": "0750acfb282542448db32d57724d41c7",
-    "description_raw": "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the IRWIN system and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information and is intended to support situational awareness, wildfire planning, incident review, analysis, and public information purposes within Tennessee. It is not QA/QC’d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. Wildland Fire Incident Locations This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to IRWIN, the Integrated Reporting of Wildland Fire Information system, and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information. It is not QA/QC’d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. The Wildland Fire Interagency Geospatial Services (WFIGS) Group provides authoritative geospatial data products under the interagency Wildland Fire Data Program. Hosted in the National Interagency Fire Center ArcGIS Online Organization, WFIGS provides both internal and public-facing data in a variety of formats. This Tennessee-focused visualization is filtered from the source IRWIN incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF), Prescribed Fire (RX), or Incident Complex (CX) record Valid and not “quarantined” in IRWIN due to potential conflicts with other records No “fall-off” rules are applied to this service Records extend from present day back to 2014, when IRWIN was implemented Data are refreshed from the IRWIN source every 5 minutes The criteria for inclusion were determined by a National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee task group. This dataset is intended to support operational situational awareness, wildfire planning, incident review, interagency coordination, analysis, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the “in the last” or “not in the last” operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
-    "description": "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the IRWIN system and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information and is intended to support situational awareness, wildfire planning, incident review, analysis, and public information purposes within Tennessee. It is not QA/QC’d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. Wildland Fire Incident Locations This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to IRWIN, the Integrated Reporting of Wildland Fire Information system, and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information. It is not QA/QC’d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. The Wildland Fire Interagency Geospatial Services (WFIGS) Group provides authoritative geospatial data products under the interagency Wildland Fire Data Program. Hosted in the National Interagency Fire Center ArcGIS Online Organization, WFIGS provides both internal and public-facing data in a variety of formats. This Tennessee-focused visualization is filtered from the source IRWIN incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF), Prescribed Fire (RX), or Incident Complex (CX) record Valid and not “quarantined” in IRWIN due to potential conflicts with other records No “fall-off” rules are applied to this service Records extend from present day back to 2014, when IRWIN was implemented Data are refreshed from the IRWIN source every 5 minutes The criteria for inclusion were determined by a National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee task group. This dataset is intended to support operational situational awareness, wildfire planning, incident review, interagency coordination, analysis, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the “in the last” or “not in the last” operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
+    "description_raw": "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the IRWIN system and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information and is intended to support situational awareness, wildfire planning, incident review, analysis, and public information purposes within Tennessee. It is not QA/QC\u2019d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. Wildland Fire Incident Locations This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to IRWIN, the Integrated Reporting of Wildland Fire Information system, and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information. It is not QA/QC\u2019d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. The Wildland Fire Interagency Geospatial Services (WFIGS) Group provides authoritative geospatial data products under the interagency Wildland Fire Data Program. Hosted in the National Interagency Fire Center ArcGIS Online Organization, WFIGS provides both internal and public-facing data in a variety of formats. This Tennessee-focused visualization is filtered from the source IRWIN incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF), Prescribed Fire (RX), or Incident Complex (CX) record Valid and not \u201cquarantined\u201d in IRWIN due to potential conflicts with other records No \u201cfall-off\u201d rules are applied to this service Records extend from present day back to 2014, when IRWIN was implemented Data are refreshed from the IRWIN source every 5 minutes The criteria for inclusion were determined by a National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee task group. This dataset is intended to support operational situational awareness, wildfire planning, incident review, interagency coordination, analysis, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the \u201cin the last\u201d or \u201cnot in the last\u201d operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
+    "description": "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the IRWIN system and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information and is intended to support situational awareness, wildfire planning, incident review, analysis, and public information purposes within Tennessee. It is not QA/QC\u2019d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. Wildland Fire Incident Locations This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to IRWIN, the Integrated Reporting of Wildland Fire Information system, and reflects a snapshot in time of what was known for each incident during the operational period of the fire. This dataset is preserved as operational incident information. It is not QA/QC\u2019d after a fire is declared out and may differ from the authoritative InFORM Fire Occurrence Data Record locations. The Wildland Fire Interagency Geospatial Services (WFIGS) Group provides authoritative geospatial data products under the interagency Wildland Fire Data Program. Hosted in the National Interagency Fire Center ArcGIS Online Organization, WFIGS provides both internal and public-facing data in a variety of formats. This Tennessee-focused visualization is filtered from the source IRWIN incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF), Prescribed Fire (RX), or Incident Complex (CX) record Valid and not \u201cquarantined\u201d in IRWIN due to potential conflicts with other records No \u201cfall-off\u201d rules are applied to this service Records extend from present day back to 2014, when IRWIN was implemented Data are refreshed from the IRWIN source every 5 minutes The criteria for inclusion were determined by a National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee task group. This dataset is intended to support operational situational awareness, wildfire planning, incident review, interagency coordination, analysis, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the \u201cin the last\u201d or \u201cnot in the last\u201d operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
     "topics": [
       "IRWIN",
       "InFORM",
@@ -1218,7 +1218,7 @@
     ],
     "service_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "wildland-fire-incident-locations-0750acfb"
   },
@@ -1227,8 +1227,8 @@
     "link": "https://geodata.tn.gov/datasets/TNDOF::inform-fire-occurrence-data-record-fodr",
     "guid": "https://www.arcgis.com/home/item.html?id=de373a56e219468a97f2518ee9ae9b12",
     "item_id": "de373a56e219468a97f2518ee9ae9b12",
-    "description_raw": "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This visualization is filtered to show fire occurrence records within Tennessee and is intended to support statewide wildfire planning, analysis, situational awareness, and public information purposes. InFORM FODR This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This dataset is part of an ongoing project to consolidate interagency fire point data. The incorporation of all available historical data is in progress. The InFORM FODR records are the official record of fire events. Built on top of IRWIN, the Integrated Reporting of Wildland Fire Information system, the FODR starts with an IRWIN record and then captures the final incident information upon certification of the record by the appropriate local authority. This Tennessee-focused visualization is filtered from the source InFORM FODR incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF) or Prescribed Fire (RX) record Valid and not “quarantined” due to potential conflicts with other records No “fall-off” rules are applied to this service Displayed from a real-time source service This dataset is intended to support wildfire planning, situational awareness, fire occurrence analysis, interagency coordination, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the “in the last” or “not in the last” operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
-    "description": "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This visualization is filtered to show fire occurrence records within Tennessee and is intended to support statewide wildfire planning, analysis, situational awareness, and public information purposes. InFORM FODR This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This dataset is part of an ongoing project to consolidate interagency fire point data. The incorporation of all available historical data is in progress. The InFORM FODR records are the official record of fire events. Built on top of IRWIN, the Integrated Reporting of Wildland Fire Information system, the FODR starts with an IRWIN record and then captures the final incident information upon certification of the record by the appropriate local authority. This Tennessee-focused visualization is filtered from the source InFORM FODR incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF) or Prescribed Fire (RX) record Valid and not “quarantined” due to potential conflicts with other records No “fall-off” rules are applied to this service Displayed from a real-time source service This dataset is intended to support wildfire planning, situational awareness, fire occurrence analysis, interagency coordination, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the “in the last” or “not in the last” operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
+    "description_raw": "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This visualization is filtered to show fire occurrence records within Tennessee and is intended to support statewide wildfire planning, analysis, situational awareness, and public information purposes. InFORM FODR This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This dataset is part of an ongoing project to consolidate interagency fire point data. The incorporation of all available historical data is in progress. The InFORM FODR records are the official record of fire events. Built on top of IRWIN, the Integrated Reporting of Wildland Fire Information system, the FODR starts with an IRWIN record and then captures the final incident information upon certification of the record by the appropriate local authority. This Tennessee-focused visualization is filtered from the source InFORM FODR incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF) or Prescribed Fire (RX) record Valid and not \u201cquarantined\u201d due to potential conflicts with other records No \u201cfall-off\u201d rules are applied to this service Displayed from a real-time source service This dataset is intended to support wildfire planning, situational awareness, fire occurrence analysis, interagency coordination, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the \u201cin the last\u201d or \u201cnot in the last\u201d operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
+    "description": "This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This visualization is filtered to show fire occurrence records within Tennessee and is intended to support statewide wildfire planning, analysis, situational awareness, and public information purposes. InFORM FODR This dataset represents Fire Occurrence Data Record (FODR) incidents produced by the Interagency Fire Occurrence Reporting Modules (InFORM) Application and displayed for the State of Tennessee. The FODR is the authoritative fire occurrence dataset for the five major federal fire management agencies and some state agencies. It also includes records bulk uploaded by state agencies that do not participate directly in InFORM, supporting a comprehensive national fire occurrence dataset. This dataset is part of an ongoing project to consolidate interagency fire point data. The incorporation of all available historical data is in progress. The InFORM FODR records are the official record of fire events. Built on top of IRWIN, the Integrated Reporting of Wildland Fire Information system, the FODR starts with an IRWIN record and then captures the final incident information upon certification of the record by the appropriate local authority. This Tennessee-focused visualization is filtered from the source InFORM FODR incident service to display wildland fire incidents located within Tennessee that meet the following criteria: Categorized as a Wildfire (WF) or Prescribed Fire (RX) record Valid and not \u201cquarantined\u201d due to potential conflicts with other records No \u201cfall-off\u201d rules are applied to this service Displayed from a real-time source service This dataset is intended to support wildfire planning, situational awareness, fire occurrence analysis, interagency coordination, and public information purposes within Tennessee. Warning: Users should refrain from repeatedly querying the source service using a relative date range. This includes using the \u201cin the last\u201d or \u201cnot in the last\u201d operators in a web map filter or any reference to CURRENT_TIMESTAMP. This type of query puts undue load on the source service and may render it temporarily unavailable.",
     "topics": [
       "InFORM",
       "FODR",
@@ -1271,7 +1271,7 @@
     ],
     "service_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InFORM_FireOccurrence_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "inform-fire-occurrence-data-record-fodr-de373a56"
   },
@@ -1315,7 +1315,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Fire_Danger_Rating_Area/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-fire-danger-rating-areas-59255f5c"
   },
@@ -1358,7 +1358,7 @@
     ],
     "service_url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Scenic_Rivers_line_view/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-scenic-rivers-lines-4f61bcb9"
   },
@@ -1403,7 +1403,7 @@
     ],
     "service_url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TDEC_Huntable_Areas_(external)/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tdec-huntable-areas-external-d33b97aa"
   },
@@ -1453,7 +1453,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/2",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-congressional-districts-90e47429"
   },
@@ -1505,7 +1505,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Trails_Lines_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-statewide-trails-lines-public-49ef503e"
   },
@@ -1514,8 +1514,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::tennessee-ng911-road-centerlines",
     "guid": "https://www.arcgis.com/home/item.html?id=1fc31033fdc446a5b10e7c48f3739a46",
     "item_id": "1fc31033fdc446a5b10e7c48f3739a46",
-    "description_raw": "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road centerlines for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
-    "description": "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road centerlines for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description_raw": "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road centerlines for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description": "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road centerlines for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
     "topics": [
       "N",
       "G",
@@ -1552,7 +1552,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-ng911-road-centerlines-1fc31033"
   },
@@ -1601,7 +1601,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Active_ChildCare_Locations/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "active-statewide-childcare-locations-bfe29552"
   },
@@ -1660,7 +1660,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Region_Boundaries_view/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1"
   },
@@ -1669,8 +1669,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::tennessee-ng911-address-points",
     "guid": "https://www.arcgis.com/home/item.html?id=f76e2673388e4c6f803bc51e3ae04b14",
     "item_id": "f76e2673388e4c6f803bc51e3ae04b14",
-    "description_raw": "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
-    "description": "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description_raw": "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description": "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG911data project, created and maintained by the TN ECB and the local 911 districts. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
     "topics": [
       "N",
       "G",
@@ -1706,7 +1706,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-ng911-address-points-f76e2673"
   },
@@ -1760,7 +1760,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WMA_Entrances/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-wildlife-management-area-entrances-5ed7fa43"
   },
@@ -1804,7 +1804,7 @@
     ],
     "service_url": "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WaterfowlBlinds/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "waterfowlblinds-25d32a1b"
   },
@@ -1848,7 +1848,7 @@
     ],
     "service_url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-state-parks-boundaries-1b28885b"
   },
@@ -1892,7 +1892,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Soils_Tennessee/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "soils-tennessee-f0e77996"
   },
@@ -1941,7 +1941,7 @@
     ],
     "service_url": "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TN_Legacy_Priorities_2020_2030/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb"
   },
@@ -1950,8 +1950,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::tennessee-public-safety-answering-point-boundaries",
     "guid": "https://www.arcgis.com/home/item.html?id=c85637761651455195df1ee745e18fce",
     "item_id": "c85637761651455195df1ee745e18fce",
-    "description_raw": "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for use in NG911 call routing and answering. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
-    "description": "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for use in NG911 call routing and answering. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee’s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description_raw": "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for use in NG911 call routing and answering. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
+    "description": "Public Safety Answering Point (PSAP) boundaries for use in Next Generation 911 (NG911) call routing and answering. Public Safety Answering Point (PSAP) boundaries for use in NG911 call routing and answering. Update Frequency This dataset is updated monthly About [link] The Next Generation (NG) 9-1-1 GIS Data product is a comprehensive dataset that contains various geospatial data layers benefiting public safety agencies within state and local government. The core layers in this product are street centerlines, address points, and Public Safety Answering Point (PSAP) boundaries which form the backbone of the Next Generation 9-1-1 Call Routing System. This dataset facilitates Tennessee\u2019s participation in the National Address Database and is also used to support many other mapping and geocoding requirements at the state and federal level. Project Information and Data Standards Tennessee Emergency Communications Board",
     "topics": [
       "T",
       "N",
@@ -1998,7 +1998,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Public_Safety_Answering_Points/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-public-safety-answering-point-boundari-c8563776"
   },
@@ -2048,7 +2048,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "ada-asset-data-69511fa7"
   },
@@ -2102,7 +2102,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "curb-ramps-69511fa7"
   },
@@ -2156,7 +2156,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pedestrian-signal-69511fa7"
   },
@@ -2210,7 +2210,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "crosswalks-69511fa7"
   },
@@ -2264,7 +2264,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "sidewalks-69511fa7"
   },
@@ -2318,7 +2318,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "specialty-pavement-markings-69511fa7"
   },
@@ -2327,8 +2327,8 @@
     "link": "https://geodata.tn.gov/datasets/37229399437446b9acd653f353f7decc_0",
     "guid": "https://www.arcgis.com/home/item.html?id=37229399437446b9acd653f353f7decc",
     "item_id": "37229399437446b9acd653f353f7decc",
-    "description_raw": "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road. It contains tabular polyline data showing the log miles/measures, road name, functional class, government control, and U.S. Routes. Road names are derived from visual surveys by field crew or official GIS maps. Functional class is set by the Federal Highway Administration (FHWA). All other categories are determined by state and local agencies. This dataset is updated weekly. County – County in Tennessee where associated features and attributes are located. Route Number – Route in Tennessee with corresponding attributes. Special Case – Route designator for non-standard routes such as By-Pass. 00 None 01 Spur - S 02 Alternate - A 03 State Connector - C 04 Bypass - BP 05 Business Route - BR 06 Northbound - N 07 Southbound - S 08 Eastbound - E 09 Westbound - W County Sequence – This number indicates the sequential number of times a route enters and leaves the county, begins with zero (0). Beginning Log Mile (BLM) – The beginning log mile (measure) for the route segment. Ending Log Mile (ELM) - The ending log mile (measure) for the route segment. Functional Classification – These codes, set by the FHWA, provide a statewide highway functional classification in rural and urban areas to determine functional usage of the existing roads and streets. 01 Rural Interstate 02 Rural Other Principal Arterial 03 Rural Freeway or Expressway 06 Rural Minor Arterial 07 Rural Major Collector 08 Rural Minor Collector 09 Rural Local 11 Urban Interstate 12 Urban Freeway or Expressway 14 Urban Other Principal Arterial 16 Urban Minor Arterial 17 Urban Collector 19 Urban Local Government Control – These codes determine ownership and maintenance responsibility. 01 State Highway Agency 02 County 04 Municipal 11 State Park 12 Local Park 21 Other State Agency 25 Other Local Agency 26 Private 27 Railroad 40 Other Public 60 Other Federal Agency 63 US Fish and Wildlife 64 US Forest Service 66 National Park Service 67 TVA 68 Bureau of Land Management 70 Corps of Engineers (Civil) 72 Air Force 73 Navy or Marines 74 Army 80 Other US Route Number – US Route Number assigned to roadway segment.",
-    "description": "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road. It contains tabular polyline data showing the log miles/measures, road name, functional class, government control, and U.S. Routes. Road names are derived from visual surveys by field crew or official GIS maps. Functional class is set by the Federal Highway Administration (FHWA). All other categories are determined by state and local agencies. This dataset is updated weekly. County – County in Tennessee where associated features and attributes are located. Route Number – Route in Tennessee with corresponding attributes. Special Case – Route designator for non-standard routes such as By-Pass. 00 None 01 Spur - S 02 Alternate - A 03 State Connector - C 04 Bypass - BP 05 Business Route - BR 06 Northbound - N 07 Southbound - S 08 Eastbound - E 09 Westbound - W County Sequence – This number indicates the sequential number of times a route enters and leaves the county, begins with zero (0). Beginning Log Mile (BLM) – The beginning log mile (measure) for the route segment. Ending Log Mile (ELM) - The ending log mile (measure) for the route segment. Functional Classification – These codes, set by the FHWA, provide a statewide highway functional classification in rural and urban areas to determine functional usage of the existing roads and streets. 01 Rural Interstate 02 Rural Other Principal Arterial 03 Rural Freeway or Expressway 06 Rural Minor Arterial 07 Rural Major Collector 08 Rural Minor Collector 09 Rural Local 11 Urban Interstate 12 Urban Freeway or Expressway 14 Urban Other Principal Arterial 16 Urban Minor Arterial 17 Urban Collector 19 Urban Local Government Control – These codes determine ownership and maintenance responsibility. 01 State Highway Agency 02 County 04 Municipal 11 State Park 12 Local Park 21 Other State Agency 25 Other Local Agency 26 Private 27 Railroad 40 Other Public 60 Other Federal Agency 63 US Fish and Wildlife 64 US Forest Service 66 National Park Service 67 TVA 68 Bureau of Land Management 70 Corps of Engineers (Civil) 72 Air Force 73 Navy or Marines 74 Army 80 Other US Route Number – US Route Number assigned to roadway segment.",
+    "description_raw": "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road. It contains tabular polyline data showing the log miles/measures, road name, functional class, government control, and U.S. Routes. Road names are derived from visual surveys by field crew or official GIS maps. Functional class is set by the Federal Highway Administration (FHWA). All other categories are determined by state and local agencies. This dataset is updated weekly. County \u2013 County in Tennessee where associated features and attributes are located. Route Number \u2013 Route in Tennessee with corresponding attributes. Special Case \u2013 Route designator for non-standard routes such as By-Pass. 00 None 01 Spur - S 02 Alternate - A 03 State Connector - C 04 Bypass - BP 05 Business Route - BR 06 Northbound - N 07 Southbound - S 08 Eastbound - E 09 Westbound - W County Sequence \u2013 This number indicates the sequential number of times a route enters and leaves the county, begins with zero (0). Beginning Log Mile (BLM) \u2013 The beginning log mile (measure) for the route segment. Ending Log Mile (ELM) - The ending log mile (measure) for the route segment. Functional Classification \u2013 These codes, set by the FHWA, provide a statewide highway functional classification in rural and urban areas to determine functional usage of the existing roads and streets. 01 Rural Interstate 02 Rural Other Principal Arterial 03 Rural Freeway or Expressway 06 Rural Minor Arterial 07 Rural Major Collector 08 Rural Minor Collector 09 Rural Local 11 Urban Interstate 12 Urban Freeway or Expressway 14 Urban Other Principal Arterial 16 Urban Minor Arterial 17 Urban Collector 19 Urban Local Government Control \u2013 These codes determine ownership and maintenance responsibility. 01 State Highway Agency 02 County 04 Municipal 11 State Park 12 Local Park 21 Other State Agency 25 Other Local Agency 26 Private 27 Railroad 40 Other Public 60 Other Federal Agency 63 US Fish and Wildlife 64 US Forest Service 66 National Park Service 67 TVA 68 Bureau of Land Management 70 Corps of Engineers (Civil) 72 Air Force 73 Navy or Marines 74 Army 80 Other US Route Number \u2013 US Route Number assigned to roadway segment.",
+    "description": "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road. It contains tabular polyline data showing the log miles/measures, road name, functional class, government control, and U.S. Routes. Road names are derived from visual surveys by field crew or official GIS maps. Functional class is set by the Federal Highway Administration (FHWA). All other categories are determined by state and local agencies. This dataset is updated weekly. County \u2013 County in Tennessee where associated features and attributes are located. Route Number \u2013 Route in Tennessee with corresponding attributes. Special Case \u2013 Route designator for non-standard routes such as By-Pass. 00 None 01 Spur - S 02 Alternate - A 03 State Connector - C 04 Bypass - BP 05 Business Route - BR 06 Northbound - N 07 Southbound - S 08 Eastbound - E 09 Westbound - W County Sequence \u2013 This number indicates the sequential number of times a route enters and leaves the county, begins with zero (0). Beginning Log Mile (BLM) \u2013 The beginning log mile (measure) for the route segment. Ending Log Mile (ELM) - The ending log mile (measure) for the route segment. Functional Classification \u2013 These codes, set by the FHWA, provide a statewide highway functional classification in rural and urban areas to determine functional usage of the existing roads and streets. 01 Rural Interstate 02 Rural Other Principal Arterial 03 Rural Freeway or Expressway 06 Rural Minor Arterial 07 Rural Major Collector 08 Rural Minor Collector 09 Rural Local 11 Urban Interstate 12 Urban Freeway or Expressway 14 Urban Other Principal Arterial 16 Urban Minor Arterial 17 Urban Collector 19 Urban Local Government Control \u2013 These codes determine ownership and maintenance responsibility. 01 State Highway Agency 02 County 04 Municipal 11 State Park 12 Local Park 21 Other State Agency 25 Other Local Agency 26 Private 27 Railroad 40 Other Public 60 Other Federal Agency 63 US Fish and Wildlife 64 US Forest Service 66 National Park Service 67 TVA 68 Bureau of Land Management 70 Corps of Engineers (Civil) 72 Air Force 73 Navy or Marines 74 Army 80 Other US Route Number \u2013 US Route Number assigned to roadway segment.",
     "topics": [
       "Tennessee, TDOT, TRIMS, Segment",
       "T",
@@ -2360,7 +2360,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Segment/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "road-segment-37229399"
   },
@@ -2414,7 +2414,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Impacted_Streams_Subbasin_Project_PINs/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "impacted-streams-subbasin-project-pins-3556056b"
   },
@@ -2457,7 +2457,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Trails_Points_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-statewide-trails-points-public-87d9ef12"
   },
@@ -2466,8 +2466,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::national-register-of-historic-places-points-tennessee",
     "guid": "https://www.arcgis.com/home/item.html?id=0baa3ef7d85a4f5ea68c54567128db8d&sublayer=0",
     "item_id": "0baa3ef7d85a4f5ea68c54567128db8d",
-    "description_raw": "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing’s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
-    "description": "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing’s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
+    "description_raw": "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing\u2019s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
+    "description": "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing\u2019s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
     "topics": [
       "C",
       "o",
@@ -2496,7 +2496,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/0",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "national-register-of-historic-places-points-tenn-0baa3ef7"
   },
@@ -2505,8 +2505,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::national-register-of-historic-places-boundaries-tennessee",
     "guid": "https://www.arcgis.com/home/item.html?id=ee21901a434545ab8736e26ae8056b35&sublayer=2",
     "item_id": "ee21901a434545ab8736e26ae8056b35",
-    "description_raw": "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing’s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
-    "description": "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing’s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
+    "description_raw": "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing\u2019s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
+    "description": "Current Properties and districts (Boundaries) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depicted by a polygon. This data set excludes restricted listings (such as archaeological sites) whose locations are protected. Each listing\u2019s data includes property name, address, county, city, listing date, associated Multiple Property Listing (where applicable) and National Historic Landmark listing date (where applicable). Data is updated semi-annually.",
     "topics": [
       "C",
       "o",
@@ -2536,7 +2536,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/2",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "national-register-of-historic-places-boundaries--ee21901a"
   },
@@ -2580,7 +2580,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/HISTORICAL_COMMISSION/MapServer/0",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-historical-commission-sites-fa1485bb"
   },
@@ -2628,7 +2628,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/ELECTIONS_POLLING_PLACES/MapServer/0",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-polling-places-e47c3cff"
   },
@@ -2652,7 +2652,7 @@
     ],
     "service_url": "https://www.tn.gov/content/dam/tn/finance/sts/gis-services/documents/HowToConnect_TNMAP_Services_and_Locators.pdf",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tnmap-data-server-access-c478c810"
   },
@@ -2725,7 +2725,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/National_Wetlands_Inventory/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "national-wetlands-inventory-b02ce30e"
   },
@@ -2779,7 +2779,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bike_Level_of_Service/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "bike-level-of-service-3dccf74a"
   },
@@ -2829,7 +2829,7 @@
     ],
     "service_url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Recreation_Areas_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tennessee-statewide-recreation-areas-public-f6c2e752"
   },
@@ -2838,8 +2838,8 @@
     "link": "https://geodata.tn.gov/datasets/552d7e444d6941a58cfe699c6b4e2671_0",
     "guid": "https://www.arcgis.com/home/item.html?id=552d7e444d6941a58cfe699c6b4e2671",
     "item_id": "552d7e444d6941a58cfe699c6b4e2671",
-    "description_raw": "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way or two-way, type of terrain, thru lanes, number of lanes, and speed limit line feature segments of roadway. They were derived from visual surveys by field crew driving along the road. This dataset is updated monthly. County Route Special Case County Sequence Beginning Log Mile (BLM) Ending Log Mile (ELM) NUMBER OF LANES SPEED LIMIT TERRAIN - (Use in both Urban and Rural Areas) (As defined by HPMS) This item provides information on the type of terrain through which a roadway passes. For all rural sections, enter the code that best characterizes the terrain classification for the inventoried roadway. In coding this item, consider the terrain of an extended length of the roadway upon which the inventory is located rather than the grade on the specific section by itself. The extended roadway section may be several miles long and contain a number of upgrades, downgrades, and level sections; for long sections, such as rural interstates extending between interchanges, the extended roadway section and the section may be the same. 1 Flat- Any combination of grades and horizontal or vertical alignment that permits heavy vehicles to maintain the same speed as passenger cars; this generally includes short grades of no more than 1 1/2 percent. 2 Rolling- Any combination of grades and horizontal or vertical alignment that causes heavy vehicles to reduce their speeds substantially below those of passenger cars but that does not cause heavy vehicles to operate at crawl speeds for any significant length of time. Grades between 1 ½ - 4 percent 3 Mountainous- Any combination of grades and horizontal or Vertical alignment that causes heavy vehicles to operate at crawl. Grades greater than 4 percent.",
-    "description": "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way or two-way, type of terrain, thru lanes, number of lanes, and speed limit line feature segments of roadway. They were derived from visual surveys by field crew driving along the road. This dataset is updated monthly. County Route Special Case County Sequence Beginning Log Mile (BLM) Ending Log Mile (ELM) NUMBER OF LANES SPEED LIMIT TERRAIN - (Use in both Urban and Rural Areas) (As defined by HPMS) This item provides information on the type of terrain through which a roadway passes. For all rural sections, enter the code that best characterizes the terrain classification for the inventoried roadway. In coding this item, consider the terrain of an extended length of the roadway upon which the inventory is located rather than the grade on the specific section by itself. The extended roadway section may be several miles long and contain a number of upgrades, downgrades, and level sections; for long sections, such as rural interstates extending between interchanges, the extended roadway section and the section may be the same. 1 Flat- Any combination of grades and horizontal or vertical alignment that permits heavy vehicles to maintain the same speed as passenger cars; this generally includes short grades of no more than 1 1/2 percent. 2 Rolling- Any combination of grades and horizontal or vertical alignment that causes heavy vehicles to reduce their speeds substantially below those of passenger cars but that does not cause heavy vehicles to operate at crawl speeds for any significant length of time. Grades between 1 ½ - 4 percent 3 Mountainous- Any combination of grades and horizontal or Vertical alignment that causes heavy vehicles to operate at crawl. Grades greater than 4 percent.",
+    "description_raw": "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way or two-way, type of terrain, thru lanes, number of lanes, and speed limit line feature segments of roadway. They were derived from visual surveys by field crew driving along the road. This dataset is updated monthly. County Route Special Case County Sequence Beginning Log Mile (BLM) Ending Log Mile (ELM) NUMBER OF LANES SPEED LIMIT TERRAIN - (Use in both Urban and Rural Areas) (As defined by HPMS) This item provides information on the type of terrain through which a roadway passes. For all rural sections, enter the code that best characterizes the terrain classification for the inventoried roadway. In coding this item, consider the terrain of an extended length of the roadway upon which the inventory is located rather than the grade on the specific section by itself. The extended roadway section may be several miles long and contain a number of upgrades, downgrades, and level sections; for long sections, such as rural interstates extending between interchanges, the extended roadway section and the section may be the same. 1 Flat- Any combination of grades and horizontal or vertical alignment that permits heavy vehicles to maintain the same speed as passenger cars; this generally includes short grades of no more than 1 1/2 percent. 2 Rolling- Any combination of grades and horizontal or vertical alignment that causes heavy vehicles to reduce their speeds substantially below those of passenger cars but that does not cause heavy vehicles to operate at crawl speeds for any significant length of time. Grades between 1 \u00bd - 4 percent 3 Mountainous- Any combination of grades and horizontal or Vertical alignment that causes heavy vehicles to operate at crawl. Grades greater than 4 percent.",
+    "description": "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way or two-way, type of terrain, thru lanes, number of lanes, and speed limit line feature segments of roadway. They were derived from visual surveys by field crew driving along the road. This dataset is updated monthly. County Route Special Case County Sequence Beginning Log Mile (BLM) Ending Log Mile (ELM) NUMBER OF LANES SPEED LIMIT TERRAIN - (Use in both Urban and Rural Areas) (As defined by HPMS) This item provides information on the type of terrain through which a roadway passes. For all rural sections, enter the code that best characterizes the terrain classification for the inventoried roadway. In coding this item, consider the terrain of an extended length of the roadway upon which the inventory is located rather than the grade on the specific section by itself. The extended roadway section may be several miles long and contain a number of upgrades, downgrades, and level sections; for long sections, such as rural interstates extending between interchanges, the extended roadway section and the section may be the same. 1 Flat- Any combination of grades and horizontal or vertical alignment that permits heavy vehicles to maintain the same speed as passenger cars; this generally includes short grades of no more than 1 1/2 percent. 2 Rolling- Any combination of grades and horizontal or vertical alignment that causes heavy vehicles to reduce their speeds substantially below those of passenger cars but that does not cause heavy vehicles to operate at crawl speeds for any significant length of time. Grades between 1 \u00bd - 4 percent 3 Mountainous- Any combination of grades and horizontal or Vertical alignment that causes heavy vehicles to operate at crawl. Grades greater than 4 percent.",
     "topics": [
       "Tennessee, TDOT, TRIMS, Geometrics",
       "T",
@@ -2875,7 +2875,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Geometrics/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "road-geometrics-552d7e44"
   },
@@ -2921,7 +2921,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pedestrian_Level_Traffic_Stress/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pedestrian-level-traffic-stress-fb1448f0"
   },
@@ -2965,7 +2965,7 @@
     ],
     "service_url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-state-parks-points-d4ef7243"
   },
@@ -3014,7 +3014,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/State_Aid_Route_Funding/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "state-aid-route-funding-6465d80a"
   },
@@ -3065,7 +3065,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Roughness/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pavement-roughness-dca2dabf"
   },
@@ -3124,7 +3124,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Roughness/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pavement-roughness-annual-dca2dabf"
   },
@@ -3183,7 +3183,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Roughness/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pavement-roughness-annual-summary-dca2dabf"
   },
@@ -3231,7 +3231,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Description/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "road-description-500e6539"
   },
@@ -3240,8 +3240,8 @@
     "link": "https://geodata.tn.gov/datasets/tnmap::tn-city-boundaries",
     "guid": "https://www.arcgis.com/home/item.html?id=cf079cf338ab4910ab7765da40a11a06&sublayer=0",
     "item_id": "cf079cf338ab4910ab7765da40a11a06",
-    "description_raw": "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities in Tennessee per Tennessee Code Annotated § 6-51-12. This product is distributed in the hope that it will be useful but without any warranty. The user of this product acknowledges that the data contains some nonconformities, defects or errors. There is no warranty that the data will meet any user’s needs or expectations, that the availability of this data will be uninterrupted, or that any nonconformities, defects or errors can and will be corrected. The Office of the Comptroller assumes no liability regarding this data. Please direct any comments or concerns you may have to the municipality in question.",
-    "description": "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities in Tennessee per Tennessee Code Annotated § 6-51-12. This product is distributed in the hope that it will be useful but without any warranty. The user of this product acknowledges that the data contains some nonconformities, defects or errors. There is no warranty that the data will meet any user’s needs or expectations, that the availability of this data will be uninterrupted, or that any nonconformities, defects or errors can and will be corrected. The Office of the Comptroller assumes no liability regarding this data. Please direct any comments or concerns you may have to the municipality in question.",
+    "description_raw": "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities in Tennessee per Tennessee Code Annotated \u00a7 6-51-12. This product is distributed in the hope that it will be useful but without any warranty. The user of this product acknowledges that the data contains some nonconformities, defects or errors. There is no warranty that the data will meet any user\u2019s needs or expectations, that the availability of this data will be uninterrupted, or that any nonconformities, defects or errors can and will be corrected. The Office of the Comptroller assumes no liability regarding this data. Please direct any comments or concerns you may have to the municipality in question.",
+    "description": "This product represents corporate boundaries as submitted and/or verified to the Comptroller of the Treasury by the various municipalities in Tennessee per Tennessee Code Annotated \u00a7 6-51-12. This product is distributed in the hope that it will be useful but without any warranty. The user of this product acknowledges that the data contains some nonconformities, defects or errors. There is no warranty that the data will meet any user\u2019s needs or expectations, that the availability of this data will be uninterrupted, or that any nonconformities, defects or errors can and will be corrected. The Office of the Comptroller assumes no liability regarding this data. Please direct any comments or concerns you may have to the municipality in question.",
     "topics": [
       "c",
       "i",
@@ -3276,7 +3276,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/COUNTY_BOUNDARIES_AND_CITY_BOUNDARIES/MapServer/0",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-city-boundaries-cf079cf3"
   },
@@ -3326,7 +3326,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/1",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-house-districts-0d94ca77"
   },
@@ -3376,7 +3376,7 @@
     ],
     "service_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/0",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tn-senate-districts-977f2087"
   },
@@ -3425,7 +3425,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tdot-adopt-a-highway-public-data-view-61cf8755"
   },
@@ -3478,7 +3478,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "adopted-location-61cf8755"
   },
@@ -3531,7 +3531,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pickup-details-61cf8755"
   },
@@ -3584,7 +3584,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "adopter-61cf8755"
   },
@@ -3632,7 +3632,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "bridge-condition-8d89d92e"
   },
@@ -3688,7 +3688,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "bridge-condition-annual-8d89d92e"
   },
@@ -3744,7 +3744,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "bridge-condition-annual-summary-8d89d92e"
   },
@@ -3786,7 +3786,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Flat_Sheet_Sign/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "flat-sheet-sign-35e8ee99"
   },
@@ -3828,7 +3828,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mowable_Acres/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "mowable-acres-129a15ac"
   },
@@ -3872,7 +3872,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Shoulder_Surface_Area/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "shoulder-surface-area-5bf235c8"
   },
@@ -3918,7 +3918,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Landscaping_and_Flowers/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "landscaping-and-flowers-1dd54a85"
   },
@@ -3966,7 +3966,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Specialty_Pavement_Markings/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "specialty-pavement-markings-aff8d2f2"
   },
@@ -4009,7 +4009,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Travel_Lanes_Surface_Area/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "travel-lanes-surface-area-25327b73"
   },
@@ -4045,7 +4045,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Mow/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "no-mow-19100c10"
   },
@@ -4088,7 +4088,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Concrete_Barrier_Wall/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "concrete-barrier-wall-784fdeb5"
   },
@@ -4128,7 +4128,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Construction/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "construction-d095eddf"
   },
@@ -4169,7 +4169,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Control_Fence/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "control-fence-25d805b3"
   },
@@ -4210,7 +4210,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Curb_and_Gutter_Segment/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "curb-and-gutter-segment-af31b5b8"
   },
@@ -4250,7 +4250,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Delineator/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "delineator-9bc8a54b"
   },
@@ -4288,7 +4288,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "guardrail-terminal-14ec6d50"
   },
@@ -4326,7 +4326,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Ditch/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "ditch-93f8a40f"
   },
@@ -4366,7 +4366,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "guardrail-e6fc8455"
   },
@@ -4407,7 +4407,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "no-shoulder-ffc48608"
   },
@@ -4450,7 +4450,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Marking/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "pavement-marking-c183cdd4"
   },
@@ -4494,7 +4494,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Raised_Pavement_Marker/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "raised-pavement-marker-3e12710c"
   },
@@ -4537,7 +4537,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Rumble_Strip/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "rumble-strip-dbf60d13"
   },
@@ -4568,7 +4568,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Tunnels/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tunnels-e23ae4cd"
   },
@@ -4612,7 +4612,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Attenuators/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "attenuators-de19ac95"
   },
@@ -4649,7 +4649,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Drain/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "drain-1461275b"
   },
@@ -4690,7 +4690,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Entrance_Pipe/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "entrance-pipe-7774c2dc"
   },
@@ -4735,7 +4735,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Extruded_Panel_Sign/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "extruded-panel-sign-ddf879d9"
   },
@@ -4777,7 +4777,7 @@
     ],
     "service_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mile_Marker/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "mile-marker-b51d9940"
   },
@@ -4823,7 +4823,7 @@
     ],
     "service_url": "https://spatial.tdot.tn.gov/arcgis/rest/services/Materials_and_Tests/Producer_List_Plants/FeatureServer",
     "source": "tn-dcat-ap3",
-    "data_dictionary": null,
+    "data_dictionary": [],
     "item_type": "CKAN Datastore",
     "slug": "tdot-producer-list-plants-796303a7"
   }

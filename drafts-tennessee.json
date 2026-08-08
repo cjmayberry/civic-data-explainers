@@ -1,0 +1,240 @@
+{
+  "schema": 2,
+  "city": "Oklahoma City",
+  "prompt_version": "v3-schema-grounded",
+  "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+  "generated_at": "2026-08-08T22:09:37Z",
+  "drafts": [
+    {
+      "slug": "bike-level-of-service-3dccf74a",
+      "body": "## What this tracks\nThis dataset measures how bicycle-friendly major roads are throughout Tennessee, rating each road segment with letter grades from A to F.\n\n## Why it matters to you\nIf you're planning a bike commute or recreational ride in Tennessee, this data tells you which roads are safest and most comfortable for cycling before you head out. A road with an \"A\" rating likely has bike lanes and lower traffic, while an \"F\" rating means heavy traffic with no bike infrastructure. Business owners near highly-rated bike routes can better understand their potential cycling customer base and plan bike-friendly amenities accordingly.\n\n## How to read this data\n**RTE_NME** \u2014 The actual road name, like \"CLINCH AVE.\" **SPD_LMT** \u2014 Posted speed limit in mph, with sample values like 45 mph. **AB_BA_OVERALL_BLOS_SCORE** \u2014 The combined bicycle safety rating for both directions of travel, ranging from A (best) to F (worst), with sample values like \"B\". **THRU_LANES** \u2014 Number of through traffic lanes, with sample values like 4 lanes, which affects how stressful the road feels for cyclists.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "boat-launch-sites-b3ab0451",
+      "body": "## What this tracks\nThis dataset records the locations and detailed information about boat launch sites, ramps, and water access points throughout Tennessee.\n\n## Why it matters to you\nIf you're planning a fishing trip or want to launch your boat, this data tells you exactly where you can access Tennessee's waterways and what amenities are available at each site. Before driving to a lake with your boat trailer, you can check whether a launch has enough parking spaces, what size boats it can handle, and if it charges fees. For anglers, it shows which sites have fish cleaning stations, bait nearby, or allow bank fishing.\n\n## How to read this data\n**Name** \u2014 the official name of the boat launch site, like \"Tannery Island\". **Waterway** \u2014 which body of water you'll access, such as \"Pigeon River\". **Launchable** \u2014 the maximum boat size the ramp can handle, with values like \"Up to 17 ft\". **Parking** and **Spaces** \u2014 what type of parking surface (like \"Dirt and Gravel\") and how many spots are available (such as \"Less Than 25\"). **AccessFee** \u2014 whether you'll pay to use the site, marked as \"Yes\" or \"No\". **Restrooms**, **FishCleaning**, and **CourtesyDock** \u2014 specific amenities available at each location.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "bridge-condition-annual-summary-8d89d92e",
+      "body": "## What this tracks\nThis dataset records the structural condition of every bridge in Tennessee as of 2022, based on official field inspections.\n\n## Why it matters to you\nIf you regularly drive across bridges in Tennessee, this data tells you which ones are in poor condition and may face weight restrictions or closures. Business owners who rely on freight transportation can identify potential route disruptions before they impact deliveries. Residents can also see how old their local bridges are and whether Tennessee is maintaining critical infrastructure in their area.\n\n## How to read this data\n**COUNTY** \u2014 The Tennessee county where the bridge is located, like \"Anderson\" or other county names. **ROUTE_NUMBER** \u2014 The specific road or highway number where the bridge carries traffic, such as \"02444.\" **OVERALL_CONDITION** \u2014 The bridge's current structural status rated as \"Good,\" \"Fair,\" or \"Poor\" based on federal inspection standards. **YEAR_BUILT** \u2014 When the bridge was originally constructed, with sample bridges dating back to 1985, and **AGE** \u2014 how many years old the bridge is as of the 2022 reporting year.\n\n## Try it yourself\nSearch for your Tennessee county name to see all bridges in your area and their conditions. If you have a regular commute route, look up that specific route number to check whether any bridges along your path are rated as \"Poor\" and might face future restrictions.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "concrete-barrier-wall-784fdeb5",
+      "body": "## What this tracks\nThis dataset records the locations and specifications of concrete barrier walls installed along Tennessee's interstates, state routes, and major highways.\n\n## Why it matters to you\nIf you're planning a road trip or daily commute in Tennessee, this data shows you where concrete barriers create lane restrictions or affect visibility on major routes. Construction companies bidding on highway projects can identify existing barrier locations to plan around. Emergency responders can use this information to understand access limitations when responding to highway incidents, since concrete barriers affect where vehicles can cross medians or exit roadways safely.\n\n## How to read this data\n**ROUTE** \u2014 identifies the specific highway, like I0040 for Interstate 40. **COUNTY_NAME** \u2014 shows which Tennessee county contains each barrier section, such as Shelby County. **FEAT_DESC** \u2014 describes the barrier type, with samples showing \"Jersery Barrier\" (likely Jersey Barrier, a common concrete divider design). **LOC_DESC** \u2014 indicates whether barriers are on the \"Right\" side or other positions relative to traffic direction. **HEIGHT** \u2014 measures barrier height in feet, with the sample showing 2.9 feet. **BEG_LOG** and **END_LOG** \u2014 mark the start and end points along the route using mile markers, like 0.141 to 0.152 mile markers.\n\n## Try it yourself\nLook up your regular highway route using the **ROUTE** field to see where concrete barriers might affect your drive. If you frequently travel Interstate 40 through Shelby County, you can find the exact mile markers where barriers are installed and plan lane changes accordingly before reaching those sections.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "control-fence-25d805b3",
+      "body": "## What this tracks\nThis dataset records the locations and details of access control fences installed along Tennessee's interstates, state routes, and major highways.\n\n## Why it matters to you\nIf you're planning development near a highway or need to understand property access restrictions, this data shows exactly where fencing blocks access to major roads. Property owners and developers can check whether existing or planned access points to their land might be restricted by state-installed fencing. Business owners considering locations near highways can verify whether customers and deliveries can easily reach their property from nearby roads.\n\n## How to read this data\n**ROUTE** \u2014 the highway designation where the fence is located, like \"I0040\" for Interstate 40. **COUNTY_NAME** \u2014 which Tennessee county contains this fence section, such as \"Dickson.\" **LOC_DESC** \u2014 which side of the road the fence is on, showing values like \"Right.\" **BEG_LOG** and **END_LOG** \u2014 the starting and ending mile markers where each fence section begins and ends, measured in decimal miles like 0.007 to 0.021.\n\n## Try it yourself\nSearch for your county name in the COUNTY_NAME field to see all access control fencing in your area, then look up specific routes you travel regularly to understand where highway access is restricted along your commute or business routes.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "curb-and-gutter-segment-af31b5b8",
+      "body": "## What this tracks\nThis dataset records the locations and details of curb and gutter installations along Tennessee's major roads, including interstates, state routes, and locally-maintained highways.\n\n## Why it matters to you\nIf you're planning construction, landscaping, or utility work near a major road in Tennessee, this data tells you exactly where curb and gutter infrastructure exists that could affect your project. Property developers can identify which road segments already have proper drainage infrastructure when evaluating sites. The data also helps residents understand why certain road sections handle stormwater better than others during heavy rains.\n\n## How to read this data\n**COUNTY_NAME** \u2014 The Tennessee county where the curb and gutter segment is located, such as \"Lawrence.\" **ROUTE** \u2014 The specific road number like \"05694\" that identifies which highway or state route contains this infrastructure. **BEG_LOG** and **END_LOG** \u2014 The starting and ending mile markers (like 0.01 to 0.057) that pinpoint exactly where along the route this curb and gutter section begins and ends. **LOC_DESC** \u2014 Whether the curb and gutter is on the \"Right\" or left side of the road as you travel in the increasing mile marker direction.\n\n## Try it yourself\nLook up your county name in the dataset to see which state routes and highways near you have curb and gutter infrastructure. If you live near a numbered state route, search for that route number to see exactly which mile segments have curb and gutter installations versus sections that might only have ditches or no formal drainage.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "entrance-pipe-7774c2dc",
+      "body": "## What this tracks\nThis dataset records the locations of entrance pipes installed along Tennessee's interstates, state routes, and other major highways.\n\n## Why it matters to you\nIf you're a contractor, utility company, or engineer working on projects near Tennessee highways, this data tells you exactly where entrance pipes are located before you start digging or construction. For property owners adjacent to state routes, knowing the diameter and precise location of these drainage features helps you understand how stormwater flows from the roadway and could affect your land. This information prevents costly accidents and helps you plan landscaping or development projects that won't interfere with state highway infrastructure.\n\n## How to read this data\n**ROUTE** \u2014 identifies the specific highway where the pipe is located, like \"I0075\" for Interstate 75. **COUNTY_NAME** \u2014 shows which Tennessee county contains the pipe, such as \"Hamilton.\" **DIAMETER** \u2014 measures the pipe size in inches, with sample values like 30 inches. **LOC_DESC** \u2014 indicates whether the pipe is on the \"Right\" or left side of the roadway when traveling in the direction of increasing mile markers.\n\n## Try it yourself\nSearch for your county name in the COUNTY_NAME field to see all entrance pipes along state highways in your area, then filter by the specific route number if you need information about pipes near a particular interstate or state route that runs through your property or business location.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "guardrail-e6fc8455",
+      "body": "## What this tracks\nThis dataset records the location and specifications of guardrails and cable barriers installed along Tennessee's interstates, state routes, and other major highways.\n\n## Why it matters to you\nIf you're planning a road trip or daily commute in Tennessee, this data shows which highway segments have safety barriers that could affect visibility, emergency stopping areas, or roadside access. Construction companies and landscaping businesses can use this information to identify where guardrails might limit equipment access or require special permits for roadside work. The data also helps you understand why certain highway sections feel safer or more enclosed than others.\n\n## How to read this data\n**COUNTY_NAME** \u2014 the Tennessee county where each guardrail segment is located, like Lawrence or Davidson. **ROUTE** \u2014 the specific highway number where the barrier is installed, such as route 05694. **FEAT_DESC** \u2014 the type of barrier system, with values like \"W-Beam\" for standard metal guardrails or cable rail systems. **LOC_DESC** \u2014 which side of the road the barrier protects, showing values like \"Right\" for the right shoulder or median areas. **BEG_LOG** and **END_LOG** \u2014 the precise mile markers where each guardrail section starts and ends, such as from mile 1.417 to 1.432.\n\n## Try it yourself\nLook up your regular highway route by searching for the route number in the **ROUTE** field, then check the **COUNTY_NAME** to find guardrail locations in your area. You can see exactly which mile markers have barriers and whether they're on the right or left side of the road, helping you identify the safest areas to pull over in an emergency.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "inform-fire-occurrence-data-record-fodr-de373a56",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "mile-marker-b51d9940",
+      "body": "## What this tracks\nThis dataset records the exact locations and details of mile markers and road signs installed along Tennessee's interstates, state routes, and other major highways.\n\n## Why it matters to you\nIf you're planning a road trip or need to report a highway incident in Tennessee, this data tells you exactly where mile markers are located so you can give precise directions to emergency responders or roadside assistance. Business owners who provide services along major routes can use this information to better describe their location relative to specific mile markers when giving directions to customers.\n\n## How to read this data\n**ROUTE** \u2014 the highway number where the marker is located, like \"05694\" for a specific state route. **LOG_MILE** \u2014 the precise milepost location along that route, such as 0.28 miles from the route's starting point. **FEAT_DESC** \u2014 describes what type of marker or sign it is, with examples like \"Marker, Tennessee Scenic Parkway (Lower Case Text / Bird)\". **LOC_DESC** \u2014 tells you which side of the road the sign is on, such as \"Right\" for the right side of travel.\n\n## Try it yourself\nUse the latitude and longitude coordinates to find mile markers near your regular driving routes in Tennessee. If you frequently travel a specific interstate or state route, search for your route number in the ROUTE field to see all the mile markers along that highway and plan better reference points for your trips.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "naip-imagery-ndvi-6f6bcf8c",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "national-register-of-historic-places-boundaries--ee21901a",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "national-register-of-historic-places-points-tenn-0baa3ef7",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "national-wetlands-inventory-b02ce30e",
+      "body": "## What this tracks\nThis dataset maps the location, size, and type of wetlands, lakes, and other water habitats across Tennessee.\n\n## Why it matters to you\nIf you're buying property in Tennessee, this data shows whether wetlands exist on or near your land, which could restrict development or require special permits. Developers and contractors use this information to avoid costly project delays since building in or near wetlands requires federal approval. The data also helps residents understand flood risks, as wetlands naturally absorb water during heavy rains.\n\n## How to read this data\n**WETLAND_TYPE** \u2014 describes what kind of water feature it is, with values like \"Lake\" for open water bodies or codes for different wetland types. **ACRES** \u2014 shows the exact size of each wetland area, with sample areas like 10.93 acres helping you understand the scale of water features near you. **ATTRIBUTE** \u2014 provides detailed wetland classification codes (like \"L1UBH\") that environmental professionals use to identify specific habitat characteristics.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "road-geometrics-552d7e44",
+      "body": "## What this tracks\nThis dataset records the physical characteristics of Tennessee state roads, including speed limits, number of lanes, and terrain type for specific segments.\n\n## Why it matters to you\nThis data helps you understand road conditions before you travel. If you're planning a route through Tennessee, you can check whether a road has steep terrain that might slow down trucks or RVs, or see if a narrow two-lane road might cause delays during peak hours. Business owners shipping goods can use this information to plan delivery routes that avoid challenging terrain or roads with access restrictions.\n\n## How to read this data\n**SPD_LMT** \u2014 the posted speed limit for that road segment, shown in miles per hour like 30 or 55. **NBR_LANES** \u2014 total number of lanes in both directions, with values like 2 for a standard two-lane road or 4 for a divided highway. **TY_TERRAIN** \u2014 describes the landscape as \"Flat,\" \"Rolling,\" or \"Mountainous,\" which affects driving difficulty and fuel consumption. **DRCT_ONE_WAY** \u2014 indicates traffic flow, typically showing \"Two-Way Traffic\" for most roads.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "rumble-strip-dbf60d13",
+      "body": "## What this tracks\nThis dataset records the precise locations of rumble strips installed on Tennessee's interstates, state routes, and major highways.\n\n## Why it matters to you\nIf you're planning a motorcycle trip or drive a vehicle sensitive to road vibrations, this data shows you exactly where you'll encounter rumble strips on Tennessee highways. Commercial drivers can use this information to anticipate where their cargo might experience vibration, helping them secure loads appropriately. The data also helps you understand road safety improvements in your area \u2014 rumble strips reduce accidents by alerting drowsy or distracted drivers when they drift out of their lane.\n\n## How to read this data\n**ROUTE** \u2014 the highway designation where rumble strips are located, like \"I0240\" for Interstate 240. **COUNTY_NAME** \u2014 which Tennessee county contains the rumble strips, such as \"Shelby\" county. **FEAT_DESC** \u2014 describes the type of rumble strip installation, with values like \"Rumble w/o Stripe\" indicating rumble strips without painted lane markings. **LOC_DESC** \u2014 specifies whether the rumble strips are on the \"Right\" or left side of the roadway. **BEG_LOG** and **END_LOG** \u2014 show the exact mile markers where each rumble strip section begins and ends, like from mile 0.326 to 0.33.\n\n## Try it yourself\nLook up your regular commute route by searching for the highway number in the ROUTE field to see exactly where you'll encounter rumble strips and plan accordingly for sensitive cargo or passenger comfort.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "tennessee-fire-danger-rating-areas-59255f5c",
+      "body": "## What this tracks\nThis dataset maps Tennessee's fire danger rating areas, which are geographic zones used by the Tennessee Division of Forestry to assess wildfire risk and coordinate emergency response.\n\n## Why it matters to you\nIf you live in a rural area or own property with trees, knowing your fire danger rating area helps you understand your wildfire risk level and prepare accordingly. During dry seasons, Tennessee forestry officials issue fire danger warnings by these specific areas, so you'll know when outdoor burning is restricted or when to take extra precautions around your property. Business owners in forestry, agriculture, or outdoor recreation can use this information to plan operations and assess insurance needs based on their area's fire risk designation.\n\n## How to read this data\n**AreaNumber** \u2014 A numerical identifier for each fire danger zone, with values like 6 that correspond to specific regions across Tennessee. **AreaDescription** \u2014 The common name for each fire danger area, such as \"West Tennessee Delta,\" which helps you identify which zone covers your location. **Acres** \u2014 The total size of each fire danger area in acres, with some areas covering over 4 million acres, showing the scale of these risk assessment zones.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb",
+      "body": "## What this tracks\nThis dataset maps priority areas across Tennessee where the state's Forest Legacy Program focuses conservation efforts to protect important forestlands from development between 2020-2030.\n\n## Why it matters to you\nIf you own forested land in Tennessee, this data shows whether your property falls within a priority conservation area where you might be eligible for Forest Legacy Program funding or tax incentives to keep your land forested instead of selling for development. For residents concerned about preserving green space and wildlife habitat in their communities, this reveals which areas the state has identified as most critical to protect. Business owners in forestry, recreation, or tourism can use this to understand where the state is prioritizing long-term forest conservation investments.\n\n## How to read this data\n**CountyName** \u2014 the county where each priority area is located, such as \"Hawkins County.\" **Acres** \u2014 the size of each priority forest area in acres, with values like 433.20 acres showing the scale of land the state wants to keep forested. **COUNTYFP** \u2014 the federal identification code for each county, like \"073\" for Hawkins County, which helps match this data to other government datasets.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "tennessee-ng911-address-points-f76e2673",
+      "body": "## What this tracks\nThis dataset records the precise location and address information for every property in Tennessee that can receive emergency services through the 911 system.\n\n## Why it matters to you\nWhen you call 911, dispatchers use this data to send help to your exact location, even if you can't clearly communicate your address. If your property isn't in this database or has incorrect information, emergency responders might be delayed reaching you during a crisis. For Tennessee businesses, this data helps verify that your location is properly registered for emergency services and can help you understand how your address appears in official county records.\n\n## How to read this data\n**Add_Number** \u2014 the street number of the address, like 930. **St_Name** \u2014 the street name without directional indicators, such as \"TUCKER BEND.\" **St_PosTyp** \u2014 the street type that comes after the name, like \"RD\" for road. **County** \u2014 which Tennessee county the address is located in, such as \"GILES.\" **Inc_Muni** \u2014 whether the address is within city limits or shows \"Unincorporated\" for rural areas. **Zip_Code** \u2014 the postal code, like 38477.\n\n## Try it yourself\nSearch for your street name in the St_Name field to see all addresses on your road and verify your property is included in Tennessee's emergency services database. You can also filter by your county name to see how addresses are officially formatted in your area.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "tennessee-ng911-road-centerlines-1fc31033",
+      "body": "## What this tracks\nThis dataset maps every road centerline across Tennessee with precise address ranges and geographic boundaries for the state's Next Generation 911 emergency response system.\n\n## Why it matters to you\nWhen you call 911 in Tennessee, this data helps dispatchers locate you instantly and send help to the right address. The dataset ensures emergency responders know exactly which county, city, and zip code jurisdiction covers your location, preventing delays when seconds count. It also helps delivery services, GPS navigation, and mail carriers find addresses accurately throughout the state.\n\n## How to read this data\n**NAME** \u2014 the street name like \"MERIDIAN\" without prefixes or suffixes. **TYPE** \u2014 the road type such as \"DR\" for Drive, \"ST\" for Street, or \"RD\" for Road. **R_F_ADD** and **R_T_ADD** \u2014 the address range on the right side of the street (like 600 to 698), telling you what house numbers exist on each block. **COUNTY_L** and **COUNTY_R** \u2014 which county covers the left and right sides of the street, like \"WARREN\" county, important since emergency services are organized by county boundaries.\n\n## Try it yourself\nSearch for your street name in the NAME field to see how your road is officially mapped in Tennessee's 911 system. Check the address ranges (R_F_ADD, R_T_ADD, L_F_ADD, L_T_ADD) to confirm your house number falls within the recorded range, and verify that your county (COUNTY_L or COUNTY_R) matches what you expect for emergency service coverage.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "tennessee-polling-places-e47c3cff",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53",
+      "body": "## What this tracks\nThis dataset maps wildfire hazard potential across Tennessee using a grid of 50-square-kilometer hexagons to show where wildfires are most likely to occur.\n\n## Why it matters to you\nIf you're buying property, planning outdoor activities, or running a business in Tennessee, this data helps you understand your wildfire risk before making decisions. Homeowners can use it to determine if they need additional fire insurance or defensible space around their property. Business owners in high-risk areas might invest in fire suppression systems or evacuation planning.\n\n## How to read this data\n**GRID_ID** \u2014 A unique identifier for each hexagonal area, shown as codes like \"AM-20\" that help locate specific grid sections across Tennessee. **gridcode** \u2014 A numerical value like 63 that represents the calculated wildfire hazard level for that hexagon. **ClassCode** \u2014 A simplified risk category number (like 4) that groups areas into broader hazard classes, making it easier to compare relative wildfire danger between different locations.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "tn-city-boundaries-cf079cf3",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tn-coa25-089d5b8c",
+      "body": "## What this tracks\nThis dataset maps Conservation Opportunity Areas across Tennessee where the state has identified critical habitats for protecting wildlife species that need the most conservation help.\n\n## Why it matters to you\nIf you're a landowner in Tennessee, this data shows whether your property sits within a designated conservation area, which could affect land use regulations, hunting seasons, or eligibility for conservation programs. Developers and builders can check if their planned projects fall within these protected zones before investing time and money in site planning. Outdoor enthusiasts can identify prime areas for wildlife viewing and understand which species they might encounter in different regions.\n\n## How to read this data\n**COA** \u2014 The name of the Conservation Opportunity Area, like \"South Fork of the Forked Deer River.\" **SqMiles** \u2014 The total area covered by each conservation zone in square miles, with some areas spanning hundreds of square miles like the 690-square-mile South Fork region. **AveragePriorityScore** \u2014 A numerical ranking showing how critical each area is for conservation efforts, with higher numbers indicating greater conservation priority. **MilesHighPriorityStreams** \u2014 The miles of streams within each area that are especially important for aquatic wildlife protection.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "tn-congressional-districts-90e47429",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tn-historical-commission-sites-fa1485bb",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tn-house-districts-0d94ca77",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tn-senate-districts-977f2087",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tnmap-data-server-access-c478c810",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tnmap-imagery-webmercator-9ddbda7c",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    },
+    {
+      "slug": "tunnels-e23ae4cd",
+      "body": "## What this tracks\nThis dataset records the locations and dimensions of tunnels on Tennessee's interstate highways, state routes, and major local roads.\n\n## Why it matters to you\nIf you're planning a route for an oversized vehicle, RV, or commercial truck, this data tells you exactly where tunnels are located and how wide they are, helping you avoid getting stuck or causing damage. For emergency responders and logistics companies operating in Tennessee, knowing tunnel locations on routes like SR131 helps with route planning and response times. The width measurements, like the 13.6-foot tunnel recorded on SR131, are critical for determining whether your vehicle can safely pass through.\n\n## How to read this data\n**ROUTE** \u2014 identifies which highway the tunnel is on, such as SR131 for State Route 131. **COUNTY_NAME** \u2014 shows which county contains the tunnel, like Knox County. **WIDTH** \u2014 measures the tunnel width in feet, with values like 13.6 feet indicating clearance for vehicles. **BEG_LOG** and **END_LOG** \u2014 mark the exact mile markers where the tunnel starts and ends along the route, such as from mile 6.118 to mile 6.127.\n\n## Try it yourself\nLook up your regular driving routes to see if any tunnels might affect your travel plans, especially if you drive larger vehicles or are planning to rent a moving truck or RV for an upcoming trip.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "waterfowlblinds-25d32a1b",
+      "body": "## What this tracks\nThis dataset records the locations and details of designated waterfowl hunting blinds across Tennessee's Wildlife Management Areas for the 2024-2025 hunting season.\n\n## Why it matters to you\nIf you're a hunter planning waterfowl season in Tennessee, this data shows you exactly where legal hunting blinds are located before you apply for permits or plan your trips. Instead of driving to a Wildlife Management Area only to find all the good spots taken or not knowing which blinds are available, you can scout locations in advance and understand the different types of blinds offered. This helps you make informed decisions about where to hunt and what type of blind reservation to request.\n\n## How to read this data\n**BLINDNUM** \u2014 the unique identifier for each blind, like \"45\", which you'll need when making reservations or reporting to wildlife officials. **WMA** \u2014 the specific Wildlife Management Area where the blind is located, such as \"AEDC - Woods Reservoir\", telling you exactly which property to visit. **Type** \u2014 describes the blind style, with values like \"Draw Blind\" indicating whether it's a lottery-based assignment or other allocation method. **Tier** \u2014 shows the priority level of the blind, with \"1\" typically indicating prime locations that may require special permits or have different rules.\n\n## Where this leaves you  \nThis dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.\n",
+      "error": null,
+      "needs_review": false,
+      "reason": "hollow step-4 replaced with no-anchor fallback 2026-08-08"
+    },
+    {
+      "slug": "winter-storm-fern-damage-assessment-840bd4a6",
+      "body": null,
+      "error": null,
+      "needs_review": true,
+      "reason": "no live schema \u2014 introspection failed or unavailable"
+    }
+  ]
+}

@@ -2,29 +2,29 @@
 title: "Tennessee State Forest Boundaries"
 date: "2026-08-02"
 description: "Official boundaries for all State Forests managed by the Tennessee Division of Forestry (TDF). This is the authoritative dataset for TDF-managed forest lands. Tennessee State Forest Boundaries Overview This feature layer"
-teaser: "Official boundaries for all State Forests managed by the Tennessee Division of Forestry (TDF). This is the authoritative dataset for TDF-man"
+teaser: "Official boundaries for all State Forests managed by the Tennessee Division of Forestry (TDF). This is the authoritative dataset for TDF-managed forest lands. Tennessee…"
 tags: ["State Forest", "Tennessee", "boundaries", "location", "S", "t", "a", "e", "F", "o", "r", "s", ",", "T", "n", "b", "u", "d", "i", "l", "c"]
 categories: ["Parks & Recreation"]
-cover: ""
+cover: "covers/tennessee-state-forest-boundaries-cbae4ca7--parks-recreation--cover_only.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cbae4ca785114a1d99d99c46f0f7df91"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/TNDOF::tennessee-state-forest-boundaries"
-geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset shows the official boundaries and details of all state forests managed by the Tennessee Division of Forestry.  
 
-## What this is
+## Why it matters to you  
+If you're planning a hunting trip, hiking adventure, or horseback riding outing, this data tells you exactly where Tennessee's state forests are located and how large they are. For small businesses like outdoor gear shops or tour operators, knowing these boundaries helps you advertise services in the right areas or partner with forest managers for guided activities.  
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**StateForestName** — The official name of the state forest, like "Standing Stone State Forest."  
+**County** — Which counties the forest spans, such as "Overton, Clay."  
+**Acres** — The size of the forest in acres (e.g., 8309).  
+**Notes** — Key details about permitted activities, like "Hunting has been a traditional use of the forest."
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

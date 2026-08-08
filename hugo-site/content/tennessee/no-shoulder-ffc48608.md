@@ -2,29 +2,29 @@
 title: "No Shoulder"
 date: "2026-08-02"
 description: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This information was collected using vehicle mounted LiDAR sensors and cameras and w"
-teaser: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This"
+teaser: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This information was collected…"
 tags: ["No Shoulders, Tennessee", "N", "o", "S", "h", "u", "l", "d", "e", "r", "s", ",", "T", "n"]
 categories: ["Transportation"]
-cover: ""
+cover: "covers/no-shoulder-ffc48608--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ffc486088a8e49adaf27ab0e75f6b934"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/ffc486088a8e49adaf27ab0e75f6b934_0"
-geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset records stretches of Tennessee roads that lack shoulders, including interstates, state routes, and locally owned NHS routes.  
 
-## What this is
+## Why it matters to you  
+If you’re planning a bike trip or driving a wide-load vehicle through Tennessee, this data tells you exactly where roads have no shoulder—so you can avoid unsafe stretches or plan alternate routes. For example, knowing that I-75 in Hamilton County has a no-shoulder section (sample **ROUTE**: I0075) helps truckers reroute before hitting tight spots.  
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**ROUTE** — The road identifier (e.g., I0075 for Interstate 75).  
+**FEAT_DESC** — Confirms the feature is a "No Shoulder" section.  
+**LOC_DESC** — Which side of the road lacks a shoulder (e.g., "Right").  
+**BEG_LOG** and **END_LOG** — The start and end mile markers of the no-shoulder stretch (e.g., 0.068 to 0.222).  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Check if your regular commute route (like I-24 or State Route 33) has no-shoulder sections by searching the dataset for the **ROUTE** number.

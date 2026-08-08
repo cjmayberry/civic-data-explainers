@@ -5,26 +5,26 @@ description: "This layer is a point geometry with all park amenities for the web
 teaser: "This layer is a point geometry with all park amenities for the website filters"
 tags: ["t", "e", "n", "s", "a", "p", "r", "k"]
 categories: ["Default"]
-cover: ""
+cover: "covers/find-a-park-points-data-filters-tn-state-parks-d54ec10b--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d54ec10bacf44a8ba825edecd7ab7945"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/TDEC::find-a-park-points-data-filters-tn-state-parks"
-geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset records amenities and accessibility features at Tennessee state parks, from boat ramps to wheelchair-friendly trails.
 
-## What this is
+## Why it matters to you  
+Planning a family reunion? This tells you which parks have group lodges (like Bicentennial Capitol Mall's amphitheater) and catering options. Wheelchair users can check **Wheelchair_Friendly_Paved_Trails** before visiting. Campers can instantly see if a park offers backcountry sites or RV hookups instead of calling ranger stations.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**PRIMARY_** — The park's short name (e.g., "Bicentennial Capitol Mall").  
+**VisCentr** — "T" means the park has a visitor center (like Bicentennial Mall's "T" value).  
+**Camping** — "T" indicates general camping availability, while specific types like **Camping_Tent_Only** show detailed options.  
+**Wheelchair_Friendly_Paved_Trails** — "Y" means paved paths are accessible (e.g., Bicentennial Mall's "Y").
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

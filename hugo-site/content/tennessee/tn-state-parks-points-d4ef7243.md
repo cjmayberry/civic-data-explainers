@@ -2,29 +2,28 @@
 title: "TN State Parks Points"
 date: "2026-08-02"
 description: "Point feature class representing the centroids within Tennessee State Parks boundaries. This feature class contains points representing the locations of Tennessee State Parks. These points are calculated as the centroid "
-teaser: "Point feature class representing the centroids within Tennessee State Parks boundaries. This feature class contains points representing the "
+teaser: "Point feature class representing the centroids within Tennessee State Parks boundaries. This feature class contains points representing the locations of Tennessee State…"
 tags: ["T", "e", "n", "s", ",", "S", "t", "a", "P", "r", "k", "N", "D", "E", "C", "_", "O"]
 categories: ["Default"]
-cover: ""
+cover: "covers/tn-state-parks-points-d4ef7243--default--cover_only.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d4ef724303da4619ba2972e00e716f03"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/TDEC::tn-state-parks-points"
-geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset shows the locations and contact information for all Tennessee State Parks.
 
-## What this is
+## Why it matters to you  
+Planning a weekend camping trip? This data tells you exactly where each park is located and who to contact if you have questions about facilities or permits. For small businesses near popular parks like Big Cypress Tree State Park, knowing the park manager's direct contact can help coordinate local events or partnerships. Residents can use the phone numbers to check trail conditions before heading out.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**PARK_NAME** — The official name of the state park (e.g., "Big Cypress Tree State Park").  
+**AM_PHONE** — Direct phone number for the area manager overseeing multiple parks (e.g., "615-557-6352").  
+**PM_PHONE** — The park manager's direct line for specific locations (e.g., "731-253-2700").
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

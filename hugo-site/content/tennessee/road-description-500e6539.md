@@ -2,29 +2,29 @@
 title: "Road Description"
 date: "2026-08-02"
 description: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contains tabular polyline data showing the log miles, feature type, and feature width f"
-teaser: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contain"
+teaser: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contains tabular polyline data…"
 tags: ["Tennessee", "TDOT", "TRIMS", "Description", "T", "e", "n", "s", ",", "D", "O", "R", "I", "M", "S", "c", "r", "i", "p", "t", "o"]
 categories: ["Transportation"]
-cover: ""
+cover: "covers/road-description-500e6539--transportation--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Description/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=500e65397304406dbc6cc6a8e4b89af8"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/500e65397304406dbc6cc6a8e4b89af8_0"
-geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Description/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset records the physical features of Tennessee roadways, including drainage systems, shoulders, and other cross-section elements along specific route segments.
 
-## What this is
+## Why it matters to you  
+Knowing where drainage features exist helps you anticipate flooding risks near your property during heavy rains. If you're considering opening a business, the road feature widths tell you whether delivery trucks can safely access the location. For residents, the log mile markers help pinpoint exact problem areas when reporting road maintenance issues to Tennessee DOT.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**NBR_TENN_CNTY** — The county where the road segment is located, like "Benton".  
+**NBR_RTE** — The official route number, such as "0A558".  
+**TYP_FEAT** — The type of roadside feature, with values like "Drainage" indicating ditches or runoff systems.  
+**FEAT_WIDTH** — How wide the feature is in feet; a sample value of "2" means a 2-foot-wide drainage channel.
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

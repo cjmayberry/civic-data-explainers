@@ -2,29 +2,29 @@
 title: "Paddling Access Sites"
 date: "2026-08-02"
 description: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature service provides comprehensive spatial data paddlin"
-teaser: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational wate"
+teaser: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature…"
 tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "T", "e", "b", "r", "m", "p", "u", "l", "c", "d", "w", "f"]
 categories: ["Default"]
-cover: ""
+cover: "covers/paddling-access-sites-2389307b--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Paddling_Access_Sites/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2389307bc0a4478697036b48ef2de733"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/TWRA::paddling-access-sites"
-geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Paddling_Access_Sites/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps public paddling access sites across Tennessee, including details about facilities, parking, and waterway access.
 
-## What this is
+## Why it matters to you  
+Planning a kayaking trip? This data tells you whether a launch site has parking for your trailer (**Trailer_Pa**), if restrooms are available (**Restrooms**), and if you can access the site after dark (**LightedPark**). For families, it shows which sites have handicap parking (**HandicapPark**) and canoe landings (**CanoeLanding**). Business owners offering guided tours can identify suitable launch points with amenities like ramps (**Ramp_Struc**) and nearby bait shops (**Bait**).
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**Waterway** — The river or lake you’ll paddle on (e.g., "Duck River").  
+**Parking** — Surface type and capacity (e.g., "Paved" with "Less Than 25" spaces).  
+**Launchable** — Maximum boat length the site supports (e.g., "Up to 17ft").  
+**Restrooms** — Whether facilities are available (e.g., "Yes" or "No").
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

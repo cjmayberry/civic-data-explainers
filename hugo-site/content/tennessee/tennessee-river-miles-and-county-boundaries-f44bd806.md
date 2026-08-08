@@ -2,29 +2,28 @@
 title: "Tennessee River Miles and County Boundaries"
 date: "2026-08-02"
 description: "This service provides detailed river mile markers and county boundaries for Tennessee, supporting navigation. Overview This feature service provides a comprehensive spatial dataset for Tennessee, focusing on river mile m"
-teaser: "This service provides detailed river mile markers and county boundaries for Tennessee, supporting navigation. Overview This feature service "
+teaser: "This service provides detailed river mile markers and county boundaries for Tennessee, supporting navigation. Overview This feature service provides a comprehensive…"
 tags: ["F", "i", "s", "h", "n", "g", ",", "B", "o", "a", "t", "P", "u", "b", "l", "c", "D", "T", "e", "r", "v", "m", "y", "d", "w", "p"]
 categories: ["Default"]
-cover: ""
+cover: "covers/tennessee-river-miles-and-county-boundaries-f44bd806--default--cover_only.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f44bd80620a04f8e84e9e77e49cc4c6d"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/maps/TWRA::tennessee-river-miles-and-county-boundaries"
-geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset records river mile markers and county boundaries along Tennessee's navigable waterways.  
 
-## What this is
+## Why it matters to you  
+If you operate a boat, kayak, or fishing business on Tennessee rivers, this data helps you pinpoint your exact location in case of emergencies or when reporting hazards. It also clarifies which county’s regulations apply to your stretch of river—critical for permits or waste disposal rules. For waterfront property owners, the mile markers help verify flood zone maps or docking rights.  
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**mile_no** — The distance in miles from a river’s confluence or origin (e.g., "50" means 50 miles upstream).  
+**river_name** — The waterway’s name (e.g., "Tennessee River").  
+**POINT_X / POINT_Y** — GPS coordinates (e.g., "-88.0695329334, 36.6665185761") to plot the marker on a map.
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the state's own interactive map (linked on this page) shows the locations involved.

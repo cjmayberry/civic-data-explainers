@@ -2,29 +2,29 @@
 title: "Bridge Condition Annual"
 date: "2026-08-02"
 description: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field inspections. These descriptions are from the FHWA Recordin"
-teaser: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condit"
+teaser: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field…"
 tags: ["T", "D", "O", ",", "e", "n", "s", "p", "a", "r", "t", "m", "o", "f", "i", "N", "S", "u", "c", "B", "d", "g", "I", "C", "v", "y", "A", "G", "."]
 categories: ["Default"]
-cover: ""
+cover: "covers/bridge-condition-annual-8d89d92e--default--cover_only.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=8d89d92e76d54ba08290b652b74c4549&sublayer=0"
 city: "tennessee"
 site_url: "https://geodata.tn.gov"
-map_link: "https://geodata.tn.gov/datasets/8d89d92e76d54ba08290b652b74c4549_0"
-geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset records the condition of bridges across Tennessee based on annual inspections, including their location, age, and structural rating.
 
-## What this is
+## Why it matters to you  
+If you regularly commute over a specific bridge in Tennessee, this data tells you whether it's rated Good, Fair, or Poor — helping you anticipate potential delays from repairs or weight restrictions. Trucking companies can check bridge conditions along planned routes to avoid roads with Poor-rated crossings. Parents can verify the safety of bridges near school bus routes in their county.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**COUNTY** — Where the bridge is located (e.g., "Anderson").  
+**ROUTE_NUMBER** — The road that crosses the bridge (e.g., "02444").  
+**OVERALL_CONDITION** — Safety rating: "Good" (minor issues), "Fair" (sound but showing wear), or "Poor" (advanced deterioration).  
+**YEAR_BUILT** — When the bridge was constructed (e.g., "1985"), which helps gauge its likely maintenance needs.  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Look up bridges near you by searching your county name in the dataset, then check the **OVERALL_CONDITION** of any bridges you frequently cross.
