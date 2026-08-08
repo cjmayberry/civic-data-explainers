@@ -5,7 +5,7 @@ description: "This dataset can be used to view regional, community, and neighbor
 teaser: "Where OKC’s green space lives — regional, community and neighborhood parks, with real acreage."
 tags: [" oklahoma city", "parks", "facilities", "sports", "athletics", "aquatic", "pools", "spray", "grounds", "tennis", "courts", "baseball", "softball", "fields", "recreation"]
 categories: ["Parks & Recreation"]
-cover: ""
+cover: "covers/parks-fe9dc8e8--parks-recreation--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4"
 geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"

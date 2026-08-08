@@ -5,7 +5,7 @@ description: "This dataset can be to determine hotels that have an active licens
 teaser: "This dataset tracks hotels and motels with active tax licenses in Oklahoma City"
 tags: ["oklahoma city", "hotels", "motels", "tax", "license", "certificate", "revenue"]
 categories: ["Finance"]
-cover: ""
+cover: "covers/hotel-motel-tax-b6e78aa9--finance--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "LegalName"
 inquiry_field: "Sector"

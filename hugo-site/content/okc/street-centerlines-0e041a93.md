@@ -5,7 +5,7 @@ description: "This dataset may be used to determine location and other attribute
 teaser: "The invisible skeleton under every address in OKC — updated daily, used by 911, delivery apps, and you."
 tags: [" oklahoma city", "streets", "intersections", "centerlines"]
 categories: ["Transportation"]
-cover: ""
+cover: "covers/street-centerlines-0e041a93--transportation--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "FNAME"
 inquiry_field: "STREETCLASS"

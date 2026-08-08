@@ -90,7 +90,7 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-02T19:48:18Z",
+  "generated_at": "2026-08-08T13:34:31Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -140,7 +140,7 @@
       "inquiry_enabled": true,
       "inquiry_search_field": "Adopted_Street",
       "inquiry_field": "Adopting_Organization",
-      "inquiry_label": "Is your street adopted — and by whom?",
+      "inquiry_label": "Is your street adopted \u2014 and by whom?",
       "inquiry_extra": [],
       "enrichment_status": null,
       "last_updated": "2026-08-02T19:48:18Z"
@@ -152,7 +152,7 @@
       "city_slug": "okc",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -194,7 +194,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "bike-projects-b67f6cb2",
@@ -203,7 +204,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -264,7 +265,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "bike-routes-5600dd31",
@@ -445,7 +447,7 @@
       "city_slug": "okc",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -493,7 +495,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "city-facilities-d5c5b7b2",
@@ -563,12 +566,12 @@
       "city_slug": "okc",
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "city-trails-1e65b61d--parks-recreation--themed_photo.jpg",
-      "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) — https://www.flickr.com/photos/80634066@N00/3338689843",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "city-trails-1e65b61d--parks-recreation--placeholder.svg",
+      "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) \u2014 https://www.flickr.com/photos/80634066@N00/3338689843 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -654,7 +657,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": "not_available",
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "council-wards-666b9654",
@@ -725,7 +729,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -768,7 +772,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "emergency-responses-01c97e29",
@@ -892,7 +897,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1008,7 +1013,8 @@
       "inquiry_label": "Check a garage sale permit",
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "hotel-motel-tax-b6e78aa9",
@@ -1019,10 +1025,10 @@
       "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "hotel-motel-tax-b6e78aa9--finance--themed_photo.jpg",
-      "image_note": "Topic photo: \"Hotel Lembke, Boomerang Dining Room, circa 1960 - Valparaiso, Indiana\" by Shook Photos (by) — https://www.flickr.com/photos/24724221@N07/4182754504",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "hotel-motel-tax-b6e78aa9--finance--placeholder.svg",
+      "image_note": "Topic photo: \"Hotel Lembke, Boomerang Dining Room, circa 1960 - Valparaiso, Indiana\" by Shook Photos (by) \u2014 https://www.flickr.com/photos/24724221@N07/4182754504 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -1079,7 +1085,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1121,7 +1127,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "index-grid-80e72538",
@@ -1130,7 +1137,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1177,7 +1184,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "land-documents-fd9dbc81",
@@ -1334,7 +1342,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1398,7 +1406,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "overlay-parcel-zoning-175708d7",
@@ -1407,7 +1416,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1466,7 +1475,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "overlay-point-zoning-e41be4c9",
@@ -1475,7 +1485,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1529,7 +1539,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "park-facilities-ceaabc8e",
@@ -1674,10 +1685,10 @@
       "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "parks-fe9dc8e8--parks-recreation--themed_photo.jpg",
-      "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) — https://www.flickr.com/photos/80634066@N00/3338689843",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "parks-fe9dc8e8--parks-recreation--placeholder.svg",
+      "image_note": "Topic photo: \"playground\" by Listener42 (by-sa) \u2014 https://www.flickr.com/photos/80634066@N00/3338689843 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -1741,7 +1752,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1789,7 +1800,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "parks-impact-fees-existing-local-service-b8d5a300",
@@ -1798,7 +1810,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -1846,7 +1858,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "pavement-condition-e80f59ff",
@@ -1939,7 +1952,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -2000,7 +2013,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "plat-names-6073f066",
@@ -2009,7 +2023,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -2047,7 +2061,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "plats-43d820b8",
@@ -2056,7 +2071,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -2109,7 +2124,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "police-stations-fdb1ea86",
@@ -2301,12 +2317,12 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "public-works-as-builts-d317eb4e--infrastructure--themed_photo.jpg",
-      "image_note": "Topic photo: \"Public Works Construction\" by ICMA Photos (by-sa) — https://www.flickr.com/photos/31418530@N02/3628911157",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "public-works-as-builts-d317eb4e--infrastructure--placeholder.svg",
+      "image_note": "Topic photo: \"Public Works Construction\" by ICMA Photos (by-sa) \u2014 https://www.flickr.com/photos/31418530@N02/3628911157 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -2344,7 +2360,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "recycle-zones-0f286e12",
@@ -2418,10 +2435,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "sidewalks-bc31068e--transportation--themed_photo.jpg",
-      "image_note": "Topic photo: \"UF Green Concrete Sidewalk Road Asphalt\" by cdsessums (by-sa) — https://www.flickr.com/photos/53313745@N00/4800468597",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "sidewalks-bc31068e--transportation--placeholder.svg",
+      "image_note": "Topic photo: \"UF Green Concrete Sidewalk Road Asphalt\" by cdsessums (by-sa) \u2014 https://www.flickr.com/photos/53313745@N00/4800468597 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -2746,7 +2763,7 @@
       "city_slug": "okc",
       "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -2788,7 +2805,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "straight-zoning-388d1b1f",
@@ -2861,10 +2879,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "manual:regenerate_content.py-BODIES (hand-authored 2026-06-10)",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "street-centerlines-0e041a93--transportation--themed_photo.jpg",
-      "image_note": "Topic photo: \"Sketch of relocated centerline and new side line looking uphill from Broadway\" by Eric Fischer (by) — https://www.flickr.com/photos/24431382@N03/6960300051",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "street-centerlines-0e041a93--transportation--placeholder.svg",
+      "image_note": "Topic photo: \"Sketch of relocated centerline and new side line looking uphill from Broadway\" by Eric Fischer (by) \u2014 https://www.flickr.com/photos/24431382@N03/6960300051 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -3061,7 +3079,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3115,7 +3133,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "survey-primary-control-points-e6812e22",
@@ -3124,7 +3143,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3215,7 +3234,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "survey-secondary-control-points-1120d3f7",
@@ -3224,7 +3244,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3304,7 +3324,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "tax-increment-financing-districts-08ededb1",
@@ -3399,7 +3420,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3460,7 +3481,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "trash-collection-zones-45426e5e",
@@ -3532,7 +3554,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3557,7 +3579,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "vegetation-polygons-a4b7be23",
@@ -3566,7 +3589,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3601,7 +3624,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "waterbodies-a6b9c703",
@@ -3610,12 +3634,12 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
-      "image_status": "themed_photo",
-      "image_source": "openverse",
-      "image_file": "waterbodies-a6b9c703--infrastructure--themed_photo.jpg",
-      "image_note": "Topic photo: \"Barrier Between Waterbody And Drain Carrying Leather Industries Waste Under Construction - Science City Site - Dhapa - Calcutta 1993-06-25 0617\" by Biswarup Ganguly (by) — https://commons.wikimedia.org/w/index.php?curid=56882248",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "waterbodies-a6b9c703--infrastructure--placeholder.svg",
+      "image_note": "Topic photo: \"Barrier Between Waterbody And Drain Carrying Leather Industries Waste Under Construction - Science City Site - Dhapa - Calcutta 1993-06-25 0617\" by Biswarup Ganguly (by) \u2014 https://commons.wikimedia.org/w/index.php?curid=56882248 | themed_photo JPG missing from repo+disk+git; replaced with placeholder 2026-08-08",
       "schema": {
         "fields": [
           {
@@ -3657,7 +3681,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "waterways-7107d3b8",
@@ -3666,7 +3691,7 @@
       "city_slug": "okc",
       "display_category": "Infrastructure",
       "category": "Infrastructure",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3709,7 +3734,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     },
     {
       "slug": "work-zones-ead80c5e",
@@ -3834,7 +3860,7 @@
       "city_slug": "okc",
       "display_category": "Licensing",
       "category": "Licensing",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v2-pavement-shape",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -3885,7 +3911,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:18Z"
+      "last_updated": "2026-08-02T19:48:18Z",
+      "content_note": "reviewed 2026-08-08: no-anchor fallback verified honest (or full step-4 for garage-sales); accepted as final"
     }
   ]
 }
