@@ -1,0 +1,48 @@
+---
+title: "City Building Codes for Missouri"
+date: "2026-08-02"
+description: ""
+teaser: ""
+tags: ["economic development", "building codes", "fips", "Economic Development"]
+categories: ["Other"]
+cover: "covers/hhyk-mgim--other--placeholder.svg"
+source_url: "https://data.mo.gov/resource/hhyk-mgim.json"
+license: ""
+dataset_id: "hhyk-mgim"
+city: "missouri"
+site_url: "https://data.mo.gov"
+draft: false
+dictionary:
+  - field: "population_jurisdiction"
+    description: ""
+  - field: "county"
+    description: ""
+  - field: "city_fips"
+    description: ""
+  - field: "energy_building_code"
+    description: ""
+  - field: "_2010"
+    description: ""
+  - field: "county_fips"
+    description: ""
+  - field: "jurisdiction"
+    description: ""
+  - field: "residential_code"
+    description: ""
+  - field: "commercial_code"
+    description: ""
+---
+
+## What this tracks  
+This dataset records which building codes are enforced in different jurisdictions across Missouri.
+
+## Why it matters to you  
+If you're renovating a home or opening a business in Adrian, this tells you exactly which building standards apply to your project. Knowing whether your jurisdiction follows the 2018 International Residential Code versus local amendments could change your material costs or permit timeline. For contractors working across county lines, this data helps avoid costly compliance mistakes when bidding on jobs in different parts of Missouri.
+
+## How to read this data  
+**jurisdiction** — The city or town name where the building code applies, like "Adrian" in the sample.  
+**_2010** — The population count from the last census for that jurisdiction, showing how large the area is (sample value: 1677).  
+**county** — Which county administers the codes (sample: "Bates"), important for finding the right permitting office.  
+
+## Try it yourself  
+Look up your Missouri town's name in the jurisdiction field to see which county handles its building code enforcement and how populous the area is.

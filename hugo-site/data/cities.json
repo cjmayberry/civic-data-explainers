@@ -31,5 +31,27 @@
       38.7223
     ],
     "blurb": "First CKAN city: 7 mobility datasets from EMEL's open-data platform — cycling network, GIRA bikeshare, parking zones and tunnels."
+  },
+  "missouri": {
+    "name": "Missouri",
+    "short": "MO",
+    "hub": "https://data.mo.gov",
+    "gov": "https://www.mo.gov",
+    "center": [
+      -92.6038,
+      38.5739
+    ],
+    "blurb": "First state catalog: 108 curated datasets from Missouri's Socrata platform — licensing, health, labor and government data."
+  },
+  "tennessee": {
+    "name": "Tennessee",
+    "short": "TN",
+    "hub": "https://geodata.tn.gov",
+    "gov": "https://www.tn.gov",
+    "center": [
+      -86.3005,
+      35.7449
+    ],
+    "blurb": "Second state: 102 geospatial datasets from Tennessee's ArcGIS Hub — boundaries, transportation, environment and recreation."
   }
 }

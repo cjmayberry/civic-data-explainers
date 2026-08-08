@@ -1,0 +1,43 @@
+---
+title: "2020 State Expenditures"
+date: "2026-08-02"
+description: ""
+teaser: ""
+tags: ["Government Administration"]
+categories: ["Government"]
+cover: "covers/38q6-ispi--government--placeholder.svg"
+source_url: "https://data.mo.gov/resource/38q6-ispi.json"
+license: ""
+dataset_id: "38q6-ispi"
+city: "missouri"
+site_url: "https://data.mo.gov"
+draft: false
+dictionary:
+  - field: "agency_name"
+    description: ""
+  - field: "detail_description"
+    description: ""
+  - field: "category_description"
+    description: ""
+  - field: "fiscal_year"
+    description: ""
+  - field: "payments_total"
+    description: ""
+  - field: "vendor_name"
+    description: ""
+---
+
+## What this tracks  
+This dataset records every payment made by the state of Missouri in fiscal year 2020, including which agencies spent money, what they bought, and who received payments.  
+
+## Why it matters to you  
+If you run a small business in Missouri, this data shows you which state agencies buy your type of goods/services—helping you target government contract opportunities. Residents can check whether their tax dollars fund vendors they support (or oppose), like seeing if a local environmental group received conservation grants or if a controversial contractor got infrastructure funds.  
+
+## How to read this data  
+**agency_name** — Which state department spent the money (e.g., "CONSERVATION" or "TRANSPORTATION").  
+**category_description** — The type of purchase (e.g., "TRAVEL" for mileage reimbursements or "PROFESSIONAL SERVICES" for contractors).  
+**vendor_name** — Who received payment (e.g., "YASGER, PATRICIA A" for individual reimbursements or corporate names for larger contracts).  
+**payments_total** — The amount paid (e.g., "85.12" for small expenses or multi-million-dollar figures for infrastructure projects).  
+
+## Try it yourself  
+Search [your business’s service category](https://data.mo.gov) (like "IT Consulting" or "Office Supplies") to find which Missouri agencies bought those services in 2020—then contact their procurement offices before the next budget cycle.

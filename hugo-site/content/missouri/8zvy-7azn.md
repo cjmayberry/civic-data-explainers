@@ -1,0 +1,113 @@
+---
+title: "DMH Veterans Provider Enrollment"
+date: "2026-08-02"
+description: ""
+teaser: ""
+tags: ["dmh", "provider map", "Health"]
+categories: ["Other"]
+cover: "covers/8zvy-7azn--other--placeholder.svg"
+source_url: "https://data.mo.gov/resource/8zvy-7azn.json"
+license: ""
+dataset_id: "8zvy-7azn"
+city: "missouri"
+site_url: "https://data.mo.gov"
+draft: false
+dictionary:
+  - field: "suite_no"
+    description: ""
+  - field: "company_name"
+    description: ""
+  - field: "website"
+    description: ""
+  - field: "rd"
+    description: "Registered Dietician"
+  - field: "location_1"
+    description: ""
+  - field: "country"
+    description: ""
+  - field: "telehealth"
+    description: ""
+  - field: "traumatic_brain_injury"
+    description: ""
+  - field: "general_mental_health"
+    description: ""
+  - field: "domestic_violence"
+    description: ""
+  - field: "compulsive_gambling"
+    description: ""
+  - field: "child_adolescent"
+    description: ""
+  - field: "anger_management"
+    description: ""
+  - field: "alcohol_and_substance_abuse"
+    description: ""
+  - field: "psychologist"
+    description: ""
+  - field: "psychiatrist"
+    description: ""
+  - field: "psychiatric_nurse_practitioner"
+    description: ""
+  - field: "plpc"
+    description: ""
+  - field: "mft"
+    description: ""
+  - field: "lpc"
+    description: ""
+  - field: "zip_code"
+    description: ""
+  - field: "cgdc"
+    description: ""
+  - field: "location_1_address"
+    description: ""
+  - field: "location_1_city"
+    description: ""
+  - field: "ban"
+    description: ""
+  - field: "military_culture_certified"
+    description: ""
+  - field: "admin_notes"
+    description: ""
+  - field: "location_1_state"
+    description: ""
+  - field: "tricare"
+    description: ""
+  - field: "military_culture"
+    description: ""
+  - field: "eating_disorder"
+    description: ""
+  - field: "phone_number"
+    description: ""
+  - field: "substance_abuse"
+    description: ""
+  - field: "suicide_prevention"
+    description: ""
+  - field: "sexual_assault"
+    description: ""
+  - field: "post_traumatic_stress"
+    description: ""
+  - field: "lcsw"
+    description: ""
+  - field: "lmsw"
+    description: ""
+  - field: "faith_based"
+    description: ""
+  - field: "family_marriage"
+    description: ""
+  - field: "location_1_zip"
+    description: ""
+---
+
+## What this tracks  
+This dataset lists Missouri behavioral health providers who serve veterans, military members, and their families, along with their specialties and contact information.
+
+## Why it matters to you  
+If you're a veteran in Missouri struggling with PTSD or substance abuse, this data helps you find local providers who specifically understand military culture. A small business owner near a military base could use this to identify mental health partners for employee assistance programs. Families can quickly see which providers offer child/adolescent services or telehealth options.
+
+## How to read this data  
+**company_name** — The provider's name (e.g., "Preferred Family Healthcare").  
+**general_mental_health** — Whether they offer basic counseling (values like "Yes" or "No").  
+**post_traumatic_stress** — Specialization in PTSD treatment (sample value: "No").  
+**location_1** — Physical address with coordinates (sample includes Liberty, MO address and latitude/longitude).  
+
+## Try it yourself  
+Search the [DMH Veterans Services Map](http://dmh.mo.gov/veterans/) using your ZIP code to find providers near you who specialize in your specific needs, like substance abuse ("alcohol_and_substance_abuse") or family therapy ("family_marriage").

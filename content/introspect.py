@@ -70,13 +70,50 @@ def introspect_ckan(service_url):
                 __import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}, None
 
 
+def introspect_socrata(service_url):
+    """Socrata SODA endpoint -> real fields + sample records.
+
+    Returns (schema_dict, error_str_or_None). SODA is a REST API, not a
+    FeatureServer: query $limit=3 and read field names straight from the
+    returned record keys (authoritative; catalog metadata can lag)."""
+    import urllib.parse as up
+    url = service_url.rstrip("/")
+    sep = "&" if "?" in url else "?"
+    data = http_json(url + sep + "$limit=3")
+    if "__error__" in data:
+        return None, str(data["__error__"])
+    if isinstance(data, dict) and data.get("error"):
+        err = data["error"]
+        return None, str(err) if not isinstance(err, dict) else str(err.get("message", err))
+    records = data if isinstance(data, list) else (data.get("results") or data.get("data") or [])
+    if not records:
+        return None, "no records returned"
+    fields = []
+    for k in records[0]:
+        if k.startswith(":") and k.endswith(":"):
+            continue  # SODA system columns (:id:, :created_at:, ...)
+        fields.append({"name": k, "type": "soda", "alias": k})
+    if not fields:
+        return None, "no fields in SODA records"
+    sample = {}
+    for rec in records:
+        for name in [x["name"] for x in fields]:
+            if name not in sample and rec.get(name) is not None:
+                sample[name] = rec[name]
+    return {"fields": fields, "sample": sample, "layer": "soda",
+            "introspected_at": __import__("datetime").datetime.now(
+                __import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}, None
+
+
 def introspect(service_url):
     """Return (schema_dict, error_str_or_None). CKAN datastore URLs go to
-    introspect_ckan; ArcGIS FeatureServer/MapServer URLs try the URL's own
-    layer, then sibling layers 0-5 (Memphis services often keep data on
-    layer 3)."""
+    introspect_ckan, Socrata SODA to introspect_socrata; ArcGIS
+    FeatureServer/MapServer URLs try the URL's own layer, then sibling
+    layers 0-5 (Memphis services often keep data on layer 3)."""
     if "datastore_search" in service_url:
         return introspect_ckan(service_url)
+    if "/resource/" in service_url and (".json" in service_url or ".geojson" in service_url):
+        return introspect_socrata(service_url)
     base = service_url.rstrip("/")
     m = re.search(r"/(?:FeatureServer|MapServer)(?:/(\d+))?$", base)
     if not m:

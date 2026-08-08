@@ -14,7 +14,21 @@ import json
 import urllib.request
 import urllib.error
 
-# Load API keys from environment (assumes /opt/data/.env is sourced)
+# Load API keys from environment. If the process wasn't launched with
+# /opt/data/.env sourced (e.g. redraft.py importing this module directly),
+# parse the file ourselves so the pipeline works however it's invoked.
+_ENV_PATH = "/opt/data/.env"
+if not (os.environ.get("OPENROUTER_API_KEY") or os.environ.get("NOUS_API_KEY")):
+    try:
+        with open(_ENV_PATH) as _f:
+            for _line in _f:
+                _line = _line.strip()
+                if _line and not _line.startswith("#") and "=" in _line:
+                    _k, _v = _line.split("=", 1)
+                    os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
+    except FileNotFoundError:
+        pass
+
 NOUS_API_KEY = os.environ.get("NOUS_API_KEY") or os.environ.get("NVIDIA_API_KEY")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
