@@ -48,7 +48,7 @@ If you're a small business owner in Missouri, this data shows which lower-body i
 ## How to read this data  
 **knee_s** — Number of knee injuries reported (sample value: 518 in one month).  
 **ankle_s** — Ankle injury counts (sample: 253). Higher numbers mean greater risk.  
-**foot** — Total foot injuries excluding toes (sample: 207). Compare this to toe-specific counts.  
+**foot** — Total foot injuries excluding toes (sample: 207). Compare this to toe-specific counts.
 
-## Try it yourself  
-Check if your industry has unusually high knee or ankle injuries by comparing your workplace's safety reports to these statewide monthly averages.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

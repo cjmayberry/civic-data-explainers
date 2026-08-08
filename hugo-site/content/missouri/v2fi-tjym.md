@@ -44,7 +44,7 @@ If you're a small business owner in Missouri, this data helps you understand com
 ## How to read this data  
 **vertebrae** — Count of spinal bone injuries (e.g., "6" means 6 reported vertebral injuries in the sample month).  
 **neck_soft_tissue** — Muscle or ligament injuries (e.g., "63" indicates this was the most frequent neck injury type).  
-**multiple_neck_injury** — Cases with combined injury types (e.g., "39" reports involved several neck areas at once).  
+**multiple_neck_injury** — Cases with combined injury types (e.g., "39" reports involved several neck areas at once).
 
-## Try it yourself  
-Compare injury rates by month (using the **year** and **month** fields) to see if your industry has seasonal spikes in neck injuries—like higher vertebrae injuries during winter construction work.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

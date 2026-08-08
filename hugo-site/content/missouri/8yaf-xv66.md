@@ -39,7 +39,7 @@ If you're comparing school districts before moving, this shows which high school
 **school_name** — The high school's name (e.g., HURLEY HIGH).  
 **district** — The school district it belongs to (e.g., HURLEY R-I).  
 **school_year** — The academic year measured (e.g., 2015).  
-**number_of_seniors** — How many 12th graders were enrolled (e.g., 15).  
+**number_of_seniors** — How many 12th graders were enrolled (e.g., 15).
 
-## Try it yourself  
-Look up your local high school's senior class size by searching the dataset for its name, then compare it to nearby districts' numbers.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

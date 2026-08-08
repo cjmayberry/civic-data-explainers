@@ -32,5 +32,5 @@ If you run a small business in Missouri, this data helps you spot hiring opportu
 **county** — Where claims were filed, using official county names (e.g., "Adair" for Adair County).  
 **claims** — The exact number of first-time unemployment filings that week (e.g., "11" means 11 people applied).
 
-## Try it yourself  
-Check [Missouri’s unemployment claims dashboard](https://jobs.mo.gov/) to compare your county’s recent claims against the state average—look for sustained increases that might affect local hiring.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

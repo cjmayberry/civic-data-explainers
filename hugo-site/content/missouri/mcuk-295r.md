@@ -53,7 +53,7 @@ If you're hiring employees in Missouri, this data shows which age groups and gen
 **gender** — Whether injuries were reported by males or females (sample: FEMALE)  
 **_7** — Number of injuries reported by workers aged 65+ (sample: 97)  
 **_2_1** — Number of injuries reported by workers aged 20-24 (sample: 712)  
-**_5** — Number of injuries reported by workers aged 45-54 (sample: 765)  
+**_5** — Number of injuries reported by workers aged 45-54 (sample: 765)
 
-## Try it yourself  
-Compare injury rates for your teen's age group (fields _2 for 16-17 or _3 for 18-19) against other ages before they start a summer job in construction or food service.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

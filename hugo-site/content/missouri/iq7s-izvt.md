@@ -36,7 +36,7 @@ If you're renovating a home or opening a business in Missouri, this tells you wh
 ## How to read this data  
 **county** — Name of the Missouri county (e.g., "Adair County").  
 **residential_code** — Building standard for homes (sample shows "-" indicating no code specified).  
-**commercial_code** — Safety regulations for business properties (sample shows "-" indicating no code specified).  
+**commercial_code** — Safety regulations for business properties (sample shows "-" indicating no code specified).
 
-## Try it yourself  
-Check your Missouri county's residential_code before planning a home addition at [county website]. The "-" value means you should confirm local requirements with your county office.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

@@ -40,7 +40,7 @@ This data shows where Missouri has borrowed money for public projects like road 
 ## How to read this data  
 **political_subdivision_name** — The location or district tied to the bond, e.g., *370/MISSOURI BOTTOM ROAD/TAUSSIG ROAD TRANSPORTATION DEVELOPMENT*.  
 **bond_name** — The official title of the bond, often including its purpose and amount, e.g., *RELATING TO -$39,470,000 SUBORDINATE TRANSPORTATION REVENUE NOTE, SERIES 2011*.  
-**face_amount** — The original value of the bond in dollars, e.g., *1258265* (likely $1,258,265).  
+**face_amount** — The original value of the bond in dollars, e.g., *1258265* (likely $1,258,265).
 
-## Try it yourself  
-Search the dataset for your street name or town in the *political_subdivision_name* field to see if any bonds were issued for local projects before 2015.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

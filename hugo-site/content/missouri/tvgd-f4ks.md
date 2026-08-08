@@ -51,7 +51,7 @@ If you're considering jobs in construction, manufacturing, or other high-risk fi
 **eye_s** — Total eye injuries per month (e.g., 225 in one sample month).  
 **head_soft_tissue** — Cuts/scrapes to the scalp (165 cases).  
 **skull** — Fractures or other bone injuries (59 cases).  
-**brain** — Serious traumatic brain injuries (23 cases).  
+**brain** — Serious traumatic brain injuries (23 cases).
 
-## Try it yourself  
-Check December 2012's data (month=12, year=2012) to see if holiday season work spikes correlate with more facial injuries from falls or equipment use.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

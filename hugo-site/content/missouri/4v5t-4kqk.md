@@ -35,7 +35,7 @@ If you're considering opening a business in Missouri, this data shows which gend
 **date** — The month being reported, formatted as YYYY-MM-DD (e.g., 2026-06-01 shows June 2026 data).  
 **female** — Total unemployment claims filed by women that month (e.g., 11,115 claims).  
 **male** — Total unemployment claims filed by men that month (e.g., 7,859 claims).  
-**ina** — Claims where gender wasn't available (e.g., 19 cases).  
+**ina** — Claims where gender wasn't available (e.g., 19 cases).
 
-## Try it yourself  
-Compare the most recent month's male and female claim numbers to see which group is filing more unemployment claims in Missouri right now.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

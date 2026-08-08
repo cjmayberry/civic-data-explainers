@@ -40,7 +40,7 @@ If you're a small business owner in Missouri, this data helps you understand whi
 ## How to read this data  
 **date** — The month and year of the recorded claims, like "2011-08-01" for August 2011.  
 **white** / **black_or_african_american** / **asian** — The number of claims filed by each racial group, such as "42910" (white) or "14546" (Black or African American) in the sample.  
-**ina** — Claims from individuals who did not report a racial identity, like "3108" in the sample.  
+**ina** — Claims from individuals who did not report a racial identity, like "3108" in the sample.
 
-## Try it yourself  
-Check the latest data to see how unemployment claims for your racial demographic compare to others in Missouri—useful for gauging economic vulnerability in your community.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

@@ -50,7 +50,7 @@ If you're a small business owner in Missouri, this data shows which body parts g
 ## How to read this data  
 **finger_s** — Number of finger injuries reported (e.g., 739 in one month).  
 **shoulder_s** — Shoulder injuries (sample: 480), useful for physical labor businesses.  
-**wrist_s_hand_s** — Combined wrist and hand injuries (sample: 81), indicating repetitive strain risks.  
+**wrist_s_hand_s** — Combined wrist and hand injuries (sample: 81), indicating repetitive strain risks.
 
-## Try it yourself  
-Search your industry's injury reports by comparing recent months' finger_s and hand_s counts to assess equipment or training needs.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

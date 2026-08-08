@@ -45,7 +45,7 @@ Missouri nonprofits and local governments can see which federal programs actuall
 **agency_name** — Which Missouri state office received funds (e.g., "OFFICE OF SECRETARY OF STATE")  
 **federal_agency_name** — Which US government agency provided the grant (e.g., "NATIONAL FOUNDATION OF ARTS AND HUMANITIES")  
 **grant_purpose** — Plain-English description of how funds were used (e.g., "THIS GRANT IS TO PROVIDE ASSISTANCE TO IMPROVE LIBRARY SERVICES")  
-**received_amount** — Dollar amount awarded (e.g., 1138697.94)  
+**received_amount** — Dollar amount awarded (e.g., 1138697.94)
 
-## Try it yourself  
-Search the dataset for grants containing "LIBRARY" to see all federal library funding received by Missouri agencies in 2015, including the $1.1M grant to improve library services.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

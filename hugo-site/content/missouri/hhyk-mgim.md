@@ -42,7 +42,7 @@ If you're renovating a home or opening a business in Adrian, this tells you exac
 ## How to read this data  
 **jurisdiction** — The city or town name where the building code applies, like "Adrian" in the sample.  
 **_2010** — The population count from the last census for that jurisdiction, showing how large the area is (sample value: 1677).  
-**county** — Which county administers the codes (sample: "Bates"), important for finding the right permitting office.  
+**county** — Which county administers the codes (sample: "Bates"), important for finding the right permitting office.
 
-## Try it yourself  
-Look up your Missouri town's name in the jurisdiction field to see which county handles its building code enforcement and how populous the area is.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

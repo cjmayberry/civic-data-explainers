@@ -53,29 +53,14 @@ dictionary:
     description: ""
 ---
 
-Here's the Missouri Counties dataset information formatted in the requested way:
+## What this tracks
+This dataset maps the boundaries and basic information for all 114 counties in Missouri.
 
-```
-City: Missouri, MO
-Dataset: Missouri Counties
-Category: Parks & Recreation
-Update interval: not stated
-Description from catalog: DNR
+## Why it matters to you
+Knowing which county you live in helps you find the right government offices for services like vehicle registration, property taxes, and court matters. If you're planning to move within Missouri or start a business, this data shows you exactly where county lines fall and identifies each county seat where main government services are located. For example, if you live near a county border, you'll know whether to go to Mexico for Audrain County services or to a different county seat.
 
-Schema fields:
-  name (name, soda): County name (e.g., Audrain)
-  name2 (name2, soda): County name in all caps (e.g., AUDRAIN)
-  region (region, soda): Region code (e.g., NERO)
-  cnty_fips (cnty_fips, soda): County FIPS code (e.g., 7)
-  fips (fips, soda): Full FIPS code (e.g., 29007)
-  countygnis (countygnis, soda): GNIS code (e.g., 758458)
-  cnty_seat (cnty_seat, soda): County seat (e.g., Mexico)
-  geometry (geometry, soda): Polygon coordinates defining county boundaries
-  centroid_latlng (centroid_latlng, soda): County center coordinates (lat, long)
-  centroid_latitude (centroid_latitude, soda): Center latitude (e.g., 39.2158335114)
-  centroid_longitude (centroid_longitude, soda): Center longitude (e.g., -91.8415585924)
-  location (location, soda): JSON containing latitude/longitude
-  :@computed_region_ny2h_ckbz (:@computed_region_ny2h_ckbz, soda): Computed region ID (e.g., 127)
-  :@computed_region_c8ar_jsdj (:@computed_region_c8ar_jsdj, soda): Computed region ID (e.g., 37)
-  :@computed_region_ikxf_gfzr (:@computed_region_ikxf_gfzr, soda): Computed region ID (e.g., 510)
-```
+## How to read this data
+**name** — The county name as commonly written, like "Audrain" for Audrain County. **cnty_seat** — The city where the county government offices are located, such as "Mexico" for Audrain County. **region** — The Missouri Department of Natural Resources region code, like "NERO" for Northeast Region, which can help you find the right regional office for environmental permits or outdoor recreation information. **fips** — The unique federal identification number for each county (like "29007" for Audrain County) that you might need for grant applications or federal forms.
+
+## Try it yourself
+Look up your home address to see which county you're in, then check the **cnty_seat** field to find where your county courthouse and main government offices are located.

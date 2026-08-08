@@ -4,7 +4,8 @@ date: "2026-08-02"
 description: "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and historic districts. All listings have a point and most also have boundaries depi"
 teaser: "Current Properties (Points) listed in the National Register of Historic Places within Tennessee. Listings include individual properties and "
 tags: ["C", "o", "m", "u", "n", "i", "t", "y", ",", "H", "s", "g", "r", "c", "a", "l"]
-categories: []
+categories: ["Default"]
+cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/0"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0baa3ef7d85a4f5ea68c54567128db8d&sublayer=0"
@@ -14,6 +15,7 @@ map_link: "https://geodata.tn.gov/datasets/tnmap::national-register-of-historic-
 geojson_url: "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 ## What this is
 

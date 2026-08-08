@@ -31,33 +31,14 @@ dictionary:
     description: "Most Recent Results"
 ---
 
-Here is the requested information for the DNR-WPP-Chronic Violators dataset in Missouri:
+## What this tracks
+This dataset records public water systems in Missouri that have repeatedly violated drinking water monitoring requirements set by the Department of Natural Resources.
 
-**Dataset Details:**
-- **Category:** Parks & Recreation  
-- **Update Interval:** Not stated  
-- **Description:** Listing of Chronic Violators for DNR  
+## Why it matters to you
+If you're served by a small water system — like a mobile home park, subdivision, or rural community — this tells you whether your water provider has failed to properly test for contaminants like bacteria. Chronic violators may not be monitoring water safety as required by law, which could mean undetected health risks in your drinking water. Missouri residents can check if their water system appears on this list to understand potential gaps in safety monitoring.
 
-**Schema Fields:**
-1. **county** (county, soda)  
-   - *Sample:* Pettis  
+## How to read this data
+**population_served** — The name and number of people served by each water system, like "West Central Christian Service: 100" for smaller community systems. **location_or_nearest_town** — The physical address or nearest town where the water system operates, such as "24310 Mahin Rd, La Monte." **months_of_major_monitoring_violations_may_2025_to_april_2026** — Specific months when the system failed to conduct required water testing, showing patterns like "May 2025, June 2025, July 2025, August 2025, February 2026, April 2026." **most_recent_results** — The latest test results when sampling did occur, such as "Negative for Total Coliform" indicating no harmful bacteria detected.
 
-2. **population_served** (population_served, soda)  
-   - *Sample:* West Central Christian Service: 100  
-
-3. **location_or_nearest_town** (location_or_nearest_town, soda)  
-   - *Sample:* 24310 Mahin Rd, La Monte  
-
-4. **pws_id** (pws_id, soda)  
-   - *Sample:* 1242721  
-
-5. **months_of_major_monitoring_violations_may_2025_to_april_2026** (months_of_major_monitoring_violations_may_2025_to_april_2026, soda)  
-   - *Sample:* May 2025, June 2025, July 2025, August 2025, February 2026, April 2026  
-
-6. **month_of_most_recent_sample_s_** (month_of_most_recent_sample_s_, soda)  
-   - *Sample:* May 2026  
-
-7. **most_recent_results** (most_recent_results, soda)  
-   - *Sample:* Negative for Total Coliform  
-
-This dataset appears to track chronic violators related to water monitoring violations in Missouri, including details such as location, violation periods, and recent test results. The data could be useful for compliance tracking and public awareness. Let me know if you'd like any additional details or analysis!
+## Try it yourself
+Look up your address or community name in the **location_or_nearest_town** field to see if your water system is listed as a chronic violator, then check the **months_of_major_monitoring_violations** to understand how recently monitoring problems occurred.

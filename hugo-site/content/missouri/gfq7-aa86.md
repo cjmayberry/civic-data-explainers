@@ -41,7 +41,7 @@ If you own a bar, restaurant, or liquor store, this tells you exactly which whol
 **licensee_name** — The producer selling the product (e.g., "BOULEVARD BREWING COMPANY").  
 **brand_name** — The specific product being sold (e.g., "BOULEVARD QUIRK TIGER'S BLOOD HARD SELTZER").  
 **wholesaler_name** — The distributor authorized to sell this product (e.g., "LLOYD DISTRIBUTING CO INC").  
-**effective_date** — When the solicitor-wholesaler agreement becomes active (e.g., "04/01/2026").  
+**effective_date** — When the solicitor-wholesaler agreement becomes active (e.g., "04/01/2026").
 
-## Try it yourself  
-Search the dataset for your favorite local brewery's name to see which wholesalers carry their products — then contact that distributor directly for pricing.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

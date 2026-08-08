@@ -25,46 +25,14 @@ dictionary:
     description: ""
 ---
 
-Here is the YAML representation of the Missouri 2015 State Budget Restrictions dataset:
+## What this tracks
+This dataset records how much money the State of Missouri restricted from various agency budgets during fiscal year 2015, and how much of those restrictions were later released.
 
-```yaml
-name: 2015_state_budget_restrictions
-title: 2015 State Budget Restrictions As of June 30, 2015
-description: The data provided here details the State of Missouri's Budget Restrictions as of June 30, 2015.
-category: Government
-city: Missouri, MO
-update_interval: Not stated
-fields:
-  - name: budget_fiscal_year
-    title: Budget Fiscal Year
-    type: integer
-    description: The fiscal year for the budget data
-    sample: 2015
-  - name: agency_name
-    title: Agency Name
-    type: text
-    description: The name of the government agency
-    sample: AGRICULTURE
-  - name: fund_name
-    title: Fund Name
-    type: text
-    description: The name of the specific fund
-    sample: AGRICULTURE BUSINESS DEVELOPMENT
-  - name: restricted_amount
-    title: Restricted Amount
-    type: number
-    description: The amount of restricted funds (in thousands of dollars)
-    sample: 39
-  - name: released_amount
-    title: Released Amount
-    type: number
-    description: The amount of released funds (in thousands of dollars)
-    sample: 39
-```
+## Why it matters to you
+Budget restrictions show when Missouri agencies had to freeze or withhold spending, which can affect services you rely on. If you're a farmer in Missouri, seeing restrictions on the Agriculture department's business development fund might explain delays in grant programs or reduced agricultural support services. For any Missouri resident, these restrictions reveal financial pressures that could impact everything from highway maintenance to social services in your community.
 
-Key notes:
-1. The dataset contains financial restriction details for Missouri state agencies as of fiscal year 2015
-2. All monetary amounts appear to be in thousands of dollars (based on the sample values)
-3. The data is organized by agency and specific funds within agencies
-4. The dataset tracks both restricted and released budget amounts
-5. No update frequency is provided, suggesting this may be a one-time snapshot rather than regularly updated data
+## How to read this data
+**agency_name** — the state department affected, like "AGRICULTURE" for the Department of Agriculture. **fund_name** — the specific budget account that was restricted, such as "AGRICULTURE BUSINESS DEVELOPMENT" for programs supporting farm businesses. **restricted_amount** — how much money was initially withheld from spending, shown in thousands of dollars (a value of 39 means $39,000). **released_amount** — how much of the restricted money was later freed up for spending, also in thousands of dollars.
+
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

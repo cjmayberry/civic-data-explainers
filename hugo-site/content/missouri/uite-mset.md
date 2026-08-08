@@ -35,7 +35,7 @@ If you're job hunting in Missouri, this data shows whether unemployment claims a
 **date** — The month being reported (e.g., 2013-01-01 shows January 2013 data).  
 **regular** — Standard unemployment claims (sample value: 65,742 recipients).  
 **euc** — Emergency Unemployment Compensation during recessions (sample: 29,532 recipients).  
-**total** — All beneficiaries combined (sample: 95,274 people).  
+**total** — All beneficiaries combined (sample: 95,274 people).
 
-## Try it yourself  
-Compare the most recent "total" figure to older dates — if numbers are rising sharply in 2024, consider broadening your job search to neighboring counties.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

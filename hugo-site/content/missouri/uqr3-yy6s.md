@@ -29,7 +29,7 @@ When applying for state grants or business licenses in Missouri, some programs h
 ## How to read this data  
 **polycode** — The combined state-county identifier (e.g., MO-03 for Atchison County).  
 **county** — The full county name (e.g., "Atchison").  
-**region** — The two-letter regional designation (e.g., "NW" for Northwest Missouri).  
+**region** — The two-letter regional designation (e.g., "NW" for Northwest Missouri).
 
-## Try it yourself  
-Check which region contains your county by searching the dataset for your county name at [Missouri's open data portal].
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

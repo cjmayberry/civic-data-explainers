@@ -51,28 +51,17 @@ dictionary:
     description: ""
 ---
 
-Here is the information formatted as a single entry in a structured JSON format:
+## What this tracks  
+This dataset lists Medicare-certified Comprehensive Outpatient Rehabilitation Facilities (CORFs) in Missouri that provide specialized therapy services.
 
-```json
-{
-  "factype": "CORF",
-  "facname": "Ability KC",
-  "address": "3011 Baltimore Avenue",
-  "city": "Kansas City",
-  "county": "Jackson",
-  "state": "MO",
-  "zip": "64108",
-  "phone": "8167517700",
-  "admin": "Amy Castillo",
-  "ownershipnonpcorp": "✓",
-  "region": "West"
-}
-```
+## Why it matters to you  
+If you or a family member needs post-surgery rehab, stroke recovery, or injury therapy, this data helps you find Medicare-approved facilities near you. Knowing which CORFs are nonprofit (marked with ✓) could influence your choice if cost is a concern. For small healthcare businesses, it shows where certified competitors operate in Kansas City and surrounding areas.
 
-Key details:
-- This is a Medicare Certified Comprehensive Outpatient Rehabilitation Facility (CORF) named "Ability KC"
-- Located at 3011 Baltimore Avenue, Kansas City, MO (Jackson County, ZIP 64108)
-- Non-profit ownership (✓ in the ownershipnonpcorp field)
-- Administered by Amy Castillo
-- Part of the West region
-- Contact phone: (816) 751-7700 (formatted from the raw 8167517700)
+## How to read this data  
+**facname** — Facility name, like "Ability KC".  
+**address** — Full street address, such as "3011 Baltimore Avenue".  
+**ownershipnonpcorp** — Checkmark (✓) means it's a nonprofit facility.  
+**phone** — Direct contact number formatted without hyphens (e.g., 8167517700).  
+
+## Try it yourself  
+Search for CORFs near your ZIP code using the address field, then call the listed phone number to ask about Medicare-covered services.

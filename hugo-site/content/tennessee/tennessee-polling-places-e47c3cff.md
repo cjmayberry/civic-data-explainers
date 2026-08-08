@@ -4,7 +4,8 @@ date: "2026-08-02"
 description: "Polling places are collected from the local county election commissions by address, and then geocoded. Agency: Secretary of State, Division of Elections. Frequency of updates: Irregular. Description: Polling places are c"
 teaser: "Polling places are collected from the local county election commissions by address, and then geocoded. Agency: Secretary of State, Division "
 tags: ["T", "N", ",", "m", "a", "p", "P", "o", "l", "i", "n", "g", "c", "e", "s", "H", "u", "C", "t", "y", "S", "r", "f", "E", "V"]
-categories: []
+categories: ["Default"]
+cover: ""
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/ELECTIONS_POLLING_PLACES/MapServer/0"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e47c3cff191346579cf7544719962cee"
@@ -14,6 +15,7 @@ map_link: "https://geodata.tn.gov/datasets/tnmap::tennessee-polling-places"
 geojson_url: "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/ELECTIONS_POLLING_PLACES/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 ## What this is
 

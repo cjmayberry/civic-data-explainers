@@ -29,7 +29,7 @@ If you're visiting Jefferson City for government business or tours, this tells y
 ## How to read this data  
 **name** — Identifies the parking lot (e.g., "Lot #1A").  
 **the_geom** — Geographic coordinates of the lot (example: -92.172287 longitude, 38.579819 latitude).  
-**descriptio** — Contains a photo of the lot (e.g., an image link showing Lot 1A's layout).  
+**descriptio** — Contains a photo of the lot (e.g., an image link showing Lot 1A's layout).
 
-## Try it yourself  
-Find the closest parking to the Missouri State Museum by locating lots near coordinates -92.172287, 38.579819 in a mapping tool.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

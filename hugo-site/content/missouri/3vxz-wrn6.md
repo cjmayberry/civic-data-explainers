@@ -34,7 +34,7 @@ If you're opening a business with public-facing services in Missouri, this tells
 ## How to read this data  
 **est_deaf_1** — Estimated residents who are deaf (sample: 59,889, or ~1% of population).  
 **est_hoh_9** — Estimated residents with some hearing difficulty (sample: 539,003, or ~9% of population).  
-**est_deaf_hoh_10** — Combined total of both groups (sample: 598,893, or ~10% of population).  
+**est_deaf_hoh_10** — Combined total of both groups (sample: 598,893, or ~10% of population).
 
-## Try it yourself  
-Check if your Missouri county has local accessibility services by searching "[Your County] MO deaf services" – the statewide numbers suggest demand exists even in rural areas.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

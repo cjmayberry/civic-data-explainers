@@ -31,5 +31,5 @@ If you're struggling to pay utility bills in Missouri, this data tells you wheth
 **average_benefit_received** — The typical annual amount per household (e.g., "$670.76"), helping you budget for energy costs.  
 **benefit_recipient_count** — How many households received aid (e.g., "34"), indicating program reach in your community.
 
-## Try it yourself  
-Check if your Missouri city appears in the dataset to estimate what energy assistance you might qualify for this year.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

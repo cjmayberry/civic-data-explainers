@@ -32,5 +32,5 @@ These reports tell you exactly what's in your tap water — including detected c
 **name** — The official name of the water provider serving your area (e.g., "ANYVILLE PWS").  
 **county** — Where the water system operates (e.g., "ADAIR" for Adair County).
 
-## Try it yourself  
-Find your water provider's latest CCR by searching the Missouri Department of Natural Resources database using your system's name (like ANYVILLE PWS) or county.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

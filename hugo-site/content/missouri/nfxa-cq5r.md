@@ -47,7 +47,7 @@ If your home or business relies on a septic system, this list helps you find sta
 **business** — The company name (e.g., "Bob Hamilton Plumbing").  
 **counties_served** — Where the installer operates (e.g., "CASS,CLAY,JACKSON,PLATTE").  
 **installer_level** — Certification tier (e.g., "Basic"), indicating the complexity of systems they're approved to handle.  
-**date_of_expiration** — When the license lapses (e.g., "2026-05-31").  
+**date_of_expiration** — When the license lapses (e.g., "2026-05-31").
 
-## Try it yourself  
-Search the dataset for installers listing your county in "counties_served" to find local professionals with active licenses (check "date_of_expiration").
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

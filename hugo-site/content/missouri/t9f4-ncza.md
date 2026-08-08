@@ -36,7 +36,7 @@ Parents can compare FAFSA completion rates between schools when deciding where t
 ## How to read this data  
 **school_name** — The high school's name (e.g., "WESTWOOD BAPTIST ACADEMY").  
 **number_of_applications** — How many seniors submitted FAFSAs that year (e.g., "6").  
-**school_year** — The academic year being reported (e.g., "2017").  
+**school_year** — The academic year being reported (e.g., "2017").
 
-## Try it yourself  
-Look up your local high school to see its FAFSA completion numbers at [Missouri's open data portal](https://data.mo.gov). Compare it to nearby schools to gauge college readiness efforts.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

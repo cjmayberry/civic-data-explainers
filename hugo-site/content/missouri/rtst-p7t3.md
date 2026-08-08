@@ -67,26 +67,14 @@ dictionary:
     description: ""
 ---
 
-Here is the information for Howard County, Missouri from the dataset:
+## What this tracks
+This dataset maps the geographic boundaries of all 115 counties in Missouri based on 2009 U.S. Census data.
 
-- **County Name**: Howard County
-- **County FIPS Code**: 29089
-- **State FIPS Code**: 29 (Missouri)
-- **County NS Code**: 00758499
-- **County LSAD (Legal/Statistical Area Description)**: 06 (County)
-- **Class Code**: H1
-- **MTFCC (MAF/TIGER Feature Class Code)**: G4020 (County or equivalent)
-- **Functional Status**: A (Active government)
-- **Land Area (square meters)**: 1,201,363,235
-- **Water Area (square meters)**: 20,321,062
-- **Latitude (Centroid)**: +39.1433650
-- **Longitude (Centroid)**: -92.6959255
-- **CBSA (Metropolitan/Micropolitan Statistical Area) FIPS Code**: 17860 (Columbia, MO MSA)
-- **Computed Regions**:
-  - `ny2h_ckbz`: 137
-  - `c8ar_jsdj`: 39
-  - `ikxf_gfzr`: 1964
+## Why it matters to you
+Knowing which county you live in determines your property taxes, court jurisdiction, voting districts, and which county services you can access. If you're starting a business in Missouri, this data helps you understand county-level regulations and tax rates that vary across jurisdictions. County boundaries also determine which sheriff's department responds to emergencies and which county health department oversees local regulations.
 
-The county's boundary is represented by a polygon with detailed geographic coordinates. Howard County is located in central Missouri, with its county seat in Fayette. The county is part of the Columbia, MO Metropolitan Statistical Area. 
+## How to read this data
+**name** — The county name, like "Howard" for Howard County. **namelsad** — The full official name including "County," such as "Howard County." **aland** — The total land area in square meters (Howard County has 1,201,363,235 square meters of land). **centroid** — The geographic center point of each county, showing latitude and longitude coordinates that help locate the county on a map.
 
-Would you like any additional details about Howard County or the dataset?
+## Try it yourself
+Search for your address or city name to find which Missouri county you're in, then use the **name** field to identify your county government's website and services available to you.

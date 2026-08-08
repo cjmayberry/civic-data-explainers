@@ -46,7 +46,7 @@ If you're considering opening a business in Missouri, this data shows which age 
 ## How to read this data  
 **date** — The month being measured, formatted like 2011-08-01 (August 2011).  
 **_25_34** — Claims from workers aged 25-34, with sample values like 15,074 showing high volume in this prime working-age group.  
-**_55_59** — Claims from workers aged 55-59, with values like 5,859 helping spot trends for those approaching retirement.  
+**_55_59** — Claims from workers aged 55-59, with values like 5,859 helping spot trends for those approaching retirement.
 
-## Try it yourself  
-Compare recent months' _22_24 (recent graduates) and _35_44 (established workers) values to see which group is recovering faster from economic downturns.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

@@ -34,7 +34,7 @@ If you're a small business owner in Missouri, this data helps you compare injury
 ## How to read this data  
 **county** — The Missouri county where the injury was reported (e.g., "ATCHISON").  
 **count** — The number of first injury reports filed that month (e.g., "3").  
-**year** and **monthasnumber** — When the injuries occurred (e.g., "2012" and "12" for December 2012).  
+**year** and **monthasnumber** — When the injuries occurred (e.g., "2012" and "12" for December 2012).
 
-## Try it yourself  
-Look up your county in the dataset to see how its workplace injury reports compare to neighboring areas over time.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

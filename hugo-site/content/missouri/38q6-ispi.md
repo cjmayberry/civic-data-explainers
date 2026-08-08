@@ -37,7 +37,7 @@ If you run a small business in Missouri, this data shows you which state agencie
 **agency_name** — Which state department spent the money (e.g., "CONSERVATION" or "TRANSPORTATION").  
 **category_description** — The type of purchase (e.g., "TRAVEL" for mileage reimbursements or "PROFESSIONAL SERVICES" for contractors).  
 **vendor_name** — Who received payment (e.g., "YASGER, PATRICIA A" for individual reimbursements or corporate names for larger contracts).  
-**payments_total** — The amount paid (e.g., "85.12" for small expenses or multi-million-dollar figures for infrastructure projects).  
+**payments_total** — The amount paid (e.g., "85.12" for small expenses or multi-million-dollar figures for infrastructure projects).
 
-## Try it yourself  
-Search [your business’s service category](https://data.mo.gov) (like "IT Consulting" or "Office Supplies") to find which Missouri agencies bought those services in 2020—then contact their procurement offices before the next budget cycle.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

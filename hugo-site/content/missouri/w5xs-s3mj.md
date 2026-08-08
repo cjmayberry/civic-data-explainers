@@ -21,24 +21,14 @@ dictionary:
     description: ""
 ---
 
-I'll help analyze this dataset description for Missouri Individual Navigators. Here's the breakdown:
+## What this tracks
+This dataset records licensed Individual Navigators currently authorized to practice in Missouri.
 
-1. **Location**: The dataset is specific to the state of Missouri (MO).
+## Why it matters to you
+Individual Navigators are certified professionals who help people enroll in health insurance plans through the Health Insurance Marketplace, often during open enrollment periods or qualifying life events. If you're shopping for health insurance, need help understanding your coverage options, or are struggling to navigate the enrollment process, knowing which Navigators are licensed in Missouri helps you find qualified assistance. These professionals can provide free, unbiased guidance to help you compare plans and determine if you qualify for subsidies or tax credits.
 
-2. **Dataset Type**: Individual Navigators (likely referring to health insurance navigators or similar professionals who assist individuals with insurance enrollment).
+## How to read this data
+**last_name** — The Navigator's family name, like ADAMS or JOHNSON. **first_name** — The Navigator's given name, such as DEANNA or MICHAEL. **business_phone** — The phone number where you can reach the Navigator for assistance, formatted as a 10-digit number like 4178813520.
 
-3. **Category**: Classified as "Other" (not a standard category like healthcare or business).
-
-4. **Update Frequency**: Not stated (unknown how frequently the data is updated).
-
-5. **Schema Fields**:
-   - `last_name`: Contains navigators' last names (sample value: "ADAMS")
-   - `first_name`: Contains navigators' first names (sample value: "DEANNA")
-   - `business_phone`: Contains business phone numbers (sample value: 4178813520 - appears to be a Missouri area code 417 number)
-
-6. **Potential Use Cases**:
-   - Contact directory for insurance navigators in Missouri
-   - Verification of licensed navigators
-   - Public resource for finding assistance with health insurance
-
-The dataset appears to be a simple directory listing of licensed insurance navigators in Missouri with basic contact information. The "soda" notation suggests this might be from a Socrata open data platform. The lack of update frequency information could be a limitation for users needing current data.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

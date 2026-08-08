@@ -58,7 +58,7 @@ If you're a Missouri small business owner, this shows which torso injuries happe
 ## How to read this data  
 **lower_back_area** — 724 reported injuries show this is the most vulnerable area, likely from lifting strains.  
 **chest** — 124 incidents may involve crush injuries or respiratory hazards.  
-**multiple_trunk** — 40 reports indicate accidents like falls or vehicle collisions that damage several torso areas at once.  
+**multiple_trunk** — 40 reports indicate accidents like falls or vehicle collisions that damage several torso areas at once.
 
-## Try it yourself  
-Search your occupation in Missouri's full workers' comp database to compare your injury risks against statewide trunk injury patterns.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

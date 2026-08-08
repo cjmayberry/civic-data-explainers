@@ -29,7 +29,7 @@ If you're struggling to pay utility bills in Missouri, this data helps you under
 ## How to read this data  
 **geocoded_county_name** — The Missouri county where benefits were distributed (e.g., ADAIR).  
 **benefit_recipient_count** — How many households received assistance (e.g., 885).  
-**average_benefit_received** — The typical dollar amount awarded per household (e.g., $667.96).  
+**average_benefit_received** — The typical dollar amount awarded per household (e.g., $667.96).
 
-## Try it yourself  
-Check the average benefit for your county to estimate what assistance might cover if you apply for energy aid this winter.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

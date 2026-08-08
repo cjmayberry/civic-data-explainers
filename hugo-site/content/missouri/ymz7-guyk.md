@@ -27,32 +27,14 @@ dictionary:
     description: ""
 ---
 
-Here's a summary of the Labor Quick Facts dataset for Missouri:
+## What this tracks
+This dataset records key employment and workplace safety statistics for Missouri on a monthly basis.
 
-**Dataset Overview:**
-- **Location:** Missouri, MO
-- **Category:** Labor/Employment
-- **Update Frequency:** Not stated
+## Why it matters to you
+If you're considering starting a business in Missouri, the **unemployment_rate** and **initial_unemployment_claims_filed** numbers help you gauge the local labor market and whether you'll find qualified workers. The **minimum_wage** field tells you the baseline you'll need to pay employees, while **workers_compensation_injuries_filed** gives you insight into workplace safety trends that could affect your insurance costs. For job seekers, the unemployment rate and claims data reveal whether Missouri's job market is improving or declining.
 
-**Key Labor Metrics Included:**
-1. **Unemployment Data:**
-   - Unemployment rate (sample: 6.5%)
-   - Initial unemployment claims filed (sample: 28,801)
+## How to read this data
+**date** — The month and year when these statistics were recorded, shown as dates like 2013-10-01. **unemployment_rate** — The percentage of Missouri workers who are unemployed, with sample values like 6.5 percent. **minimum_wage** — Missouri's minimum wage in dollars per hour, such as $7.35. **workers_compensation_injuries_filed** — The number of workplace injury claims filed statewide that month, with sample values around 9,219 cases.
 
-2. **Wage Information:**
-   - Minimum wage (sample: $7.35/hour)
-
-3. **Workplace Safety & Compensation:**
-   - Potential OSHA fines avoided by MO businesses (sample: $680,928)
-   - Workers' compensation injuries filed (sample: 9,219)
-
-4. **Temporal Coverage:**
-   - Data appears to be tracked monthly (sample date: October 2013)
-
-**Potential Uses:**
-- Tracking labor market trends
-- Monitoring workplace safety compliance
-- Analyzing wage policies' impact
-- Workers' compensation program evaluation
-
-**Note:** The dataset appears to combine both state-specific metrics (like MO minimum wage) and general labor indicators. The "potential OSHA fines avoided" suggests a focus on regulatory compliance outcomes.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

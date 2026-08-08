@@ -44,7 +44,7 @@ If you're a small business owner in Missouri, this data helps you understand com
 ## How to read this data  
 **multiple_body_parts** — Tracks injuries affecting several areas simultaneously, like falling from a ladder (sample value: 619 cases).  
 **body_systems** — Records injuries affecting internal systems like respiratory or circulatory (sample value: 269 cases).  
-**no_physical_injury** — Shows reported incidents where no actual bodily harm occurred (sample value: 96 cases).  
+**no_physical_injury** — Shows reported incidents where no actual bodily harm occurred (sample value: 96 cases).
 
-## Try it yourself  
-Compare your workplace's injury reports to these statewide patterns by checking if your most common injury type matches the high-frequency categories like multiple_body_parts or body_systems.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

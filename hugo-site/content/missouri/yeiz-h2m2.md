@@ -50,7 +50,7 @@ If you're moving to a new home in Missouri, this tells you whether you'll need t
 **city** — The municipality where utilities are available, like "ADAIR"  
 **e_type** — Ownership type of electric provider, with values like "COOP" (cooperative) or "MUNI" (municipal)  
 **electric** — Name of power company, such as "TRI-COUNTY ELECTRIC COOPERATIVE ASSN."  
-**telephone** — Landline provider for the area, like "AT&T MISSOURI"  
+**telephone** — Landline provider for the area, like "AT&T MISSOURI"
 
-## Try it yourself  
-Check which electric company serves your street by matching your city name to the "city" field at [dataset link], then compare rates between cooperatives and municipal providers.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

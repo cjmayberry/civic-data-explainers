@@ -34,7 +34,7 @@ If you're considering a job with the state, this data shows what similar roles a
 ## How to read this data  
 **agency_name** — Which state department the employee works for, like "AGRICULTURE" or "TRANSPORTATION".  
 **position_title** — The employee's job, such as "ACCOUNTANT II" or "CORRECTIONAL OFFICER I".  
-**ytd_gross_pay** — The employee's total earnings before deductions in 2020, like 23769.77 (dollar amount).  
+**ytd_gross_pay** — The employee's total earnings before deductions in 2020, like 23769.77 (dollar amount).
 
-## Try it yourself  
-Search for your own name if you worked for Missouri in 2020, or look up a job title you're considering to compare pay across agencies.
+## Where this leaves you  
+This dataset doesn't let you look anything up by your address, but it's still a window into how the state operates. Read it to understand the scope of the program and what the official records contain; the city or state's own interactive map (linked on this page) shows the locations involved.

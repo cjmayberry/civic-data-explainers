@@ -4,7 +4,8 @@ date: "2026-08-02"
 description: "This layer is a cartographic representation of where guardrail end terminals have been installed on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes. This information was coll"
 teaser: "This layer is a cartographic representation of where guardrail end terminals have been installed on all interstates, state routes, TDOT main"
 tags: ["Guardrail End Terminals, Tennessee", "G", "u", "a", "r", "d", "i", "l", "E", "n", "T", "e", "m", "s", ","]
-categories: []
+categories: ["Transportation"]
+cover: ""
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=14ec6d50e63b49a986f45f2b16ab0550"
@@ -14,6 +15,7 @@ map_link: "https://geodata.tn.gov/datasets/14ec6d50e63b49a986f45f2b16ab0550_0"
 geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 ## What this is
 
