@@ -7,6 +7,7 @@ tags: ["Infraestruras", "Mobilidade pedonal", "Acessibility"]
 categories: ["Infrastructure"]
 cover: "covers/liftsandescalators--infrastructure--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=5de1a7f7-f076-4ad7-96a8-dbfeca80be18"
+geojson_url: "/lisbon/geojson/liftsandescalators.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "5cdf6402-6059-4fa9-aafa-07f2602500d6"
 city: "lisbon"

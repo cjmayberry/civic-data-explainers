@@ -7,6 +7,7 @@ tags: ["Estações", "GIRA", "Serviço bicicletas partilhadas", "Cycling"]
 categories: ["Transportation"]
 cover: "covers/girastations--transportation--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=2cdce96f-6efd-4734-baf8-0d48984b19e0"
+geojson_url: "/lisbon/geojson/girastations.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "57181518-0708-4fb5-a7d1-69875dee8478"
 city: "lisbon"

@@ -7,6 +7,7 @@ tags: ["Limites geográficos", "ZAAC", "ZEDL", "On-Street Parking"]
 categories: ["Transportation"]
 cover: "covers/parkingregulatedzonespaces--transportation--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=387eb395-34d5-4944-892b-4c56f07ec329"
+geojson_url: "/lisbon/geojson/parkingregulatedzonespaces.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "ebfade18-c14c-4e3f-b006-9d0c232ae209"
 city: "lisbon"

@@ -7,6 +7,7 @@ tags: ["Rede ciclável", "Cycling"]
 categories: ["Transportation"]
 cover: "covers/cyclinglanes--transportation--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=f084da97-b3e8-49dc-83b3-93975bdaa2c1"
+geojson_url: "/lisbon/geojson/cyclinglanes.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "4f2d47a7-1ec4-41f9-8894-76695f728bc2"
 city: "lisbon"

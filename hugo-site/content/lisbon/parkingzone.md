@@ -7,6 +7,7 @@ tags: ["Tarifas", "Áreas de estacionamento", "On-Street Parking"]
 categories: ["Transportation"]
 cover: "covers/parkingzone--transportation--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=c5bc37d0-16cc-44fb-b362-bca921d25314"
+geojson_url: "/lisbon/geojson/parkingzone.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "cf8487d1-c781-4838-9d09-d1a3f85710ef"
 city: "lisbon"

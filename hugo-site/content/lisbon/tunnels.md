@@ -7,6 +7,7 @@ tags: ["Túneis rodoviários", "Traffic"]
 categories: ["Transportation"]
 cover: "covers/tunnels--transportation--placeholder.svg"
 source_url: "https://dados.emel.pt/api/3/action/datastore_search?resource_id=4991244d-b5ef-4eba-9da0-eb05fe1d53ff"
+geojson_url: "/lisbon/geojson/tunnels.geojson"
 license: "Creative Commons - Atribuição e Compartilha Igual (CC BY-SA)"
 dataset_id: "1787ba1c-ef6c-43f6-8ab9-b3602defe3c3"
 city: "lisbon"
