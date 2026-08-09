@@ -84,6 +84,15 @@ def main():
             print("! LLM response not JSON:", resp[:200])
     # keep only known labels + Other; drop anything outside taxonomy
     mapping = {k: (v if v in TAXONOMY + ["Other"] else "Other") for k, v in mapping.items()}
+    if not mapping:
+        # LLM failure/empty response must NOT wipe a cached category_map
+        # (real bug: Missouri's cached map was overwritten to {} mid-flight).
+        print("! taxonomy LLM call produced no mapping — keeping cached category_map")
+        if city["category_map"]:
+            print(f"  cached map retained ({len(city['category_map'])} labels)")
+            return
+        print("  no cached map exists either; leaving category_map as-is")
+        return
     city["category_map"] = mapping
     json.dump(cities, open(args.cities, "w"), indent=2, ensure_ascii=False)
     print(f"# {args.city}: mapped {len(mapping)} labels")
