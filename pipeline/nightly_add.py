@@ -153,8 +153,8 @@ def main():
             if not j or not j.get("portal_url"):
                 errors.append(f"{j['id'] if j else '?'}: no portal_url — skip")
                 continue
-            ok, d = add_one(j["id"], j["name"], j["portal_url"], j.get("hub_url") or j["portal_url"],
-                            j.get("gov_url") or "", j.get("state", "US"), j["level"],
+            ok, d = add_one(j["id"], j["name"], j["portal_url"], j["hub_url"] or j["portal_url"],
+                            j["gov_url"] or "", j.get("state","US"), j["level"],
                             args.cap if j["level"] == "state" else max(60, args.cap // 2), args.dry_draft)
             rows.append((j["id"], ok, d))
             if ok:

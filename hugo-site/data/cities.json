@@ -53,16 +53,5 @@
       35.7449
     ],
     "blurb": "Second state: 102 geospatial datasets from Tennessee's ArcGIS Hub — boundaries, transportation, environment and recreation."
-  },
-  "kansas": {
-    "name": "Kansas",
-    "short": "Kansas",
-    "hub": "https://hub.kansasgis.org/",
-    "gov": "",
-    "center": [
-      0,
-      0
-    ],
-    "blurb": "Kansas open-data explainers."
   }
 }

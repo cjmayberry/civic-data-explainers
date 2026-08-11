@@ -22,8 +22,7 @@ sys.path.insert(0, ROOT)
 from content.call_model import call_model  # noqa: E402  (Nous-first, OpenRouter fallback)
 
 TAXONOMY = ["Infrastructure", "Transportation", "Licensing", "Government",
-            "Parks & Recreation", "Public Safety", "Finance",
-            "Environment", "Health", "Education", "Housing", "Economy"]
+            "Parks & Recreation", "Public Safety", "Finance"]
 
 SYSTEM = (
     "You map raw open-data portal category labels to a standard display "
