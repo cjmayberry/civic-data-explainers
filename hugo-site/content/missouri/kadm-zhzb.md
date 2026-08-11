@@ -7,6 +7,7 @@ tags: ["employment", "labor", "froi", "injury", "Labor"]
 categories: ["Health"]
 cover: "covers/kadm-zhzb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/kadm-zhzb.json"
+geojson_url: "https://data.mo.gov/resource/kadm-zhzb.geojson"
 license: ""
 dataset_id: "kadm-zhzb"
 city: "missouri"

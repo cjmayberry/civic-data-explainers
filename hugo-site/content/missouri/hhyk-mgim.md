@@ -7,6 +7,7 @@ tags: ["economic development", "building codes", "fips", "Economic Development"]
 categories: ["Infrastructure"]
 cover: "covers/hhyk-mgim--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/hhyk-mgim.json"
+geojson_url: "https://data.mo.gov/resource/hhyk-mgim.geojson"
 license: ""
 dataset_id: "hhyk-mgim"
 city: "missouri"

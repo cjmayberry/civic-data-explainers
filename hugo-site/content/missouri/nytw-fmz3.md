@@ -7,6 +7,7 @@ tags: ["license", "alcohol", "out of business", "missouri", "liquor", "Regulator
 categories: ["Licensing"]
 cover: "covers/nytw-fmz3--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/nytw-fmz3.json"
+geojson_url: "https://data.mo.gov/resource/nytw-fmz3.geojson"
 license: ""
 dataset_id: "nytw-fmz3"
 city: "missouri"

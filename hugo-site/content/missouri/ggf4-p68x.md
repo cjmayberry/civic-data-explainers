@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Licensing"]
 cover: "covers/ggf4-p68x--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ggf4-p68x.json"
+geojson_url: "https://data.mo.gov/resource/ggf4-p68x.geojson"
 license: ""
 dataset_id: "ggf4-p68x"
 city: "missouri"

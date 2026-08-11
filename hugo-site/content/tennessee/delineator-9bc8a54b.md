@@ -7,6 +7,7 @@ tags: ["Delineators, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/delineator-9bc8a54b--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Delineator/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Delineator/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=9bc8a54bfcfb4da49f27fb786b2a5dce"
 city: "tennessee"

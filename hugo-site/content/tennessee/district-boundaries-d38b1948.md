@@ -7,6 +7,7 @@ tags: ["Boundaries", "Districts", "TDF", "Admin"]
 categories: ["Government"]
 cover: "covers/district-boundaries-d38b1948--government--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/District_Boundaries/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/District_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d38b1948930e4e9a80af74aed54abdf1"
 city: "tennessee"

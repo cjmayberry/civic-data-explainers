@@ -7,6 +7,7 @@ tags: ["deployments", "fire", "wildfire", "Tennessee", "TDF", "emergency", "resp
 categories: ["Government"]
 cover: "covers/tdf-out-of-state-deployments-2f0476ee--government--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TDF_Out_of_State_Deployments_WFL1/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TDF_Out_of_State_Deployments_WFL1/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2f0476eeb07f4e50b3c0d98fadab6af3"
 city: "tennessee"

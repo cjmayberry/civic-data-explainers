@@ -7,6 +7,7 @@ tags: ["labor", "unemployment", "employment", "Labor"]
 categories: ["Economy"]
 cover: "covers/4v5t-4kqk--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/4v5t-4kqk.json"
+geojson_url: "https://data.mo.gov/resource/4v5t-4kqk.geojson"
 license: ""
 dataset_id: "4v5t-4kqk"
 city: "missouri"

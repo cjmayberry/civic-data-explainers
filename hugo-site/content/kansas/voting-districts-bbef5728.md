@@ -7,6 +7,7 @@ tags: ["Boundaries"]
 categories: ["Government"]
 cover: "covers/voting-districts-bbef5728--government--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Voting_Districts/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Voting_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bbef57286a754359ace36374d34d6bce&sublayer=0"
 city: "kansas"

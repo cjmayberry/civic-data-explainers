@@ -7,6 +7,7 @@ tags: ["building codes", "economic development", "Economic Development"]
 categories: ["Infrastructure"]
 cover: "covers/iq7s-izvt--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/iq7s-izvt.json"
+geojson_url: "https://data.mo.gov/resource/iq7s-izvt.geojson"
 license: ""
 dataset_id: "iq7s-izvt"
 city: "missouri"

@@ -6,6 +6,7 @@ teaser: "Tennessee Department of Agriculture, Division of Forestry updated prior
 categories: ["Environment"]
 cover: "covers/tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TN_Legacy_Priorities_2020_2030/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TN_Legacy_Priorities_2020_2030/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=93cbc1eba56346768417e127a302a7f3"
 city: "tennessee"

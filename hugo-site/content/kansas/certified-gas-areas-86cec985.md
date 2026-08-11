@@ -7,6 +7,7 @@ tags: ["Energy Resources", "Boundaries"]
 categories: ["Infrastructure"]
 cover: "covers/certified-gas-areas-86cec985--infrastructure--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KCC_Certified_Gas_Areas/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KCC_Certified_Gas_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=86cec98587954d4e85a7898450612020&sublayer=0"
 city: "kansas"

@@ -7,6 +7,7 @@ tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/state-system-2f3c7f01--transportation--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/State_System/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/State_System/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2f3c7f012f5c47429cd925aed9d73c08&sublayer=0"
 city: "kansas"

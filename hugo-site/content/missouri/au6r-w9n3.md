@@ -7,6 +7,7 @@ tags: ["open meetings", "Government Administration"]
 categories: ["Government"]
 cover: "covers/au6r-w9n3--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/au6r-w9n3.json"
+geojson_url: "https://data.mo.gov/resource/au6r-w9n3.geojson"
 license: ""
 dataset_id: "au6r-w9n3"
 city: "missouri"

@@ -6,6 +6,7 @@ teaser: "Comprehensive map of Tennessee boat ramps and related access facilities
 categories: ["Parks & Recreation"]
 cover: "covers/boat-launch-sites-b3ab0451--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Boat_Launch_Sites/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Boat_Launch_Sites/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b3ab0451494c4d2aaea1c656eed8d2a0"
 city: "tennessee"

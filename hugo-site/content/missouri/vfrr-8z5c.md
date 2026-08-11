@@ -7,6 +7,7 @@ tags: ["finance entities", "finance", "Regulatory"]
 categories: ["Finance"]
 cover: "covers/vfrr-8z5c--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/vfrr-8z5c.json"
+geojson_url: "https://data.mo.gov/resource/vfrr-8z5c.geojson"
 license: ""
 dataset_id: "vfrr-8z5c"
 city: "missouri"

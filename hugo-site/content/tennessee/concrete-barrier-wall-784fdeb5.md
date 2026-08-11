@@ -7,6 +7,7 @@ tags: ["Concrete Barrier Wall, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/concrete-barrier-wall-784fdeb5--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Concrete_Barrier_Wall/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Concrete_Barrier_Wall/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=784fdeb5348c418fac9fa8a95b9d8e30"
 city: "tennessee"

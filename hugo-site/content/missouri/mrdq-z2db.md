@@ -7,6 +7,7 @@ tags: ["Economic Development"]
 categories: ["Licensing"]
 cover: "covers/mrdq-z2db--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/mrdq-z2db.json"
+geojson_url: "https://data.mo.gov/resource/mrdq-z2db.geojson"
 license: ""
 dataset_id: "mrdq-z2db"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/active-railroads-a05f89d9--transportation--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Active_Railroads/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Active_Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a05f89d9c16241fe977202cd93b3ad1b&sublayer=0"
 city: "kansas"

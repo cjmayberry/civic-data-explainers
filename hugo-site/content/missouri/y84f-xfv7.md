@@ -7,6 +7,7 @@ tags: ["Government Administration"]
 categories: ["Finance"]
 cover: "covers/y84f-xfv7--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/y84f-xfv7.json"
+geojson_url: "https://data.mo.gov/resource/y84f-xfv7.geojson"
 license: ""
 dataset_id: "y84f-xfv7"
 city: "missouri"

@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Government"]
 cover: "covers/uqr3-yy6s--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/uqr3-yy6s.json"
+geojson_url: "https://data.mo.gov/resource/uqr3-yy6s.geojson"
 license: ""
 dataset_id: "uqr3-yy6s"
 city: "missouri"

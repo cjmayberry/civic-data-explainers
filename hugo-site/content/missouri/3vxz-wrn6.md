@@ -7,6 +7,7 @@ tags: ["Education"]
 categories: ["Health"]
 cover: "covers/3vxz-wrn6--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/3vxz-wrn6.json"
+geojson_url: "https://data.mo.gov/resource/3vxz-wrn6.geojson"
 license: ""
 dataset_id: "3vxz-wrn6"
 city: "missouri"

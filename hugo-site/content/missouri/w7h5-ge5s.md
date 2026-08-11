@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Economy"]
 cover: "covers/w7h5-ge5s--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/w7h5-ge5s.json"
+geojson_url: "https://data.mo.gov/resource/w7h5-ge5s.geojson"
 license: ""
 dataset_id: "w7h5-ge5s"
 city: "missouri"

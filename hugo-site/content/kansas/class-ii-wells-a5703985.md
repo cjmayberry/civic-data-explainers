@@ -6,6 +6,7 @@ teaser: "Class II injection wells come in two varieties: disposal wells and seco
 categories: ["Default"]
 cover: "covers/class-ii-wells-a5703985--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_II_Wells/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_II_Wells/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a570398574804430ae92ae2b6a6b7df7&sublayer=0"
 city: "kansas"

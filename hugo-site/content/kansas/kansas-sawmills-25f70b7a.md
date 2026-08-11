@@ -6,6 +6,7 @@ teaser: "Companies recommended by the Kansas Forest Service for sawmill work. At
 categories: ["Default"]
 cover: "covers/kansas-sawmills-25f70b7a--default--placeholder.svg"
 source_url: "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Kansas_Sawmills_Public/FeatureServer"
+geojson_url: "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Kansas_Sawmills_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=25f70b7aa2b94f169529e55bd8c756da&sublayer=0"
 city: "kansas"

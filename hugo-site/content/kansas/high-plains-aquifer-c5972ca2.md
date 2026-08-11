@@ -7,6 +7,7 @@ tags: ["Inland waters", "Farming", "Utilities and communication"]
 categories: ["Other"]
 cover: "covers/high-plains-aquifer-c5972ca2--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/High_Plains_Aquifer/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/High_Plains_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c5972ca2f402437bb33f25221acd41f4"
 city: "kansas"

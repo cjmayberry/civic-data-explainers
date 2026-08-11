@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Education"]
 cover: "covers/qxbb-787k--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qxbb-787k.json"
+geojson_url: "https://data.mo.gov/resource/qxbb-787k.geojson"
 license: ""
 dataset_id: "qxbb-787k"
 city: "missouri"

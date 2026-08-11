@@ -7,6 +7,7 @@ tags: ["Landscaping and Wild Flowers, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/landscaping-and-flowers-1dd54a85--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Landscaping_and_Flowers/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Landscaping_and_Flowers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1dd54a85b8634b6ca351ec314a057cd9"
 city: "tennessee"

@@ -6,6 +6,7 @@ teaser: "This feature service maps entrances to Wildlife Management Areas across
 categories: ["Parks & Recreation"]
 cover: "covers/tennessee-wildlife-management-area-entrances-5ed7fa43--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WMA_Entrances/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WMA_Entrances/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5ed7fa43f2df4409ab9d9fce4ba4faa7"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["employee", "jobs", "work", "job", "employer", "Government Administration
 categories: ["Government"]
 cover: "covers/83mm-j7ms--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/83mm-j7ms.json"
+geojson_url: "https://data.mo.gov/resource/83mm-j7ms.geojson"
 license: ""
 dataset_id: "83mm-j7ms"
 city: "missouri"

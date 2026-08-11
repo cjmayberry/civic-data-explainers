@@ -7,6 +7,7 @@ tags: ["alcohol", "missouri", "new", "tobacco", "control", "license", "liquor", 
 categories: ["Licensing"]
 cover: "covers/dymb-xy5c--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/dymb-xy5c.json"
+geojson_url: "https://data.mo.gov/resource/dymb-xy5c.geojson"
 license: ""
 dataset_id: "dymb-xy5c"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Geoscientific information", "Utilities and communication"]
 categories: ["Other"]
 cover: "covers/type-wells-7889d5d3--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Type_Wells/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Type_Wells/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7889d5d368f1498ab26a8e2bac3a16e6&sublayer=3"
 city: "kansas"

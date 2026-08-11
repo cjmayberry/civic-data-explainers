@@ -7,6 +7,7 @@ tags: ["Inland waters", "Farming", "Utilities and communication"]
 categories: ["Other"]
 cover: "covers/dakota-aquifer-base-1a94d026--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1a94d02681274822ae68f69ebda3a3f1&sublayer=0"
 city: "kansas"

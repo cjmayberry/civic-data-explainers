@@ -6,6 +6,7 @@ teaser: "Kansas Department of Health and Environment, (KDHE), Bureau of Water (B
 categories: ["Default"]
 cover: "covers/radiological-70e174de--default--placeholder.svg"
 source_url: "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer"
+geojson_url: "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=70e174def3194dd1bbb1d6f1e69fc2a3&sublayer=0"
 city: "kansas"

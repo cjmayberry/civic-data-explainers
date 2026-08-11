@@ -6,6 +6,7 @@ teaser: "This service maps trout stocking locations throughout Tennessee, detail
 categories: ["Parks & Recreation"]
 cover: "covers/trout-stocking-locations-in-tennessee-3ec5c58f--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Trout_Stocking_Locations/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Trout_Stocking_Locations/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3ec5c58f99de4de5951f32b76b462623"
 city: "tennessee"

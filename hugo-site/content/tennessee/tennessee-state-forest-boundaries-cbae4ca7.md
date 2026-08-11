@@ -7,6 +7,7 @@ tags: ["State Forest", "Tennessee", "boundaries", "location"]
 categories: ["Environment"]
 cover: "covers/tennessee-state-forest-boundaries-cbae4ca7--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cbae4ca785114a1d99d99c46f0f7df91"
 city: "tennessee"

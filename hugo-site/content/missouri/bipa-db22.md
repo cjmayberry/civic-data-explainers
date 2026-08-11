@@ -7,6 +7,7 @@ tags: ["Government Administration"]
 categories: ["Finance"]
 cover: "covers/bipa-db22--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/bipa-db22.json"
+geojson_url: "https://data.mo.gov/resource/bipa-db22.geojson"
 license: ""
 dataset_id: "bipa-db22"
 city: "missouri"

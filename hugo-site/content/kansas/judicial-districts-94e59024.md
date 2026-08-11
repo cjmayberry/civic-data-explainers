@@ -7,6 +7,7 @@ tags: ["Boundaries"]
 categories: ["Government"]
 cover: "covers/judicial-districts-94e59024--government--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=94e590242a7d479d8ff3a7cb8297df3a&sublayer=8"
 city: "kansas"

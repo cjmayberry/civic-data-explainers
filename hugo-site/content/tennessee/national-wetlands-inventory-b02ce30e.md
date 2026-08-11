@@ -7,6 +7,7 @@ tags: ["environment", "oceans", "geoscientificInformation", "inlandWaters", "USF
 categories: ["Environment"]
 cover: "covers/national-wetlands-inventory-b02ce30e--environment--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/National_Wetlands_Inventory/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/National_Wetlands_Inventory/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b02ce30ef95b45c8a50f19f54b40ab5e"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["legacy", "forest", "FLP", "USFS", "Tennessee", "TDF", "conservation"]
 categories: ["Environment"]
 cover: "covers/usfs-forest-legacy-completed-tracts-389c0319--environment--placeholder.svg"
 source_url: "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/Forest_Legacy_Completed_Tract/FeatureServer/1"
+geojson_url: "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/Forest_Legacy_Completed_Tract/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=389c031993ad4f59a4d7533834f7be0f"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["Revenue"]
 categories: ["Licensing"]
 cover: "covers/inpf-ekav--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/inpf-ekav.json"
+geojson_url: "https://data.mo.gov/resource/inpf-ekav.geojson"
 license: ""
 dataset_id: "inpf-ekav"
 city: "missouri"

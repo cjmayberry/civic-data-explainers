@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Economy"]
 cover: "covers/wh7n-cipb--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/wh7n-cipb.json"
+geojson_url: "https://data.mo.gov/resource/wh7n-cipb.geojson"
 license: ""
 dataset_id: "wh7n-cipb"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Boundaries"]
 categories: ["Government"]
 cover: "covers/city-boundaries-70ee9dcb--government--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/City_Boundaries/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/City_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=70ee9dcbe45b4a64ae2f40389b659adb&sublayer=0"
 city: "kansas"

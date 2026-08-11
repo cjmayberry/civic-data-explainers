@@ -7,6 +7,7 @@ tags: ["fire", "wildfire", "hazard", "potential", "safety", "WHP", "hexagon", "T
 categories: ["Public Safety"]
 cover: "covers/tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_Wildfire_Hazard_Potential/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_Wildfire_Hazard_Potential/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d355ca53bb454057bb1b2f03342835b8"
 city: "tennessee"

@@ -6,6 +6,7 @@ teaser: "Public Safety Answering Point (PSAP) boundaries for use in Next Generat
 categories: ["Public Safety"]
 cover: "covers/tennessee-public-safety-answering-point-boundari-c8563776--public-safety--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Public_Safety_Answering_Points/FeatureServer"
+geojson_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Public_Safety_Answering_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c85637761651455195df1ee745e18fce"
 city: "tennessee"

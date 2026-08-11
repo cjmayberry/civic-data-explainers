@@ -7,6 +7,7 @@ tags: ["Extruded Panel Signs, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/extruded-panel-sign-ddf879d9--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Extruded_Panel_Sign/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Extruded_Panel_Sign/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ddf879d9cd3a48918ddada14817e09fb"
 city: "tennessee"

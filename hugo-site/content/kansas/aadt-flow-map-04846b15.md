@@ -7,6 +7,7 @@ tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/aadt-flow-map-04846b15--transportation--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_Flow_Map/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_Flow_Map/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=04846b159c2d42c38f4aa5cd5189b420&sublayer=0"
 city: "kansas"

@@ -7,6 +7,7 @@ tags: ["renew", "alcohol", "licenses", "liquor", "missouri", "Regulatory"]
 categories: ["Licensing"]
 cover: "covers/mtgj-bnbx--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/mtgj-bnbx.json"
+geojson_url: "https://data.mo.gov/resource/mtgj-bnbx.geojson"
 license: ""
 dataset_id: "mtgj-bnbx"
 city: "missouri"

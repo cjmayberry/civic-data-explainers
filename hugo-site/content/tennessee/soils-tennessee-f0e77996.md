@@ -7,6 +7,7 @@ tags: ["Soils", "Tennessee", "Environment"]
 categories: ["Environment"]
 cover: "covers/soils-tennessee-f0e77996--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Soils_Tennessee/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Soils_Tennessee/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f0e77996c7494a4288498983ea26b6c5"
 city: "tennessee"

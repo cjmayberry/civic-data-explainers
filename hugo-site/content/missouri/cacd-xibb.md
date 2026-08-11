@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Finance"]
 cover: "covers/cacd-xibb--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/cacd-xibb.json"
+geojson_url: "https://data.mo.gov/resource/cacd-xibb.geojson"
 license: ""
 dataset_id: "cacd-xibb"
 city: "missouri"

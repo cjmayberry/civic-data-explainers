@@ -7,6 +7,7 @@ tags: ["wine", "excise", "liquor", "missouri", "solicitor", "tax", "wholesaler",
 categories: ["Licensing"]
 cover: "covers/fkt2-8smh--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/fkt2-8smh.json"
+geojson_url: "https://data.mo.gov/resource/fkt2-8smh.geojson"
 license: ""
 dataset_id: "fkt2-8smh"
 city: "missouri"

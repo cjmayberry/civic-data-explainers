@@ -7,6 +7,7 @@ tags: ["Travel Lane Surface Area, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/travel-lanes-surface-area-25327b73--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Travel_Lanes_Surface_Area/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Travel_Lanes_Surface_Area/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=25327b73e77a4f42980d394a788422fb"
 city: "tennessee"

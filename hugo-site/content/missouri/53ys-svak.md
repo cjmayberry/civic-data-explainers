@@ -7,6 +7,7 @@ tags: ["Government Administration"]
 categories: ["Finance"]
 cover: "covers/53ys-svak--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/53ys-svak.json"
+geojson_url: "https://data.mo.gov/resource/53ys-svak.geojson"
 license: ""
 dataset_id: "53ys-svak"
 city: "missouri"

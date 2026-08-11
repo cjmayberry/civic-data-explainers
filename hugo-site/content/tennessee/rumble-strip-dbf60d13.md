@@ -7,6 +7,7 @@ tags: ["Rumble Strips, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/rumble-strip-dbf60d13--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Rumble_Strip/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Rumble_Strip/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=dbf60d13faf649ee9b538c9a060701fb"
 city: "tennessee"

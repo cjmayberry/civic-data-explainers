@@ -7,6 +7,7 @@ tags: ["Inland waters", "Utilities and communication", "Farming"]
 categories: ["Other"]
 cover: "covers/osage-aquifer-extent-7684344e--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7684344eb6854fa3a6d0b567d470fd9e&sublayer=1"
 city: "kansas"

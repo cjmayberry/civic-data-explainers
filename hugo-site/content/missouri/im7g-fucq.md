@@ -7,6 +7,7 @@ tags: ["Geography"]
 categories: ["Government"]
 cover: "covers/im7g-fucq--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/im7g-fucq.json"
+geojson_url: "https://data.mo.gov/resource/im7g-fucq.geojson"
 license: ""
 dataset_id: "im7g-fucq"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Licensing"]
 cover: "covers/ppia-3k9s--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ppia-3k9s.json"
+geojson_url: "https://data.mo.gov/resource/ppia-3k9s.geojson"
 license: ""
 dataset_id: "ppia-3k9s"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Utilities and communication"]
 categories: ["Infrastructure"]
 cover: "covers/quarries-and-mines-74955adc--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Quarries_and_Mines/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Quarries_and_Mines/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=74955adcafa84edfa6548f2495eaadfa&sublayer=0"
 city: "kansas"

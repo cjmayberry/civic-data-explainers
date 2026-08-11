@@ -6,6 +6,7 @@ teaser: "This item is updated weekly (disregard the ArcGIS Online dates). This w
 categories: ["Default"]
 cover: "covers/kdhe-tmdl-lake-53575704--default--placeholder.svg"
 source_url: "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/5"
+geojson_url: "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=53575704bd8546aab1c5e6008c942239&sublayer=5"
 city: "kansas"

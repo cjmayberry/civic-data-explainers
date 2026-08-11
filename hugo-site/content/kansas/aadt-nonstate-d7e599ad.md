@@ -7,6 +7,7 @@ tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/aadt-nonstate-d7e599ad--transportation--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_NonState/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_NonState/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d7e599ad35f24cff84905141250db6b0&sublayer=0"
 city: "kansas"

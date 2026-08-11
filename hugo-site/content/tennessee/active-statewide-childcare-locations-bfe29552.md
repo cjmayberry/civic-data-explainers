@@ -6,6 +6,7 @@ teaser: "This layer contains childcare locations from Tennessee Dept. of Human S
 categories: ["Education"]
 cover: "covers/active-statewide-childcare-locations-bfe29552--education--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Active_ChildCare_Locations/FeatureServer"
+geojson_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Active_ChildCare_Locations/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bfe29552601b4d8793b1fba580c2e3fd"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["Tunnels, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/tunnels-e23ae4cd--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Tunnels/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Tunnels/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e23ae4cd9ca546b49d7b6d90c97bdee0"
 city: "tennessee"

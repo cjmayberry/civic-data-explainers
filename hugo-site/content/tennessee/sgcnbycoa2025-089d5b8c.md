@@ -6,6 +6,7 @@ teaser: "Boundaries of Conservation Opportunity Areas and listings of Species of
 categories: ["Environment"]
 cover: "covers/sgcnbycoa2025-089d5b8c--environment--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=089d5b8caec948399b24f42a70143f1c&sublayer=1"
 city: "tennessee"

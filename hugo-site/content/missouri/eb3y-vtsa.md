@@ -7,6 +7,7 @@ tags: ["Social Services"]
 categories: ["Health"]
 cover: "covers/eb3y-vtsa--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/eb3y-vtsa.json"
+geojson_url: "https://data.mo.gov/resource/eb3y-vtsa.geojson"
 license: ""
 dataset_id: "eb3y-vtsa"
 city: "missouri"

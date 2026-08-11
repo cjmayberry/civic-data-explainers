@@ -7,6 +7,7 @@ tags: ["Geoscientific information", "Utilities and communication"]
 categories: ["Other"]
 cover: "covers/oil-and-gas-leases-66970100--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Leases/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Leases/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=66970100423e4363bd89416349426a30&sublayer=0"
 city: "kansas"

@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Health"]
 cover: "covers/xudb-wnjq--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/xudb-wnjq.json"
+geojson_url: "https://data.mo.gov/resource/xudb-wnjq.geojson"
 license: ""
 dataset_id: "xudb-wnjq"
 city: "missouri"

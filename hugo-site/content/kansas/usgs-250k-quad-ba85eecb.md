@@ -7,6 +7,7 @@ tags: ["Boundaries"]
 categories: ["Government"]
 cover: "covers/usgs-250k-quad-ba85eecb--government--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ba85eecbd67540a895cec417e71ecc00&sublayer=2"
 city: "kansas"

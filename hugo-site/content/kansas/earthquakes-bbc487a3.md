@@ -7,6 +7,7 @@ tags: ["Geoscientific information"]
 categories: ["Other"]
 cover: "covers/earthquakes-bbc487a3--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Earthquakes/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Earthquakes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bbc487a3193541f9992690c1c90b4557&sublayer=0"
 city: "kansas"

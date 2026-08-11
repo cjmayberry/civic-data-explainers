@@ -7,6 +7,7 @@ tags: ["Guardrail End Terminals, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/guardrail-terminal-14ec6d50--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=14ec6d50e63b49a986f45f2b16ab0550"
 city: "tennessee"

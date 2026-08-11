@@ -7,6 +7,7 @@ tags: ["license", "county", "weekly", "missouri", "liquor", "clerk", "alcohol", 
 categories: ["Licensing"]
 cover: "covers/hbmv-rqk9--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/hbmv-rqk9.json"
+geojson_url: "https://data.mo.gov/resource/hbmv-rqk9.geojson"
 license: ""
 dataset_id: "hbmv-rqk9"
 city: "missouri"

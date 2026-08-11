@@ -7,6 +7,7 @@ tags: ["liquor", "alcohol license", "Regulatory"]
 categories: ["Licensing"]
 cover: "covers/gfq7-aa86--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/gfq7-aa86.json"
+geojson_url: "https://data.mo.gov/resource/gfq7-aa86.geojson"
 license: ""
 dataset_id: "gfq7-aa86"
 city: "missouri"

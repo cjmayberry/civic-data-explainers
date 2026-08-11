@@ -7,6 +7,7 @@ tags: ["Utilities and communication"]
 categories: ["Infrastructure"]
 cover: "covers/oil-and-gas-fields-390ee1b9--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Fields/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Fields/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=390ee1b9eade40bca42ee3534a813b20&sublayer=0"
 city: "kansas"

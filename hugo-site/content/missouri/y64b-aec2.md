@@ -7,6 +7,7 @@ tags: ["Natural Resources"]
 categories: ["Environment"]
 cover: "covers/y64b-aec2--environment--placeholder.svg"
 source_url: "https://data.mo.gov/resource/y64b-aec2.json"
+geojson_url: "https://data.mo.gov/resource/y64b-aec2.geojson"
 license: ""
 dataset_id: "y64b-aec2"
 city: "missouri"

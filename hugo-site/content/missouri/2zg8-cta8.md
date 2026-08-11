@@ -7,6 +7,7 @@ tags: ["agrimissouri", "missouri", "farmers' markets", "Agriculture"]
 categories: ["Economy"]
 cover: "covers/2zg8-cta8--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/2zg8-cta8.json"
+geojson_url: "https://data.mo.gov/resource/2zg8-cta8.geojson"
 license: ""
 dataset_id: "2zg8-cta8"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Bike Level of Service, BLOS, Multimodal, Planning, Transportation"]
 categories: ["Transportation"]
 cover: "covers/bike-level-of-service-3dccf74a--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bike_Level_of_Service/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bike_Level_of_Service/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3dccf74a4d4a4dc7a849dfd43ec67868"
 city: "tennessee"

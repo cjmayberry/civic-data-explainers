@@ -7,6 +7,7 @@ tags: ["Structures and critical infrastructure"]
 categories: ["Infrastructure"]
 cover: "covers/k-12-schools-6d319afa--infrastructure--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Schools/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Schools/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6d319afa473e4af8adb6efb272e9ca6e&sublayer=0"
 city: "kansas"

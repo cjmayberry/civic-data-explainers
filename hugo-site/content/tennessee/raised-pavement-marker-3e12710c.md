@@ -7,6 +7,7 @@ tags: ["Raised Pavement Markers, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/raised-pavement-marker-3e12710c--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Raised_Pavement_Marker/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Raised_Pavement_Marker/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3e12710c0c65456d97624884f940b602"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["Traffic, Traffic Station"]
 categories: ["Transportation"]
 cover: "covers/traffic-points-59838882--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Points/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=59838882a69d426286670dcd25d90e15"
 city: "tennessee"

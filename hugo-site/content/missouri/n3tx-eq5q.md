@@ -7,6 +7,7 @@ tags: ["alcohol", "license", "expire", "liquor", "missouri", "temporary", "Regul
 categories: ["Licensing"]
 cover: "covers/n3tx-eq5q--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/n3tx-eq5q.json"
+geojson_url: "https://data.mo.gov/resource/n3tx-eq5q.geojson"
 license: ""
 dataset_id: "n3tx-eq5q"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Water resources", "Water boundaries"]
 categories: ["Other"]
 cover: "covers/huc-12-boundaries-7cb40e88--other--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/7"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/7/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7cb40e88607c40159f3024b45fcc0298&sublayer=7"
 city: "kansas"

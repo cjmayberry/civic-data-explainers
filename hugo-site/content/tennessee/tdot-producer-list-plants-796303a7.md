@@ -6,6 +6,7 @@ teaser: "Material Producer plant locations for the Tennessee Department of Trans
 categories: ["Licensing"]
 cover: "covers/tdot-producer-list-plants-796303a7--licensing--placeholder.svg"
 source_url: "https://spatial.tdot.tn.gov/arcgis/rest/services/Materials_and_Tests/Producer_List_Plants/FeatureServer"
+geojson_url: "https://spatial.tdot.tn.gov/arcgis/rest/services/Materials_and_Tests/Producer_List_Plants/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=796303a721364c54a33e432aab9725c2"
 city: "tennessee"

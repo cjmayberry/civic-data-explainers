@@ -6,6 +6,7 @@ teaser: "Data is updated NIGHTLY via scripting (disregard the ArcGIS Online date
 categories: ["Default"]
 cover: "covers/kdhe-reported-spills-32867c63--default--placeholder.svg"
 source_url: "https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Spills_DASC/FeatureServer/0"
+geojson_url: "https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Spills_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=32867c632bfe4a4c844aadfcf75f2f27&sublayer=0"
 city: "kansas"

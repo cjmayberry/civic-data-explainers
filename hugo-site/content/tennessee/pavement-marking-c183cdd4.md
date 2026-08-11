@@ -7,6 +7,7 @@ tags: ["Pavement Markings, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/pavement-marking-c183cdd4--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Marking/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Pavement_Marking/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c183cdd44a474ec5981a598eca946a8f"
 city: "tennessee"

@@ -7,6 +7,7 @@ tags: ["Social Services"]
 categories: ["Government"]
 cover: "covers/dsx5-5mwh--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/dsx5-5mwh.json"
+geojson_url: "https://data.mo.gov/resource/dsx5-5mwh.geojson"
 license: ""
 dataset_id: "dsx5-5mwh"
 city: "missouri"

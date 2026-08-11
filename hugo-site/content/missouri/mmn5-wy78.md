@@ -7,6 +7,7 @@ tags: ["beer", "listing", "wholesaler", "zip code", "solicitor", "missouri", "Re
 categories: ["Licensing"]
 cover: "covers/mmn5-wy78--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/mmn5-wy78.json"
+geojson_url: "https://data.mo.gov/resource/mmn5-wy78.geojson"
 license: ""
 dataset_id: "mmn5-wy78"
 city: "missouri"

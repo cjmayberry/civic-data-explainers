@@ -6,6 +6,7 @@ teaser: "Line feature class representing rivers or river segments designated as 
 categories: ["Environment"]
 cover: "covers/tn-scenic-rivers-lines-4f61bcb9--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Scenic_Rivers_line_view/FeatureServer"
+geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Scenic_Rivers_line_view/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4f61bcb9e882461880c1cbc4e5c32a20"
 city: "tennessee"

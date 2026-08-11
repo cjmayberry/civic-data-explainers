@@ -7,6 +7,7 @@ tags: ["bison", "buffalo", "Conservation"]
 categories: ["Parks & Recreation"]
 cover: "covers/kw9k-iwnn--parks-recreation--placeholder.svg"
 source_url: "https://data.mo.gov/resource/kw9k-iwnn.json"
+geojson_url: "https://data.mo.gov/resource/kw9k-iwnn.geojson"
 license: ""
 dataset_id: "kw9k-iwnn"
 city: "missouri"

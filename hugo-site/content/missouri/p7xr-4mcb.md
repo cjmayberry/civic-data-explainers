@@ -7,6 +7,7 @@ tags: ["labor", "employment", "froi", "injury", "Labor"]
 categories: ["Health"]
 cover: "covers/p7xr-4mcb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/p7xr-4mcb.json"
+geojson_url: "https://data.mo.gov/resource/p7xr-4mcb.geojson"
 license: ""
 dataset_id: "p7xr-4mcb"
 city: "missouri"

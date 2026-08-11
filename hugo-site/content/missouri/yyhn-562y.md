@@ -7,6 +7,7 @@ tags: ["wine", "shipping", "alcohol", "alcohol and tobacco control", "atc", "bee
 categories: ["Licensing"]
 cover: "covers/yyhn-562y--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/yyhn-562y.json"
+geojson_url: "https://data.mo.gov/resource/yyhn-562y.geojson"
 license: ""
 dataset_id: "yyhn-562y"
 city: "missouri"

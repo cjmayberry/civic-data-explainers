@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Health"]
 cover: "covers/ghmj-sbt9--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ghmj-sbt9.json"
+geojson_url: "https://data.mo.gov/resource/ghmj-sbt9.geojson"
 license: ""
 dataset_id: "ghmj-sbt9"
 city: "missouri"

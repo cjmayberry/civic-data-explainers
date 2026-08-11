@@ -7,6 +7,7 @@ tags: ["fire", "fire danger rating area", "FDRA"]
 categories: ["Public Safety"]
 cover: "covers/tennessee-fire-danger-rating-areas-59255f5c--public-safety--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Fire_Danger_Rating_Area/FeatureServer"
+geojson_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Fire_Danger_Rating_Area/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=59255f5c56a644e59c3c8eb7a732524f"
 city: "tennessee"

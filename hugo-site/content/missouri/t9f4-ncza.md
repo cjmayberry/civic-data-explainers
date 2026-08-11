@@ -7,6 +7,7 @@ tags: ["fafsa", "Education"]
 categories: ["Education"]
 cover: "covers/t9f4-ncza--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/t9f4-ncza.json"
+geojson_url: "https://data.mo.gov/resource/t9f4-ncza.geojson"
 license: ""
 dataset_id: "t9f4-ncza"
 city: "missouri"

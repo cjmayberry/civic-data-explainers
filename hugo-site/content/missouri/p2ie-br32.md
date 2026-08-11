@@ -7,6 +7,7 @@ tags: ["labor", "jobs", "employers", "career", "job seekers", "Labor"]
 categories: ["Economy"]
 cover: "covers/p2ie-br32--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/p2ie-br32.json"
+geojson_url: "https://data.mo.gov/resource/p2ie-br32.geojson"
 license: ""
 dataset_id: "p2ie-br32"
 city: "missouri"

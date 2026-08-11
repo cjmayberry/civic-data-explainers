@@ -7,6 +7,7 @@ tags: ["Social Services"]
 categories: ["Health"]
 cover: "covers/ishd-twt7--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ishd-twt7.json"
+geojson_url: "https://data.mo.gov/resource/ishd-twt7.geojson"
 license: ""
 dataset_id: "ishd-twt7"
 city: "missouri"

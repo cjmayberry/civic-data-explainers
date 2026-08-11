@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Health"]
 cover: "covers/udnb-nqn3--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/udnb-nqn3.json"
+geojson_url: "https://data.mo.gov/resource/udnb-nqn3.geojson"
 license: ""
 dataset_id: "udnb-nqn3"
 city: "missouri"

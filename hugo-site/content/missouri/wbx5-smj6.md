@@ -7,6 +7,7 @@ tags: ["Geography"]
 categories: ["Government"]
 cover: "covers/wbx5-smj6--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/wbx5-smj6.json"
+geojson_url: "https://data.mo.gov/resource/wbx5-smj6.geojson"
 license: ""
 dataset_id: "wbx5-smj6"
 city: "missouri"

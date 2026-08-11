@@ -7,6 +7,7 @@ tags: ["Structures and critical infrastructure", "Transportation"]
 categories: ["Infrastructure"]
 cover: "covers/state-bridges-675bea04--infrastructure--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/State_Bridges/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/State_Bridges/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=675bea0449f545a99201d755d085f1b7&sublayer=0"
 city: "kansas"

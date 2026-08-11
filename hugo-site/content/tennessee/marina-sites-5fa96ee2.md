@@ -6,6 +6,7 @@ teaser: "This service features detailed data on Tennessee marinas, including ame
 categories: ["Parks & Recreation"]
 cover: "covers/marina-sites-5fa96ee2--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Marina_Sites_View/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Marina_Sites_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5fa96ee2ba4e40d4abe7a62dd02d3b92"
 city: "tennessee"

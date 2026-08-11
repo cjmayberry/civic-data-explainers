@@ -7,6 +7,7 @@ tags: ["Regulatory"]
 categories: ["Licensing"]
 cover: "covers/j2a5-itxh--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/j2a5-itxh.json"
+geojson_url: "https://data.mo.gov/resource/j2a5-itxh.geojson"
 license: ""
 dataset_id: "j2a5-itxh"
 city: "missouri"

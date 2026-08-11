@@ -7,6 +7,7 @@ tags: ["Natural Resources"]
 categories: ["Government"]
 cover: "covers/x5wy-unx3--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/x5wy-unx3.json"
+geojson_url: "https://data.mo.gov/resource/x5wy-unx3.geojson"
 license: ""
 dataset_id: "x5wy-unx3"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Geography"]
 categories: ["Government"]
 cover: "covers/rtst-p7t3--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/rtst-p7t3.json"
+geojson_url: "https://data.mo.gov/resource/rtst-p7t3.geojson"
 license: ""
 dataset_id: "rtst-p7t3"
 city: "missouri"

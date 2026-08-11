@@ -6,6 +6,7 @@ teaser: "This service maps fishing access sites across Tennessee, detailing faci
 categories: ["Parks & Recreation"]
 cover: "covers/fishing-sites-daf255dc--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fishing_Sites/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fishing_Sites/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=daf255dc45d04cefb51cf51e4f63c757"
 city: "tennessee"

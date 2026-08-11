@@ -7,6 +7,7 @@ tags: ["Labor"]
 categories: ["Economy"]
 cover: "covers/ymz7-guyk--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ymz7-guyk.json"
+geojson_url: "https://data.mo.gov/resource/ymz7-guyk.geojson"
 license: ""
 dataset_id: "ymz7-guyk"
 city: "missouri"

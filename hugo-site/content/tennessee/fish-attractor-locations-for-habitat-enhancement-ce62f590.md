@@ -6,6 +6,7 @@ teaser: "This service maps fish attractor locations with detailed habitat types 
 categories: ["Environment"]
 cover: "covers/fish-attractor-locations-for-habitat-enhancement-ce62f590--environment--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fish_Attractor_Locations_view/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fish_Attractor_Locations_view/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ce62f590d8874bd48e2bc671a8059c5d"
 city: "tennessee"

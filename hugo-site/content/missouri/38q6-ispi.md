@@ -7,6 +7,7 @@ tags: ["Government Administration"]
 categories: ["Finance"]
 cover: "covers/38q6-ispi--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/38q6-ispi.json"
+geojson_url: "https://data.mo.gov/resource/38q6-ispi.geojson"
 license: ""
 dataset_id: "38q6-ispi"
 city: "missouri"

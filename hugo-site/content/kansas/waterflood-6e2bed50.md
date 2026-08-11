@@ -7,6 +7,7 @@ tags: ["Geoscientific information"]
 categories: ["Other"]
 cover: "covers/waterflood-6e2bed50--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Waterflood/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Waterflood/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6e2bed503ba6409d8d7ff0db9928b45d&sublayer=0"
 city: "kansas"

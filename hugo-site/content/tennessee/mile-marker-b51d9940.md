@@ -7,6 +7,7 @@ tags: ["Flatsheet Signs", "Tennessee"]
 categories: ["Transportation"]
 cover: "covers/mile-marker-b51d9940--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mile_Marker/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mile_Marker/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b51d9940cb7c4f6491c7b794c2037a64"
 city: "tennessee"

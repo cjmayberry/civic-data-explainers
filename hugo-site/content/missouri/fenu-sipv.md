@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Health"]
 cover: "covers/fenu-sipv--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/fenu-sipv.json"
+geojson_url: "https://data.mo.gov/resource/fenu-sipv.geojson"
 license: ""
 dataset_id: "fenu-sipv"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Structures and critical infrastructure", "Utilities and communication"]
 categories: ["Infrastructure"]
 cover: "covers/kansas-cell-towers-d35f79cc--infrastructure--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Cellular/FeatureServer"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Cellular/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d35f79cc15504674989dcce5638d6b6c&sublayer=0"
 city: "kansas"

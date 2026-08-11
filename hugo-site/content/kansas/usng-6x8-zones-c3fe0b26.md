@@ -7,6 +7,7 @@ tags: ["Intelligence and military", "Boundaries"]
 categories: ["Public Safety"]
 cover: "covers/usng-6x8-zones-c3fe0b26--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer"
+geojson_url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c3fe0b263a5c4c5ebc3ef676ed811ad9&sublayer=0"
 city: "kansas"

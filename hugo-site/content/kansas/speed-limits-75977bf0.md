@@ -7,6 +7,7 @@ tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/speed-limits-75977bf0--transportation--placeholder.svg"
 source_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Speed_Limits/FeatureServer"
+geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Speed_Limits/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=75977bf00b93471fa7b5e21875f2a994&sublayer=0"
 city: "kansas"

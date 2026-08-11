@@ -7,6 +7,7 @@ tags: ["Attenuators, Tennessee, TDOT, DOT, Asset Management Division, Asset Data
 categories: ["Transportation"]
 cover: "covers/attenuators-de19ac95--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Attenuators/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Attenuators/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=de19ac953c9d45b19612720911159c1f"
 city: "tennessee"

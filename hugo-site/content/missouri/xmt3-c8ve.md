@@ -7,6 +7,7 @@ tags: ["Social Services"]
 categories: ["Economy"]
 cover: "covers/xmt3-c8ve--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/xmt3-c8ve.json"
+geojson_url: "https://data.mo.gov/resource/xmt3-c8ve.geojson"
 license: ""
 dataset_id: "xmt3-c8ve"
 city: "missouri"

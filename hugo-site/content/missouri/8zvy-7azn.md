@@ -7,6 +7,7 @@ tags: ["dmh", "provider map", "Health"]
 categories: ["Health"]
 cover: "covers/8zvy-7azn--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8zvy-7azn.json"
+geojson_url: "https://data.mo.gov/resource/8zvy-7azn.geojson"
 license: ""
 dataset_id: "8zvy-7azn"
 city: "missouri"

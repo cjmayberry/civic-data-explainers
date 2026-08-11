@@ -7,6 +7,7 @@ tags: ["navigators", "health", "health insurance", "insurance", "licensed naviga
 categories: ["Health"]
 cover: "covers/w5xs-s3mj--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/w5xs-s3mj.json"
+geojson_url: "https://data.mo.gov/resource/w5xs-s3mj.geojson"
 license: ""
 dataset_id: "w5xs-s3mj"
 city: "missouri"

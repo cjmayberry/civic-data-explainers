@@ -7,6 +7,7 @@ tags: ["Government Administration"]
 categories: ["Finance"]
 cover: "covers/55pd-epiy--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/55pd-epiy.json"
+geojson_url: "https://data.mo.gov/resource/55pd-epiy.geojson"
 license: ""
 dataset_id: "55pd-epiy"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Curb and Gutter, Tennessee"]
 categories: ["Infrastructure"]
 cover: "covers/curb-and-gutter-segment-af31b5b8--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Curb_and_Gutter_Segment/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Curb_and_Gutter_Segment/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=af31b5b81a5e4900be33f803e13d346e"
 city: "tennessee"

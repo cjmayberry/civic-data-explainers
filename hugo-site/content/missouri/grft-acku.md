@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Health"]
 cover: "covers/grft-acku--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/grft-acku.json"
+geojson_url: "https://data.mo.gov/resource/grft-acku.geojson"
 license: ""
 dataset_id: "grft-acku"
 city: "missouri"

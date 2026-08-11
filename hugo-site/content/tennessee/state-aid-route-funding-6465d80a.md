@@ -6,6 +6,7 @@ teaser: "Provide a fiscal year summary of mileage and dollars spent in the State
 categories: ["Finance"]
 cover: "covers/state-aid-route-funding-6465d80a--finance--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/State_Aid_Route_Funding/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/State_Aid_Route_Funding/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6465d80a1f71490f8581a466c3f03119"
 city: "tennessee"

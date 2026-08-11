@@ -6,6 +6,7 @@ teaser: "Address points for the state of Tennessee as part of the Next Generatio
 categories: ["Public Safety"]
 cover: "covers/tennessee-ng911-address-points-f76e2673--public-safety--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer"
+geojson_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f76e2673388e4c6f803bc51e3ae04b14"
 city: "tennessee"

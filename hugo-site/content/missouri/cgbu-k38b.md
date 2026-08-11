@@ -7,6 +7,7 @@ tags: ["sheriff", "police", "university police", "department", "Public Safety"]
 categories: ["Public Safety"]
 cover: "covers/cgbu-k38b--public-safety--placeholder.svg"
 source_url: "https://data.mo.gov/resource/cgbu-k38b.json"
+geojson_url: "https://data.mo.gov/resource/cgbu-k38b.geojson"
 license: ""
 dataset_id: "cgbu-k38b"
 city: "missouri"

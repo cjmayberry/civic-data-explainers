@@ -7,6 +7,7 @@ tags: ["IRWIN", "InFORM", "NIFC", "fire", "wildfire", "Tennessee"]
 categories: ["Public Safety"]
 cover: "covers/wildland-fire-incident-locations-0750acfb--public-safety--placeholder.svg"
 source_url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations/FeatureServer"
+geojson_url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0750acfb282542448db32d57724d41c7"
 city: "tennessee"

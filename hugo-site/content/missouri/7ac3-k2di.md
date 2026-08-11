@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Licensing"]
 cover: "covers/7ac3-k2di--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/7ac3-k2di.json"
+geojson_url: "https://data.mo.gov/resource/7ac3-k2di.geojson"
 license: ""
 dataset_id: "7ac3-k2di"
 city: "missouri"

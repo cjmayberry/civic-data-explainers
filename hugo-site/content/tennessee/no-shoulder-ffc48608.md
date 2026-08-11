@@ -7,6 +7,7 @@ tags: ["No Shoulders, Tennessee"]
 categories: ["Transportation"]
 cover: "covers/no-shoulder-ffc48608--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ffc486088a8e49adaf27ab0e75f6b934"
 city: "tennessee"

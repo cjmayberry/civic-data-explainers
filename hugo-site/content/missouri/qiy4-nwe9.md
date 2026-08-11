@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Health"]
 cover: "covers/qiy4-nwe9--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qiy4-nwe9.json"
+geojson_url: "https://data.mo.gov/resource/qiy4-nwe9.geojson"
 license: ""
 dataset_id: "qiy4-nwe9"
 city: "missouri"

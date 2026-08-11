@@ -6,6 +6,7 @@ teaser: "Local arboretums around the state of Kansas and nearby that have a dive
 categories: ["Default"]
 cover: "covers/kansas-arboretums-c1b15431--default--placeholder.svg"
 source_url: "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Arboretums_Public/FeatureServer"
+geojson_url: "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Arboretums_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c1b154313e984ca792f27d962f03adf1&sublayer=0"
 city: "kansas"

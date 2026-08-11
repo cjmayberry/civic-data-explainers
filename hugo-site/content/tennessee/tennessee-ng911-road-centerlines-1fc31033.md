@@ -6,6 +6,7 @@ teaser: "Road centerlines for the state of Tennessee as part of the Next Generat
 categories: ["Public Safety"]
 cover: "covers/tennessee-ng911-road-centerlines-1fc31033--public-safety--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer"
+geojson_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1fc31033fdc446a5b10e7c48f3739a46"
 city: "tennessee"

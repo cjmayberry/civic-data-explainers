@@ -7,6 +7,7 @@ tags: ["Economic Development"]
 categories: ["Economy"]
 cover: "covers/nc6i-4sv2--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/nc6i-4sv2.json"
+geojson_url: "https://data.mo.gov/resource/nc6i-4sv2.geojson"
 license: ""
 dataset_id: "nc6i-4sv2"
 city: "missouri"

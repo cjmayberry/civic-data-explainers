@@ -6,6 +6,7 @@ teaser: "This web map was created to support reconnaissance of shoreline wetland
 categories: ["Default"]
 cover: "covers/melvern-lake-extent-97d48513--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Melvern_Lake_extent/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Melvern_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=97d4851345bb43fbb5bd30f88bd50b02&sublayer=0"
 city: "kansas"

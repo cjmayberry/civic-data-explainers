@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Health"]
 cover: "covers/iqy7-7sid--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/iqy7-7sid.json"
+geojson_url: "https://data.mo.gov/resource/iqy7-7sid.geojson"
 license: ""
 dataset_id: "iqy7-7sid"
 city: "missouri"

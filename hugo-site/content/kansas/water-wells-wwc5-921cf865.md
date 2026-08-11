@@ -6,6 +6,7 @@ teaser: "The Water Well Completion Form Database (WWC5) contains information fro
 categories: ["Default"]
 cover: "covers/water-wells-wwc5-921cf865--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Water_Wells_WWC5/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Water_Wells_WWC5/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=921cf865410e4530becbd5aa6079bad1&sublayer=0"
 city: "kansas"

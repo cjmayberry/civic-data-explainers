@@ -7,6 +7,7 @@ tags: ["school", "Education"]
 categories: ["Education"]
 cover: "covers/8yaf-xv66--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8yaf-xv66.json"
+geojson_url: "https://data.mo.gov/resource/8yaf-xv66.geojson"
 license: ""
 dataset_id: "8yaf-xv66"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["liquor", "licenses", "beer", "alcohol", "spirits", "renewed", "missouri"
 categories: ["Licensing"]
 cover: "covers/ezr3-ufzz--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ezr3-ufzz.json"
+geojson_url: "https://data.mo.gov/resource/ezr3-ufzz.geojson"
 license: ""
 dataset_id: "ezr3-ufzz"
 city: "missouri"

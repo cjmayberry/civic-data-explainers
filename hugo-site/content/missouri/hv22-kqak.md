@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Economy"]
 cover: "covers/hv22-kqak--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/hv22-kqak.json"
+geojson_url: "https://data.mo.gov/resource/hv22-kqak.geojson"
 license: ""
 dataset_id: "hv22-kqak"
 city: "missouri"

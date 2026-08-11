@@ -6,6 +6,7 @@ teaser: "This service provides detailed river mile markers and county boundaries
 categories: ["Government"]
 cover: "covers/tennessee-river-miles-and-county-boundaries-f44bd806--government--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer"
+geojson_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_River_Miles/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f44bd80620a04f8e84e9e77e49cc4c6d"
 city: "tennessee"

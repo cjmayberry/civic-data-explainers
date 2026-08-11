@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Infrastructure"]
 cover: "covers/yeiz-h2m2--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/yeiz-h2m2.json"
+geojson_url: "https://data.mo.gov/resource/yeiz-h2m2.geojson"
 license: ""
 dataset_id: "yeiz-h2m2"
 city: "missouri"

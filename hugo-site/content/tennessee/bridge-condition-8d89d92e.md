@@ -6,6 +6,7 @@ teaser: "Tennessee bridge condition represented individually and as a county lev
 categories: ["Infrastructure"]
 cover: "covers/bridge-condition-8d89d92e--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=8d89d92e76d54ba08290b652b74c4549"
 city: "tennessee"

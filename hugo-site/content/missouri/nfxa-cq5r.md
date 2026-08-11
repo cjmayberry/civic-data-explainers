@@ -7,6 +7,7 @@ tags: ["Health"]
 categories: ["Infrastructure"]
 cover: "covers/nfxa-cq5r--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/nfxa-cq5r.json"
+geojson_url: "https://data.mo.gov/resource/nfxa-cq5r.geojson"
 license: ""
 dataset_id: "nfxa-cq5r"
 city: "missouri"

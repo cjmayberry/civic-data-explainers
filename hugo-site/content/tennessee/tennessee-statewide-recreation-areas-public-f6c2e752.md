@@ -6,6 +6,7 @@ teaser: "Compiled from various sources, this dataset consists of publicly access
 categories: ["Parks & Recreation"]
 cover: "covers/tennessee-statewide-recreation-areas-public-f6c2e752--parks-recreation--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Recreation_Areas_Public/FeatureServer"
+geojson_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Recreation_Areas_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f6c2e7523bee4312a9bf1c34ab4df394"
 city: "tennessee"

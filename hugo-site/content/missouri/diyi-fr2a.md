@@ -6,6 +6,7 @@ teaser: "WIC Household ID"
 categories: ["Health"]
 cover: "covers/diyi-fr2a--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/diyi-fr2a.json"
+geojson_url: "https://data.mo.gov/resource/diyi-fr2a.geojson"
 license: ""
 dataset_id: "diyi-fr2a"
 city: "missouri"

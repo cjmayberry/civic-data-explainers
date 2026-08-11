@@ -7,6 +7,7 @@ tags: ["Tennessee, TDOT, TRIMS, Geometrics"]
 categories: ["Transportation"]
 cover: "covers/road-geometrics-552d7e44--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Geometrics/FeatureServer"
+geojson_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Geometrics/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=552d7e444d6941a58cfe699c6b4e2671"
 city: "tennessee"

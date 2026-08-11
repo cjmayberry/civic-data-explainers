@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Health"]
 cover: "covers/usf4-uuvb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/usf4-uuvb.json"
+geojson_url: "https://data.mo.gov/resource/usf4-uuvb.geojson"
 license: ""
 dataset_id: "usf4-uuvb"
 city: "missouri"

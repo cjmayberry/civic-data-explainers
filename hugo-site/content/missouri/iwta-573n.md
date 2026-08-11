@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Health"]
 cover: "covers/iwta-573n--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/iwta-573n.json"
+geojson_url: "https://data.mo.gov/resource/iwta-573n.geojson"
 license: ""
 dataset_id: "iwta-573n"
 city: "missouri"

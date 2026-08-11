@@ -6,6 +6,7 @@ teaser: "Detailed geospatial data on huntable lands within Tennessee State Parks
 categories: ["Parks & Recreation"]
 cover: "covers/tdec-huntable-areas-external-d33b97aa--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TDEC_Huntable_Areas_(external)/FeatureServer"
+geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TDEC_Huntable_Areas_(external)/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d33b97aa68fb45048601cc23181c4c52"
 city: "tennessee"

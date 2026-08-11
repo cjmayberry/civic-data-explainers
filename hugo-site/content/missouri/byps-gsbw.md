@@ -7,6 +7,7 @@ tags: ["Geography"]
 categories: ["Government"]
 cover: "covers/byps-gsbw--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/byps-gsbw.json"
+geojson_url: "https://data.mo.gov/resource/byps-gsbw.geojson"
 license: ""
 dataset_id: "byps-gsbw"
 city: "missouri"

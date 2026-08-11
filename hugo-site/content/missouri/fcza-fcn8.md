@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Finance"]
 cover: "covers/fcza-fcn8--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/fcza-fcn8.json"
+geojson_url: "https://data.mo.gov/resource/fcza-fcn8.geojson"
 license: ""
 dataset_id: "fcza-fcn8"
 city: "missouri"

@@ -7,6 +7,7 @@ tags: ["Natural Resources"]
 categories: ["Environment"]
 cover: "covers/3mwf-kse4--environment--placeholder.svg"
 source_url: "https://data.mo.gov/resource/3mwf-kse4.json"
+geojson_url: "https://data.mo.gov/resource/3mwf-kse4.geojson"
 license: ""
 dataset_id: "3mwf-kse4"
 city: "missouri"

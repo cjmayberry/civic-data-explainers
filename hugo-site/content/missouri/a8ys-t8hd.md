@@ -7,6 +7,7 @@ tags: ["missouri river water trail access points", "Natural Resources"]
 categories: ["Parks & Recreation"]
 cover: "covers/a8ys-t8hd--parks-recreation--placeholder.svg"
 source_url: "https://data.mo.gov/resource/a8ys-t8hd.json"
+geojson_url: "https://data.mo.gov/resource/a8ys-t8hd.geojson"
 license: ""
 dataset_id: "a8ys-t8hd"
 city: "missouri"

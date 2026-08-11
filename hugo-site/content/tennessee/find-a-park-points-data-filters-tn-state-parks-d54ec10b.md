@@ -6,6 +6,7 @@ teaser: "This layer is a point geometry with all park amenities for the website 
 categories: ["Parks & Recreation"]
 cover: "covers/find-a-park-points-data-filters-tn-state-parks-d54ec10b--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer"
+geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d54ec10bacf44a8ba825edecd7ab7945"
 city: "tennessee"

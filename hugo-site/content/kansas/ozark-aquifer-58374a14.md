@@ -7,6 +7,7 @@ tags: ["Inland waters", "Utilities and communication", "Farming"]
 categories: ["Other"]
 cover: "covers/ozark-aquifer-58374a14--other--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=58374a144fbe4b5790559710aed29082"
 city: "kansas"

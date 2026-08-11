@@ -6,6 +6,7 @@ teaser: "Polygon feature class representing the boundaries of Tennessee State Pa
 categories: ["Parks & Recreation"]
 cover: "covers/tn-state-parks-boundaries-1b28885b--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer"
+geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1b28885be2274ea885f32af5352094e1"
 city: "tennessee"

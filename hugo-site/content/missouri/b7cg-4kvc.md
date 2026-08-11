@@ -6,6 +6,7 @@ teaser: ""
 categories: ["Transportation"]
 cover: "covers/b7cg-4kvc--transportation--placeholder.svg"
 source_url: "https://data.mo.gov/resource/b7cg-4kvc.json"
+geojson_url: "https://data.mo.gov/resource/b7cg-4kvc.geojson"
 license: ""
 dataset_id: "b7cg-4kvc"
 city: "missouri"

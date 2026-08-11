@@ -6,6 +6,7 @@ teaser: "Point feature class representing the centroids within Tennessee State P
 categories: ["Parks & Recreation"]
 cover: "covers/tn-state-parks-points-d4ef7243--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer"
+geojson_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d4ef724303da4619ba2972e00e716f03"
 city: "tennessee"

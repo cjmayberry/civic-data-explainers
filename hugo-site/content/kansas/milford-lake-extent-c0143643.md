@@ -6,6 +6,7 @@ teaser: "This web map was created to support reconnaissance of shoreline wetland
 categories: ["Default"]
 cover: "covers/milford-lake-extent-c0143643--default--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Milford_Lake_extent/FeatureServer"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Milford_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c0143643e06a4125bc9e52671e4af28b&sublayer=0"
 city: "kansas"
