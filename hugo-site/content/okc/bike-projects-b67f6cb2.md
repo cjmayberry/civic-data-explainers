@@ -7,12 +7,12 @@ tags: ["okc", "oklahoma city", "bike", "trail", "projects", "transportation", "t
 categories: ["Infrastructure"]
 cover: "covers/bike-projects-b67f6cb2--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/b67f6cb2055d4a588795f2c4dbc986a0/rest/services/OpenData/Infrastructure_Projects/FeatureServer/0"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/b67f6cb2055d4a588795f2c4dbc986a0/rest/services/OpenData/Infrastructure_Projects/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "b67f6cb2055d4a588795f2c4dbc986a0"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/b67f6cb2055d4a588795f2c4dbc986a0_0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/b67f6cb2055d4a588795f2c4dbc986a0/rest/services/OpenData/Infrastructure_Projects/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -33,6 +33,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
 
 
 

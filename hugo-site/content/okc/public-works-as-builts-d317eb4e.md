@@ -7,12 +7,12 @@ tags: ["okc", "drainage", "oklahoma city", "as-builts", "as builts", "paving", "
 categories: ["Infrastructure"]
 cover: "covers/public-works-as-builts-d317eb4e--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "d317eb4e5f544ff9a9f48f1fcdc09977"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/d317eb4e5f544ff9a9f48f1fcdc09977_3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d317eb4e5f544ff9a9f48f1fcdc09977/rest/services/OpenData/Infrastructure_Projects/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -27,6 +27,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

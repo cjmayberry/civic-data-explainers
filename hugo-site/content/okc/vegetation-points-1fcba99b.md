@@ -4,15 +4,15 @@ date: "2026-06-03"
 description: "This dataset can be used to view vegetation points derived from lidar planimetric data collected in 2015."
 teaser: "A map of individual trees and shrubs captured by aerial laser scans in 2015"
 tags: ["okc", "oklahoma city", "vegetation", "points", "planimetrics", "2015"]
-categories: ["Infrastructure"]
-cover: "covers/vegetation-points-1fcba99b--infrastructure--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/vegetation-points-1fcba99b--environment--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "1fcba99b944141119496224ef5481187"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/1fcba99b944141119496224ef5481187_5"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1fcba99b944141119496224ef5481187/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -21,6 +21,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

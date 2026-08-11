@@ -7,12 +7,12 @@ tags: [" oklahoma city", "buildings", "footprints", "addresses", "planimetrics",
 categories: ["Infrastructure"]
 cover: "covers/building-footprints-2d4cd6c3--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "2d4cd6c3279f48f394329f3367069c61"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/2d4cd6c3279f48f394329f3367069c61_2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/2d4cd6c3279f48f394329f3367069c61/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -27,6 +27,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

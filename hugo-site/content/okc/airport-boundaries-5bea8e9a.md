@@ -7,12 +7,12 @@ tags: [" oklahoma city", "boundary", "boundaries", "airport", "will rogers", "wi
 categories: ["Government"]
 cover: "covers/airport-boundaries-5bea8e9a--government--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "5bea8e9acd0e413bba4895a26a2ae328"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/5bea8e9acd0e413bba4895a26a2ae328_5"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/5bea8e9acd0e413bba4895a26a2ae328/rest/services/OpenData/Government_Boundaries/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Department of Airports of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -27,6 +27,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

@@ -24,6 +24,8 @@ COLORS = {
     "Transportation": "#0a5da0", "Infrastructure": "#b45309", "Licensing": "#0f766e",
     "Government": "#5b21b6", "Finance": "#065f46", "Parks & Recreation": "#15803d",
     "Public Safety": "#b91c1c", "Default": "#374151",
+    "Environment": "#166534", "Health": "#be123c", "Education": "#7c2d12",
+    "Housing": "#a16207", "Economy": "#6d28d9",
 }
 
 

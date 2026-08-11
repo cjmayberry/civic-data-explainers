@@ -11,12 +11,12 @@ inquiry_search: "Facility"
 inquiry_field: "Address"
 inquiry_label: "Look up a police station"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "fdb1ea86290a4b5187ddd3218dc70140"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/fdb1ea86290a4b5187ddd3218dc70140_5"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fdb1ea86290a4b5187ddd3218dc70140/rest/services/OpenData/Public_Safety/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Police Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

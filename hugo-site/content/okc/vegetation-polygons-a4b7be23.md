@@ -4,15 +4,15 @@ date: "2026-06-10"
 description: "This dataset can be used to view vegetation polygons derived from lidar planimetric data collected in 2015."
 teaser: "A map of tree canopies and other vegetation areas from 2015 laser scans of the city"
 tags: ["okc", "oklahoma city", "vegetation", "polygons", "planimetrics", "2015"]
-categories: ["Infrastructure"]
-cover: "covers/vegetation-polygons-a4b7be23--infrastructure--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/vegetation-polygons-a4b7be23--environment--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "a4b7be23add94d6a9f03cd8b7249130a"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/a4b7be23add94d6a9f03cd8b7249130a_6"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a4b7be23add94d6a9f03cd8b7249130a/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/6/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -25,6 +25,7 @@ dictionary:
   - field: "Area"
     description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

@@ -4,15 +4,15 @@ date: "2026-06-09"
 description: "This dataset can be used to view pavement and other impervise surfaces derived from aerial planimetric data collected in 2020."
 teaser: "A map of paved and other water-resistant surfaces across the city, captured from aerial photos in 2020"
 tags: ["okc", "oklahoma city", "pavement", "parking lots", "streets", "impervious surfaces", "planimetrics", "2020"]
-categories: ["Infrastructure"]
-cover: "covers/impervious-surfaces-ad208d72--infrastructure--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/impervious-surfaces-ad208d72--environment--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "ad208d728e344ca18dcdad3c84be76e1"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/ad208d728e344ca18dcdad3c84be76e1_4"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ad208d728e344ca18dcdad3c84be76e1/rest/services/OpenData/Infrastructure_Planimetrics/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -27,6 +27,7 @@ dictionary:
   - field: "Area"
     description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

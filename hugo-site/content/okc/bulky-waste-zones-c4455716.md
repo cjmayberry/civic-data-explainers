@@ -7,12 +7,12 @@ tags: ["oklahoma city", "trash", "waste", "pickup", "zones", "bulky"]
 categories: ["Infrastructure"]
 cover: "covers/bulky-waste-zones-c4455716--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "c4455716f4bf4d1dafe6806e0e619de8"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/c4455716f4bf4d1dafe6806e0e619de8_2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/c4455716f4bf4d1dafe6806e0e619de8/rest/services/OpenData/Utilities/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Utilities Trust (OCWUT) of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -31,6 +31,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

@@ -12,12 +12,12 @@ inquiry_field: "PCICurrent"
 inquiry_label: "Find your street's pavement score"
 inquiry_extra: ["BEGDESC", "ENDDESC"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "e80f59ff3b374307a28e634ac0a92c41"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/e80f59ff3b374307a28e634ac0a92c41_3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/e80f59ff3b374307a28e634ac0a92c41/rest/services/OpenData/Transportation/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -40,6 +40,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
 
 
 

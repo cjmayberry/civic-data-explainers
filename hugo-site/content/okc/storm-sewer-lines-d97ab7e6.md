@@ -7,12 +7,12 @@ tags: [" oklahoma city", "storm", "sewer", "lines", "conrete", "earthen", "grass
 categories: ["Infrastructure"]
 cover: "covers/storm-sewer-lines-d97ab7e6--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "d97ab7e67970441c95e41e2211cbcd24"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/d97ab7e67970441c95e41e2211cbcd24_2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/d97ab7e67970441c95e41e2211cbcd24/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -43,6 +43,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
 
 
 

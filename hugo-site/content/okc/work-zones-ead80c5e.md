@@ -12,12 +12,12 @@ inquiry_field: "Worktype"
 inquiry_label: "Check for active work near a street"
 inquiry_extra: ["Startdate", "Enddate"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "ead80c5e4e4e4c719359217f704a0c4c"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/ead80c5e4e4e4c719359217f704a0c4c_5"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ead80c5e4e4e4c719359217f704a0c4c/rest/services/OpenData/Transportation/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Development Services Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -52,6 +52,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

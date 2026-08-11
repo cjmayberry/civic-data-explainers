@@ -7,12 +7,12 @@ tags: [" oklahoma city", "storm", "sewer", "headwalls", "conrete", "earthen", "g
 categories: ["Infrastructure"]
 cover: "covers/storm-sewer-headwalls-ac50e5d0--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "ac50e5d0600e428d8618b5e2dc48782d"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/ac50e5d0600e428d8618b5e2dc48782d_1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/ac50e5d0600e428d8618b5e2dc48782d/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

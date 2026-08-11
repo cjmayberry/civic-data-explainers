@@ -60,6 +60,11 @@ CATEGORY_COLORS = {
     "Parks & Recreation": ("#15803d", "#0b4f2a"),
     "Public Safety": ("#b91c1c", "#7f1212"),
     "Default": ("#374151", "#1f2937"),
+    "Environment": ("#166534", "#0b3d20"),
+    "Health": ("#be123c", "#8f0d2e"),
+    "Education": ("#7c2d12", "#5a200c"),
+    "Housing": ("#a16207", "#7c4a05"),
+    "Economy": ("#6d28d9", "#4c1d95"),
 }
 
 HERO_QUERY = "oklahoma city skyline"

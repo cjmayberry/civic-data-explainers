@@ -4,15 +4,15 @@ date: "2026-06-09"
 description: "This dataset can be used to view information on park benefit areas within the City of Oklahoma City.  More information about development fees can be found on okc.gov."
 teaser: "This dataset shows different park benefit areas in Oklahoma City where development fees apply"
 tags: ["okc", "oklahoma city", "parks", "impact fees", "benefit areas"]
-categories: ["Licensing"]
-cover: "covers/parks-impact-fees-benefit-areas-08f4c8d6--licensing--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/parks-impact-fees-benefit-areas-08f4c8d6--finance--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "08f4c8d6719e47d088aa232f57d68cc8"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/08f4c8d6719e47d088aa232f57d68cc8_1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/08f4c8d6719e47d088aa232f57d68cc8/rest/services/OpenData/Licensing_Permits/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Development Services Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Area"
     description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

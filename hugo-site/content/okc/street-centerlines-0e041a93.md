@@ -12,12 +12,12 @@ inquiry_field: "STREETCLASS"
 inquiry_label: "Look up a street's classification"
 inquiry_extra: ["FDPRE", "FTYPE", "LEFTADD1"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "0e041a931ede4d38a9d23c5301708662"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/0e041a931ede4d38a9d23c5301708662_5"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/0e041a931ede4d38a9d23c5301708662/rest/services/OpenData/Transportation_Streets/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -52,6 +52,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
 
 
 

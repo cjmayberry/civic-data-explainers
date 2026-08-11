@@ -4,20 +4,20 @@ date: "2026-07-28"
 description: "This dataset can be used to view land document information such as deeds, easements, and ordinances."
 teaser: "This dataset tracks legal land documents like deeds, easements, and ordinances filed with the city"
 tags: ["okc", "oklahoma city", "land", "documents", "property", "deeds", "ordinances"]
-categories: ["Infrastructure"]
-cover: "covers/land-documents-fd9dbc81--infrastructure--placeholder.svg"
+categories: ["Government"]
+cover: "covers/land-documents-fd9dbc81--government--placeholder.svg"
 inquiry_enabled: true
 inquiry_search: "Address"
 inquiry_field: "IndexType"
 inquiry_label: "Check documents recorded at an address"
 inquiry_extra: ["Number", "Grantor"]
 source_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "fd9dbc810c9e4b3b8eb17887b796f0e5"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/fd9dbc810c9e4b3b8eb17887b796f0e5_8"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/fd9dbc810c9e4b3b8eb17887b796f0e5/rest/services/OpenData/Licensing_Subdivision/FeatureServer/8/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the City Clerk's Office of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -38,6 +38,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

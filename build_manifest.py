@@ -44,6 +44,7 @@ MANIFEST_PATH = os.path.join(IMG_DIR, "manifest.json")
 KNOWN_CATEGORIES = [
     "Transportation", "Infrastructure", "Licensing", "Government",
     "Finance", "Parks & Recreation", "Public Safety", "Default",
+    "Environment", "Health", "Education", "Housing", "Economy",
 ]
 
 # Catalog tag -> canonical category. Utilities data (trash/recycle zones,
@@ -114,9 +115,25 @@ CATEGORY_OVERRIDES = {
     "storm-siren-sectors-58b572ce": (
         "Public Safety",
         "Hub tag order AND city folder agree (Public_Safety); old manifest said Government."),
-    "streets-development-program-benefit-areas-5377697e": (
-        "Licensing",
-        "No Hub tags; city folder OpenData/Licensing_Permits."),
+    # --- v4 12-category taxonomy (2026-08-10, docs/content-v4-spec.md) ---
+    "waterbodies-a6b9c703": ("Environment",
+        "Natural water bodies (lakes/ponds) — natural system, per v4; was Infrastructure."),
+    "waterways-7107d3b8": ("Environment",
+        "Rivers/streams — natural system, per v4; was Infrastructure."),
+    "vegetation-points-1fcba99b": ("Environment",
+        "Trees/shrubs land-cover — natural system, per v4; was Infrastructure."),
+    "vegetation-polygons-a4b7be23": ("Environment",
+        "Tree-canopy land-cover — natural system, per v4; was Infrastructure."),
+    "impervious-surfaces-ad208d72": ("Environment",
+        "Paved/water-resistant land cover — environmental land-cover assessment, per v4; was Infrastructure."),
+    "parks-impact-fees-benefit-areas-08f4c8d6": ("Finance",
+        "Development impact fees — a financing mechanism, not a permit (Hub tags Licensing); per v4 → Finance."),
+    "parks-impact-fees-existing-local-service-b8d5a300": ("Finance",
+        "Development impact-fee exemption areas — financing mechanism, per v4 → Finance."),
+    "streets-development-program-benefit-areas-5377697e": ("Finance",
+        "Streets development program benefit areas — financing/benefit districts, per v4 → Finance."),
+    "land-documents-fd9dbc81": ("Government",
+        "Legal land records (deeds/easements/ordinances) — public legal records, per v4 → Government."),
 }
 
 # Showcase pages carry hand-written bodies (regenerate_content.py BODIES)

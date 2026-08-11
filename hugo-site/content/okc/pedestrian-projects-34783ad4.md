@@ -7,12 +7,12 @@ tags: ["okc", "oklahoma city", "pedestrian", "projects", "transportation", "tax"
 categories: ["Infrastructure"]
 cover: "covers/pedestrian-projects-34783ad4--infrastructure--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "34783ad443fb438b9905b9c85b96cbf8"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/34783ad443fb438b9905b9c85b96cbf8_2"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/34783ad443fb438b9905b9c85b96cbf8/rest/services/OpenData/Infrastructure_Projects/FeatureServer/2/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -33,6 +33,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of feature in US feet"
 ---
+
 
 
 

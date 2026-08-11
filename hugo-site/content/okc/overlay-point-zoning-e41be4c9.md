@@ -7,12 +7,12 @@ tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundarie
 categories: ["Licensing"]
 cover: "covers/overlay-point-zoning-e41be4c9--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "e41be4c9bd794c2db35270448da83c82"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/e41be4c9bd794c2db35270448da83c82_0"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/e41be4c9bd794c2db35270448da83c82/rest/services/OpenData/Licensing_Zoning/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Planning Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Shape"
     description: "Geographic data in state plane coordinates (WKID 103512)"
 ---
+
 
 
 

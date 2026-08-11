@@ -4,14 +4,14 @@ date: "2026-06-09"
 description: "This dataset can be used to view information on street development benefit areas within the City of Oklahoma City.  More information about development fees can be found on okc.gov."
 teaser: "A dataset showing where street development projects are planned in the city"
 tags: ["okc", "oklahoma city", "streets", "impact fees", "benefit areas"]
-categories: ["Licensing"]
-cover: "covers/streets-development-program-benefit-areas-5377697e--licensing--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/streets-development-program-benefit-areas-5377697e--finance--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "5377697e59b34ad1a749063b73205886"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/5377697e59b34ad1a749063b73205886/rest/services/OpenData/Licensing_Permits/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 dictionary:
   - field: "ObjectID"
@@ -29,6 +29,7 @@ dictionary:
   - field: "Area"
     description: "Approximate area of feature in US square feet"
 ---
+
 
 
 

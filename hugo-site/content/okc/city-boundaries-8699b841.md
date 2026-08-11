@@ -7,12 +7,12 @@ tags: [" oklahoma city", "boundary", "boundaries", "city", "jurisdiction"]
 categories: ["Government"]
 cover: "covers/city-boundaries-8699b841--government--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "8699b8414ebd476e87db5486f116b00a"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/8699b8414ebd476e87db5486f116b00a_1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/8699b8414ebd476e87db5486f116b00a/rest/services/OpenData/Government_Boundaries/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Information Technology Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

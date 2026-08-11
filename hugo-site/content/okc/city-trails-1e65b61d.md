@@ -7,12 +7,12 @@ tags: [" oklahoma city", "walking", "biking", "parks", "trails", "recreation"]
 categories: ["Parks & Recreation"]
 cover: "covers/city-trails-1e65b61d--parks-recreation--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "1e65b61d07f5458a90d4cfa01e882044"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/1e65b61d07f5458a90d4cfa01e882044_3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/1e65b61d07f5458a90d4cfa01e882044/rest/services/OpenData/Recreation_Parks/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Parks Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -43,6 +43,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

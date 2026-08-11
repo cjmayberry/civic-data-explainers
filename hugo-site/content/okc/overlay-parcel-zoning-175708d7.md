@@ -7,12 +7,12 @@ tags: ["oklahoma city", "zoning", "zones", "subdivision", "boundary", "boundarie
 categories: ["Licensing"]
 cover: "covers/overlay-parcel-zoning-175708d7--licensing--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "175708d7ab7148109d1b9d27c82008d8"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/175708d7ab7148109d1b9d27c82008d8_1"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/175708d7ab7148109d1b9d27c82008d8/rest/services/OpenData/Licensing_Zoning/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Planining Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -31,6 +31,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

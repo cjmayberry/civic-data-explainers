@@ -4,15 +4,15 @@ date: "2026-06-10"
 description: "This dataset can be used to determine the location of waterbodies, such as lakes, ponds, and other types, within the City of Oklahoma City."
 teaser: "This dataset shows the locations of lakes, ponds, and other waterbodies in Oklahoma City"
 tags: [" oklahoma city", "lakes", "ponds", "water", "drainage", "hydrology", "waterbody", "waterbodies", "recreation"]
-categories: ["Infrastructure"]
-cover: "covers/waterbodies-a6b9c703--infrastructure--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/waterbodies-a6b9c703--environment--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "a6b9c70396904437af69a95e49f9671e"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/a6b9c70396904437af69a95e49f9671e_3"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/a6b9c70396904437af69a95e49f9671e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 

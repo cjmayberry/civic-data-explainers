@@ -4,15 +4,15 @@ date: "2026-06-10"
 description: "This dataset can be used to the location of waterways, such as rivers and streams, within the City of Oklahoma City."
 teaser: "This dataset tracks the location of rivers, streams, and other waterways within Oklahoma City limits"
 tags: [" oklahoma city", "streams", "rivers", "drainage", "hydrology", "waterways", "recreation"]
-categories: ["Infrastructure"]
-cover: "covers/waterways-7107d3b8--infrastructure--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/waterways-7107d3b8--environment--placeholder.svg"
 source_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4"
-geojson_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: "custom"
 dataset_id: "7107d3b89c614b10a53161237fc6d31e"
 city: "okc"
 site_url: "https://open-okc.hub.arcgis.com"
 map_link: "https://open-okc.hub.arcgis.com/datasets/7107d3b89c614b10a53161237fc6d31e_4"
+geojson_url: "https://utility.arcgis.com/usrsvcs/servers/7107d3b89c614b10a53161237fc6d31e/rest/services/OpenData/Infrastructure_Hydrology/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 maintained_by: "This dataset is maintained by the Public Works Department of the City of Oklahoma City."
 draft: false
 dictionary:
@@ -29,6 +29,7 @@ dictionary:
   - field: "Length"
     description: "Approximate length of perimeter of feature in US feet"
 ---
+
 
 
 
