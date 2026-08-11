@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "Official boundaries for all State Forests managed by the Tennessee Division of Forestry (TDF). This is the authoritative dataset for TDF-managed forest lands. Tennessee State Forest Boundaries Overview This feature layer"
 teaser: "Official boundaries for all State Forests managed by the Tennessee Division of Forestry (TDF). This is the authoritative dataset for TDF-managed forest lands. Tennessee…"
 tags: ["State Forest", "Tennessee", "boundaries", "location"]
-categories: ["Parks & Recreation"]
-cover: "covers/tennessee-state-forest-boundaries-cbae4ca7--parks-recreation--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/tennessee-state-forest-boundaries-cbae4ca7--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_State_Forest_Boundaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cbae4ca785114a1d99d99c46f0f7df91"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset shows the official boundaries and details of all state forests managed by the Tennessee Division of Forestry.  

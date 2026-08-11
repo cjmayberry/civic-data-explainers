@@ -3,9 +3,8 @@ title: "WaterfowlBlinds"
 date: "2026-08-02"
 description: "Waterfowl blinds as set by the commission for the 2024-2025 waterfowl season - Created from the June 2023 layer in duckblinds geodatabase"
 teaser: "Waterfowl blinds as set by the commission for the 2024-2025 waterfowl season - Created from the June 2023 layer in duckblinds geodatabase"
-tags: []
-categories: ["Default"]
-cover: "covers/waterfowlblinds-25d32a1b--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/waterfowlblinds-25d32a1b--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WaterfowlBlinds/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=25d32a1b287c4a43955c96316d12f0a6"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the locations and details of designated waterfowl hunting blinds across Tennessee's Wildlife Management Areas for the 2024-2025 hunting season.

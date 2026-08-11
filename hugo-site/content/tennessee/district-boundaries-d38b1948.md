@@ -5,7 +5,7 @@ description: "Official District boundaries of the Tennessee Disivion of Forestry
 teaser: "Official District boundaries of the Tennessee Disivion of Forestry (TDF). This is a TDF-authoritative dataset. Tennessee Division of Foresstry District Boundaries…"
 tags: ["Boundaries", "Districts", "TDF", "Admin"]
 categories: ["Government"]
-cover: "covers/district-boundaries-d38b1948--government--cover_only.svg"
+cover: "covers/district-boundaries-d38b1948--government--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/District_Boundaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d38b1948930e4e9a80af74aed54abdf1"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the four official forestry district boundaries in Tennessee and their forest coverage statistics.

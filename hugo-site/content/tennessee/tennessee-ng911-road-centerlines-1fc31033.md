@@ -3,9 +3,8 @@ title: "Tennessee NG911 Road Centerlines"
 date: "2026-08-02"
 description: "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road centerlines for the state of Tennessee as part of the"
 teaser: "Road centerlines for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Road…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-ng911-road-centerlines-1fc31033--default--cover_only.svg"
+categories: ["Public Safety"]
+cover: "covers/tennessee-ng911-road-centerlines-1fc31033--public-safety--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Road_Centerlines/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1fc31033fdc446a5b10e7c48f3739a46"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset maps every road centerline across Tennessee with precise address ranges and geographic boundaries for the state's Next Generation 911 emergency response system.

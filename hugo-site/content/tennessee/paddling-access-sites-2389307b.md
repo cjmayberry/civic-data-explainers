@@ -3,9 +3,8 @@ title: "Paddling Access Sites"
 date: "2026-08-02"
 description: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature service provides comprehensive spatial data paddlin"
 teaser: "This service maps Tennessee's paddling access sites, detailing facilities, amenities, and access information for statewide recreational water use. Overview This feature…"
-tags: []
-categories: ["Default"]
-cover: "covers/paddling-access-sites-2389307b--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/paddling-access-sites-2389307b--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Paddling_Access_Sites/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2389307bc0a4478697036b48ef2de733"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps public paddling access sites across Tennessee, including details about facilities, parking, and waterway access.

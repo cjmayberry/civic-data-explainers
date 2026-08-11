@@ -3,9 +3,8 @@ title: "TN House Districts"
 date: "2026-08-02"
 description: "Boundaries for the Tennessee House of Representatives. Boundary data is from 2022, population data is from the 2020 Census. Representatives are from www.capitol.tn.gov."
 teaser: "Boundaries for the Tennessee House of Representatives. Boundary data is from 2022, population data is from the 2020 Census. Representatives "
-tags: []
-categories: ["Default"]
-cover: ""
+categories: ["Government"]
+cover: "covers/tn-house-districts-0d94ca77--government--placeholder.svg"
 source_url: "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/1"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0d94ca770ac84d679fc3615fc2dcad88&sublayer=1"
@@ -15,6 +14,7 @@ map_link: "https://geodata.tn.gov/datasets/tnmap::tn-house-districts"
 geojson_url: "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this is

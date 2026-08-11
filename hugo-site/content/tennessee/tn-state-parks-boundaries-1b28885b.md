@@ -3,9 +3,8 @@ title: "TN State Parks Boundaries"
 date: "2026-08-02"
 description: "Polygon feature class representing the boundaries of Tennessee State Parks. This feature class contains boundaries for Tennessee State Parks. The boundaries represented within do not constitute a survey product and are n"
 teaser: "Polygon feature class representing the boundaries of Tennessee State Parks. This feature class contains boundaries for Tennessee State Parks. The boundaries represented…"
-tags: []
-categories: ["Default"]
-cover: "covers/tn-state-parks-boundaries-1b28885b--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/tn-state-parks-boundaries-1b28885b--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1b28885be2274ea885f32af5352094e1"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the official boundaries of all Tennessee State Parks.

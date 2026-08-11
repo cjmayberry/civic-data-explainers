@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "Tennessee soil units derived from gSSURGO dataset published by the USDA. This is a TDF authoritative dataset for statewide soils. Tennessee gSSURGO Soils Overview This feature layer represents the authoritative statewide"
 teaser: "Tennessee soil units derived from gSSURGO dataset published by the USDA. This is a TDF authoritative dataset for statewide soils. Tennessee gSSURGO Soils Overview This…"
 tags: ["Soils", "Tennessee", "Environment"]
-categories: ["Other"]
-cover: "covers/soils-tennessee-f0e77996--other--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/soils-tennessee-f0e77996--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Soils_Tennessee/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f0e77996c7494a4288498983ea26b6c5"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps Tennessee's soil types and their properties, including drainage, farmland quality, and vegetation cover.

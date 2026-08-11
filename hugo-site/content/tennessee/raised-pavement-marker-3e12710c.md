@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where raised paveme
 teaser: "This layer is a cartographic representation of where raised pavement markers have been installed on all interstates, state routes, and locally owned NHS routes. This…"
 tags: ["Raised Pavement Markers, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/raised-pavement-marker-3e12710c--transportation--cover_only.svg"
+cover: "covers/raised-pavement-marker-3e12710c--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Raised_Pavement_Marker/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3e12710c0c65456d97624884f940b602"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the locations and types of raised pavement markers (like reflective road studs) installed on interstates, state routes, and key local roads in Tennessee.

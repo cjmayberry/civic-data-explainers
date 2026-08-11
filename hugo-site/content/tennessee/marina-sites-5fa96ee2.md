@@ -3,9 +3,8 @@ title: "Marina Sites"
 date: "2026-08-02"
 description: "This service features detailed data on Tennessee marinas, including amenities, parking, and access information for statewide recreational use. Overview This feature service provides comprehensive data on marinas located "
 teaser: "This service features detailed data on Tennessee marinas, including amenities, parking, and access information for statewide recreational use. Overview This feature…"
-tags: []
-categories: ["Default"]
-cover: "covers/marina-sites-5fa96ee2--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/marina-sites-5fa96ee2--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Marina_Sites_View/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5fa96ee2ba4e40d4abe7a62dd02d3b92"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records detailed information about marinas and boat launch sites across Tennessee, including amenities, parking, and access details.

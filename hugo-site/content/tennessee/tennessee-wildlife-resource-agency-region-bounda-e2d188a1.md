@@ -3,9 +3,8 @@ title: "Tennessee Wildlife Resource Agency Region Boundaries"
 date: "2026-08-02"
 description: "Polygon boundaries defining management regions of the Tennessee Wildlife Resources Agency for conservation and public land management purposes. Overview This service provides detailed polygon boundaries representing the "
 teaser: "Polygon boundaries defining management regions of the Tennessee Wildlife Resources Agency for conservation and public land management purposes. Overview This service…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-wildlife-resource-agency-region-bounda-e2d188a1--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/tennessee-wildlife-resource-agency-region-bounda-e2d188a1--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Region_Boundaries_view/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e2d188a109fb45b9a39dd670e3830386"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the seven administrative regions where the Tennessee Wildlife Resources Agency (TWRA) manages wildlife conservation and public lands.

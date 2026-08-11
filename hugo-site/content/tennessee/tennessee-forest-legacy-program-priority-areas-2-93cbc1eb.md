@@ -3,9 +3,8 @@ title: "Tennessee Forest Legacy Program Priority Areas (2020-2030)"
 date: "2026-08-02"
 description: "Tennessee Department of Agriculture, Division of Forestry updated priority areas for the Forest Legacy Program in its statewide Tennessee Forest Action Plan, 2020-2030. Visit our website to download a copy of the plan: h"
 teaser: "Tennessee Department of Agriculture, Division of Forestry updated priority areas for the Forest Legacy Program in its statewide Tennessee Forest Action Plan, 2020-2030.…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--default--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--environment--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TN_Legacy_Priorities_2020_2030/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=93cbc1eba56346768417e127a302a7f3"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset maps priority areas across Tennessee where the state's Forest Legacy Program focuses conservation efforts to protect important forestlands from development between 2020-2030.

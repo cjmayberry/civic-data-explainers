@@ -3,9 +3,8 @@ title: "Active Statewide Childcare Locations"
 date: "2026-08-02"
 description: "This layer contains childcare locations from Tennessee Dept. of Human Services (DHS). It is only those locations set to active and childcare only. Locations at educational (Dept. of Education) facilities are not part of "
 teaser: "This layer contains childcare locations from Tennessee Dept. of Human Services (DHS). It is only those locations set to active and childcare only. Locations at…"
-tags: []
-categories: ["Default"]
-cover: "covers/active-statewide-childcare-locations-bfe29552--default--cover_only.svg"
+categories: ["Education"]
+cover: "covers/active-statewide-childcare-locations-bfe29552--education--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Active_ChildCare_Locations/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bfe29552601b4d8793b1fba580c2e3fd"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset lists all active childcare providers in Tennessee that are licensed by the Department of Human Services (excluding school-based programs).  

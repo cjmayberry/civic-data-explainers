@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the IRWIN system and reflects a snapshot in time of what"
 teaser: "This dataset represents Wildland Fire Incident Locations displayed for the State of Tennessee. The data consists of operational fire occurrence records reported to the…"
 tags: ["IRWIN", "InFORM", "NIFC", "fire", "wildfire", "Tennessee"]
-categories: ["Other"]
-cover: "covers/wildland-fire-incident-locations-0750acfb--other--cover_only.svg"
+categories: ["Public Safety"]
+cover: "covers/wildland-fire-incident-locations-0750acfb--public-safety--placeholder.svg"
 source_url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0750acfb282542448db32d57724d41c7"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records active and historical wildland fire incidents across Tennessee, including their locations, sizes, causes, and containment status.

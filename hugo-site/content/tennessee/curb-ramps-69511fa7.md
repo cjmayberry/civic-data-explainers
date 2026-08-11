@@ -3,9 +3,8 @@ title: "Curb Ramps"
 date: "2026-08-02"
 description: "ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Specialty Pavement Markings, Curb Ramps, and Sidewalks. ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Spec"
 teaser: "ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Specialty Pavement Markings, Curb Ramps, and Sidewalks. ADA-related infrastructure.…"
-tags: []
-categories: ["Default"]
-cover: "covers/curb-ramps-69511fa7--default--cover_only.svg"
+categories: ["Transportation"]
+cover: "covers/curb-ramps-69511fa7--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=69511fa73a584e2bb37acfa85b177fa5&sublayer=0"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the location and accessibility features of curb ramps across Tennessee, including slope measurements, width, and truncated dome presence.

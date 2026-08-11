@@ -3,9 +3,8 @@ title: "TWRA Hunting Allowed Lands"
 date: "2026-08-02"
 description: "This dataset displays the boundaries of lands owned and managed by the Tennessee Wildlife Resources Agency (TWRA) where hunting is allowed, including detailed management and regional information. Overview This feature se"
 teaser: "This dataset displays the boundaries of lands owned and managed by the Tennessee Wildlife Resources Agency (TWRA) where hunting is allowed, including detailed management…"
-tags: []
-categories: ["Default"]
-cover: "covers/twra-hunting-allowed-lands-e4fb1224--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/twra-hunting-allowed-lands-e4fb1224--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Hunting_Allowed/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e4fb12241a214afea24b41377cc9f7bd"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset shows all Tennessee Wildlife Resources Agency (TWRA)-managed lands where hunting is legally permitted.

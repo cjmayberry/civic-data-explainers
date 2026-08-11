@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where concrete barr
 teaser: "This layer is a cartographic representation of where concrete barrier walls have been installed on all interstates, state routes, and locally owned NHS routes. This…"
 tags: ["Concrete Barrier Wall, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/concrete-barrier-wall-784fdeb5--transportation--cover_only.svg"
+cover: "covers/concrete-barrier-wall-784fdeb5--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Concrete_Barrier_Wall/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=784fdeb5348c418fac9fa8a95b9d8e30"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the locations and specifications of concrete barrier walls installed along Tennessee's interstates, state routes, and major highways.

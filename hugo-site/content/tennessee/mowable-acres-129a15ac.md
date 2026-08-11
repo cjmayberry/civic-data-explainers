@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "This layer is a cartographic representation of where mowable acres exist on all interstates, state routes, and locally owned NHS routes. Mowable areas are defined as any area covered in grass with a slope less than 3:1 w"
 teaser: "This layer is a cartographic representation of where mowable acres exist on all interstates, state routes, and locally owned NHS routes. Mowable areas are defined as any…"
 tags: ["Mowable Acres, Tennessee"]
-categories: ["Parks & Recreation"]
-cover: "covers/mowable-acres-129a15ac--parks-recreation--cover_only.svg"
+categories: ["Infrastructure"]
+cover: "covers/mowable-acres-129a15ac--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mowable_Acres/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=129a15ac62f240108854fd880bfe069c"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps mowable grass areas along Tennessee's interstates, state routes, and local highways where slopes are gentle enough (less than 3:1) for maintenance crews to cut safely.

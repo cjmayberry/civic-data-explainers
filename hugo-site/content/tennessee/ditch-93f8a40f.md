@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where paved and unp
 teaser: "This layer is a cartographic representation of where paved and unpaved ditches have been installed on all interstates, state routes, TDOT maintained state park roads…"
 tags: ["Ditch, Tennessee"]
 categories: ["Infrastructure"]
-cover: "covers/ditch-93f8a40f--infrastructure--cover_only.svg"
+cover: "covers/ditch-93f8a40f--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Ditch/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=93f8a40fc2fb4b1bbe6784b7bd36efe3"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps paved and unpaved ditches along interstates, state routes, and select roads in Tennessee, collected using LiDAR and cameras.  

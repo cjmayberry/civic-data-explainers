@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where roadways were
 teaser: "This layer is a cartographic representation of where roadways were under construction when the asset and photolog vendor collected a route. This occurs on interstates…"
 tags: ["Construction, Tennessee"]
 categories: ["Infrastructure"]
-cover: "covers/construction-d095eddf--infrastructure--cover_only.svg"
+cover: "covers/construction-d095eddf--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Construction/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d095eddf13484b5ea856dee2037300e4"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset shows where Tennessee roadways were under construction when surveyed by TDOT's mapping vehicles.

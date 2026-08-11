@@ -3,9 +3,8 @@ title: "State Aid Route Funding"
 date: "2026-08-02"
 description: "Provide a fiscal year summary of mileage and dollars spent in the State-Aid program. The number of miles and the amount of state-aid dollars spent during that fiscal year on state-aid roads. The data will be used by TDOT"
 teaser: "Provide a fiscal year summary of mileage and dollars spent in the State-Aid program. The number of miles and the amount of state-aid dollars spent during that fiscal…"
-tags: []
-categories: ["Default"]
-cover: "covers/state-aid-route-funding-6465d80a--default--cover_only.svg"
+categories: ["Finance"]
+cover: "covers/state-aid-route-funding-6465d80a--finance--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/State_Aid_Route_Funding/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6465d80a1f71490f8581a466c3f03119"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records how many miles of state-aid roads were maintained and how much funding was spent per county each fiscal year in Tennessee.

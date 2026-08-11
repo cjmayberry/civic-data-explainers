@@ -5,7 +5,7 @@ description: "This layer contains Bike Level of Service (BLOS) scores for state,
 teaser: "This layer contains Bike Level of Service (BLOS) scores for state, arterial, and collector routes in Tennessee. This layer contains Bike Level of Service (BLOS) scores…"
 tags: ["Bike Level of Service, BLOS, Multimodal, Planning, Transportation"]
 categories: ["Transportation"]
-cover: "covers/bike-level-of-service-3dccf74a--transportation--cover_only.svg"
+cover: "covers/bike-level-of-service-3dccf74a--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bike_Level_of_Service/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3dccf74a4d4a4dc7a849dfd43ec67868"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset measures how bicycle-friendly major roads are throughout Tennessee, rating each road segment with letter grades from A to F.

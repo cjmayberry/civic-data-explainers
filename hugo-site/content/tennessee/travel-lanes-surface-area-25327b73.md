@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where travel lanes 
 teaser: "This layer is a cartographic representation of where travel lanes exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes.…"
 tags: ["Travel Lane Surface Area, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/travel-lanes-surface-area-25327b73--transportation--cover_only.svg"
+cover: "covers/travel-lanes-surface-area-25327b73--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Travel_Lanes_Surface_Area/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=25327b73e77a4f42980d394a788422fb"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the exact locations and dimensions of travel lanes on Tennessee interstates, state routes, and select locally maintained roads.

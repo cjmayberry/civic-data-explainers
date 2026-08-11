@@ -5,7 +5,7 @@ description: "This table stores geometric data such as number of lanes, speed li
 teaser: "This table stores geometric data such as number of lanes, speed limits, and terrain. This dataset contains tabular polyline data showing the log miles, direction one-way…"
 tags: ["Tennessee, TDOT, TRIMS, Geometrics"]
 categories: ["Transportation"]
-cover: "covers/road-geometrics-552d7e44--transportation--cover_only.svg"
+cover: "covers/road-geometrics-552d7e44--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Geometrics/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=552d7e444d6941a58cfe699c6b4e2671"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the physical characteristics of Tennessee state roads, including speed limits, number of lanes, and terrain type for specific segments.

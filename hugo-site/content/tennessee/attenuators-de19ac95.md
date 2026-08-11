@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where impact attenu
 teaser: "This layer is a cartographic representation of where impact attenuators have been installed on all interstates, state routes, and locally owned NHS routes. This…"
 tags: ["Attenuators, Tennessee, TDOT, DOT, Asset Management Division, Asset Data, Assets, Inventory Data"]
 categories: ["Transportation"]
-cover: "covers/attenuators-de19ac95--transportation--cover_only.svg"
+cover: "covers/attenuators-de19ac95--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Attenuators/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=de19ac953c9d45b19612720911159c1f"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset shows the locations and details of impact attenuators (crash cushions) installed on Tennessee highways, interstates, and ramps.

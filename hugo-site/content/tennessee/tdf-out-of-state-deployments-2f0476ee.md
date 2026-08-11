@@ -5,7 +5,7 @@ description: "This dataset represents Tennessee Division of Forestry out-of-stat
 teaser: "This dataset represents Tennessee Division of Forestry out-of-state deployment records, including personnel and equipment assigned to support regional and national…"
 tags: ["deployments", "fire", "wildfire", "Tennessee", "TDF", "emergency", "response"]
 categories: ["Government"]
-cover: "covers/tdf-out-of-state-deployments-2f0476ee--government--cover_only.svg"
+cover: "covers/tdf-out-of-state-deployments-2f0476ee--government--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/TDF_Out_of_State_Deployments_WFL1/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2f0476eeb07f4e50b3c0d98fadab6af3"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records Tennessee Division of Forestry (TDF) deployments of personnel and equipment to assist with wildfires in other states.  

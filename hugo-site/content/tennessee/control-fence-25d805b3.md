@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where access contro
 teaser: "This layer is a cartographic representation of where access control fences have been installed on all interstates, state routes, and locally owned NHS routes. This…"
 tags: ["Access Control Fence, Tennessee"]
 categories: ["Infrastructure"]
-cover: "covers/control-fence-25d805b3--infrastructure--cover_only.svg"
+cover: "covers/control-fence-25d805b3--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Control_Fence/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=25d805b3dd6341f6a03ea4acbfe21f16"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the locations and details of access control fences installed along Tennessee's interstates, state routes, and major highways.

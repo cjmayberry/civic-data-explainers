@@ -3,9 +3,8 @@ title: "Tennessee Statewide Trails Lines Public"
 date: "2026-08-02"
 description: "Compiled from various sources, this dataset consists of publicly accessible trails and greenways in Tennessee. This dataset was compiled from various sources to support the TREC Project. Data is constantly being updated "
 teaser: "Compiled from various sources, this dataset consists of publicly accessible trails and greenways in Tennessee. This dataset was compiled from various sources to support…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-statewide-trails-lines-public-49ef503e--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/tennessee-statewide-trails-lines-public-49ef503e--parks-recreation--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Statewide_Trails_Lines_Public/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=49ef503e293348f68a91f077ca253946"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records publicly accessible trails and greenways across Tennessee, including their locations, management, and features.

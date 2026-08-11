@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where entrance pipe
 teaser: "This layer is a cartographic representation of where entrance pipes have been installed on all interstates, state routes, TDOT maintained state park roads, and locally…"
 tags: ["Entrance Pipes, Tennessee"]
 categories: ["Infrastructure"]
-cover: "covers/entrance-pipe-7774c2dc--infrastructure--cover_only.svg"
+cover: "covers/entrance-pipe-7774c2dc--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Entrance_Pipe/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7774c2dc8a494f909b46948f04b76f4c"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the locations of entrance pipes installed along Tennessee's interstates, state routes, and other major highways.

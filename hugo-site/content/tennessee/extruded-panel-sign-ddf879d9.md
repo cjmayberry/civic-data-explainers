@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where extruded pane
 teaser: "This layer is a cartographic representation of where extruded panel signs have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
 tags: ["Extruded Panel Signs, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/extruded-panel-sign-ddf879d9--transportation--cover_only.svg"
+cover: "covers/extruded-panel-sign-ddf879d9--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Extruded_Panel_Sign/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ddf879d9cd3a48918ddada14817e09fb"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the locations and details of extruded panel signs (large highway signs with raised lettering) on Tennessee interstates, state routes, and select park roads.

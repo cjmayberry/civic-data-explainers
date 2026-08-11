@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "The present goal of the Service is to provide the citizens of the United States and its Trust Territories with current geospatially referenced information on the status, extent, characteristics and functions of wetlands,"
 teaser: "The present goal of the Service is to provide the citizens of the United States and its Trust Territories with current geospatially referenced information on the status…"
 tags: ["environment", "oceans", "geoscientificInformation", "inlandWaters", "USFWS", "National Wetlands Inventory", "Deepwater habitats", "NWI"]
-categories: ["Other"]
-cover: "covers/national-wetlands-inventory-b02ce30e--other--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/national-wetlands-inventory-b02ce30e--environment--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/National_Wetlands_Inventory/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b02ce30ef95b45c8a50f19f54b40ab5e"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset maps the location, size, and type of wetlands, lakes, and other water habitats across Tennessee.

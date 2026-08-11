@@ -3,9 +3,8 @@ title: "TN Scenic Rivers Lines"
 date: "2026-08-02"
 description: "Line feature class representing rivers or river segments designated as Tennessee Scenic Rivers. This line feature class contains rivers or river segments designated as Tennessee Scenic Rivers. The extents represented wit"
 teaser: "Line feature class representing rivers or river segments designated as Tennessee Scenic Rivers. This line feature class contains rivers or river segments designated as…"
-tags: []
-categories: ["Default"]
-cover: "covers/tn-scenic-rivers-lines-4f61bcb9--default--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/tn-scenic-rivers-lines-4f61bcb9--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Scenic_Rivers_line_view/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4f61bcb9e882461880c1cbc4e5c32a20"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps rivers and river segments in Tennessee officially designated as Scenic Rivers under state law.

@@ -3,9 +3,8 @@ title: "Tennessee Wildlife Management Area Entrances"
 date: "2026-08-02"
 description: "This feature service maps entrances to Wildlife Management Areas across Tennessee, supporting public access, hunting, and wildlife conservation efforts. Overview This feature service provides detailed geographic data on "
 teaser: "This feature service maps entrances to Wildlife Management Areas across Tennessee, supporting public access, hunting, and wildlife conservation efforts. Overview This…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-wildlife-management-area-entrances-5ed7fa43--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/tennessee-wildlife-management-area-entrances-5ed7fa43--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/WMA_Entrances/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5ed7fa43f2df4409ab9d9fce4ba4faa7"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the entrances to Wildlife Management Areas (WMAs) across Tennessee, including their coordinates and access details.

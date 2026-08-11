@@ -5,7 +5,7 @@ description: "This layer contains the streams impacted by the 10 year projects f
 teaser: "This layer contains the streams impacted by the 10 year projects from 2024, and the mitigation credits associated with each. This layer contains the streams impacted by…"
 tags: ["Watershed Mitigation, Mitgation Banks, Streams, 10 year projects, Transportation, TMA"]
 categories: ["Transportation"]
-cover: "covers/impacted-streams-subbasin-project-pins-3556056b--transportation--cover_only.svg"
+cover: "covers/impacted-streams-subbasin-project-pins-3556056b--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Impacted_Streams_Subbasin_Project_PINs/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3556056bd4ed44cfa7380625cbcb8b85"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset tracks Tennessee streams impacted by upcoming 10-year transportation projects, including mitigation credits and project details.

@@ -5,7 +5,7 @@ description: "This table stores data describing the cross section of the roadway
 teaser: "This table stores data describing the cross section of the roadway from the left side to the right side of the roadway. This dataset contains tabular polyline data…"
 tags: ["Tennessee", "TDOT", "TRIMS", "Description"]
 categories: ["Transportation"]
-cover: "covers/road-description-500e6539--transportation--cover_only.svg"
+cover: "covers/road-description-500e6539--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Description/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=500e65397304406dbc6cc6a8e4b89af8"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the physical features of Tennessee roadways, including drainage systems, shoulders, and other cross-section elements along specific route segments.

@@ -3,9 +3,8 @@ title: "Bridge Condition Annual Summary"
 date: "2026-08-02"
 description: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field inspections. These descriptions are from the FHWA Recordin"
 teaser: "Tennessee bridge condition represented individually and as a county level summary. Reporting year is 2022. General Information Bridge condition is based on field…"
-tags: []
-categories: ["Default"]
-cover: "covers/bridge-condition-annual-summary-8d89d92e--default--cover_only.svg"
+categories: ["Infrastructure"]
+cover: "covers/bridge-condition-annual-summary-8d89d92e--infrastructure--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Bridge_Condition/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=8d89d92e76d54ba08290b652b74c4549&sublayer=1"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the structural condition of every bridge in Tennessee as of 2022, based on official field inspections.

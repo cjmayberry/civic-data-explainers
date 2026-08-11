@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where shoulders exi
 teaser: "This layer is a cartographic representation of where shoulders exist on all interstates, state routes, TDOT maintained state park roads, and locally owned NHS routes.…"
 tags: ["Shoulder Surface Area, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/shoulder-surface-area-5bf235c8--transportation--cover_only.svg"
+cover: "covers/shoulder-surface-area-5bf235c8--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Shoulder_Surface_Area/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5bf235c8353a4f1a91802385dd6fb87b"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps the location and dimensions of road shoulders along interstates, state routes, and select locally maintained roads in Tennessee.

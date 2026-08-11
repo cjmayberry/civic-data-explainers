@@ -2,22 +2,45 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-08T22:09:37Z",
+  "generated_at": "2026-08-11T14:43:03Z",
   "dataset_schema": 2,
   "datasets": [
+    {
+      "slug": "_index",
+      "title": "Tennessee explainers",
+      "city": "Tennessee",
+      "city_slug": "tennessee",
+      "display_category": "Default",
+      "category": "Default",
+      "content_status": "stub",
+      "content_model": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "_index--default--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
+      "schema": null,
+      "source_url": null,
+      "inquiry_enabled": false,
+      "inquiry_search_field": null,
+      "inquiry_field": null,
+      "inquiry_label": null,
+      "inquiry_extra": [],
+      "enrichment_status": null,
+      "last_updated": "2026-08-11T14:43:03Z"
+    },
     {
       "slug": "active-statewide-childcare-locations-bfe29552",
       "title": "Active Statewide Childcare Locations",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Education",
+      "category": "Education",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "active-statewide-childcare-locations-bfe29552--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "active-statewide-childcare-locations-bfe29552--education--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -103,21 +126,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "ada-asset-data-69511fa7",
       "title": "ADA Asset Data",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "ada-asset-data-69511fa7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "ada-asset-data-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -396,21 +419,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "adopted-location-61cf8755",
       "title": "ADOPTED LOCATION",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "adopted-location-61cf8755--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "adopted-location-61cf8755--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -523,21 +546,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "adopter-61cf8755",
       "title": "ADOPTER",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "adopter-61cf8755--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "adopter-61cf8755--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -650,7 +673,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "attenuators-de19ac95",
@@ -661,10 +684,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "attenuators-de19ac95--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "attenuators-de19ac95--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -826,7 +849,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "bike-level-of-service-3dccf74a",
@@ -837,10 +860,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "bike-level-of-service-3dccf74a--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "bike-level-of-service-3dccf74a--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -967,22 +990,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "boat-launch-sites-b3ab0451",
       "title": "Boat Launch Sites",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "boat-launch-sites-b3ab0451--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "boat-launch-sites-b3ab0451--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1289,22 +1311,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "bridge-condition-8d89d92e",
       "title": "Bridge Condition",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "bridge-condition-8d89d92e--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "bridge-condition-8d89d92e--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1379,21 +1400,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "bridge-condition-annual-8d89d92e",
       "title": "Bridge Condition Annual",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "bridge-condition-annual-8d89d92e--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "bridge-condition-annual-8d89d92e--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1468,21 +1489,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "bridge-condition-annual-summary-8d89d92e",
       "title": "Bridge Condition Annual Summary",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "bridge-condition-annual-summary-8d89d92e--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "bridge-condition-annual-summary-8d89d92e--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1557,7 +1578,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "concrete-barrier-wall-784fdeb5",
@@ -1568,10 +1589,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "concrete-barrier-wall-784fdeb5--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "concrete-barrier-wall-784fdeb5--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1726,7 +1747,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "construction-d095eddf",
@@ -1737,10 +1758,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "construction-d095eddf--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "construction-d095eddf--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -1865,7 +1886,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "control-fence-25d805b3",
@@ -1876,10 +1897,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "control-fence-25d805b3--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "control-fence-25d805b3--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -2028,21 +2049,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "counties-f44bd806",
       "title": "counties",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "counties-f44bd806--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "counties-f44bd806--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -2105,22 +2126,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "crosswalks-69511fa7",
       "title": "Crosswalks",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "crosswalks-69511fa7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "crosswalks-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -2399,7 +2419,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "curb-and-gutter-segment-af31b5b8",
@@ -2410,10 +2430,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "curb-and-gutter-segment-af31b5b8--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "curb-and-gutter-segment-af31b5b8--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -2550,21 +2570,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "curb-ramps-69511fa7",
       "title": "Curb Ramps",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "curb-ramps-69511fa7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "curb-ramps-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -2843,7 +2863,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "delineator-9bc8a54b",
@@ -2854,10 +2874,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "delineator-9bc8a54b--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "delineator-9bc8a54b--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3006,7 +3026,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "district-boundaries-d38b1948",
@@ -3017,10 +3037,10 @@
       "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "district-boundaries-d38b1948--government--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "district-boundaries-d38b1948--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3094,8 +3114,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "ditch-93f8a40f",
@@ -3106,10 +3125,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "ditch-93f8a40f--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "ditch-93f8a40f--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3258,7 +3277,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "drain-1461275b",
@@ -3269,10 +3288,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "drain-1461275b--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "drain-1461275b--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3417,7 +3436,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "entrance-pipe-7774c2dc",
@@ -3428,10 +3447,10 @@
       "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "entrance-pipe-7774c2dc--infrastructure--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "entrance-pipe-7774c2dc--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3581,7 +3600,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "extruded-panel-sign-ddf879d9",
@@ -3592,10 +3611,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "extruded-panel-sign-ddf879d9--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "extruded-panel-sign-ddf879d9--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -3788,21 +3807,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "find-a-park-points-data-filters-tn-state-parks-d54ec10b",
       "title": "Find-A-Park Points Data Filters - TN State Parks",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "find-a-park-points-data-filters-tn-state-parks-d54ec10b--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "find-a-park-points-data-filters-tn-state-parks-d54ec10b--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -4267,22 +4286,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "fish-attractor-locations-for-habitat-enhancement-ce62f590",
       "title": "Fish Attractor Locations for Habitat Enhancement and Angler Access",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "fish-attractor-locations-for-habitat-enhancement-ce62f590--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "fish-attractor-locations-for-habitat-enhancement-ce62f590--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -4407,22 +4425,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "fishing-sites-daf255dc",
       "title": "Fishing Sites",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "fishing-sites-daf255dc--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "fishing-sites-daf255dc--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -4702,8 +4719,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "flat-sheet-sign-35e8ee99",
@@ -4714,10 +4730,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "flat-sheet-sign-35e8ee99--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "flat-sheet-sign-35e8ee99--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -4910,7 +4926,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "guardrail-e6fc8455",
@@ -4921,10 +4937,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "guardrail-e6fc8455--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "guardrail-e6fc8455--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -5079,7 +5095,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "guardrail-terminal-14ec6d50",
@@ -5090,10 +5106,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "guardrail-terminal-14ec6d50--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "guardrail-terminal-14ec6d50--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -5251,7 +5267,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "impacted-streams-subbasin-project-pins-3556056b",
@@ -5262,10 +5278,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "impacted-streams-subbasin-project-pins-3556056b--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "impacted-streams-subbasin-project-pins-3556056b--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -5440,21 +5456,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "inform-fire-occurrence-data-record-fodr-de373a56",
       "title": "InFORM Fire Occurrence Data Record (FODR)",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "inform-fire-occurrence-data-record-fodr-de373a56--other--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "inform-fire-occurrence-data-record-fodr-de373a56--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InFORM_FireOccurrence_Public/FeatureServer",
       "inquiry_enabled": false,
@@ -5463,21 +5479,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "landscaping-and-flowers-1dd54a85",
       "title": "Landscaping and Flowers",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "landscaping-and-flowers-1dd54a85--parks-recreation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "landscaping-and-flowers-1dd54a85--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -5638,21 +5654,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "marina-sites-5fa96ee2",
       "title": "Marina Sites",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "marina-sites-5fa96ee2--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "marina-sites-5fa96ee2--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -5936,8 +5952,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "mile-marker-b51d9940",
@@ -5948,10 +5963,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "mile-marker-b51d9940--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "mile-marker-b51d9940--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -6138,21 +6153,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "mowable-acres-129a15ac",
       "title": "Mowable Acres",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "mowable-acres-129a15ac--parks-recreation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "mowable-acres-129a15ac--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -6301,21 +6316,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "naip-imagery-ndvi-6f6bcf8c",
       "title": "NAIP Imagery - NDVI",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "naip-imagery-ndvi-6f6bcf8c--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "naip-imagery-ndvi-6f6bcf8c--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://utility.arcgis.com/usrsvcs/servers/6f6bcf8c6d724db79f7dfb5c672c4a69/rest/services/NAIP/ImageServer",
       "inquiry_enabled": false,
@@ -6324,21 +6339,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "national-register-of-historic-places-boundaries--ee21901a",
       "title": "National Register Of Historic Places Boundaries - Tennessee",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "national-register-of-historic-places-boundaries--ee21901a--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "national-register-of-historic-places-boundaries--ee21901a--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/2",
       "inquiry_enabled": false,
@@ -6347,21 +6362,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "national-register-of-historic-places-points-tenn-0baa3ef7",
       "title": "National Register Of Historic Places Points - Tennessee",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "national-register-of-historic-places-points-tenn-0baa3ef7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "national-register-of-historic-places-points-tenn-0baa3ef7--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/NATIONAL_REGISTER_TN/MapServer/0",
       "inquiry_enabled": false,
@@ -6370,21 +6385,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "national-wetlands-inventory-b02ce30e",
       "title": "National Wetlands Inventory",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "national-wetlands-inventory-b02ce30e--other--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "national-wetlands-inventory-b02ce30e--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -6433,22 +6448,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "no-mow-19100c10",
       "title": "No Mow",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "no-mow-19100c10--parks-recreation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "no-mow-19100c10--infrastructure--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -6602,7 +6616,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "no-shoulder-ffc48608",
@@ -6613,10 +6627,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "no-shoulder-ffc48608--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "no-shoulder-ffc48608--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -6765,21 +6779,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "paddling-access-sites-2389307b",
       "title": "Paddling Access Sites",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "paddling-access-sites-2389307b--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "paddling-access-sites-2389307b--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7069,8 +7083,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pavement-marking-c183cdd4",
@@ -7081,10 +7094,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pavement-marking-c183cdd4--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pavement-marking-c183cdd4--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7233,21 +7246,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pavement-roughness-annual-dca2dabf",
       "title": "Pavement Roughness Annual",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pavement-roughness-annual-dca2dabf--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pavement-roughness-annual-dca2dabf--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7345,21 +7358,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pavement-roughness-annual-summary-dca2dabf",
       "title": "Pavement Roughness Annual Summary",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pavement-roughness-annual-summary-dca2dabf--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pavement-roughness-annual-summary-dca2dabf--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7457,21 +7470,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pavement-roughness-dca2dabf",
       "title": "Pavement Roughness",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pavement-roughness-dca2dabf--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pavement-roughness-dca2dabf--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7569,7 +7582,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pedestrian-level-traffic-stress-fb1448f0",
@@ -7580,10 +7593,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pedestrian-level-traffic-stress-fb1448f0--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pedestrian-level-traffic-stress-fb1448f0--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7681,22 +7694,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pedestrian-signal-69511fa7",
       "title": "Pedestrian Signal",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pedestrian-signal-69511fa7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pedestrian-signal-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -7975,21 +7987,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "pickup-details-61cf8755",
       "title": "PICKUP DETAILS",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "pickup-details-61cf8755--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "pickup-details-61cf8755--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8102,7 +8114,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "raised-pavement-marker-3e12710c",
@@ -8113,10 +8125,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "raised-pavement-marker-3e12710c--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "raised-pavement-marker-3e12710c--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8265,7 +8277,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "road-description-500e6539",
@@ -8276,10 +8288,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "road-description-500e6539--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "road-description-500e6539--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8371,8 +8383,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "road-geometrics-552d7e44",
@@ -8383,10 +8394,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "road-geometrics-552d7e44--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "road-geometrics-552d7e44--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8496,8 +8507,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "road-segment-37229399",
@@ -8508,10 +8518,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "road-segment-37229399--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "road-segment-37229399--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8701,8 +8711,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "rumble-strip-dbf60d13",
@@ -8713,10 +8722,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "rumble-strip-dbf60d13--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "rumble-strip-dbf60d13--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8865,21 +8874,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "sgcnbycoa2025-089d5b8c",
       "title": "SGCNbyCOA2025",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "sgcnbycoa2025-089d5b8c--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "sgcnbycoa2025-089d5b8c--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -8998,8 +9007,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "shoulder-surface-area-5bf235c8",
@@ -9010,10 +9018,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "shoulder-surface-area-5bf235c8--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "shoulder-surface-area-5bf235c8--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -9179,21 +9187,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "sidewalks-69511fa7",
       "title": "Sidewalks",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "sidewalks-69511fa7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "sidewalks-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -9472,21 +9480,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "soils-tennessee-f0e77996",
       "title": "Soils - Tennessee",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "soils-tennessee-f0e77996--other--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "soils-tennessee-f0e77996--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -9606,8 +9614,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "specialty-pavement-markings-69511fa7",
@@ -9618,10 +9625,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "specialty-pavement-markings-69511fa7--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "specialty-pavement-markings-69511fa7--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -9900,7 +9907,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "specialty-pavement-markings-aff8d2f2",
@@ -9911,10 +9918,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "specialty-pavement-markings-aff8d2f2--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "specialty-pavement-markings-aff8d2f2--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10082,21 +10089,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "state-aid-route-funding-6465d80a",
       "title": "State Aid Route Funding",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "state-aid-route-funding-6465d80a--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "state-aid-route-funding-6465d80a--finance--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10141,22 +10148,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tdec-huntable-areas-external-d33b97aa",
       "title": "TDEC Huntable Areas (external)",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tdec-huntable-areas-external-d33b97aa--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tdec-huntable-areas-external-d33b97aa--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10218,8 +10224,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tdf-out-of-state-deployments-2f0476ee",
@@ -10230,10 +10235,10 @@
       "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tdf-out-of-state-deployments-2f0476ee--government--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tdf-out-of-state-deployments-2f0476ee--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10314,22 +10319,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tdot-adopt-a-highway-public-data-view-61cf8755",
       "title": "TDOT Adopt-A-Highway Public Data View",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tdot-adopt-a-highway-public-data-view-61cf8755--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tdot-adopt-a-highway-public-data-view-61cf8755--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10442,21 +10446,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tdot-producer-list-plants-796303a7",
       "title": "TDOT Producer List Plants",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tdot-producer-list-plants-796303a7--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tdot-producer-list-plants-796303a7--licensing--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10567,21 +10571,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c",
       "title": "Tennessee Conservation Opportunity Areas and Species of Greatest Conservation Need 2025",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10700,8 +10704,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-fire-danger-rating-areas-59255f5c",
@@ -10712,10 +10715,10 @@
       "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-fire-danger-rating-areas-59255f5c--public-safety--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-fire-danger-rating-areas-59255f5c--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10769,22 +10772,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb",
       "title": "Tennessee Forest Legacy Program Priority Areas (2020-2030)",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -10833,22 +10835,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-ng911-address-points-f76e2673",
       "title": "Tennessee NG911 Address Points",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-ng911-address-points-f76e2673--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-ng911-address-points-f76e2673--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -11189,21 +11190,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-ng911-road-centerlines-1fc31033",
       "title": "Tennessee NG911 Road Centerlines",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-ng911-road-centerlines-1fc31033--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-ng911-road-centerlines-1fc31033--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -11487,21 +11488,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-polling-places-e47c3cff",
       "title": "Tennessee Polling Places",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-polling-places-e47c3cff--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-polling-places-e47c3cff--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/COMMUNITY/ELECTIONS_POLLING_PLACES/MapServer/0",
       "inquiry_enabled": false,
@@ -11510,21 +11511,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-public-safety-answering-point-boundari-c8563776",
       "title": "Tennessee Public Safety Answering Point Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-public-safety-answering-point-boundari-c8563776--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-public-safety-answering-point-boundari-c8563776--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -11561,22 +11562,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-river-miles-and-county-boundaries-f44bd806",
       "title": "Tennessee River Miles and County Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-river-miles-and-county-boundaries-f44bd806--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-river-miles-and-county-boundaries-f44bd806--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -11639,22 +11639,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-state-forest-boundaries-cbae4ca7",
       "title": "Tennessee State Forest Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-state-forest-boundaries-cbae4ca7--parks-recreation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-state-forest-boundaries-cbae4ca7--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -11756,22 +11755,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-statewide-recreation-areas-public-f6c2e752",
       "title": "Tennessee Statewide Recreation Areas Public",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-statewide-recreation-areas-public-f6c2e752--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-statewide-recreation-areas-public-f6c2e752--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12050,21 +12048,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-statewide-trails-lines-public-49ef503e",
       "title": "Tennessee Statewide Trails Lines Public",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-statewide-trails-lines-public-49ef503e--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-statewide-trails-lines-public-49ef503e--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12264,21 +12262,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-statewide-trails-points-public-87d9ef12",
       "title": "Tennessee Statewide Trails Points Public",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-statewide-trails-points-public-87d9ef12--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-statewide-trails-points-public-87d9ef12--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12473,7 +12471,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53",
@@ -12484,10 +12482,10 @@
       "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12541,22 +12539,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-wildlife-management-area-entrances-5ed7fa43",
       "title": "Tennessee Wildlife Management Area Entrances",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-wildlife-management-area-entrances-5ed7fa43--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-wildlife-management-area-entrances-5ed7fa43--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12631,22 +12628,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1",
       "title": "Tennessee Wildlife Resource Agency Region Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12689,22 +12685,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-city-boundaries-cf079cf3",
       "title": "TN City Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-city-boundaries-cf079cf3--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-city-boundaries-cf079cf3--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/COUNTY_BOUNDARIES_AND_CITY_BOUNDARIES/MapServer/0",
       "inquiry_enabled": false,
@@ -12713,21 +12708,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-coa25-089d5b8c",
       "title": "TN COA25",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-coa25-089d5b8c--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-coa25-089d5b8c--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12846,22 +12841,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-congressional-districts-90e47429",
       "title": "TN Congressional Districts",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-congressional-districts-90e47429--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-congressional-districts-90e47429--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/2",
       "inquiry_enabled": false,
@@ -12870,21 +12864,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-historical-commission-sites-fa1485bb",
       "title": "TN Historical Commission Sites",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-historical-commission-sites-fa1485bb--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-historical-commission-sites-fa1485bb--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL/HISTORICAL_COMMISSION/MapServer/0",
       "inquiry_enabled": false,
@@ -12893,21 +12887,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-house-districts-0d94ca77",
       "title": "TN House Districts",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-house-districts-0d94ca77--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-house-districts-0d94ca77--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/1",
       "inquiry_enabled": false,
@@ -12916,21 +12910,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-rivermiles-f44bd806",
       "title": "TN RiverMiles",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-rivermiles-f44bd806--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-rivermiles-f44bd806--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -12993,22 +12987,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-scenic-rivers-lines-4f61bcb9",
       "title": "TN Scenic Rivers Lines",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-scenic-rivers-lines-4f61bcb9--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-scenic-rivers-lines-4f61bcb9--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13081,22 +13074,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-senate-districts-977f2087",
       "title": "TN Senate Districts",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-senate-districts-977f2087--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-senate-districts-977f2087--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/ADMINISTRATIVE_BOUNDARIES/LEGISLATIVE_DISTRICTS/MapServer/0",
       "inquiry_enabled": false,
@@ -13105,21 +13097,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-state-parks-boundaries-1b28885b",
       "title": "TN State Parks Boundaries",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-state-parks-boundaries-1b28885b--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-state-parks-boundaries-1b28885b--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13233,22 +13225,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tn-state-parks-points-d4ef7243",
       "title": "TN State Parks Points",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tn-state-parks-points-d4ef7243--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tn-state-parks-points-d4ef7243--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13347,22 +13338,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tnmap-data-server-access-c478c810",
       "title": "TNMap Data Server Access",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tnmap-data-server-access-c478c810--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tnmap-data-server-access-c478c810--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://www.tn.gov/content/dam/tn/finance/sts/gis-services/documents/HowToConnect_TNMAP_Services_and_Locators.pdf",
       "inquiry_enabled": false,
@@ -13371,21 +13361,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tnmap-imagery-webmercator-9ddbda7c",
       "title": "TNMap Imagery WebMercator",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tnmap-imagery-webmercator-9ddbda7c--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tnmap-imagery-webmercator-9ddbda7c--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tnmap.tn.gov/arcgis/rest/services/BASEMAPS/IMAGERY_WEB_MERCATOR/MapServer",
       "inquiry_enabled": false,
@@ -13394,21 +13384,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "traffic-lines-63b320c4",
       "title": "Traffic Lines",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "traffic-lines-63b320c4--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "traffic-lines-63b320c4--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13578,7 +13568,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "traffic-points-59838882",
@@ -13589,10 +13579,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "traffic-points-59838882--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "traffic-points-59838882--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13787,8 +13777,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "travel-lanes-surface-area-25327b73",
@@ -13799,10 +13788,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "travel-lanes-surface-area-25327b73--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "travel-lanes-surface-area-25327b73--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -13968,21 +13957,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "trout-stocking-locations-in-tennessee-3ec5c58f",
       "title": "Trout Stocking Locations in Tennessee",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "trout-stocking-locations-in-tennessee-3ec5c58f--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "trout-stocking-locations-in-tennessee-3ec5c58f--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -14141,8 +14130,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "tunnels-e23ae4cd",
@@ -14153,10 +14141,10 @@
       "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "tunnels-e23ae4cd--transportation--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "tunnels-e23ae4cd--transportation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -14299,21 +14287,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "twra-hunting-allowed-lands-e4fb1224",
       "title": "TWRA Hunting Allowed Lands",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "twra-hunting-allowed-lands-e4fb1224--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "twra-hunting-allowed-lands-e4fb1224--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -14452,22 +14440,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "usfs-forest-legacy-completed-tracts-389c0319",
       "title": "USFS Forest Legacy Completed Tracts",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "usfs-forest-legacy-completed-tracts-389c0319--other--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "usfs-forest-legacy-completed-tracts-389c0319--environment--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -14720,21 +14707,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "waterfowlblinds-25d32a1b",
       "title": "WaterfowlBlinds",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "waterfowlblinds-25d32a1b--default--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "waterfowlblinds-25d32a1b--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -14797,22 +14784,21 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:37Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "wildland-fire-incident-locations-0750acfb",
       "title": "Wildland Fire Incident Locations",
       "city": "Tennessee",
       "city_slug": "tennessee",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "wildland-fire-incident-locations-0750acfb--other--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "wildland-fire-incident-locations-0750acfb--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
           {
@@ -15351,8 +15337,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T22:09:15Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:43:03Z"
     },
     {
       "slug": "winter-storm-fern-damage-assessment-840bd4a6",
@@ -15363,10 +15348,10 @@
       "category": "Public Safety",
       "content_status": "stub",
       "content_model": null,
-      "image_status": "cover_only",
-      "image_source": "svg_cover",
-      "image_file": "winter-storm-fern-damage-assessment-840bd4a6--public-safety--cover_only.svg",
-      "image_note": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "winter-storm-fern-damage-assessment-840bd4a6--public-safety--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://tiles.arcgis.com/tiles/lvPBAGXeSupVUvx2/arcgis/rest/services/Winter_Storm_Fern_Damage_Assessment/MapServer",
       "inquiry_enabled": false,
@@ -15375,7 +15360,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:44:26Z"
+      "last_updated": "2026-08-11T14:43:03Z"
     }
   ]
 }

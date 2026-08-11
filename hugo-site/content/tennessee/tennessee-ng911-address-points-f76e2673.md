@@ -3,9 +3,8 @@ title: "Tennessee NG911 Address Points"
 date: "2026-08-02"
 description: "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address points for the state of Tennessee as part of the NG9"
 teaser: "Address points for the state of Tennessee as part of the Next Generation 911 (NG911) program, created and maintained by the TN ECB and the local 911 districts. Address…"
-tags: []
-categories: ["Default"]
-cover: "covers/tennessee-ng911-address-points-f76e2673--default--cover_only.svg"
+categories: ["Public Safety"]
+cover: "covers/tennessee-ng911-address-points-f76e2673--public-safety--placeholder.svg"
 source_url: "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_NG911_Address_Points/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f76e2673388e4c6f803bc51e3ae04b14"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the precise location and address information for every property in Tennessee that can receive emergency services through the 911 system.

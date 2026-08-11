@@ -3,9 +3,8 @@ title: "Fishing Sites"
 date: "2026-08-02"
 description: "This service maps fishing access sites across Tennessee, detailing facilities and amenities at each location. Overview This Feature Service provides comprehensive information on fishing access locations throughout Tennes"
 teaser: "This service maps fishing access sites across Tennessee, detailing facilities and amenities at each location. Overview This Feature Service provides comprehensive…"
-tags: []
-categories: ["Default"]
-cover: "covers/fishing-sites-daf255dc--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/fishing-sites-daf255dc--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Fishing_Sites/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=daf255dc45d04cefb51cf51e4f63c757"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps fishing access sites across Tennessee, including details like boat ramps, parking availability, and amenities at each location.

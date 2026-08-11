@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where no shoulders 
 teaser: "This layer is a cartographic representation of where no shoulders exist on all interstates, state routes, and locally owned NHS routes. This information was collected…"
 tags: ["No Shoulders, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/no-shoulder-ffc48608--transportation--cover_only.svg"
+cover: "covers/no-shoulder-ffc48608--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/No_Shoulder/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ffc486088a8e49adaf27ab0e75f6b934"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records stretches of Tennessee roads that lack shoulders, including interstates, state routes, and locally owned NHS routes.  

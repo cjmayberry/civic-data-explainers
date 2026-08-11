@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where rumble strips
 teaser: "This layer is a cartographic representation of where rumble strips have been installed on all interstates, state routes, and locally owned NHS routes. This information…"
 tags: ["Rumble Strips, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/rumble-strip-dbf60d13--transportation--cover_only.svg"
+cover: "covers/rumble-strip-dbf60d13--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Rumble_Strip/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=dbf60d13faf649ee9b538c9a060701fb"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the precise locations of rumble strips installed on Tennessee's interstates, state routes, and major highways.

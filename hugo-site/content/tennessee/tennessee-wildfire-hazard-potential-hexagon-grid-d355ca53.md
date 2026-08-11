@@ -5,7 +5,7 @@ description: "This service maps wildfire hazard potential across Tennessee using
 teaser: "This service maps wildfire hazard potential across Tennessee using a hexagon-based spatial grid, supporting risk assessment and fire management efforts. Tennessee…"
 tags: ["fire", "wildfire", "hazard", "potential", "safety", "WHP", "hexagon", "Tennessee"]
 categories: ["Public Safety"]
-cover: "covers/tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--cover_only.svg"
+cover: "covers/tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--placeholder.svg"
 source_url: "https://services.arcgis.com/lvPBAGXeSupVUvx2/arcgis/rest/services/Tennessee_Wildfire_Hazard_Potential/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d355ca53bb454057bb1b2f03342835b8"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset maps wildfire hazard potential across Tennessee using a grid of 50-square-kilometer hexagons to show where wildfires are most likely to occur.

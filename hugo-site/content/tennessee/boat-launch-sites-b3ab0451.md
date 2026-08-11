@@ -3,9 +3,8 @@ title: "Boat Launch Sites"
 date: "2026-08-02"
 description: "Comprehensive map of Tennessee boat ramps and related access facilities including amenities and site management details to support boating and fishing activities statewide. Overview This feature service provides detailed"
 teaser: "Comprehensive map of Tennessee boat ramps and related access facilities including amenities and site management details to support boating and fishing activities…"
-tags: []
-categories: ["Default"]
-cover: "covers/boat-launch-sites-b3ab0451--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/boat-launch-sites-b3ab0451--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/Boat_Launch_Sites/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b3ab0451494c4d2aaea1c656eed8d2a0"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the locations and detailed information about boat launch sites, ramps, and water access points throughout Tennessee.

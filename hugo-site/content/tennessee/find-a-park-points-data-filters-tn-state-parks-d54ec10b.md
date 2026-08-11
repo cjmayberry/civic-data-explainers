@@ -3,9 +3,8 @@ title: "Find-A-Park Points Data Filters - TN State Parks"
 date: "2026-08-02"
 description: "This layer is a point geometry with all park amenities for the website filters"
 teaser: "This layer is a point geometry with all park amenities for the website filters"
-tags: []
-categories: ["Default"]
-cover: "covers/find-a-park-points-data-filters-tn-state-parks-d54ec10b--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/find-a-park-points-data-filters-tn-state-parks-d54ec10b--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/FindAPark_Points/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d54ec10bacf44a8ba825edecd7ab7945"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records amenities and accessibility features at Tennessee state parks, from boat ramps to wheelchair-friendly trails.

@@ -3,9 +3,8 @@ title: "TN COA25"
 date: "2026-08-02"
 description: "Boundaries of Conservation Opportunity Areas and listings of Species of Greatest Conservation Need for Tennessee's 2025 State Wildlife Action Plan revision. Overview This feature service provides geographic and species d"
 teaser: "Boundaries of Conservation Opportunity Areas and listings of Species of Greatest Conservation Need for Tennessee's 2025 State Wildlife Action Plan revision. Overview…"
-tags: []
-categories: ["Default"]
-cover: "covers/tn-coa25-089d5b8c--default--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/tn-coa25-089d5b8c--environment--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TN_2025_COA/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=089d5b8caec948399b24f42a70143f1c&sublayer=0"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset maps Conservation Opportunity Areas across Tennessee where the state has identified critical habitats for protecting wildlife species that need the most conservation help.

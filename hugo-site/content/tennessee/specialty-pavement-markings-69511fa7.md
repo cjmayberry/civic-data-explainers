@@ -5,7 +5,7 @@ description: "ADA-related infrastructure. Includes layers for Pedestrian Signals
 teaser: "ADA-related infrastructure. Includes layers for Pedestrian Signals, Crosswalks, Specialty Pavement Markings, Curb Ramps, and Sidewalks. ADA-related infrastructure.…"
 tags: ["Specialty Pavement Markings, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/specialty-pavement-markings-69511fa7--transportation--cover_only.svg"
+cover: "covers/specialty-pavement-markings-69511fa7--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/ADA_Asset_Data/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=69511fa73a584e2bb37acfa85b177fa5&sublayer=4"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the locations and details of specialty pavement markings (like truncated domes and ramps) on Tennessee's interstates, state routes, and TDOT-maintained roads.  

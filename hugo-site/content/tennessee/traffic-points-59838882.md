@@ -5,7 +5,7 @@ description: "This point-layer stores traffic monitoring data such as historical
 teaser: "This point-layer stores traffic monitoring data such as historical AADTs, Class AADTs, and Truck Percentages. This dataset contains geospatial point data showing…"
 tags: ["Traffic, Traffic Station"]
 categories: ["Transportation"]
-cover: "covers/traffic-points-59838882--transportation--cover_only.svg"
+cover: "covers/traffic-points-59838882--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Points/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=59838882a69d426286670dcd25d90e15"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records vehicle traffic volumes at monitoring stations across Tennessee, including total daily traffic and breakdowns by vehicle type (cars, trucks, motorcycles).

@@ -3,9 +3,8 @@ title: "ADOPTED LOCATION"
 date: "2026-08-02"
 description: "Adopt A Highway public data view TDOT Adopt-A-Highway Program TDOT Adopt-A-Highway groups help keep Tennessee beautiful! Since the program's inception in 1989, our volunteers have collected more than 12 million pounds of"
 teaser: "Adopt A Highway public data view TDOT Adopt-A-Highway Program TDOT Adopt-A-Highway groups help keep Tennessee beautiful! Since the program's inception in 1989, our…"
-tags: []
-categories: ["Default"]
-cover: "covers/adopted-location-61cf8755--default--cover_only.svg"
+categories: ["Transportation"]
+cover: "covers/adopted-location-61cf8755--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/AdoptAHighway_Prod_DataView_Public/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=61cf8755e726461484a7b98d95c5b730&sublayer=0"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset shows sections of Tennessee highways adopted by volunteer groups through the state's Adopt-A-Highway program.

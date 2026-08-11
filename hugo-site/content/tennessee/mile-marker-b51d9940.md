@@ -5,7 +5,7 @@ description: "Mile Marker was derived from the Flat Sheet Sign feature layer. Th
 teaser: "Mile Marker was derived from the Flat Sheet Sign feature layer. This layer is a cartographic representation of where flat sheet signs have been installed on all…"
 tags: ["Flatsheet Signs", "Tennessee"]
 categories: ["Transportation"]
-cover: "covers/mile-marker-b51d9940--transportation--cover_only.svg"
+cover: "covers/mile-marker-b51d9940--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Mile_Marker/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b51d9940cb7c4f6491c7b794c2037a64"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks
 This dataset records the exact locations and details of mile markers and road signs installed along Tennessee's interstates, state routes, and other major highways.

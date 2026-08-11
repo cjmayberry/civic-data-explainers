@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "Completed Forest Legacy tracts from the U.S. Forest Service National Forest Legacy Program, displayed for Tennessee to support conservation program tracking, reporting, stewardship analysis, and planning. USFS Forest Leg"
 teaser: "Completed Forest Legacy tracts from the U.S. Forest Service National Forest Legacy Program, displayed for Tennessee to support conservation program tracking, reporting…"
 tags: ["legacy", "forest", "FLP", "USFS", "Tennessee", "TDF", "conservation"]
-categories: ["Other"]
-cover: "covers/usfs-forest-legacy-completed-tracts-389c0319--other--cover_only.svg"
+categories: ["Environment"]
+cover: "covers/usfs-forest-legacy-completed-tracts-389c0319--environment--placeholder.svg"
 source_url: "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/Forest_Legacy_Completed_Tract/FeatureServer/1"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=389c031993ad4f59a4d7533834f7be0f"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records protected forest lands in Tennessee under the U.S. Forest Service's Forest Legacy Program, including conservation easements and purchased tracts.

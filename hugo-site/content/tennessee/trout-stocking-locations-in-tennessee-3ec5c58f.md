@@ -3,9 +3,8 @@ title: "Trout Stocking Locations in Tennessee"
 date: "2026-08-02"
 description: "This service maps trout stocking locations throughout Tennessee, detailing stocking programs, species, access, and management authorities for statewide fisheries support. Overview This feature service provides detailed g"
 teaser: "This service maps trout stocking locations throughout Tennessee, detailing stocking programs, species, access, and management authorities for statewide fisheries…"
-tags: []
-categories: ["Default"]
-cover: "covers/trout-stocking-locations-in-tennessee-3ec5c58f--default--cover_only.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/trout-stocking-locations-in-tennessee-3ec5c58f--parks-recreation--placeholder.svg"
 source_url: "https://services3.arcgis.com/PWXNAH2YKmZY7lBq/arcgis/rest/services/TWRA_Trout_Stocking_Locations/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3ec5c58f99de4de5951f32b76b462623"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset maps locations where trout are stocked in Tennessee's waterways, including details about species, access, and seasonal programs.

@@ -5,7 +5,7 @@ description: "This layer is a cartographic representation of where guardrail end
 teaser: "This layer is a cartographic representation of where guardrail end terminals have been installed on all interstates, state routes, TDOT maintained state park roads, and…"
 tags: ["Guardrail End Terminals, Tennessee"]
 categories: ["Transportation"]
-cover: "covers/guardrail-terminal-14ec6d50--transportation--cover_only.svg"
+cover: "covers/guardrail-terminal-14ec6d50--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Guardrail_Terminal/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=14ec6d50e63b49a986f45f2b16ab0550"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records the locations and types of guardrail end terminals installed on Tennessee highways, interstates, and state park roads.

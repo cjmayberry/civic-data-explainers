@@ -3,9 +3,8 @@ title: "Traffic Lines"
 date: "2026-08-02"
 description: "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting year. This dataset contains geospatial line data sho"
 teaser: "This annually updated layer stores traffic monitoring data such as AADT, VMT, and Truck Percentages as they were assigned to the linear network for the given reporting…"
-tags: []
-categories: ["Default"]
-cover: "covers/traffic-lines-63b320c4--default--cover_only.svg"
+categories: ["Transportation"]
+cover: "covers/traffic-lines-63b320c4--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Traffic_Lines/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=63b320c471604ad786d99c5f88172b5e"
@@ -13,6 +12,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records traffic volume and vehicle type percentages on Tennessee roads, including daily traffic counts (AADT), truck traffic, and road classifications.

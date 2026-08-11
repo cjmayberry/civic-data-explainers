@@ -5,7 +5,7 @@ description: "This table describes the administration and ownership of the segme
 teaser: "This table describes the administration and ownership of the segment of road. The Road Segment table describes the administration and ownership of the segment of road.…"
 tags: ["Tennessee, TDOT, TRIMS, Segment"]
 categories: ["Transportation"]
-cover: "covers/road-segment-37229399--transportation--cover_only.svg"
+cover: "covers/road-segment-37229399--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Road_Segment/FeatureServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=37229399437446b9acd653f353f7decc"
@@ -13,6 +13,7 @@ city: "tennessee"
 site_url: "https://geodata.tn.gov"
 draft: false
 ---
+
 
 ## What this tracks  
 This dataset records ownership, classification, and administrative details for every road segment in Tennessee, including county-level routes and urban/rural designations.
