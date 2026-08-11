@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "description": "Nightly state+capital build queue. The nightly job pops the next (state, capital) pair, discovers any null portal_url/platform, runs the adaptive pipeline, and marks the pair live. Unavailable sources are skipped, not stalling.",
+    "schedule": "0 3 * * * (10:00p CDT)",
+    "created": "2026-08-11"
+  },
+  "queue": [
+    {
+      "id": "kansas",
+      "name": "Kansas",
+      "level": "state",
+      "country": "US",
+      "portal_url": "https://hub.kansasgis.org/",
+      "platform": "arcgis-hub",
+      "status": "pending",
+      "note": "Kansas Geoportal (ArcGIS Hub). Verified 2026-08-11."
+    },
+    {
+      "id": "topeka",
+      "name": "Topeka",
+      "level": "capital",
+      "parent": "kansas",
+      "country": "US",
+      "portal_url": "https://performance.topeka.org/pages/open-data",
+      "platform": null,
+      "status": "pending",
+      "note": "City of Topeka Open Performance — platform auto-detect at build time (likely Socrata)."
+    },
+    {
+      "id": "new-mexico",
+      "name": "New Mexico",
+      "level": "state",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending",
+      "note": "No clean unified open-data portal found (2026-08-11) — discover or skip."
+    },
+    {
+      "id": "santa-fe",
+      "name": "Santa Fe",
+      "level": "capital",
+      "parent": "new-mexico",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending",
+      "note": "Discover or skip."
+    },
+    {
+      "id": "nebraska",
+      "name": "Nebraska",
+      "level": "state",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    },
+    {
+      "id": "lincoln",
+      "name": "Lincoln",
+      "level": "capital",
+      "parent": "nebraska",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    },
+    {
+      "id": "nevada",
+      "name": "Nevada",
+      "level": "state",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    },
+    {
+      "id": "carson-city",
+      "name": "Carson City",
+      "level": "capital",
+      "parent": "nevada",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    },
+    {
+      "id": "idaho",
+      "name": "Idaho",
+      "level": "state",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    },
+    {
+      "id": "boise",
+      "name": "Boise",
+      "level": "capital",
+      "parent": "idaho",
+      "country": "US",
+      "portal_url": null,
+      "platform": null,
+      "status": "pending"
+    }
+  ]
+}
