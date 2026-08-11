@@ -101,13 +101,11 @@ def main():
         else:
             f.write("## All green ✅\n")
         f.write("\n## Section titles\n" + "\n".join(f"- {c}: {t}" for c, st, t in rows if t.startswith("/")) + "\n")
-    # watchdog stdout: silent when green, print failures when broken (for a no-agent cron)
+    # watchdog stdout: silent when green (no-agent cron delivers nothing), print failures when broken
     if fails:
         print(f"CIVIC WEB AUDIT: {len(fails)} failures across {seen} pages:")
         for x in fails[:30]:
             print("  FAIL:", x)
-    else:
-        print(f"OK — {seen} pages, all green ({map_count} with live map)")
 
 if __name__ == "__main__":
     main()
