@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Memphis Employment Data Data Dictionary.pdf"
 teaser: "Memphis Employment Data Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
-categories: ["Finance"]
-cover: "covers/memphis-employment-data-f530c6a3--government--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/memphis-employment-data-f530c6a3--economy--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Employment_Data/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Employment_Data/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f530c6a3511f45da91dca53ff50c17cb&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-employment-data-1"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_Employment_Data/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 Here is the Memphis Employment Data dataset description in the requested format:

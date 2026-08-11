@@ -90,7 +90,7 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-02T19:48:19Z",
+  "generated_at": "2026-08-11T12:03:13Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -104,7 +104,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "911-call-volume-performance-d5dc32e0--government--placeholder.svg",
+      "image_file": "911-call-volume-performance-d5dc32e0--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -191,20 +191,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "bike-facilities-existing-and-programmed-eec74e9a",
       "title": "Bike Facilities Existing and Programmed",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "bike-facilities-existing-and-programmed-eec74e9a--government--placeholder.svg",
+      "image_file": "bike-facilities-existing-and-programmed-eec74e9a--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -363,15 +363,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "city-council-districts-cfc3ba75",
       "title": "City Council Districts",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -431,15 +431,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "city-council-super-districts-a06f2c70",
       "title": "City Council Super Districts",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -494,20 +494,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "city-of-memphis-parks-92001696",
       "title": "City of Memphis Parks",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "city-of-memphis-parks-92001696--government--placeholder.svg",
+      "image_file": "city-of-memphis-parks-92001696--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -689,7 +689,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "com-employee-titles-and-salaries-8407de81",
@@ -760,15 +760,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "downtown-memphis-commission-boundaries-a5088e8d",
       "title": "Downtown Memphis Commission Boundaries",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -818,20 +818,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "downtown-memphis-commission-projects-b244cada",
       "title": "Downtown Memphis Commission Projects",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "downtown-memphis-commission-projects-b244cada--government--placeholder.svg",
+      "image_file": "downtown-memphis-commission-projects-b244cada--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1134,20 +1134,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "dpd-building-permits-3018811a",
       "title": "DPD Building Permits",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dpd-building-permits-3018811a--government--placeholder.svg",
+      "image_file": "dpd-building-permits-3018811a--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1246,20 +1246,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-bonds-31650a2c",
       "title": "Economic Development Growth Engine (EDGE) Bonds",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-bonds-31650a2c--government--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-bonds-31650a2c--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1347,20 +1347,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-loans-71211088",
       "title": "Economic Development Growth Engine (EDGE) Loans",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-loans-71211088--government--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-loans-71211088--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1563,20 +1563,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-other-pr-471e8b88",
       "title": "Economic Development Growth Engine (EDGE) Other Projects",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-other-pr-471e8b88--government--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-other-pr-471e8b88--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1676,20 +1676,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-pilots-7f19e39d",
       "title": "Economic Development Growth Engine (EDGE) PILOTs",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-pilots-7f19e39d--government--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-pilots-7f19e39d--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1962,20 +1962,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "economic-development-growth-engine-edge-tifs-0a78f310",
       "title": "Economic Development Growth Engine (EDGE) TIFs",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "economic-development-growth-engine-edge-tifs-0a78f310--government--placeholder.svg",
+      "image_file": "economic-development-growth-engine-edge-tifs-0a78f310--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2075,7 +2075,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "fire-services-metrics-55699190",
@@ -2088,7 +2088,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "fire-services-metrics-55699190--government--placeholder.svg",
+      "image_file": "fire-services-metrics-55699190--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2182,20 +2182,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "hcd-property-investments-41f0fa52",
       "title": "HCD Property Investments",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Housing",
+      "category": "Housing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "hcd-property-investments-41f0fa52--government--placeholder.svg",
+      "image_file": "hcd-property-investments-41f0fa52--housing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2361,7 +2361,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mata-on-time-performance-f3019d13",
@@ -2374,7 +2374,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-on-time-performance-f3019d13--government--placeholder.svg",
+      "image_file": "mata-on-time-performance-f3019d13--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2420,7 +2420,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mata-routes-03ccec76",
@@ -2433,7 +2433,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-routes-03ccec76--government--placeholder.svg",
+      "image_file": "mata-routes-03ccec76--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2503,20 +2503,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mata-stops-6892a5f9",
       "title": "MATA Stops",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mata-stops-6892a5f9--government--placeholder.svg",
+      "image_file": "mata-stops-6892a5f9--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2593,15 +2593,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-3-0-planning-districts-7855c7be",
       "title": "Memphis 3.0 Planning Districts",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -2686,20 +2686,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-community-centers-31fee209",
       "title": "Memphis Community Centers",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-community-centers-31fee209--government--placeholder.svg",
+      "image_file": "memphis-community-centers-31fee209--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2758,20 +2758,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-employment-data-f530c6a3",
       "title": "Memphis Employment Data",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-employment-data-f530c6a3--government--placeholder.svg",
+      "image_file": "memphis-employment-data-f530c6a3--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2823,15 +2823,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-jurisdiction-boundary-a4b1d1fc",
       "title": "Memphis Jurisdiction Boundary",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -2892,15 +2892,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-medical-district-collaborative-boundarie-d9d67533",
       "title": "Memphis Medical District Collaborative Boundaries",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -2967,15 +2967,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-msa-counties-b349826e",
       "title": "Memphis MSA Counties",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -3115,20 +3115,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-public-libraries-77458ce9",
       "title": "Memphis Public Libraries",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Education",
+      "category": "Education",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "memphis-public-libraries-77458ce9--government--placeholder.svg",
+      "image_file": "memphis-public-libraries-77458ce9--education--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3175,15 +3175,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "memphis-zip-codes-49d6b5e5",
       "title": "Memphis ZIP Codes",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -3256,20 +3256,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mfd-fire-stations-84f2c8ed",
       "title": "MFD Fire Stations",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mfd-fire-stations-84f2c8ed--government--placeholder.svg",
+      "image_file": "mfd-fire-stations-84f2c8ed--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3376,20 +3376,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-district-areas-cf62a73a",
       "title": "MPD District Areas",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-district-areas-cf62a73a--government--placeholder.svg",
+      "image_file": "mpd-district-areas-cf62a73a--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3439,20 +3439,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-precinct-areas-0334e3fb",
       "title": "MPD Precinct Areas",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-precinct-areas-0334e3fb--government--placeholder.svg",
+      "image_file": "mpd-precinct-areas-0334e3fb--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3503,7 +3503,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-public-safety-incidents-12b51ce4",
@@ -3516,7 +3516,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-public-safety-incidents-12b51ce4--government--placeholder.svg",
+      "image_file": "mpd-public-safety-incidents-12b51ce4--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3670,20 +3670,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-station-location-13adc19e",
       "title": "MPD Station Location",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-station-location-13adc19e--government--placeholder.svg",
+      "image_file": "mpd-station-location-13adc19e--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3748,7 +3748,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-traffic-citations-91c3adca",
@@ -3761,7 +3761,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-traffic-citations-91c3adca--government--placeholder.svg",
+      "image_file": "mpd-traffic-citations-91c3adca--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3867,7 +3867,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-traffic-stops-2b0bee4e",
@@ -3880,7 +3880,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-traffic-stops-2b0bee4e--government--placeholder.svg",
+      "image_file": "mpd-traffic-stops-2b0bee4e--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3992,20 +3992,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "mpd-wards-cfbaeae2",
       "title": "MPD Wards",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mpd-wards-cfbaeae2--government--placeholder.svg",
+      "image_file": "mpd-wards-cfbaeae2--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4062,7 +4062,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21",
@@ -4075,7 +4075,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--government--placeholder.svg",
+      "image_file": "neighborhood-watch-groups-boundaries-in-memphis-4ddc7b21--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4161,20 +4161,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "shelby-co-tract-acs-demo-5y-2024-9606abac",
       "title": "Shelby Co Tract ACS Demo 5Y 2024",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "shelby-co-tract-acs-demo-5y-2024-9606abac--default--placeholder.svg",
+      "image_file": "shelby-co-tract-acs-demo-5y-2024-9606abac--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4395,15 +4395,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "shelby-county-census-tracts-72568279",
       "title": "Shelby County Census Tracts",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -4513,7 +4513,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "shelby-county-walkability-index-09d7a447",
@@ -4526,7 +4526,7 @@
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "shelby-county-walkability-index-09d7a447--government--placeholder.svg",
+      "image_file": "shelby-county-walkability-index-09d7a447--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4720,15 +4720,15 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "shelby-county-zip-codes-d21250ed",
       "title": "Shelby County ZIP Codes",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
@@ -4826,20 +4826,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     },
     {
       "slug": "solid-waste-areas-2c82a883",
       "title": "Solid Waste Areas",
       "city": "Memphis",
       "city_slug": "memphis",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "solid-waste-areas-2c82a883--government--placeholder.svg",
+      "image_file": "solid-waste-areas-2c82a883--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4890,7 +4890,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-02T19:48:19Z"
+      "last_updated": "2026-08-11T12:03:13Z"
     }
   ]
 }

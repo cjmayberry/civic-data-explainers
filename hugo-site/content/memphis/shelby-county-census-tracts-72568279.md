@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Census Tracts are determined by the U.S. Census Bureau for calculating the decennial census. Census tracts are a subdivision of the County level and vary in size. Ideally a census tract contains a population of 4,000 peo"
 teaser: "Census Tracts are determined by the U.S. Census Bureau for calculating the decennial census. Census tracts are a subdivision of the County level and vary in size.…"
 tags: ["Memphis Open Data", "Location & Boundaries"]
-categories: ["Other"]
+categories: ["Government"]
 cover: "covers/shelby-county-census-tracts-72568279--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Census_Tracts/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Census_Tracts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=725682793e6c47ba903c346ace0efa68&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::shelby-county-census-tracts"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Shelby_Census_Tracts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

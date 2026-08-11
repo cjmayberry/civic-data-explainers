@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Shapefile of MPD Districts. 2 Districts are divided into 9 stations which are divided into 56 wards."
 teaser: "Shapefile of MPD Districts. 2 Districts are divided into 9 stations which are divided into 56 wards."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
-categories: ["Other"]
-cover: "covers/mpd-district-areas-cf62a73a--government--placeholder.svg"
+categories: ["Public Safety"]
+cover: "covers/mpd-district-areas-cf62a73a--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cf62a73ac9e2406ebbd62aa773a68258&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-district-areas"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

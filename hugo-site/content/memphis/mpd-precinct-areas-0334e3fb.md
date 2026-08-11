@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "A Memphis open-data dataset."
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
-categories: ["Other"]
-cover: "covers/mpd-precinct-areas-0334e3fb--government--placeholder.svg"
+categories: ["Public Safety"]
+cover: "covers/mpd-precinct-areas-0334e3fb--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0334e3fb182a4460ac075b17ae8a1126&sublayer=1"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-precinct-areas"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Station_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "County boundaries for: Crittendon, AR; Shelby, TN; Tipton, TN; Fayette, TN; Benton, MS; DeSoto, MS; Marshall, MS; Tate, MS; Tunica, MS. Filtered from US Census TIGER/Line portal: https://www.census.gov/cgi-bin/geo/shapef"
 teaser: "County boundaries for: Crittendon, AR; Shelby, TN; Tipton, TN; Fayette, TN; Benton, MS; DeSoto, MS; Marshall, MS; Tate, MS; Tunica, MS. Filtered from US Census…"
 tags: ["Memphis Open Data", "Location & Boundaries"]
-categories: ["Other"]
+categories: ["Government"]
 cover: "covers/memphis-msa-counties-b349826e--government--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_MSA_Counties/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_MSA_Counties/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b349826e460248ffb9f418d140ed97b1&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::memphis-msa-counties"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Memphis_MSA_Counties/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

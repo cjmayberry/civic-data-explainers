@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "A Memphis open-data dataset."
 teaser: "This dataset tracks police ward boundaries in the city"
 tags: ["Memphis Open Data", "Location & Boundaries", "Public Safety"]
-categories: ["Other"]
-cover: "covers/mpd-wards-cfbaeae2--government--placeholder.svg"
+categories: ["Public Safety"]
+cover: "covers/mpd-wards-cfbaeae2--public-safety--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Ward_Areas/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Ward_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cfbaeae274c4454c9aa6a3b9a1ba0575&sublayer=2"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::mpd-wards"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/MPD_Ward_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 

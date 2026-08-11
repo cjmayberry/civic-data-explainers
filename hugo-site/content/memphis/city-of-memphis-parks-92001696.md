@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Park data were obtained from the U.S. ParkServe dataset, extracted for the City of Memphis, and converted from polygons to points. https://www.tpl.org/park-data-downloads."
 teaser: "Park data were obtained from the U.S. ParkServe dataset, extracted for the City of Memphis, and converted from polygons to points.…"
 tags: ["Memphis Open Data", "Location & Boundaries"]
-categories: ["Other"]
-cover: "covers/city-of-memphis-parks-92001696--government--placeholder.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/city-of-memphis-parks-92001696--parks-recreation--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/City_of_Memphis_Parks/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/City_of_Memphis_Parks/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=920016960e464dfa92e0d34c44503106&sublayer=3"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::city-of-memphis-parks"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/City_of_Memphis_Parks/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

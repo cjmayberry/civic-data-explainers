@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Economic Development DMC Projects Data Dictionary.pdf"
 teaser: "Economic Development DMC Projects Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Economic & Workforce Development"]
-categories: ["Finance"]
-cover: "covers/downtown-memphis-commission-projects-b244cada--government--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/downtown-memphis-commission-projects-b244cada--economy--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_DMC_Projects/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_DMC_Projects/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b244cadad6514366b18294f13b2d387a&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::downtown-memphis-commission-projects"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Economic_Development_DMC_Projects/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

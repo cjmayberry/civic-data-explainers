@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "Bike Facilities Existing and Programmed Data Dictionary.pdf"
 teaser: "Bike Facilities Existing and Programmed Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Strong Neighborhoods", "Location & Boundaries", "Transportation & Infrastructure"]
-categories: ["Other"]
-cover: "covers/bike-facilities-existing-and-programmed-eec74e9a--government--placeholder.svg"
+categories: ["Transportation"]
+cover: "covers/bike-facilities-existing-and-programmed-eec74e9a--transportation--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=eec74e9a53d24fcc953ed368c3538440&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::bike-facilities-existing-and-programmed-1"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/Bike_Facilities_Existing_and_Programmed/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  

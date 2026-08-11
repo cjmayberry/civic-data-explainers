@@ -4,17 +4,18 @@ date: "2026-08-02"
 description: "HCD Property Investments Data Dictionary.pdf"
 teaser: "HCD Property Investments Data Dictionary.pdf"
 tags: ["Memphis Open Data", "Strong Neighborhoods"]
-categories: ["Other"]
-cover: "covers/hcd-property-investments-41f0fa52--government--placeholder.svg"
+categories: ["Housing"]
+cover: "covers/hcd-property-investments-41f0fa52--housing--placeholder.svg"
 source_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/HCD_Property_Investments/FeatureServer"
-geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/HCD_Property_Investments/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=41f0fa5285a94f07bc9451b68c8d5ba4&sublayer=0"
 city: "memphis"
 site_url: "https://civic-data-explainers.pages.dev"
 map_link: "https://data.memphistn.gov/datasets/MEMEGIS::hcd-property-investments-1"
+geojson_url: "https://services2.arcgis.com/saWmpKJIUAjyyNVc/arcgis/rest/services/HCD_Property_Investments/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
+
 
 
 ## What this tracks  
