@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Geography"]
-categories: ["Other"]
-cover: "covers/8ejy-sj4q--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/8ejy-sj4q--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8ejy-sj4q.json"
 license: ""
 dataset_id: "8ejy-sj4q"
@@ -48,6 +48,7 @@ dictionary:
   - field: "centroid_address"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset defines the geographic boundaries of ZIP Code Tabulation Areas (ZCTAs) in Missouri, which approximate USPS ZIP code service areas for mail delivery.

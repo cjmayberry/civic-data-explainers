@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "labor", "unemployment", "Labor"]
-categories: ["Other"]
-cover: "covers/cq57-7qrb--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/cq57-7qrb--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/cq57-7qrb.json"
 license: ""
 dataset_id: "cq57-7qrb"
@@ -24,12 +24,13 @@ dictionary:
   - field: "record_id"
     description: "Unique string to identify record"
   - field: "ina"
-    description: "Information Not Available\n"
+    description: "Information Not Available\\n"
   - field: "black_or_african_american"
     description: ""
   - field: "native_hawaiian_or_other_pacific_islander"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the monthly number of unemployment claims filed in Missouri, broken down by racial demographics.

@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-08T21:46:35Z",
+  "generated_at": "2026-08-11T14:40:54Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -10,13 +10,13 @@
       "title": "Missouri Child Support Offices",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "2rxb-22d7--other--placeholder.svg",
+      "image_file": "2rxb-22d7--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -121,20 +121,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "2zg8-cta8",
       "title": "Missouri Farmers' Markets",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "2zg8-cta8--other--placeholder.svg",
+      "image_file": "2zg8-cta8--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -231,8 +231,8 @@
             "url": "http://www.ertelcattle.com"
           },
           "email": "gertel@ertelcattle.com",
-          "company_profile": "'Ertel Cattle Company is a family-owned and operated farm rooted in Northeast Missouri, dedicated to producing locally raised, home-grown beef known for exceptional quality, marbling, and taste. For over three generations, the Ertel family has combined traditional cattle-raising values with modern, sustainable practices to deliver premium beef that customers can trust. Every cut reflects our commitment to flavor, consistency, and responsible stewardship of our land and livestock. Whether you\u00e2\u20ac\u2122re looking for a split side, half, or whole beef, or convenient beef packages, Ertel Cattle Company offers flexible options to fit every household or freezer. From our pastures to your plate, we take pride in providing the highest-quality beef that\u00e2\u20ac\u2122s raised right here at home\u00e2\u20ac\u201dfresh, flavorful, and always local. Taste the difference that three generations of care and craftsmanship make with Ertel Cattle Company.'",
-          "company_description": "Ertel Cattle Company proudly produces premium, locally raised beef that\u00e2\u20ac\u2122s home-grown on our family farm in Northeast Missouri. Our cattle are carefully raised on quality feed and pasture, emphasizing superior marbling, tenderness, and flavor. Each animal is handled with care from start to finish, ensuring wholesome, great-tasting beef you can trust. We offer split sides, halves, and whole beef, as well as convenient beef packages for families and freezers of all sizes. With a focus on quality, transparency, and local sourcing, Ertel Cattle Company delivers farm-to-table beef that\u00e2\u20ac\u2122s flavorful, consistent, and raised the right way\u00e2\u20ac\u201dright here at home.",
+          "company_profile": "'Ertel Cattle Company is a family-owned and operated farm rooted in Northeast Missouri, dedicated to producing locally raised, home-grown beef known for exceptional quality, marbling, and taste. For over three generations, the Ertel family has combined traditional cattle-raising values with modern, sustainable practices to deliver premium beef that customers can trust. Every cut reflects our commitment to flavor, consistency, and responsible stewardship of our land and livestock. Whether youâ€™re looking for a split side, half, or whole beef, or convenient beef packages, Ertel Cattle Company offers flexible options to fit every household or freezer. From our pastures to your plate, we take pride in providing the highest-quality beef thatâ€™s raised right here at homeâ€”fresh, flavorful, and always local. Taste the difference that three generations of care and craftsmanship make with Ertel Cattle Company.'",
+          "company_description": "Ertel Cattle Company proudly produces premium, locally raised beef thatâ€™s home-grown on our family farm in Northeast Missouri. Our cattle are carefully raised on quality feed and pasture, emphasizing superior marbling, tenderness, and flavor. Each animal is handled with care from start to finish, ensuring wholesome, great-tasting beef you can trust. We offer split sides, halves, and whole beef, as well as convenient beef packages for families and freezers of all sizes. With a focus on quality, transparency, and local sourcing, Ertel Cattle Company delivers farm-to-table beef thatâ€™s flavorful, consistent, and raised the right wayâ€”right here at home.",
           "location_description": "<p>All beef from Ertel Cattle Company is custom processed locally at Special D Meats in Macon, Missouri, ensuring quality and freshness in every cut. Products can be conveniently shipped nationwide, bringing our premium</p>",
           "latlong": {
             "latitude": "40.3265204",
@@ -252,20 +252,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "38q6-ispi",
       "title": "2020 State Expenditures",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Government",
-      "category": "Government",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "38q6-ispi--government--placeholder.svg",
+      "image_file": "38q6-ispi--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -318,21 +318,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "3dcz-79am",
       "title": "Home Health In-State Certified Providers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "3dcz-79am--other--placeholder.svg",
+      "image_file": "3dcz-79am--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -409,7 +408,7 @@
           "servicearea_county": "DUNKLIN",
           "licnumber": "966-HH",
           "licyrexpires": "2026-11-30T00:00:00.000",
-          "ownership4profit": "\u2713"
+          "ownership4profit": "✓"
         },
         "layer": "soda",
         "introspected_at": "2026-08-08T21:27:21Z"
@@ -421,20 +420,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "3mwf-kse4",
       "title": "Consumer Confidence Report",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "3mwf-kse4--parks-recreation--placeholder.svg",
+      "image_file": "3mwf-kse4--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -469,21 +468,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "3vxz-wrn6",
       "title": "Missouri Deaf and Hard of Hearing Demographics Statistics",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "3vxz-wrn6--other--placeholder.svg",
+      "image_file": "3vxz-wrn6--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -530,21 +528,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "4v5t-4kqk",
       "title": "Missouri Monthly Unemployment Claims By Sex",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "4v5t-4kqk--other--placeholder.svg",
+      "image_file": "4v5t-4kqk--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -591,21 +588,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "4xqz-ug2j",
       "title": "Onsite Soil Evaluators List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "4xqz-ug2j--other--placeholder.svg",
+      "image_file": "4xqz-ug2j--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -676,20 +672,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "53ys-svak",
       "title": "2020 State Employee Pay",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Government",
-      "category": "Government",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "53ys-svak--government--placeholder.svg",
+      "image_file": "53ys-svak--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -736,21 +732,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "55pd-epiy",
       "title": "2015 Federal Grants Data As of June 30, 2015",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Government",
-      "category": "Government",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "55pd-epiy--government--placeholder.svg",
+      "image_file": "55pd-epiy--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -803,21 +798,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "5tqh-2x4m",
       "title": "Missouri Monthly Unemployment Claims By Age",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "5tqh-2x4m--other--placeholder.svg",
+      "image_file": "5tqh-2x4m--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -900,21 +894,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "667w-c6py",
       "title": "SMHW Provider List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "667w-c6py--other--placeholder.svg",
+      "image_file": "667w-c6py--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -979,20 +972,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "6xq5-em5d",
       "title": "Directories - Air Ambulance Services",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "6xq5-em5d--default--placeholder.svg",
+      "image_file": "6xq5-em5d--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1087,20 +1080,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "7ac3-k2di",
       "title": "Missouri Licensed Lodging Establishment List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "7ac3-k2di--other--placeholder.svg",
+      "image_file": "7ac3-k2di--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1165,7 +1158,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "7t5a-79ri",
@@ -1219,8 +1212,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "835g-7keg",
@@ -1391,20 +1383,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "83mm-j7ms",
       "title": "Missouri State Government Job Openings",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "83mm-j7ms--other--placeholder.svg",
+      "image_file": "83mm-j7ms--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1600,20 +1592,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "8ejy-sj4q",
       "title": "Missouri Zipcode Data",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "8ejy-sj4q--other--placeholder.svg",
+      "image_file": "8ejy-sj4q--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1711,20 +1703,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "8gbc-na3a",
       "title": "Missouri First Reports of Injury by Body Parts - Trunk",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "8gbc-na3a--other--placeholder.svg",
+      "image_file": "8gbc-na3a--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1837,21 +1829,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "8hb2-5svi",
       "title": "Skill Up - Community Action Agencies",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "8hb2-5svi--other--placeholder.svg",
+      "image_file": "8hb2-5svi--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1908,20 +1899,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "8yaf-xv66",
       "title": "Total Number of High School Seniors in Missouri",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Education",
+      "category": "Education",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "8yaf-xv66--other--placeholder.svg",
+      "image_file": "8yaf-xv66--education--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1980,21 +1971,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "8zvy-7azn",
       "title": "DMH Veterans Provider Enrollment",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "8zvy-7azn--other--placeholder.svg",
+      "image_file": "8zvy-7azn--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2225,20 +2215,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "945m-hi5h",
       "title": "DNR Beaches Status",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "945m-hi5h--default--placeholder.svg",
+      "image_file": "945m-hi5h--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2324,20 +2314,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "a7u4-7njw",
       "title": "Outpatient Physical Therapy Providers (OPT)",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "a7u4-7njw--default--placeholder.svg",
+      "image_file": "a7u4-7njw--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2402,7 +2392,7 @@
           "zip": "631464933",
           "phone": "3147785325",
           "admin": "Megan Downs",
-          "ownership4profit": "\u2713"
+          "ownership4profit": "✓"
         },
         "layer": "soda",
         "introspected_at": "2026-08-08T21:27:33Z"
@@ -2414,7 +2404,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "a8ys-t8hd",
@@ -2593,7 +2583,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "au6r-w9n3",
@@ -2728,20 +2718,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "b7cg-4kvc",
       "title": "Capitol Complex Parking Map",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Transportation",
+      "category": "Transportation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "b7cg-4kvc--default--placeholder.svg",
+      "image_file": "b7cg-4kvc--transportation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2782,21 +2772,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "bf4t-a367",
       "title": "ADC DIRECTORY",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "bf4t-a367--other--placeholder.svg",
+      "image_file": "bf4t-a367--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2921,20 +2910,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "bipa-db22",
       "title": "2015 Public Bonds Data As of June 30, 2015",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Government",
-      "category": "Government",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "bipa-db22--government--placeholder.svg",
+      "image_file": "bipa-db22--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2999,21 +2988,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "byps-gsbw",
       "title": "Missouri Counties",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "byps-gsbw--parks-recreation--placeholder.svg",
+      "image_file": "byps-gsbw--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3111,20 +3099,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "cacd-xibb",
       "title": "Energy Assistance Average Benefits City",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "cacd-xibb--default--placeholder.svg",
+      "image_file": "cacd-xibb--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3159,8 +3147,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "cgbu-k38b",
@@ -3256,20 +3243,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "cj66-t7xq",
       "title": "Missouri Monthly Unemployment Claims By Industry",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "cj66-t7xq--other--placeholder.svg",
+      "image_file": "cj66-t7xq--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3424,20 +3411,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "cq57-7qrb",
       "title": "Missouri Monthly Unemployment Claims By Race",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "cq57-7qrb--other--placeholder.svg",
+      "image_file": "cq57-7qrb--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3502,21 +3489,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "diyi-fr2a",
       "title": "DHSS WIC Data",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "diyi-fr2a--default--placeholder.svg",
+      "image_file": "diyi-fr2a--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3593,20 +3579,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "dsx5-5mwh",
       "title": "Family Support Division Resource Centers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dsx5-5mwh--other--placeholder.svg",
+      "image_file": "dsx5-5mwh--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3677,7 +3663,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "dymb-xy5c",
@@ -3785,20 +3771,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "e7p8-a69d",
       "title": "DIRECTORIES - GROUND AMBULANCES",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "e7p8-a69d--default--placeholder.svg",
+      "image_file": "e7p8-a69d--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3887,20 +3873,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "eb3y-vtsa",
       "title": "Food Pantry List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "eb3y-vtsa--other--placeholder.svg",
+      "image_file": "eb3y-vtsa--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3975,7 +3961,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ezr3-ufzz",
@@ -4089,20 +4075,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "fcza-fcn8",
       "title": "Energy Assistance Average Benefits County",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "fcza-fcn8--default--placeholder.svg",
+      "image_file": "fcza-fcn8--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4137,21 +4123,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "fenu-sipv",
       "title": "LTC DIRECTORY",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "fenu-sipv--other--placeholder.svg",
+      "image_file": "fenu-sipv--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4312,20 +4297,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "fk75-fa28",
       "title": "Missouri Communicable Disease Report (2026)",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "fk75-fa28--other--placeholder.svg",
+      "image_file": "fk75-fa28--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4402,8 +4387,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "fkt2-8smh",
@@ -4463,20 +4447,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "g5ud-am38",
       "title": "Missouri First Reports of Injury by Body Part - Miscellaneous",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "g5ud-am38--other--placeholder.svg",
+      "image_file": "g5ud-am38--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4547,8 +4531,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "gbr4-c765",
@@ -4680,7 +4663,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "gfq7-aa86",
@@ -4758,21 +4741,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ggf4-p68x",
       "title": "BackflowTesters",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ggf4-p68x--default--placeholder.svg",
+      "image_file": "ggf4-p68x--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4873,21 +4855,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ghmj-sbt9",
       "title": "Pregnancy Assistance Providers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ghmj-sbt9--other--placeholder.svg",
+      "image_file": "ghmj-sbt9--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4988,20 +4969,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "grft-acku",
       "title": "HOSPICE IN STATE CERTIFIED PROVIDERS",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "grft-acku--other--placeholder.svg",
+      "image_file": "grft-acku--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5082,7 +5063,7 @@
           "phone": "3149096200",
           "facilities_county": "ST LOUIS",
           "servicearea_county": "FRANKLIN",
-          "ownership4profit": "\u2713",
+          "ownership4profit": "✓",
           "licnumber": "272-5HO",
           "licyrexpires": "2026-11-30T00:00:00.000"
         },
@@ -5096,20 +5077,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "gwbj-nw4k",
       "title": "Home Health - Out of State Providers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "gwbj-nw4k--other--placeholder.svg",
+      "image_file": "gwbj-nw4k--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5194,7 +5175,7 @@
           "zip": "64102",
           "phone": "9132997100",
           "admin": "Eileen Orel",
-          "ownership4profit": "\u2713",
+          "ownership4profit": "✓",
           "servicearea_county": "CASS",
           "fid": "229",
           "licnumber": "958-1HH",
@@ -5210,7 +5191,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "hbmv-rqk9",
@@ -5366,20 +5347,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "hhyk-mgim",
       "title": "City Building Codes for Missouri",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "hhyk-mgim--other--placeholder.svg",
+      "image_file": "hhyk-mgim--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5432,21 +5413,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "hv22-kqak",
       "title": "Federal Loan Amount - Unemployment Trust Fund",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "hv22-kqak--default--placeholder.svg",
+      "image_file": "hv22-kqak--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5475,21 +5455,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "im7g-fucq",
       "title": "Missouri Zip Codes by County/City",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "im7g-fucq--other--placeholder.svg",
+      "image_file": "im7g-fucq--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5524,20 +5503,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "inpf-ekav",
       "title": "Cigarette and Other Tobacco Products Licensees",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Finance",
-      "category": "Finance",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "inpf-ekav--finance--placeholder.svg",
+      "image_file": "inpf-ekav--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5590,7 +5569,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "iq7s-izvt",
@@ -5656,21 +5635,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "iqy7-7sid",
       "title": "ESRD Facilities",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "iqy7-7sid--default--placeholder.svg",
+      "image_file": "iqy7-7sid--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5753,20 +5731,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ishd-twt7",
       "title": "Excel Centers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ishd-twt7--other--placeholder.svg",
+      "image_file": "ishd-twt7--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5849,20 +5827,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "iwta-573n",
       "title": "Directories - Baby Box Registration",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "iwta-573n--default--placeholder.svg",
+      "image_file": "iwta-573n--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5939,7 +5917,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "j2a5-itxh",
@@ -6032,20 +6010,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "kadm-zhzb",
       "title": "Missouri First Reports of Injury by Body Part - Lower Extremities",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kadm-zhzb--other--placeholder.svg",
+      "image_file": "kadm-zhzb--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6134,21 +6112,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "kuz5-m96r",
       "title": "Missouri Works Assistance Locations",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kuz5-m96r--other--placeholder.svg",
+      "image_file": "kuz5-m96r--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6211,20 +6188,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "kw9k-iwnn",
       "title": "MO State Park Bison Locations",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kw9k-iwnn--other--placeholder.svg",
+      "image_file": "kw9k-iwnn--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6304,20 +6281,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "m7kw-5852",
       "title": "Covid-Vaccine-Events",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "m7kw-5852--default--placeholder.svg",
+      "image_file": "m7kw-5852--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6430,20 +6407,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "mcuk-295r",
       "title": "Missouri First Reports of Injury by Gender and Age",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mcuk-295r--other--placeholder.svg",
+      "image_file": "mcuk-295r--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6544,8 +6521,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "mmn5-wy78",
@@ -6605,20 +6581,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "mrdq-z2db",
       "title": "Missouri Certified Home Energy Auditors",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "mrdq-z2db--other--placeholder.svg",
+      "image_file": "mrdq-z2db--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -6728,7 +6704,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "mtgj-bnbx",
@@ -6836,7 +6812,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "n3tx-eq5q",
@@ -6956,20 +6932,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "nc6i-4sv2",
       "title": "Missouri Certified Incubators Contact Information",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "nc6i-4sv2--other--placeholder.svg",
+      "image_file": "nc6i-4sv2--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7046,7 +7022,7 @@
         ],
         "sample": {
           "incubator": "BEGIN New Venture Center",
-          "sponsor": "St. Patrick\u2019s Center",
+          "sponsor": "St. Patrick’s Center",
           "certified_year": "Certified in 2010",
           "contact_person": "Susie Wildman",
           "street_address": "800 N. Tucker Blvd",
@@ -7076,20 +7052,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "nfxa-cq5r",
       "title": "Registered Onsite Wastewater Treatment System (OWTS) Installers List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "nfxa-cq5r--other--placeholder.svg",
+      "image_file": "nfxa-cq5r--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7166,8 +7142,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "nytw-fmz3",
@@ -7275,20 +7250,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "p2ie-br32",
       "title": "Missouri Job Centers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "p2ie-br32--other--placeholder.svg",
+      "image_file": "p2ie-br32--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7356,20 +7331,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "p7xr-4mcb",
       "title": "Missouri First Reports of Injury by County",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "p7xr-4mcb--other--placeholder.svg",
+      "image_file": "p7xr-4mcb--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7416,21 +7391,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ppia-3k9s",
       "title": "Licensed Onsite System Inspectors/Evaluators List",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Licensing",
+      "category": "Licensing",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ppia-3k9s--other--placeholder.svg",
+      "image_file": "ppia-3k9s--licensing--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7501,20 +7475,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "qet9-8yam",
       "title": "Missouri Weekly Report of Initial Unemployment Claims",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "qet9-8yam--other--placeholder.svg",
+      "image_file": "qet9-8yam--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7549,21 +7523,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "qiy4-nwe9",
       "title": "Missouri Local Public Health Agency Directory",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "qiy4-nwe9--other--placeholder.svg",
+      "image_file": "qiy4-nwe9--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7654,20 +7627,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "qjj2-mrxw",
       "title": "ASC Facilities",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "qjj2-mrxw--default--placeholder.svg",
+      "image_file": "qjj2-mrxw--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7774,20 +7747,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "qxbb-787k",
       "title": "Adult High School Excel Center Locations",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Education",
+      "category": "Education",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "qxbb-787k--default--placeholder.svg",
+      "image_file": "qxbb-787k--education--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7846,20 +7819,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "r8ne-bg6j",
       "title": "Missouri First Reports of Injury by Body Part - Upper Extremities",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "r8ne-bg6j--other--placeholder.svg",
+      "image_file": "r8ne-bg6j--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7954,21 +7927,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "rtst-p7t3",
       "title": "Missouri County Geography",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "rtst-p7t3--other--placeholder.svg",
+      "image_file": "rtst-p7t3--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8108,21 +8080,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "model derail on first draft; re-draft pending 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "szw8-jbqy",
       "title": "DNR-WPP-Chronic Violators",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "szw8-jbqy--parks-recreation--placeholder.svg",
+      "image_file": "szw8-jbqy--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8181,21 +8152,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "model derail on first draft; re-draft pending 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "t9f4-ncza",
       "title": "Completed FAFSAs Reported to MDHE",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Education",
+      "category": "Education",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "t9f4-ncza--other--placeholder.svg",
+      "image_file": "t9f4-ncza--education--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8248,21 +8218,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "tvgd-f4ks",
       "title": "Missouri First Reports of Injury by Body Part - Head",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "tvgd-f4ks--other--placeholder.svg",
+      "image_file": "tvgd-f4ks--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8357,21 +8326,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "uaxb-77vv",
       "title": "Missouri Unemployment Rates For Various Regions",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "uaxb-77vv--other--placeholder.svg",
+      "image_file": "uaxb-77vv--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8493,20 +8461,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "udnb-nqn3",
       "title": "Covid Vaccination Events",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "udnb-nqn3--default--placeholder.svg",
+      "image_file": "udnb-nqn3--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8625,20 +8593,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "uite-mset",
       "title": "Missourians Receiving Unemployment Benefits",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "uite-mset--other--placeholder.svg",
+      "image_file": "uite-mset--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8685,21 +8653,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "uqr3-yy6s",
       "title": "County Regions",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "uqr3-yy6s--default--placeholder.svg",
+      "image_file": "uqr3-yy6s--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8734,21 +8701,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "usf4-uuvb",
       "title": "DIRECTORIES - STRETCHER VAN",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "usf4-uuvb--default--placeholder.svg",
+      "image_file": "usf4-uuvb--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8837,20 +8803,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "v2fi-tjym",
       "title": "Missouri First Reports of Injury by Body Part - Neck",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "v2fi-tjym--other--placeholder.svg",
+      "image_file": "v2fi-tjym--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8921,8 +8887,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "vfrr-8z5c",
@@ -9006,20 +8971,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "w5xs-s3mj",
       "title": "Individual Navigators",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "w5xs-s3mj--other--placeholder.svg",
+      "image_file": "w5xs-s3mj--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9054,21 +9019,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "w7h5-ge5s",
       "title": "Buy Missouri Businesses",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "w7h5-ge5s--default--placeholder.svg",
+      "image_file": "w7h5-ge5s--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9131,20 +9095,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "wbx5-smj6",
       "title": "Missouri 2009 Metropolitan and micropolitan statistical areas",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "wbx5-smj6--other--placeholder.svg",
+      "image_file": "wbx5-smj6--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9272,20 +9236,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "wh7n-cipb",
       "title": "Buy Missouri Retail Businesses",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "wh7n-cipb--default--placeholder.svg",
+      "image_file": "wh7n-cipb--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9370,20 +9334,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "wkmi-4kdj",
       "title": "Fetal Ultrasound Providers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "wkmi-4kdj--other--placeholder.svg",
+      "image_file": "wkmi-4kdj--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9478,20 +9442,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "wn56-7gv3",
       "title": "CAA Contact Info Websites Services",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "wn56-7gv3--other--placeholder.svg",
+      "image_file": "wn56-7gv3--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9566,20 +9530,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "x5wy-unx3",
       "title": "Missouri Counties",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Government",
+      "category": "Government",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "x5wy-unx3--parks-recreation--placeholder.svg",
+      "image_file": "x5wy-unx3--government--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9689,21 +9653,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "model derail on first draft; re-draft pending 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "xm42-6a8n",
       "title": "Missouri Monthly Unemployment Claims By Ethnicity",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "xm42-6a8n--other--placeholder.svg",
+      "image_file": "xm42-6a8n--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9750,21 +9713,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "xmt3-c8ve",
       "title": "Job Centers",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "xmt3-c8ve--other--placeholder.svg",
+      "image_file": "xmt3-c8ve--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9821,20 +9783,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "xudb-wnjq",
       "title": "Certified Comprehensive Outpatient Rehabilitation Facilities (CORF)",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "xudb-wnjq--other--placeholder.svg",
+      "image_file": "xudb-wnjq--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -9904,7 +9866,7 @@
           "zip": "64108",
           "phone": "8167517700",
           "admin": "Amy Castillo",
-          "ownershipnonpcorp": "\u2713",
+          "ownershipnonpcorp": "✓",
           "region": "West"
         },
         "layer": "soda",
@@ -9917,21 +9879,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:45:06Z",
-      "content_note": "model derail on first draft; re-draft pending 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "y64b-aec2",
       "title": "Oil and Gas Permits",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Parks & Recreation",
-      "category": "Parks & Recreation",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "y64b-aec2--parks-recreation--placeholder.svg",
+      "image_file": "y64b-aec2--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10049,20 +10010,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "y83k-dbqp",
       "title": "Vaccines for Children (VFC) Clinics",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Health",
+      "category": "Health",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "y83k-dbqp--other--placeholder.svg",
+      "image_file": "y83k-dbqp--health--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10157,20 +10118,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "y84f-xfv7",
       "title": "2015 State Budget Restrictions As of June 30, 2015",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Government",
-      "category": "Government",
+      "display_category": "Finance",
+      "category": "Finance",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "y84f-xfv7--government--placeholder.svg",
+      "image_file": "y84f-xfv7--finance--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10217,21 +10178,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "yeiz-h2m2",
       "title": "Find A Missouri Utility",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Infrastructure",
+      "category": "Infrastructure",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "yeiz-h2m2--default--placeholder.svg",
+      "image_file": "yeiz-h2m2--infrastructure--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10284,21 +10244,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "ymz7-guyk",
       "title": "Labor Quick Facts",
       "city": "Missouri",
       "city_slug": "missouri",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ymz7-guyk--other--placeholder.svg",
+      "image_file": "ymz7-guyk--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10351,8 +10310,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:46:35Z",
-      "content_note": "hollow step-4 -> no-anchor fallback 2026-08-08"
+      "last_updated": "2026-08-11T14:40:54Z"
     },
     {
       "slug": "yyhn-562y",
@@ -10466,7 +10424,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-08T21:28:27Z"
+      "last_updated": "2026-08-11T14:40:54Z"
     }
   ]
 }

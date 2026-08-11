@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["labor", "jobs", "employers", "career", "job seekers", "Labor"]
-categories: ["Other"]
-cover: "covers/p2ie-br32--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/p2ie-br32--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/p2ie-br32.json"
 license: ""
 dataset_id: "p2ie-br32"
@@ -50,6 +50,7 @@ dictionary:
   - field: "latlng_address"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Missouri Career Centers that provide job search assistance and employer hiring services.

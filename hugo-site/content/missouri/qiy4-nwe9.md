@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/qiy4-nwe9--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/qiy4-nwe9--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qiy4-nwe9.json"
 license: ""
 dataset_id: "qiy4-nwe9"
@@ -40,6 +40,7 @@ dictionary:
   - field: "first_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists contact information and locations for all local public health agencies across Missouri.

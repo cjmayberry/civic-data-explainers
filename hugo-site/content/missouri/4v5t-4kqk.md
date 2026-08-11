@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["labor", "unemployment", "employment", "Labor"]
-categories: ["Other"]
-cover: "covers/4v5t-4kqk--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/4v5t-4kqk--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/4v5t-4kqk.json"
 license: ""
 dataset_id: "4v5t-4kqk"
@@ -16,7 +16,7 @@ dictionary:
   - field: "ina"
     description: "Information Not Available"
   - field: "record_id"
-    description: "Unique string to identify record\n"
+    description: "Unique string to identify record\\n"
   - field: "date"
     description: ""
   - field: "female"
@@ -24,6 +24,7 @@ dictionary:
   - field: "male"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the number of monthly unemployment insurance claims filed in Missouri, broken down by gender.

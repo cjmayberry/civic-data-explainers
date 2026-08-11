@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/grft-acku--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/grft-acku--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/grft-acku.json"
 license: ""
 dataset_id: "grft-acku"
@@ -56,6 +56,7 @@ dictionary:
   - field: "city"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists all Medicare-certified hospice providers licensed by the state of Missouri.  

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "froi", "injury", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/mcuk-295r--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/mcuk-295r--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/mcuk-295r.json"
 license: ""
 dataset_id: "mcuk-295r"
@@ -42,6 +42,7 @@ dictionary:
   - field: "_2_1"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts workplace injury reports filed in Missouri, broken down by gender and age groups.

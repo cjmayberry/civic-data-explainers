@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Natural Resources"]
-categories: ["Parks & Recreation"]
-cover: "covers/y64b-aec2--parks-recreation--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/y64b-aec2--environment--placeholder.svg"
 source_url: "https://data.mo.gov/resource/y64b-aec2.json"
 license: ""
 dataset_id: "y64b-aec2"
@@ -56,6 +56,7 @@ dictionary:
   - field: "location_1_zip"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records oil and gas drilling permits issued in Missouri, including well locations and operator details.

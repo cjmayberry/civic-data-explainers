@@ -3,8 +3,8 @@ title: "Capitol Complex Parking Map"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/b7cg-4kvc--default--placeholder.svg"
+categories: ["Transportation"]
+cover: "covers/b7cg-4kvc--transportation--placeholder.svg"
 source_url: "https://data.mo.gov/resource/b7cg-4kvc.json"
 license: ""
 dataset_id: "b7cg-4kvc"
@@ -19,6 +19,7 @@ dictionary:
   - field: "descriptio"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset shows the locations and details of parking lots in Missouri's Capitol Complex.

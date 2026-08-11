@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Labor"]
-categories: ["Other"]
-cover: "covers/ymz7-guyk--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/ymz7-guyk--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ymz7-guyk.json"
 license: ""
 dataset_id: "ymz7-guyk"
@@ -26,6 +26,7 @@ dictionary:
   - field: "initial_unemployment_claims_filed"
     description: ""
 ---
+
 
 ## What this tracks
 This dataset records key employment and workplace safety statistics for Missouri on a monthly basis.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/fenu-sipv--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/fenu-sipv--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/fenu-sipv.json"
 license: ""
 dataset_id: "fenu-sipv"
@@ -64,6 +64,7 @@ dictionary:
   - field: "capacity"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists all licensed long-term care facilities in Missouri, including nursing homes, assisted living facilities, and residential care facilities.

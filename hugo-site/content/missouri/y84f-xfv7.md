@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Government Administration"]
-categories: ["Government"]
-cover: "covers/y84f-xfv7--government--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/y84f-xfv7--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/y84f-xfv7.json"
 license: ""
 dataset_id: "y84f-xfv7"
@@ -24,6 +24,7 @@ dictionary:
   - field: "fund_name"
     description: ""
 ---
+
 
 ## What this tracks
 This dataset records how much money the State of Missouri restricted from various agency budgets during fiscal year 2015, and how much of those restrictions were later released.

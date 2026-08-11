@@ -3,8 +3,8 @@ title: "Directories - Air Ambulance Services"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/6xq5-em5d--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/6xq5-em5d--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/6xq5-em5d.json"
 license: ""
 dataset_id: "6xq5-em5d"
@@ -39,6 +39,7 @@ dictionary:
   - field: "service_classification"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists air ambulance services operating in Missouri, including their contact details and locations.

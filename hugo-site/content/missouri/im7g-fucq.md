@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Geography"]
-categories: ["Other"]
-cover: "covers/im7g-fucq--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/im7g-fucq--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/im7g-fucq.json"
 license: ""
 dataset_id: "im7g-fucq"
@@ -20,6 +20,7 @@ dictionary:
   - field: "zip_code"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset maps which Missouri zip codes belong to which counties and cities.  

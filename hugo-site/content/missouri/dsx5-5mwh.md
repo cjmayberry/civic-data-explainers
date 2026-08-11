@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/dsx5-5mwh--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/dsx5-5mwh--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/dsx5-5mwh.json"
 license: ""
 dataset_id: "dsx5-5mwh"
@@ -50,6 +50,7 @@ dictionary:
   - field: "location_1_address"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Missouri's Family Support Division Resource Centers, including their locations, hours, and services offered.

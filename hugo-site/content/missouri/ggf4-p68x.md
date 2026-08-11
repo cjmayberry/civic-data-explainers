@@ -3,8 +3,8 @@ title: "BackflowTesters"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/ggf4-p68x--default--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/ggf4-p68x--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ggf4-p68x.json"
 license: ""
 dataset_id: "ggf4-p68x"
@@ -41,6 +41,7 @@ dictionary:
   - field: "expr1010"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists certified backflow prevention device testers in Missouri who are available for hire to inspect and maintain backflow prevention systems.

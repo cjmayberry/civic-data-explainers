@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/ppia-3k9s--other--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/ppia-3k9s--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ppia-3k9s.json"
 license: ""
 dataset_id: "ppia-3k9s"
@@ -34,6 +34,7 @@ dictionary:
   - field: "last_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists licensed inspectors and evaluators who can assess onsite wastewater treatment systems (septic systems) in Missouri.

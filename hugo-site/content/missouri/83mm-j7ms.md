@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employee", "jobs", "work", "job", "employer", "Government Administration"]
-categories: ["Other"]
-cover: "covers/83mm-j7ms--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/83mm-j7ms--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/83mm-j7ms.json"
 license: ""
 dataset_id: "83mm-j7ms"
@@ -92,6 +92,7 @@ dictionary:
   - field: "employer"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists current job openings across Missouri state government agencies, including position details and application information.  

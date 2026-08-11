@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/nfxa-cq5r--other--placeholder.svg"
+categories: ["Infrastructure"]
+cover: "covers/nfxa-cq5r--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/nfxa-cq5r.json"
 license: ""
 dataset_id: "nfxa-cq5r"
@@ -36,6 +36,7 @@ dictionary:
   - field: "mi"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists licensed installers of Onsite Wastewater Treatment Systems (septic systems) in Missouri.  

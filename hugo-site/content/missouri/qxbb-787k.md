@@ -3,8 +3,8 @@ title: "Adult High School Excel Center Locations"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/qxbb-787k--default--placeholder.svg"
+categories: ["Education"]
+cover: "covers/qxbb-787k--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qxbb-787k.json"
 license: ""
 dataset_id: "qxbb-787k"
@@ -29,6 +29,7 @@ dictionary:
   - field: "address_1"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists locations of Excel Centers in Missouri — public high schools specifically designed for adult learners to earn diplomas.

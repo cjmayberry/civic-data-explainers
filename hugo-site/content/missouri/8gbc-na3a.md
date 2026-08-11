@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["injury", "labor", "employment", "froi", "Labor"]
-categories: ["Other"]
-cover: "covers/8gbc-na3a--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/8gbc-na3a--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8gbc-na3a.json"
 license: ""
 dataset_id: "8gbc-na3a"
@@ -48,6 +48,7 @@ dictionary:
   - field: "upper_back_area"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts work-related injuries to torso areas reported in Missouri workers' compensation claims, broken down by specific body parts.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Government Administration"]
-categories: ["Government"]
-cover: "covers/38q6-ispi--government--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/38q6-ispi--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/38q6-ispi.json"
 license: ""
 dataset_id: "38q6-ispi"
@@ -26,6 +26,7 @@ dictionary:
   - field: "vendor_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records every payment made by the state of Missouri in fiscal year 2020, including which agencies spent money, what they bought, and who received payments.  

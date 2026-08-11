@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Government Administration"]
-categories: ["Government"]
-cover: "covers/53ys-svak--government--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/53ys-svak--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/53ys-svak.json"
 license: ""
 dataset_id: "53ys-svak"
@@ -24,6 +24,7 @@ dictionary:
   - field: "calendar_year"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the names, positions, agencies, and gross pay of Missouri state employees in 2020.  

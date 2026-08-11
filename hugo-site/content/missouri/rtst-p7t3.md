@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Geography"]
-categories: ["Other"]
-cover: "covers/rtst-p7t3--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/rtst-p7t3--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/rtst-p7t3.json"
 license: ""
 dataset_id: "rtst-p7t3"
@@ -66,6 +66,7 @@ dictionary:
   - field: "lsad"
     description: ""
 ---
+
 
 ## What this tracks
 This dataset maps the geographic boundaries of all 115 counties in Missouri based on 2009 U.S. Census data.

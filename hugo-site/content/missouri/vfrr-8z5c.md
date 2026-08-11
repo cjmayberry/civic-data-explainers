@@ -57,6 +57,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists all licensed financial institutions operating in Missouri, including banks and credit unions.  
 

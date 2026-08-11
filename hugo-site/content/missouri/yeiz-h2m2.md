@@ -3,8 +3,8 @@ title: "Find A Missouri Utility"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/yeiz-h2m2--default--placeholder.svg"
+categories: ["Infrastructure"]
+cover: "covers/yeiz-h2m2--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/yeiz-h2m2.json"
 license: ""
 dataset_id: "yeiz-h2m2"
@@ -39,6 +39,7 @@ dictionary:
   - field: "e_division"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists electric and telephone utility providers across Missouri cities and counties.

@@ -47,6 +47,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset records active alcohol licenses for businesses involved in manufacturing, shipping, or selling alcohol in Missouri.
 

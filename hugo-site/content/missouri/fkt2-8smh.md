@@ -25,6 +25,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists all currently licensed beer, wine, and liquor wholesalers in Missouri, including their locations and license types.
 

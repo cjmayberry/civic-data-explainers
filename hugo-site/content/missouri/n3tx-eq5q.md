@@ -45,6 +45,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset records expiration dates for temporary alcohol licenses issued to businesses in Missouri.
 

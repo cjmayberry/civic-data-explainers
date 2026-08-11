@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/y83k-dbqp--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/y83k-dbqp--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/y83k-dbqp.json"
 license: ""
 dataset_id: "y83k-dbqp"
@@ -40,6 +40,7 @@ dictionary:
   - field: "geocoded_column"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists clinics in Missouri that participate in the Vaccines for Children (VFC) program, which provides free vaccines to eligible kids.  

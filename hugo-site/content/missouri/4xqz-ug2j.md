@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/4xqz-ug2j--other--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/4xqz-ug2j--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/4xqz-ug2j.json"
 license: ""
 dataset_id: "4xqz-ug2j"
@@ -36,6 +36,7 @@ dictionary:
   - field: "mi"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists licensed onsite soil evaluators in Missouri who assess soil conditions for septic systems and other land-use projects.

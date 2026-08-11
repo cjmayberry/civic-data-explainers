@@ -3,8 +3,8 @@ title: "DIRECTORIES - STRETCHER VAN"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/usf4-uuvb--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/usf4-uuvb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/usf4-uuvb.json"
 license: ""
 dataset_id: "usf4-uuvb"
@@ -39,6 +39,7 @@ dictionary:
   - field: "service_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists certified stretcher van services in Missouri that provide non-emergency medical transportation.

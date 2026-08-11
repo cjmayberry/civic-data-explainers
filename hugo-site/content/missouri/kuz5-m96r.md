@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/kuz5-m96r--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/kuz5-m96r--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/kuz5-m96r.json"
 license: ""
 dataset_id: "kuz5-m96r"
@@ -40,6 +40,7 @@ dictionary:
   - field: "location_1_zip"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists locations in Missouri that provide Missouri Works Assistance (MWA) services, including their addresses, hours, and contact information.

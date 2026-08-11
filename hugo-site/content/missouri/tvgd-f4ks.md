@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["labor", "employment", "froi", "injury", "Labor"]
-categories: ["Other"]
-cover: "covers/tvgd-f4ks--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/tvgd-f4ks--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/tvgd-f4ks.json"
 license: ""
 dataset_id: "tvgd-f4ks"
@@ -40,6 +40,7 @@ dictionary:
   - field: "facial_bones"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts workplace head injuries reported to Missouri by specific body part affected.

@@ -63,6 +63,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset records active alcohol licenses issued in Missouri counties, including business details and license expiration dates.
 

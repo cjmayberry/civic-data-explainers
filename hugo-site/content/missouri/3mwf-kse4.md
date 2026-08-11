@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Natural Resources"]
-categories: ["Parks & Recreation"]
-cover: "covers/3mwf-kse4--parks-recreation--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/3mwf-kse4--environment--placeholder.svg"
 source_url: "https://data.mo.gov/resource/3mwf-kse4.json"
 license: ""
 dataset_id: "3mwf-kse4"
@@ -20,6 +20,7 @@ dictionary:
   - field: "county"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset contains Consumer Confidence Reports (CCRs) showing water quality test results for public water systems in Missouri.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["bison", "buffalo", "Conservation"]
-categories: ["Other"]
-cover: "covers/kw9k-iwnn--other--placeholder.svg"
+categories: ["Parks & Recreation"]
+cover: "covers/kw9k-iwnn--parks-recreation--placeholder.svg"
 source_url: "https://data.mo.gov/resource/kw9k-iwnn.json"
 license: ""
 dataset_id: "kw9k-iwnn"
@@ -42,6 +42,7 @@ dictionary:
   - field: "latlon"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the real-time GPS locations of three bison living in Missouri State Park.

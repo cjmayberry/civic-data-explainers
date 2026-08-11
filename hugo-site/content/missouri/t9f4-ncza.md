@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["fafsa", "Education"]
-categories: ["Other"]
-cover: "covers/t9f4-ncza--other--placeholder.svg"
+categories: ["Education"]
+cover: "covers/t9f4-ncza--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/t9f4-ncza.json"
 license: ""
 dataset_id: "t9f4-ncza"
@@ -26,6 +26,7 @@ dictionary:
   - field: "school_year"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts how many students at each Missouri high school completed the Free Application for Federal Student Aid (FAFSA) each school year.  

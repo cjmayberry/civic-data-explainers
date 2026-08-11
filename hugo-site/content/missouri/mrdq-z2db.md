@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Economic Development"]
-categories: ["Other"]
-cover: "covers/mrdq-z2db--other--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/mrdq-z2db--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/mrdq-z2db.json"
 license: ""
 dataset_id: "mrdq-z2db"
@@ -52,6 +52,7 @@ dictionary:
   - field: "last_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Missouri-certified professionals who conduct home energy audits to assess a property's energy efficiency.  

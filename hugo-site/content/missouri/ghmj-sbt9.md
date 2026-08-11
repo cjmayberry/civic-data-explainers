@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/ghmj-sbt9--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/ghmj-sbt9--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ghmj-sbt9.json"
 license: ""
 dataset_id: "ghmj-sbt9"
@@ -80,6 +80,7 @@ dictionary:
   - field: "facebook_url"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists pregnancy assistance providers in Missouri, including their locations, contact details, and service areas.  

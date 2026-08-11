@@ -3,8 +3,8 @@ title: "Buy Missouri Businesses"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/w7h5-ge5s--default--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/w7h5-ge5s--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/w7h5-ge5s.json"
 license: ""
 dataset_id: "w7h5-ge5s"
@@ -41,6 +41,7 @@ dictionary:
   - field: "website"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists locally owned businesses in Missouri that participate in the Buy Missouri program, which promotes shopping at local establishments.

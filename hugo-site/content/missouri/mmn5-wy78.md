@@ -25,6 +25,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists all current beer, wine, and liquor solicitors licensed in Missouri, along with their business names, locations, and license types.  
 

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["navigators", "health", "health insurance", "insurance", "licensed navigators", "navigator", "navigator phone", "navigators phone", "Insurance"]
-categories: ["Other"]
-cover: "covers/w5xs-s3mj--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/w5xs-s3mj--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/w5xs-s3mj.json"
 license: ""
 dataset_id: "w5xs-s3mj"
@@ -20,6 +20,7 @@ dictionary:
   - field: "business_phone"
     description: ""
 ---
+
 
 ## What this tracks
 This dataset records licensed Individual Navigators currently authorized to practice in Missouri.

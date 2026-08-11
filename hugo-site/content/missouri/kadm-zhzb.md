@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "labor", "froi", "injury", "Labor"]
-categories: ["Other"]
-cover: "covers/kadm-zhzb--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/kadm-zhzb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/kadm-zhzb.json"
 license: ""
 dataset_id: "kadm-zhzb"
@@ -38,6 +38,7 @@ dictionary:
   - field: "lower_leg_s"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts workplace injury reports in Missouri that involve lower body parts like legs, knees, and feet.

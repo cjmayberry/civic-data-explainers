@@ -3,8 +3,8 @@ title: "Energy Assistance Average Benefits City"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/cacd-xibb--default--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/cacd-xibb--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/cacd-xibb.json"
 license: ""
 dataset_id: "cacd-xibb"
@@ -19,6 +19,7 @@ dictionary:
   - field: "average_benefit_received"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset shows the average financial assistance received by households in Missouri cities through energy aid programs.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["agrimissouri", "missouri", "farmers' markets", "Agriculture"]
-categories: ["Other"]
-cover: "covers/2zg8-cta8--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/2zg8-cta8--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/2zg8-cta8.json"
 license: ""
 dataset_id: "2zg8-cta8"
@@ -56,6 +56,7 @@ dictionary:
   - field: "latlong_city"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists farmers' markets and local farm vendors across Missouri, including their locations, contact details, and product offerings.

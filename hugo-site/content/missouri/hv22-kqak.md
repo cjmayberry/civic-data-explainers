@@ -3,8 +3,8 @@ title: "Federal Loan Amount - Unemployment Trust Fund"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/hv22-kqak--default--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/hv22-kqak--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/hv22-kqak.json"
 license: ""
 dataset_id: "hv22-kqak"
@@ -17,6 +17,7 @@ dictionary:
   - field: "date"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the amount of money loaned from the federal government to Missouri's Unemployment Trust Fund each month.

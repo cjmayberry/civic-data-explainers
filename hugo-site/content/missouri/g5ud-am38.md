@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["labor", "injury", "employment", "froi", "Labor"]
-categories: ["Other"]
-cover: "covers/g5ud-am38--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/g5ud-am38--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/g5ud-am38.json"
 license: ""
 dataset_id: "g5ud-am38"
@@ -34,6 +34,7 @@ dictionary:
   - field: "artificial_appliance"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records first reports of workplace injuries in Missouri where the injury affected miscellaneous or multiple body parts.

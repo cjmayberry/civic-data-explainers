@@ -3,8 +3,8 @@ title: "Energy Assistance Average Benefits County"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/fcza-fcn8--default--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/fcza-fcn8--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/fcza-fcn8.json"
 license: ""
 dataset_id: "fcza-fcn8"
@@ -19,6 +19,7 @@ dictionary:
   - field: "benefit_recipient_count"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset shows the average amount of energy assistance benefits received by households in each Missouri county.  

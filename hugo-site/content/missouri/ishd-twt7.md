@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/ishd-twt7--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/ishd-twt7--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/ishd-twt7.json"
 license: ""
 dataset_id: "ishd-twt7"
@@ -36,6 +36,7 @@ dictionary:
   - field: "location"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Excel Centers in Missouri, which are adult education centers offering high school diploma programs.

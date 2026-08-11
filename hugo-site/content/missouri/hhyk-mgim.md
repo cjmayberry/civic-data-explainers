@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["economic development", "building codes", "fips", "Economic Development"]
-categories: ["Other"]
-cover: "covers/hhyk-mgim--other--placeholder.svg"
+categories: ["Infrastructure"]
+cover: "covers/hhyk-mgim--infrastructure--placeholder.svg"
 source_url: "https://data.mo.gov/resource/hhyk-mgim.json"
 license: ""
 dataset_id: "hhyk-mgim"
@@ -32,6 +32,7 @@ dictionary:
   - field: "commercial_code"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records which building codes are enforced in different jurisdictions across Missouri.

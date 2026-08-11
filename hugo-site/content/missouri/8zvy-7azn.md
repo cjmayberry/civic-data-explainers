@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["dmh", "provider map", "Health"]
-categories: ["Other"]
-cover: "covers/8zvy-7azn--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/8zvy-7azn--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8zvy-7azn.json"
 license: ""
 dataset_id: "8zvy-7azn"
@@ -96,6 +96,7 @@ dictionary:
   - field: "location_1_zip"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Missouri behavioral health providers who serve veterans, military members, and their families, along with their specialties and contact information.

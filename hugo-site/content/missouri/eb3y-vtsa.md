@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/eb3y-vtsa--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/eb3y-vtsa--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/eb3y-vtsa.json"
 license: ""
 dataset_id: "eb3y-vtsa"
@@ -40,6 +40,7 @@ dictionary:
   - field: ":@computed_region_ikxf_gfzr"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists food pantries in Missouri, including their locations, hours, and contact information.

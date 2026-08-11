@@ -3,8 +3,8 @@ title: "ESRD Facilities"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/iqy7-7sid--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/iqy7-7sid--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/iqy7-7sid.json"
 license: ""
 dataset_id: "iqy7-7sid"
@@ -35,6 +35,7 @@ dictionary:
   - field: "address"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists all Medicare-certified End-Stage Renal Disease (ESRD) dialysis facilities in Missouri.

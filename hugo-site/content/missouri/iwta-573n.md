@@ -3,8 +3,8 @@ title: "Directories - Baby Box Registration"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/iwta-573n--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/iwta-573n--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/iwta-573n.json"
 license: ""
 dataset_id: "iwta-573n"
@@ -35,6 +35,7 @@ dictionary:
   - field: "service_phone"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists organizations in Missouri that distribute free Baby Boxes (safe sleep kits for newborns) and their contact information.  

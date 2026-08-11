@@ -41,6 +41,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset records alcohol licenses for businesses in Missouri that have permanently closed.  
 

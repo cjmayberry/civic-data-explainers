@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/7ac3-k2di--other--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/7ac3-k2di--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/7ac3-k2di.json"
 license: ""
 dataset_id: "7ac3-k2di"
@@ -30,6 +30,7 @@ dictionary:
   - field: "establishment_city"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists all licensed lodging establishments (hotels, motels, etc.) in Missouri, including their locations and contact information.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/wkmi-4kdj--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/wkmi-4kdj--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/wkmi-4kdj.json"
 license: ""
 dataset_id: "wkmi-4kdj"
@@ -44,6 +44,7 @@ dictionary:
   - field: "text_telephone"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists licensed facilities in Missouri that provide fetal ultrasound services, including their contact details and service areas.  

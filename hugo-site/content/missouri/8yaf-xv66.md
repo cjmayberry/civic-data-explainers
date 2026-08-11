@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["school", "Education"]
-categories: ["Other"]
-cover: "covers/8yaf-xv66--other--placeholder.svg"
+categories: ["Education"]
+cover: "covers/8yaf-xv66--education--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8yaf-xv66.json"
 license: ""
 dataset_id: "8yaf-xv66"
@@ -28,6 +28,7 @@ dictionary:
   - field: "number_of_seniors"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts how many high school seniors attended each public school in Missouri by school year.

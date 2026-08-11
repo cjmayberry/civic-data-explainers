@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/8hb2-5svi--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/8hb2-5svi--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/8hb2-5svi.json"
 license: ""
 dataset_id: "8hb2-5svi"
@@ -38,6 +38,7 @@ dictionary:
   - field: ":@computed_region_c8ar_jsdj"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Community Action Agencies in Missouri that provide Skill Up job training and support services.

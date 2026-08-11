@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Education"]
-categories: ["Other"]
-cover: "covers/3vxz-wrn6--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/3vxz-wrn6--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/3vxz-wrn6.json"
 license: ""
 dataset_id: "3vxz-wrn6"
@@ -24,6 +24,7 @@ dictionary:
   - field: "est_deaf_1"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset estimates the number of deaf and hard of hearing residents in Missouri based on 2010 census data.

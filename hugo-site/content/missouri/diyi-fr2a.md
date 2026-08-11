@@ -3,8 +3,8 @@ title: "DHSS WIC Data"
 date: "2026-08-02"
 description: "WIC Household ID"
 teaser: "WIC Household ID"
-categories: ["Default"]
-cover: "covers/diyi-fr2a--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/diyi-fr2a--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/diyi-fr2a.json"
 license: ""
 dataset_id: "diyi-fr2a"
@@ -33,6 +33,7 @@ dictionary:
   - field: "ts_orig_reg_pk_householdid"
     description: "WIC Household ID"
 ---
+
 
 ## What this tracks  
 This dataset records the total value of WIC benefits redeemed by enrolled households in Missouri during state fiscal year 2025, broken down by county and municipality.  

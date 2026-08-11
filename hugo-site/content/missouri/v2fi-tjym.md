@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["froi", "labor", "injury", "employment", "Labor"]
-categories: ["Other"]
-cover: "covers/v2fi-tjym--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/v2fi-tjym--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/v2fi-tjym.json"
 license: ""
 dataset_id: "v2fi-tjym"
@@ -34,6 +34,7 @@ dictionary:
   - field: "month"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records workplace injury reports in Missouri that specifically involve neck injuries, categorized by affected body parts.  

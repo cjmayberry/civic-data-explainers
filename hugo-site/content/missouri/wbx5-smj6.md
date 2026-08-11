@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Geography"]
-categories: ["Other"]
-cover: "covers/wbx5-smj6--other--placeholder.svg"
+categories: ["Government"]
+cover: "covers/wbx5-smj6--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/wbx5-smj6.json"
 license: ""
 dataset_id: "wbx5-smj6"
@@ -58,6 +58,7 @@ dictionary:
   - field: "intptlon"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset defines the boundaries of the Kansas City, MO-KS Metropolitan Statistical Area as designated by federal agencies for statistical reporting.

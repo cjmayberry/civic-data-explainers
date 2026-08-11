@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "Unique string to identify record"
 teaser: "Unique string to identify record"
 tags: ["employment", "unemployment", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/5tqh-2x4m--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/5tqh-2x4m--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/5tqh-2x4m.json"
 license: ""
 dataset_id: "5tqh-2x4m"
@@ -36,6 +36,7 @@ dictionary:
   - field: "record_id"
     description: "Unique string to identify record"
 ---
+
 
 ## What this tracks  
 This dataset counts monthly unemployment claims in Missouri broken down by age groups.

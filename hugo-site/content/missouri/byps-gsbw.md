@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Geography"]
-categories: ["Parks & Recreation"]
-cover: "covers/byps-gsbw--parks-recreation--placeholder.svg"
+categories: ["Government"]
+cover: "covers/byps-gsbw--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/byps-gsbw.json"
 license: ""
 dataset_id: "byps-gsbw"
@@ -52,6 +52,7 @@ dictionary:
   - field: "countygnis"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset contains geographic and administrative information about all counties in Missouri, including their boundaries, county seats, and FIPS codes.

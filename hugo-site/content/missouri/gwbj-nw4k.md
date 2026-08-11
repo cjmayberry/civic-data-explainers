@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/gwbj-nw4k--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/gwbj-nw4k--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/gwbj-nw4k.json"
 license: ""
 dataset_id: "gwbj-nw4k"
@@ -58,6 +58,7 @@ dictionary:
   - field: "licyrexpires"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists home health providers physically located in Missouri but certified through another state's CMS program.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/xudb-wnjq--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/xudb-wnjq--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/xudb-wnjq.json"
 license: ""
 dataset_id: "xudb-wnjq"
@@ -50,6 +50,7 @@ dictionary:
   - field: "ownershiphospbased"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Medicare-certified Comprehensive Outpatient Rehabilitation Facilities (CORFs) in Missouri that provide specialized therapy services.

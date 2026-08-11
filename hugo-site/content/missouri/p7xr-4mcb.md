@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["labor", "employment", "froi", "injury", "Labor"]
-categories: ["Other"]
-cover: "covers/p7xr-4mcb--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/p7xr-4mcb--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/p7xr-4mcb.json"
 license: ""
 dataset_id: "p7xr-4mcb"
@@ -24,6 +24,7 @@ dictionary:
   - field: "year"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the number of first reports of workplace injuries filed in each Missouri county, organized by month and year.  

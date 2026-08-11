@@ -3,8 +3,8 @@ title: "Buy Missouri Retail Businesses"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/wh7n-cipb--default--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/wh7n-cipb--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/wh7n-cipb.json"
 license: ""
 dataset_id: "wh7n-cipb"
@@ -33,6 +33,7 @@ dictionary:
   - field: "city"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists retail businesses registered with the Buy Missouri program, which promotes locally owned businesses in the state.  

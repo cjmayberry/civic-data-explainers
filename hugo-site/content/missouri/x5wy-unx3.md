@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Natural Resources"]
-categories: ["Parks & Recreation"]
-cover: "covers/x5wy-unx3--parks-recreation--placeholder.svg"
+categories: ["Government"]
+cover: "covers/x5wy-unx3--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/x5wy-unx3.json"
 license: ""
 dataset_id: "x5wy-unx3"
@@ -52,6 +52,7 @@ dictionary:
   - field: "countygnis"
     description: ""
 ---
+
 
 ## What this tracks
 This dataset maps the boundaries and basic information for all 114 counties in Missouri.

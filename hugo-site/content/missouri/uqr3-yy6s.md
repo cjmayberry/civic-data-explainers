@@ -3,8 +3,8 @@ title: "County Regions"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/uqr3-yy6s--default--placeholder.svg"
+categories: ["Government"]
+cover: "covers/uqr3-yy6s--government--placeholder.svg"
 source_url: "https://data.mo.gov/resource/uqr3-yy6s.json"
 license: ""
 dataset_id: "uqr3-yy6s"
@@ -19,6 +19,7 @@ dictionary:
   - field: "county"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset defines the regional groupings of counties within Missouri.

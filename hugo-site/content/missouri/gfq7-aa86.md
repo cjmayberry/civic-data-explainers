@@ -31,6 +31,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists all alcohol products that licensed solicitors are authorized to sell to specific wholesalers in Missouri.
 

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Government Administration"]
-categories: ["Government"]
-cover: "covers/bipa-db22--government--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/bipa-db22--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/bipa-db22.json"
 license: ""
 dataset_id: "bipa-db22"
@@ -30,6 +30,7 @@ dictionary:
   - field: "political_subdivision_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records details about Missouri's public bonds issued as of June 30, 2015, including project names, issuance dates, and bond amounts.

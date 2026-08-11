@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Revenue"]
-categories: ["Finance"]
-cover: "covers/inpf-ekav--finance--placeholder.svg"
+categories: ["Licensing"]
+cover: "covers/inpf-ekav--licensing--placeholder.svg"
 source_url: "https://data.mo.gov/resource/inpf-ekav.json"
 license: ""
 dataset_id: "inpf-ekav"
@@ -26,6 +26,7 @@ dictionary:
   - field: "retailer"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists businesses in Missouri licensed to sell cigarettes and other tobacco products.

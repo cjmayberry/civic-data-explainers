@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "Most Recent Results"
 teaser: "Most Recent Results"
 tags: ["Natural Resources"]
-categories: ["Parks & Recreation"]
-cover: "covers/szw8-jbqy--parks-recreation--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/szw8-jbqy--environment--placeholder.svg"
 source_url: "https://data.mo.gov/resource/szw8-jbqy.json"
 license: ""
 dataset_id: "szw8-jbqy"
@@ -30,6 +30,7 @@ dictionary:
   - field: "most_recent_results"
     description: "Most Recent Results"
 ---
+
 
 ## What this tracks
 This dataset records public water systems in Missouri that have repeatedly violated drinking water monitoring requirements set by the Department of Natural Resources.

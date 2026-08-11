@@ -3,8 +3,8 @@ title: "Covid Vaccination Events"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/udnb-nqn3--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/udnb-nqn3--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/udnb-nqn3.json"
 license: ""
 dataset_id: "udnb-nqn3"
@@ -51,6 +51,7 @@ dictionary:
   - field: "primary_booster"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists upcoming COVID-19 vaccination events in Missouri, including locations, schedules, and vaccine types available.  

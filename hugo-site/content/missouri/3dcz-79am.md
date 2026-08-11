@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Health"]
-categories: ["Other"]
-cover: "covers/3dcz-79am--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/3dcz-79am--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/3dcz-79am.json"
 license: ""
 dataset_id: "3dcz-79am"
@@ -54,6 +54,7 @@ dictionary:
   - field: "licnumber"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists all Medicare-certified home health providers licensed to operate in Missouri.

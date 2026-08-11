@@ -41,6 +41,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists new liquor licenses issued in Missouri (primarily Jackson County) over the past three weeks.
 

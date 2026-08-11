@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Social Services"]
-categories: ["Other"]
-cover: "covers/xmt3-c8ve--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/xmt3-c8ve--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/xmt3-c8ve.json"
 license: ""
 dataset_id: "xmt3-c8ve"
@@ -42,6 +42,7 @@ dictionary:
   - field: ":@computed_region_ikxf_gfzr"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists job centers in Missouri that provide employment resources and services to residents.

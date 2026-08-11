@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "unemployment", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/uaxb-77vv--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/uaxb-77vv--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/uaxb-77vv.json"
 license: ""
 dataset_id: "uaxb-77vv"
@@ -56,6 +56,7 @@ dictionary:
   - field: "period_type"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset measures unemployment rates, workforce numbers, and employment statistics across counties and regions in Missouri.

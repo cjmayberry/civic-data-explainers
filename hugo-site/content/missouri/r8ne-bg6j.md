@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["injury", "employment", "labor", "froi", "Labor"]
-categories: ["Other"]
-cover: "covers/r8ne-bg6j--other--placeholder.svg"
+categories: ["Health"]
+cover: "covers/r8ne-bg6j--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/r8ne-bg6j.json"
 license: ""
 dataset_id: "r8ne-bg6j"
@@ -40,6 +40,7 @@ dictionary:
   - field: "wrist_s_hand_s"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts workplace injuries to upper extremities (arms, hands, shoulders) reported to Missouri each month.  

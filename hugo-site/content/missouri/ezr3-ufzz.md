@@ -43,6 +43,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists all Missouri businesses that have renewed their alcohol licenses for the upcoming license year beginning July 1st.  
 

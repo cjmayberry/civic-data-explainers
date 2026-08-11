@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Economic Development"]
-categories: ["Other"]
-cover: "covers/nc6i-4sv2--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/nc6i-4sv2--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/nc6i-4sv2.json"
 license: ""
 dataset_id: "nc6i-4sv2"
@@ -56,6 +56,7 @@ dictionary:
   - field: "address_state"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists Missouri-certified business incubators that help startups and small businesses grow, including their contact details and locations.

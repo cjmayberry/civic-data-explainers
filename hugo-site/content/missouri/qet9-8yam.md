@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "unemployment", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/qet9-8yam--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/qet9-8yam--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qet9-8yam.json"
 license: ""
 dataset_id: "qet9-8yam"
@@ -20,6 +20,7 @@ dictionary:
   - field: "weekending"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records the number of people filing for unemployment benefits each week in every Missouri county.

@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["employment", "unemployment", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/cj66-t7xq--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/cj66-t7xq--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/cj66-t7xq.json"
 license: ""
 dataset_id: "cj66-t7xq"
@@ -60,6 +60,7 @@ dictionary:
   - field: "retail_trade"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records monthly unemployment claims across different industries in Missouri.

@@ -43,6 +43,7 @@ dictionary:
     description: ""
 ---
 
+
 ## What this tracks  
 This dataset lists Missouri alcohol licenses that have not been renewed for the upcoming license year, which begins July 1.  
 

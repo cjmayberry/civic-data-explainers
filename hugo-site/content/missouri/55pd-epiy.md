@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["Government Administration"]
-categories: ["Government"]
-cover: "covers/55pd-epiy--government--placeholder.svg"
+categories: ["Finance"]
+cover: "covers/55pd-epiy--finance--placeholder.svg"
 source_url: "https://data.mo.gov/resource/55pd-epiy.json"
 license: ""
 dataset_id: "55pd-epiy"
@@ -34,6 +34,7 @@ dictionary:
   - field: "grant_name"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset records federal grant money received by Missouri state agencies in fiscal year 2015, including which agencies awarded the funds and their purposes.

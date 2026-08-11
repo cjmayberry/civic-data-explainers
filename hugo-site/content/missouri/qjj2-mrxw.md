@@ -3,8 +3,8 @@ title: "ASC Facilities"
 date: "2026-08-02"
 description: ""
 teaser: ""
-categories: ["Default"]
-cover: "covers/qjj2-mrxw--default--placeholder.svg"
+categories: ["Health"]
+cover: "covers/qjj2-mrxw--health--placeholder.svg"
 source_url: "https://data.mo.gov/resource/qjj2-mrxw.json"
 license: ""
 dataset_id: "qjj2-mrxw"
@@ -43,6 +43,7 @@ dictionary:
   - field: "cms_provider_number"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset lists licensed ambulatory surgery centers (ASCs) in Missouri, including their contact details and accreditation status.

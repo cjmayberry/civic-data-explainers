@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: ""
 teaser: ""
 tags: ["unemployment", "labor", "Labor"]
-categories: ["Other"]
-cover: "covers/uite-mset--other--placeholder.svg"
+categories: ["Economy"]
+cover: "covers/uite-mset--economy--placeholder.svg"
 source_url: "https://data.mo.gov/resource/uite-mset.json"
 license: ""
 dataset_id: "uite-mset"
@@ -24,6 +24,7 @@ dictionary:
   - field: "euc"
     description: ""
 ---
+
 
 ## What this tracks  
 This dataset counts how many Missouri residents are currently receiving unemployment benefits, broken down by payment type.
