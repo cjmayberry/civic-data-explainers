@@ -1,0 +1,30 @@
+---
+title: "USNG 1000m"
+date: "2026-08-02"
+description: "US National Grid- nationally consistent grid reference system in the USA. USNG enables a practical system of geo-addresses and a universal map index. This data resides in the GCS 1983 coordinate system and is most suitab"
+teaser: "US National Grid- nationally consistent grid reference system in the USA. USNG enables a practical system of geo-addresses and a universal m"
+tags: ["Intelligence and military", "Boundaries"]
+categories: ["Public Safety"]
+cover: ""
+source_url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer"
+license: ""
+dataset_id: "https://www.arcgis.com/home/item.html?id=c3fe0b263a5c4c5ebc3ef676ed811ad9&sublayer=3"
+city: "kansas"
+site_url: "https://civic-data-explainers.pages.dev"
+map_link: "https://hub.kansasgis.org/datasets/KSDOT::usng-1000m"
+geojson_url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
+draft: false
+---
+
+
+## What this is
+
+_Stub — awaiting a schema-grounded draft._
+
+## Why it matters to you
+
+## How to read this data
+
+## Where this leaves you
+
+## Look it up yourself

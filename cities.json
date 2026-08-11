@@ -283,5 +283,33 @@
       "Entrance Pipes, Tennessee": "Infrastructure",
       "Extruded Panel Signs, Tennessee": "Transportation"
     }
+  },
+  {
+    "id": "kansas",
+    "name": "Kansas",
+    "hub_url": "https://hub.kansasgis.org/",
+    "gov_url": "",
+    "state": "US",
+    "active": true,
+    "model": null,
+    "min_score": 0,
+    "content_dir": "hugo-site/content/kansas",
+    "static_dir": "hugo-site/static/kansas",
+    "category_map": {
+      "Inland waters": "Environment",
+      "Utilities and communication": "Infrastructure",
+      "Farming": "Economy",
+      "Transportation": "Transportation",
+      "Structures and critical infrastructure": "Infrastructure",
+      "Geoscientific information": "Environment",
+      "Boundaries": "Government",
+      "Imagery, basemaps, and Earth cover": "Other",
+      "Intelligence and military": "Public Safety",
+      "Society and demographics": "Government",
+      "Land surface, geology, and soils": "Environment",
+      "Water resources": "Environment",
+      "Water boundaries": "Environment",
+      "Energy Resources": "Environment"
+    }
   }
 ]
