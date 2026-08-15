@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "This map depicts soils data from the USDA NRCS SSURGO dataset. The soil type is indicated in the MUSYM field. The data was downloaded from the NRCS website. The full Kansas geospatial catalog is administered by the Kansa"
 teaser: "This map depicts soils data from the USDA NRCS SSURGO dataset. The soil type is indicated in the MUSYM field. The data was downloaded from t"
 tags: ["Land surface, geology, and soils"]
-categories: ["Other"]
-cover: "covers/soils-e3cc9752--other--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/soils-e3cc9752--environment--placeholder.svg"
 source_url: "https://services.kansasgis.org/arcgis15/rest/services/land_geology_soils/Soils/MapServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e3cc9752f73741fe99490d8c2997559e&sublayer=0"

@@ -1,12 +1,22 @@
 {{ define "main" }}
+{{ $cats := slice }}
+{{ range .Pages.ByTitle }}{{ $c := .Params.category | default (index .Params.categories 0) }}{{ if $c }}{{ $cats = $cats | append $c }}{{ end }}{{ end }}
+{{ $uniq := $cats | uniq | sort }}
 <section class="page-head">
   <span class="kicker">The catalog</span>
   <h1>All explainers</h1>
   <p class="dek">Every dataset in the Oklahoma City open-data catalog that teaches something worth knowing — one plain-English explainer each.</p>
+  <p class="meta"><a href="{{ "/" | relURL }}">← All cities</a></p>
 </section>
+{{ if gt (len $uniq) 1 }}
+<section class="section-filter" aria-label="Filter by topic">
+  <button class="filter-btn active" data-filter="all">All ({{ len $.Pages }})</button>
+  {{ range $uniq }}<button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>{{ end }}
+</section>
+{{ end }}
 <section class="card-grid">
   {{ range .Pages.ByTitle }}
-  <a class="card" href="{{ .RelPermalink }}">
+  <a class="card" href="{{ .RelPermalink }}" data-category="{{ .Params.category | default (index .Params.categories 0) }}">
     {{ with .Params.cover }}<img class="card-cover" src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy">{{ end }}
     <span class="kicker">{{ .Params.category | default (index .Params.categories 0) }}</span>
     <h3>{{ .Title }}</h3>
@@ -14,4 +24,5 @@
   </a>
   {{ end }}
 </section>
+<script src="{{ "js/section-filter.js" | relURL }}" defer></script>
 {{ end }}

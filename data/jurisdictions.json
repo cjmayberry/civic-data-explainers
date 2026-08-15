@@ -13,7 +13,7 @@
       "portal_url": "https://hub.kansasgis.org/",
       "platform": "arcgis-hub",
       "status": "live",
-      "note": "Kansas Geoportal (ArcGIS Hub). Verified 2026-08-11."
+      "note": "Kansas Geoportal (ArcGIS Hub). Verified 2026-08-11. RE-ADDING for nightly validation run — was live, reset to pending to test full chain."
     },
     {
       "id": "topeka",
@@ -27,34 +27,14 @@
       "note": "City of Topeka Open Performance — platform auto-detect at build time (likely Socrata)."
     },
     {
-      "id": "new-mexico",
-      "name": "New Mexico",
-      "level": "state",
-      "country": "US",
-      "portal_url": null,
-      "platform": null,
-      "status": "pending",
-      "note": "No clean unified open-data portal found (2026-08-11) — discover or skip."
-    },
-    {
-      "id": "santa-fe",
-      "name": "Santa Fe",
-      "level": "capital",
-      "parent": "new-mexico",
-      "country": "US",
-      "portal_url": null,
-      "platform": null,
-      "status": "pending",
-      "note": "Discover or skip."
-    },
-    {
       "id": "nebraska",
       "name": "Nebraska",
       "level": "state",
       "country": "US",
-      "portal_url": null,
-      "platform": null,
-      "status": "pending"
+      "portal_url": "https://www.nebraskamap.gov/",
+      "platform": "arcgis-hub",
+      "status": "pending",
+      "note": "NebraskaMap ArcGIS Hub (verified 2026-08-14: DCAT data.json extractable, 260 datasets, Game & Parks + outdoors + imagery). Statewide GIS portal."
     },
     {
       "id": "lincoln",
@@ -64,16 +44,18 @@
       "country": "US",
       "portal_url": null,
       "platform": null,
-      "status": "pending"
+      "status": "pending",
+      "note": "Discover or skip."
     },
     {
       "id": "nevada",
       "name": "Nevada",
       "level": "state",
       "country": "US",
-      "portal_url": null,
-      "platform": null,
-      "status": "pending"
+      "portal_url": "https://geohub-ndot.hub.arcgis.com/",
+      "platform": "arcgis-hub",
+      "status": "pending",
+      "note": "NDOT GeoHub ArcGIS Hub (discovered 2026-08-14, 192 datasets). State DOT GIS portal — narrower than a full statewide open-data hub (mostly transportation/infrastructure). open.nv.gov is transparency portal, not open-data catalog."
     },
     {
       "id": "carson-city",
@@ -83,7 +65,8 @@
       "country": "US",
       "portal_url": null,
       "platform": null,
-      "status": "pending"
+      "status": "pending",
+      "note": "Discover or skip."
     },
     {
       "id": "idaho",
@@ -92,7 +75,8 @@
       "country": "US",
       "portal_url": null,
       "platform": null,
-      "status": "pending"
+      "status": "pending",
+      "note": "Idaho Department of Lands GIS Hub (idl.idaho.gov) INVESTIGATED 2026-08-14: RSS 404, DCAT data.json 404, ArcGIS item search owner:IDL_Idaho returns 0 results. Portal does not expose a public catalog feed — SKIP. data.idaho.gov is a landing page, transparent.idaho.gov is financial-only."
     },
     {
       "id": "boise",
@@ -102,7 +86,8 @@
       "country": "US",
       "portal_url": null,
       "platform": null,
-      "status": "pending"
+      "status": "pending",
+      "note": "Discover or skip."
     }
   ]
 }

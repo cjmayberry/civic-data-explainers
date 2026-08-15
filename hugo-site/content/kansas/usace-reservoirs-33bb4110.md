@@ -2,30 +2,29 @@
 title: "USACE Reservoirs"
 date: "2026-08-02"
 description: "This dataset shows maximum conservation pool or is a reasonable representation of the boundaries for reservoirs and lakes owned and operated by USACE. Data is from USACE Districts. The full Kansas geospatial catalog is a"
-teaser: "This dataset shows maximum conservation pool or is a reasonable representation of the boundaries for reservoirs and lakes owned and operated by USACE. Data is from USACE…"
+teaser: "This dataset shows maximum conservation pool or is a reasonable representation of the boundaries for reservoirs and lakes owned and operated"
 tags: ["Structures and critical infrastructure"]
 categories: ["Infrastructure"]
 cover: "covers/usace-reservoirs-33bb4110--infrastructure--placeholder.svg"
 source_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USACE_Reservoirs/FeatureServer"
-geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USACE_Reservoirs/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=33bb4110f4da4a7a8a1a3ec32efc8a04&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
+map_link: "https://hub.kansasgis.org/datasets/KSDOT::usace-reservoirs"
+geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USACE_Reservoirs/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
-## What this tracks  
-This dataset shows the boundaries and key details of reservoirs and lakes managed by the U.S. Army Corps of Engineers (USACE) in Kansas and surrounding regions.
 
-## Why it matters to you  
-If you're planning a fishing trip, checking water levels for recreation, or considering property near a reservoir, this data confirms which bodies of water are USACE-managed. For example, knowing whether Arcadia Lake is currently marked as dry (**DRY** field) could save you a wasted drive. Businesses offering boat rentals or waterfront services can also verify which reservoirs are actively maintained.
+## What this is
 
-## How to read this data  
-**NAME** — The official name of the reservoir (e.g., "Arcadia Lake").  
-**DISTRICT** — Which USACE office manages it (e.g., "Tulsa District").  
-**DRY** — Whether the reservoir is currently dry (values like "No" or potentially "Yes").  
-**DAM_NAME** — The specific dam associated with the reservoir (e.g., "Arcadia Lake Dam").  
+_Stub — awaiting a schema-grounded draft._
 
-## Try it yourself  
-Check if your nearest USACE reservoir is listed as dry (**DRY** field) before planning a visit by searching the dataset for its **NAME** (like "Arcadia Lake").
+## Why it matters to you
+
+## How to read this data
+
+## Where this leaves you
+
+## Look it up yourself

@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-11T16:20:07Z",
+  "generated_at": "2026-08-15T03:38:16Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -106,7 +106,7 @@
           "Shape_Area": 0.000399531106994
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:16Z"
+        "introspected_at": "2026-08-15T03:37:30Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2024_Tax_Units/FeatureServer",
       "inquiry_enabled": false,
@@ -115,7 +115,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "2025-tax-units-1763b672",
@@ -218,7 +218,7 @@
           "SHAPE_Area": 24990472.9676
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:17Z"
+        "introspected_at": "2026-08-15T03:37:31Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2025_Tax_Units/FeatureServer",
       "inquiry_enabled": false,
@@ -227,7 +227,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "2026-tax-units-796f2a21",
@@ -336,7 +336,7 @@
           "SHAPE_Le_2": 38808.9254202
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:17Z"
+        "introspected_at": "2026-08-15T03:37:31Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2026_Tax_Units/FeatureServer",
       "inquiry_enabled": false,
@@ -345,20 +345,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "303-d-approved-590c7df6",
       "title": "303(d) Approved",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "303-d-approved-590c7df6--default--placeholder.svg",
+      "image_file": "303-d-approved-590c7df6--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -622,7 +622,7 @@
           "CHROMIUM": " "
         },
         "layer": 1,
-        "introspected_at": "2026-08-11T16:08:18Z"
+        "introspected_at": "2026-08-15T03:37:32Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer",
       "inquiry_enabled": false,
@@ -631,7 +631,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "_index",
@@ -654,7 +654,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "aadt-flow-map-04846b15",
@@ -828,7 +828,7 @@
           "LocError": "NO ERROR"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:19Z"
+        "introspected_at": "2026-08-15T03:37:33Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_Flow_Map/FeatureServer",
       "inquiry_enabled": false,
@@ -837,7 +837,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "aadt-nonstate-d7e599ad",
@@ -1009,7 +1009,7 @@
           "LocError": "NO ERROR"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:19Z"
+        "introspected_at": "2026-08-15T03:37:34Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_NonState/FeatureServer",
       "inquiry_enabled": false,
@@ -1018,7 +1018,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "abandoned-railroad-45210fe5",
@@ -1134,7 +1134,7 @@
           "LRSKey": "V & S_MEDICINE LODGE"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:20Z"
+        "introspected_at": "2026-08-15T03:37:34Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer",
       "inquiry_enabled": false,
@@ -1143,7 +1143,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "active-railroads-45210fe5",
@@ -1259,7 +1259,7 @@
           "LRSKey": "V & S_MEDICINE LODGE"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:20Z"
+        "introspected_at": "2026-08-15T03:37:35Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer",
       "inquiry_enabled": false,
@@ -1268,7 +1268,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "active-railroads-a05f89d9",
@@ -1389,7 +1389,7 @@
           "PrimaryFreightNetwork": 1
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:21Z"
+        "introspected_at": "2026-08-15T03:37:35Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Active_Railroads/FeatureServer",
       "inquiry_enabled": false,
@@ -1398,20 +1398,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "aquifer-extents-7684344e",
       "title": "Aquifer Extents",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "aquifer-extents-7684344e--other--placeholder.svg",
+      "image_file": "aquifer-extents-7684344e--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1440,7 +1440,7 @@
           "NAME": "Ozark Aquifer"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:21Z"
+        "introspected_at": "2026-08-15T03:37:36Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer",
       "inquiry_enabled": false,
@@ -1449,7 +1449,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "certified-gas-areas-86cec985",
@@ -1563,7 +1563,7 @@
           "Company_Na": "MIDWEST ENERGY, INC."
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:22Z"
+        "introspected_at": "2026-08-15T03:37:36Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KCC_Certified_Gas_Areas/FeatureServer",
       "inquiry_enabled": false,
@@ -1572,20 +1572,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "cheney-lake-extent-c21223c5",
       "title": "Cheney Lake extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "cheney-lake-extent-c21223c5--default--placeholder.svg",
+      "image_file": "cheney-lake-extent-c21223c5--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -1627,7 +1627,7 @@
           "area_sqm": 40546903
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:22Z"
+        "introspected_at": "2026-08-15T03:37:37Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Cheney_Lake_extent/FeatureServer",
       "inquiry_enabled": false,
@@ -1636,7 +1636,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "city-boundaries-70ee9dcb",
@@ -1702,13 +1702,13 @@
         "sample": {
           "L_UPDATE": 1772841600000,
           "COUNTY": "Bourbon County",
-          "MUNI": "Uniontown",
+          "MUNI": "UNIONTOWN",
           "SOURCE": "ORKA",
           "PLACEFP": "72525",
           "GEOID": "2072525"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:23Z"
+        "introspected_at": "2026-08-15T03:37:37Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/City_Boundaries/FeatureServer",
       "inquiry_enabled": false,
@@ -1717,20 +1717,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "class-ii-wells-a5703985",
       "title": "Class II Wells",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "class-ii-wells-a5703985--default--placeholder.svg",
+      "image_file": "class-ii-wells-a5703985--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2069,7 +2069,7 @@
           "COMPLETION_YEAR": "1941"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:23Z"
+        "introspected_at": "2026-08-15T03:37:38Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_II_Wells/FeatureServer",
       "inquiry_enabled": false,
@@ -2078,7 +2078,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "crashes-in-kansas-b79862ee",
@@ -2567,34 +2567,34 @@
           }
         ],
         "sample": {
-          "ACCIDENT_KEY": "20260408536",
+          "ACCIDENT_KEY": "20190133187",
           "STATE_SYSTEM_IND": "N",
-          "REPORT_IMAGE_LINK": "12830146",
-          "DOT_LATITUDE": 39.02210693,
-          "DOT_LONGITUDE": -94.66779458,
-          "ACC_COUNTY": "JOHNSON",
-          "ACC_CITY": "OVERLAND PARK",
-          "REPORTING_AGENCY": "OVERLAND PARK POLICE",
-          "DATE_OF_ACCIDENT": 1775192400000,
-          "ACC_HOUR": "08",
-          "ACC_DAY_OF_WEEK": "Friday",
-          "ACC_DAY_OF_MONTH": 3,
-          "ACC_MONTH": "April",
-          "ACC_YEAR": "2026",
-          "ACC_SEVERITY": "PROPERTY DAMAGE ONLY",
+          "REPORT_IMAGE_LINK": "10744154",
+          "DOT_LATITUDE": 37.6648656,
+          "DOT_LONGITUDE": -97.207844,
+          "ACC_COUNTY": "SEDGWICK",
+          "ACC_CITY": "WICHITA",
+          "REPORTING_AGENCY": "WICHITA POLICE",
+          "DATE_OF_ACCIDENT": 1566709200000,
+          "ACC_HOUR": "21",
+          "ACC_DAY_OF_WEEK": "Sunday",
+          "ACC_DAY_OF_MONTH": 25,
+          "ACC_MONTH": "August",
+          "ACC_YEAR": "2019",
+          "ACC_SEVERITY": "INJURY",
           "ALCOHOL_INVOLVEMENT_ACCS": 0,
           "DRUG_INVOLVEMENT_ACCS": 0,
           "DEER_ACCS": 0,
           "CWOV_FHE_ACC_TYPE": "REAR END",
           "TRAIN_CROSSING_ACCS": 0,
-          "WORK_ZONE_ACCS": 1,
-          "TIME_SHIFT": "1st_7AM-3PM",
+          "WORK_ZONE_ACCS": 0,
+          "TIME_SHIFT": "2nd_3PM-11PM",
           "RECKLESS_AGGRESSIVE_ACCS": 0,
           "RED_LIGHT_RUNNING_ACCS": 0,
           "DISREGARD_TRAFFIC_CONTROL_ACCS": 0,
           "DRIVER_FATIGUE_ACCS": 0,
-          "SPEED_RELATED_ACCS": 1,
-          "DRIVER_DISTRACTION_ACCS": 1,
+          "SPEED_RELATED_ACCS": 0,
+          "DRIVER_DISTRACTION_ACCS": 0,
           "VISIBILITY_IMPAIRMENT_ACCS": 0,
           "SNOW_ICE_ACCS": 0,
           "RAIN_WET_ROAD_ACCS": 0,
@@ -2609,55 +2609,56 @@
           "MOTORCYCLE_ACCS": 0,
           "FARM_EQUIPMENT_ACCS": 0,
           "POLICE_PURSUIT_ACCS": 0,
-          "VEHICLE_OCCUPANTS": 5,
-          "OCCUPANT_RESTRAINT_USE": 5,
+          "VEHICLE_OCCUPANTS": 4,
+          "OCCUPANT_RESTRAINT_USE": 3,
           "DRIVERS": 2,
-          "TEEN_DRIVER_ACCS": 0,
+          "TEEN_DRIVER_ACCS": 1,
           "OLDER_DRIVER_ACCS": 0,
-          "MOST_SERIOUS_INJURY": "N",
-          "DRIVER_AGES": "25, 42",
+          "MOST_SERIOUS_INJURY": "P",
+          "DRIVER_AGES": "18, 32",
           "TRAFFIC_UNITS": 2,
           "ALL_PEDESTRIANS": 0,
           "FATALITIES": 0,
           "DISABLING_INJURIES": 0,
           "NON_INCAPACITATING_INJURIES": 0,
-          "POSSIBLE_INJURIES": 0,
+          "POSSIBLE_INJURIES": 1,
           "VEHICLES": 2,
-          "UAB_CD": "390",
+          "UAB_CD": "630",
           "EA_ROADWAY_DEPARTURE": 0,
-          "EA_INTERSECTIONS": 0,
+          "EA_INTERSECTIONS": 1,
           "EA_PEDESTRIANS": 0,
           "EA_BICYCLISTS": 0,
           "EA_OLDER_DRIVERS": 0,
           "EA_MOTORCYCLISTS_MOPEDS": 0,
-          "EA_WORK_ZONES": 1,
+          "EA_WORK_ZONES": 0,
           "EA_HORIZONTAL_CURVES": 0,
           "EA_IMPAIRED_DRIVING": 0,
-          "EA_TEEN_DRIVERS": 0,
-          "EA_OCCUPANT_PROTECTION": 0,
+          "EA_TEEN_DRIVERS": 1,
+          "EA_OCCUPANT_PROTECTION": 1,
           "EA_LARGE_COMMERCIAL_VEHICLES": 0,
           "EA_LOCAL_ROADS": 1,
           "TRAFFIC_SIGNAL_INDICATOR": 0,
           "STOP_SIGN_INDICATOR": 0,
           "ACCIDENT_CLASS_MHE_DESC": "COLL W OTHER MOTOR VEHICLE",
           "ACCIDENT_CLASS_FHE_DESC": "COLL W OTHER MOTOR VEHICLE",
-          "LIGHT_CONDITIONS_DESC": "DAYLIGHT",
+          "LIGHT_CONDITIONS_DESC": "DARK--STREET LIGHTS ON",
           "WEATHER_CONDITIONS_DESC": "NO ADVERSE CONDITIONS",
           "ON_ROAD_TYPE": "Local Route",
           "MEDICATION_INDICATOR": 0,
           "ILLEGAL_DRUGS_INDICATOR": 0,
           "URBAN_INDICATOR": 1,
-          "ACC_DAY_OF_WEEK_NUMBER": 5,
-          "ACC_MONTH_NUMBER": 4,
+          "ACC_DAY_OF_WEEK_NUMBER": 7,
+          "ACC_MONTH_NUMBER": 8,
           "EA_BIKE_OR_PEDESTRIAN": 0,
-          "KDOT_DISTRICT": "1",
-          "DRIVER_1_AGE": "25",
+          "KDOT_DISTRICT": "5",
+          "DRIVER_CIRCUMSTANCE": "FOLLOWED TOO CLOSELY",
+          "DRIVER_1_AGE": "18",
           "ON_ROAD_SPEED_LIMIT": 40,
           "TURNPIKE_INVOLVED": "N",
-          "DRIVER_CIRCUMSTANCE": "INATTENTION - GENERAL"
+          "VEHICLE_MANEUVER": "NEGOTIATING A CURVE"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:24Z"
+        "introspected_at": "2026-08-15T03:37:38Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Accidents/FeatureServer",
       "inquiry_enabled": false,
@@ -2666,20 +2667,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "dakota-aquifer-1a94d026",
       "title": "Dakota Aquifer",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dakota-aquifer-1a94d026--other--placeholder.svg",
+      "image_file": "dakota-aquifer-1a94d026--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2750,7 +2751,7 @@
           "Shape_Leng": 1.31284514131
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:24Z"
+        "introspected_at": "2026-08-15T03:37:39Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -2759,20 +2760,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "dakota-aquifer-base-1a94d026",
       "title": "Dakota Aquifer Base",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dakota-aquifer-base-1a94d026--other--placeholder.svg",
+      "image_file": "dakota-aquifer-base-1a94d026--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2843,7 +2844,7 @@
           "Shape_Leng": 1.31284514131
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:24Z"
+        "introspected_at": "2026-08-15T03:37:39Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -2852,20 +2853,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "dakota-aquifer-top-1a94d026",
       "title": "Dakota Aquifer Top",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "dakota-aquifer-top-1a94d026--other--placeholder.svg",
+      "image_file": "dakota-aquifer-top-1a94d026--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -2936,7 +2937,7 @@
           "Shape_Leng": 1.31284514131
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:24Z"
+        "introspected_at": "2026-08-15T03:37:39Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -2945,20 +2946,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "earthquakes-bbc487a3",
       "title": "Earthquakes",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "earthquakes-bbc487a3--other--placeholder.svg",
+      "image_file": "earthquakes-bbc487a3--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3037,7 +3038,7 @@
           "DEPTH": 4.7
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:25Z"
+        "introspected_at": "2026-08-15T03:37:40Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Earthquakes/FeatureServer",
       "inquiry_enabled": false,
@@ -3046,20 +3047,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "high-plains-aquifer-c5972ca2",
       "title": "High Plains Aquifer",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "high-plains-aquifer-c5972ca2--other--placeholder.svg",
+      "image_file": "high-plains-aquifer-c5972ca2--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3117,7 +3118,7 @@
           "DESCRIPTION": "little"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:25Z"
+        "introspected_at": "2026-08-15T03:37:40Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/High_Plains_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -3126,20 +3127,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "huc-10-boundaries-99fc78f9",
       "title": "HUC 10 Boundaries",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "huc-10-boundaries-99fc78f9--other--placeholder.svg",
+      "image_file": "huc-10-boundaries-99fc78f9--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3210,7 +3211,7 @@
           "SQ_MILES": 21.9953125
         },
         "layer": 4,
-        "introspected_at": "2026-08-11T16:08:26Z"
+        "introspected_at": "2026-08-15T03:37:41Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/4",
       "inquiry_enabled": false,
@@ -3219,20 +3220,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "huc-12-boundaries-7cb40e88",
       "title": "HUC 12 Boundaries",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "huc-12-boundaries-7cb40e88--other--placeholder.svg",
+      "image_file": "huc-12-boundaries-7cb40e88--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3339,7 +3340,7 @@
           "STATES": "KS"
         },
         "layer": 7,
-        "introspected_at": "2026-08-11T16:08:26Z"
+        "introspected_at": "2026-08-15T03:37:42Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/7",
       "inquiry_enabled": false,
@@ -3348,20 +3349,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "huc-8-boundaries-66acd95e",
       "title": "HUC 8 Boundaries",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "huc-8-boundaries-66acd95e--other--placeholder.svg",
+      "image_file": "huc-8-boundaries-66acd95e--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3461,7 +3462,7 @@
           "FIPS_C": " 31127 31131 31147 29003 29005 29087 29147 20043 20013 19029 19071 19137 19145 20005"
         },
         "layer": 1,
-        "introspected_at": "2026-08-11T16:08:27Z"
+        "introspected_at": "2026-08-15T03:37:43Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/1",
       "inquiry_enabled": false,
@@ -3470,20 +3471,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "inorganic-organic-70e174de",
       "title": "Inorganic Organic",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "inorganic-organic-70e174de--default--placeholder.svg",
+      "image_file": "inorganic-organic-70e174de--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3692,7 +3693,7 @@
           "Radium_226_MQL": "<"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:27Z"
+        "introspected_at": "2026-08-15T03:37:45Z"
       },
       "source_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer",
       "inquiry_enabled": false,
@@ -3701,7 +3702,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "judicial-districts-94e59024",
@@ -3743,7 +3744,7 @@
           "REGION": 3
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:28Z"
+        "introspected_at": "2026-08-15T03:37:46Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer",
       "inquiry_enabled": false,
@@ -3752,7 +3753,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "k-12-schools-6d319afa",
@@ -3843,7 +3844,7 @@
           "Zip": 67950
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:28Z"
+        "introspected_at": "2026-08-15T03:37:46Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Schools/FeatureServer",
       "inquiry_enabled": false,
@@ -3852,20 +3853,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kansas-arboretums-c1b15431",
       "title": "Kansas Arboretums",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kansas-arboretums-c1b15431--default--placeholder.svg",
+      "image_file": "kansas-arboretums-c1b15431--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -3950,7 +3951,7 @@
           "Comments": "https://drive.google.com/file/d/0B9YkiUvnAlBpMWN5Rk9TN2I0WlU/view?usp=sharing"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:29Z"
+        "introspected_at": "2026-08-15T03:37:47Z"
       },
       "source_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Arboretums_Public/FeatureServer",
       "inquiry_enabled": false,
@@ -3959,7 +3960,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kansas-cell-towers-d35f79cc",
@@ -4280,7 +4281,7 @@
           "CONTACT_TY": "O"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:29Z"
+        "introspected_at": "2026-08-15T03:37:47Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Cellular/FeatureServer",
       "inquiry_enabled": false,
@@ -4289,20 +4290,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kansas-sawmills-25f70b7a",
       "title": "Kansas Sawmills",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kansas-sawmills-25f70b7a--default--placeholder.svg",
+      "image_file": "kansas-sawmills-25f70b7a--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4410,7 +4411,7 @@
           "BuyingArea": " "
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:29Z"
+        "introspected_at": "2026-08-15T03:37:48Z"
       },
       "source_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Kansas_Sawmills_Public/FeatureServer",
       "inquiry_enabled": false,
@@ -4419,20 +4420,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kansas-tree-cities-308e8696",
       "title": "Kansas Tree Cities",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kansas-tree-cities-308e8696--default--placeholder.svg",
+      "image_file": "kansas-tree-cities-308e8696--parks-recreation--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4516,7 +4517,7 @@
           "County": "Mitchell"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:30Z"
+        "introspected_at": "2026-08-15T03:37:48Z"
       },
       "source_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Tree_City_Public/FeatureServer",
       "inquiry_enabled": false,
@@ -4525,20 +4526,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kdhe-reported-spills-32867c63",
       "title": "KDHE Reported Spills",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kdhe-reported-spills-32867c63--default--placeholder.svg",
+      "image_file": "kdhe-reported-spills-32867c63--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -4744,37 +4745,36 @@
           }
         ],
         "sample": {
-          "INCIDENT_ID": "0052B4E4-DF5E-0746-9852-85DE329290AD",
-          "SPILL_ID": "KDHE-34359",
-          "SPILL_DATE": 1358964000000,
-          "INCIDENT_DATE": 1358888400000,
-          "CLOSED_DATE": 1359007200000,
+          "INCIDENT_ID": "00E515C4-344F-CC41-9E34-FE7F70CD8C6C",
+          "SPILL_ID": "KDHE-05603",
+          "SPILL_DATE": 716652000000,
+          "INCIDENT_DATE": 716533200000,
+          "CLOSED_DATE": 722498400000,
           "LEAD_AGENCY": "KDHE",
-          "MEDIUM_AFFECTED": "other,soil",
-          "SPILL_CAUSE": "equipment failure",
-          "SOURCE": "transformer",
-          "DISCHARGER": "Kansas City, Kansas, Board Of Public Utilities",
+          "MEDIUM_AFFECTED": "soil",
+          "SOURCE": "AST,oil lease",
+          "DISCHARGER": "Uranus",
           "SPILL_STATUS": "Closed",
-          "ADDRESS": "3354 Rainbow Blvd",
-          "CITY": "Kansas City",
-          "ZIP": "66103",
-          "COUNTY": "Wyandotte",
-          "KDHE_DISTRICT": "NE",
-          "LATITUDE": 39.06636,
-          "LONGITUDE": -94.61374,
-          "MATERIAL_COMBO": ".5 liter of electrical insulating oil/mineral oil",
-          "MATERIAL_TYPE": "transformer oil",
-          "NRC_NOTIFIED": "Unknown",
-          "CLEANUP_METHOD": "physical removal",
-          "DETAIL_REPORT": "https://www.reports.esriuk.com/view-report/f2628afa1c9640ceac8a84c815b071f6/KDHE-34359",
-          "WEB_MAP_LINK": "<a href=\"https://www.reports.esriuk.com/view-report/f2628afa1c9640ceac8a84c815b071f6/KDHE-34359\"target=”_blank”><img src=\"https://maps.kdhe.ks.gov/_Gallery/wab_reportlink.png\"></a>",
-          "LEGAL_SECTION": "",
-          "LEGAL_TOWNSHIP": "",
-          "LEGAL_RANGE": "",
-          "WATER_WAY_TYPE": "none"
+          "ADDRESS": "Warrick-millard",
+          "COUNTY": "Linn",
+          "KDHE_DISTRICT": "SE",
+          "LATITUDE": 38.37107,
+          "LONGITUDE": -94.94999,
+          "MATERIAL_COMBO": "12 barrels of crude",
+          "MATERIAL_TYPE": "crude oil",
+          "CLEANUP_METHOD": "burning",
+          "DETAIL_REPORT": "https://www.reports.esriuk.com/view-report/5bb2bdf281a7426aa9170c5707c12125/KDHE-05603",
+          "WEB_MAP_LINK": "<a href=\"https://www.reports.esriuk.com/view-report/5bb2bdf281a7426aa9170c5707c12125/KDHE-05603\"target=”_blank”><img src=\"https://maps.kdhe.ks.gov/_Gallery/wab_reportlink.png\"></a>",
+          "LEGAL_SECTION": "2619S22E",
+          "LEGAL_TOWNSHIP": "2619S22E",
+          "LEGAL_RANGE": "2619S22E",
+          "SPILL_CAUSE": "operator error",
+          "WATER_WAY_TYPE": "creek",
+          "CITY": "Topeka",
+          "NRC_NOTIFIED": "Unknown"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:31Z"
+        "introspected_at": "2026-08-15T03:37:49Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Spills_DASC/FeatureServer/0",
       "inquiry_enabled": false,
@@ -4783,20 +4783,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kdhe-tmdl-lake-53575704",
       "title": "KDHE TMDL Lake",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kdhe-tmdl-lake-53575704--default--placeholder.svg",
+      "image_file": "kdhe-tmdl-lake-53575704--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5233,7 +5233,7 @@
           "APURL": "https://maps.kdhe.state.ks.us/tmdlreports/mo/BrownCoSFL.pdf"
         },
         "layer": 5,
-        "introspected_at": "2026-08-11T16:08:32Z"
+        "introspected_at": "2026-08-15T03:37:49Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/5",
       "inquiry_enabled": false,
@@ -5242,20 +5242,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "kdhe-tmdl-stream-910998e2",
       "title": "KDHE TMDL Stream",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "kdhe-tmdl-stream-910998e2--default--placeholder.svg",
+      "image_file": "kdhe-tmdl-stream-910998e2--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5679,7 +5679,7 @@
           "CHLORDANE": " "
         },
         "layer": 4,
-        "introspected_at": "2026-08-11T16:08:32Z"
+        "introspected_at": "2026-08-15T03:37:50Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/4",
       "inquiry_enabled": false,
@@ -5688,7 +5688,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "lottery-regions-94e59024",
@@ -5730,7 +5730,7 @@
           "REGION": 3
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:32Z"
+        "introspected_at": "2026-08-15T03:37:50Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer",
       "inquiry_enabled": false,
@@ -5739,20 +5739,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "marion-lake-extent-4f44952f",
       "title": "Marion Lake extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "marion-lake-extent-4f44952f--default--placeholder.svg",
+      "image_file": "marion-lake-extent-4f44952f--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5794,7 +5794,7 @@
           "area_sqm": 25399462
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:33Z"
+        "introspected_at": "2026-08-15T03:37:51Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Marion_Lake_extent/FeatureServer",
       "inquiry_enabled": false,
@@ -5803,20 +5803,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "melvern-lake-extent-97d48513",
       "title": "Melvern Lake extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "melvern-lake-extent-97d48513--default--placeholder.svg",
+      "image_file": "melvern-lake-extent-97d48513--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5858,7 +5858,7 @@
           "area_sqm": 27416777
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:34Z"
+        "introspected_at": "2026-08-15T03:37:51Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Melvern_Lake_extent/FeatureServer",
       "inquiry_enabled": false,
@@ -5867,20 +5867,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "milford-lake-extent-c0143643",
       "title": "Milford Lake extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "milford-lake-extent-c0143643--default--placeholder.svg",
+      "image_file": "milford-lake-extent-c0143643--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -5916,7 +5916,7 @@
           "gridcode": 1
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:34Z"
+        "introspected_at": "2026-08-15T03:37:52Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Milford_Lake_extent/FeatureServer",
       "inquiry_enabled": false,
@@ -5925,7 +5925,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "non-state-bridges-9b5032d8",
@@ -6755,7 +6755,7 @@
           "PIERPROT": "Not Required"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:35Z"
+        "introspected_at": "2026-08-15T03:37:53Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/Non_State_Bridges/FeatureServer",
       "inquiry_enabled": false,
@@ -6764,7 +6764,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "oil-and-gas-fields-390ee1b9",
@@ -6944,7 +6944,7 @@
           "CUMM_OIL": 4060799
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:35Z"
+        "introspected_at": "2026-08-15T03:37:54Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Fields/FeatureServer",
       "inquiry_enabled": false,
@@ -6953,20 +6953,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "oil-and-gas-leases-66970100",
       "title": "Oil and Gas Leases",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "oil-and-gas-leases-66970100--other--placeholder.svg",
+      "image_file": "oil-and-gas-leases-66970100--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7448,7 +7448,7 @@
           "FIELD_NAME": "WAYSIDE-HAVANA"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:36Z"
+        "introspected_at": "2026-08-15T03:37:55Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Leases/FeatureServer",
       "inquiry_enabled": false,
@@ -7457,20 +7457,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "osage-aquifer-extent-7684344e",
       "title": "Osage Aquifer Extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "osage-aquifer-extent-7684344e--other--placeholder.svg",
+      "image_file": "osage-aquifer-extent-7684344e--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7499,7 +7499,7 @@
           "NAME": "Ozark Aquifer"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:36Z"
+        "introspected_at": "2026-08-15T03:37:55Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer",
       "inquiry_enabled": false,
@@ -7508,20 +7508,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "ozark-aquifer-58374a14",
       "title": "Ozark Aquifer",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ozark-aquifer-58374a14--other--placeholder.svg",
+      "image_file": "ozark-aquifer-58374a14--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7598,7 +7598,7 @@
           "CODE": 222
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:36Z"
+        "introspected_at": "2026-08-15T03:37:55Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -7607,20 +7607,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "ozark-aquifer-base-58374a14",
       "title": "Ozark Aquifer Base",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ozark-aquifer-base-58374a14--other--placeholder.svg",
+      "image_file": "ozark-aquifer-base-58374a14--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7697,7 +7697,7 @@
           "CODE": 222
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:37Z"
+        "introspected_at": "2026-08-15T03:37:56Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -7706,20 +7706,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "ozark-aquifer-extent-58374a14",
       "title": "Ozark Aquifer Extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ozark-aquifer-extent-58374a14--other--placeholder.svg",
+      "image_file": "ozark-aquifer-extent-58374a14--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7796,7 +7796,7 @@
           "CODE": 222
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:37Z"
+        "introspected_at": "2026-08-15T03:37:56Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -7805,20 +7805,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "ozark-aquifer-extent-7684344e",
       "title": "Ozark Aquifer Extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ozark-aquifer-extent-7684344e--other--placeholder.svg",
+      "image_file": "ozark-aquifer-extent-7684344e--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7847,7 +7847,7 @@
           "NAME": "Ozark Aquifer"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:37Z"
+        "introspected_at": "2026-08-15T03:37:56Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer",
       "inquiry_enabled": false,
@@ -7856,20 +7856,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "ozark-aquifer-top-58374a14",
       "title": "Ozark Aquifer Top",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "ozark-aquifer-top-58374a14--other--placeholder.svg",
+      "image_file": "ozark-aquifer-top-58374a14--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -7946,7 +7946,7 @@
           "CODE": 222
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:37Z"
+        "introspected_at": "2026-08-15T03:37:56Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer",
       "inquiry_enabled": false,
@@ -7955,7 +7955,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "parole-regions-94e59024",
@@ -7997,7 +7997,7 @@
           "REGION": 3
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:38Z"
+        "introspected_at": "2026-08-15T03:37:56Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer",
       "inquiry_enabled": false,
@@ -8006,20 +8006,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "perry-lake-extent-d8c3d835",
       "title": "Perry Lake extent",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "perry-lake-extent-d8c3d835--default--placeholder.svg",
+      "image_file": "perry-lake-extent-d8c3d835--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8061,7 +8061,7 @@
           "area_sqm": 42883318
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:38Z"
+        "introspected_at": "2026-08-15T03:37:57Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Perry_Lake_extent/FeatureServer",
       "inquiry_enabled": false,
@@ -8070,7 +8070,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "quarries-and-mines-74955adc",
@@ -8267,7 +8267,7 @@
           "UPDATE_DATE": 908527677000
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:38Z"
+        "introspected_at": "2026-08-15T03:37:57Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Quarries_and_Mines/FeatureServer",
       "inquiry_enabled": false,
@@ -8276,20 +8276,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "radiological-70e174de",
       "title": "Radiological",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "radiological-70e174de--default--placeholder.svg",
+      "image_file": "radiological-70e174de--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8498,7 +8498,7 @@
           "Radium_226_MQL": "<"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:39Z"
+        "introspected_at": "2026-08-15T03:37:58Z"
       },
       "source_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer",
       "inquiry_enabled": false,
@@ -8507,7 +8507,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "railroads-45210fe5",
@@ -8623,7 +8623,7 @@
           "LRSKey": "V & S_MEDICINE LODGE"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:39Z"
+        "introspected_at": "2026-08-15T03:37:58Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer",
       "inquiry_enabled": false,
@@ -8632,20 +8632,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "reported-wildfires-7c192b1e",
       "title": "Reported Wildfires",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Public Safety",
+      "category": "Public Safety",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "reported-wildfires-7c192b1e--default--placeholder.svg",
+      "image_file": "reported-wildfires-7c192b1e--public-safety--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -8753,7 +8753,7 @@
           "ReportedYear": 2016
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:40Z"
+        "introspected_at": "2026-08-15T03:37:59Z"
       },
       "source_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/ReportedWildfires_Public/FeatureServer",
       "inquiry_enabled": false,
@@ -8762,7 +8762,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "rest-areas-60f51c2f",
@@ -8914,7 +8914,7 @@
           "HandicapParking": 2
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:40Z"
+        "introspected_at": "2026-08-15T03:37:59Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Facilities/Rest_Areas/FeatureServer",
       "inquiry_enabled": false,
@@ -8923,7 +8923,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "school-districts-370fa9f9",
@@ -8946,20 +8946,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "soils-e3cc9752",
       "title": "Soils",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "soils-e3cc9752--other--placeholder.svg",
+      "image_file": "soils-e3cc9752--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://services.kansasgis.org/arcgis15/rest/services/land_geology_soils/Soils/MapServer",
@@ -8969,7 +8969,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "speed-limits-75977bf0",
@@ -9111,7 +9111,7 @@
           "LocError": "NO ERROR"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:45Z"
+        "introspected_at": "2026-08-15T03:38:05Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Speed_Limits/FeatureServer",
       "inquiry_enabled": false,
@@ -9120,7 +9120,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "state-bridges-675bea04",
@@ -9434,58 +9434,60 @@
           }
         ],
         "sample": {
-          "STR_NAME": "0026-B0003",
-          "DISTRICT": "3",
-          "LRS_KEY": "0261000700000000",
-          "STATE_LRS_KEY": "0261000700000000",
-          "STATE_MP": 144.84,
-          "COUNTY_MP": 1.085,
-          "REF_PT": 144.84,
-          "SUB": "3",
-          "LOCATION": "1.09 MI E TREGO CO LINE",
+          "STR_NAME": "0053-B0023",
+          "DISTRICT": "2",
+          "LRS_KEY": "0533000180000000",
+          "STATE_LRS_KEY": "0533000180000000",
+          "STATE_MP": 95.68,
+          "COUNTY_MP": 19.512,
+          "REF_PT": 95.68,
+          "SUB": "1",
+          "LOCATION": "1.04 MI E K14",
           "ORIENTATION": "ON",
-          "FEATURE_CROSSED_DESCRIPTION": "BIG CREEK DRAINAGE",
-          "INV_RTE_1": "I",
-          "INV_RTE_2": "70",
+          "FEATURE_CROSSED_DESCRIPTION": "YAUGER CREEK DRAINAGE",
+          "INV_RTE_1": "K",
+          "INV_RTE_2": "18",
           "INV_RTE_3": "00",
           "INV_RTE_4": "0",
-          "FACILITY": "I70 HWY, NL-SL",
-          "FEATINT": "BIG CREEK DRAINAGE",
+          "FACILITY": "K18 HWY",
+          "FEATINT": "YAUGER CREEK DRAINAGE",
           "UNDER_CONSTRUCTION": "N",
           "CORP_STATUS": "00000",
-          "FUN_CLASS": "1",
-          "STR_LENGTH": 32.8,
-          "DETOUR": 1,
-          "SKEW": 0,
+          "FUN_CLASS": "4",
+          "STR_LENGTH": 28.7,
+          "DETOUR": 0,
+          "SKEW": 30,
           "DES_LOAD_1": "ASD",
           "DES_LOAD_2": 20.0,
-          "RDWAY": 80.0,
-          "APPRO": 80.0,
-          "BOX_HEIGHT": 16.01,
-          "BUILT_DATE": 1965,
+          "RDWAY": 40.0,
+          "APPRO": 28.0,
+          "BOX_HEIGHT": 10.01,
+          "BUILT_DATE": 1959,
           "VERT_CLEAR": 99.9,
-          "SUF_RATE": 93.9,
+          "SUF_RATE": 98.5,
           "INTERCHANGE": "0",
-          "LANES_CARRIED": 4,
+          "LANES_CARRIED": 2,
           "FUNCTION_TYPE": "10",
-          "STR_AADT": 6750,
+          "STR_AADT": 1180,
           "SCOUR_CRITICAL_ID": "0",
-          "LATITUDE": "38.95016",
-          "LONGITUDE": "-99.5746",
+          "LATITUDE": "39.045",
+          "LONGITUDE": "-98.13575",
           "CUSTODIAN": "S01 State transportation department ",
           "OWNER": "S01 State transportation department ",
           "MATERIALMAIN": "Reinforced Concrete",
           "DESIGNMAIN": "Rigid Frame Box",
-          "COUNTYNAME": "ELLIS",
+          "COUNTYNAME": "LINCOLN",
           "BOUND_DIR": "1",
-          "LRSROUTEID": "0261000700000000",
-          "STRUCT_HI": 93.9,
+          "LRSROUTEID": "0533000180000000",
+          "STRUCT_HI": 98.5,
           "OPPOSTCL": "Open",
-          "NBI_8": "999907000260031",
-          "DECKWIDTH": 156.5
+          "NBI_8": "999901800530231",
+          "DECKWIDTH": 59.5,
+          "PROJECT_NUMBER": "KA-3110-01, KA-3232-03",
+          "PARALSTRUC": "L"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:46Z"
+        "introspected_at": "2026-08-15T03:38:05Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/State_Bridges/FeatureServer",
       "inquiry_enabled": false,
@@ -9494,7 +9496,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "state-system-2f3c7f01",
@@ -9563,15 +9565,15 @@
           }
         ],
         "sample": {
-          "Id": "c89c89c7-9437-4088-b38e-1917ab37bbae",
-          "RouteId": "1013000150000000",
-          "FromMeasure": 12.0902681,
-          "ToMeasure": 19.123481,
-          "state_routes": "15",
-          "us_routes": "59"
+          "Id": "6d4c63cb-0c67-47b6-b7ec-b78c3931e08a",
+          "RouteId": "0242000500000000",
+          "FromMeasure": 8.1008088,
+          "ToMeasure": 31.0712409,
+          "us_routes": "50",
+          "state_routes": "4"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:46Z"
+        "introspected_at": "2026-08-15T03:38:06Z"
       },
       "source_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/State_System/FeatureServer",
       "inquiry_enabled": false,
@@ -9580,7 +9582,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-blocks-e9b7eebd",
@@ -9706,7 +9708,7 @@
           "POP20": 13
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:47Z"
+        "introspected_at": "2026-08-15T03:38:06Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer",
       "inquiry_enabled": false,
@@ -9715,7 +9717,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-counties-7e1658ed",
@@ -9843,7 +9845,7 @@
           "INTPTLON": "-096.2417321"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:47Z"
+        "introspected_at": "2026-08-15T03:38:07Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Counties/FeatureServer",
       "inquiry_enabled": false,
@@ -9852,7 +9854,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-counties-e9b7eebd",
@@ -9978,7 +9980,7 @@
           "POP20": 13
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:47Z"
+        "introspected_at": "2026-08-15T03:38:07Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer",
       "inquiry_enabled": false,
@@ -9987,7 +9989,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-railroads-61aac521",
@@ -10010,7 +10012,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-roads-9f16300a",
@@ -10033,7 +10035,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tiger-2020-tracts-e9b7eebd",
@@ -10159,7 +10161,7 @@
           "POP20": 13
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:48Z"
+        "introspected_at": "2026-08-15T03:38:08Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer",
       "inquiry_enabled": false,
@@ -10168,20 +10170,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tmdl-590c7df6",
       "title": "TMDL",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "tmdl-590c7df6--default--placeholder.svg",
+      "image_file": "tmdl-590c7df6--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10445,7 +10447,7 @@
           "CHROMIUM": " "
         },
         "layer": 1,
-        "introspected_at": "2026-08-11T16:08:49Z"
+        "introspected_at": "2026-08-15T03:38:09Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer",
       "inquiry_enabled": false,
@@ -10454,20 +10456,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tmdl-lake-590c7df6",
       "title": "TMDL Lake",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "tmdl-lake-590c7df6--default--placeholder.svg",
+      "image_file": "tmdl-lake-590c7df6--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -10731,7 +10733,7 @@
           "CHROMIUM": " "
         },
         "layer": 1,
-        "introspected_at": "2026-08-11T16:08:49Z"
+        "introspected_at": "2026-08-15T03:38:09Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer",
       "inquiry_enabled": false,
@@ -10740,20 +10742,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "tmdl-stream-590c7df6",
       "title": "TMDL Stream",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "tmdl-stream-590c7df6--default--placeholder.svg",
+      "image_file": "tmdl-stream-590c7df6--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -11017,7 +11019,7 @@
           "CHROMIUM": " "
         },
         "layer": 1,
-        "introspected_at": "2026-08-11T16:08:50Z"
+        "introspected_at": "2026-08-15T03:38:10Z"
       },
       "source_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer",
       "inquiry_enabled": false,
@@ -11026,20 +11028,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "type-wells-7889d5d3",
       "title": "Type Wells",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "type-wells-7889d5d3--other--placeholder.svg",
+      "image_file": "type-wells-7889d5d3--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -11470,7 +11472,7 @@
           "OIL_LEASE_KID_SOURCE": "KGS 06/28/2001 PDS"
         },
         "layer": 3,
-        "introspected_at": "2026-08-11T16:08:50Z"
+        "introspected_at": "2026-08-15T03:38:10Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Type_Wells/FeatureServer",
       "inquiry_enabled": false,
@@ -11479,7 +11481,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usace-reservoirs-33bb4110",
@@ -11575,7 +11577,7 @@
           "State": "Oklahoma"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:51Z"
+        "introspected_at": "2026-08-15T03:38:11Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USACE_Reservoirs/FeatureServer",
       "inquiry_enabled": false,
@@ -11584,7 +11586,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usgs-100k-quad-ba85eecb",
@@ -11697,7 +11699,7 @@
           "QUAD_REF": "0B"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:51Z"
+        "introspected_at": "2026-08-15T03:38:12Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer",
       "inquiry_enabled": false,
@@ -11706,7 +11708,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usgs-24k-quad-ba85eecb",
@@ -11819,7 +11821,7 @@
           "QUAD_REF": "0B"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:51Z"
+        "introspected_at": "2026-08-15T03:38:12Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer",
       "inquiry_enabled": false,
@@ -11828,7 +11830,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usgs-250k-quad-ba85eecb",
@@ -11941,7 +11943,7 @@
           "QUAD_REF": "0B"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:52Z"
+        "introspected_at": "2026-08-15T03:38:12Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer",
       "inquiry_enabled": false,
@@ -11950,7 +11952,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usgs-quads-ba85eecb",
@@ -12063,7 +12065,7 @@
           "QUAD_REF": "0B"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:52Z"
+        "introspected_at": "2026-08-15T03:38:12Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer",
       "inquiry_enabled": false,
@@ -12072,20 +12074,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usgs-scanned-topos-6299533e",
       "title": "USGS Scanned Topos",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "usgs-scanned-topos-6299533e--other--placeholder.svg",
+      "image_file": "usgs-scanned-topos-6299533e--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": null,
       "source_url": "https://server.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer",
@@ -12095,7 +12097,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:16Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usng-100000m-c3fe0b26",
@@ -12127,7 +12129,7 @@
           "GRID1MIL": "01G"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:53Z"
+        "introspected_at": "2026-08-15T03:38:13Z"
       },
       "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer",
       "inquiry_enabled": false,
@@ -12136,7 +12138,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usng-10000m-c3fe0b26",
@@ -12168,7 +12170,7 @@
           "GRID1MIL": "01G"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:53Z"
+        "introspected_at": "2026-08-15T03:38:13Z"
       },
       "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer",
       "inquiry_enabled": false,
@@ -12177,7 +12179,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usng-1000m-c3fe0b26",
@@ -12209,7 +12211,7 @@
           "GRID1MIL": "01G"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:53Z"
+        "introspected_at": "2026-08-15T03:38:14Z"
       },
       "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer",
       "inquiry_enabled": false,
@@ -12218,7 +12220,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usng-100m-c3fe0b26",
@@ -12250,7 +12252,7 @@
           "GRID1MIL": "01G"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:53Z"
+        "introspected_at": "2026-08-15T03:38:14Z"
       },
       "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer",
       "inquiry_enabled": false,
@@ -12259,7 +12261,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "usng-6x8-zones-c3fe0b26",
@@ -12291,7 +12293,7 @@
           "GRID1MIL": "01G"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:53Z"
+        "introspected_at": "2026-08-15T03:38:14Z"
       },
       "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer",
       "inquiry_enabled": false,
@@ -12300,20 +12302,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "volatiles-organics-70e174de",
       "title": "Volatiles Organics",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "volatiles-organics-70e174de--default--placeholder.svg",
+      "image_file": "volatiles-organics-70e174de--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -12522,7 +12524,7 @@
           "Radium_226_MQL": "<"
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:54Z"
+        "introspected_at": "2026-08-15T03:38:14Z"
       },
       "source_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer",
       "inquiry_enabled": false,
@@ -12531,7 +12533,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "voting-districts-bbef5728",
@@ -12645,7 +12647,7 @@
           "OVER_18_PO": 94
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:54Z"
+        "introspected_at": "2026-08-15T03:38:15Z"
       },
       "source_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Voting_Districts/FeatureServer",
       "inquiry_enabled": false,
@@ -12654,20 +12656,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "water-wells-wwc5-921cf865",
       "title": "Water Wells WWC5",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Default",
-      "category": "Default",
+      "display_category": "Environment",
+      "category": "Environment",
       "content_status": "drafted",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "water-wells-wwc5-921cf865--default--placeholder.svg",
+      "image_file": "water-wells-wwc5-921cf865--environment--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -13248,75 +13250,117 @@
           }
         ],
         "sample": {
-          "INPUT_SEQ_NUMBER": 300586,
+          "INPUT_SEQ_NUMBER": 1056654803,
           "DWR_APPROPRIATION_NUMBER": " ",
-          "OWNER_NAME": "Fina Oil and Chemical Co.",
+          "OWNER_NAME": "NuStar Pipeling Operating",
           "WATER_USE_CODE": 10,
-          "TYPE_OF_ACTION_CODE": 1,
-          "CONTRACTORS_LICENSE": "575",
+          "TYPE_OF_ACTION_CODE": 3,
           "TOWNSHIP": 26,
           "TOWNSHIP_DIRECTION": "S",
-          "RANGE": 25,
-          "RANGE_DIRECTION": "W",
-          "SECTION": 25,
+          "RANGE": 5,
+          "RANGE_DIRECTION": "E",
+          "SECTION": 10,
           "QUARTER_CALL_1_LARGEST": "SW",
-          "QUARTER_CALL_2": "SW",
+          "QUARTER_CALL_2": "NE",
           "QUARTER_CALL_3": "NE",
-          "COMPLETION_DATE": 870652800000,
-          "CONTRACTOR_NAME": "Kurtz Environmental Service",
-          "UPDATE_DATE": 1690115436000,
-          "MONITORING_NUMBER": "MW 4",
-          "NAD27_LATITUDE": 37.7534949,
-          "NAD27_LONGITUDE": -100.0108299,
-          "LONGITUDE_LATITUDE_SOURCE": "QUARTER_CALLS",
-          "COUNTY": "Ford",
-          "STATUS": "Constructed",
+          "COMPLETION_DATE": 995846400000,
+          "CONTRACTOR_NAME": "Environmental Priority Service, Inc.",
+          "UPDATE_DATE": 1772326123000,
+          "MONITORING_NUMBER": "MW 30",
+          "NAD27_LATITUDE": 37.8024803,
+          "NAD27_LONGITUDE": -96.8716322,
+          "LONGITUDE_LATITUDE_SOURCE": "GPS",
+          "COUNTY": "Butler",
+          "STATUS": "Plugged",
           "USE_DESC": "Monitoring well/observation/piezometer",
-          "CONTRACTOR": "Funkee Drlg. Ser., Inc.",
-          "DEPTH_TXT": "        43",
-          "ELEV_TXT": " ",
-          "STATIC_LEVEL_TXT": " ",
+          "CONTRACTOR": "Env. Priority Srvc",
+          "DEPTH_TXT": "        15",
+          "ELEV_TXT": "     1,295",
+          "STATIC_LEVEL_TXT": "         6",
           "YIELD_TXT": " ",
-          "COMP_DATE_TXT": "08/04/1997",
-          "MAPPER_DEPTH": 43,
-          "MAPPER_LEVEL": -999,
+          "COMP_DATE_TXT": "07/23/2001",
+          "MAPPER_DEPTH": 15,
+          "MAPPER_LEVEL": 6.4,
           "MAPPER_YIELD": -999,
           "WELL_TYPE_CATEGORY": "Monitoring",
-          "KGS_URL": "https://chasm.kgs.ku.edu/ords/wwc5.wwc5d2.well_details?well_id=300586",
-          "WELL_KID": 1040400022,
-          "LATITUDE": 37.7534949,
-          "LONGITUDE": -100.0108299,
-          "COUNTY_CODE": 57,
-          "NAD83_LATITUDE": 37.7535153,
-          "NAD83_LONGITUDE": -100.0112418,
-          "OLD_QUARTER_SECTIONS": "NE SW SW",
-          "DEPTH_OF_COMPLETED_WELL": 43,
-          "OLD_COMPLETION_DATE": "080497",
-          "LOCATION_DIRECTIONS": "304 E Wyatt Earp Blvd, Dodge City",
-          "UPDATE_INITIALS": "kgdl",
-          "LATITUDE_LEO_QUARTER_CALLS": 37.753495,
-          "LONGITUDE_LEO_QUARTER_CALLS": -100.01083,
-          "CONTRACTORS_LICENSE_NUMBER": 575,
-          "COUNTY_CHECKED": 1,
-          "FILES_CHECKED": 1,
-          "SOURCE_KID": 1040400021,
-          "LOG_SKIP_IT": 1,
-          "GPS_DATUM": "UNK",
+          "KOLAR_DOC_ID": 1842800,
+          "KGS_URL": "https://chasm.kgs.ku.edu/ords/wwc5.wwc5d2.well_details?well_id=1056654803",
+          "WELL_KID": 1056904957,
+          "LATITUDE": 37.8024803,
+          "LONGITUDE": -96.8716322,
+          "COUNTY_CODE": 15,
+          "NAD83_LATITUDE": 37.8025,
+          "NAD83_LONGITUDE": -96.871944,
+          "OLD_QUARTER_SECTIONS": "NE NE SW",
+          "DEPTH_OF_COMPLETED_WELL": 15,
+          "ELEVATION_OF_WELL": 1295,
+          "STATIC_WATER_LEVEL": 6.4,
+          "CASING_DIAM_1": 2,
+          "CASING_DEPTH_1": 10,
+          "SCREEN_INTERVAL_FROM_1": 10,
+          "SCREEN_INTERVAL_TO_1": 15,
+          "GROUT_INTERVAL_FROM_1": 0,
+          "GROUT_INTERVAL_TO_1": 15,
+          "LOCATION_DIRECTIONS": "from SW Traffic Way and Douglas Road, 1500 feet W",
+          "UPDATE_INITIALS": "dah",
+          "CONTRACTORS_LICENSE_NUMBER": 604,
+          "COUNTY_CHECKED": 0,
+          "FILES_CHECKED": 0,
+          "SOURCE_KID": 1056657207,
+          "GPS_DATUM": "WGS84",
           "LONGITUDE_LATITUDE_DATUM": "NAD27",
-          "NAD27_UTM_X": 410952.21,
-          "NAD27_UTM_Y": 4178741.23,
+          "GPS_LATITUDE": 37.8025,
+          "GPS_LONGITUDE": -96.871944,
+          "NAD27_UTM_X": 687380.66,
+          "NAD27_UTM_Y": 4185828.75,
           "NAD27_UTM_ZONE": 14,
-          "NAD83_UTM_X": 410918.16000000003,
-          "NAD83_UTM_Y": 4178948.95,
+          "NAD83_UTM_X": 687348.49,
+          "NAD83_UTM_Y": 4186035.46,
           "NAD83_UTM_ZONE": 14,
-          "RENDER_DEPTH": 43,
+          "RENDER_DEPTH": 15,
           "RENDER_YIELD": -1,
-          "RENDER_WATER_LEVEL": 0,
-          "FILE_URL": "https://kgsimages.blob.core.windows.net/web/web_1/WebDocs/WWC5/W/26S25/300586.gif",
-          "STATIC_WATER_LEVEL": 30
+          "RENDER_WATER_LEVEL": 6.4,
+          "FILE_URL": "https://kgsimages.blob.core.windows.net/kolar/filer_3/public/2025-05/kolar_images.images.img/sid=1275740781.pdf",
+          "CONTRACTORS_LICENSE": "527",
+          "OLD_COMPLETION_DATE": "11-13-98",
+          "LATITUDE_LEO_QUARTER_CALLS": 39.437322,
+          "LONGITUDE_LEO_QUARTER_CALLS": -98.693203,
+          "GEOLOGICAL_FORMATION": "0000",
+          "DEPTH_WATER_ENCOUNT_1": 0,
+          "DEPTH_WATER_ENCOUNT_2": 0,
+          "DEPTH_WATER_ENCOUNT_3": 0,
+          "PUMP_TEST_DEPTH_1": 0,
+          "PUMP_TEST_HRS_PUMPED_1": 0,
+          "PUMP_TEST_GPM_1": 0,
+          "CHEM_ANALYSIS_DONE": "No",
+          "BLANK_CASING_CODE": 2,
+          "CASING_DIAM_2": 0,
+          "CASING_DIAM_3": 0,
+          "CASING_DEPTH_2": 0,
+          "CASING_DEPTH_3": 0,
+          "SCREEN_TYPE_CODE": 7,
+          "SCREEN_OPENINGS_CODE": 3,
+          "SCREEN_INTERVAL_FROM_2": 0,
+          "SCREEN_INTERVAL_FROM_3": 0,
+          "SCREEN_INTERVAL_FROM_4": 0,
+          "SCREEN_INTERVAL_TO_2": 0,
+          "SCREEN_INTERVAL_TO_3": 0,
+          "SCREEN_INTERVAL_TO_4": 0,
+          "GROUT_MATERIAL_1": 2,
+          "GROUT_MATERIAL_2": 3,
+          "GROUT_INTERVAL_FROM_2": 0,
+          "GROUT_INTERVAL_FROM_3": 0,
+          "GROUT_INTERVAL_TO_2": 0,
+          "GROUT_INTERVAL_TO_3": 0,
+          "CONTAM_SOURCE_CODE": 11,
+          "CONTAM_SOURCE_DIRECTION": "  ",
+          "CONTAM_SOURCE_DISTANCE": 0,
+          "INACTIVE_DATE": "        ",
+          "DATE_FORM_RECEIVED": "        ",
+          "LOG_SKIP_IT": 1
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:54Z"
+        "introspected_at": "2026-08-15T03:38:15Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Water_Wells_WWC5/FeatureServer",
       "inquiry_enabled": false,
@@ -13325,20 +13369,20 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     },
     {
       "slug": "waterflood-6e2bed50",
       "title": "Waterflood",
       "city": "Kansas",
       "city_slug": "kansas",
-      "display_category": "Other",
-      "category": "Other",
+      "display_category": "Economy",
+      "category": "Economy",
       "content_status": "needs_review",
       "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
-      "image_file": "waterflood-6e2bed50--other--placeholder.svg",
+      "image_file": "waterflood-6e2bed50--economy--placeholder.svg",
       "image_note": "placeholder cover; official city map linked on the page",
       "schema": {
         "fields": [
@@ -13651,7 +13695,7 @@
           "SNDOILANNUAL": 0
         },
         "layer": 0,
-        "introspected_at": "2026-08-11T16:08:55Z"
+        "introspected_at": "2026-08-15T03:38:16Z"
       },
       "source_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Waterflood/FeatureServer",
       "inquiry_enabled": false,
@@ -13660,7 +13704,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T16:08:55Z"
+      "last_updated": "2026-08-15T03:37:30Z"
     }
   ]
 }

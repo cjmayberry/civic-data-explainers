@@ -4,8 +4,8 @@ date: "2026-08-02"
 description: "The map includes the National Park Service (NPS) Natural Earth physical map at 1.24km per pixel for the world at small scales, i-cubed eTOPO 1:250,000-scale maps for the contiguous United States at medium scales, and Nat"
 teaser: "The map includes the National Park Service (NPS) Natural Earth physical map at 1.24km per pixel for the world at small scales, i-cubed eTOPO"
 tags: ["Imagery, basemaps, and Earth cover"]
-categories: ["Other"]
-cover: "covers/usgs-scanned-topos-6299533e--other--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/usgs-scanned-topos-6299533e--environment--placeholder.svg"
 source_url: "https://server.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6299533e799f4fafa0b5a36017d4b3ca&sublayer=0"

@@ -2,28 +2,29 @@
 title: "Ozark Aquifer Base"
 date: "2026-08-02"
 description: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Kansas Geological Survey - Geohydrology. Potential uses of these digital maps incl"
-teaser: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Kansas Geological Survey…"
+teaser: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Ka"
 tags: ["Inland waters", "Utilities and communication", "Farming"]
-categories: ["Other"]
-cover: "covers/ozark-aquifer-base-58374a14--other--placeholder.svg"
+categories: ["Environment"]
+cover: "covers/ozark-aquifer-base-58374a14--environment--placeholder.svg"
 source_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer"
-geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=58374a144fbe4b5790559710aed29082&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
+map_link: "https://hub.kansasgis.org/datasets/KU::ozark-aquifer-base"
+geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
-## What this tracks  
-This dataset maps the depth and extent of the Ozark aquifer beneath Kansas, showing where this groundwater resource exists and how deep you'd need to drill to reach it.  
 
-## Why it matters to you  
-If you're drilling a well in Kansas, this data tells you whether the Ozark aquifer exists under your property and how deep to expect water. Farmers can use it to plan irrigation systems, while developers can avoid costly dry holes by checking aquifer locations before buying land. The Kansas Geological Survey maintains this to help residents make informed decisions about groundwater use.  
+## What this is
 
-## How to read this data  
-**FEET** — Depth to the top of the Ozark aquifer in feet below surface (sample value: -9999 indicates missing data).  
-**CODE** — Geographic reference code for the aquifer boundary (sample value: 222 corresponds to specific mapped areas).  
+_Stub — awaiting a schema-grounded draft._
 
-## Try it yourself  
-Check the [Kansas Geological Survey's interactive map](https://www.kgs.ku.edu/) to see the Ozark aquifer depth at your location before planning a well or irrigation system.
+## Why it matters to you
+
+## How to read this data
+
+## Where this leaves you
+
+## Look it up yourself
