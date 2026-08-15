@@ -1,0 +1,211 @@
+{
+  "hero": null,
+  "categories": {},
+  "mapbox_enabled": true,
+  "generated_at": "2026-08-15T16:23:58Z",
+  "dataset_schema": 2,
+  "datasets": [
+    {
+      "slug": "team-up-to-clean-up-historic-old-town-may-2018-8f2a74fe",
+      "title": "Team Up to Clean Up Historic Old Town May 2018",
+      "city": "Topeka",
+      "city_slug": "topeka",
+      "display_category": "Parks & Recreation",
+      "category": "Parks & Recreation",
+      "content_status": "drafted",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "team-up-to-clean-up-historic-old-town-may-2018-8f2a74fe--parks-recreation--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "esriFieldTypeDate",
+            "alias": "Date"
+          },
+          {
+            "name": "Location",
+            "type": "esriFieldTypeString",
+            "alias": "Location"
+          },
+          {
+            "name": "Division",
+            "type": "esriFieldTypeString",
+            "alias": "Division"
+          },
+          {
+            "name": "Activities",
+            "type": "esriFieldTypeString",
+            "alias": "Activities"
+          },
+          {
+            "name": "Actions_Taken_to_Date",
+            "type": "esriFieldTypeDouble",
+            "alias": "Actions Taken to Date"
+          },
+          {
+            "name": "Cost_of_Actions_Taken_to_Date",
+            "type": "esriFieldTypeDouble",
+            "alias": "Cost of Actions Taken to Date"
+          },
+          {
+            "name": "Est__Staff_Hours_to_Date",
+            "type": "esriFieldTypeDouble",
+            "alias": "Est. Staff Hours to Date"
+          },
+          {
+            "name": "Cost_of_Est__Staff_Hours_to_Date",
+            "type": "esriFieldTypeDouble",
+            "alias": "Cost of Est. Staff Hours to Date"
+          },
+          {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+          }
+        ],
+        "sample": {
+          "Date": 1527724800000,
+          "Location": "Historic Old Town",
+          "Division": "Community Engagement",
+          "Activities": "Approximate Staff Hours",
+          "Est__Staff_Hours_to_Date": 35,
+          "Cost_of_Est__Staff_Hours_to_Date": 1552,
+          "FID": 1,
+          "Cost_of_Actions_Taken_to_Date": 555
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-15T16:23:31Z"
+      },
+      "source_url": "https://services1.arcgis.com/EvtgI3PZ9PyCGJZS/arcgis/rest/services/Team_Up_to_Clean_Up_Historic_Old_Town_May_2018/FeatureServer/0",
+      "inquiry_enabled": false,
+      "inquiry_search_field": null,
+      "inquiry_field": null,
+      "inquiry_label": null,
+      "inquiry_extra": [],
+      "enrichment_status": null,
+      "last_updated": "2026-08-15T16:23:32Z"
+    },
+    {
+      "slug": "topeka-performance-numbers-34bba224",
+      "title": "Topeka Performance Numbers",
+      "city": "Topeka",
+      "city_slug": "topeka",
+      "display_category": "Government",
+      "category": "Government",
+      "content_status": "needs_review",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "topeka-performance-numbers-34bba224--government--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
+      "schema": {
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "Numbers",
+            "type": "esriFieldTypeDouble",
+            "alias": "Numbers"
+          },
+          {
+            "name": "M_Date",
+            "type": "esriFieldTypeDate",
+            "alias": "M_Date"
+          },
+          {
+            "name": "Quarter",
+            "type": "esriFieldTypeString",
+            "alias": "Quarter"
+          },
+          {
+            "name": "Frequency",
+            "type": "esriFieldTypeString",
+            "alias": "Frequency"
+          },
+          {
+            "name": "Department",
+            "type": "esriFieldTypeString",
+            "alias": "Department"
+          },
+          {
+            "name": "C_Phone",
+            "type": "esriFieldTypeString",
+            "alias": "C_Phone"
+          },
+          {
+            "name": "Measure",
+            "type": "esriFieldTypeString",
+            "alias": "Measure"
+          },
+          {
+            "name": "Q_Measure",
+            "type": "esriFieldTypeString",
+            "alias": "Q_Measure"
+          },
+          {
+            "name": "Value",
+            "type": "esriFieldTypeDouble",
+            "alias": "Value"
+          },
+          {
+            "name": "M_Percent",
+            "type": "esriFieldTypeDouble",
+            "alias": "M_Percent"
+          },
+          {
+            "name": "Money",
+            "type": "esriFieldTypeDouble",
+            "alias": "Money"
+          },
+          {
+            "name": "V_Target",
+            "type": "esriFieldTypeDouble",
+            "alias": "V_Target"
+          },
+          {
+            "name": "P_Target",
+            "type": "esriFieldTypeDouble",
+            "alias": "P_Target"
+          },
+          {
+            "name": "M_Target",
+            "type": "esriFieldTypeDouble",
+            "alias": "M_Target"
+          },
+          {
+            "name": "UID",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "UID"
+          }
+        ],
+        "sample": {
+          "Numbers": 57,
+          "M_Date": 1420005600000,
+          "Quarter": "Q4",
+          "Frequency": "Quarterly",
+          "Department": "Fire Department",
+          "C_Phone": "785-368-4130",
+          "Measure": "Adult Fire Education",
+          "Value": 1670,
+          "UID": 256
+        },
+        "layer": 0,
+        "introspected_at": "2026-08-15T16:23:32Z"
+      },
+      "source_url": "https://services1.arcgis.com/EvtgI3PZ9PyCGJZS/arcgis/rest/services/PerformanceNumbers/FeatureServer/0",
+      "inquiry_enabled": false,
+      "inquiry_search_field": null,
+      "inquiry_field": null,
+      "inquiry_label": null,
+      "inquiry_extra": [],
+      "enrichment_status": null,
+      "last_updated": "2026-08-15T16:23:32Z"
+    }
+  ]
+}
