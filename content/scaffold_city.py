@@ -135,11 +135,30 @@ def main():
                                 "reason": "no service_url / datastore resource"})
                 continue
         elif iid and args.resolve:
-            info = http_json(ITEM_API.format(id=iid))
-            if "__error__" not in info:
-                item_type = info.get("type")
-                url = info.get("url")
-            time.sleep(0.12)
+            # If the catalog already carries a service_url (e.g. from a prior
+            # DCAT/portal extraction pass), trust it and derive item_type from
+            # the URL pattern instead of hitting the ArcGIS item API — the API
+            # is redundant here and its timeouts/rate-limits were silently
+            # dropping otherwise-valid records.
+            if rec.get("service_url"):
+                url = rec["service_url"]
+                if "/FeatureServer" in url:
+                    item_type = "Feature Service"
+                elif "/MapServer" in url:
+                    item_type = "Map Service"
+                elif "/ImageServer" in url:
+                    item_type = "Image Service"
+                elif "/Table" in url:
+                    item_type = "Table"
+                # else: leave item_type=None so the record is still evaluated
+                # against DATA_TYPES below; a bare service_url without a known
+                # ArcGIS service pattern is not a queryable data service.
+            else:
+                info = http_json(ITEM_API.format(id=iid))
+                if "__error__" not in info:
+                    item_type = info.get("type")
+                    url = info.get("url")
+                time.sleep(0.12)
         if item_type in DATA_TYPES or item_type == "CKAN Datastore":
             rec["item_id"] = iid
             rec["item_type"] = item_type

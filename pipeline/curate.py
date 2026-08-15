@@ -68,7 +68,9 @@ def main():
     dropped = [r for r in recs if not keep(r, force)]
 
     # cap: if still over, prefer records with a substantive description (more
-    # resident-facing) over thin/technical ones
+    # resident-facing) over thin/technical ones — but FIRST preserve the
+    # service_url and item_type that the extractor resolved so downstream
+    # stages (scaffold_city.py) don't drop every record as "no service".
     if len(kept) > args.cap:
         kept.sort(key=lambda r: (len(r.get("description_raw") or r.get("suitable_use") or "") > 40,
                                  len(r.get("data_dictionary") or []) > 0,

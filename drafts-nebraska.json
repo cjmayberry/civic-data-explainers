@@ -3,6 +3,658 @@
   "city": "Oklahoma City",
   "prompt_version": "v3-schema-grounded",
   "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-  "generated_at": "2026-08-15T12:32:48Z",
-  "drafts": []
+  "generated_at": "2026-08-15T14:52:12Z",
+  "drafts": [
+    {
+      "slug": "address-points-44023ea5",
+      "body": "## What this tracks  \nThis dataset contains verified 911 emergency service addresses for every location in Nebraska, including street names, numbers, and geographic coordinates.\n\n## Why it matters to you  \nWhen you call 911 from a landline or mobile phone in Nebraska, dispatchers use this data to pinpoint your exact location. Knowing your address is correctly registered helps ensure first responders can find you during emergencies. For businesses, this confirms your official address matches what appears in emergency systems and postal services — critical for receiving deliveries and emergency services.\n\n## How to read this data  \n**FULL_ADDR** — The complete street address (e.g., \"12924 JOSEPHINE ST\").  \n**COUNTY** — Two-letter county code (e.g., \"SC\" for Sarpy County).  \n**ZIP** — The 5-digit postal code (e.g., \"68505\" for Lincoln).  \n**LAT/LONG** — Geographic coordinates (e.g., 40.83235642, -96.6414176) used to map the location.  \n\n## Try it yourself  \nVerify your home or business address appears correctly by searching for your street name in the **ST_NAME** field (e.g., \"JOSEPHINE\") and checking the **FULL_ADDR** matches your expectation.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "airports-10f75119",
+      "body": "## What this tracks  \nThis dataset lists all airports in Nebraska, including their locations, facilities, and operational details.\n\n## Why it matters to you  \nIf you're planning a business trip or shipping goods, this data helps you choose the nearest airport with the services you need—like jet fuel availability or runway lighting for night flights. Small aviation businesses can scout locations by comparing airport amenities, such as fixed-base operators (FBOs) or fuel types. For rural residents, it clarifies which nearby airports offer emergency medical flights or cargo services.\n\n## How to read this data  \n**Name** — Official airport name, like *Ainsworth Regional Airport*.  \n**Code** — Three-letter airport identifier (e.g., *ANW* for Ainsworth).  \n**Fuel** — Available fuel types, such as *100 LL & Jet A*.  \n**Runway1** — Primary runway designation and orientation (e.g., *17 / 35* means runways align northeast/southwest).  \n\n## Try it yourself  \nSearch the dataset for airports near your Nebraska town using the **City** field (e.g., \"Ainsworth\") to check runway surfaces or fuel options before booking a flight.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "atlas-grid-e623b402",
+      "body": "## What this tracks  \nThis dataset maps the grid system used to organize public hunting, fishing, and trapping access areas across Nebraska.\n\n## Why it matters to you  \nIf you hunt, fish, or trap in Nebraska, this grid helps you locate specific public-access areas managed by the Game and Parks Commission and partners. Knowing your grid square ensures you're checking the right maps for permitted locations before planning a trip. Landowners near these areas can also see how public access is organized near their property.\n\n## How to read this data  \n**PageNum** — The grid section number (e.g., \"4\"), corresponding to a physical map page in the ATLAS system.  \n**PDF_MapURL** — If populated, this would link to a downloadable map of the grid section (sample shows blank values in this dataset).  \n**Shape_Area** — The size of the grid section in square units (e.g., \"7987348443.53\"), useful for understanding the scale of each mapped area.  \n\n## Try it yourself  \nVisit the [Nebraska Game and Parks Commission ATLAS](https://outdoornebraska.gov/atlas/) and enter your county to see which grid section covers your preferred outdoor activity areas.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "bighorn-sheep-hunting-units-c01a639d",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's designated bighorn sheep hunting units where permits are required.  \n\n## Why it matters to you  \nIf you're planning a bighorn sheep hunt in Nebraska, this data shows exactly where you're allowed to hunt with a valid permit. Knowing the unit boundaries helps you scout legal hunting areas before applying for limited permits through Nebraska Game and Parks Commission. The **Links** field directly connects you to official regulations.  \n\n## How to read this data  \n**UnitName** — The hunting zone's official name (e.g., \"PINE RIDGE\").  \n**Links** — URL to Nebraska's hunting guidelines (e.g., \"http://outdoornebraska.gov/guides/\").  \n\n## Try it yourself  \nCheck if your preferred hunting spot falls within a bighorn sheep unit by cross-referencing the UnitName with Nebraska's interactive hunting maps.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "board-of-education-2021-9ee2a066",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's Board of Education districts as redrawn in 2021 following legislative approval.  \n\n## Why it matters to you  \nIf you’re a parent, educator, or voter, this data tells you which Board of Education district your address falls under—determining who represents your schools’ policies until 2031. Knowing your district helps you contact the correct representative about curriculum changes, funding decisions, or school board elections. Nebraska residents can also verify if redistricting shifted their representation since the last census.  \n\n## How to read this data  \n**DISTRICT** — The numbered district (e.g., \"4\"), which correlates to a specific geographic area and elected board member.  \n**POPULATION** — The approximate resident count per district (e.g., \"245713.0\"), showing how evenly distributed representation is across the state.  \n**BOUND_AREA** — The geographic size of the district in square miles (e.g., \"80.25618\"), useful for comparing urban vs. rural coverage.  \n\n## Try it yourself  \nCheck the [Secretary of State’s redistricting map](http://news.legislature.ne.gov/red/) to find your Board of Education district by entering your address.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "board-of-regents-2021-77bc59d1",
+      "body": "## What this tracks  \nThis dataset records the boundaries and population statistics for Nebraska's University Board of Regents districts following the 2021 redistricting.  \n\n## Why it matters to you  \nIf you're a Nebraska resident, student, or work with the University system, this data tells you which regents represent your area—important when advocating for campus policies or funding decisions. Parents comparing university resources across regions can see if their district serves a larger or smaller population. Small businesses near campuses can identify which regent to contact about partnership opportunities.  \n\n## How to read this data  \n**DISTRICT** — The regent district number (e.g., \"4\"), matching elected representatives to geographic areas.  \n**POPULATION** — Total residents per district (e.g., \"237525.0\"), showing how evenly distributed representation is.  \n**BOUND_AREA** — Geographic size in square miles (e.g., \"78.146935\"), useful for identifying rural vs. urban districts.  \n\n## Try it yourself  \nCheck which regent district contains your address using the Secretary of State’s redistricting tools at [nebraska.gov/sos](https://nebraska.gov/sos).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "bridges-375a9f94",
+      "body": "## What this tracks  \nThis dataset records the location, structural details, and inspection history of bridges and bridge-sized structures across Nebraska.\n\n## Why it matters to you  \nIf you're planning a trucking route through Nebraska, this data tells you whether a bridge can handle your vehicle's weight by checking its **Posting** (weight limit) and **DeckWidth**. Residents can see when their local bridge was last inspected (**DateInspected**) and what creek or road it crosses (**FeatureIntersected**), helping anticipate maintenance delays. Farmers can verify detour lengths (**Detour_Length**) if a rural bridge closes during harvest season.\n\n## How to read this data  \n**Location** — The street address or route where the bridge is located (e.g., \"1695 S. PRIMROSE AVE\").  \n**YearBuilt** — Construction year (e.g., 1935), indicating aging infrastructure.  \n**StructureType** — Building material (e.g., \"Concrete Slab\"), hinting at durability.  \n**ADT** — Average daily traffic (e.g., 20 vehicles), showing how heavily a bridge is used.  \n\n## Try it yourself  \nCheck the **Posting** and **DeckWidth** of bridges along your regular commute by searching for your street name in the **Facility_Carried** field.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "census-block-group-2020-238e8e17",
+      "body": "## What this tracks  \nThis dataset records population and housing statistics for small geographic areas (block groups) in Nebraska, based on the 2020 U.S. Census.\n\n## Why it matters to you  \nIf you're considering opening a business in Nebraska, this data shows whether a neighborhood has enough residents to support it. For example, **White_Alone_18YrsAndOver: 858** in one sample block group tells you how many working-age adults live there. Homebuyers can check **Housing_Vacant: 38** to gauge housing availability, while community groups might use **Hispanic_or_Latino: 12** to identify translation needs for local services.\n\n## How to read this data  \n**Total_Population** — The number of people living here (sample: 1168).  \n**Housing_Occupied** — How many homes are currently lived in (sample: 468).  \n**NursingFacilities_SkilledNursingFacilities** — Count of residents in care homes (sample: 38), useful for health service planning.  \n**INTPTLAT/INTPTLON** — The block group's center point (sample: +40.7927071, -097.7928431) to locate it on a map.  \n\n## Try it yourself  \nLook up your Nebraska block group using the GEOID (like 311859699002) to see your neighborhood's exact population mix and housing stats.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "census-blocks-2020-55862989",
+      "body": "## What this tracks  \nThis dataset records population and housing statistics for every census block in Nebraska from the 2020 Census.\n\n## Why it matters to you  \nIf you're considering opening a small business in Nebraska, this data shows whether a neighborhood has enough residents to support your shop. Homebuyers can check if a block has mostly families or single residents before moving. Community groups use it to advocate for services in areas with growing populations.\n\n## How to read this data  \n**Total_Population** — The number of people living in this block, like \"2\" in the sample.  \n**White_Alone** — Counts residents identifying only as White, like \"2\" in the sample.  \n**Total_Housing** — Shows all housing units, with sample value \"1\" meaning one home exists there.  \n**Housing_Occupied** — Indicates lived-in homes versus vacant ones, like \"1\" occupied in the sample.  \n\n## Try it yourself  \nLook up your Nebraska address on the Census Bureau's map to see your exact block's population mix and housing density.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "census-tracts-2020-b0fc7def",
+      "body": "## What this tracks  \nThis dataset records population, housing, and demographic details for each census tract in Nebraska as of the 2020 Census.\n\n## Why it matters to you  \nIf you're considering opening a business in Nebraska, this data reveals whether a neighborhood has enough residents in your target demographic to support it. Homebuyers can check if an area has families (via age data) or high vacancy rates (which might signal investment opportunities). Community groups use race/ethnicity data to advocate for culturally appropriate services in their tract.\n\n## How to read this data  \n**Total_Population** — The number of people living in the tract (e.g., 2,527). Compare this to **Housing_Occupied** (e.g., 1,005) to estimate average household size.  \n**White_Alone_18YrsAndOver** — Adults identifying solely as White (e.g., 1,839). Contrast with **Hispanic_or_Latino_18YrsAndOver** (e.g., 18) to understand cultural diversity.  \n**NursingFacilities_SkilledNursingFacilities** — Institutionalized elderly population (e.g., 38), useful for healthcare businesses or family planning.  \n\n## Try it yourself  \nLook up your census tract using [Nebraska's address search tool](https://nebraska.maps.arcgis.com/apps/webappviewer/index.html?id=8bfa4e637a1e4e8f929a5e5b0e018b6b) to see your neighborhood's exact population mix and housing stats.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "city-boundaries-6b9182a5",
+      "body": "## What this tracks  \nThis dataset defines the official boundaries of incorporated cities in Nebraska.\n\n## Why it matters to you  \nKnowing exact city boundaries helps you determine which municipality provides services to your property. If you're opening a business in Dunning, this data confirms whether you'll pay taxes to the city or just Blaine County. Homebuyers can verify if a property qualifies for city water/sewer by checking if it falls inside these boundaries.\n\n## How to read this data  \n**City_Name** — The official name of an incorporated city (e.g., \"Dunning\").  \n**County_Nam** — The county where the city is located (e.g., \"Blaine\").  \n\n## Try it yourself  \nCompare the city boundary map with your property address to confirm which government handles your trash collection and local ordinances.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "conservation-partner-lands-da2c1ccd",
+      "body": "## What this tracks  \nThis dataset records protected conservation lands across Nebraska, including recreation areas and wildlife habitats managed by partner organizations like Ducks Unlimited and Natural Resources Districts.\n\n## Why it matters to you  \nIf you're planning a hunting trip in Nebraska, this data tells you exactly where you can legally hunt, what species are present, and whether firearms are restricted. For families, it reveals nearby nature areas like the Oxbow Trail Reservoir Recreation Area where you can hike or observe wildlife. The regulations field warns you about prohibited activities like target shooting before you arrive.\n\n## How to read this data  \n**AreaName** — The official name of the conservation area, like \"Oxbow Trail Reservoir Recreation Area (NRD)\".  \n**SpeciesLikelyPresent** — Lists animals you might encounter, such as \"Dove, Furbearers, Pheasant, Quail, Rabbit, Squirrel, Waterfowl\".  \n**Regulations** — Specific rules like \"Hunting is permitted in designated areas... Call 402-362-6601 for NRD regulations\".  \n**LocationInfo** — Directions like \"Butler County; 1½E of Ulysses, N side of road\".  \n\n## Try it yourself  \nSearch for your county in the dataset to find the closest conservation area, then check its **SiteURL** (like upperbigblue.org) for visiting hours and activity permits.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "county-boundaries-census-95c807d3",
+      "body": "## What this tracks  \nThis dataset defines official county boundaries in Nebraska and includes demographic data like population counts, racial breakdowns, and housing statistics for each county.\n\n## Why it matters to you  \nIf you're considering opening a business in York County, this data shows you that 90% of residents identify as White Alone, helping you assess cultural representation in your marketing. The 657 vacant housing units could indicate rental opportunities for property investors. Parents can see that 480 people live in institutional facilities (like nursing homes), which may inform elder care choices for aging relatives.\n\n## How to read this data  \n**NAME** — Official county name (e.g., \"York County\").  \n**Total_Population** — Resident count (e.g., 14,125 in York County).  \n**Hispanic_or_Latino** — Self-identified Hispanic/Latino residents (e.g., 839 people).  \n**Housing_Vacant** — Unoccupied homes (e.g., 657 units available for potential renters/buyers).  \n\n## Try it yourself  \nSearch this dataset for your county to see its racial demographics and compare housing vacancy rates with neighboring areas before making relocation decisions.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "county-boundaries-f8f32ae0",
+      "body": "## What this tracks  \nThis dataset maps the official boundaries of all 93 counties in Nebraska.\n\n## Why it matters to you  \nKnowing exact county lines helps when determining which county office handles your property taxes, voting precinct, or emergency services. If you're opening a business in Nebraska, this data confirms which county's zoning laws and business licenses apply to your location. Residents relocating near county borders can verify school districts and trash collection services.\n\n## How to read this data  \n**Cnty_Name** — The official county name (e.g., \"Adams\").  \n**Cnty_No** — Nebraska's numeric county code (e.g., 1 for Adams County).  \n**CountyFIPS** — The federal FIPS code used in national datasets (e.g., \"001\" for Adams County).\n\n## Try it yourself  \nCheck which Nebraska county contains your address using the [state's interactive county map](https://dot.nebraska.gov/maps/county/).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "dams-06028e03",
+      "body": "## What this tracks  \nThis dataset records all dams in Nebraska that meet specific size criteria (25+ feet tall or 50+ acre-feet capacity), including their locations, purposes, hazard ratings, and maintenance status.\n\n## Why it matters to you  \nIf you're buying property downstream from a dam, this data tells you whether the structure is classified as a \"Significant\" hazard (meaning failure could cause loss of life) or has flood control purposes that might affect your land. Farmers can check **NormalStorage** values to assess water availability for irrigation. Anglers and outdoor enthusiasts can use **Stream** and **NormalSurfaceArea** fields to find potential fishing spots near dams like RUTHER DAM in Cheyenne County.\n\n## How to read this data  \n**Hazard** — Rates potential danger if the dam fails (sample: \"Significant\").  \n**Purpose** — Main function like \"Flood Control\" or \"Storm Water Mgmt\" (sample: \"C - Flood Control, Storm Water Mgmt\").  \n**LastInspectionDate** — When officials last checked the dam's condition (sample: 1679504400000 = March 23, 2023).  \n**Downstream_Town** — Nearest community below the dam (sample: \"SIDNEY\" is 1 mile downstream).  \n\n## Try it yourself  \nSearch the dataset by your county name to see if any dams upstream from your property have \"Flood Control\" purposes or \"Significant\" hazard ratings that could affect your flood insurance needs.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "deer-management-units-3e2bb321",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's Deer Management Units, which are zones regulating hunting seasons and permit requirements.\n\n## Why it matters to you  \nIf you're planning to hunt deer in Nebraska, this tells you exactly which unit your preferred hunting area falls under—critical for buying the correct permit. Knowing your unit's boundaries helps avoid accidental trespassing or illegal harvests. The linked hunting regulations show season dates and bag limits specific to each unit.\n\n## How to read this data  \n**UnitName** — The designated hunting area (e.g., \"Blue Northwest\").  \n**Hunting_Li** — Direct URL to official regulations (e.g., `https://outdoornebraska.gov/guides/`).  \n**Shape_Area** — Relative size of the unit in square degrees (e.g., 0.78), useful for comparing zone coverage.  \n\n## Try it yourself  \nCheck which Deer Management Unit contains your hunting spot by cross-referencing the map at [outdoornebraska.gov/guides](https://outdoornebraska.gov/guides/) with landmarks or county lines.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "depthtogroundwater-unl-3aedcdd4",
+      "body": "## What this tracks  \nThis dataset shows how deep you need to dig to reach groundwater at locations across Nebraska.\n\n## Why it matters to you  \nKnowing groundwater depth helps Nebraska farmers decide where to drill irrigation wells and what crops to plant — shallow-rooted crops may struggle where water is deep. Homeowners planning to install a well can estimate drilling costs, since deeper wells require more materials and labor. Ranchers can use this to identify areas where livestock ponds might naturally fill.\n\n## How to read this data  \n**DEPTH** — The vertical distance to reach water, shown as ranges like \"0-50 ft.\" (shallow) or \"100-150 ft.\" (deep). Lower numbers mean water is closer to the surface.  \n\n## Try it yourself  \nCheck the groundwater depth for your property by finding your location on Nebraska's interactive groundwater map at [insert link to UNL's public viewer if available].",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "dhhs-adult-day-services-3c91a3ff",
+      "body": "## What this tracks  \nThis dataset lists all licensed adult day service facilities in Nebraska, including their locations and contact information.\n\n## Why it matters to you  \nIf you're caring for an aging parent or a family member with disabilities in Nebraska, this data helps you find nearby professional daytime care options. Knowing which facilities exist in your county could save hours of web searches when you need respite care or specialized support. The verified license numbers also let you confirm a facility's legitimacy before visiting.\n\n## How to read this data  \n**LEGALNAME** — The official name of the facility, like \"MidPointe\".  \n**ADDRESS** + **FAC_CITY** — Physical location details, such as \"101 N 30TH ST\" in \"LINCOLN\".  \n**TELEPHONE** — Direct contact number formatted as 10 digits (e.g., 4024758717).  \n\n## Try it yourself  \nSearch for facilities in your Nebraska county by filtering the CNTYNAME field (e.g., \"LANCASTER\") to see options near you.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "dhhs-child-placing-agencies-5b2c4336",
+      "body": "## What this tracks  \nThis dataset lists all Nebraska Department of Health and Human Services (DHHS) licensed Child Placing Agencies (CPAs) that arrange foster care or adoptive placements.\n\n## Why it matters to you  \nIf you're considering fostering or adopting a child in Nebraska, this data helps you verify licensed agencies near you. Parents can check an agency's official standing before committing to services, and prospective foster families can confirm which organizations are authorized to work with DHHS. Knowing an agency's license status and location helps families make informed decisions about who will guide them through foster care or adoption processes.\n\n## How to read this data  \n**Full_Name** — The official name of the licensed agency (e.g., \"Father Flanagan's Boys' Home\").  \n**Address** / **City** / **County** — Physical location details (e.g., \"213 MAHER DR\", \"Boys Town\", \"Douglas County\").  \n**License_Number** — The state's unique identifier for the agency (e.g., \"CPA008\").  \n**Issue_Date** — When the agency's current license took effect (shown as a timestamp; convert to readable date).  \n\n## Try it yourself  \nSearch the dataset for agencies in your county by filtering the \"County\" field to compare options near you.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "dhhs-health-care-coalitions-737ce869",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's regional Health Care Coalitions (HCCs) that coordinate emergency medical responses across county lines.\n\n## Why it matters to you  \nWhen a blizzard hits or a hospital reaches capacity, your local HCC determines whether ambulances can reroute to neighboring counties or if emergency medical supplies will reach your area. Knowing your HCC region (like the Omaha Metropolitan Healthcare Coalition) tells you which hospitals, health departments, and EMS teams collaborate during crises. If you're considering relocating within Nebraska, this reveals how medical emergencies would be handled in different regions.\n\n## How to read this data  \n**NAME** — The full coalition name (e.g., \"Omaha Metropolitan Healthcare Coalition\") showing which counties work together for health emergencies.  \n**ShortName** — An abbreviation like \"OMHCC\" used in official communications and emergency plans.  \n**HCCID** — A unique code (e.g., \"310089\") for referencing the coalition in state records and grant applications.\n\n## Try it yourself  \nCheck which Health Care Coalition covers your Nebraska county by matching its location to the regional map at [Nebraska DHHS emergency preparedness portal](https://dhhs.ne.gov/Pages/Emergency-Preparedness.aspx).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "dhhs-hospitals-13adf6fc",
+      "body": "## What this tracks  \nThis dataset lists all hospitals licensed by Nebraska's Department of Health and Human Services, including their locations and capacities.\n\n## Why it matters to you  \nWhen choosing emergency care for your family, this data shows which hospitals are nearest to your home or workplace in Nebraska. For small healthcare businesses, it reveals where existing facilities are concentrated (like seeing that O'Neill has a 25-bed hospital) when planning new services or partnerships.\n\n## How to read this data  \n**LEGALNAME** — The hospital's official name, like \"Avera St. Anthony's Hospital\".  \n**MDSDBA_FACILITY_ADDRESS** — Physical location (e.g., \"300 N 2ND ST\") where patients visit.  \n**BEDLICTOT** — Total licensed beds, indicating facility size (sample shows \"25.0\" for a rural hospital).  \n**FAC_CITY** — The city where the hospital operates (e.g., \"O'NEILL\"), helping locate nearby care.\n\n## Try it yourself  \nSearch this dataset for hospitals within 20 miles of your ZIP code to identify your nearest emergency care options.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "dhhs-local-health-departments-bad9d1de",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's Local Health Departments (LHDs) with their service boundaries, population demographics, and housing data from the 2020 Census.  \n\n## Why it matters to you  \nIf you're opening a daycare or senior care facility in Nebraska, this data shows which health department oversees inspections in your area—like the Loup Basin Public Health Department. Residents can use it to find vaccination clinics or disaster response resources tailored to their community’s size and demographics, such as areas with higher elderly populations (shown in **SUM_Total_Population_18YrsAndOver**).  \n\n## How to read this data  \n**LHD_NAME** — The official name of the health department, like \"Loup Basin Public Health Department.\"  \n**SUM_Hispanic_or_Latino** — Counts Hispanic/Latino residents in the area (e.g., 857 in Loup Basin).  \n**SUM_NursingFacilities_SkilledNursingFacilities** — Tracks elderly care beds (e.g., 370 in Loup Basin), useful for family planning.  \n**ORG_URL** — Direct link to the health department’s website (e.g., https://www.lbphd.ne.gov/).  \n\n## Try it yourself  \nVisit your LHD’s website (find it via **ORG_URL**) to check flu shot clinics or restaurant inspection reports for your county.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "dhhs-respite-care-services-f8121dee",
+      "body": "## What this tracks  \nThis dataset lists Nebraska's licensed respite care facilities that provide temporary relief for caregivers of children or adults with special needs.\n\n## Why it matters to you  \nIf you're caring for a family member with disabilities in Nebraska, this data helps you find nearby respite services to get a break while ensuring quality care. Knowing which facilities are licensed by DHHS means you can verify their legitimacy before contacting them. For example, a parent in Omaha could use this to compare locations and client capacities when planning weekend care for their child.\n\n## How to read this data  \n**LEGALNAME** — The official name of the facility (e.g., \"Children's Respite Care Center\").  \n**MDSDBA_FACILITY_ADDRESS** — Physical location (e.g., \"2010 N 88TH STREET\" in Omaha).  \n**BEDLICTOT** — Maximum clients served (e.g., \"16.0\" indicates capacity for 16 individuals).  \n**TELEPHONE** — Direct contact number (e.g., \"4024961000\" shown with no formatting).  \n\n## Try it yourself  \nSearch for facilities near your ZIP code using the [DHHS public portal](https://dhhs.ne.gov/Pages/default.aspx) to find respite options within driving distance.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "dhhs-rural-health-clinics-72bea33a",
+      "body": "## What this tracks  \nThis dataset lists all state-licensed Rural Health Clinics (RHCs) in Nebraska, including their locations and contact information.\n\n## Why it matters to you  \nIf you live in rural Nebraska, this data helps you find the nearest clinic that accepts Medicare/Medicaid patients when choosing healthcare providers. Small medical practices can use it to identify potential referral partners in underserved areas. The roster dates tell you whether a clinic is currently operational, preventing wasted trips to closed facilities.\n\n## How to read this data  \n**LEGALNAME** — Official clinic name, like \"ORCHARD MEDICAL CLINIC\".  \n**MDSDBA_FACILITY_ADDRESS** — Physical street address (e.g., \"103 WASHINGTON ST\").  \n**FAC_CITY/CNTYNAME** — Location details showing towns (e.g., \"ORCHARD\") and counties (e.g., \"ANTELOPE\").  \n**GIS_Status** — Confirms if the clinic is active (\"on current roster\") or inactive.  \n\n## Try it yourself  \nSearch for clinics within 30 miles of your ZIP code using the coordinates (X/Y fields) on Nebraska's public health maps.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "dwee-nitrate-hot-spot-3c9e3885",
+      "body": "## What this tracks  \nThis dataset identifies areas in Nebraska with statistically significant high or low nitrate concentrations in groundwater based on water quality tests from 2003-2019.\n\n## Why it matters to you  \nIf you rely on well water in Nebraska, this data tells you whether your area has historically had unsafe nitrate levels — critical for families making decisions about water filtration or testing. Farmers can use it to assess whether their land falls in a high-nitrate zone when planning crop rotations or fertilizer use. The 2023-2024 study found some areas with nitrate levels exceeding the EPA's 10 ppm safety limit.\n\n## How to read this data  \n**NitrateConcentrationPPM** — The nitrate level in parts per million (sample: 2.0 ppm). EPA considers above 10 ppm unsafe for drinking.  \n**HotOrCold** — Whether the area is a statistically significant hotspot (1), coldspot (-1), or neutral (0). A hotspot means consistently higher nitrate levels than surrounding areas.  \n**GiProbability** — The statistical confidence in the hotspot classification (sample: 0.128). Lower values indicate stronger evidence.  \n\n## Try it yourself  \nCheck Nebraska's Groundwater Quality Viewer to see if your well falls in a nitrate hotspot using the 2003-2019 data.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "educational-service-units-347a4e7a",
+      "body": "## What this tracks  \nThis dataset shows the locations and contact information for Nebraska's 17 Educational Service Units (ESUs), which support local school districts.  \n\n## Why it matters to you  \nIf you're a parent or educator in Nebraska, this data tells you which ESU serves your school district and how to contact them for resources like special education support, professional development, or technology services. Small businesses that provide educational supplies or services can use this to identify regional ESU offices for partnerships or outreach.  \n\n## How to read this data  \n**ESU** — The numbered unit (e.g., \"1\" for ESU 1).  \n**Headquarters** — The city where the ESU office is located (e.g., \"Wakefield\").  \n**Address** / **City** / **St** — The physical location (e.g., \"211 TENTH ST\", \"Wakefield\", \"NE\").  \n**Phone** — Direct contact number (e.g., \"(402)287-2061\").  \n\n## Try it yourself  \nLook up your nearest ESU office by checking the \"City\" field to find the closest headquarters location to you.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "elk-hunting-units-4b574fe1",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's designated elk hunting units, showing where specific hunting regulations apply.\n\n## Why it matters to you  \nIf you're planning an elk hunt in Nebraska, this data tells you exactly which unit you'll be hunting in—critical because permits, season dates, and harvest limits vary by unit. Knowing your unit helps you apply for the correct permit and avoid fines for hunting in restricted areas. The linked regulations show whether you can use rifles or bows in your chosen unit.\n\n## How to read this data  \n**UnitName** — Identifies the hunting unit (e.g., \"Unit 1\"), which determines your permit requirements.  \n**Hunting_Li** — Direct link to the official Nebraska hunting guide (e.g., \"https://outdoornebraska.gov/guides/\") with unit-specific rules.  \n\n## Try it yourself  \nVisit the Hunting_Li URL for your unit to check this year's elk season dates before applying for a permit.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "epru-health-care-coalitions-737ce869",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's regional Health Care Coalitions that coordinate emergency medical responses across counties.\n\n## Why it matters to you  \nWhen a disaster hits Nebraska — like a flood, tornado, or disease outbreak — your local Health Care Coalition determines which hospitals, clinics, and EMS teams work together to provide care. Knowing your coalition helps you understand emergency medical resources in your region. For example, if you're choosing between two nursing homes for a relative, checking which coalition they're in reveals their backup support system during crises.\n\n## How to read this data  \n**NAME** — The full coalition name, like \"Omaha Metropolitan Healthcare Coalition,\" showing which counties work together for emergencies.  \n**ShortName** — An abbreviation like \"OMHCC\" used in official communications about the coalition.  \n**HCCID** — A unique code (e.g., 310089) for technical tracking of the coalition region.  \n\n## Try it yourself  \nFind which Health Care Coalition covers your Nebraska county by searching [Nebraska's public health regions map](https://dhhs.ne.gov/Pages/Public-Health-Resources.aspx) and cross-referencing the coalition names in this dataset.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "esu-headquarters-347a4e7a",
+      "body": "## What this tracks  \nThis dataset records the locations and contact information for Nebraska's 17 Educational Service Unit (ESU) headquarters.\n\n## Why it matters to you  \nIf your child attends a Nebraska public school, your district partners with one of these ESUs for special education services, professional development, and shared resources. Knowing your ESU's headquarters helps you find training workshops for parents, inquire about special needs programs, or locate regional education resources. Small businesses that provide school supplies or tech services can also use this to identify regional education offices for contract opportunities.\n\n## How to read this data  \n**ESU** — The numbered unit (1-17), like \"1\" for ESU 1 covering northeast Nebraska.  \n**Headquarters** — The city where the main office is located, such as \"Wakefield.\"  \n**Address** — Physical location like \"211 TENTH ST\" where you could visit in person.  \n**Phone** — Direct contact number formatted as \"(402)287-2061\" for immediate inquiries.\n\n## Try it yourself  \nCall your local ESU office using the phone number in this dataset to ask about upcoming parent workshops or special education resources in your school district.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "exchange-boundaries-49a8a05f",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's telecommunications service areas, showing which companies provide landline phone service where.\n\n## Why it matters to you  \nWhen your business needs reliable phone service or you're comparing home internet options, this data tells you which provider serves your exact location. In Nebraska, some rural areas only have one landline provider (like United Telephone Company of the West in the Bayard exchange), which affects pricing and service options. Knowing your exchange helps when filing service complaints with the Public Service Commission.\n\n## How to read this data  \n**CO_NAME** — The telecom company serving the area (e.g., \"United Telephone Company of the West\").  \n**EXCHANGE** — The name of the service area (e.g., \"Bayard\").  \n**DBA_AKA** — The brand name customers know (e.g., \"CenturyLink\").  \n**FROZEN** — Whether the boundary can change (\"N\" means it's still adjustable).  \n\n## Try it yourself  \nCheck which telecom provider serves your Nebraska address by matching your location to the exchange boundaries map. This helps when shopping for bundled services or reporting outages.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "federal-lands-paa-af252fbc",
+      "body": "## What this tracks  \nThis dataset maps federal lands in Nebraska, including wildlife areas managed by agencies like the U.S. Fish and Wildlife Service.\n\n## Why it matters to you  \nIf you hunt or hike, this data tells you where public lands are located near you and what rules apply—like whether you can use lead shot or target-shoot. For example, knowing that Theesen WPA in Clay County allows hunting but prohibits rifles helps you plan a compliant trip. Farmers can also check if nearby federal lands might affect drainage or land use.\n\n## How to read this data  \n**AreaName** — The name of the federal land parcel (e.g., \"Theesen WPA\").  \n**OwnerAgency** — Which government agency manages the land (e.g., \"U.S. Fish and Wildlife Service\").  \n**SpeciesLikelyPresent** — Wildlife you might encounter (e.g., \"Dove, Pheasant, Waterfowl\").  \n**NontoxicShotOnly** — Whether lead ammunition is banned (e.g., \"Yes\").  \n\n## Try it yourself  \nSearch for federal lands near your town using the **County** or **LocationInfo** fields (e.g., \"Clay County; ½N of Glenvil\") to find hunting or recreation spots. Call the **DistrictManagerPhone** listed for specific questions.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "fire-district-response-areas-5863dc4b",
+      "body": "## What this tracks  \nThis dataset maps which fire department serves each area of Nebraska in emergency situations.\n\n## Why it matters to you  \nKnowing your fire response area helps you verify if your home or business falls under the coverage you expect. If you're considering a property purchase in Nebraska, this data confirms whether the local fire department meets your safety standards. Renters can also check if their apartment's emergency response matches their landlord's claims.\n\n## How to read this data  \n**DsplayName** — The identifier for your fire district (e.g., \"T504\" in Douglas County).  \n**ServiceURI** — Contact number for the responding agency (e.g., \"tel:1123456789\").  \n**Agency_ID** — The official code for your local fire service provider (e.g., \"gisdougco_ne_us\").  \n\n## Try it yourself  \nLook up your Nebraska address on the state's GIS portal to see which fire district would respond to emergencies at your location.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "good-life-districts-98f38b7f",
+      "body": "## What this tracks  \nThis dataset tracks Nebraska's designated Good Life Districts (GLDs), special zones where sales tax rates may differ to support economic development.\n\n## Why it matters to you  \nIf you're opening a retail shop or restaurant in Nebraska, buying in a GLD could mean charging customers a different sales tax rate than neighboring blocks. For residents, this affects where you'll pay more or less sales tax on everyday purchases — a $1,000 appliance could cost $50 less just by crossing into a GLD.\n\n## How to read this data  \n**NAME** — The official district name, like \"GLD Avenue One\".  \n**DateEffective** — When the district's tax rules start applying (sample value converts to April 1, 2024).  \n**Established** — Confirms if the district is active (sample value: \"yes\").  \n\n## Try it yourself  \nCheck if your business address or favorite shopping area falls within a GLD by searching the district names at Nebraska's economic development portal.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "groundwater-wells-dwee-a50ccf26",
+      "body": "## What this tracks  \nThis dataset records permitted groundwater wells in Nebraska, including their locations, uses, and technical specifications.\n\n## Why it matters to you  \nIf you're a Nebraska farmer considering drilling a new irrigation well, this data shows existing wells in your area and their permitted pumping rates — critical for understanding local water availability. Landowners can check whether neighboring wells might affect their property's water table. Small towns can identify industrial water users that might impact municipal supplies during droughts.\n\n## How to read this data  \n**WellUseDescription** — The well's primary purpose, like \"Irrigation\" or \"Industrial\".  \n**PumpRate** — Maximum allowed water withdrawal in gallons per minute (sample: 1250 GPM).  \n**StaticWaterLevel** — Depth to water when not pumping (sample: 91 feet below surface).  \n**CountyName** — Where the well is located (sample: Fillmore County).  \n\n## Try it yourself  \nSearch the dataset by your county name to see all permitted wells near your property and their water usage rates.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "highplainsaquifer-usgs-919a98a5",
+      "body": "## What this tracks  \nThis dataset maps the boundaries of the High Plains aquifer, a critical groundwater source beneath parts of eight U.S. states including Nebraska.\n\n## Why it matters to you  \nIf you rely on well water for your home, farm, or business in Nebraska, this data shows whether you're drawing from the High Plains aquifer—a resource that’s declining in some areas due to overuse. Knowing your location relative to the aquifer boundary helps you anticipate potential water restrictions, plan for well depth adjustments, or advocate for local conservation measures before shortages affect your property.\n\n## How to read this data  \n**AQUIFER** — Confirms the mapped area is part of the \"High Plains aquifer\" system (the only value in this dataset).  \n**Shape__Area** and **Shape__Length** — Technical measurements of the aquifer's geographic footprint (values not provided in samples).\n\n## Try it yourself  \nZoom to your Nebraska property on the [USGS Groundwater Atlas](https://www.usgs.gov/mission-areas/water-resources/science/aquifers-and-groundwater) to see if it overlaps with this aquifer boundary.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "highway-mile-markers-e52cde2e",
+      "body": "## What this tracks  \nThis dataset records the locations of reference posts along Nebraska's state highways, showing mile markers and their corresponding route identifiers.\n\n## Why it matters to you  \nWhen reporting a highway issue like debris, potholes, or an accident to Nebraska DOT, knowing the exact mile marker helps emergency crews locate you faster. Truckers and travelers can also use these markers to track their progress or estimate distances between exits — critical when planning fuel stops or rest breaks on long stretches like I-80.\n\n## How to read this data  \n**RouteID** — The highway number (e.g., \"002\" for US-2).  \n**RefPost** — The physical mile marker number (e.g., \"506.0\" for the 506-mile point).  \n**LogMile** — The precise engineering measurement of location (e.g., \"505.57\" means 505.57 miles from the route's start point).\n\n## Try it yourself  \nNext time you're on a Nebraska highway, note the nearest mile marker and compare it to this dataset to see how far you are from your exit or destination.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "huc-10-99a3b82e",
+      "body": "## What this tracks  \nThis dataset identifies Nebraska's hydrologic units (watersheds) using 10-digit codes that classify water drainage areas.\n\n## Why it matters to you  \nIf you're buying property near Rifle Creek or the Middle Loup River, this data shows whether your land falls within a designated watershed. Farmers can check if their fields share a HUC10 code with nearby water sources, which matters for irrigation planning and conservation programs. Developers in Nebraska must consult these boundaries when assessing flood risks or stormwater management requirements.\n\n## How to read this data  \n**HUC10** — A 10-digit code like \"1021000303\" representing nested watershed boundaries, where the first digits show larger regional basins.  \n**NAME** — The local water feature name (e.g., \"Rifle Creek-Middle Loup River\").  \n**AREAACRES** — The watershed size in acres (e.g., 172,493 acres for the sample entry).  \n\n## Try it yourself  \nSearch your Nebraska address on the USGS Watershed Map (https://water.usgs.gov/wsc/map_index.html) to find your HUC10 code and compare it with neighboring watersheds.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "huc-12-feabc321",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's watershed boundaries using 12-digit Hydrologic Unit Codes (HUC12), which identify small drainage areas like creeks or lakes.\n\n## Why it matters to you  \nIf you're buying property near Duck Lake, checking its HUC12 tells you whether stormwater from your land flows into that watershed—critical for flood risk or septic system planning. Farmers can verify if their fields share a watershed with protected wetlands before applying fertilizers. Developers in Lincoln use this to comply with runoff regulations for new construction.\n\n## How to read this data  \n**HUC12** — A 12-digit code like \"101800140603\" pinpointing a specific watershed. The first digits show larger river basins, while later digits narrow to local streams.  \n**NAME** — The watershed's common identifier (e.g., \"Duck Lake\").  \n**HUTYPE** — Single-letter classification (sample \"C\" = closed basin with no outlet).  \n**AREAACRES** — Watershed size in acres (sample \"12744.41\" ≈ 20 square miles).  \n\n## Try it yourself  \nSearch your address on Nebraska's [Watershed Mapping Tool](https://dnr.nebraska.gov/watersheds) to see which HUC12 basin you live in and its downstream connections.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "huc-8-0c225f8a",
+      "body": "## What this tracks  \nThis dataset maps the boundaries of Nebraska's watersheds using 8-digit Hydrologic Unit Codes (HUC8), which divide land areas based on water flow patterns.\n\n## Why it matters to you  \nKnowing your HUC8 boundary helps you understand local water risks and regulations. If you're a farmer in Nebraska, this tells you which watershed your land falls into—critical for irrigation planning or applying for conservation programs. Homeowners can identify flood risks by seeing if their property sits near a watershed boundary where water converges during heavy rains.\n\n## How to read this data  \n**HUC8** — A unique code for each watershed (e.g., \"10250001\" for the Arikaree region).  \n**NAME** — The watershed's common name (e.g., \"Arikaree\" covers parts of CO, KS, and NE).  \n**AREAACRES** — The watershed's size in acres (e.g., 1,182,065 acres for Arikaree).  \n\n## Try it yourself  \nCheck which watershed your Nebraska property is in using the [USGS Watershed Map](https://water.usgs.gov/wsc/map_index.html) by entering your address.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "joineddata-lakes-d047631d",
+      "body": "## What this tracks  \nThis dataset records fishing locations across Nebraska, including details about each site's amenities and available fish species.\n\n## Why it matters to you  \nAnglers in Nebraska can use this data to plan weekend fishing trips by finding nearby lakes with their preferred fish species. Families can identify locations with playgrounds and restrooms before loading up the car. The \"Attributes\" field tells you whether a spot has picnic areas or accessible piers—key details when planning an outing with children or mobility-limited family members.\n\n## How to read this data  \n**Name** — Official name of the fishing location, like \"Sidney Legion Park Pond\".  \n**Species** — Fish available at the site, such as \"Bluegill, Channel Catfish, Largemouth Bass, Rainbow Trout\".  \n**Attributes** — Amenities listed as phrases like \"Family Friendly Location\".  \n**Comments** — Additional notes like \"Fishing pier, playground, and restroom available\".\n\n## Try it yourself  \nSearch for lakes containing \"Rainbow Trout\" in the Species field to find winter fishing spots near your Nebraska town.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "joineddata-streams-cdfa5e07",
+      "body": "## What this tracks  \nThis dataset records fishing locations, regulations, and species availability across Nebraska's public lands and waterways.\n\n## Why it matters to you  \nIf you're planning a fishing trip in Nebraska, this data tells you exactly where to find trout streams, what species are present, and the specific daily catch limits before you drive out. A small business owner running a bait shop near Fort Robinson could use the StreamComments field to advise customers about nearby camping amenities that might increase foot traffic.\n\n## How to read this data  \n**StreamName** — Specific waterway name like \"Soldier Creek\" where fishing is permitted.  \n**Species** — Fish types available (e.g., \"Brook Trout, Brown Trout\") at each location.  \n**Regs** — Catch limits and rules like \"Daily bag limit of 2 trout on the Wilderness Area\".  \n**StreamComments** — Extra details such as \"Camping available at Fort Robinson State Park\".  \n\n## Try it yourself  \nCheck the Species field for your nearest fishing spot in Sioux County to see if it stocks tiger trout (a brown/brook trout hybrid) before buying specialized bait.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "lake-contours-0f0e603f",
+      "body": "## What this tracks  \nThis dataset records depth and elevation measurements for lakes and reservoirs across Nebraska.\n\n## Why it matters to you  \nIf you're planning a fishing trip or considering lakeside property, this data tells you whether Blue Lake is deep enough for bass fishing (20 feet) or if it's more suited for shallow-water activities. For waterfront homeowners, the elevation measurements (like 3764.8 feet) help understand flood risks during heavy rains. Nebraska residents can use this to compare lake conditions before driving hours to recreational sites.\n\n## How to read this data  \n**Name** — Official lake name, like \"Blue Lake\" in the sample.  \n**Depth** — Maximum depth in feet (sample shows 20 feet).  \n**Elevation** — Height above sea level in feet, important for flood planning (sample shows 3764.8).  \n\n## Try it yourself  \nCheck the depth of your favorite Nebraska fishing spot by searching the dataset for its name — look for lakes with 15+ feet depth if you're targeting walleye or bass.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "lakes-303-d-193fe97f",
+      "body": "## What this tracks  \nThis dataset identifies Nebraska lakes with water quality impairments under the Clean Water Act’s Section 303(d), listing pollutants and restoration plans.\n\n## Why it matters to you  \nIf you’re planning a family fishing trip at Donald Whitney Memorial Lake, this data warns you it’s impaired for aquatic life due to low oxygen. Farmers relying on the Big Blue Basin’s BB1 subbasin for irrigation can check if \"Agriculture_Water_Supply\" is marked \"S\" (supporting) or impaired. The \"Recreation\" field’s \"I\" (impaired) rating with E. coli alerts swimmers to potential health risks.\n\n## How to read this data  \n**Waterbody_Name** — Official lake names like \"Donald Whitney Memorial Lake\".  \n**Overall_Assessment** — \"I\" means impaired; blank or \"S\" means supporting designated uses.  \n**Impairments_Causes** — Specific issues like \"Recreation (E. coli)\" or \"Aquatic Life - Dissolved Oxygen (Total Nitrogen, Total Phosphorus)\".  \n**Comments_Actions** — Tracks fixes, like \"Lake Renovated 2011\" or approved cleanup plans (\"Phosphorus and Sediment TMDL approved 09/09\").\n\n## Try it yourself  \nSearch your local lake by name in Nebraska’s 303(d) database to see if it’s safe for swimming or fishing this summer.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "lakestitle117-d0de835a",
+      "body": "## What this tracks  \nThis dataset records Nebraska's lakes and their characteristics, including size, water quality classifications, and permitted uses.\n\n## Why it matters to you  \nIf you're planning a fishing trip in Nebraska, this data tells you whether a lake allows public access and what types of fish habitats it supports. Farmers can check which lakes are approved for agricultural water use. The water quality classifications help homeowners evaluate recreational safety near different water bodies.\n\n## How to read this data  \n**Name** — Official lake name with location details, like \"Donald Whitney Memorial Lake (WMA) (Sec 16-1N-5E, Gage County)\"  \n**Recreation** — Permitted activities (PCR in sample = Primary Contact Recreation like swimming)  \n**Area_acres** — Lake surface area (13.03 acres in sample)  \n**Nutrient_Class** — Water quality rating (E in sample = Eutrophic, meaning higher nutrient levels)  \n\n## Try it yourself  \nSearch for lakes in your county by filtering the \"Name\" field for your area (e.g., \"Gage County\" in the sample) to find nearby recreational water bodies.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "legislative-districts-2021-a0b2463d",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's 49 legislative districts, showing their boundaries and current state senators.\n\n## Why it matters to you  \nKnowing your district helps you contact your state senator about local issues like school funding or road repairs. For example, if Gering residents want to voice concerns about a proposed state law, this data tells them Senator Brian Hardin represents them and provides his direct capitol phone number. Small business owners can use this to track which senator advocates for economic development in their area.\n\n## How to read this data  \n**DISTRICT** — The district number (e.g., \"48\") that identifies your geographic representation area.  \n**Senator** — Your elected state legislator's name (e.g., \"Hardin, Brian\").  \n**CapitolPhone** — The direct office line to reach your senator (e.g., \"(402) 471-2802\").  \n**City** — Major municipalities within the district (e.g., \"Gering\").\n\n## Try it yourself  \nLook up your address on Nebraska's [legislative district finder](https://nebraskalegislature.gov/districts/) to see which senator represents you and save their contact information for future reference.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "local-health-departments-bad9d1de",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's Local Health Departments (LHDs) with their service boundaries and 2020 Census demographics for each area.\n\n## Why it matters to you  \nIf you're choosing where to open a healthcare business in Nebraska, this data shows which LHD serves your target area and the population’s age, race, and housing characteristics. Residents can check their LHD’s coverage for services like vaccinations or food inspections. The Loup Basin Public Health Department, for example, serves 29,851 people across mostly rural communities.\n\n## How to read this data  \n**LHD_NAME** — The official name of the health department (e.g., \"Loup Basin Public Health Department\").  \n**SUM_Total_Population** — Total residents served (e.g., 29,851).  \n**SUM_Hispanic_or_Latino** — Count of Hispanic/Latino residents (e.g., 857 in Loup Basin).  \n**ORG_URL** — Link to the health department’s website (e.g., https://www.lbphd.ne.gov/).  \n\n## Try it yourself  \nVisit your LHD’s website (find it via **ORG_URL**) to check local health alerts or clinic hours.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "major-lakes-72138447",
+      "body": "## What this tracks  \nThis dataset identifies Nebraska lakes that are 10 acres or larger, sourced from the National Hydrography Dataset.  \n\n## Why it matters to you  \nIf you're planning a fishing trip, looking for waterfront property, or considering a lakeside business in Nebraska, this data shows which bodies of water are officially recognized as major lakes. Knowing a lake's size (like whether it's 10 acres or 500 acres) helps you gauge recreational potential or development opportunities. The dataset also helps verify if a waterbody you’re interested in is state-tracked, which matters for permitting or conservation efforts.  \n\n## How to read this data  \n**GNIS_Name** — Official lake name from the Geographic Names Information System (e.g., blank in samples, but populated entries might show \"Lake McConaughy\").  \n**AreaSqKm** — Lake size in square kilometers (e.g., 0.133 in samples, roughly 33 acres).  \n**Elevation** — Height above sea level in meters (e.g., 0.0 in samples, suggesting plains or low-lying areas).  \n\n## Try it yourself  \nSearch the dataset for lakes near your Nebraska town to compare sizes—helpful if you’re scouting fishing spots or evaluating flood risks near larger water bodies.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "major-streams-b6c799c1",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's named perennial streams and rivers from the National Hydrography Dataset.\n\n## Why it matters to you  \nKnowing where major streams are located helps you assess flood risks when buying property or planning construction near waterways. If you're a farmer or landowner, this data shows which named watercourses border or cross your land. Anglers and outdoor enthusiasts can identify fishing spots like Deer Creek (a sample stream in the data) by their official names and locations.\n\n## How to read this data  \n**GNIS_Name** — Official geographic name of the waterway (e.g., \"Deer Creek\").  \n**LengthKM** — The stream's length in kilometers (e.g., 0.294 km for the sample).  \n**FCode** — Classification code indicating stream type (46003 = perennial stream).  \n**State** — Confirms the waterway is in Nebraska (\"NE\").  \n\n## Try it yourself  \nSearch for your nearest stream by name using the GNIS_Name field at [Nebraska's DNR mapping portal](https://dnr.nebraska.gov/) to check its proximity to your property.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "mt-lion-hunting-units-93a27159",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's mountain lion hunting units where regulated hunting is permitted.\n\n## Why it matters to you  \nIf you're a hunter or outdoor enthusiast, this data shows exactly where mountain lion hunting is legally allowed in Nebraska. Knowing the boundaries of units like Pine Ridge helps you avoid trespassing or hunting in prohibited areas. Landowners near these units can also check if their property falls within a hunting zone, which may affect livestock management decisions.\n\n## How to read this data  \n**UnitName** — The official hunting area designation, like \"Pine Ridge Unit.\"  \n**Hunting_Li** — A direct link to Nebraska Game and Parks Commission's hunting guide for regulations (e.g., `https://outdoornebraska.gov/guides/`).  \n\n## Try it yourself  \nVisit the [NGPC Permits webpage](https://outdoornebraska.gov/guides/) to check if your preferred hunting location falls within a designated unit before applying for a permit.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "municipal-boundaries-cb6ed038",
+      "body": "## What this tracks  \nThis dataset maps the official boundaries of every city, town, and village in Nebraska.\n\n## Why it matters to you  \nIf you're opening a business in Nebraska, these boundaries tell you which municipality's zoning laws and business taxes apply to your location. Homeowners can check whether a property falls within a specific town's school district or emergency services coverage. For example, a coffee shop owner in Omaha would verify they're inside city limits to follow local signage rules.\n\n## How to read this data  \n**NAME** — The municipality's common name (e.g., \"Danbury\").  \n**NAMELSAD** — The full legal name with community type (e.g., \"Danbury village\").  \n**ALAND** — Total land area in square meters (e.g., 838,941m² for Danbury).  \n**INTPTLAT/INTPTLON** — Geographic center coordinates (e.g., +40.0377063, -100.4051085).  \n\n## Try it yourself  \nSearch for your town's name in the dataset to see its exact boundaries and compare land area with neighboring communities.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "named-streams-2a79028b",
+      "body": "## What this tracks  \nThis dataset records the names and locations of minor streams and ditches across Nebraska, as identified by the state's Department of Natural Resources.\n\n## Why it matters to you  \nIf you own farmland or property near a waterway, this data tells you whether your land borders a named stream or ditch — crucial for flood risk assessment, irrigation planning, or permit applications. Developers can check if a construction site intersects protected water features before purchasing land. Hikers and anglers can verify local stream names for navigation or fishing regulations.\n\n## How to read this data  \n**GNIS_Name** — Official name of the waterway (e.g., \"Central Cutoff Ditch\").  \n**LengthKM** — The stream's length in kilometers (e.g., 0.639 km).  \n**GNIS_ID** — Unique identifier from the Geographic Names Information System (e.g., 00828053).  \n**FlowDir** — Indicates flow direction (1.0 typically means downstream).  \n\n## Try it yourself  \nSearch the dataset for your nearest named stream to see if it passes through your property or neighborhood — important for understanding drainage patterns during heavy rains.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nebraska-game-refuge-boundary-bd191044",
+      "body": "## What this tracks  \nThis dataset maps the official boundaries of Nebraska's state game refuges, including areas like the North Platte refuge.\n\n## Why it matters to you  \nIf you're hunting, fishing, or hiking near rivers in Nebraska, this data tells you exactly where state game refuge rules apply. Knowing these boundaries helps you avoid accidental trespassing or violating wildlife protection laws. Landowners adjacent to these areas can also verify if their property borders a protected zone.\n\n## How to read this data  \n**Name** — Identifies the specific game refuge (e.g., \"North Platte\").  \n**BoundaryType** — Confirms the area's protected status (e.g., \"RefugeBoundary\").  \n\n## Try it yourself  \nCheck if your favorite fishing spot along the Platte River falls within a game refuge boundary before your next trip.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nebraska-lakes-shapes-4db94817",
+      "body": "## What this tracks  \nThis dataset maps the shoreline boundaries of Nebraska lakes and reservoirs that have undergone bathymetric (depth) surveys.\n\n## Why it matters to you  \nIf you're planning a fishing trip in Nebraska, this data tells you which lakes have detailed depth maps available — crucial for finding prime fishing spots. Property owners near these lakes can check the **ShorelineL** field to understand their water frontage, while boaters can look for lakes with **VolumeTabl** data to gauge water volume changes seasonally.\n\n## How to read this data  \n**Name** — Official lake name (e.g., \"Blue Lake\").  \n**County** — Where the lake is located (e.g., \"Garden\").  \n**Acres** — Lake surface area (e.g., 323.4 acres).  \n**LakeMapPDF** — Link to downloadable depth map (e.g., \"Blue Lake Map.pdf\").  \n\n## Try it yourself  \nSearch for your county in the dataset to find nearby surveyed lakes, then download their PDF maps to plan your next fishing trip or waterfront activity.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nebraska-state-boundary-2399ad42",
+      "body": "## What this tracks  \nThis dataset contains the official geographic boundary of the state of Nebraska.\n\n## Why it matters to you  \nIf you're planning a road trip across Nebraska or need to verify whether a location falls within state lines for tax or regulatory purposes, this boundary data provides the definitive answer. Businesses shipping goods can use it to confirm when deliveries cross into or out of Nebraska, which affects tax calculations and shipping regulations. Residents disputing property boundaries near state borders may reference this data in legal matters.\n\n## How to read this data  \n**ID1** — A simple identifier for the boundary (always \"1\" since Nebraska only has one state boundary).  \n**Shape__Area** — The total square measurement of Nebraska's territory (value not provided in samples).  \n**Shape__Length** — The combined length of all boundary lines around Nebraska (value not provided in samples).  \n\n## Try it yourself  \nWhile this dataset doesn't support address-level lookups, you can overlay it with county or city boundary maps to see exactly where Nebraska ends and neighboring states begin. Many free online mapping tools allow this type of comparison.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nebraska-trauma-regions-edc99b7b",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's official trauma response regions used by emergency health services.\n\n## Why it matters to you  \nKnowing your trauma region helps you understand where emergency responders would transport you during a critical injury. If you're comparing hospitals in different parts of Nebraska—for example, when choosing where to establish a business with high injury risks—this shows which facilities serve your location. Parents can also check whether their child's school trip destinations fall within their home region's emergency coverage.\n\n## How to read this data  \n**NAME** — The designated trauma region (e.g., \"Region 3\"), which determines which hospitals and specialists are responsible for emergency care in that area.  \n\n## Try it yourself  \nCheck which trauma region covers your Nebraska county by matching your location to these regions—this determines where ambulances would take you in a life-threatening emergency.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nnlp-3rd-edition-buestateplane-4b4e13e4",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's most ecologically important landscapes and watersheds identified in the state's Natural Legacy Project conservation plan.  \n\n## Why it matters to you  \nIf you're buying rural property in the Sandhills, this data shows whether your land falls within a protected Biologically Unique Landscape — which affects development rights and conservation incentives. Farmers can check if their fields border priority watersheds to qualify for USDA conservation programs. Hunters and anglers can locate high-value habitats for game species like pheasants or trout.  \n\n## How to read this data  \n**ECOREGION** — The major ecological zone (e.g., \"Sandhills\"), indicating distinct wildlife habitats and conservation needs.  \n**Shape_Leng** — The boundary length of the protected area in feet (e.g., 1,787,574.6), helping gauge the scale of nearby conservation zones.  \n\n## Try it yourself  \nCheck if your county contains any Biologically Unique Landscapes by searching [Nebraska's Natural Legacy Project map](https://outdoornebraska.gov/nebraskanaturallegacy/) for your location.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "nnlp-3rd-edition-pws-huc-12-4b4e13e4",
+      "body": "## What this tracks  \nThis dataset identifies Nebraska's biologically unique ecoregions and priority watersheds for conservation efforts.\n\n## Why it matters to you  \nIf you're buying rural property in the Sandhills, this data shows whether your land falls within a protected priority watershed — which could affect well drilling permits or grazing rights. Farmers can check if their fields border conservation areas that might qualify for USDA stewardship programs. Hunters and anglers can locate ecologically rich areas likely to support game species.\n\n## How to read this data  \n**ECOREGION** — Names distinct ecological zones like \"Sandhills\" or \"Loess Hills,\" indicating landscapes with unique plants and wildlife.  \n**Shape_Leng** — Measures boundary length in feet (e.g., 1,787,574.6487), showing how extensive a conservation area is.  \n\n## Try it yourself  \nCheck if your hunting grounds or ranch land overlaps with a priority watershed by searching the Nebraska Natural Legacy Project map for your county.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "ogallala-group-csd-2421bd2f",
+      "body": "## What this tracks  \nThis dataset maps the Ogallala Group bedrock geology formations across Nebraska.\n\n## Why it matters to you  \nIf you're drilling a well or planning construction in Nebraska, this data tells you whether your property sits on Ogallala Group bedrock — porous rock that affects groundwater availability. Farmers can check if their land has this geology to understand potential irrigation limitations. Developers can identify areas where bedrock composition might require special foundation engineering.\n\n## How to read this data  \n**Form** — The geologic formation code (e.g., \"To\" for Ogallala Formation).  \n**Name** — The full formation name (e.g., \"Ogallala\").  \n\n## Try it yourself  \nCheck if your property is on Ogallala Group bedrock by locating your area on the interactive map at the Conservation and Survey Department's website.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "park-areas-ba20d669",
+      "body": "## What this tracks  \nThis dataset records Nebraska's state park areas, including their locations, sizes, recreational features, and management details.\n\n## Why it matters to you  \nPlanning a weekend camping trip? This data tells you whether Alexandria SRA allows hunting in specific zones (like its northern portion) before you pack your gear. If you're a fishing enthusiast in Jefferson County, you can verify which areas have active boating IDs to launch your boat. Small businesses near parks can use the acreage and visitor status to gauge potential customer traffic during peak seasons.\n\n## How to read this data  \n**AreaName** — The park's name, like \"Alexandria SRA\".  \n**Acres** — Size of the park in acres (e.g., 101 acres).  \n**Notes** — Specific rules or features, such as \"Hunting allowed only in northern portion.\"  \n**AreaType** — Classification like \"SRA\" (State Recreation Area) or other designations.  \n\n## Try it yourself  \nCheck if your nearest park (by county) has hunting or boating access by searching the dataset for your county name in the **County** field.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "predictivenitratemodelndee-de8bc4eb",
+      "body": "## What this tracks  \nThis dataset predicts the probability that nitrate levels in private wells across Nebraska exceed safe drinking water thresholds (3 mg/L, 5 mg/L, and 10 mg/L).\n\n## Why it matters to you  \nIf you rely on a private well in Nebraska, this data helps you decide whether to test your water for nitrates—a common contaminant linked to health risks. A high prediction probability (like 0.71 for the 3 mg/L threshold) suggests your well water may need treatment. Farmers can also use this to assess runoff risks before expanding fertilizer use near vulnerable areas.\n\n## How to read this data  \n**GBM_BKD_Prediction** — Probability (0–1) that nitrate exceeds 3 mg/L (background level). Sample: 0.71 means a 71% chance.  \n**GBM_ELE_Prediction** — Probability for 5 mg/L (elevated level). Sample: 0.33 means a 33% chance.  \n**GBM_MCL_Prediction_Binary** — Binary flag (0 or 1) for 10 mg/L (federal safety limit). Sample: 1 means likely unsafe.  \n\n## Try it yourself  \nCheck your Nebraska address in the [NDEE’s groundwater quality map](https://deq-iis.ne.gov/zs/) to see predicted nitrate risks for nearby wells.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "program-book-points-2acb3fc1",
+      "body": "## What this tracks  \nThis dataset records planned transportation improvement projects across Nebraska, including road and bridge maintenance, safety upgrades, and intersection improvements.\n\n## Why it matters to you  \nThis data shows when major road work will happen near your home or business. If you're planning to open a store in Knox County, seeing that Highway 012 will have intersection upgrades in 2028-2032 helps you anticipate construction delays. Trucking companies can check planned bridge repairs along their routes before bidding on contracts. Homebuyers can avoid purchasing near roads scheduled for multi-year construction.\n\n## How to read this data  \n**Hwy** — The highway number where work will occur (e.g., \"012\" for Highway 12).  \n**ProjectName** — Specific location and type of project (e.g., \"District 2, 3, 5, 6, & 8 Beacons\" for safety lighting installations).  \n**TypeImprovement** — The kind of work planned (e.g., \"Intersection\" for traffic light or lane changes).  \n**ProgramYear** — When work is scheduled (e.g., \"2028-2032\" means planning for those fiscal years).  \n\n## Try it yourself  \nCheck the Program Book Application map for projects along your commute route by searching your county name (like \"Knox\") and highway number.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "program-book-segments-2acb3fc1",
+      "body": "## What this tracks  \nThis dataset records planned highway and bridge improvement projects across Nebraska, including their locations, types, costs, and timelines.\n\n## Why it matters to you  \nIf you're planning a major purchase like farmland near Highway 12 in Knox County, this data shows when nearby roadwork might affect property access or values. Trucking companies can check when their regular routes (like District 3 corridors) will have construction delays. Residents can see if problematic intersections on their commute (like the beacon upgrades listed) will be improved before winter.\n\n## How to read this data  \n**Hwy** — The highway number where work will occur, shown with leading zeros (e.g., \"012\" means Highway 12).  \n**TypeImprovement** — The kind of upgrade planned, like \"Intersection\" changes or bridge repairs.  \n**ProgramYear** — When work is scheduled, formatted as a range (e.g., \"2028-2032\" means sometime in those five years).  \n**Estimate** — Project cost in thousands (e.g., \"688\" means $688,000 budgeted).\n\n## Try it yourself  \nCheck the Program Book Application map for projects along your most-used highway by searching the Hwy field with your route number (like \"012\" for Highway 12).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "programbook-ndot-2acb3fc1",
+      "body": "## What this tracks  \nThis dataset records planned Nebraska Department of Transportation (NDOT) highway and bridge improvement projects across the state.\n\n## Why it matters to you  \nIf you're planning a long-term business location near a highway or regularly commute between Nebraska counties, this data tells you where future road construction will create delays or accessibility changes. A trucking company could avoid leasing warehouse space along Highway 12 in Knox County during 2028-2032, knowing intersection upgrades (Project 01079) will disrupt traffic. Residents can check if their regular routes appear in the Program Year listings before making car purchase decisions based on expected road conditions.\n\n## How to read this data  \n**Hwy** — The highway number where work will occur, like \"012\" for Highway 12.  \n**ProjectName** — Specific location details, such as \"District 2, 3, 5, 6, & 8 Beacons\" showing which maintenance districts are involved.  \n**TypeImprovement** — The kind of work planned, like \"Intersection\" upgrades versus bridge repairs or resurfacing.  \n**ProgramYear** — When work is scheduled, formatted as ranges like \"2028-2032\" for multi-year projects.  \n\n## Try it yourself  \nSearch the [Program Book Application](https://dot.nebraska.gov/media/13626/program-book-2024.pdf) (PDF) for your county or frequently traveled highway number to see upcoming projects in your area.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "programbook-searchtable-2acb3fc1",
+      "body": "## What this tracks  \nThis dataset records planned Nebraska Department of Transportation projects for maintaining and improving highways and bridges across the state.\n\n## Why it matters to you  \nIf you're planning a major purchase like farmland or a trucking business along Highway 12 in Knox County, this tells you whether road construction will disrupt access during your first years of operation. Nebraska residents can check if their regular commute routes have scheduled improvements like intersection upgrades that may cause delays. Business owners near project sites can anticipate increased traffic during construction periods.\n\n## How to read this data  \n**Hwy** — The highway number where work will occur, like \"012\" for Highway 12.  \n**ProjectName** — Specific location details, such as \"District 2, 3, 5, 6, & 8 Beacons\" for safety improvements across multiple regions.  \n**ProgramYear** — When work is scheduled, shown as ranges like \"2028-2032\" for long-term projects.  \n**TypeImprovement** — The kind of work planned, such as \"Intersection\" upgrades or bridge repairs.\n\n## Try it yourself  \nSearch the Program Book Application for your county name to see all planned highway projects near your property or business location within the next decade.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "public-service-commision-2021-52cf9686",
+      "body": "## What this tracks  \nThis dataset records the boundaries and population data for Nebraska's Public Service Commission (PSC) districts as established after 2021 redistricting.  \n\n## Why it matters to you  \nThe PSC regulates utilities like electricity, natural gas, and telecommunications in Nebraska. Knowing your district helps you identify which commissioner represents your area when filing complaints about service disruptions or rate changes. For small businesses, this data clarifies which district’s policies apply if you’re negotiating bulk utility contracts or disputing infrastructure fees.  \n\n## How to read this data  \n**DISTRICT** — The PSC district number (e.g., \"2\"). This determines which commissioner oversees utility regulations in your area.  \n**POPULATION** — The estimated resident count per district (e.g., \"409738\"). Shows how representation is balanced across regions.  \n**BOUND_AREA** — The geographic size of the district in square miles (e.g., \"146.796326\"). Larger areas may face different infrastructure challenges.  \n\n## Try it yourself  \nCheck which PSC district you’re in by comparing your address to the [interactive district map](http://news.legislature.ne.gov/red/).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "railroad-crossing-d61a30a7",
+      "body": "## What this tracks  \nThis dataset records the locations and details of railroad crossings across Nebraska.\n\n## Why it matters to you  \nIf you're planning a delivery route or commute that crosses train tracks, this data tells you exactly where crossings are and which railroad company maintains them. For truck drivers or school bus operators, knowing the precise GPS coordinates helps avoid last-minute turns onto tracks. Homebuyers near crossings can check who's responsible for maintenance before purchasing.\n\n## How to read this data  \n**NationXingNumber** — The federal crossing identifier, like \"967438M\".  \n**RROwner** — Which railroad company operates the crossing, such as \"BNSF Railway Company\".  \n**Latitude/Longitude** — Exact crossing location (sample: 40.58305359, -98.40190887).  \n\n## Try it yourself  \nCheck if your regular commute crosses tracks by entering your route's coordinates and comparing them to the dataset's latitude/longitude values.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "rescue-ems-response-areas-4fc930bc",
+      "body": "## What this tracks  \nThis dataset maps which emergency medical service (EMS) provider responds to 911 calls in different areas of Nebraska.\n\n## Why it matters to you  \nWhen you call 911 for a medical emergency, this data determines which ambulance service arrives at your door. Knowing your local EMS provider helps you verify response times and contact them directly for non-emergency questions. If you're considering moving within Nebraska, checking this data shows whether your new neighborhood has a different EMS provider than your current one.\n\n## How to read this data  \n**DsplayName** — The official name of the EMS provider (e.g., \"Douglas County EMS\").  \n**ServiceURI** — The direct phone number for the provider (e.g., \"tel:1123456789\").  \n**ES_NGUID** — A unique code identifying the response zone (e.g., \"Z612\").  \n\n## Try it yourself  \nContact your county emergency management office to request the EMS response area map for your specific address.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "rest-areas-11987f99",
+      "body": "## What this tracks  \nThis dataset lists all official Nebraska Department of Transportation rest areas along state highways.\n\n## Why it matters to you  \nPlanning a road trip across Nebraska? This data helps you locate clean rest stops with amenities like bathrooms and picnic areas before you hit the road. Truckers can identify safe overnight parking spots along their routes. Families can find designated break areas during long drives through the state.\n\n## How to read this data  \n**Display_Name** — The visible name of the rest area (e.g., \"Ogallala Rest Area WB\" for westbound I-80).  \n**Ph_Address** — The highway location using mile markers (e.g., \"I-80 MM 132.55\" means it's at mile marker 132.55 on Interstate 80).  \n**City** — The nearest town (e.g., \"OGALLALA\"), useful for estimating drive times between stops.  \n**Site_Type** — Confirms the location is an official rest area (not just a gas station or parking lot).  \n\n## Try it yourself  \nBefore your next Nebraska road trip, check for rest areas along your route by searching this dataset for cities you'll pass through or highway numbers you'll travel (like I-80 or Highway 83).",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "right-of-ways-of-nebraska-5366da59",
+      "body": "## What this tracks  \nThis dataset records legal rights to travel over land owned by others, primarily used for road planning and development across Nebraska.\n\n## Why it matters to you  \nIf you're considering buying property near a state highway or planning a driveway connection to a state road, this data tells you whether the land includes a state right-of-way. Knowing this prevents surprises about who can access the land or what construction might be allowed. For farmers, it clarifies where the state can maintain ditches or snow fences alongside roads.\n\n## How to read this data  \n**ROWType** — Indicates the right-of-way category (sample value: 2, though categories aren't labeled in this dataset).  \n**District** — Shows which NDOT district manages the right-of-way, useful for directing inquiries.  \n**ProjectNumOnBase** — Links the right-of-way to specific road projects if available.  \n\n## Try it yourself  \nCheck the NDOT district map to see which office handles right-of-way questions for your area, then contact them before making property improvements near state highways.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "river-areas-defabeec",
+      "body": "## What this tracks  \nThis dataset maps the coverage areas of Nebraska's larger rivers, showing where water flows across the state.\n\n## Why it matters to you  \nIf you're buying property near a river in Nebraska, this data reveals whether your land falls within a river's flood-prone area — crucial for insurance decisions and construction plans. Farmers can check if fields border major waterways that might impact irrigation access or erosion risks. Anglers and kayakers can identify navigable stretches by seeing where rivers widen significantly.\n\n## How to read this data  \n**GNIS_Name** — Official river names from the Geographic Names Information System (sample: None, but could be \"Platte River\" or \"Niobrara River\").  \n**AreaSqKm** — Surface area of the river segment in square kilometers (sample: 0.00041622 shows a narrow section).  \n**Elevation** — Height above sea level in meters (sample: 433.7 indicates a high plains river segment).  \n\n## Try it yourself  \nCheck if your Nebraska property intersects a river area by comparing the dataset's maps with your parcel boundaries at [Nebraska's DNR mapping portal](https://dnr.nebraska.gov).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "row-lines-5366da59",
+      "body": "## What this tracks  \nThis dataset records legal rights of way (ROW) for road development projects across Nebraska, including their locations and associated project details.\n\n## Why it matters to you  \nIf you're considering buying property near a planned road expansion, this data shows whether the state has secured rights to build on adjacent land — which could affect your property's future access or value. For small businesses along highways, checking ROW status helps anticipate construction timelines that might disrupt foot traffic. Nebraska's ROW records also clarify who maintains specific road sections when reporting potholes or snow removal issues.\n\n## How to read this data  \n**ROWType** — Indicates the right-of-way category (sample value: 2, though the meaning of specific numbers isn't provided in the schema).  \n**District** — Shows which NDOT district manages the right of way, useful for directing maintenance inquiries.  \n**ProjectNumber** — Links the right of way to specific road construction projects when available.\n\n## Try it yourself  \nCheck the Nebraska Department of Transportation's interactive map to see if your property borders any active rights of way that might affect future road projects.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "row-polygons-5366da59",
+      "body": "## What this tracks  \nThis dataset maps legal rights-of-way across Nebraska where transportation agencies have legal authority to build or maintain roads.\n\n## Why it matters to you  \nIf you're considering buying property near a highway or planning a business that needs road access, this data shows whether the state has existing rights to use adjacent land for future road projects. A farmer negotiating with the state over a new highway easement could check if their land is already in this system. Developers can verify whether a parcel has undisclosed transportation access rights before purchasing.\n\n## How to read this data  \n**ROWType** — Indicates the right-of-way category (sample value: 2, though categories aren't labeled in this dataset).  \n**District** — Shows which NDOT district manages the right-of-way (sample value: blank, but would typically identify regions like \"District 1\").  \n**ProjectNumber** — Links to specific transportation projects (sample value: blank, but would appear as something like \"NH-2023-45\").  \n\n## Try it yourself  \nCheck the Nebraska Department of Transportation's GIS portal to see if your property borders a mapped right-of-way before making land improvements near state highways.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "salestaxboundaries-cd16ed82",
+      "body": "## What this tracks  \nThis dataset records sales tax rates and boundaries across Nebraska, including state, county, and city-level rates.\n\n## Why it matters to you  \nIf you run a business in Nebraska, this data tells you exactly what sales tax rate to charge customers based on your location. For example, a coffee shop owner in Omaha would use this to confirm whether their baked goods are taxed at the general rate (5.5%) or a lower food/drug rate. Residents can also check if moving just outside city limits would reduce their sales tax burden on major purchases.\n\n## How to read this data  \n**TotalRate** — The combined sales tax percentage you'll pay. Sample value: 5.5 means 5.5% tax.  \n**FoodDrugTaxRateIntrastate** — Lower rate applied to qualifying grocery items. Sample value: 0.055 means 5.5%.  \n**CityName** — Which municipality's rates apply. Sample value: \"Nebraska\" indicates state-wide rates.  \n\n## Try it yourself  \nCheck the current sales tax rate for your Nebraska address by cross-referencing the CityName field with your municipality's boundaries in the dataset.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "school-contacts-9ea18bbf",
+      "body": "## What this tracks  \nThis dataset lists Nebraska school districts with their names, numbers, sizes, and student populations.  \n\n## Why it matters to you  \nIf you're moving to Nebraska or choosing where to enroll your child, this data shows which districts serve specific areas and how many students they have. A smaller district like Kenesaw Public Schools (267 students) may offer different resources than a larger one. Parents can compare districts before house-hunting or transferring schools.  \n\n## How to read this data  \n**DistrictName** — The official name of the school district, like \"Kenesaw Public Schools.\"  \n**DistrictNumber** — A unique code for the district (e.g., \"01-0003\"), often used in official forms.  \n**StudentPopulation** — Total enrolled students (e.g., 267), indicating district size.  \n**AreaSqmile** — Geographic size in square miles (e.g., 111), useful for understanding bus routes.  \n\n## Try it yourself  \nSearch the dataset for your street address or ZIP code to confirm which school district serves your neighborhood.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "school-district-offices-42207b55",
+      "body": "## What this tracks  \nThis dataset records the locations and contact details of all school district offices in Nebraska, including both public and private accredited schools.\n\n## Why it matters to you  \nIf you're moving to a new area in Nebraska and need to enroll your child, this data tells you exactly where to find your local school district office for registration. Business owners planning after-school programs can use this to identify which districts to partner with based on location. Parents comparing school options can quickly call district offices listed here to ask about transfer policies or special programs.\n\n## How to read this data  \n**District_N** — The official name of the school district (e.g., \"AINSWORTH COMMUNITY SCHOOLS\").  \n**Address** — Physical location of the district office (e.g., \"520 E 2ND ST\").  \n**Phone** — Direct contact number for the office (e.g., \"(402)387-2333\").  \n**Type_of_Sc** — Accreditation status (e.g., \"ACCREDITED\"), important for verifying school quality.  \n\n## Try it yourself  \nLook up your nearest school district office by searching the [interactive map](https://www.example.com) with your ZIP code to find contact information for enrollment questions. (Note: Replace with actual link if available)",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "school-districts-9ea18bbf",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's public school districts, including their boundaries, names, and student populations.\n\n## Why it matters to you  \nIf you're moving to Nebraska or choosing where to rent/buy a home, this data shows which schools serve specific areas and how many students they educate. Parents can compare district sizes when considering class sizes, while businesses like tutoring centers use student population numbers to gauge potential demand. Realtors frequently need to verify school districts for property listings.\n\n## How to read this data  \n**DistrictName** — The official name of the school district (e.g., \"Kenesaw Public Schools\").  \n**StudentPopulation** — Total enrolled students (e.g., 267), helping compare district scales.  \n**AreaSqmile** — Geographic size in square miles (e.g., 111), indicating whether the district covers rural or compact urban areas.  \n\n## Try it yourself  \nSearch your Nebraska address on the state's [school district boundary map](https://www.education.ne.gov/) to see which district serves your neighborhood.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "section-corners-57bab644",
+      "body": "## What this tracks  \nThis dataset records the precise geographic coordinates of section corners across Nebraska, which mark the boundaries of land survey sections.\n\n## Why it matters to you  \nIf you're buying rural property in Nebraska, this data confirms the exact legal boundaries of your land parcel before finalizing the purchase. Farmers can verify fence lines or irrigation rights match their property deeds. Developers planning wind farms or solar arrays use these points to ensure infrastructure stays within leased land boundaries.\n\n## How to read this data  \n**TOWNSHIP** — The north-south position in the Public Land Survey System (PLSS), like \"19\" meaning Township 19 North.  \n**RANGE** — The east-west position in PLSS, such as \"4\" meaning Range 4 East.  \n**SECTION_** — Identifies a specific 1-square-mile section within the township, with values from 1-36 (sample shows \"7\" for Section 7).  \n**DIR1** — Compass direction modifier for the range, like \"E\" indicating east of the principal meridian.\n\n## Try it yourself  \nCheck where your property's section corner falls by matching the Township (e.g., 19N), Range (e.g., 4E), and Section numbers from your deed to this dataset.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "sections-78917390",
+      "body": "## What this tracks  \nThis dataset records the Public Land Survey System (PLSS) sections in Nebraska, dividing the state into one-square-mile units for property and land management.\n\n## Why it matters to you  \nIf you own rural property in Nebraska, this data helps you confirm your land's legal description for deeds, surveys, or disputes. Farmers can verify section boundaries when planning irrigation or collaborating with neighbors. Hunters or outdoor enthusiasts can use it to identify public land access points by cross-referencing section numbers with county maps.\n\n## How to read this data  \n**SSTTRRD** — The full legal description (e.g., \"01-01-01E\" means Section 1, Township 1 North, Range 1 East).  \n**SECTION** — The section number (1–36) within a township (sample: 1).  \n**TOWNSHIP** — How many units north of a baseline the township is (sample: 1).  \n**DIRECTION** — Whether the range is measured east (\"E\") or west (\"W\") of a principal meridian (sample: E).  \n\n## Try it yourself  \nLook up your property’s legal description on your deed or county assessor’s website, then find its corresponding section in this dataset to see neighboring public land boundaries.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "soils-ksat-dee-c8823b31",
+      "body": "## What this tracks  \nThis dataset measures how quickly water moves through saturated soil in Nebraska, expressed in inches per hour.  \n\n## Why it matters to you  \nIf you’re planning to install a septic system, build a basement, or plant crops, this data tells you whether your property’s soil drains water quickly or slowly. Fast-draining soil (high Ksat) may need different foundations or drainage systems than slow-draining soil. For farmers, knowing Ksat helps predict irrigation needs and avoid waterlogging crops.  \n\n## How to read this data  \n**AREASYMBOL** — Identifies the soil survey area (e.g., \"NE165\").  \n**KSATCLASS_DCP** — The soil’s saturated hydraulic conductivity (e.g., 8.8 inches per hour). Higher numbers mean faster drainage.  \n**COMPPCT_R** — The percentage of the map unit represented by this soil component (e.g., 50%).  \n\n## Try it yourself  \nCheck the Ksat value for your property using the [USDA Web Soil Survey](https://websoilsurvey.sc.egov.usda.gov/) by entering your Nebraska address.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "state-boundaries-census-98d778bc",
+      "body": "## What this tracks  \nThis dataset records Nebraska's official state boundary and its demographic, housing, and institutional population statistics from the U.S. Census.\n\n## Why it matters to you  \nIf you're considering opening a business in Nebraska, this data tells you how many adults live in different racial or ethnic groups statewide—helping you gauge potential customer bases. For example, knowing that 234,715 residents identify as Hispanic or Latino could inform bilingual marketing strategies. Community organizers can also use the housing vacancy rate (70,966 units) to advocate for affordable housing programs.\n\n## How to read this data  \n**Total_Population** — Nebraska's entire population (sample: 1,961,504).  \n**Hispanic_or_Latino** — Residents identifying as Hispanic/Latino (sample: 234,715).  \n**Housing_Vacant** — Unoccupied housing units (sample: 70,966).  \n**CollegeUniversity_StudentHousing** — Students living in campus housing (sample: 20,831).  \n\n## Try it yourself  \nCompare Nebraska's demographic breakdowns to your county using the Census Bureau's [data tools](https://data.census.gov/). Search for your area’s Hispanic population percentage versus the statewide 12% (234,715 ÷ 1,961,504).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "statewide-parcels-ba7dda06",
+      "body": "## What this tracks  \nThis dataset records property boundaries and assessment details for every land parcel in Nebraska, maintained by county assessors.\n\n## Why it matters to you  \nBefore buying land in Nebraska, this data shows you the exact acreage (GIS_Acres), zoning type, and whether neighboring parcels are residential or agricultural. It also reveals the school district serving a property—critical for families comparing homes in Burwell versus Elyria. The assessed values help spot discrepancies if your property tax bill seems unusually high.\n\n## How to read this data  \n**Ph_Full_Address** — Physical street address when available (e.g., \"123 MAIN ST\").  \n**Total_Assessed_Value** — The county's valuation of land + structures (sample: $33,230).  \n**School_District_Name** — Which district serves the parcel (e.g., \"BURWELL PUBLIC SCHOOLS\").  \n**Legal_Description** — Survey details like \"ELYRIA-CIEMNY ADD/996 L1-4 6.9 AC\".  \n\n## Try it yourself  \nLook up your Nebraska address in the [state’s parcel viewer](https://nebraska.maps.arcgis.com/) to see its boundaries, assessed value, and school district.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "statewide-permitted-acres-5a75723f",
+      "body": "## What this tracks  \nThis dataset records legally permitted irrigation areas in Nebraska, distinguishing between groundwater, surface water, and mixed-use permits.\n\n## Why it matters to you  \nIf you're a farmer or landowner in Nebraska, this data tells you whether nearby properties are legally permitted to irrigate—and with what water sources. For example, if you're considering purchasing land in the North Platte NRD, checking **PermitType** reveals whether existing water rights are tied to surface water (like rivers) or groundwater (wells), which affects long-term water availability. It also helps small agricultural businesses anticipate local water-use regulations.\n\n## How to read this data  \n**PermitType** — Specifies the water source allowed for irrigation (sample: \"Surface Water\").  \n**NRDs** — The Natural Resources District managing the permit (sample: \"NPNRD\" for North Platte).  \n**ModeledAcres** — The estimated irrigable land area in acres (sample: 20.45).  \n**CentroidLat/Long** — Approximate center point of the permitted area (sample: 41.8474, -103.9797).  \n\n## Try it yourself  \nSearch your county’s NRD name in the dataset to see permitted irrigation acres near your property. For example, look for \"NPNRD\" to find North Platte NRD parcels.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "streamgages-988aed17",
+      "body": "## What this tracks  \nThis dataset provides real-time water level and flow measurements from monitoring stations along Nebraska's rivers and reservoirs.\n\n## Why it matters to you  \nFarmers near the Republican River can check current **Stage** (water height) to decide whether to irrigate crops this week. Homeowners downstream of Harlan County Reservoir can see the **FloodStatus** to know if they should move valuables to higher ground. Anglers planning a trip to McCook can check **Discharge** (flow rate) to predict fishing conditions on the Republican River.\n\n## How to read this data  \n**Stage** — Current water height in feet (sample: 2.41 ft at McCook station). Compare to **FloodStage** (9.0 ft at this location) to assess flood risk.  \n**Discharge** — Water flow rate in cubic feet per second (sample: 0.58 ft³/s). Low values may indicate drought conditions.  \n**FloodStatus** — Current flood risk level (sample: \"Normal\"). Values include Action, Flood, Moderate and Major stages.  \n**StationName** — Specific waterway and location (sample: \"Republican River at McCook\").\n\n## Try it yourself  \nCheck if your nearest river station (like Republican River at McCook) shows a **Stage** within 2 feet of its **FloodStage** — this could mean rising flood risk for nearby properties.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "streams-303-d-7f242bcf",
+      "body": "## What this tracks  \nThis dataset identifies Nebraska waterways that fail to meet water quality standards under the Clean Water Act, along with their specific pollutants and restoration plans.  \n\n## Why it matters to you  \nIf you fish in the Big Blue River, this data tells you whether it’s safe to eat your catch (the \"Aquatic_Life\" field shows contamination risks). Farmers can check the \"Agriculture_Water_Supply\" field to see if irrigation water meets safety standards. Homebuyers near affected streams (like those marked \"I\" for impaired) might reconsider properties relying on well water.  \n\n## How to read this data  \n**Waterbody_Name** — Official name of the stream (e.g., \"Big Blue River\").  \n**Aquatic_Life** — \"I\" means impaired (unsafe for fish/wildlife), \"S\" means threatened. Sample shows \"I\" due to atrazine and aluminum.  \n**Impairments_Causes** — Lists pollutants (e.g., \"E. coli\") and affected seasons (e.g., \"May-June Atrazine\").  \n\n## Try it yourself  \nSearch your local river’s name in the dataset to see if it has active contamination warnings before fishing or swimming.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "streams-title-117-b356a73f",
+      "body": "## What this tracks  \nThis dataset records detailed information about streams in Nebraska, including their water quality classifications, designated uses, and key ecological features.\n\n## Why it matters to you  \nIf you're considering buying property near a Nebraska stream, this data tells you whether the water supports fishing (Aquatic_Life = \"WA\") or has recreational value (Recreation = \"PCR\"). Farmers can check the Agricultural field to see if a stream is approved for irrigation use. Anglers can identify stretches with sensitive species like the Key_Species field's \"26,33,i,j\" codes before planning fishing trips.\n\n## How to read this data  \n**Name** — Official stream segment name, like \"Big Blue River - Turkey Creek to Nebraska-Kansas border\".  \n**Aquatic_Life** — Water quality for fish/wildlife: \"WA\" means fully supported, other codes indicate impairments.  \n**Length_miles** — Segment length (e.g., 50.1 miles) helps gauge the scale of water features.  \n**Key_Species** — Lists numbered species codes (e.g., \"26,33\") for ecologically important aquatic life.\n\n## Try it yourself  \nSearch the dataset for streams near your Nebraska property using the Subbasin field (e.g., \"BB1\" for Big Blue River) to check water quality classifications that could affect land use decisions.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "street-centerlines-1cfb967a",
+      "body": "## What this tracks  \nThis dataset records official street address ranges across Nebraska, used by 911 systems to validate and route emergency calls.\n\n## Why it matters to you  \nWhen you call 911 in Nebraska, this data ensures responders can find your exact location. If you're opening a business, it confirms your address exists in emergency systems. For rural residents, it verifies whether your property has a recognized address for mail delivery or emergency services. The data also shows which municipality (like Harrisburg) officially maintains your road.\n\n## How to read this data  \n**ST_NAME** — The base street name (e.g., \"Road 67\") without directional prefixes.  \n**ADDR_LF** and **ADDR_LT** — The low and high house numbers on the left side of the street (e.g., 3600-3798).  \n**PARITY_L** — Whether left-side addresses are even (E) or odd (O) numbers.  \n**MSAG_COM_L** — The city or community name used in 911 systems (e.g., \"Harrisburg\"), which may differ from postal addresses.  \n\n## Try it yourself  \nContact your county's Public Safety Answering Point to verify if your home address appears correctly in this 911 system, especially if you've recently moved or built a new structure.",
+      "error": null,
+      "needs_review": false,
+      "reason": null
+    },
+    {
+      "slug": "supreme-court-2021-18d37148",
+      "body": "## What this tracks  \nThis dataset records Nebraska's Supreme Court judicial district boundaries as established by the 2021 redistricting process.\n\n## Why it matters to you  \nIf you're involved in a court case, this tells you which Supreme Court district handles appeals from your county. Business owners challenging state regulations need to know which district's precedents apply to their case. Voters can verify their judicial district when evaluating retention elections for Supreme Court justices.\n\n## How to read this data  \n**DISTRICT** — The numbered judicial district (e.g., \"6\" for the 6th District). Nebraska has seven Supreme Court districts.  \n**POPULATION** — Total residents in each district (e.g., 327,892), showing how redistricting balanced representation.  \n**BOUND_AREA** — Geographic size in square units (e.g., 49,762.375), revealing urban/rural district proportions.\n\n## Try it yourself  \nCheck which Supreme Court district contains your county using the Secretary of State's district lookup tool at https://sos.nebraska.gov/elections/electoral-maps.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "topographicregions-csd-844c9ff8",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's major topographic regions, like plains and rolling hills.  \n\n## Why it matters to you  \nKnowing your region's topography helps anticipate drainage issues before buying land or building in rural areas. Farmers can compare their field elevations to nearby regions to assess flood risks. Developers in Lincoln might check whether a vacant lot sits in a flood-prone valley before planning construction.  \n\n## How to read this data  \n**DESCRIP** — Names the landform type (e.g., \"Rolling Hills\"), indicating whether an area has steep slopes or flat terrain.  \n\n## Try it yourself  \nSearch your county in Nebraska’s [interactive map](https://snr.unl.edu/data/geologysoils/topographicregions.aspx) to see if your property lies in a floodplain or elevated area.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "township-and-range-4e755ee3",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's Public Land Survey System (PLSS) grid, showing township and range boundaries across the state.\n\n## Why it matters to you  \nIf you're buying rural property in Nebraska, this data tells you exactly which township and range your land falls under — critical for verifying legal descriptions in deeds. Farmers can confirm their section boundaries before installing fences or drainage systems. Hunters and outdoor enthusiasts use it to navigate public lands correctly, avoiding accidental trespass on private sections.\n\n## How to read this data  \n**TOWNSHIP** — The north-south position (e.g., \"N35\" means 35 townships north of baseline)  \n**RANGE** — The east-west position (e.g., \"W57\" means 57 ranges west of the principal meridian)  \n**TR** — Combined township/range identifier (e.g., \"W3557\" means Township 35 North, Range 57 West)  \n\n## Try it yourself  \nFind your property's township and range by matching its location to the grid at Nebraska's [DNR GIS Data Viewer](https://dnr.nebraska.gov/gis-mapping-data).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "us-congress-2021-60c20cc3",
+      "body": "## What this tracks  \nThis dataset records Nebraska's three U.S. Congressional District boundaries as established by the state legislature in 2021.  \n\n## Why it matters to you  \nKnowing your district tells you which representative votes on federal laws affecting Nebraska’s farms, roads, and healthcare funding. If you’re advocating for rural broadband grants or disputing a federal agency decision, this determines whom to contact. The boundaries also impact where candidates campaign, so local business owners might see more political ads or events in their area during election years.  \n\n## How to read this data  \n**DISTRICT** — The district number (1, 2, or 3), like the sample value \"1\" for eastern Nebraska including Lincoln.  \n**POPULATION** — Total residents in the district (e.g., \"653822.0\"), showing how evenly districts are divided.  \n**BOUND_AREA** — Geographic size in square units (e.g., \"6044.91455\"), highlighting urban/rural splits (District 2 is compact Omaha, while District 3 covers most of the state).  \n\n## Try it yourself  \nCheck which district your address falls in using Nebraska’s [official district lookup tool](https://nebraskalegislature.gov/redistricting/2021/congressional-map.php).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "waterbodies-db03cd43",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's small waterbodies (10 acres or smaller) like ponds and small lakes, modified from the National Hydrography Dataset.  \n\n## Why it matters to you  \nIf you're considering buying property near a small pond, this data confirms whether that water feature is officially mapped—affecting flood risk assessments and insurance rates. Farmers planning irrigation systems can check for nearby small waterbodies that might influence drainage patterns. Hunters and anglers can verify if small fishing holes are documented public resources before planning trips.  \n\n## How to read this data  \n**GNIS_Name** — Official name from the Geographic Names Information System (sample: blank, meaning unnamed).  \n**AreaSqKm** — Waterbody size in square kilometers (sample: 0.004 = ~1 acre).  \n**FCode** — Classification code; 43613 indicates \"lake/pond\" (sample: 43613).  \n\n## Try it yourself  \nCheck the [Nebraska Department of Natural Resources map viewer](https://dnr.nebraska.gov/) to see if your property borders any mapped small waterbodies affecting drainage or recreation rights.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "waterfowl-teal-zones-ab276e8b",
+      "body": "## What this tracks  \nThis dataset maps Nebraska's waterfowl hunting zones specifically for teal species, including season dates and bag limits.\n\n## Why it matters to you  \nIf you're planning a teal hunting trip in Nebraska, this data tells you exactly when and where you can legally hunt, how many birds you can take per day (**Low Plains** zone allows 6 teal daily), and what hours you're permitted to shoot (from 30 minutes before sunrise to sunset). Knowing your zone's specific season dates (like **5 – 13 Sept**) helps avoid fines for hunting outside regulated periods. The possession limit of **18 birds** prevents accidental over-harvesting when storing your game.\n\n## How to read this data  \n**Zone** — Geographic area designation like \"Low Plains\" where regulations apply.  \n**Season** — Exact hunting dates (e.g., \"5 – 13 Sept (9 days)\").  \n**DailyBagLi** — Maximum teal allowed per day (\"6 in aggregate\" for three species combined).  \n**ShootingHo** — Legal hunting times (\"30 minutes before sunrise to sunset\").  \n\n## Try it yourself  \nCheck which teal zone contains your preferred hunting location at [NGPC's waterfowl page](https://outdoornebraska.gov/hunting/) to verify local regulations before your September trip.",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    },
+    {
+      "slug": "wellhead-protection-areas-87e5ea99",
+      "body": "## What this tracks  \nThis dataset maps protected groundwater areas around public drinking water wells in Nebraska.\n\n## Why it matters to you  \nIf you're buying land or starting a business that handles chemicals (like a farm supply store or auto shop), these boundaries show where extra environmental rules apply. In Cedar Rapids, for example, spills within these zones could contaminate the village's drinking water. Homeowners drilling new wells near these areas may face additional permitting requirements to protect the public water supply.\n\n## How to read this data  \n**PWS_Name** — Which town's water supply is protected (e.g., \"Cedar Rapids, Village of\").  \n**NRD** — The local Natural Resources District managing the area (e.g., \"Lower Loup\").  \n**Sq_Acres** — Size of the protected zone (e.g., 1,805 acres around Cedar Rapids' wells).  \n\n## Try it yourself  \nCheck if your property falls within a Wellhead Protection Area by searching your address on Nebraska's [Water Well Standards Program map](https://neo.ne.gov/programs/welcomplt/welcomplt.htm).",
+      "error": null,
+      "needs_review": true,
+      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
+    }
+  ]
 }
