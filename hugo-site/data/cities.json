@@ -64,5 +64,16 @@
       0
     ],
     "blurb": "Kansas open-data explainers."
+  },
+  "nebraska": {
+    "name": "Nebraska",
+    "short": "NE",
+    "hub": "https://www.nebraskamap.gov/",
+    "gov": "https://www.nebraska.gov",
+    "center": [
+      0,
+      0
+    ],
+    "blurb": "Nebraska open-data explainers."
   }
 }

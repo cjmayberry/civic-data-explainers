@@ -374,6 +374,46 @@ CATEGORY_OVERRIDES = {
     "water-wells-wwc5-921cf865": ("Environment", "Water well registry — groundwater resource; per v4 Environment."),
     "waterflood-6e2bed50": ("Economy", "Waterflood — oil recovery method; per v4 Economy (energy sector)."),
     "class-ii-wells-a5703985": ("Economy", "Class II injection wells — oil & gas industry; per v4 Economy (energy sector)."),
+    # --- Nebraska v4 12-category taxonomy (2026-08-14, fresh-state map) ---
+    # hunting units / waterfowl zones / game refuges → Parks & Recreation
+    "bighorn-sheep-hunting-units-c01a639d": ("Parks & Recreation", "Bighorn sheep hunting units — wildlife recreation; per v4 Parks & Recreation."),
+    "deer-management-units-3e2bb321": ("Parks & Recreation", "Deer management units — wildlife recreation; per v4 Parks & Recreation."),
+    "elk-hunting-units-4b574fe1": ("Parks & Recreation", "Elk hunting units — wildlife recreation; per v4 Parks & Recreation."),
+    "mt-lion-hunting-units-93a27159": ("Parks & Recreation", "Mountain lion hunting units — wildlife recreation; per v4 Parks & Recreation."),
+    "nebraska-game-refuge-boundary-bd191044": ("Parks & Recreation", "Nebraska game refuge boundary — wildlife recreation; per v4 Parks & Recreation."),
+    "waterfowl-teal-zones-ab276e8b": ("Parks & Recreation", "Waterfowl teal zones — hunting recreation; per v4 Parks & Recreation."),
+    # lakes / streams / waterbodies / watersheds / aquifer / groundwater / wells / dams / geology → Environment
+    "atlas-grid-e623b402": ("Environment", "Atlas grid reference — cartographic; per v4 Environment."),
+    "county-boundaries-census-95c807d3": ("Environment", "County boundaries (census) — geographic reference; per v4 Environment."),
+    "dams-06028e03": ("Environment", "Dams inventory — water infrastructure as natural system; per v4 Environment."),
+    "depthtogroundwater-unl-3aedcdd4": ("Environment", "Depth to groundwater (UNL) — hydrogeology; per v4 Environment."),
+    "federal-lands-paa-af252fbc": ("Environment", "Federal lands PAA — public land system; per v4 Environment."),
+    "highplainsaquifer-usgs-919a98a5": ("Environment", "High Plains Aquifer (USGS) — natural hydrogeology; per v4 Environment."),
+    "joineddata-lakes-d047631d": ("Environment", "Joined data lakes — natural water bodies; per v4 Environment."),
+    "joineddata-streams-cdfa5e07": ("Environment", "Joined data streams — natural water bodies; per v4 Environment."),
+    "lake-contours-0f0e603f": ("Environment", "Lake contours — natural water body bathymetry; per v4 Environment."),
+    "nebraska-lakes-shapes-4db94817": ("Environment", "Nebraska lakes shapes — natural water bodies; per v4 Environment."),
+    "ngpc-properties-2024-2025-1e7d8043": ("Parks & Recreation", "NGPC properties 2024-2025 — state parks/wildlife management; per v4 Parks & Recreation."),
+    "ogallala-group-csd-2421bd2f": ("Environment", "Ogallala Group CSD — geologic/hydrogeologic formation; per v4 Environment."),
+    "park-areas-ba20d669": ("Parks & Recreation", "Park areas — recreation; per v4 Parks & Recreation."),
+    "river-areas-defabeec": ("Environment", "River areas — natural water system; per v4 Environment."),
+    "soils-ksat-dee-c8823b31": ("Environment", "Soils Ksat DEE — soil survey; per v4 Environment."),
+    "statewide-permitted-acres-5a75723f": ("Environment", "Statewide permitted acres (farming + inland waters) — agriculture/environment; per v4 Environment."),
+    "streamgages-988aed17": ("Environment", "Streamgages — water monitoring; per v4 Environment."),
+    "testholes-unl-a0f24c5d": ("Environment", "Test holes (UNL) — geologic/hydrogeologic; per v4 Environment."),
+    "topographicregions-csd-844c9ff8": ("Environment", "Topographic regions CSD — cartographic/geographic; per v4 Environment."),
+    "wellhead-protection-areas-87e5ea99": ("Environment", "Wellhead protection areas — groundwater protection; per v4 Environment."),
+    # school contacts / school district offices / ESUs / school districts (non-boundary) → Education
+    "educational-service-units-347a4e7a": ("Education", "Educational Service Units — regional education administration; per v4 Education."),
+    "esu-headquarters-347a4e7a": ("Education", "ESU headquarters — regional education facilities; per v4 Education."),
+    "school-contacts-9ea18bbf": ("Education", "School contacts — education directory; per v4 Education."),
+    "school-district-offices-42207b55": ("Education", "School district offices — education facilities; per v4 Education."),
+    # DHHS respite care — Health
+    "dhhs-respite-care-services-f8121dee": ("Health", "DHHS respite care services — health/social services; per v4 Health."),
+    # conservation partner lands / mitigation projects → Environment
+    "conservation-partner-lands-da2c1ccd": ("Environment", "Conservation partner lands — natural conservation; per v4 Environment."),
+    "mitigation-projects-5e656428": ("Environment", "Mitigation projects (inland waters) — environmental mitigation; per v4 Environment."),
+    # county-boundaries-census already mapped above; keep other boundaries → Government (no override needed)
 }
 
 # Showcase pages carry hand-written bodies (regenerate_content.py BODIES)

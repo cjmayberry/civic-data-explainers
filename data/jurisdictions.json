@@ -13,7 +13,7 @@
       "portal_url": "https://hub.kansasgis.org/",
       "platform": "arcgis-hub",
       "status": "live",
-      "note": "Kansas Geoportal (ArcGIS Hub). Verified 2026-08-11. RE-ADDING for nightly validation run — was live, reset to pending to test full chain."
+      "note": "Kansas Geoportal (ArcGIS Hub). Built 2026-08-14: 84 datasets, 20 drafted. Commit 2e06a51."
     },
     {
       "id": "topeka",

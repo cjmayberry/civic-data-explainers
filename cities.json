@@ -311,5 +311,32 @@
       "Water boundaries": "Other",
       "Energy Resources": "Infrastructure"
     }
+  },
+  {
+    "id": "nebraska",
+    "name": "Nebraska",
+    "hub_url": "https://www.nebraskamap.gov/",
+    "gov_url": "https://www.nebraska.gov",
+    "state": "US",
+    "active": true,
+    "model": null,
+    "min_score": 0,
+    "content_dir": "hugo-site/content/nebraska",
+    "static_dir": "hugo-site/static/nebraska",
+    "category_map": {
+      "utilitiesCommunication": "Infrastructure",
+      "boundaries": "Government",
+      "biota": "Environment",
+      "environment": "Environment",
+      "geoscientificInformation": "Environment",
+      "planningCadastre": "Government",
+      "location": "Government",
+      "transportation": "Transportation",
+      "farming": "Environment",
+      "inlandWaters": "Environment",
+      "health": "Health",
+      "structure": "Infrastructure",
+      "society": "Other"
+    }
   }
 ]

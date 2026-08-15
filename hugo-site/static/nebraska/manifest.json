@@ -1,0 +1,32 @@
+{
+  "hero": null,
+  "categories": {},
+  "mapbox_enabled": true,
+  "generated_at": "2026-08-15T12:32:48Z",
+  "dataset_schema": 2,
+  "datasets": [
+    {
+      "slug": "_index",
+      "title": "Nebraska explainers",
+      "city": "Nebraska",
+      "city_slug": "nebraska",
+      "display_category": "Default",
+      "category": "Default",
+      "content_status": "needs_review",
+      "content_model": null,
+      "image_status": "placeholder",
+      "image_source": "svg_placeholder",
+      "image_file": "_index--default--placeholder.svg",
+      "image_note": "placeholder cover; official city map linked on the page",
+      "schema": null,
+      "source_url": null,
+      "inquiry_enabled": false,
+      "inquiry_search_field": null,
+      "inquiry_field": null,
+      "inquiry_label": null,
+      "inquiry_extra": [],
+      "enrichment_status": null,
+      "last_updated": "2026-08-15T12:32:48Z"
+    }
+  ]
+}

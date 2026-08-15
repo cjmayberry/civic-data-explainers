@@ -134,14 +134,17 @@ def fetch_rss(site_url: str, timeout: int = 30) -> bytes:
     """Fetch the RSS feed for a given ArcGIS Hub site root URL."""
     site_url = site_url.rstrip("/")
     feed_url = f"{site_url}{RSS_FEED_PATH}"
-    try:
-        return http_get(feed_url, timeout)
-    except Exception as e:
+    raw = http_get(feed_url, timeout)
+    # Some ArcGIS Hub instances (e.g. Topeka's open-data UI) return the Hub
+    # shell HTML at the RSS path instead of RSS XML. Defer to DCAT rather
+    # than surfacing a parse error downstream.
+    if raw[:512].lstrip().startswith(b"<!DOCTYPE") or raw[:512].lstrip().startswith(b"<html"):
         raise ValueError(
-            f"RSS fetch failed for {feed_url} ({e}). If this is a CKAN portal "
-            f"(e.g. data.ok.gov), pass --format ckan and/or the "
-            f"/api/3/action/package_search URL."
-        ) from e
+            f"RSS path returned HTML, not RSS XML for {feed_url} "
+            f"({len(raw)} bytes). Falling back to DCAT (/data.json). "
+            f"If that also fails, pass --format dcat explicitly."
+        )
+    return raw
 
 
 def split_description_sections(description: str) -> dict:
@@ -628,8 +631,21 @@ def main():
     args = parser.parse_args()
 
     fmt = args.fmt or detect_format(args.site_url)
-    records = extract(args.site_url, fmt)
-    records = finalize(records, fmt)
+    try:
+        records = extract(args.site_url, fmt)
+    except ValueError as e:
+        msg = str(e)
+        if "RSS path returned HTML" in msg or "not RSS XML" in msg:
+            # RSS returned the Hub shell HTML — fall back to DCAT at the
+            # site ROOT (data.json lives at /, not under /pages/...)
+            import urllib.parse as up
+            parsed = up.urlparse(args.site_url)
+            root_url = f"{parsed.scheme}://{parsed.netloc}"
+            records = extract(root_url, "dcat")
+            fmt = "dcat (fallback from rss)"
+        else:
+            raise
+    records = finalize(records, fmt if not fmt.startswith("dcat (fallback") else "dcat")
 
     indent = 2 if args.pretty else None
     print(json.dumps(records, indent=indent, ensure_ascii=False))
