@@ -1,0 +1,24 @@
+{{/* category-photo.html — shared topical photo for dataset pages.
+     Pure function of the dataset's display category (categories[0]).
+     Emits cat-<kebab-category>.jpg from static/img/ ONLY when the file
+     actually exists on disk; emits nothing when no matching image is
+     present (safe default — the page already has its cover SVG + the
+     live maplibre map).
+
+     Add a new category image: drop cat-<kebab>.jpg into static/img/.
+     No template edit, no per-page work. Works across all cities/regions
+     because it only reads the normalized display category. */}}
+
+{{ $cat := "" }}
+{{ with (index .Params.categories 0) }}
+  {{ $cat = . }}
+{{ end }}
+{{ if $cat }}
+  {{ $slug := replaceRE "[^a-z0-9]+" "-" (lower $cat) }}
+  {{ $slug = trim $slug "-" }}
+  {{ $file := printf "static/img/cat-%s.jpg" $slug }}
+  {{ $src := printf "img/cat-%s.jpg" $slug }}
+  {{ if fileExists $file }}
+    <img class="article-cover" src="{{ $src | relURL }}" alt="{{ $cat }} explainer photo" loading="lazy">
+  {{ end }}
+{{ end }}

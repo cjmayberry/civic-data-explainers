@@ -12,6 +12,8 @@
 
   {{ with .Params.cover }}<img class="article-cover" src="{{ printf "img/%s" . | relURL }}" alt="{{ $.Title }} — visual cover">{{ end }}
 
+  {{ partial "category-photo.html" . }}
+
   {{ with .Params.map_link }}
   <p class="official-map"><a href="{{ . }}" target="_blank" rel="noopener">View the city's official map for this dataset →</a> <span class="dictionary-note">(opens in {{ $city.name }}'s own data portal)</span></p>
   {{ end }}
