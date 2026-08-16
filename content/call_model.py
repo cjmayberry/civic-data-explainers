@@ -40,18 +40,19 @@ DEFAULT_MODEL = "upstage/solar-pro4:free"
 # OpenRouter fallback — OpenRouter wants the bare slug, no :free suffix
 OPENROUTER_MODEL = "upstage/solar-pro4"
 
+
 def call_nous(messages, model=DEFAULT_MODEL, temperature=0.3, max_tokens=1000):
     """Call Nous inference API."""
     if not NOUS_API_KEY:
         return None, "NOUS_API_KEY not set"
-    
+
     payload = {
         "model": model,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    
+
     req = urllib.request.Request(
         NOUS_BASE_URL,
         data=json.dumps(payload).encode("utf-8"),
@@ -61,7 +62,7 @@ def call_nous(messages, model=DEFAULT_MODEL, temperature=0.3, max_tokens=1000):
         },
         method="POST",
     )
-    
+
     try:
         with urllib.request.urlopen(req, timeout=120) as resp:
             result = json.loads(resp.read())
@@ -71,18 +72,19 @@ def call_nous(messages, model=DEFAULT_MODEL, temperature=0.3, max_tokens=1000):
     except Exception as e:
         return None, f"Nous error: {e}"
 
+
 def call_openrouter(messages, model=OPENROUTER_MODEL, temperature=0.3, max_tokens=1000):
     """Call OpenRouter as fallback."""
     if not OPENROUTER_API_KEY:
         return None, "OPENROUTER_API_KEY not set"
-    
+
     payload = {
         "model": model,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    
+
     req = urllib.request.Request(
         OPENROUTER_BASE_URL,
         data=json.dumps(payload).encode("utf-8"),
@@ -94,7 +96,7 @@ def call_openrouter(messages, model=OPENROUTER_MODEL, temperature=0.3, max_token
         },
         method="POST",
     )
-    
+
     try:
         with urllib.request.urlopen(req, timeout=120) as resp:
             result = json.loads(resp.read())
@@ -104,6 +106,7 @@ def call_openrouter(messages, model=OPENROUTER_MODEL, temperature=0.3, max_token
     except Exception as e:
         return None, f"OpenRouter error: {e}"
 
+
 def call_model(messages, model=None, temperature=0.3, max_tokens=1000, openrouter_model=None):
     """
     Main entry point. Tries Nous (upstage/solar-pro4:free) first,
@@ -111,16 +114,17 @@ def call_model(messages, model=None, temperature=0.3, max_tokens=1000, openroute
     Returns (content, error).
     """
     # Try Nous first
-    content, error = call_openrouter(messages, openrouter_model or OPENROUTER_MODEL, temperature, max_tokens)
-    if content is not None:
-        return content, None
-
-    print(f"OpenRouter failed: {error}, trying Nous fallback...", file=sys.stderr)
     content, error = call_nous(messages, model or DEFAULT_MODEL, temperature, max_tokens)
     if content is not None:
         return content, None
 
-    return None, f"Both providers failed. OpenRouter: {error}\n            model=\"upstage/solar-pro4:free\",  # Nous primary; OpenRouter fallback when Nous fails
+    print(f"Nous failed: {error}, trying OpenRouter fallback...", file=sys.stderr)
+    content, error = call_openrouter(messages, openrouter_model or OPENROUTER_MODEL, temperature, max_tokens)
+    if content is not None:
+        return content, None
+
+    return None, f"Both providers failed. Nous: {error}"
+
 
 if __name__ == "__main__":
     # Simple test
