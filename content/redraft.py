@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-redraft.py — re-draft stub pages against the v2 Pavement-shape template.
+redraft.py — re-draft stub pages (all cities) against the v3 schema-grounded template.
 
-Reads the manifest v2 (category source of truth) + okc_catalog.json, re-drafts
-every page whose content_status is "stub" using prompts.DRAFT_SYSTEM_PROMPT_V2,
-then:
-  - writes the new body into hugo-site/content/datasets/<slug>.md
+Reads manifest.json v3 (category + schema source of truth) + each city's catalog,
+re-drafts every stub page using prompts.DRAFT_SYSTEM_PROMPT_V3, then:
+  - writes the new body into <content_dir>/<slug>.md
     (frontmatter rebuilt: canonical single category, cover, fixed description
      from suitable_use — repairs the old dictionary-text leak — teaser from
      the draft's one-sentence "what this is")
@@ -14,8 +13,10 @@ then:
     (no step-4 anchor, thin dictionary, or validation flags a possible
     invented field)
 
+Multi-city (Kansas, Nevada, Nebraska): one call per city, driven by pipeline/run.py.
 Usage:
-  python3 content/redraft.py --model deepseek/deepseek-chat-v3-0324
+  python3 content/redraft.py --model upstage/solar-pro4:free --content-dir ... \
+      --catalog ... --drafts ... --manifest ... --city-name ... --city-state ...
   python3 content/redraft.py --dry-run   # print the plan, call nothing
 """
 import argparse
@@ -202,8 +203,8 @@ def strip_html(raw):
 def main():
     global DATASETS_DIR, CATALOG_PATH, OUT_DRAFTS, MANIFEST_PATH
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", default="deepseek/deepseek-chat-v3-0324",
-                        help="OpenRouter model id")
+    parser.add_argument("--model", default="upstage/solar-pro4:free",
+                        help="model id (Nous primary; OpenRouter fallback)")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--only", help="comma list of slugs to re-draft (debug)")
     parser.add_argument("--apply-only", action="store_true",
@@ -281,7 +282,7 @@ def main():
                     {"role": "system", "content": DRAFT_SYSTEM_PROMPT_V3},
                     {"role": "user", "content": payload},
                 ],
-                model="tencent/hy3",          # Nous-side name; unused when Nous key dead
+                model="upstage/solar-pro4:free",  # Nous primary; OpenRouter fallback when Nous fails
                 temperature=0.4, max_tokens=900,
                 openrouter_model=args.model,
             )

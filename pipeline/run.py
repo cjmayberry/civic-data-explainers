@@ -49,7 +49,7 @@ def city_catalog_path(city, cities):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("cities_file")
-    ap.add_argument("--model", default="deepseek/deepseek-chat-v3-0324")
+    ap.add_argument("--model", default="upstage/solar-pro4:free",
     ap.add_argument("--city", help="run only this city id")
     ap.add_argument("--refresh-taxonomy", action="store_true")
     ap.add_argument("--redraft-all", action="store_true",

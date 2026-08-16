@@ -58,7 +58,7 @@ def main():
     ap.add_argument("--cities", default=os.path.join(ROOT, "cities.json"))
     ap.add_argument("--catalog", required=True)
     ap.add_argument("--city", required=True)
-    ap.add_argument("--model", default="deepseek/deepseek-chat-v3-0324")
+    ap.add_argument("--model", default="upstage/solar-pro4:free")
     ap.add_argument("--refresh-taxonomy", action="store_true")
     args = ap.parse_args()
 

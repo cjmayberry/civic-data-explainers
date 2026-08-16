@@ -35,10 +35,10 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 NOUS_BASE_URL = "https://inference-api.nousresearch.com/v1/chat/completions"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-# Default model (Nous free tier)
-DEFAULT_MODEL = "tencent/hy3"
-# OpenRouter fallback
-OPENROUTER_MODEL = "anthropic/claude-sonnet-4"
+# Default model (Nous free tier, primary)
+DEFAULT_MODEL = "upstage/solar-pro4:free"
+# OpenRouter fallback — OpenRouter wants the bare slug, no :free suffix
+OPENROUTER_MODEL = "upstage/solar-pro4"
 
 def call_nous(messages, model=DEFAULT_MODEL, temperature=0.3, max_tokens=1000):
     """Call Nous inference API."""
@@ -106,7 +106,8 @@ def call_openrouter(messages, model=OPENROUTER_MODEL, temperature=0.3, max_token
 
 def call_model(messages, model=None, temperature=0.3, max_tokens=1000, openrouter_model=None):
     """
-    Main entry point. Tries Nous first, falls back to OpenRouter.
+    Main entry point. Tries Nous (upstage/solar-pro4:free) first,
+    falls back to OpenRouter (upstage/solar-pro4:free) if Nous fails.
     Returns (content, error).
     """
     # Try Nous first
@@ -114,7 +115,7 @@ def call_model(messages, model=None, temperature=0.3, max_tokens=1000, openroute
     if content is not None:
         return content, None
 
-    print(f"Nous failed: {error}, trying OpenRouter...", file=sys.stderr)
+    print(f"Nous failed: {error}, trying OpenRouter fallback...", file=sys.stderr)
     content, error = call_openrouter(messages, openrouter_model or OPENROUTER_MODEL, temperature, max_tokens)
     if content is not None:
         return content, None
