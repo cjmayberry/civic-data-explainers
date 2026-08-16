@@ -2,22 +2,7 @@
   "schema": 2,
   "city": "Oklahoma City",
   "prompt_version": "v3-schema-grounded",
-  "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
-  "generated_at": "2026-08-15T16:23:32Z",
-  "drafts": [
-    {
-      "slug": "team-up-to-clean-up-historic-old-town-may-2018-8f2a74fe",
-      "body": "## What this tracks  \nThis dataset records a one-time community cleanup event in Topeka's Historic Old Town in May 2018, including staff hours spent and associated costs.\n\n## Why it matters to you  \nSeeing the city's investment in neighborhood cleanup (over 35 staff hours and $1,500 in labor costs for this single event) shows how seriously Topeka takes maintaining historic districts. If you're considering opening a business in Old Town, this demonstrates city support for keeping the area attractive. Residents can use this as a benchmark when requesting similar cleanup efforts for their neighborhoods.\n\n## How to read this data  \n**Location** — Specific area cleaned (always \"Historic Old Town\" in this dataset).  \n**Est__Staff_Hours_to_Date** — Total hours city staff worked during cleanup (sample shows 35 hours).  \n**Cost_of_Est__Staff_Hours_to_Date** — Dollar value of staff time spent (sample shows $1,552).  \n**Cost_of_Actions_Taken_to_Date** — Additional non-labor expenses (sample shows $555 for materials/supplies).\n\n## Try it yourself  \nContact Topeka's Community Engagement division to inquire about organizing a similar cleanup in your neighborhood, using these numbers as a reference for likely staffing and costs.",
-      "error": null,
-      "needs_review": false,
-      "reason": null
-    },
-    {
-      "slug": "topeka-performance-numbers-34bba224",
-      "body": "## What this tracks  \nThis dataset records performance metrics for Topeka city departments, tracking activities like fire education programs and service delivery.\n\n## Why it matters to you  \nWhen the Fire Department's \"Adult Fire Education\" program (measured here) serves more residents, your neighborhood becomes safer from preventable fires. The quarterly updates let you see if response times or services in your area are meeting targets — like checking if streetlight repairs hit their goals before reporting that burned-out bulb on your block. Business owners can track whether commercial inspection timelines are improving before applying for permits.\n\n## How to read this data  \n**Department** — Which city division is being measured, like \"Fire Department\" or \"Public Works\".  \n**Measure** — The specific activity tracked, such as \"Adult Fire Education\" (sample value shows 1,670 participants).  \n**Quarter** — When the data was recorded, like \"Q4\" for fourth quarter.  \n**Value** — The raw count or measurement (sample shows 57 for an unspecified metric).\n\n## Try it yourself  \nCall the Fire Department at 785-368-4130 (from the **C_Phone** field) to ask how many fire safety workshops were held in your ZIP code last quarter using their \"Adult Fire Education\" measure.",
-      "error": null,
-      "needs_review": true,
-      "reason": "no step-4 anchor but Try-it-yourself section present (hollow step 4)"
-    }
-  ]
+  "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+  "generated_at": "2026-08-16T01:04:09Z",
+  "drafts": []
 }

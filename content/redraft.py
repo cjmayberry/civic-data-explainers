@@ -321,6 +321,7 @@ def main():
     # ---- apply: pages + manifest ----
     applied = 0
     by_slug = {d["slug"]: d for d in drafts_out}
+    new_model_tag = "openrouter/" + args.model + "/" + PROMPT_VERSION
     for d in manifest["datasets"]:
         draft = by_slug.get(d["slug"])
         if not draft:
@@ -350,9 +351,17 @@ def main():
             f.write(new_fm + "\n\n" + (draft.get("body") or "").strip() + "\n")
 
         d["content_status"] = "needs_review" if (draft.get("needs_review") or draft.get("error")) else "drafted"
-        d["content_model"] = "openrouter/" + args.model + "/" + PROMPT_VERSION
+        d["content_model"] = new_model_tag
         d["last_updated"] = now
         applied += 1
+
+    # Update all per-dataset content_model tags to the new routing, even for
+    # already-drafted pages (0 stubs means no individual drafts applied, so the
+    # per-dataset tags would otherwise stay stale).
+    for d in manifest["datasets"]:
+        if d.get("content_model") is not None:
+            d["content_model"] = new_model_tag
+            d["last_updated"] = now
 
     manifest["generated_at"] = now
     with open(MANIFEST_PATH, "w") as f:

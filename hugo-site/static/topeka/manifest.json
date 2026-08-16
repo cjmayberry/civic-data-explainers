@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-15T16:23:58Z",
+  "generated_at": "2026-08-16T01:04:09Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "team-up-to-clean-up-historic-old-town-may-2018-8f2a74fe--parks-recreation--placeholder.svg",
@@ -86,7 +86,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T16:23:32Z"
+      "last_updated": "2026-08-16T01:04:09Z"
     },
     {
       "slug": "topeka-performance-numbers-34bba224",
@@ -96,7 +96,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "topeka-performance-numbers-34bba224--government--placeholder.svg",
@@ -205,7 +205,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T16:23:32Z"
+      "last_updated": "2026-08-16T01:04:09Z"
     }
   ]
 }

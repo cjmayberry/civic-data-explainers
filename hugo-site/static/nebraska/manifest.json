@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-15T15:07:31Z",
+  "generated_at": "2026-08-16T01:05:14Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -36,7 +36,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "address-points-44023ea5--government--placeholder.svg",
@@ -338,7 +338,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "airports-10f75119",
@@ -348,7 +348,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "airports-10f75119--transportation--placeholder.svg",
@@ -650,7 +650,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "atlas-grid-e623b402",
@@ -660,7 +660,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "atlas-grid-e623b402--environment--placeholder.svg",
@@ -742,7 +742,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "bighorn-sheep-hunting-units-c01a639d",
@@ -752,7 +752,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bighorn-sheep-hunting-units-c01a639d--parks-recreation--placeholder.svg",
@@ -847,7 +847,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "board-of-education-2021-9ee2a066",
@@ -857,7 +857,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "board-of-education-2021-9ee2a066--government--placeholder.svg",
@@ -922,7 +922,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "board-of-regents-2021-77bc59d1",
@@ -932,7 +932,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "board-of-regents-2021-77bc59d1--government--placeholder.svg",
@@ -997,7 +997,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "bridges-375a9f94",
@@ -1007,7 +1007,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bridges-375a9f94--transportation--placeholder.svg",
@@ -1246,7 +1246,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "census-block-group-2020-238e8e17",
@@ -1256,7 +1256,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "census-block-group-2020-238e8e17--government--placeholder.svg",
@@ -1629,7 +1629,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "census-blocks-2020-55862989",
@@ -1639,7 +1639,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "census-blocks-2020-55862989--government--placeholder.svg",
@@ -2018,7 +2018,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "census-tracts-2020-b0fc7def",
@@ -2028,7 +2028,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "census-tracts-2020-b0fc7def--government--placeholder.svg",
@@ -2401,7 +2401,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "city-boundaries-6b9182a5",
@@ -2411,7 +2411,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "city-boundaries-6b9182a5--government--placeholder.svg",
@@ -2468,7 +2468,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "conservation-partner-lands-da2c1ccd",
@@ -2478,7 +2478,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "conservation-partner-lands-da2c1ccd--environment--placeholder.svg",
@@ -2696,7 +2696,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "county-boundaries-census-95c807d3",
@@ -2706,7 +2706,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "county-boundaries-census-95c807d3--environment--placeholder.svg",
@@ -3109,7 +3109,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "county-boundaries-f8f32ae0",
@@ -3119,7 +3119,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "county-boundaries-f8f32ae0--government--placeholder.svg",
@@ -3177,7 +3177,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dams-06028e03",
@@ -3187,7 +3187,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dams-06028e03--environment--placeholder.svg",
@@ -3428,7 +3428,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "deer-management-units-3e2bb321",
@@ -3438,7 +3438,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "deer-management-units-3e2bb321--parks-recreation--placeholder.svg",
@@ -3529,7 +3529,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "depthtogroundwater-unl-3aedcdd4",
@@ -3539,7 +3539,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "depthtogroundwater-unl-3aedcdd4--environment--placeholder.svg",
@@ -3580,7 +3580,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-adult-day-services-3c91a3ff",
@@ -3590,7 +3590,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-adult-day-services-3c91a3ff--health--placeholder.svg",
@@ -3711,7 +3711,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-child-placing-agencies-5b2c4336",
@@ -3721,7 +3721,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-child-placing-agencies-5b2c4336--health--placeholder.svg",
@@ -3829,7 +3829,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-health-care-coalitions-737ce869",
@@ -3839,7 +3839,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-health-care-coalitions-737ce869--health--placeholder.svg",
@@ -3912,7 +3912,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-hospitals-13adf6fc",
@@ -3922,7 +3922,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-hospitals-13adf6fc--health--placeholder.svg",
@@ -4091,7 +4091,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-local-health-departments-bad9d1de",
@@ -4101,7 +4101,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-local-health-departments-bad9d1de--health--placeholder.svg",
@@ -4428,7 +4428,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-respite-care-services-f8121dee",
@@ -4438,7 +4438,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-respite-care-services-f8121dee--health--placeholder.svg",
@@ -4565,7 +4565,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dhhs-rural-health-clinics-72bea33a",
@@ -4575,7 +4575,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dhhs-rural-health-clinics-72bea33a--health--placeholder.svg",
@@ -4719,7 +4719,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "dwee-nitrate-hot-spot-3c9e3885",
@@ -4729,7 +4729,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "dwee-nitrate-hot-spot-3c9e3885--health--placeholder.svg",
@@ -4790,7 +4790,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "educational-service-units-347a4e7a",
@@ -4800,7 +4800,7 @@
       "display_category": "Education",
       "category": "Education",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "educational-service-units-347a4e7a--education--placeholder.svg",
@@ -4883,7 +4883,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "elk-hunting-units-4b574fe1",
@@ -4893,7 +4893,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "elk-hunting-units-4b574fe1--parks-recreation--placeholder.svg",
@@ -4974,7 +4974,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "epru-health-care-coalitions-737ce869",
@@ -4984,7 +4984,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "epru-health-care-coalitions-737ce869--health--placeholder.svg",
@@ -5057,7 +5057,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "esu-headquarters-347a4e7a",
@@ -5067,7 +5067,7 @@
       "display_category": "Education",
       "category": "Education",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "esu-headquarters-347a4e7a--education--placeholder.svg",
@@ -5150,7 +5150,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "exchange-boundaries-49a8a05f",
@@ -5160,7 +5160,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "exchange-boundaries-49a8a05f--infrastructure--placeholder.svg",
@@ -5292,7 +5292,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "federal-lands-paa-af252fbc",
@@ -5302,7 +5302,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "federal-lands-paa-af252fbc--environment--placeholder.svg",
@@ -5518,7 +5518,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "fire-district-response-areas-5863dc4b",
@@ -5528,7 +5528,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "fire-district-response-areas-5863dc4b--government--placeholder.svg",
@@ -5637,7 +5637,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "good-life-districts-70e28e15",
@@ -5670,7 +5670,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "good-life-districts-98f38b7f--government--placeholder.svg",
@@ -5780,7 +5780,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "groundwater-wells-dwee-a50ccf26",
@@ -5790,7 +5790,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "groundwater-wells-dwee-a50ccf26--infrastructure--placeholder.svg",
@@ -5985,7 +5985,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "highplainsaquifer-usgs-919a98a5",
@@ -5995,7 +5995,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "highplainsaquifer-usgs-919a98a5--environment--placeholder.svg",
@@ -6036,7 +6036,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "highway-mile-markers-e52cde2e",
@@ -6046,7 +6046,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "highway-mile-markers-e52cde2e--transportation--placeholder.svg",
@@ -6094,7 +6094,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "huc-10-99a3b82e",
@@ -6104,7 +6104,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "huc-10-99a3b82e--environment--placeholder.svg",
@@ -6218,7 +6218,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "huc-12-feabc321",
@@ -6228,7 +6228,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "huc-12-feabc321--environment--placeholder.svg",
@@ -6360,7 +6360,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "huc-8-0c225f8a",
@@ -6370,7 +6370,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "huc-8-0c225f8a--environment--placeholder.svg",
@@ -6472,7 +6472,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "joineddata-lakes-d047631d",
@@ -6482,7 +6482,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "joineddata-lakes-d047631d--environment--placeholder.svg",
@@ -6636,7 +6636,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "joineddata-streams-cdfa5e07",
@@ -6646,7 +6646,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "joineddata-streams-cdfa5e07--environment--placeholder.svg",
@@ -6800,7 +6800,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "lake-contours-0f0e603f",
@@ -6810,7 +6810,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "lake-contours-0f0e603f--environment--placeholder.svg",
@@ -6864,7 +6864,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "lakes-303-d-193fe97f",
@@ -6874,7 +6874,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "lakes-303-d-193fe97f--environment--placeholder.svg",
@@ -7088,7 +7088,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "lakestitle117-d0de835a",
@@ -7098,7 +7098,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "lakestitle117-d0de835a--environment--placeholder.svg",
@@ -7327,7 +7327,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "legislative-districts-2021-a0b2463d",
@@ -7337,7 +7337,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "legislative-districts-2021-a0b2463d--government--placeholder.svg",
@@ -7420,7 +7420,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "local-health-departments-bad9d1de",
@@ -7430,7 +7430,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "local-health-departments-bad9d1de--health--placeholder.svg",
@@ -7757,7 +7757,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "major-lakes-72138447",
@@ -7767,7 +7767,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "major-lakes-72138447--environment--placeholder.svg",
@@ -7875,7 +7875,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "major-streams-b6c799c1",
@@ -7885,7 +7885,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "major-streams-b6c799c1--environment--placeholder.svg",
@@ -8018,7 +8018,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "medical-reserve-corps-nema-fb55cd62",
@@ -8074,7 +8074,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "mt-lion-hunting-units-93a27159--parks-recreation--placeholder.svg",
@@ -8157,7 +8157,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "municipal-boundaries-cb6ed038",
@@ -8167,7 +8167,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "municipal-boundaries-cb6ed038--government--placeholder.svg",
@@ -8304,7 +8304,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "named-streams-2a79028b",
@@ -8314,7 +8314,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "named-streams-2a79028b--environment--placeholder.svg",
@@ -8399,7 +8399,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "nebraska-bedrock-geology-0d846cb3",
@@ -8432,7 +8432,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nebraska-game-refuge-boundary-bd191044--parks-recreation--placeholder.svg",
@@ -8479,7 +8479,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "nebraska-lakes-shapes-4db94817",
@@ -8489,7 +8489,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nebraska-lakes-shapes-4db94817--environment--placeholder.svg",
@@ -8621,7 +8621,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "nebraska-state-boundary-2399ad42",
@@ -8631,7 +8631,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nebraska-state-boundary-2399ad42--government--placeholder.svg",
@@ -8677,7 +8677,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "nebraska-trauma-regions-edc99b7b",
@@ -8687,7 +8687,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nebraska-trauma-regions-edc99b7b--health--placeholder.svg",
@@ -8728,7 +8728,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "ngpc-properties-2024-2025-1e7d8043",
@@ -8761,7 +8761,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nnlp-3rd-edition-buestateplane-4b4e13e4--environment--placeholder.svg",
@@ -8814,7 +8814,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "nnlp-3rd-edition-pws-huc-12-4b4e13e4",
@@ -8824,7 +8824,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nnlp-3rd-edition-pws-huc-12-4b4e13e4--environment--placeholder.svg",
@@ -8877,7 +8877,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "ogallala-group-csd-2421bd2f",
@@ -8887,7 +8887,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ogallala-group-csd-2421bd2f--environment--placeholder.svg",
@@ -8940,7 +8940,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "park-areas-ba20d669",
@@ -8950,7 +8950,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "park-areas-ba20d669--parks-recreation--placeholder.svg",
@@ -9149,7 +9149,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "predictivenitratemodelndee-de8bc4eb",
@@ -9159,7 +9159,7 @@
       "display_category": "Health",
       "category": "Health",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "predictivenitratemodelndee-de8bc4eb--health--placeholder.svg",
@@ -9248,7 +9248,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "program-book-points-2acb3fc1",
@@ -9258,7 +9258,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "program-book-points-2acb3fc1--transportation--placeholder.svg",
@@ -9360,7 +9360,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "program-book-segments-2acb3fc1",
@@ -9370,7 +9370,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "program-book-segments-2acb3fc1--transportation--placeholder.svg",
@@ -9472,7 +9472,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "programbook-ndot-2acb3fc1",
@@ -9482,7 +9482,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "programbook-ndot-2acb3fc1--transportation--placeholder.svg",
@@ -9584,7 +9584,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "programbook-searchtable-2acb3fc1",
@@ -9594,7 +9594,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "programbook-searchtable-2acb3fc1--transportation--placeholder.svg",
@@ -9696,7 +9696,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "public-service-commision-2021-52cf9686",
@@ -9706,7 +9706,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "public-service-commision-2021-52cf9686--government--placeholder.svg",
@@ -9771,7 +9771,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "railroad-crossing-d61a30a7",
@@ -9781,7 +9781,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "railroad-crossing-d61a30a7--transportation--placeholder.svg",
@@ -9866,7 +9866,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "rescue-ems-response-areas-4fc930bc",
@@ -9876,7 +9876,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "rescue-ems-response-areas-4fc930bc--government--placeholder.svg",
@@ -9986,7 +9986,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "rest-areas-11987f99",
@@ -9996,7 +9996,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "rest-areas-11987f99--transportation--placeholder.svg",
@@ -10074,7 +10074,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "right-of-ways-of-nebraska-5366da59",
@@ -10084,7 +10084,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "right-of-ways-of-nebraska-5366da59--transportation--placeholder.svg",
@@ -10175,7 +10175,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "river-areas-defabeec",
@@ -10185,7 +10185,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "river-areas-defabeec--environment--placeholder.svg",
@@ -10278,7 +10278,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "row-lines-5366da59",
@@ -10288,7 +10288,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "row-lines-5366da59--transportation--placeholder.svg",
@@ -10379,7 +10379,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "row-polygons-5366da59",
@@ -10389,7 +10389,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "row-polygons-5366da59--transportation--placeholder.svg",
@@ -10480,7 +10480,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "sales-tax-boundaries-81c529b7",
@@ -10513,7 +10513,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "salestaxboundaries-cd16ed82--government--placeholder.svg",
@@ -10698,7 +10698,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "school-contacts-9ea18bbf",
@@ -10708,7 +10708,7 @@
       "display_category": "Education",
       "category": "Education",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "school-contacts-9ea18bbf--education--placeholder.svg",
@@ -10775,7 +10775,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "school-district-offices-42207b55",
@@ -10785,7 +10785,7 @@
       "display_category": "Education",
       "category": "Education",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "school-district-offices-42207b55--education--placeholder.svg",
@@ -10899,7 +10899,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "school-districts-9ea18bbf",
@@ -10909,7 +10909,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "school-districts-9ea18bbf--government--placeholder.svg",
@@ -10976,7 +10976,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "section-corners-57bab644",
@@ -10986,7 +10986,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "section-corners-57bab644--government--placeholder.svg",
@@ -11047,7 +11047,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "sections-78917390",
@@ -11057,7 +11057,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sections-78917390--government--placeholder.svg",
@@ -11128,7 +11128,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "soils-ksat-dee-c8823b31",
@@ -11138,7 +11138,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "soils-ksat-dee-c8823b31--environment--placeholder.svg",
@@ -11209,7 +11209,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "state-boundaries-census-98d778bc",
@@ -11219,7 +11219,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "state-boundaries-census-98d778bc--government--placeholder.svg",
@@ -11592,7 +11592,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "statewide-parcels-ba7dda06",
@@ -11602,7 +11602,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "statewide-parcels-ba7dda06--government--placeholder.svg",
@@ -11973,7 +11973,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "statewide-permitted-acres-5a75723f",
@@ -11983,7 +11983,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "statewide-permitted-acres-5a75723f--environment--placeholder.svg",
@@ -12111,7 +12111,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "streamgages-988aed17",
@@ -12121,7 +12121,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "streamgages-988aed17--environment--placeholder.svg",
@@ -12610,7 +12610,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "streams-303-d-7f242bcf",
@@ -12620,7 +12620,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "streams-303-d-7f242bcf--environment--placeholder.svg",
@@ -12846,7 +12846,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "streams-title-117-b356a73f",
@@ -12856,7 +12856,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "streams-title-117-b356a73f--environment--placeholder.svg",
@@ -13132,7 +13132,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "street-centerlines-1cfb967a",
@@ -13142,7 +13142,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "street-centerlines-1cfb967a--transportation--placeholder.svg",
@@ -13530,7 +13530,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "supreme-court-2021-18d37148",
@@ -13540,7 +13540,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "supreme-court-2021-18d37148--government--placeholder.svg",
@@ -13605,7 +13605,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "testholes-unl-a0f24c5d",
@@ -13638,7 +13638,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "topographicregions-csd-844c9ff8--environment--placeholder.svg",
@@ -13684,7 +13684,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "township-and-range-4e755ee3",
@@ -13694,7 +13694,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "township-and-range-4e755ee3--government--placeholder.svg",
@@ -13765,7 +13765,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "us-congress-2021-60c20cc3",
@@ -13775,7 +13775,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "us-congress-2021-60c20cc3--government--placeholder.svg",
@@ -13840,7 +13840,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "waterbodies-db03cd43",
@@ -13850,7 +13850,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "waterbodies-db03cd43--environment--placeholder.svg",
@@ -13948,7 +13948,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "waterfowl-teal-zones-ab276e8b",
@@ -13958,7 +13958,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "waterfowl-teal-zones-ab276e8b--parks-recreation--placeholder.svg",
@@ -14088,7 +14088,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     },
     {
       "slug": "wellhead-protection-areas-87e5ea99",
@@ -14098,7 +14098,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "needs_review",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "wellhead-protection-areas-87e5ea99--environment--placeholder.svg",
@@ -14211,7 +14211,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T14:52:12Z"
+      "last_updated": "2026-08-16T01:05:14Z"
     }
   ]
 }
