@@ -7,6 +7,7 @@ tags: ["biota", "environment", "geoscientificInformation"]
 categories: ["Environment"]
 cover: "covers/nnlp-3rd-edition-pws-huc-12-4b4e13e4--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Host/rest/services/Hosted/Nebraska_Natural_Legacy_Project_3rd_Edition_Game_and_Parks/FeatureServer"
+geojson_url: "https://gis.ne.gov/Host/rest/services/Hosted/Nebraska_Natural_Legacy_Project_3rd_Edition_Game_and_Parks/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4b4e13e4c6ef447e809899ea5a9a6a40&sublayer=3"
 city: "nebraska"

@@ -6,6 +6,7 @@ teaser: "Data layer showing Teal zones for waterfowl hunting in Nebraska. For ad
 categories: ["Parks & Recreation"]
 cover: "covers/waterfowl-teal-zones-ab276e8b--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Teal_Data/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Teal_Data/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ab276e8bc7384907af9b81f3068ecde8&sublayer=0"
 city: "nebraska"

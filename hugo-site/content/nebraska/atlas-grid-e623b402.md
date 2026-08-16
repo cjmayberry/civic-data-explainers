@@ -6,6 +6,7 @@ teaser: "Data layer showing the map sheet GRID layer used to generate the public
 categories: ["Environment"]
 cover: "covers/atlas-grid-e623b402--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Atlas_Grid/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Atlas_Grid/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e623b4020f19430697e6630b8622009b&sublayer=0"
 city: "nebraska"

@@ -6,6 +6,7 @@ teaser: "For more info please visit the hunting page at Big Game Hunting.To appl
 categories: ["Parks & Recreation"]
 cover: "covers/bighorn-sheep-hunting-units-c01a639d--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Bighorn_Hunting_Units_2022/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Bighorn_Hunting_Units_2022/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c01a639d27474e848b35ca1ca913c25c&sublayer=0"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["health", "society"]
 categories: ["Health"]
 cover: "covers/epru-health-care-coalitions-737ce869--health--placeholder.svg"
 source_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Health_Care_Coalitions/FeatureServer"
+geojson_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Health_Care_Coalitions/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=737ce8695e204d0d9dd1d0bc978d6f19&sublayer=0"
 city: "nebraska"

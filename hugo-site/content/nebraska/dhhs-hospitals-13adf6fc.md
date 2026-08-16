@@ -7,6 +7,7 @@ tags: ["health", "society"]
 categories: ["Health"]
 cover: "covers/dhhs-hospitals-13adf6fc--health--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/Hospitals/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/Hospitals/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=13adf6fc7579433eb7bfde7e4370be63&sublayer=0"
 city: "nebraska"

@@ -6,6 +6,7 @@ teaser: "Nebraska state park areas offer a variety of outdoor recreation opportu
 categories: ["Parks & Recreation"]
 cover: "covers/park-areas-ba20d669--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Park_Areas/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Park_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ba20d669b821473089a5d542b54f9771&sublayer=0"
 city: "nebraska"

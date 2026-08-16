@@ -7,6 +7,7 @@ tags: ["inlandWaters"]
 categories: ["Environment"]
 cover: "covers/named-streams-2a79028b--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Named_Streams/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Named_Streams/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2a79028ba1ee45c79a178972dacdc7bd&sublayer=0"
 city: "nebraska"

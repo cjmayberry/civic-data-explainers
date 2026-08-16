@@ -7,6 +7,7 @@ tags: ["transportation"]
 categories: ["Transportation"]
 cover: "covers/railroad-crossing-d61a30a7--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Railroad_Crossing/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Railroad_Crossing/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d61a30a708224eb3ac80b5dd3717dee9&sublayer=0"
 city: "nebraska"

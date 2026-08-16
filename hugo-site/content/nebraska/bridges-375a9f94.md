@@ -7,6 +7,7 @@ tags: ["transportation"]
 categories: ["Transportation"]
 cover: "covers/bridges-375a9f94--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Bridges/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Bridges/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=375a9f948d0e4dc9bd3f0a6ec182dfcb&sublayer=0"
 city: "nebraska"

@@ -6,6 +6,7 @@ teaser: "For purposes of the rules related to boundary of State Game Refuges, th
 categories: ["Parks & Recreation"]
 cover: "covers/nebraska-game-refuge-boundary-bd191044--parks-recreation--placeholder.svg"
 source_url: "https://services1.arcgis.com/Sj9eBhzWwOMzQCfI/arcgis/rest/services/Nebraska_Game_Refuge_Boundary/FeatureServer"
+geojson_url: "https://services1.arcgis.com/Sj9eBhzWwOMzQCfI/arcgis/rest/services/Nebraska_Game_Refuge_Boundary/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bd191044cb9845b79a9ed4381b44717a&sublayer=0"
 city: "nebraska"

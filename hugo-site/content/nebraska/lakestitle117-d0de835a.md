@@ -7,6 +7,7 @@ tags: ["environment", "inlandWaters"]
 categories: ["Environment"]
 cover: "covers/lakestitle117-d0de835a--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/LakesTitle117/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/LakesTitle117/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d0de835ad89f42ad8995c9c374ce2ecf&sublayer=0"
 city: "nebraska"

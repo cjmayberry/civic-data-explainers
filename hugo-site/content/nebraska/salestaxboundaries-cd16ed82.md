@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/salestaxboundaries-cd16ed82--government--placeholder.svg"
 source_url: "https://gis.ne.gov/agency3/rest/services/SalesTaxWebLayerREV/FeatureServer/0"
+geojson_url: "https://gis.ne.gov/agency3/rest/services/SalesTaxWebLayerREV/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cd16ed82de544e8a93c2541ba889cbef&sublayer=0"
 city: "nebraska"

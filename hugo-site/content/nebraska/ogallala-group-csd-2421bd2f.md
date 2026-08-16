@@ -7,6 +7,7 @@ tags: ["geoscientificInformation"]
 categories: ["Environment"]
 cover: "covers/ogallala-group-csd-2421bd2f--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Ogallala_Group_CSD/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Ogallala_Group_CSD/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2421bd2f58b249b4b7a0899cfc7f466a&sublayer=0"
 city: "nebraska"

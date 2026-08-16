@@ -7,6 +7,7 @@ tags: ["planningCadastre"]
 categories: ["Government"]
 cover: "covers/statewide-parcels-ba7dda06--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ba7dda0642cd4c0c9660a35081fee517&sublayer=0"
 city: "nebraska"

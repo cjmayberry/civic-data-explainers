@@ -7,6 +7,7 @@ tags: ["utilitiesCommunication"]
 categories: ["Infrastructure"]
 cover: "covers/groundwater-wells-dwee-a50ccf26--infrastructure--placeholder.svg"
 source_url: "https://gis.ne.gov/agency3/rest/services/Groundwater_Wells_DWEE/FeatureServer/0"
+geojson_url: "https://gis.ne.gov/agency3/rest/services/Groundwater_Wells_DWEE/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a50ccf265ab94efb8f7b2e809992ee2a&sublayer=0"
 city: "nebraska"

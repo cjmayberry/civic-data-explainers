@@ -6,6 +6,7 @@ teaser: "Nebraska School Districts data was derived from the 2018 State Parcels 
 categories: ["Education"]
 cover: "covers/school-contacts-9ea18bbf--education--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/School_Districts/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/School_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=9ea18bbfdb8649bbb27c9bad3aeb793c&sublayer=1"
 city: "nebraska"

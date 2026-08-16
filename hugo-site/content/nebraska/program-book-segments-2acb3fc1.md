@@ -7,6 +7,7 @@ tags: ["transportation"]
 categories: ["Transportation"]
 cover: "covers/program-book-segments-2acb3fc1--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/dot/rest/services/ProgramBookDOT/FeatureServer"
+geojson_url: "https://gis.ne.gov/dot/rest/services/ProgramBookDOT/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=2acb3fc1414e409fb1372476b599955a&sublayer=1"
 city: "nebraska"

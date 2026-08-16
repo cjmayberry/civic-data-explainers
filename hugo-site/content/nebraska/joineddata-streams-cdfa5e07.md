@@ -6,6 +6,7 @@ teaser: "Feature layer generated from running the Join Features solution"
 categories: ["Environment"]
 cover: "covers/joineddata-streams-cdfa5e07--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/JoinedData_Streams/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/JoinedData_Streams/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=cdfa5e0757f84aed83a79931135c8496&sublayer=0"
 city: "nebraska"

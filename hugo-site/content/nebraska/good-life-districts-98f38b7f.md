@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/good-life-districts-98f38b7f--government--placeholder.svg"
 source_url: "https://gis.ne.gov/agency3/rest/services/GoodLifeDistrictsREV/FeatureServer/0"
+geojson_url: "https://gis.ne.gov/agency3/rest/services/GoodLifeDistrictsREV/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=98f38b7fad0c40b898c0379c8ba61666&sublayer=0"
 city: "nebraska"

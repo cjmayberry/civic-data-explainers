@@ -7,6 +7,7 @@ tags: ["location"]
 categories: ["Government"]
 cover: "covers/township-and-range-4e755ee3--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Township_and_Range/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Township_and_Range/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4e755ee399ad48a0987163cff3f8aeb0&sublayer=0"
 city: "nebraska"

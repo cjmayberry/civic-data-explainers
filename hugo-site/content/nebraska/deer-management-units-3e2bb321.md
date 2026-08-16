@@ -6,6 +6,7 @@ teaser: "For more info please visit the hunting page at Big Game Hunting.To appl
 categories: ["Parks & Recreation"]
 cover: "covers/deer-management-units-3e2bb321--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Deer_Mangement_Units_2022/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Deer_Mangement_Units_2022/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3e2bb321c28240088df56fa7d6a73640&sublayer=0"
 city: "nebraska"

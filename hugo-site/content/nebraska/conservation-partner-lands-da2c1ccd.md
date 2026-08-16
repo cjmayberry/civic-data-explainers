@@ -6,6 +6,7 @@ teaser: "This layer shows the Conservation Partner Lands in Nebraska such as Duc
 categories: ["Environment"]
 cover: "covers/conservation-partner-lands-da2c1ccd--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Conservation_Partner_Lands/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Conservation_Partner_Lands/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=da2c1ccd2bc14463833d2c7fa5ec56fc&sublayer=0"
 city: "nebraska"

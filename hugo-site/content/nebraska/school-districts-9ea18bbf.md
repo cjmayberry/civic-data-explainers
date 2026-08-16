@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/school-districts-9ea18bbf--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/School_Districts/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/School_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=9ea18bbfdb8649bbb27c9bad3aeb793c&sublayer=0"
 city: "nebraska"

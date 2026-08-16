@@ -6,6 +6,7 @@ teaser: "The Nebraska Educational Service Units data were derived from 2018 Stat
 categories: ["Education"]
 cover: "covers/esu-headquarters-347a4e7a--education--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Educational_Service_Units/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Educational_Service_Units/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=347a4e7a03554415b9bd73f456917745&sublayer=1"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/rescue-ems-response-areas-4fc930bc--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Rescue_District_Response_Area/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Rescue_District_Response_Area/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4fc930bc98a345e0bddb603a0a17dfa8&sublayer=0"
 city: "nebraska"

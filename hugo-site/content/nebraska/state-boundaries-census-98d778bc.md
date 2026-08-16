@@ -7,6 +7,7 @@ tags: ["boundaries", "society"]
 categories: ["Government"]
 cover: "covers/state-boundaries-census-98d778bc--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/State_Boundaries_Census/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/State_Boundaries_Census/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=98d778bc40ff49faa83c2faff4348bd1&sublayer=0"
 city: "nebraska"

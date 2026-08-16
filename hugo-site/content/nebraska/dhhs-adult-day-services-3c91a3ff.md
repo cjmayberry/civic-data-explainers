@@ -7,6 +7,7 @@ tags: ["health", "society"]
 categories: ["Health"]
 cover: "covers/dhhs-adult-day-services-3c91a3ff--health--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_Adult_Day_Services/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_Adult_Day_Services/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3c91a3ffe8714e93beb56aebaac6bf96&sublayer=0"
 city: "nebraska"

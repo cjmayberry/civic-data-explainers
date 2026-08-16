@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/fire-district-response-areas-5863dc4b--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Fire_District_Response_Areas/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Fire_District_Response_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5863dc4b2de644f9aaf33780d10f6599&sublayer=0"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["boundaries", "society"]
 categories: ["Government"]
 cover: "covers/census-tracts-2020-b0fc7def--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Census_Tracts_2020/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Census_Tracts_2020/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=b0fc7def4bc84d9fac2a0f76cdf1f1ea&sublayer=0"
 city: "nebraska"

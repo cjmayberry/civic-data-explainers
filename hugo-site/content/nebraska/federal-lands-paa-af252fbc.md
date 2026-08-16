@@ -6,6 +6,7 @@ teaser: "This layer shows the Federal Lands. Last updated 8-12-2022."
 categories: ["Environment"]
 cover: "covers/federal-lands-paa-af252fbc--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/StateLands/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/StateLands/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=af252fbc68ba48f890e1a709b5730fdb&sublayer=0"
 city: "nebraska"

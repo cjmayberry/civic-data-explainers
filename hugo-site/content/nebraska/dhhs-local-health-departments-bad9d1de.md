@@ -7,6 +7,7 @@ tags: ["health", "society"]
 categories: ["Health"]
 cover: "covers/dhhs-local-health-departments-bad9d1de--health--placeholder.svg"
 source_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Local_Health_Departments/FeatureServer"
+geojson_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Local_Health_Departments/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=bad9d1de00a1466e8fc026628e39c893"
 city: "nebraska"

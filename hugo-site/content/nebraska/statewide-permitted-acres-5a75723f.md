@@ -7,6 +7,7 @@ tags: ["farming", "inlandWaters"]
 categories: ["Environment"]
 cover: "covers/statewide-permitted-acres-5a75723f--environment--placeholder.svg"
 source_url: "https://dweegis.nebraska.gov/weegis/rest/services/Statewide_Permitted_Acres/FeatureServer"
+geojson_url: "https://dweegis.nebraska.gov/weegis/rest/services/Statewide_Permitted_Acres/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5a75723fe7b346728e4102f995e69548&sublayer=0"
 city: "nebraska"

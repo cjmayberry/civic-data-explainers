@@ -7,6 +7,7 @@ tags: ["transportation", "structure"]
 categories: ["Transportation"]
 cover: "covers/rest-areas-11987f99--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Rest_Areas/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Rest_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=11987f99fa644690b83a0809cd31bb09&sublayer=0"
 city: "nebraska"

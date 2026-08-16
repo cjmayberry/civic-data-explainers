@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/legislative-districts-2021-a0b2463d--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/4"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=a0b2463d58084db8b0109d659325fdaf&sublayer=4"
 city: "nebraska"

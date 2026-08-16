@@ -7,6 +7,7 @@ tags: ["health", "boundaries", "society"]
 categories: ["Health"]
 cover: "covers/nebraska-trauma-regions-edc99b7b--health--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_EHS_Trauma_Regions/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_EHS_Trauma_Regions/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=edc99b7b741a44f69b92eda511cb5d0a&sublayer=0"
 city: "nebraska"

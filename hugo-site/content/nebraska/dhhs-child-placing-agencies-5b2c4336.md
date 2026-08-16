@@ -7,6 +7,7 @@ tags: ["health", "society"]
 categories: ["Health"]
 cover: "covers/dhhs-child-placing-agencies-5b2c4336--health--placeholder.svg"
 source_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Child_Placing_Agencies/FeatureServer"
+geojson_url: "https://gis.ne.gov/Agency/rest/services/DHHS_Child_Placing_Agencies/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5b2c43361bf34877917ef69f5621224d&sublayer=0"
 city: "nebraska"

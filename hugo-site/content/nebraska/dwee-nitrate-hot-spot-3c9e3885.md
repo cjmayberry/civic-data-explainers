@@ -7,6 +7,7 @@ tags: ["health", "environment", "farming"]
 categories: ["Health"]
 cover: "covers/dwee-nitrate-hot-spot-3c9e3885--health--placeholder.svg"
 source_url: "https://dweegis.nebraska.gov/weesr/rest/services/DWEENitrateHotSpot/FeatureServer"
+geojson_url: "https://dweegis.nebraska.gov/weesr/rest/services/DWEENitrateHotSpot/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3c9e3885da504ac19f13d4961c58b773&sublayer=0"
 city: "nebraska"

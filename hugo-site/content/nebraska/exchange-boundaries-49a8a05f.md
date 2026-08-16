@@ -7,6 +7,7 @@ tags: ["utilitiesCommunication", "boundaries"]
 categories: ["Infrastructure"]
 cover: "covers/exchange-boundaries-49a8a05f--infrastructure--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/Exchange_Boundaries/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/Exchange_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=49a8a05f6c50444aaf896902c6213968&sublayer=0"
 city: "nebraska"

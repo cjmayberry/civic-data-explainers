@@ -7,6 +7,7 @@ tags: ["health", "environment"]
 categories: ["Health"]
 cover: "covers/predictivenitratemodelndee-de8bc4eb--health--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/PredictiveNitrateModelNDEE/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/PredictiveNitrateModelNDEE/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=de8bc4eb82de4f8ebeb430498a6a3aa5&sublayer=0"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["transportation"]
 categories: ["Transportation"]
 cover: "covers/highway-mile-markers-e52cde2e--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Highway_Mile_Markers/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Highway_Mile_Markers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=e52cde2e119e4157b72e6daa4ae1602d&sublayer=0"
 city: "nebraska"

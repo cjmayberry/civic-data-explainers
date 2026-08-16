@@ -7,6 +7,7 @@ tags: ["transportation", "structure", "boundaries"]
 categories: ["Transportation"]
 cover: "covers/row-lines-5366da59--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/dot/rest/services/RightOfWayDOT/FeatureServer"
+geojson_url: "https://gis.ne.gov/dot/rest/services/RightOfWayDOT/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=5366da591cc84a2c93a4c81b74975584&sublayer=0"
 city: "nebraska"

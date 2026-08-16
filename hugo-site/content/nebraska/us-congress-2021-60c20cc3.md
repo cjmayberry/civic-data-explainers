@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/us-congress-2021-60c20cc3--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/1"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=60c20cc3902b4dbc832e14771e1fab22&sublayer=1"
 city: "nebraska"

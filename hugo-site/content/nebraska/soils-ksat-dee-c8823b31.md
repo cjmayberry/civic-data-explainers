@@ -7,6 +7,7 @@ tags: ["geoscientificInformation"]
 categories: ["Environment"]
 cover: "covers/soils-ksat-dee-c8823b31--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Soils_Ksat_DEE/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Soils_Ksat_DEE/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c8823b31c7ea4fb6aa01ca41aeba6d2b&sublayer=0"
 city: "nebraska"

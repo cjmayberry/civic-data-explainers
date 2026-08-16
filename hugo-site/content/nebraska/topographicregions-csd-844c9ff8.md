@@ -7,6 +7,7 @@ tags: ["geoscientificInformation"]
 categories: ["Environment"]
 cover: "covers/topographicregions-csd-844c9ff8--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/TopographicRegions_CSD/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/TopographicRegions_CSD/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=844c9ff8b6034f7693018794badaaded&sublayer=0"
 city: "nebraska"

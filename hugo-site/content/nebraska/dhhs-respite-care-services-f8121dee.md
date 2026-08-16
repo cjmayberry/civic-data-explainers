@@ -6,6 +6,7 @@ teaser: "Department of Health and Human Services (DHHS) licensed Respite Care Se
 categories: ["Health"]
 cover: "covers/dhhs-respite-care-services-f8121dee--health--placeholder.svg"
 source_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_Respite_Care_Services/FeatureServer"
+geojson_url: "https://gis.ne.gov/agencyext/rest/services/DHHS_Respite_Care_Services/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=f8121dee4b0a4126ae5d1e220bac1b05&sublayer=0"
 city: "nebraska"

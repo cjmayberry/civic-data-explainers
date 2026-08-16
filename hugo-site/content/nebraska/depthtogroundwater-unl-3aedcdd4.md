@@ -7,6 +7,7 @@ tags: ["geoscientificInformation"]
 categories: ["Environment"]
 cover: "covers/depthtogroundwater-unl-3aedcdd4--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/DepthtoGroundwater_UNL/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/DepthtoGroundwater_UNL/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=3aedcdd4cf584e7dbcf5074ff23271e4&sublayer=0"
 city: "nebraska"

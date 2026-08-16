@@ -7,6 +7,7 @@ tags: ["inlandWaters", "society"]
 categories: ["Environment"]
 cover: "covers/major-lakes-72138447--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Major_Lakes/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Major_Lakes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=72138447f4f247b696dfab6234d33ca4&sublayer=0"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/city-boundaries-6b9182a5--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/City_Boundaries/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/City_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6b9182a5bad149adab341e467aced4de&sublayer=0"
 city: "nebraska"

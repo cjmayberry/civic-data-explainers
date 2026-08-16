@@ -7,6 +7,7 @@ tags: ["environment", "inlandWaters"]
 categories: ["Environment"]
 cover: "covers/wellhead-protection-areas-87e5ea99--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/agency3/rest/services/Wellhead_Protection_Areas_DWEE/FeatureServer"
+geojson_url: "https://gis.ne.gov/agency3/rest/services/Wellhead_Protection_Areas_DWEE/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=87e5ea995bed4b6ba91ef4d5b2f2bb5e&sublayer=0"
 city: "nebraska"

@@ -6,6 +6,7 @@ teaser: "The lake mapping program was developed as a cooperative initiative betw
 categories: ["Environment"]
 cover: "covers/lake-contours-0f0e603f--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/LakeContours/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/LakeContours/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=0f0e603f248d4a4bb79f350db3780d72&sublayer=0"
 city: "nebraska"

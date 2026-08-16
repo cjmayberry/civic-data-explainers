@@ -6,6 +6,7 @@ teaser: "For more info please visit the hunting page at Big Game Hunting.To appl
 categories: ["Parks & Recreation"]
 cover: "covers/elk-hunting-units-4b574fe1--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Elk_Hunting_Units_2022/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Elk_Hunting_Units_2022/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4b574fe17fde4895ac1facbb199f962b&sublayer=0"
 city: "nebraska"

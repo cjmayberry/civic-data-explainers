@@ -6,6 +6,7 @@ teaser: "School District Offices. Location of each school district office whethe
 categories: ["Education"]
 cover: "covers/school-district-offices-42207b55--education--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/School_District_Offices/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/School_District_Offices/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=42207b55ff444511bdb0f4b6a8cb9590&sublayer=0"
 city: "nebraska"

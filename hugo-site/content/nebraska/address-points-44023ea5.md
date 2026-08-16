@@ -7,6 +7,7 @@ tags: ["location"]
 categories: ["Government"]
 cover: "covers/address-points-44023ea5--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Address_Points/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Address_Points/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=44023ea5f739489196da4156a2b63442&sublayer=0"
 city: "nebraska"

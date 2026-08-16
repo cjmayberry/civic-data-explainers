@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/public-service-commision-2021-52cf9686--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/3"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/3/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=52cf9686df6745368780db3b884bda85&sublayer=3"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["location"]
 categories: ["Government"]
 cover: "covers/section-corners-57bab644--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Section_Corners/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Section_Corners/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=57bab644cafa47a68b6046b22898942d&sublayer=0"
 city: "nebraska"

@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/board-of-education-2021-9ee2a066--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/6"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/6/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=9ee2a066e392479fb57841718c320a5c&sublayer=6"
 city: "nebraska"

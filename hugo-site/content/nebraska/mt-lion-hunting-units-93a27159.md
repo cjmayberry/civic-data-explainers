@@ -6,6 +6,7 @@ teaser: "For more info please visit the hunting page at Big Game Hunting.To appl
 categories: ["Parks & Recreation"]
 cover: "covers/mt-lion-hunting-units-93a27159--parks-recreation--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/MT_Lion_Hunting_Units_2022/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/MT_Lion_Hunting_Units_2022/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=93a2715921c64ab8b1bc6926919db5b3&sublayer=0"
 city: "nebraska"

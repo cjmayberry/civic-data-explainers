@@ -7,6 +7,7 @@ tags: ["inlandWaters"]
 categories: ["Environment"]
 cover: "covers/river-areas-defabeec--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/River_Area/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/River_Area/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=defabeec3a4946c7a0a4fbd279f64e17&sublayer=0"
 city: "nebraska"

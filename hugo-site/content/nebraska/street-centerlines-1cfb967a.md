@@ -7,6 +7,7 @@ tags: ["transportation", "location"]
 categories: ["Transportation"]
 cover: "covers/street-centerlines-1cfb967a--transportation--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/Street_Centerlines/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/Street_Centerlines/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=1cfb967a70dd4b0abee9d38249c06b0a&sublayer=0"
 city: "nebraska"

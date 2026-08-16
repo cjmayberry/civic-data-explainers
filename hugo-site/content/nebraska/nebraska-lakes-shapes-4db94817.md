@@ -6,6 +6,7 @@ teaser: "Layer showing shoreline boundaries for selected lakes and reservoirs in
 categories: ["Environment"]
 cover: "covers/nebraska-lakes-shapes-4db94817--environment--placeholder.svg"
 source_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Lake_Shapes/FeatureServer"
+geojson_url: "https://services5.arcgis.com/IOshH1zLrIieqrNk/arcgis/rest/services/Lake_Shapes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=4db9481740df472bb0c181b3ca4d1210&sublayer=0"
 city: "nebraska"

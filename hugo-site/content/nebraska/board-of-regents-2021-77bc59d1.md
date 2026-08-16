@@ -7,6 +7,7 @@ tags: ["boundaries"]
 categories: ["Government"]
 cover: "covers/board-of-regents-2021-77bc59d1--government--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/5"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/PoliticalBoundaries_2021/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=77bc59d11ab2419ba6bcadea3da97e63&sublayer=5"
 city: "nebraska"

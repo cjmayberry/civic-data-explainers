@@ -6,6 +6,7 @@ teaser: "The TIGER/Line shapefiles and related database files (.dbf) are an extr
 categories: ["Environment"]
 cover: "covers/county-boundaries-census-95c807d3--environment--placeholder.svg"
 source_url: "https://gis.ne.gov/Enterprise/rest/services/County_Boundaries_Census/FeatureServer"
+geojson_url: "https://gis.ne.gov/Enterprise/rest/services/County_Boundaries_Census/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=95c807d314b149a4b98bbbda7f431c55&sublayer=0"
 city: "nebraska"
