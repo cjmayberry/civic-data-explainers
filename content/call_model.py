@@ -111,16 +111,16 @@ def call_model(messages, model=None, temperature=0.3, max_tokens=1000, openroute
     Returns (content, error).
     """
     # Try Nous first
-    content, error = call_nous(messages, model or DEFAULT_MODEL, temperature, max_tokens)
-    if content is not None:
-        return content, None
-
-    print(f"Nous failed: {error}, trying OpenRouter fallback...", file=sys.stderr)
     content, error = call_openrouter(messages, openrouter_model or OPENROUTER_MODEL, temperature, max_tokens)
     if content is not None:
         return content, None
 
-    return None, f"Both providers failed. Nous: {error}"
+    print(f"OpenRouter failed: {error}, trying Nous fallback...", file=sys.stderr)
+    content, error = call_nous(messages, model or DEFAULT_MODEL, temperature, max_tokens)
+    if content is not None:
+        return content, None
+
+    return None, f"Both providers failed. OpenRouter: {error}\n            model=\"upstage/solar-pro4:free\",  # Nous primary; OpenRouter fallback when Nous fails
 
 if __name__ == "__main__":
     # Simple test
