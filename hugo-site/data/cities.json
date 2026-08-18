@@ -75,5 +75,27 @@
       0
     ],
     "blurb": "Nebraska open-data explainers."
+  },
+  "nevada": {
+    "name": "Nevada",
+    "short": "NV",
+    "hub": "https://geohub-ndot.hub.arcgis.com/",
+    "gov": "https://www.nv.gov",
+    "center": [
+      0,
+      0
+    ],
+    "blurb": "Nevada open-data explainers — 83 datasets from the NDOT GeoHub."
+  },
+  "topeka": {
+    "name": "Topeka",
+    "short": "Topeka",
+    "hub": "https://performance.topeka.org/pages/open-data",
+    "gov": "https://www.topeka.org",
+    "center": [
+      0,
+      0
+    ],
+    "blurb": "Topeka open-data explainers — 2 datasets from the City of Topeka."
   }
 }

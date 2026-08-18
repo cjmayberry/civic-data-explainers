@@ -8,3 +8,12 @@ outputs/
 __pycache__/
 *.pyc
 .env
+
+# pipeline scratch / temp scripts — only repo-root temp scripts, not committed pipeline code
+find_finance_image.py
+replace_topic_images.py
+replace_topic_images_wm.py
+reshoot_cat_images.py
+test_wm_images.py
+update_manifest_finance.py
+*.newtail

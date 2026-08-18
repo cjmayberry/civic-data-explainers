@@ -13,25 +13,25 @@
   "categories": {
     "category:Transportation": {
       "file": "cat-transportation.jpg",
-      "query": "oklahoma city street",
-      "url": "https://live.staticflickr.com/670/32245865811_4b31315a42_b.jpg",
-      "title": "19110520 Oklahoma City Street Car Men",
-      "creator": "sashaflickr",
-      "license": "by",
+      "query": "busy city street intersection cars motorcycles",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/DZ6_0485_Busy_city_street_in_Thailand_with_motorcycles_cars_and_buildings_under_a_bright_blue_sky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "DZ6 0485 Busy city street in Thailand with motorcycles cars and buildings under a bright blue sky.jpg",
+      "creator": "PattayaPatrol",
+      "license": "CC BY-SA 4.0",
       "license_version": "2.0",
-      "source": "https://www.flickr.com/photos/12047284@N07/32245865811",
-      "bytes": 258759
+      "source": "https://commons.wikimedia.org/wiki/DZ6_0485_Busy_city_street_in_Thailand_with_motorcycles_cars_and_buildings_under_a_bright_blue_sky.jpg",
+      "bytes": 14591693
     },
     "category:Infrastructure": {
       "file": "cat-infrastructure.jpg",
-      "query": "road construction",
-      "url": "https://live.staticflickr.com/65535/49119559182_7c25a16281_b.jpg",
-      "title": "Minneapolis Road Construction",
-      "creator": "chaddavis.photography",
-      "license": "by-nc-sa",
+      "query": "road construction crew paving asphalt",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Road_crews_paving_asphalt_on_Euclid_Avenue_near_Euclid_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Road crews paving asphalt on Euclid Avenue near Euclid Place.jpg",
+      "creator": "Unknown authorUnknown author",
+      "license": "Public domain",
       "license_version": "2.0",
-      "source": "https://www.flickr.com/photos/146321178@N05/49119559182",
-      "bytes": 235558
+      "source": "https://commons.wikimedia.org/wiki/Road_crews_paving_asphalt_on_Euclid_Avenue_near_Euclid_Place.jpg",
+      "bytes": 4383349
     },
     "category:Licensing": {
       "file": "cat-licensing.jpg",
@@ -46,36 +46,36 @@
     },
     "category:Government": {
       "file": "cat-government.jpg",
-      "query": "oklahoma city downtown",
-      "url": "https://live.staticflickr.com/3221/2620633986_e325962618_b.jpg",
-      "title": "Oklahoma City Downtown, OK",
-      "creator": "LLudo",
-      "license": "by-nc-sa",
+      "query": "city hall government building exterior facade",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Renovations_will_begin_soon_on_the_40-year-old_Pittston_City_Hall_in_Pittston%2C_PA_to_modernize_the_exterior_facade_and_upgrade_the_building_to_make_it_handicap_accessible_by_adding_an_elevator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Renovations will begin soon on the 40-year-old Pittston City Hall in Pittston, PA to modernize the exterior facade and upgrade the building to make it handicap accessible by adding an elevator.jpg",
+      "creator": "USDAgov",
+      "license": "Public domain",
       "license_version": "2.0",
-      "source": "https://www.flickr.com/photos/8458252@N05/2620633986",
-      "bytes": 208698
+      "source": "https://commons.wikimedia.org/wiki/Renovations_will_begin_soon_on_the_40-year-old_Pittston_City_Hall_in_Pittston%2C_PA_to_modernize_the_exterior_facade_and_upgrade_the_building_to_make_it_handicap_accessible_by_adding_an_elevator.jpg",
+      "bytes": 919032
     },
     "category:Finance": {
       "file": "cat-finance.jpg",
-      "query": "oklahoma city skyline",
-      "url": "https://live.staticflickr.com/135/325984092_165fd9572e_b.jpg",
-      "title": "Oklahoma city skyline",
-      "creator": "TheFriendlyFiend",
-      "license": "by-sa",
-      "license_version": "2.0",
-      "source": "https://www.flickr.com/photos/98063470@N00/325984092",
-      "bytes": 117502
+      "query": "accounting office laptop",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Man_at_a_laptop_in_an_office_%28Unsplash%29.jpg",
+      "title": "Man at a laptop in an office (Unsplash)",
+      "creator": "Bench Accounting (benchaccounting)",
+      "license": "CC0",
+      "license_version": "1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Man_at_a_laptop_in_an_office_(Unsplash).jpg",
+      "bytes": 108083
     },
     "category:Parks & Recreation": {
       "file": "cat-parks-recreation.jpg",
-      "query": "scissortail park oklahoma city",
-      "url": "https://live.staticflickr.com/65535/48852227558_b5690dab0f_b.jpg",
-      "title": "Enjoying a walk in the park",
-      "creator": "Kool Cats Photography over 14 Million Views",
-      "license": "by-nc",
+      "query": "urban park trees pathway green grass",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Walkway_in_the_Owen_Memorial_Rose_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Walkway in the Owen Memorial Rose Garden.jpg",
+      "creator": "Rick Obst",
+      "license": "CC BY 4.0",
       "license_version": "2.0",
-      "source": "https://www.flickr.com/photos/40775084@N05/48852227558",
-      "bytes": 274981
+      "source": "https://commons.wikimedia.org/wiki/Walkway_in_the_Owen_Memorial_Rose_Garden.jpg",
+      "bytes": 6949891
     },
     "category:Public Safety": {
       "file": "cat-public-safety.jpg",
@@ -90,7 +90,7 @@
     }
   },
   "mapbox_enabled": true,
-  "generated_at": "2026-08-11T18:31:00Z",
+  "generated_at": "2026-08-17T16:30:38Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -140,7 +140,7 @@
       "inquiry_enabled": true,
       "inquiry_search_field": "Adopted_Street",
       "inquiry_field": "Adopting_Organization",
-      "inquiry_label": "Is your street adopted — and by whom?",
+      "inquiry_label": "Is your street adopted \u2014 and by whom?",
       "inquiry_extra": [],
       "enrichment_status": null,
       "last_updated": "2026-08-11T11:29:18Z"
