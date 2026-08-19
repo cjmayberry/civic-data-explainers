@@ -95,7 +95,7 @@
       "city_slug": "topeka",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
+      "content_status": "drafted",
       "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",

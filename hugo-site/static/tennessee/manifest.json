@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-11T14:43:03Z",
+  "generated_at": "2026-08-19T03:46:14Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -12,7 +12,7 @@
       "city_slug": "tennessee",
       "display_category": "Default",
       "category": "Default",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -36,7 +36,7 @@
       "display_category": "Education",
       "category": "Education",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "active-statewide-childcare-locations-bfe29552--education--placeholder.svg",
@@ -126,7 +126,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "ada-asset-data-69511fa7",
@@ -136,7 +136,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ada-asset-data-69511fa7--transportation--placeholder.svg",
@@ -419,7 +419,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "adopted-location-61cf8755",
@@ -429,7 +429,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "adopted-location-61cf8755--transportation--placeholder.svg",
@@ -546,7 +546,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "adopter-61cf8755",
@@ -556,7 +556,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "adopter-61cf8755--transportation--placeholder.svg",
@@ -673,7 +673,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "attenuators-de19ac95",
@@ -683,7 +683,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "attenuators-de19ac95--transportation--placeholder.svg",
@@ -849,7 +849,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "bike-level-of-service-3dccf74a",
@@ -859,7 +859,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bike-level-of-service-3dccf74a--transportation--placeholder.svg",
@@ -990,7 +990,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "boat-launch-sites-b3ab0451",
@@ -1000,7 +1000,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "boat-launch-sites-b3ab0451--parks-recreation--placeholder.svg",
@@ -1311,7 +1311,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "bridge-condition-8d89d92e",
@@ -1321,7 +1321,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bridge-condition-8d89d92e--infrastructure--placeholder.svg",
@@ -1400,7 +1400,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "bridge-condition-annual-8d89d92e",
@@ -1410,7 +1410,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bridge-condition-annual-8d89d92e--infrastructure--placeholder.svg",
@@ -1489,7 +1489,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "bridge-condition-annual-summary-8d89d92e",
@@ -1499,7 +1499,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "bridge-condition-annual-summary-8d89d92e--infrastructure--placeholder.svg",
@@ -1578,7 +1578,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "concrete-barrier-wall-784fdeb5",
@@ -1588,7 +1588,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "concrete-barrier-wall-784fdeb5--transportation--placeholder.svg",
@@ -1747,7 +1747,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "construction-d095eddf",
@@ -1757,7 +1757,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "construction-d095eddf--infrastructure--placeholder.svg",
@@ -1886,7 +1886,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "control-fence-25d805b3",
@@ -1896,7 +1896,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "control-fence-25d805b3--infrastructure--placeholder.svg",
@@ -2049,7 +2049,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "counties-f44bd806",
@@ -2059,7 +2059,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "counties-f44bd806--government--placeholder.svg",
@@ -2126,7 +2126,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "crosswalks-69511fa7",
@@ -2136,7 +2136,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "crosswalks-69511fa7--transportation--placeholder.svg",
@@ -2419,7 +2419,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "curb-and-gutter-segment-af31b5b8",
@@ -2429,7 +2429,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "curb-and-gutter-segment-af31b5b8--infrastructure--placeholder.svg",
@@ -2570,7 +2570,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "curb-ramps-69511fa7",
@@ -2580,7 +2580,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "curb-ramps-69511fa7--transportation--placeholder.svg",
@@ -2863,7 +2863,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "delineator-9bc8a54b",
@@ -2873,7 +2873,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "delineator-9bc8a54b--transportation--placeholder.svg",
@@ -3026,7 +3026,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "district-boundaries-d38b1948",
@@ -3036,7 +3036,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "district-boundaries-d38b1948--government--placeholder.svg",
@@ -3114,7 +3114,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "ditch-93f8a40f",
@@ -3124,7 +3124,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ditch-93f8a40f--infrastructure--placeholder.svg",
@@ -3277,7 +3277,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "drain-1461275b",
@@ -3287,7 +3287,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "drain-1461275b--infrastructure--placeholder.svg",
@@ -3436,7 +3436,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "entrance-pipe-7774c2dc",
@@ -3446,7 +3446,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "entrance-pipe-7774c2dc--infrastructure--placeholder.svg",
@@ -3600,7 +3600,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "extruded-panel-sign-ddf879d9",
@@ -3610,7 +3610,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "extruded-panel-sign-ddf879d9--transportation--placeholder.svg",
@@ -3807,7 +3807,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "find-a-park-points-data-filters-tn-state-parks-d54ec10b",
@@ -3817,7 +3817,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "find-a-park-points-data-filters-tn-state-parks-d54ec10b--parks-recreation--placeholder.svg",
@@ -4286,7 +4286,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "fish-attractor-locations-for-habitat-enhancement-ce62f590",
@@ -4296,7 +4296,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "fish-attractor-locations-for-habitat-enhancement-ce62f590--environment--placeholder.svg",
@@ -4425,7 +4425,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "fishing-sites-daf255dc",
@@ -4435,7 +4435,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "fishing-sites-daf255dc--parks-recreation--placeholder.svg",
@@ -4719,7 +4719,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "flat-sheet-sign-35e8ee99",
@@ -4729,7 +4729,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "flat-sheet-sign-35e8ee99--transportation--placeholder.svg",
@@ -4926,7 +4926,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "guardrail-e6fc8455",
@@ -4936,7 +4936,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "guardrail-e6fc8455--transportation--placeholder.svg",
@@ -5095,7 +5095,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "guardrail-terminal-14ec6d50",
@@ -5105,7 +5105,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "guardrail-terminal-14ec6d50--transportation--placeholder.svg",
@@ -5267,7 +5267,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "impacted-streams-subbasin-project-pins-3556056b",
@@ -5277,7 +5277,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "impacted-streams-subbasin-project-pins-3556056b--transportation--placeholder.svg",
@@ -5456,7 +5456,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "inform-fire-occurrence-data-record-fodr-de373a56",
@@ -5465,7 +5465,7 @@
       "city_slug": "tennessee",
       "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -5489,7 +5489,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "landscaping-and-flowers-1dd54a85--infrastructure--placeholder.svg",
@@ -5654,7 +5654,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "marina-sites-5fa96ee2",
@@ -5664,7 +5664,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "marina-sites-5fa96ee2--parks-recreation--placeholder.svg",
@@ -5952,7 +5952,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "mile-marker-b51d9940",
@@ -5962,7 +5962,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "mile-marker-b51d9940--transportation--placeholder.svg",
@@ -6153,7 +6153,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "mowable-acres-129a15ac",
@@ -6163,7 +6163,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "mowable-acres-129a15ac--infrastructure--placeholder.svg",
@@ -6316,7 +6316,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "naip-imagery-ndvi-6f6bcf8c",
@@ -6325,7 +6325,7 @@
       "city_slug": "tennessee",
       "display_category": "Environment",
       "category": "Environment",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -6348,7 +6348,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -6371,7 +6371,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -6395,7 +6395,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "national-wetlands-inventory-b02ce30e--environment--placeholder.svg",
@@ -6448,7 +6448,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "no-mow-19100c10",
@@ -6458,7 +6458,7 @@
       "display_category": "Infrastructure",
       "category": "Infrastructure",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "no-mow-19100c10--infrastructure--placeholder.svg",
@@ -6616,7 +6616,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "no-shoulder-ffc48608",
@@ -6626,7 +6626,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "no-shoulder-ffc48608--transportation--placeholder.svg",
@@ -6779,7 +6779,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "paddling-access-sites-2389307b",
@@ -6789,7 +6789,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "paddling-access-sites-2389307b--parks-recreation--placeholder.svg",
@@ -7083,7 +7083,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pavement-marking-c183cdd4",
@@ -7093,7 +7093,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pavement-marking-c183cdd4--transportation--placeholder.svg",
@@ -7246,7 +7246,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pavement-roughness-annual-dca2dabf",
@@ -7256,7 +7256,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pavement-roughness-annual-dca2dabf--transportation--placeholder.svg",
@@ -7358,7 +7358,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pavement-roughness-annual-summary-dca2dabf",
@@ -7368,7 +7368,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pavement-roughness-annual-summary-dca2dabf--transportation--placeholder.svg",
@@ -7470,7 +7470,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pavement-roughness-dca2dabf",
@@ -7480,7 +7480,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pavement-roughness-dca2dabf--transportation--placeholder.svg",
@@ -7582,7 +7582,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pedestrian-level-traffic-stress-fb1448f0",
@@ -7592,7 +7592,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pedestrian-level-traffic-stress-fb1448f0--transportation--placeholder.svg",
@@ -7694,7 +7694,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pedestrian-signal-69511fa7",
@@ -7704,7 +7704,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pedestrian-signal-69511fa7--transportation--placeholder.svg",
@@ -7987,7 +7987,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "pickup-details-61cf8755",
@@ -7997,7 +7997,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pickup-details-61cf8755--transportation--placeholder.svg",
@@ -8114,7 +8114,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "raised-pavement-marker-3e12710c",
@@ -8124,7 +8124,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "raised-pavement-marker-3e12710c--transportation--placeholder.svg",
@@ -8277,7 +8277,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "road-description-500e6539",
@@ -8287,7 +8287,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "road-description-500e6539--transportation--placeholder.svg",
@@ -8383,7 +8383,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "road-geometrics-552d7e44",
@@ -8393,7 +8393,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "road-geometrics-552d7e44--transportation--placeholder.svg",
@@ -8507,7 +8507,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "road-segment-37229399",
@@ -8517,7 +8517,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "road-segment-37229399--transportation--placeholder.svg",
@@ -8711,7 +8711,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "rumble-strip-dbf60d13",
@@ -8721,7 +8721,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "rumble-strip-dbf60d13--transportation--placeholder.svg",
@@ -8874,7 +8874,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "sgcnbycoa2025-089d5b8c",
@@ -8884,7 +8884,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sgcnbycoa2025-089d5b8c--environment--placeholder.svg",
@@ -9007,7 +9007,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "shoulder-surface-area-5bf235c8",
@@ -9017,7 +9017,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "shoulder-surface-area-5bf235c8--transportation--placeholder.svg",
@@ -9187,7 +9187,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "sidewalks-69511fa7",
@@ -9197,7 +9197,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sidewalks-69511fa7--transportation--placeholder.svg",
@@ -9480,7 +9480,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "soils-tennessee-f0e77996",
@@ -9490,7 +9490,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "soils-tennessee-f0e77996--environment--placeholder.svg",
@@ -9614,7 +9614,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "specialty-pavement-markings-69511fa7",
@@ -9624,7 +9624,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "specialty-pavement-markings-69511fa7--transportation--placeholder.svg",
@@ -9907,7 +9907,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "specialty-pavement-markings-aff8d2f2",
@@ -9917,7 +9917,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "specialty-pavement-markings-aff8d2f2--transportation--placeholder.svg",
@@ -10089,7 +10089,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "state-aid-route-funding-6465d80a",
@@ -10099,7 +10099,7 @@
       "display_category": "Finance",
       "category": "Finance",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "state-aid-route-funding-6465d80a--finance--placeholder.svg",
@@ -10148,7 +10148,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tdec-huntable-areas-external-d33b97aa",
@@ -10158,7 +10158,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tdec-huntable-areas-external-d33b97aa--parks-recreation--placeholder.svg",
@@ -10224,7 +10224,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tdf-out-of-state-deployments-2f0476ee",
@@ -10234,7 +10234,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tdf-out-of-state-deployments-2f0476ee--government--placeholder.svg",
@@ -10319,7 +10319,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tdot-adopt-a-highway-public-data-view-61cf8755",
@@ -10329,7 +10329,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tdot-adopt-a-highway-public-data-view-61cf8755--transportation--placeholder.svg",
@@ -10446,7 +10446,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tdot-producer-list-plants-796303a7",
@@ -10456,7 +10456,7 @@
       "display_category": "Licensing",
       "category": "Licensing",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tdot-producer-list-plants-796303a7--licensing--placeholder.svg",
@@ -10571,7 +10571,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c",
@@ -10581,7 +10581,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-conservation-opportunity-areas-and-spe-089d5b8c--environment--placeholder.svg",
@@ -10704,7 +10704,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-fire-danger-rating-areas-59255f5c",
@@ -10714,7 +10714,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-fire-danger-rating-areas-59255f5c--public-safety--placeholder.svg",
@@ -10772,7 +10772,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb",
@@ -10782,7 +10782,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-forest-legacy-program-priority-areas-2-93cbc1eb--environment--placeholder.svg",
@@ -10835,7 +10835,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-ng911-address-points-f76e2673",
@@ -10845,7 +10845,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-ng911-address-points-f76e2673--public-safety--placeholder.svg",
@@ -11190,7 +11190,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-ng911-road-centerlines-1fc31033",
@@ -11200,7 +11200,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-ng911-road-centerlines-1fc31033--public-safety--placeholder.svg",
@@ -11488,7 +11488,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-polling-places-e47c3cff",
@@ -11497,7 +11497,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -11521,7 +11521,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-public-safety-answering-point-boundari-c8563776--public-safety--placeholder.svg",
@@ -11562,7 +11562,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-river-miles-and-county-boundaries-f44bd806",
@@ -11572,7 +11572,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-river-miles-and-county-boundaries-f44bd806--government--placeholder.svg",
@@ -11639,7 +11639,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-state-forest-boundaries-cbae4ca7",
@@ -11649,7 +11649,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-state-forest-boundaries-cbae4ca7--environment--placeholder.svg",
@@ -11755,7 +11755,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-statewide-recreation-areas-public-f6c2e752",
@@ -11765,7 +11765,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-statewide-recreation-areas-public-f6c2e752--parks-recreation--placeholder.svg",
@@ -12048,7 +12048,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-statewide-trails-lines-public-49ef503e",
@@ -12058,7 +12058,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-statewide-trails-lines-public-49ef503e--parks-recreation--placeholder.svg",
@@ -12262,7 +12262,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-statewide-trails-points-public-87d9ef12",
@@ -12272,7 +12272,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-statewide-trails-points-public-87d9ef12--parks-recreation--placeholder.svg",
@@ -12471,7 +12471,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53",
@@ -12481,7 +12481,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-wildfire-hazard-potential-hexagon-grid-d355ca53--public-safety--placeholder.svg",
@@ -12539,7 +12539,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-wildlife-management-area-entrances-5ed7fa43",
@@ -12549,7 +12549,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-wildlife-management-area-entrances-5ed7fa43--parks-recreation--placeholder.svg",
@@ -12628,7 +12628,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1",
@@ -12638,7 +12638,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tennessee-wildlife-resource-agency-region-bounda-e2d188a1--parks-recreation--placeholder.svg",
@@ -12685,7 +12685,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tn-city-boundaries-cf079cf3",
@@ -12694,7 +12694,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -12718,7 +12718,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tn-coa25-089d5b8c--environment--placeholder.svg",
@@ -12841,7 +12841,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tn-congressional-districts-90e47429",
@@ -12850,7 +12850,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -12873,7 +12873,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -12896,7 +12896,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -12920,7 +12920,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tn-rivermiles-f44bd806--government--placeholder.svg",
@@ -12987,7 +12987,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tn-scenic-rivers-lines-4f61bcb9",
@@ -12997,7 +12997,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tn-scenic-rivers-lines-4f61bcb9--environment--placeholder.svg",
@@ -13074,7 +13074,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tn-senate-districts-977f2087",
@@ -13083,7 +13083,7 @@
       "city_slug": "tennessee",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -13107,7 +13107,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tn-state-parks-boundaries-1b28885b--parks-recreation--placeholder.svg",
@@ -13225,7 +13225,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tn-state-parks-points-d4ef7243",
@@ -13235,7 +13235,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tn-state-parks-points-d4ef7243--parks-recreation--placeholder.svg",
@@ -13338,7 +13338,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tnmap-data-server-access-c478c810",
@@ -13347,7 +13347,7 @@
       "city_slug": "tennessee",
       "display_category": "Environment",
       "category": "Environment",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -13370,7 +13370,7 @@
       "city_slug": "tennessee",
       "display_category": "Environment",
       "category": "Environment",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
@@ -13394,7 +13394,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "traffic-lines-63b320c4--transportation--placeholder.svg",
@@ -13568,7 +13568,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "traffic-points-59838882",
@@ -13578,7 +13578,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "traffic-points-59838882--transportation--placeholder.svg",
@@ -13777,7 +13777,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "travel-lanes-surface-area-25327b73",
@@ -13787,7 +13787,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "travel-lanes-surface-area-25327b73--transportation--placeholder.svg",
@@ -13957,7 +13957,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "trout-stocking-locations-in-tennessee-3ec5c58f",
@@ -13967,7 +13967,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "trout-stocking-locations-in-tennessee-3ec5c58f--parks-recreation--placeholder.svg",
@@ -14130,7 +14130,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "tunnels-e23ae4cd",
@@ -14140,7 +14140,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tunnels-e23ae4cd--transportation--placeholder.svg",
@@ -14287,7 +14287,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "twra-hunting-allowed-lands-e4fb1224",
@@ -14297,7 +14297,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "twra-hunting-allowed-lands-e4fb1224--parks-recreation--placeholder.svg",
@@ -14440,7 +14440,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "usfs-forest-legacy-completed-tracts-389c0319",
@@ -14450,7 +14450,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usfs-forest-legacy-completed-tracts-389c0319--environment--placeholder.svg",
@@ -14707,7 +14707,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "waterfowlblinds-25d32a1b",
@@ -14717,7 +14717,7 @@
       "display_category": "Parks & Recreation",
       "category": "Parks & Recreation",
       "content_status": "drafted",
-      "content_model": "openrouter/anthropic/claude-sonnet-4/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "waterfowlblinds-25d32a1b--parks-recreation--placeholder.svg",
@@ -14784,7 +14784,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "wildland-fire-incident-locations-0750acfb",
@@ -14794,7 +14794,7 @@
       "display_category": "Public Safety",
       "category": "Public Safety",
       "content_status": "drafted",
-      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
+      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "wildland-fire-incident-locations-0750acfb--public-safety--placeholder.svg",
@@ -15337,7 +15337,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-11T14:43:03Z"
+      "last_updated": "2026-08-19T03:46:14Z"
     },
     {
       "slug": "winter-storm-fern-damage-assessment-840bd4a6",
@@ -15346,7 +15346,7 @@
       "city_slug": "tennessee",
       "display_category": "Public Safety",
       "category": "Public Safety",
-      "content_status": "stub",
+      "content_status": "needs_review",
       "content_model": null,
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
