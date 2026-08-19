@@ -203,7 +203,7 @@ def strip_html(raw):
 def main():
     global DATASETS_DIR, CATALOG_PATH, OUT_DRAFTS, MANIFEST_PATH
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", default="deepseek/deepseek-chat-v3-0324",
+    parser.add_argument("--model", default="upstage/solar-pro4:free",
                         help="model id (Nous primary; OpenRouter fallback)")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--only", help="comma list of slugs to re-draft (debug)")
@@ -282,7 +282,7 @@ def main():
                     {"role": "system", "content": DRAFT_SYSTEM_PROMPT_V3},
                     {"role": "user", "content": payload},
                 ],
-                model="deepseek/deepseek-chat-v3-0324",  # Nous primary fails (403); OpenRouter fallback
+                model="upstage/solar-pro4:free",  # Nous primary; OpenRouter fallback when Nous fails
                 temperature=0.4, max_tokens=900,
                 openrouter_model=args.model,
             )
