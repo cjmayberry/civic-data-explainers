@@ -36,7 +36,7 @@ NOUS_BASE_URL = "https://inference-api.nousresearch.com/v1/chat/completions"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Default model (Nous free tier, primary)
-DEFAULT_MODEL = "upstage/solar-pro4:free"
+DEFAULT_MODEL = "deepseek/deepseek-chat-v3-0324"
 # OpenRouter fallback — OpenRouter wants the bare slug, no :free suffix
 OPENROUTER_MODEL = "upstage/solar-pro4"
 

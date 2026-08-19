@@ -10,20 +10,18 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=d8c3d835c3d348efaa3a380a3aa7bc3b&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KU::perry-lake-extent"
-geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Perry_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps the shoreline wetlands around Perry Lake in Jefferson County, Kansas.
 
-## What this is
+## Why it matters to you  
+If you're planning to fish, boat, or buy property near Perry Lake, this data shows where protected wetlands begin—helping you avoid unexpected restrictions. Homeowners can check if their shoreline is part of these areas before building docks or clearing vegetation. Hunters and birdwatchers can also use it to locate prime wetland habitats.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**area_sqm** — Total size of each wetland area in square meters (e.g., 42,883,318 sqm). Larger numbers mean more extensive protected zones.  
+**gridcode** — Classification identifier (e.g., 1). Consistent values suggest uniform wetland types in this dataset.
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Zoom to your property or favorite recreation spot on [Perry Lake’s online map](https://www.nwk.usace.army.mil/Locations/District-Lakes/Perry-Lake/) to see if it borders these protected wetlands.

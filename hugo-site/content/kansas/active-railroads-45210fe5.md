@@ -2,7 +2,7 @@
 title: "Active Railroads"
 date: "2026-08-02"
 description: "The 4,216-mile rail system in Kansas plays an essential freight transportation role both within the state and nationally. Kansas’ location and position on principal rail corridors provides rail access to every region of "
-teaser: "The 4,216-mile rail system in Kansas plays an essential freight transportation role both within the state and nationally. Kansas’ location a"
+teaser: "The 4,216-mile rail system in Kansas plays an essential freight transportation role both within the state and nationally. Kansas’ location and position on principal rail…"
 tags: ["Transportation"]
 categories: ["Transportation"]
 cover: "covers/active-railroads-45210fe5--transportation--placeholder.svg"
@@ -11,20 +11,19 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=45210fe5dcf94f70b01343d6200660bf&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KSDOT::active-railroads-2"
-geojson_url: "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps active railroad lines across Kansas, including ownership, location markers, and operational details.
 
-## What this is
+## Why it matters to you  
+If you're considering buying property near train tracks, this data tells you whether the line is actively used and by which operator — crucial for noise and vibration concerns. Business owners shipping goods can identify which rail companies serve specific stretches of track when negotiating freight contracts. Farmers in Kansas can check if nearby rail segments are part of the Primary Freight Network for grain transport planning.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**RailroadOwner** — The company operating the track (e.g., "VSR").  
+**BeginMile/EndMile** — Physical markers along the track (e.g., 22.0 to 24.18 means this segment starts at milepost 22).  
+**LRSKey** — The railroad's internal name for the segment (e.g., "V & S_MEDICINE LODGE" suggests this serves Medicine Lodge, KS).  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Search the map for railroad segments near your property using the mile marker range (BeginMile/EndMile) to assess potential train activity levels.

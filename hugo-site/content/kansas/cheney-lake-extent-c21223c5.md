@@ -10,20 +10,18 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=c21223c5e67c4af88cb20e6a05e6ee54&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KU::cheney-lake-extent"
-geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Cheney_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps the shoreline wetlands around Cheney Lake in Kansas, showing their extent and boundaries.  
 
-## What this is
+## Why it matters to you  
+If you own lakeside property near Cheney Lake, this data helps you understand how close wetlands are to your land—important for building permits or conservation efforts. Anglers and boaters can use it to identify marshy areas that may affect navigation or fishing spots. The map also helps Reno, Kingman, and Sedgwick County residents track changes in the lake’s shoreline over time.  
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**gridcode** — A classification code for wetland areas (e.g., `1` likely indicates a specific wetland type).  
+**area_sqm** — The size of each wetland area in square meters (e.g., `40546903` means a large wetland zone).  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Check the map to see if wetlands border your property or a favorite fishing spot along Cheney Lake.

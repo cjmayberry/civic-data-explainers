@@ -16,15 +16,22 @@ geojson_url: "https://gis.ne.gov/agencyext/rest/services/Mitigation_Projects/Fea
 draft: false
 ---
 
-
 ## What this is
 
-_Stub — awaiting a schema-grounded draft._
+The Mitigation Projects layer tracks floodplain and hazard-mitigation projects across Nebraska, maintained by the Nebraska Department of Natural Resources (NeDNR) Floodplain Section in partnership with the US Army Corps of Engineers' Silver Jackets program. Silver Jackets teams coordinate federal, state, and local resources to reduce flood risk through collaborative mitigation planning and project implementation.
 
 ## Why it matters to you
 
+If you own property in a flood-prone area of Nebraska, knowing which mitigation projects are active near you — levee improvements, channel restoration, buyout programs, or floodplain mapping updates — helps you understand what protective work is underway and whether your property might benefit from reduced flood risk over time. It also helps you anticipate how local floodplain regulations may change as projects move forward.
+
 ## How to read this data
+
+Each project record represents a mitigation activity with a spatial extent. The layer is most useful at the watershed or county scale — you can see where projects are concentrated and which communities have active mitigation funding. Individual project details (scope, timeline, funding source) are documented by NeDNR and the Silver Jackets team rather than stored in this geometry layer.
 
 ## Where this leaves you
 
+Mitigation projects are tied to specific watersheds and floodplain areas, not individual addresses. To find out whether a project affects your property, identify the project polygon near your location and then contact NeDNR or your local emergency management agency for project-specific details.
+
 ## Look it up yourself
+
+Open the map and zoom to your watershed or county. Colored project areas show where mitigation work is underway or planned. For project status, scope, and whether your property is within a project area, contact the Nebraska Department of Natural Resources Floodplain Section or your local Silver Jackets team representative.

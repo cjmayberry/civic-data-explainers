@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-15T03:38:16Z",
+  "generated_at": "2026-08-19T12:35:55Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -115,7 +115,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2024_Tax_Units/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "2025-tax-units-1763b672",
@@ -227,7 +228,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2025_Tax_Units/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "2026-tax-units-796f2a21",
@@ -345,7 +347,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/2026_Tax_Units/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "303-d-approved-590c7df6",
@@ -631,7 +634,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "_index",
@@ -837,7 +841,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_Flow_Map/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "aadt-nonstate-d7e599ad",
@@ -1018,7 +1023,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/AADT_NonState/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "abandoned-railroad-45210fe5",
@@ -1143,7 +1149,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "active-railroads-45210fe5",
@@ -1268,7 +1275,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "active-railroads-a05f89d9",
@@ -1398,7 +1406,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Active_Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "aquifer-extents-7684344e",
@@ -1449,7 +1458,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "certified-gas-areas-86cec985",
@@ -1572,7 +1582,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KCC_Certified_Gas_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "cheney-lake-extent-c21223c5",
@@ -1636,7 +1647,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Cheney_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "city-boundaries-70ee9dcb",
@@ -1717,7 +1729,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/City_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "class-ii-wells-a5703985",
@@ -2078,7 +2091,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_II_Wells/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "crashes-in-kansas-b79862ee",
@@ -2667,7 +2681,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Accidents/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "dakota-aquifer-1a94d026",
@@ -2760,7 +2775,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "dakota-aquifer-base-1a94d026",
@@ -2853,7 +2869,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "dakota-aquifer-top-1a94d026",
@@ -2946,7 +2963,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "earthquakes-bbc487a3",
@@ -3047,7 +3065,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Earthquakes/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "high-plains-aquifer-c5972ca2",
@@ -3127,7 +3146,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/High_Plains_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "huc-10-boundaries-99fc78f9",
@@ -3220,7 +3240,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "huc-12-boundaries-7cb40e88",
@@ -3349,7 +3370,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/7/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "huc-8-boundaries-66acd95e",
@@ -3471,7 +3493,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/HUC_Boundaries_WFL1/FeatureServer/1/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "inorganic-organic-70e174de",
@@ -3702,7 +3725,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "judicial-districts-94e59024",
@@ -3753,7 +3777,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "k-12-schools-6d319afa",
@@ -3853,7 +3878,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Schools/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kansas-arboretums-c1b15431",
@@ -3960,7 +3986,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Arboretums_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kansas-cell-towers-d35f79cc",
@@ -4290,7 +4317,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Cellular/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kansas-sawmills-25f70b7a",
@@ -4420,7 +4448,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Kansas_Sawmills_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kansas-tree-cities-308e8696",
@@ -4526,7 +4555,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Tree_City_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kdhe-reported-spills-32867c63",
@@ -4783,7 +4813,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Spills_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kdhe-tmdl-lake-53575704",
@@ -5242,7 +5273,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/5/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "kdhe-tmdl-stream-910998e2",
@@ -5688,7 +5720,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/FeatureServer/4/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "lottery-regions-94e59024",
@@ -5739,7 +5772,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "marion-lake-extent-4f44952f",
@@ -5803,7 +5837,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Marion_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "melvern-lake-extent-97d48513",
@@ -5867,7 +5902,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Melvern_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "milford-lake-extent-c0143643",
@@ -5925,7 +5961,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Milford_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "non-state-bridges-9b5032d8",
@@ -6764,7 +6801,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/Non_State_Bridges/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "oil-and-gas-fields-390ee1b9",
@@ -6953,7 +6991,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Fields/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "oil-and-gas-leases-66970100",
@@ -7457,7 +7496,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Leases/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "osage-aquifer-extent-7684344e",
@@ -7508,7 +7548,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "ozark-aquifer-58374a14",
@@ -7607,7 +7648,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "ozark-aquifer-base-58374a14",
@@ -7706,7 +7748,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "ozark-aquifer-extent-58374a14",
@@ -7805,7 +7848,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "ozark-aquifer-extent-7684344e",
@@ -7856,7 +7900,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "ozark-aquifer-top-58374a14",
@@ -7955,7 +8000,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "parole-regions-94e59024",
@@ -8006,7 +8052,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/state_admin_bnd_zip/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "perry-lake-extent-d8c3d835",
@@ -8070,7 +8117,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Perry_Lake_extent/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "quarries-and-mines-74955adc",
@@ -8276,7 +8324,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Quarries_and_Mines/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "radiological-70e174de",
@@ -8507,7 +8556,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "railroads-45210fe5",
@@ -8632,7 +8682,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "reported-wildfires-7c192b1e",
@@ -8762,7 +8813,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/ReportedWildfires_Public/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "rest-areas-60f51c2f",
@@ -8923,7 +8975,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Facilities/Rest_Areas/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "school-districts-370fa9f9",
@@ -8946,7 +8999,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-15T03:37:30Z",
+      "geojson_url": "https://services.kansasgis.org/arcgis15/rest/services/admin_boundaries/KS_SchoolDistricts/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "soils-e3cc9752",
@@ -8969,7 +9023,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-15T03:37:30Z",
+      "geojson_url": "https://services.kansasgis.org/arcgis15/rest/services/land_geology_soils/Soils/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "speed-limits-75977bf0",
@@ -9120,7 +9175,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Speed_Limits/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "state-bridges-675bea04",
@@ -9496,7 +9552,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Structures/State_Bridges/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "state-system-2f3c7f01",
@@ -9582,7 +9639,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/State_System/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-blocks-e9b7eebd",
@@ -9717,7 +9775,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-counties-7e1658ed",
@@ -9854,7 +9913,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Counties/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-counties-e9b7eebd",
@@ -9989,7 +10049,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-railroads-61aac521",
@@ -10012,7 +10073,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-15T03:37:30Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger 2020 Railroads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-roads-9f16300a",
@@ -10035,7 +10097,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-15T03:37:30Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger 2020 Roads/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tiger-2020-tracts-e9b7eebd",
@@ -10170,7 +10233,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Tiger_2020_Boundaries/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tmdl-590c7df6",
@@ -10456,7 +10520,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tmdl-lake-590c7df6",
@@ -10742,7 +10807,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "tmdl-stream-590c7df6",
@@ -11028,7 +11094,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://maps.kdhe.ks.gov/kdhe_oits/rest/services/Reference/TMDL_vw_external/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "type-wells-7889d5d3",
@@ -11481,7 +11548,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Type_Wells/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usace-reservoirs-33bb4110",
@@ -11586,7 +11654,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USACE_Reservoirs/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usgs-100k-quad-ba85eecb",
@@ -11708,7 +11777,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usgs-24k-quad-ba85eecb",
@@ -11830,7 +11900,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usgs-250k-quad-ba85eecb",
@@ -11952,7 +12023,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usgs-quads-ba85eecb",
@@ -12074,7 +12146,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usgs-scanned-topos-6299533e",
@@ -12097,7 +12170,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-15T03:37:30Z",
+      "geojson_url": "https://server.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usng-100000m-c3fe0b26",
@@ -12138,7 +12212,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usng-10000m-c3fe0b26",
@@ -12179,7 +12254,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usng-1000m-c3fe0b26",
@@ -12220,7 +12296,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usng-100m-c3fe0b26",
@@ -12261,7 +12338,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "usng-6x8-zones-c3fe0b26",
@@ -12302,7 +12380,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_National_Grid_HFL_V/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "volatiles-organics-70e174de",
@@ -12533,7 +12612,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/Hydro_Groundwater_Quality_Study_DASC/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "voting-districts-bbef5728",
@@ -12656,7 +12736,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Voting_Districts/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "water-wells-wwc5-921cf865",
@@ -13369,7 +13450,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Water_Wells_WWC5/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     },
     {
       "slug": "waterflood-6e2bed50",
@@ -13704,7 +13786,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T03:37:30Z"
+      "last_updated": "2026-08-19T12:35:55Z",
+      "geojson_url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Waterflood/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
     }
   ]
 }

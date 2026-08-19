@@ -2,7 +2,7 @@
 title: "Ozark Aquifer Base"
 date: "2026-08-02"
 description: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Kansas Geological Survey - Geohydrology. Potential uses of these digital maps incl"
-teaser: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Ka"
+teaser: "These digital maps contain information on the altitude of the base, top, and extent of the Ozark aquifer in Kansas. This data is from the Kansas Geological Survey…"
 tags: ["Inland waters", "Utilities and communication", "Farming"]
 categories: ["Environment"]
 cover: "covers/ozark-aquifer-base-58374a14--environment--placeholder.svg"
@@ -11,20 +11,19 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=58374a144fbe4b5790559710aed29082&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KU::ozark-aquifer-base"
-geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Ozark_Aquifer/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps the depth and extent of the Ozark aquifer beneath Kansas, showing where this groundwater resource exists and how far below the surface it starts.
 
-## What this is
+## Why it matters to you  
+If you're drilling a well in Kansas, this data tells you how deep you'll likely need to dig to reach usable water. Farmers planning irrigation systems can check whether the Ozark aquifer reaches their land before investing in equipment. Cities evaluating future water supplies use this to identify areas where the aquifer is shallow enough for cost-effective wells.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**FEET** — Depth to the top of the aquifer in feet (sample value: -9999 indicates missing data). Negative numbers mean below sea level.  
+**CODE** — Classification of aquifer characteristics (sample value: 222 corresponds to specific rock formations).  
+**OZ_BASE_** — Identifier for mapped aquifer base contours (sample value: 1 shows this is part of the primary dataset).
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Check the Kansas Geological Survey's interactive map to see the aquifer depth beneath your property by entering your county location.

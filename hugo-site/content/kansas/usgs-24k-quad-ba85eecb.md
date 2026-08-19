@@ -2,7 +2,7 @@
 title: "USGS 24K QUAD"
 date: "2026-08-02"
 description: "Vector dataset provides digital raster graphic (DRG) quad boundaries with attributes describing the quads. The full Kansas geospatial catalog is administered by the Kansas Data Access & Support Center (DASC) and can be f"
-teaser: "Vector dataset provides digital raster graphic (DRG) quad boundaries with attributes describing the quads. The full Kansas geospatial catalo"
+teaser: "Vector dataset provides digital raster graphic (DRG) quad boundaries with attributes describing the quads. The full Kansas geospatial catalog is administered by the…"
 tags: ["Boundaries"]
 categories: ["Government"]
 cover: "covers/usgs-24k-quad-ba85eecb--government--placeholder.svg"
@@ -11,20 +11,19 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=ba85eecbd67540a895cec417e71ecc00&sublayer=1"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KSDOT::usgs-24k-quad"
-geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/USGS_Quads_View/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps the boundaries and details of USGS 24K topographic quadrangles (quads) covering Kansas.  
 
-## What this is
+## Why it matters to you  
+If you're planning outdoor activities like hiking, hunting, or land surveying in Kansas, this data helps you locate the right topographic map for your area. Knowing the **QUADDATE** (map year) tells you whether the terrain details are up-to-date for navigation. Farmers can check **FIPS_C** to confirm which county boundaries overlap with their land.  
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**QUADNAME** — The name of the quadrangle (e.g., "Guymon"), matching printed USGS maps.  
+**QUADDATE** — The year the map was published (e.g., 1979), indicating its vintage.  
+**BOTTOM/TOP_/LEFT_/RIGHT_** — Latitude and longitude bounds (e.g., 36.5 to 37, -102 to -101) showing the quad’s coverage.  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Find the quadrangle covering your property by matching its location to the **BOTTOM/TOP_/LEFT_/RIGHT_** coordinates in the dataset.

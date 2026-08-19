@@ -2,7 +2,7 @@
 title: "Ozark Aquifer Extent"
 date: "2026-08-02"
 description: "These features delineate the extents of the aquifers in Kansas as identified by the Kansas Geological Survey. The data used to construct this coverage are from the state geologic map of Kansas. These features were develo"
-teaser: "These features delineate the extents of the aquifers in Kansas as identified by the Kansas Geological Survey. The data used to construct thi"
+teaser: "These features delineate the extents of the aquifers in Kansas as identified by the Kansas Geological Survey. The data used to construct this coverage are from the state…"
 tags: ["Inland waters", "Utilities and communication", "Farming"]
 categories: ["Environment"]
 cover: "covers/ozark-aquifer-extent-7684344e--environment--placeholder.svg"
@@ -11,20 +11,19 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=7684344eb6854fa3a6d0b567d470fd9e&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KU::ozark-aquifer-extent-1"
-geojson_url: "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset maps the underground boundaries and depth of the Ozark Aquifer beneath Kansas.
 
-## What this is
+## Why it matters to you  
+If you're drilling a well in Kansas, this tells you whether you'll hit the Ozark Aquifer and how deep to dig. Farmers can check if this water source reaches their land before investing in irrigation systems. Developers planning large projects in western Kansas can see if the aquifer could support their water needs.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**NAME** — Identifies the aquifer (always "Ozark Aquifer" in this dataset).  
+**Shape__Area** — The square footage of the aquifer's footprint (values not shown but important for understanding coverage).  
+**Shape__Length** — The perimeter measurement of the aquifer's boundaries (values not shown but indicates how far the water extends).
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Check the Kansas Geological Survey's interactive map to see if the Ozark Aquifer runs beneath your property by entering your county and township.

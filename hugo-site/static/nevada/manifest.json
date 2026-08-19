@@ -2,7 +2,7 @@
   "hero": null,
   "categories": {},
   "mapbox_enabled": true,
-  "generated_at": "2026-08-16T01:04:13Z",
+  "generated_at": "2026-08-19T12:49:36Z",
   "dataset_schema": 2,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "activity-line-82e08d89--other--placeholder.svg",
@@ -140,7 +140,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ada-right-of-way-inventory-91bdcf8f",
@@ -150,7 +150,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ada-right-of-way-inventory-91bdcf8f--transportation--placeholder.svg",
@@ -374,7 +374,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ada-row-inventory-ee16995a",
@@ -384,7 +384,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ada-row-inventory-ee16995a--government--placeholder.svg",
@@ -603,7 +603,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "cities-c6246e35",
@@ -613,7 +613,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "cities-c6246e35--government--placeholder.svg",
@@ -727,7 +727,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "commissionerdistricts-0935913c",
@@ -737,7 +737,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "commissionerdistricts-0935913c--transportation--placeholder.svg",
@@ -803,7 +803,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "crossings-4f28b5bf",
@@ -813,7 +813,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "crossings-4f28b5bf--environment--placeholder.svg",
@@ -886,7 +886,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "crossings-buffer-half-mile-4f28b5bf",
@@ -896,7 +896,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "crossings-buffer-half-mile-4f28b5bf--environment--placeholder.svg",
@@ -991,7 +991,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "cultural-points-da575d17",
@@ -1001,7 +1001,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "cultural-points-da575d17--other--placeholder.svg",
@@ -1155,7 +1155,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "device-fiber-f4690e9d",
@@ -1165,7 +1165,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "device-fiber-f4690e9d--transportation--placeholder.svg",
@@ -1266,7 +1266,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "device-fiber-f907e639",
@@ -1276,7 +1276,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "device-fiber-f907e639--transportation--placeholder.svg",
@@ -1376,7 +1376,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "discontinuities-91bdcf8f",
@@ -1386,7 +1386,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "discontinuities-91bdcf8f--transportation--placeholder.svg",
@@ -1520,7 +1520,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "discontinuities-ee16995a",
@@ -1530,7 +1530,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "discontinuities-ee16995a--transportation--placeholder.svg",
@@ -1664,7 +1664,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-devices-f4690e9d",
@@ -1674,7 +1674,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-devices-f4690e9d--transportation--placeholder.svg",
@@ -1752,7 +1752,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-devices-f907e639",
@@ -1762,7 +1762,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-devices-f907e639--transportation--placeholder.svg",
@@ -1840,7 +1840,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-gantries-f4690e9d",
@@ -1850,7 +1850,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-gantries-f4690e9d--transportation--placeholder.svg",
@@ -1946,7 +1946,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-gantries-f907e639",
@@ -1956,7 +1956,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-gantries-f907e639--transportation--placeholder.svg",
@@ -2052,7 +2052,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-nsrs-f4690e9d",
@@ -2062,7 +2062,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-nsrs-f4690e9d--transportation--placeholder.svg",
@@ -2158,7 +2158,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "existing-nsrs-f907e639",
@@ -2168,7 +2168,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "existing-nsrs-f907e639--transportation--placeholder.svg",
@@ -2264,7 +2264,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "federal-american-indian-reservations-41a17452",
@@ -2274,7 +2274,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "federal-american-indian-reservations-41a17452--government--placeholder.svg",
@@ -2450,7 +2450,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "fsystem-e2d4304e",
@@ -2459,8 +2459,8 @@
       "city_slug": "nevada",
       "display_category": "Transportation",
       "category": "Transportation",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "fsystem-e2d4304e--transportation--placeholder.svg",
@@ -2483,7 +2483,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "geohub-lrs-10e28cf7--transportation--placeholder.svg",
@@ -2594,7 +2594,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "greenandampt-mergedsoils-c3d9d5bb",
@@ -2604,7 +2604,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "greenandampt-mergedsoils-c3d9d5bb--other--placeholder.svg",
@@ -2693,7 +2693,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "greenandampt-ssurgo-9056af09",
@@ -2702,8 +2702,8 @@
       "city_slug": "nevada",
       "display_category": "Transportation",
       "category": "Transportation",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "greenandampt-ssurgo-9056af09--transportation--placeholder.svg",
@@ -2725,8 +2725,8 @@
       "city_slug": "nevada",
       "display_category": "Transportation",
       "category": "Transportation",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "greenandampt-statsgo2-75353577--transportation--placeholder.svg",
@@ -2749,7 +2749,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "hydro-point-features-5da60c41--other--placeholder.svg",
@@ -2843,7 +2843,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "its-atm-f4690e9d",
@@ -2853,7 +2853,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "its-atm-f4690e9d--transportation--placeholder.svg",
@@ -2949,7 +2949,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "landform-points-fdd13f0b",
@@ -2959,7 +2959,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "landform-points-fdd13f0b--other--placeholder.svg",
@@ -3083,7 +3083,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "local-owned-462a84e9",
@@ -3093,7 +3093,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "local-owned-462a84e9--other--placeholder.svg",
@@ -3202,7 +3202,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "maintenancefacilities-69663658",
@@ -3211,8 +3211,8 @@
       "city_slug": "nevada",
       "display_category": "Transportation",
       "category": "Transportation",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "maintenancefacilities-69663658--transportation--placeholder.svg",
@@ -3235,7 +3235,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "milemarker-10e28cf7--transportation--placeholder.svg",
@@ -3386,7 +3386,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "milemarker-cocum-abc2eccb",
@@ -3396,7 +3396,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "milemarker-cocum-abc2eccb--transportation--placeholder.svg",
@@ -3557,7 +3557,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "milemarker-cocum-c28d0185",
@@ -3567,7 +3567,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "milemarker-cocum-c28d0185--transportation--placeholder.svg",
@@ -3728,7 +3728,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "milepostcalibratedroutes-10e28cf7",
@@ -3738,7 +3738,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "milepostcalibratedroutes-10e28cf7--transportation--placeholder.svg",
@@ -3860,7 +3860,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "missing-feature-91bdcf8f",
@@ -3870,7 +3870,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "missing-feature-91bdcf8f--transportation--placeholder.svg",
@@ -3969,7 +3969,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "missing-feature-ee16995a",
@@ -3979,7 +3979,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "missing-feature-ee16995a--transportation--placeholder.svg",
@@ -4078,7 +4078,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "mpoboundaries-114b4779",
@@ -4088,7 +4088,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "mpoboundaries-114b4779--transportation--placeholder.svg",
@@ -4195,7 +4195,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "name-30c54b1a",
@@ -4218,7 +4218,8 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-15T16:23:31Z"
+      "last_updated": "2026-08-15T16:23:31Z",
+      "content_note": "scrape artifact \u2014 title and description are template placeholders ({{name}}, {{description}}); not a real dataset; awaiting cleanup"
     },
     {
       "slug": "narrow-access-91bdcf8f",
@@ -4228,7 +4229,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "narrow-access-91bdcf8f--transportation--placeholder.svg",
@@ -4346,7 +4347,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "narrow-access-ee16995a",
@@ -4356,7 +4357,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "narrow-access-ee16995a--transportation--placeholder.svg",
@@ -4474,7 +4475,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ndot-district-boundaries-f4690e9d",
@@ -4484,7 +4485,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ndot-district-boundaries-f4690e9d--transportation--placeholder.svg",
@@ -4554,7 +4555,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ndot-district-boundaries-f907e639",
@@ -4564,7 +4565,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ndot-district-boundaries-f907e639--transportation--placeholder.svg",
@@ -4634,7 +4635,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ndot-maintenance-facilities-testx-9ed0a8e3",
@@ -4644,7 +4645,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ndot-maintenance-facilities-testx-9ed0a8e3--transportation--placeholder.svg",
@@ -4821,7 +4822,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ndot-owned-462a84e9",
@@ -4831,7 +4832,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ndot-owned-462a84e9--other--placeholder.svg",
@@ -4940,7 +4941,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "nevada-department-of-transportation-statewide-it-f907e639",
@@ -4950,7 +4951,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nevada-department-of-transportation-statewide-it-f907e639--transportation--placeholder.svg",
@@ -5046,7 +5047,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "nhs-69de8587",
@@ -5056,7 +5057,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "nhs-69de8587--transportation--placeholder.svg",
@@ -5124,7 +5125,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ownershipmaintenance-462a84e9",
@@ -5134,7 +5135,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ownershipmaintenance-462a84e9--transportation--placeholder.svg",
@@ -5302,7 +5303,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ownershipmaintenance-a83d422c",
@@ -5312,7 +5313,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ownershipmaintenance-a83d422c--transportation--placeholder.svg",
@@ -5482,7 +5483,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ownershipmaintenancewm-462a84e9",
@@ -5492,7 +5493,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ownershipmaintenancewm-462a84e9--other--placeholder.svg",
@@ -5601,7 +5602,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "pedestrian-push-button-91bdcf8f",
@@ -5611,7 +5612,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pedestrian-push-button-91bdcf8f--transportation--placeholder.svg",
@@ -5771,7 +5772,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "pedestrian-push-button-ee16995a",
@@ -5781,7 +5782,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "pedestrian-push-button-ee16995a--transportation--placeholder.svg",
@@ -5939,7 +5940,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "project-concept-devices-f907e639",
@@ -5949,7 +5950,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "project-concept-devices-f907e639--transportation--placeholder.svg",
@@ -6045,7 +6046,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "project-concept-package-f907e639",
@@ -6055,7 +6056,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "project-concept-package-f907e639--transportation--placeholder.svg",
@@ -6486,7 +6487,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "project-device-lines-f907e639",
@@ -6496,7 +6497,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "project-device-lines-f907e639--transportation--placeholder.svg",
@@ -6945,7 +6946,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "project-device-points-f4690e9d",
@@ -6955,7 +6956,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "project-device-points-f4690e9d--transportation--placeholder.svg",
@@ -7057,7 +7058,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "project-packages-f4690e9d",
@@ -7067,7 +7068,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "project-packages-f4690e9d--transportation--placeholder.svg",
@@ -7511,7 +7512,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "qualitative-its-atm-f4690e9d",
@@ -7521,7 +7522,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "qualitative-its-atm-f4690e9d--transportation--placeholder.svg",
@@ -7929,7 +7930,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "qualitative-its-atm-f907e639",
@@ -7939,7 +7940,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "qualitative-its-atm-f907e639--transportation--placeholder.svg",
@@ -8347,7 +8348,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "quantitative-its-atm-f4690e9d",
@@ -8357,7 +8358,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "quantitative-its-atm-f4690e9d--transportation--placeholder.svg",
@@ -8675,7 +8676,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "quantitative-its-atm-f907e639",
@@ -8685,7 +8686,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "quantitative-its-atm-f907e639--transportation--placeholder.svg",
@@ -9003,7 +9004,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ramp-91bdcf8f",
@@ -9013,7 +9014,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ramp-91bdcf8f--transportation--placeholder.svg",
@@ -9237,7 +9238,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "ramp-ee16995a",
@@ -9247,7 +9248,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "ramp-ee16995a--transportation--placeholder.svg",
@@ -9466,7 +9467,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "residential-driveway-91bdcf8f",
@@ -9476,7 +9477,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "residential-driveway-91bdcf8f--transportation--placeholder.svg",
@@ -9622,7 +9623,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "residential-driveway-ee16995a",
@@ -9632,7 +9633,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "residential-driveway-ee16995a--transportation--placeholder.svg",
@@ -9778,7 +9779,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "sdp-proposed-projects-polygon-f4690e9d",
@@ -9788,7 +9789,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sdp-proposed-projects-polygon-f4690e9d--transportation--placeholder.svg",
@@ -9934,7 +9935,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "sdp-proposed-projects-polyline-f907e639",
@@ -9944,7 +9945,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sdp-proposed-projects-polyline-f907e639--transportation--placeholder.svg",
@@ -10090,7 +10091,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "sdp-proposed-technology-points-f4690e9d",
@@ -10100,7 +10101,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sdp-proposed-technology-points-f4690e9d--transportation--placeholder.svg",
@@ -10304,7 +10305,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "sdp-proposed-technology-points-f907e639",
@@ -10314,7 +10315,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "sdp-proposed-technology-points-f907e639--transportation--placeholder.svg",
@@ -10500,7 +10501,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "state-of-nevada-boundary-91cb5a07",
@@ -10510,7 +10511,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "state-of-nevada-boundary-91cb5a07--transportation--placeholder.svg",
@@ -10604,7 +10605,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "state-of-nevada-district-boundaries-77b1fdbc",
@@ -10614,7 +10615,7 @@
       "display_category": "Government",
       "category": "Government",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "state-of-nevada-district-boundaries-77b1fdbc--government--placeholder.svg",
@@ -10684,7 +10685,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "statewideroutes-10e28cf7",
@@ -10694,7 +10695,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "statewideroutes-10e28cf7--transportation--placeholder.svg",
@@ -10805,7 +10806,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "stip-programmed-projects-polyline-f4690e9d",
@@ -10815,7 +10816,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "stip-programmed-projects-polyline-f4690e9d--transportation--placeholder.svg",
@@ -10944,7 +10945,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "stip-programmed-projects-polyline-f907e639",
@@ -10954,7 +10955,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "stip-programmed-projects-polyline-f907e639--transportation--placeholder.svg",
@@ -11085,7 +11086,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "testcommunityaccounts-620b294d",
@@ -11095,7 +11096,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "testcommunityaccounts-620b294d--other--placeholder.svg",
@@ -11189,7 +11190,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "testcommunityaccounts-c5e316fd",
@@ -11199,7 +11200,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "testcommunityaccounts-c5e316fd--other--placeholder.svg",
@@ -11293,7 +11294,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "tpas-201067c7",
@@ -11303,7 +11304,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "tpas-201067c7--other--placeholder.svg",
@@ -11427,7 +11428,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "trina-stations-87685d62",
@@ -11437,7 +11438,7 @@
       "display_category": "Other",
       "category": "Other",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "trina-stations-87685d62--other--placeholder.svg",
@@ -11688,7 +11689,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "urban-limits-5c4888f9",
@@ -11698,7 +11699,7 @@
       "display_category": "Transportation",
       "category": "Transportation",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "urban-limits-5c4888f9--transportation--placeholder.svg",
@@ -11841,7 +11842,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "usa-federal-lands-5e92f2e0",
@@ -11851,7 +11852,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usa-federal-lands-5e92f2e0--environment--placeholder.svg",
@@ -11909,7 +11910,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     },
     {
       "slug": "usa-states-generalized-4134039b",
@@ -11918,8 +11919,8 @@
       "city_slug": "nevada",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usa-states-generalized-4134039b--government--placeholder.svg",
@@ -11941,8 +11942,8 @@
       "city_slug": "nevada",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usa-states-generalized-option-1-55c940f1--government--placeholder.svg",
@@ -11964,8 +11965,8 @@
       "city_slug": "nevada",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usa-states-generalized-option-2-b8d42470--government--placeholder.svg",
@@ -11987,8 +11988,8 @@
       "city_slug": "nevada",
       "display_category": "Government",
       "category": "Government",
-      "content_status": "needs_review",
-      "content_model": null,
+      "content_status": "drafted",
+      "content_model": "honest-fallback/nevada-catalog-v1",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "usa-states-generalized-option-3-345756c0--government--placeholder.svg",
@@ -12011,7 +12012,7 @@
       "display_category": "Environment",
       "category": "Environment",
       "content_status": "drafted",
-      "content_model": "openrouter/upstage/solar-pro4:free/v3-schema-grounded",
+      "content_model": "openrouter/deepseek/deepseek-chat-v3-0324/v3-schema-grounded",
       "image_status": "placeholder",
       "image_source": "svg_placeholder",
       "image_file": "wildlife-crossing-half-mile-buffer-zone-4f28b5bf--environment--placeholder.svg",
@@ -12084,7 +12085,7 @@
       "inquiry_label": null,
       "inquiry_extra": [],
       "enrichment_status": null,
-      "last_updated": "2026-08-16T01:04:13Z"
+      "last_updated": "2026-08-19T12:49:36Z"
     }
   ]
 }

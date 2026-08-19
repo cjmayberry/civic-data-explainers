@@ -16,15 +16,22 @@ geojson_url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/
 draft: false
 ---
 
-
 ## What this is
 
-_Stub — awaiting a schema-grounded draft._
+USA States (Generalized) — Option 2 is an instance of the Esri 2017 generalized U.S. state boundaries layer, served from a specific map service configuration within the NDOT GeoHub. It provides the same 50-state + District of Columbia boundary geometry as the other options — identical geography, different service endpoint.
 
 ## Why it matters to you
 
+If you're working within the NDOT GeoHub ecosystem and need a generalized state boundary layer, the different options represent alternative service configurations of the same underlying Esri content. Option 2 may be the preferred endpoint for certain map configurations or performance profiles within the GeoHub. For most uses, the choice between options is about which service endpoint integrates best with your map rather than which geography is more accurate.
+
 ## How to read this data
+
+Each option is a separate map service layer with the same generalized state polygons. Use whichever option is specified by your map configuration or whichever performs best in your application. The geometry is identical across options — they differ in the service URL, caching, or rendering configuration, not in the state boundaries themselves.
 
 ## Where this leaves you
 
+This option covers the same 50 states and D.C. as the other USA States (Generalized) options. The geography is the same; the service endpoint is what distinguishes Option 2 from Options 1 and 3.
+
 ## Look it up yourself
+
+Open the map and use Option 2 as your generalized state boundary reference. If you're comparing options, note that they represent the same geography from different service configurations — test which endpoint performs best in your map. For authoritative current state boundaries, the U.S. Census Bureau's TIGER/Line products are the definitive source.

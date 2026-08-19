@@ -2,7 +2,7 @@
 title: "K-12 Schools"
 date: "2026-08-02"
 description: "Public school locations in the State of Kansas. Data originally from KSDE and DASC and is reviewed annually. This edition was last reviewed September 2025. The full Kansas geospatial catalog is administered by the Kansas"
-teaser: "Public school locations in the State of Kansas. Data originally from KSDE and DASC and is reviewed annually. This edition was last reviewed "
+teaser: "Public school locations in the State of Kansas. Data originally from KSDE and DASC and is reviewed annually. This edition was last reviewed September 2025. The full…"
 tags: ["Structures and critical infrastructure"]
 categories: ["Infrastructure"]
 cover: "covers/k-12-schools-6d319afa--infrastructure--placeholder.svg"
@@ -11,20 +11,20 @@ license: ""
 dataset_id: "https://www.arcgis.com/home/item.html?id=6d319afa473e4af8adb6efb272e9ca6e&sublayer=0"
 city: "kansas"
 site_url: "https://civic-data-explainers.pages.dev"
-map_link: "https://hub.kansasgis.org/datasets/KSDOT::k-12-schools"
-geojson_url: "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Schools/FeatureServer/0/query?where=1%3D1&f=geojson&outSR=4326&resultRecordCount=1500"
 draft: false
 ---
 
+## What this tracks  
+This dataset shows the locations and basic details of all public K-12 schools in Kansas.
 
-## What this is
+## Why it matters to you  
+Families moving to Kansas can compare school proximity when choosing neighborhoods, since this data reveals whether a potential home is within walking distance of elementary schools. Small businesses like tutoring services or after-school programs can use it to identify underserved areas by mapping schools against their current service locations. In rural areas, it helps parents verify the official address of their child’s bus pickup location.
 
-_Stub — awaiting a schema-grounded draft._
+## How to read this data  
+**School** — The official name of the school (e.g., "Elkhart Elem").  
+**Address** — The street address (e.g., "331 S Cosmos").  
+**City** — The municipality where the school is located (e.g., "Elkhart").  
+**Zip** — The ZIP code (e.g., 67950), useful for filtering by region.  
 
-## Why it matters to you
-
-## How to read this data
-
-## Where this leaves you
-
-## Look it up yourself
+## Try it yourself  
+Search the dataset for your ZIP code to find every public school within 10 miles of your home.
