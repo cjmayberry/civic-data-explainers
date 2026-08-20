@@ -1,0 +1,21 @@
+{ define "main" }
+<h1>California explainers</h1>
+<section class="page-head">
+  <span class="kicker">California · open-data explainers</span>
+  <p class="meta"><a href="/">← All cities</a></p>
+</section>
+<section class="card-grid">
+  { $all := .Pages.ByTitle }
+  { if eq (len $all) 0 }
+  <p class="empty-state">No explainers yet for California. Check back soon.</p>
+  { end }
+  { range $all }
+  <a class="card" href="{ .RelPermalink }">
+    { with .Params.cover }<img class="card-cover" src="{ printf "img/%s" . | relURL }" alt="" loading="lazy">{ end }
+    <span class="kicker">{ .Params.category | default (index .Params.categories 0) }</span>
+    <h3>{ .Title }</h3>
+    <p>{ .Params.teaser | default .Description }</p>
+  </a>
+  { end }
+</section>
+{ end }
