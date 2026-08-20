@@ -1,14 +1,25 @@
 {{ define "main" }}
-{{ $city := index $.Site.Data.cities (.Params.city | default "lisbon") }}
+{{ $city := index $.Site.Data.cities (.Params.city | default .Section) }}
+{{ $all := .Pages.ByTitle }}
+{{/* collect unique categories present in this section */}}
+{{ $cats := slice }}
+{{ range $all }}{{ $c := .Params.category | default (index .Params.categories 0) }}{{ if $c }}{{ $cats = $cats | append $c }}{{ end }}{{ end }}
+{{ $uniq := $cats | uniq | sort }}
 <section class="page-head">
-  <span class="kicker">City #3 · first non-ArcGIS city (CKAN)</span>
+  <span class="kicker">{{ $city.name }} · open-data explainers</span>
   <h1>{{ $city.name }} explainers</h1>
-  <p class="dek">{{ $city.blurb }} Every page here was produced by the civic-data pipeline from {{ $city.name }}'s own open-data platform — same manifest schema, same placeholder covers, same explainer shape as Oklahoma City.</p>
+  <p class="dek">{{ $city.blurb }}</p>
   <p class="meta"><a href="{{ "/" | relURL }}">← All cities</a></p>
 </section>
+{{ if gt (len $uniq) 1 }}
+<section class="section-filter" aria-label="Filter by topic">
+  <button class="filter-btn active" data-filter="all">All ({{ len $all }})</button>
+  {{ range $uniq }}<button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>{{ end }}
+</section>
+{{ end }}
 <section class="card-grid">
-  {{ range .Pages.ByTitle }}
-  <a class="card" href="{{ .RelPermalink }}">
+  {{ range $all }}
+  <a class="card" href="{{ .RelPermalink }}" data-category="{{ .Params.category | default (index .Params.categories 0) }}">
     {{ with .Params.cover }}<img class="card-cover" src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy">{{ end }}
     <span class="kicker">{{ .Params.category | default (index .Params.categories 0) }}</span>
     <h3>{{ .Title }}</h3>
@@ -16,4 +27,5 @@
   </a>
   {{ end }}
 </section>
+<script src="{{ "js/section-filter.js" | relURL }}" defer></script>
 {{ end }}

@@ -1,21 +1,31 @@
-{ define "main" }
-<h1>Iowa explainers</h1>
+{{ define "main" }}
+{{ $city := index $.Site.Data.cities (.Params.city | default .Section) }}
+{{ $all := .Pages.ByTitle }}
+{{/* collect unique categories present in this section */}}
+{{ $cats := slice }}
+{{ range $all }}{{ $c := .Params.category | default (index .Params.categories 0) }}{{ if $c }}{{ $cats = $cats | append $c }}{{ end }}{{ end }}
+{{ $uniq := $cats | uniq | sort }}
 <section class="page-head">
-  <span class="kicker">Iowa · open-data explainers</span>
-  <p class="meta"><a href="/">← All cities</a></p>
+  <span class="kicker">{{ $city.name }} · open-data explainers</span>
+  <h1>{{ $city.name }} explainers</h1>
+  <p class="dek">{{ $city.blurb }}</p>
+  <p class="meta"><a href="{{ "/" | relURL }}">← All cities</a></p>
 </section>
+{{ if gt (len $uniq) 1 }}
+<section class="section-filter" aria-label="Filter by topic">
+  <button class="filter-btn active" data-filter="all">All ({{ len $all }})</button>
+  {{ range $uniq }}<button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>{{ end }}
+</section>
+{{ end }}
 <section class="card-grid">
-  { $all := .Pages.ByTitle }
-  { if eq (len $all) 0 }
-  <p class="empty-state">No explainers yet for Iowa. Check back soon.</p>
-  { end }
-  { range $all }
-  <a class="card" href="{ .RelPermalink }">
-    { with .Params.cover }<img class="card-cover" src="{ printf "img/%s" . | relURL }" alt="" loading="lazy">{ end }
-    <span class="kicker">{ .Params.category | default (index .Params.categories 0) }</span>
-    <h3>{ .Title }</h3>
-    <p>{ .Params.teaser | default .Description }</p>
+  {{ range $all }}
+  <a class="card" href="{{ .RelPermalink }}" data-category="{{ .Params.category | default (index .Params.categories 0) }}">
+    {{ with .Params.cover }}<img class="card-cover" src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy">{{ end }}
+    <span class="kicker">{{ .Params.category | default (index .Params.categories 0) }}</span>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.teaser | default .Description }}</p>
   </a>
-  { end }
+  {{ end }}
 </section>
-{ end }
+<script src="{{ "js/section-filter.js" | relURL }}" defer></script>
+{{ end }}
