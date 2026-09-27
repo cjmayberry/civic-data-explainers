@@ -45,29 +45,29 @@
     "static_dir": "hugo-site/static/lisbon",
     "category_map": {
       "Cycling": "Transportation",
-      "Rede cicl\u00e1vel": "Transportation",
-      "Esta\u00e7\u00f5es": "Transportation",
+      "Rede ciclável": "Transportation",
+      "Estações": "Transportation",
       "GIRA": "Transportation",
-      "Servi\u00e7o bicicletas partilhadas": "Transportation",
+      "Serviço bicicletas partilhadas": "Transportation",
       "Infraestruras": "Infrastructure",
       "Mobilidade pedonal": "Infrastructure",
       "Acessibility": "Infrastructure",
       "Tarifas": "Transportation",
-      "\u00c1reas de estacionamento": "Transportation",
+      "Áreas de estacionamento": "Transportation",
       "On-Street Parking": "Transportation",
-      "Estat\u00edsticas": "Transportation",
-      "N\u00famero de lugares": "Transportation",
+      "Estatísticas": "Transportation",
+      "Número de lugares": "Transportation",
       "ZAAC": "Transportation",
       "ZEDL": "Transportation",
-      "Limites geogr\u00e1ficos": "Transportation",
-      "T\u00faneis rodovi\u00e1rios": "Transportation",
+      "Limites geográficos": "Transportation",
+      "Túneis rodoviários": "Transportation",
       "Traffic": "Transportation"
     }
   },
   {
     "id": "missouri",
     "name": "Missouri",
-    "hub_url": "https://data.mo.gov",
+    "hub_url": "https://data.mo.gov/",
     "gov_url": "https://www.mo.gov",
     "state": "MO",
     "active": true,
@@ -183,7 +183,9 @@
       "buffalo": "Other",
       "Conservation": "Other",
       "offices": "Government"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.mo.gov/api"
   },
   {
     "id": "tennessee",
@@ -518,7 +520,7 @@
   {
     "id": "utah",
     "name": "Utah",
-    "hub_url": "https://gis.utah.gov/",
+    "hub_url": "https://data.utah.gov/",
     "gov_url": "https://utah.gov",
     "state": "UT",
     "active": true,
@@ -599,7 +601,7 @@
   {
     "id": "arizona",
     "name": "Arizona",
-    "hub_url": "https://azgeo.az.gov/",
+    "hub_url": "https://data.az.gov/",
     "gov_url": "https://www.az.gov",
     "state": "AZ",
     "active": true,
@@ -621,7 +623,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "CKAN",
+    "api_url": "https://phoenixopendata.com/api/3/action"
   },
   {
     "id": "arkansas",
@@ -675,12 +679,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "CKAN",
+    "api_url": "https://data.ca.gov/api/3/action"
   },
   {
     "id": "colorado",
     "name": "Colorado",
-    "hub_url": "https://coloradogis.org/",
+    "hub_url": "https://data.colorado.gov/",
     "gov_url": "https://www.colorado.gov",
     "state": "CO",
     "active": true,
@@ -702,12 +708,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.colorado.gov/api"
   },
   {
     "id": "connecticut",
     "name": "Connecticut",
-    "hub_url": "https://ct.gov/",
+    "hub_url": "https://data.ct.gov/",
     "gov_url": "https://www.ct.gov",
     "state": "CT",
     "active": true,
@@ -729,7 +737,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.ct.gov/api"
   },
   {
     "id": "delaware",
@@ -815,7 +825,7 @@
   {
     "id": "hawaii",
     "name": "Hawaii",
-    "hub_url": "https://hawaii.gov/",
+    "hub_url": "https://opendata.hawaii.gov/",
     "gov_url": "https://www.hawaii.gov",
     "state": "HI",
     "active": true,
@@ -837,12 +847,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "CKAN",
+    "api_url": "https://opendata.hawaii.gov/api/3/action"
   },
   {
     "id": "illinois",
     "name": "Illinois",
-    "hub_url": "https://gis.illinois.gov/",
+    "hub_url": "https://data.illinois.gov/",
     "gov_url": "https://www.illinois.gov",
     "state": "IL",
     "active": true,
@@ -864,7 +876,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.illinois.gov/api"
   },
   {
     "id": "indiana",
@@ -1031,7 +1045,7 @@
   {
     "id": "massachusetts",
     "name": "Massachusetts",
-    "hub_url": "https://mass.gov/",
+    "hub_url": "https://data.boston.gov/",
     "gov_url": "https://www.mass.gov",
     "state": "MA",
     "active": true,
@@ -1053,12 +1067,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "CKAN",
+    "api_url": "https://data.boston.gov/api/3/action"
   },
   {
     "id": "michigan",
     "name": "Michigan",
-    "hub_url": "https://gis-mi.com/",
+    "hub_url": "https://data.michigan.gov/",
     "gov_url": "https://www.michigan.gov",
     "state": "MI",
     "active": true,
@@ -1080,7 +1096,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.michigan.gov/api"
   },
   {
     "id": "minnesota",
@@ -1166,7 +1184,7 @@
   {
     "id": "newhampshire",
     "name": "New Hampshire",
-    "hub_url": "https://www.nh.gov/",
+    "hub_url": "https://www.nh.gov/data",
     "gov_url": "https://www.nh.gov",
     "state": "NH",
     "active": true,
@@ -1193,7 +1211,7 @@
   {
     "id": "newjersey",
     "name": "New Jersey",
-    "hub_url": "https://nj.gov/",
+    "hub_url": "https://data.nj.gov/",
     "gov_url": "https://www.nj.gov",
     "state": "NJ",
     "active": true,
@@ -1215,12 +1233,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.nj.gov/api"
   },
   {
     "id": "newyork",
     "name": "New York",
-    "hub_url": "https://gis.ny.gov/",
+    "hub_url": "https://data.ny.gov/",
     "gov_url": "https://www.ny.gov",
     "state": "NY",
     "active": true,
@@ -1242,7 +1262,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.ny.gov/api"
   },
   {
     "id": "northcarolina",
@@ -1350,12 +1372,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "CKAN",
+    "api_url": "https://data.ok.gov/api/3/action"
   },
   {
     "id": "oregon",
     "name": "Oregon",
-    "hub_url": "https://www.oregon.gov/",
+    "hub_url": "https://data.oregon.gov/",
     "gov_url": "https://www.oregon.gov",
     "state": "OR",
     "active": true,
@@ -1377,12 +1401,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.oregon.gov/api"
   },
   {
     "id": "pennsylvania",
     "name": "Pennsylvania",
-    "hub_url": "https://www.pa.gov/",
+    "hub_url": "https://data.pa.gov/",
     "gov_url": "https://www.pa.gov",
     "state": "PA",
     "active": true,
@@ -1404,7 +1430,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.pa.gov/api"
   },
   {
     "id": "rhodeisland",
@@ -1490,7 +1518,7 @@
   {
     "id": "texas",
     "name": "Texas",
-    "hub_url": "https://texas.gov/",
+    "hub_url": "https://data.texas.gov/",
     "gov_url": "https://www.texas.gov",
     "state": "TX",
     "active": true,
@@ -1512,12 +1540,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.texas.gov/api"
   },
   {
     "id": "vermont",
     "name": "Vermont",
-    "hub_url": "https://vermont.gov/",
+    "hub_url": "https://data.vermont.gov/",
     "gov_url": "https://www.vermont.gov",
     "state": "VT",
     "active": true,
@@ -1539,12 +1569,14 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.vermont.gov/api"
   },
   {
     "id": "virginia",
     "name": "Virginia",
-    "hub_url": "https://www.virginia.gov/",
+    "hub_url": "https://data.virginia.gov/",
     "gov_url": "https://www.virginia.gov",
     "state": "VA",
     "active": true,
@@ -1553,25 +1585,122 @@
     "content_dir": "hugo-site/content/virginia",
     "static_dir": "hugo-site/static/virginia",
     "category_map": {
-      "boundaries": "Government",
-      "transportation": "Transportation",
-      "utilitiesCommunication": "Infrastructure",
-      "environment": "Environment",
-      "planningCadastre": "Government",
-      "location": "Government",
-      "farming": "Other",
-      "inlandWaters": "Environment",
-      "structure": "Infrastructure",
-      "health": "Health",
-      "biota": "Environment",
-      "geoscientificInformation": "Environment",
-      "society": "Other"
-    }
+      "311": "Government",
+      "911": "Public Safety",
+      "Business": "Economy",
+      "Transportation": "Transportation",
+      "Address": "Government",
+      "Cadastral": "Government",
+      "Conservation": "Environment",
+      "County Facilities": "Government",
+      "Facility": "Infrastructure",
+      "Facilities": "Infrastructure",
+      "Public Library": "Government",
+      "Library": "Government",
+      "Land": "Government",
+      "Property": "Government",
+      "Building": "Infrastructure",
+      "Health": "Health",
+      "Safety": "Public Safety",
+      "Education": "Education",
+      "Water": "Environment",
+      "Waste": "Environment",
+      "Parks": "Parks & Recreation",
+      "Recreation": "Parks & Recreation",
+      "Infrastructure": "Infrastructure",
+      "Environment": "Environment",
+      "Government": "Government",
+      "Finance": "Finance",
+      "Housing": "Housing",
+      "Planning": "Government",
+      "Zoning": "Government",
+      "Police": "Public Safety",
+      "Fire": "Public Safety",
+      "Emergency": "Public Safety",
+      "Road": "Transportation",
+      "Highway": "Transportation",
+      "Bridge": "Infrastructure",
+      "Boundary": "Government",
+      "Boundary Lines": "Government",
+      "County": "Government",
+      "City": "Government",
+      "School": "Education",
+      "Hospital": "Health",
+      "Clinic": "Health",
+      "Park": "Parks & Recreation",
+      "Recreational": "Parks & Recreation",
+      "Trail": "Parks & Recreation",
+      "Trail System": "Parks & Recreation",
+      "Utility": "Infrastructure",
+      "Utilities": "Infrastructure",
+      "Waste Management": "Environment",
+      "Solid Waste": "Environment",
+      "Recycling": "Environment",
+      "Geology": "Environment",
+      "Geoscientific": "Environment",
+      "Soil": "Environment",
+      "Soils": "Environment",
+      "Water Quality": "Environment",
+      "Watershed": "Environment",
+      "Flood": "Public Safety",
+      "Floodplain": "Public Safety",
+      "Flood Zone": "Public Safety",
+      "Flood Zones": "Public Safety",
+      "Flooding": "Public Safety",
+      "Storm": "Public Safety",
+      "Stormwater": "Infrastructure",
+      "Drainage": "Infrastructure",
+      "Drain": "Infrastructure",
+      "Sewer": "Infrastructure",
+      "Sewage": "Infrastructure",
+      "Wastewater": "Infrastructure",
+      "Water System": "Infrastructure",
+      "Water Supply": "Infrastructure",
+      "Water Distribution": "Infrastructure",
+      "Water Quality Monitoring": "Environment",
+      "Air Quality": "Environment",
+      "Pollution": "Environment",
+      "Noise": "Environment",
+      "Traffic": "Transportation",
+      "Traffic Data": "Transportation",
+      "Traffic Counts": "Transportation",
+      "Traffic Monitoring": "Transportation",
+      "Traffic Volume": "Transportation",
+      "Traffic Signal": "Transportation",
+      "Traffic Signals": "Transportation",
+      "Traffic Light": "Transportation",
+      "Traffic Lights": "Transportation",
+      "Pedestrian": "Transportation",
+      "Pedestrians": "Transportation",
+      "Pedestrian Safety": "Public Safety",
+      "Bicycle": "Transportation",
+      "Bike": "Transportation",
+      "Bike Lane": "Transportation",
+      "Bike Path": "Transportation",
+      "Bike Trail": "Transportation",
+      "Bicycle Facility": "Transportation",
+      "Bicycle Lane": "Transportation",
+      "Sidewalk": "Transportation",
+      "Crosswalk": "Transportation",
+      "Curb Ramp": "Infrastructure",
+      "Curb Ramps": "Infrastructure",
+      "Sidewalk Ramp": "Infrastructure",
+      "ADA": "Transportation",
+      "Accessibility": "Transportation",
+      "Accessible": "Transportation",
+      "Handicap": "Transportation",
+      "Wheelchair": "Transportation",
+      "Accessible Parking": "Transportation",
+      "Accessible Route": "Transportation",
+      "Accessible Parking Space": "Transportation"
+    },
+    "source": "CKAN",
+    "api_url": "https://data.virginia.gov/api/3/action"
   },
   {
     "id": "washington",
     "name": "Washington",
-    "hub_url": "https://wa.gov/",
+    "hub_url": "https://data.wa.gov/",
     "gov_url": "https://www.wa.gov",
     "state": "WA",
     "active": true,
@@ -1593,7 +1722,9 @@
       "biota": "Environment",
       "geoscientificInformation": "Environment",
       "society": "Other"
-    }
+    },
+    "source": "Socrata",
+    "api_url": "https://data.wa.gov/api"
   },
   {
     "id": "westvirginia",

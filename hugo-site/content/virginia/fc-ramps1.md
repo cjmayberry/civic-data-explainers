@@ -1,0 +1,27 @@
+---
+title: "FC Ramps"
+date: "2026-08-02"
+description: "This data represents the functional classification data represented on LRS 22.1. Functional classification is the process by which streets and highways are grouped into classes, or systems, according to the character of "
+teaser: "This data represents the functional classification data represented on LRS 22.1. Functional classification is the process by which streets a"
+tags: ["FC", "Functional Class", "Functional Classification", "VDOT", "Virginia", "Virginia Department of Transportation"]
+categories: []
+source_url: "https://data.virginia.gov/api/3/action/datastore_search?resource_id=9256d062-bb4d-4dc3-8a5a-b49354e5c3a0"
+license: ""
+dataset_id: "5031d804-29c5-4d5b-ba68-331b1f3ab13b"
+city: "virginia"
+site_url: "https://civic-data-explainers.pages.dev"
+map_link: "https://data.virginia.gov/dataset/fc-ramps1"
+draft: false
+---
+
+## What this is
+
+_Stub — awaiting a schema-grounded draft._
+
+## Why it matters to you
+
+## How to read this data
+
+## Where this leaves you
+
+## Look it up yourself

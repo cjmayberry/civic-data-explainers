@@ -1,7 +1,8 @@
 ---
-title: "Virginia explainers"
-date: "2026-08-18"
-categories: ["Default"]
-cover: "covers/_index--default--placeholder.svg"
-draft: false
+title: "Virginia"
+description: "Open data explainers for Virginia."
 ---
+
+# Virginia open data
+
+Explanations for datasets from Virginia's CKAN open data portal.
